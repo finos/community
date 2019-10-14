@@ -1,0 +1,8 @@
+.vscode
+.project
+
+# Website NPM build
+website/build/
+website/i18n/
+website/node_modules/
+website/package-lock.json
