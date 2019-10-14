@@ -8,13 +8,13 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Decentralized Ecosystem Growth',
-  tagline: 'FINOS DEG - Open source for open finance',
-  url: 'https://decentralized.finos.org',
-  cname: 'decentralized.finos.org',
+  title: 'FINOS Pan Program Management Committees',
+  tagline: 'Cross Programs and Project Collaboration Work',
+  url: 'https://pmcs.finos.org',
+  cname: 'pmcs.finos.org',
   baseUrl: '/',
-  projectName: 'finos-deg',
-  organizationName: 'finos-deg',
+  projectName: 'finos-pmcs',
+  organizationName: 'finos-pmcs',
   headerLinks: [
     {doc: 'learn-more', label: 'Learn More'},
     {doc: 'projects', label: 'Projects'},
@@ -62,7 +62,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/finos-deg/finos-deg'
+  repoUrl: 'https://github.com/finos/finos-pmcs'
 };
 
 module.exports = siteConfig;
