@@ -1,0 +1,20 @@
+{
+  "docs": {
+    "About DEG": [
+      "learn-more",
+      "charter"
+    ],
+    "Projects": [
+      "projects"
+    ]
+  },
+  "interfaces": {
+    "About DEG": [
+      "learn-more",
+      "charter"
+    ],
+    "Projects": [
+      "projects"
+    ]
+  }
+}
