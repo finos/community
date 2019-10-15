@@ -2,9 +2,8 @@
 // site configuration options.
 
 const users = [
-  { caption: 'Frank Tasillo, Co-Chair (IHS Markit)', pinned: true },
-  { caption: 'Amber Baldet, Co-Chair (Clovyr)', pinned: true },
-  { caption: 'Patrick Nielsen, Participant (Clovyr)'  }
+  { caption: 'Rbo Underwood, Director of Programs', pinned: true },
+  { caption: 'Aitana Myohl, Community Support Specialist', pinned: true }
 ];
 
 const siteConfig = {
@@ -17,7 +16,7 @@ const siteConfig = {
   organizationName: 'finos-pmcs',
   headerLinks: [
     {doc: 'learn-more', label: 'Learn More'},
-    {doc: 'projects', label: 'Projects'},
+    {doc: 'meetings', label: 'Meetings'},
     { blog: true, label: 'News' },
   ],
   headerIcon: 'img/finos-white.png',
