@@ -2,7 +2,7 @@
 // site configuration options.
 
 const users = [
-  { caption: 'Rbo Underwood, Director of Programs', pinned: true },
+  { caption: 'Rob Underwood, Director of Programs', pinned: true },
   { caption: 'Aitana Myohl, Community Support Specialist', pinned: true }
 ];
 
