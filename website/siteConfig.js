@@ -13,7 +13,7 @@ const siteConfig = {
   cname: 'pmcs.finos.org',
   baseUrl: '/',
   projectName: 'finos-pmcs',
-  organizationName: 'finos-pmcs',
+  organizationName: 'finos',
   headerLinks: [
     {doc: 'learn-more', label: 'Learn More'},
     {doc: 'meetings', label: 'Meetings'},
