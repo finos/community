@@ -1,20 +1,20 @@
 {
   "docs": {
-    "About DEG": [
+    "About Pan-PMCs": [
       "learn-more",
       "charter"
     ],
-    "Projects": [
-      "projects"
+    "Meetings": [
+      "meetings"
     ]
   },
   "interfaces": {
-    "About DEG": [
+    "About Pan-PMCs": [
       "learn-more",
       "charter"
     ],
-    "Projects": [
-      "projects"
+    "Meetings": [
+      "meetings"
     ]
   }
 }
