@@ -30,7 +30,7 @@ deploy:
     name: $GH_NAME
     verbose: true
     keep-history: true
-    local-dir: website/build/finos-deg
+    local-dir: website/build/finos-pmcs
     target_branch: gh-pages
     on:
       branch: master
