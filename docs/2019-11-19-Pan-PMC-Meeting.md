@@ -2,7 +2,7 @@
 
 ## Topics
 
-### Responsbile Disclosure Form
+### Responsible Disclosure Form
 
 ### FINOS Project Lifecycles Review
 #### Critera
