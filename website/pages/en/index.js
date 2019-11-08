@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href={docUrl('meetings')}>Pan-PMC Meetings</Button>
-            <Button href="https://github.com/finos-pmcs/finos-pmcs">GitHub</Button>
+            <Button href="https://github.com/finos/finos-pmcs">GitHub</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -99,70 +99,6 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
-        {[
-          {
-            content: "<p>Discussion happens on the mailing list. <br>Send a blank <a href='mailto:deg+subscribe@finos.org'>email</a> to join or read the <a href='https://groups.google.com/a/finos.org/forum/#!forum/deg'>archives</a>.</p><p>We meet virtually once per quarter to share progress and exchange ideas, and you don't need to be a member to join the conversation. Check the <a href='https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York'>calendar</a> for details.</p>",
-            image: `${baseUrl}img/deg-logo-white.png`,
-            imageAlign: 'left',
-            title: 'The Decentralized Ecosystem Growth program is a welcoming place for people interested in decentralized finance to meet, learn, and build.',
-          },
-        ]}
-      </Block>
-    );
-
-    const Description = () => (
-      <Block background="dark">
-        {[
-          {
-            content:
-              "Welcome to the collaboration space for the Decentralized Ecosystem Growth Program!  This Program was formed to aggregate, develop, and integrate tools that facilitate coordination of decentralized applications across financial firms and existing ecosystems. Best practices and promising architectures may be proposed and circulated, but the goal is not to create top-down standards documents. Instead, we will work together to ensure there is concrete code, open-sourced both within FINOS and across various member and non-member firms' repositories, which work together to reduce time-to-market for decentralized financial applications.",
-            image: `${baseUrl}img/deg-logo-white.png`,
-            imageAlign: 'right',
-            title: 'this one',
-          },
-        ]}
-      </Block>
-    );
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content: "our mission",
-            image: `${baseUrl}img/deg-logo-white.png`,
-            imageAlign: 'right',
-            title: 'Mission',
-          },
-        ]}
-      </Block>
-    );
-
-    const Features = () => (
-      <Block background="light" layout="fourColumn">
-        {[
-          {
-            content: "We build tools that make decentralized finance work for banks, businesses, regulators, clients, and customers.",
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'Develop Tools',
-          },
-          {
-            content: "We identify long-standing challenges in the financial industry that we can solve in new ways.",
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'Think Differently',
-          },
-          {
-            content: "We learn from each other and we create space for diverse perspectives to flourish.",
-            image: `${baseUrl}img/check-box.svg`,
-            imageAlign: 'top',
-            title: 'Build Community',
-          }
-        ]}
-      </Block>
-    );
 
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
@@ -179,17 +115,6 @@ class Index extends React.Component {
 
       const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
 
-      return (
-        <div className="productShowcaseSection paddingBottom">
-          <h2>Who is participating to Decentralized Ecosystem Growth?</h2>
-          <div className="logos">{showcase}</div>
-          <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
-            </a>
-          </div>
-        </div>
-      );
     };
 
     return (
