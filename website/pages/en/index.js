@@ -103,10 +103,10 @@ class Index extends React.Component {
       <Block id="try">	
         {[	
           {
-       content: "<p>Discussion happens on the mailing list. <br>Send a blank <a href='mailto:deg+subscribe@finos.org'>email</a> to join or read the <a href='https://groups.google.com/a/finos.org/forum/#!forum/deg'>archives</a>.</p><p>We meet virtually once per quarter to share progress and exchange ideas, and you don't need to be a member to join the conversation. Check the <a href='https://calendar.google.com/calendar/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&ctz=America%2FNew_York'>calendar</a> for details.</p>",	
-            image: `${baseUrl}img/deg-logo-white.png`,	
+       content: " ",	
+            image: ``,	
             imageAlign: 'left',	
-            title: 'The Decentralized Ecosystem Growth program is a welcoming place for people interested in decentralized finance to meet, learn, and build.',	
+            title: '',	
           },	
         ]}	
       </Block>	
@@ -130,10 +130,10 @@ class Index extends React.Component {
       <Block background="light">	
         {[	
           {	
-            content: "our mission",	
-            image: `${baseUrl}img/deg-logo-white.png`,	
+            content: "",	
+            image: ``,	
             imageAlign: 'right',	
-            title: 'Mission',	
+            title: '',	
           },	
         ]}	
       </Block>	
@@ -143,22 +143,22 @@ class Index extends React.Component {
       <Block background="light" layout="fourColumn">	
         {[	
           {	
-            content: "We build tools that make decentralized finance work for banks, businesses, regulators, clients, and customers.",	
+            content: " ",	
             image: `${baseUrl}img/check-box.svg`,	
-            imageAlign: 'top',	
-            title: 'Develop Tools',	
+            imageAlign: '',	
+            title: '',	
           },	
           {	
-            content: "We identify long-standing challenges in the financial industry that we can solve in new ways.",	
+            content: " ",	
             image: `${baseUrl}img/check-box.svg`,	
             imageAlign: 'top',	
-            title: 'Think Differently',	
+            title: '',	
           },	
           {	
-            content: "We learn from each other and we create space for diverse perspectives to flourish.",	
+            content: " ",	
             image: `${baseUrl}img/check-box.svg`,	
             imageAlign: 'top',	
-            title: 'Build Community',	
+            title: '',	
           }	
         ]}	
       </Block>	
