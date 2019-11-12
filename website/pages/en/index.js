@@ -144,19 +144,19 @@ class Index extends React.Component {
         {[	
           {	
             content: " ",	
-            image: `${baseUrl}img/check-box.svg`,	
+            image: ``,	
             imageAlign: 'top',	
             title: '',	
           },	
           {	
             content: " ",	
-            image: `${baseUrl}img/check-box.svg`,	
+            image: ``,	
             imageAlign: 'top',	
             title: '',	
           },	
           {	
             content: " ",	
-            image: `${baseUrl}img/check-box.svg`,	
+            image: ``,	
             imageAlign: 'top',	
             title: '',	
           }	
