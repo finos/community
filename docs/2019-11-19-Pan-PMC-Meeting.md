@@ -8,6 +8,7 @@
 #### Critera
 #### Stewardship and Responsbilities
 #### Archiving
+#### Vulnerabilities scanning
 
 ### FINOS Q4 Board Meeting Re-cap
 #### The Future of Programs as a Construct
