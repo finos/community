@@ -3,8 +3,10 @@
 ## Topics
 
 ### Vulnerabilities Scanning Feature from Whitesource - [Mao](https://github.com/maoo)
-#### Responsible Disclosure Form 
-#### Roll-Out Plan and Schedule
+#### Security vulnerabilities responsible disclosure
+#### Submit a vulnerability & Manage a FINOS project
+#### WhiteSource automated scanning
+#### WhiteSource rollout plan
 
 ### FINOS Project Lifecycles Review - [Gab](https://github.com/mindthegab) and [James](https://github.com/mcleo-d)
 #### Critera
