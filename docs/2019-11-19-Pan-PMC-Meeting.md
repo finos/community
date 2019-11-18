@@ -1,5 +1,7 @@
 # Agenda 2019-11-19 Pan-PMC
 
+[Presentation Deck](https://docs.google.com/presentation/d/1BMyCWVGzYnqyQ9HPJ51yKS5DP4RNZ09osxq1Gu2x70s/edit#slide=id.g622c00a7c8_0_77) 
+
 ## Topics
 
 ### Vulnerabilities Scanning Feature from Whitesource - [Mao](https://github.com/maoo)
