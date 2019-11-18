@@ -5,10 +5,13 @@ sidebar_label: Pan-PMC Meetings
 ---
 
 ## Upcoming Meetings
-* [2019.10.15 Agenda](2019-10-15-Pan-PMC-Meeting.md)
+* [2019.11.19 Agenda](2019-11-19-Pan-PMC-Meeting.md)
+* January 7, 2020
+* February 18, 2020
 
 ## Past Meetings
-* [2019.9.17 Meeting Material](https://finosfoundation.atlassian.net/wiki/download/attachments/1052213327/Pan-PMCs%20Meeting%202019-9-17.pdf?api=v2)
+* [2019.10.15 Meeting Material](2019-10-15-Pan-PMC-Meeting.md)
+* [2019.9.17 Meeting Material (on Confluence Wiki)](https://finosfoundation.atlassian.net/wiki/download/attachments/1052213327/Pan-PMCs%20Meeting%202019-9-17.pdf?api=v2)
 
 ## Other Docs
 * PMC Tasks and Asks Tracker
