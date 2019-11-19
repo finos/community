@@ -3,6 +3,7 @@
 ## Presentation Deck
 * As [Google Slides](https://docs.google.com/presentation/d/1BMyCWVGzYnqyQ9HPJ51yKS5DP4RNZ09osxq1Gu2x70s/edit#slide=id.g756b95ead8_0_9)
 * As [PDF](https://github.com/finos/finos-pmcs/blob/master/website/static/Pan-PMCs%20Meeting%202019.11.18.pdf) 
+* [Attendees](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1252884481/2019-11-19+Pan-PMC+Meeting)
 
 ## Topics
 
