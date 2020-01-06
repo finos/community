@@ -7,18 +7,16 @@
 
 ## Topics
 
-### I. January Board Update Slide
+### I. January Board Meeting
+#### Slide #1: Board Update Slide
+#### Slide #2: 2019 Roadmap Assessment
+#### Slide #3: 2020 Roadmap Draft
 
-### II. Roadmaps
-#### 2019 Roadmap Assessment
-#### 2020 Roadmap Draft
-
-
-### III. FINOS Project Lifecycles Review 
+### II. FINOS Project Lifecycles Review 
 #### Criteria
 #### Stewardship and Responsibilities
 #### Archiving
 
-### IV. Other
+### III. Other
 #### Good First Issues & Help Wanteds
 #### OSSF Spring 2020 (London) - Call for Speakers
