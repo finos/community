@@ -1,3 +1,10 @@
+---
+id: 2020-01-07-pan-pmc-meeting
+title: 2020.1.7 Pan PMC Meeting
+sidebar_label: 2020.1.7 Pan PMC Meeting
+---
+
+
 # Agenda 2020-01-07 Pan-PMC
 
 ## Presentation Deck
@@ -20,3 +27,5 @@
 ### III. Other
 * Good First Issues & Help Wanteds
 * OSSF Spring 2020 (London) - Call for Speakers
+
+(Meeting Minutes Fortcoming)
