@@ -14,7 +14,13 @@ sidebar_label: 2020.2.18 Pan PMC Meeting
 
 ## Topics
 
-### I. January Board Meeting Debrief
+### Housekeeping
+* Approve 2020.1.7 Meeting Minutes
+
+### January Board Meeting Debrief
 
 
-### II. AOB
+### Suggested Topic: Increasing # of Pull Requests from Non-Bank Members
+
+
+### AOB
