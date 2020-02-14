@@ -12,6 +12,20 @@ sidebar_label: 2020.1.7 Pan PMC Meeting
 * As [PDF](https://github.com/finos/finos-pmcs/blob/master/website/static/Pan-PMCs%20Meeting%202020.01.07.pdf)
 * [Attendees](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1298137089/2020-01-07+Pan-PMC+meeting)
 
+## Attendees
+* [Rob Underwood](https://github.com/brooklynrob)
+* [James McLeod](https://github.com/mcleo-d)
+* [Aitana Myohl](https://github.com/aitana16)
+* [Brian Ingenito](https://github.com/bingenito)	
+* [Tom Schady](https://github.com/tschady)		
+* [Tosha Ellison](https://github.com/toshaellison)	
+* [Colin Eberhardt](https://github.com/ColinEberhardt)
+* [Johan Sandersson](https://github.com/donbasuno)	
+* [Leslie Spiro](https://github.com/lspiro-Tick42)
+* [Aaron Williamson](https://github.com/copiesofcopies)
+* [Nick Kolba](https://github.com/nkolba)
+* [Beeke-Marie Nelke](https://github.com/beekemarie)
+
 ## Topics
 
 ### I. January Board Meeting
