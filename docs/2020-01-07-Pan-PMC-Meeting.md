@@ -41,5 +41,3 @@ sidebar_label: 2020.1.7 Pan PMC Meeting
 ### III. Other
 * Good First Issues & Help Wanteds
 * OSSF Spring 2020 (London) - Call for Speakers
-
-(Meeting Minutes Fortcoming)
