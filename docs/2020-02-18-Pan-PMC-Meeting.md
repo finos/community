@@ -33,23 +33,23 @@ sidebar_label: 2020.2.18 Pan PMC Meeting
 
 ### I. Q1 Board Meeting Debrief
 * ##### Ongoing Governance Simplification
-* ###### *reduce focus on governance, increase focus on delivery
-* ###### *reduce administrative overhead associated with preparing quarterly health checks
-* ###### *reduce/eliminate unnecessary meetings
+* ###### reduce focus on governance, increase focus on delivery
+* ###### reduce administrative overhead associated with preparing quarterly health checks
+* ###### reduce/eliminate unnecessary meetings
 * ##### 2020 Governance Refinements Proposal
-* ###### *do away with programs
-* ###### *FINOS approval role in Software Projects
-* ###### *Board input can be optionally requested
-* ###### *Lifecycle-driven Foundation focus and investments
+* ###### do away with programs
+* ###### FINOS approval role in Software Projects
+* ###### Board input can be optionally requested
+* ###### Lifecycle-driven Foundation focus and investments
 
 ### II. Q1 Priorities - [Rob Underwood](https://github.com/brooklynrob)
 * #### Q1 Priorities Review
-* ##### *Forming and incubating focus projects: Alloy, Waltz
-* ##### *Projects driving towards activation: Perspective, Plexus Interop
-* ##### *Open Contribs: SEA, Data Hub, Waltz
-* ##### *Program Removal RFC
-* ##### *2020 Project Roadmaps
-* ##### *Increase # of PRs from non-bank members
+* ##### Forming and incubating focus projects: Alloy, Waltz
+* ##### Projects driving towards activation: Perspective, Plexus Interop
+* ##### Open Contribs: SEA, Data Hub, Waltz
+* ##### Program Removal RFC
+* ##### 2020 Project Roadmaps
+* ##### Increase # of PRs from non-bank members
 
 ### III. Community - [James McLeod](https://github.com/mcleo-d)
 * #### Q1 Forming and Activating Projects 
