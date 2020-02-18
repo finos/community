@@ -27,9 +27,9 @@ sidebar_label: 2020.2.18 Pan PMC Meeting
 
 ### Housekeeping
 * Approve [2020.1.7 Meeting Minutes](https://github.com/finos/finos-pmcs/blob/master/docs/2020-01-07-Pan-PMC-Meeting.md)
-* #### meeting minutes were approved
-* #### reminder to please stick to publishing agendas ahead of meetings
-* #### question to PMCs: should this meeting continue to exist?
+* ###### meeting minutes were approved
+* ###### reminder to please stick to publishing agendas ahead of meetings
+* ###### question to PMCs: should this meeting continue to exist?
 
 ### I. Q1 Board Meeting Debrief
 * ##### Ongoing Governance Simplification
@@ -66,3 +66,6 @@ sidebar_label: 2020.2.18 Pan PMC Meeting
 ### V. Other - [James McLeod](https://github.com/mcleo-d)
 * #### Help Wanted and Good First Issues
 * #### OSSF London - May 2020 - London Call for Speakers
+
+### AOB
+General inclination to cancel this meeting given scarce attendance over the past couple of meetings. 
