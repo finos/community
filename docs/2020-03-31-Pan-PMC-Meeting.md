@@ -21,10 +21,16 @@ sidebar_label: 2020.3.31 Pan PMC Meeting
 * Approve [2020.2.18 Meeting Minutes](https://github.com/finos/finos-pmcs/blob/master/docs/2020-02-18-Pan-PMC-Meeting.md)
 * [RFC to discontinue this meeting](https://github.com/finos/finos-pmcs/issues/26) 
 
-### Topic #
+### Housekeeping
 
-### Topic #
+### I. Project Updates
 
-### Topic #
+### II. Governance Updates and Program Removal Proposal
+
+### III. Community Update
+
+### IV. Board Meeting Prep
+
+### V. Other 
 
 ### AOB
