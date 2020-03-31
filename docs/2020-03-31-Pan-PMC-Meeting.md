@@ -14,7 +14,7 @@ sidebar_label: 2020.3.31 Pan PMC Meeting
 ## Attendees
 * [Rob Underwood](https://github.com/brooklynrob)
 * [Gabriele Columbro](https://github.com/mindthegab)
-* [James McLeod]((https://github.com/mcleo-d)
+* [James McLeod](https://github.com/mcleo-d)
 * [Aitana Myohl](https://github.com/aitana16)
 
 ## Topics
