@@ -7,6 +7,12 @@ sidebar_label: 2020.3.31 Pan PMC Meeting
 
 # Agenda 2020.3.31 Pan PMC Meeting
 
+## Meeting Details
+* Meeting link: https://finos.webex.com/finos/j.php?MTID=m8a40409ca00a4bacda8ba66ceb573127 
+* Meeting number: 661 947 306
+* Password: aR6Ug5kZ5ZA
+* Join by phone: +1-415-655-0003 US Toll | +44-20319-88141 UK Toll | Access code: 661 947 306
+
 ## Presentation Deck
 * [Google slides](https://docs.google.com/presentation/d/1IEbZdmRBD4zv7ObEm4D89PeuHAvNw3HMTqxMIf5w-IA/edit?ts=5e7aa144#slide=id.g622c00a7c8_0_77)
 * [PDF](https://github.com/finos/finos-pmcs/blob/master/website/static/Pan-PMCs%20Meeting%202020.03.31.pdf)
