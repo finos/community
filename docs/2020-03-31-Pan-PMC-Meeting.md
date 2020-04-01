@@ -21,6 +21,14 @@ sidebar_label: 2020.3.31 Pan PMC Meeting
 * [Rob Underwood](https://github.com/brooklynrob)
 * [Gabriele Columbro](https://github.com/mindthegab)
 * [James McLeod](https://github.com/mcleo-d)
+* [Tom Schady](https://github.com/tschady)
+* [Johan Sandersson](https://github.com/donbasuno)
+* Vitor Espindola
+* Alvin Shih
+* Riko Eksteen
+* [Tosha Ellison](https://github.com/toshaellison)
+* [Alexandra Stratigos](https://github.com/astratigos)
+* Aaron Williamson
 * [Aitana Myohl](https://github.com/aitana16)
 
 ## Topics
