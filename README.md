@@ -1,16 +1,17 @@
 <img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
-# FINOS PMC Collaboration Space
-
-This repository hosts information and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Program Management Committees and Community at large.
+# FINOS Community Collaboration Space
+This repository hosts information and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large.
 
 ## Quick Links
-
-- [PMCs Microsite](https://pmcs.finos.org)
-- [Pan PMC meetings minutes and other docs](docs/)
-- [Requests for Comments](rfcs/)
+- [Community Requests for Comments](rfcs/)
 - [FINOS Community Handbook](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
-- [FINOS Governance](https://finos.org/governance)
+- [FINOS Governance Policies](https://finos.org/governance)
+- [FINOS Branding assets](https://github.com/finos/branding)
+
+## Archive
+- DEPRECATED (per [#31](https://github.com/finos/community/issues/31)): [PMCs Microsite](https://pmcs.finos.org)
+- DISCONTINUED (per [#26](https://github.com/finos/community/issues/26)): [Pan PMC meetings minutes and other docs](docs/)
 
 ## License
 
