@@ -1,35 +1,42 @@
 # Fintech Open Source Foundation (FINOS) Charter
 v1.0, 2020-07-01
 
-[none]
-* Test list item
-  ** Test list item 2
-
 . Mission and Scope of the Fintech Open Source Foundation.
-  .. The purpose of the Fintech Open Source FINOS Foundation (“FINOS”, or, alternatively, the “Directed Fund”) is to raise, budget and spend funds in support of various open source and/or open standards projects, including infrastructure and support initiatives related thereto (each such project, a “Technical Project”).  The Directed Fund intends to: (a) promote innovation and interoperability in financial technology through industry-wide collaboration on open source software and open standards; (b) foster a vibrant technical community comprising financial technology consumers, service and solution providers, and other constituents; and (c) provide a trusted, neutral forum for community collaboration by offering an efficient, compliant open source collaboration infrastructure and transparent, community-driven technical governance.   The governance of each Technical Project is as set forth in the applicable charter for each Technical Project.
+
+  . The purpose of the Fintech Open Source FINOS Foundation (“FINOS”, or, alternatively, the “Directed Fund”) is to raise, budget and spend funds in support of various open source and/or open standards projects, including infrastructure and support initiatives related thereto (each such project, a “Technical Project”).  The Directed Fund intends to: (a) promote innovation and interoperability in financial technology through industry-wide collaboration on open source software and open standards; (b) foster a vibrant technical community comprising financial technology consumers, service and solution providers, and other constituents; and (c) provide a trusted, neutral forum for community collaboration by offering an efficient, compliant open source collaboration infrastructure and transparent, community-driven technical governance.   The governance of each Technical Project is as set forth in the applicable charter for each Technical Project.
+
   .. The Directed Fund supports the Technical Projects. The Directed Fund operates under the guidance of the Governing Board of the Directed Fund (the “Governing Board”) and The Linux Foundation (the “LF”) as may be consistent with The Linux Foundation’s tax-exempt status.
+
   .. The Governing Board manages the Directed Fund. The Directed Fund will also have a Budget Committee, Membership & Governance Committee, and other working groups, councils, committees and similar bodies (collectively, “Committees”) that may be established by the Governing Board.  These committees report to the Governing Board.
 
 . Membership.
-.. The Directed Fund will be composed of Platinum, Gold, Silver and Associate Members (each, a “Member” and, collectively, the “Members”) in Good Standing. All Members must be current corporate members of the LF (at any level) to participate in the Directed Fund as a member. All participants in the Directed Fund, enjoy the privileges and undertake the obligations described in this Charter, as from time to time amended by the Governing Board with the approval of the LF. During the term of their membership, all members will comply with all such policies as the LF Board of Directors and/or the Directed Fund may adopt with notice to members.
-.. There will be an initial maximum of 22 representatives on the Governing Board (the “Governing Board Cap”), but the Governing Board Cap may be increased by vote of the Governing Board; provided however, that the Governing Board Cap may not exceed 27.
-.. Platinum Members will be entitled to appoint a representative (each, a “Platinum Representative”) to the Governing Board. Initially there will be 10 Platinum Representatives. The number of Platinum Members will not exceed the Governing Board Cap less seven. Each Platinum Representative must be employed by a Platinum Member.
-.. Gold Members, acting as a class, will be entitled to annually elect up to five representatives to the Governing Board (each, a “Gold Representative”), as follows: the lesser of (a) five and (b) one representative per three Gold Members. Each Gold Representative must be employed by a Gold Member.
-.. Silver Members, acting as a class, will be entitled to annually elect one representative to the Governing Board (the “Silver Representative”). The Silver Representative must be employed by a Silver Member.
-.. The Associate Member category of membership is limited to Associate Members of The Linux Foundation. The Governing Board may set additional criteria for joining the Directed Fund as an Associate Member. If the Associate Member is a membership organization, Associate Membership in the Directed Fund does not confer any benefits or rights to the members of the Associate Member.
-.. Members will be entitled to:
-[lowerroman]
-.... participate in Directed Fund general meetings, initiatives, events and any other activities; and
-.... identify themselves as members of FINOS supporting the FINOS community.
 
-3) Governing Board
+  .. The Directed Fund will be composed of Platinum, Gold, Silver and Associate Members (each, a “Member” and, collectively, the “Members”) in Good Standing. All Members must be current corporate members of the LF (at any level) to participate in the Directed Fund as a member. All participants in the Directed Fund, enjoy the privileges and undertake the obligations described in this Charter, as from time to time amended by the Governing Board with the approval of the LF. During the term of their membership, all members will comply with all such policies as the LF Board of Directors and/or the Directed Fund may adopt with notice to members.
 
-  a) The Governing Board voting members will consist of:
+  .. There will be an initial maximum of 22 representatives on the Governing Board (the “Governing Board Cap”), but the Governing Board Cap may be increased by vote of the Governing Board; provided however, that the Governing Board Cap may not exceed 27.
 
-    i) the Platinum Representatives;
-    ii) the Executive Director (as defined herein);
-    iii) the Gold Representative(s); and
-    iv) the Silver Representative.
+  .. Platinum Members will be entitled to appoint a representative (each, a “Platinum Representative”) to the Governing Board. Initially there will be 10 Platinum Representatives. The number of Platinum Members will not exceed the Governing Board Cap less seven. Each Platinum Representative must be employed by a Platinum Member.
+
+  .. Gold Members, acting as a class, will be entitled to annually elect up to five representatives to the Governing Board (each, a “Gold Representative”), as follows: the lesser of (a) five and (b) one representative per three Gold Members. Each Gold Representative must be employed by a Gold Member.
+
+  .. Silver Members, acting as a class, will be entitled to annually elect one representative to the Governing Board (the “Silver Representative”). The Silver Representative must be employed by a Silver Member.
+
+  .. The Associate Member category of membership is limited to Associate Members of The Linux Foundation. The Governing Board may set additional criteria for joining the Directed Fund as an Associate Member. If the Associate Member is a membership organization, Associate Membership in the Directed Fund does not confer any benefits or rights to the members of the Associate Member.
+
+  .. Members will be entitled to:
+
+  .... participate in Directed Fund general meetings, initiatives, events and any other activities; and
+
+  .... identify themselves as members of FINOS supporting the FINOS community.
+
+. Governing Board
+
+  .. The Governing Board voting members will consist of:
+
+    .... the Platinum Representatives;
+    .... the Executive Director (as defined herein);
+    .... the Gold Representative(s); and
+    .... the Silver Representative.
 
   b) No more than two Members that are part of a group of Related Companies (as defined in Section 9) may appoint, or nominate for a membership class election, a representative on the Governing Board.  No single Member, company or set of Related Companies will be entitled to: (i) appoint or nominate for Membership class election more than two representatives for the Governing Board, or (ii) have more than two representatives on the Governing Board.
 
