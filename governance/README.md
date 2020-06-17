@@ -24,7 +24,7 @@ The following policies apply to all FINOS members and activities:
 
 * The [Community Code of Conduct](Code-of-Conduct.md) is the set of principles that participants in the Foundation's collaborative work are expected to abide by to maintain a healthy and inclusive community.
 
-* The [IP Policy](IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards.
+* The [IP Policy](IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](ICLA.pdf) (for individual contributors whose contributions are not owned by their employer).
 
 * The [Trademark Guidelines](Trademark-Guidelines.pdf) list the Foundation's trademarks and set out our policies for appropriate use of FINOS project marks.
 
@@ -36,6 +36,8 @@ FINOS is home to two kinds of collaborative projects: open source software proje
 
 ### Open Source Software Projects
 
+FINOS is home to dozens of open source projects. Any FINOS member (and only FINOS members) may propose a new project. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board.
+
 #### Project Governance
 
 The [default governance policy](CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
@@ -44,9 +46,9 @@ The [default governance policy](CONTRIBUTING.template.md) for FINOS open source 
 
 Software projects follow the [Project Lifecycle](Project-Lifecycle.md), starting out in the "Incubating" state and graduating to "Active" when they are able to demonstrate that they meet the Foundation's criteria for maturity, activity, and quality. Finally, projects may move to the "Archived" state from either Incubating or Active if they are no longer actively developed. The FINOS team approves all lifecycle transitions according to the detailed requirements for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects found in the [Community Handbook](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community%2BHandbook) on the [FINOS wiki](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/overview). 
 
-#### Contributor License Agreements
+#### Project Reporting and Oversight
 
-All contributors to FINOS projects must sign a contributor license agreement: the [Corporate Contributor License Agreement](CCLA.pdf) for corporate/institutional contributors and [Individual Contributor License Agreement](ICLA.pdf) for individual contributors whose contributions are not owned by their employer.
+Every quarter, data about the health, activity, and progress of projects is reported to the Governing Board. Reports are generated automatically and provided to project teams for review and revision before being passed along to the board. The Governing Board and FINOS team use these reports to determine which projects need additional attention, which should be considered for archiving, etc.
 
 ### Open Standards Projects
 
