@@ -4,9 +4,19 @@ This space provides an overview of the Foundation's governance.
 
 ## Foundation Governance
 
-FINOS is a membership organization with three tiers of corporate membership (Platinum, Gold, and Silver), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representative appointed (and elected) by our members. The Foundation's day-to-day operations are run by the FINOS staff, led by our Executive Director.
+### Membership
 
-The following policies apply to all FINOS activities:
+FINOS is a membership organization with three tiers of corporate membership (Platinum, Gold, and Silver), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). For more information on the benefits of membership, please see our [Member Benefits Guide](https://www.finos.org/hubfs/FINOS/assets/2020%20-%20FINOS%20Member%20Benefits%20Guide.pdf).
+
+Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
+
+### Governing Board
+
+The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representative appointed (and elected) by our members. The Foundation's day-to-day operations are run by the FINOS staff, led by our Executive Director.
+
+### Policies
+
+The following policies apply to all FINOS members and activities:
 
 * The [Charter](Charter.pdf) is the Foundation's constitution. It sets out our mission, members' rights and responsibilities, the authority and procedures of our Governing Board and its committees, and other Foundation policies.
 
