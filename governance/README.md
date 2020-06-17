@@ -26,9 +26,15 @@ FINOS is home to two kinds of collaborative projects: open source software proje
 
 ### Open Source Software Projects
 
+#### Project Governance
+
 The [default governance policy](CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
+#### Project Lifecycle
+
 Software projects follow the [Project Lifecycle](Project-Lifecycle.md), starting out in the "Incubating" state and graduating to "Active" when they are able to demonstrate that they meet the Foundation's criteria for maturity, activity, and quality. Finally, projects may move to the "Archived" state from either Incubating or Active if they are no longer actively developed. The FINOS team approves all lifecycle transitions according to the detailed requirements for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects found in the [Community Handbook](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community%2BHandbook) on the [FINOS wiki](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/overview). 
+
+#### Contributor License Agreements
 
 All contributors to FINOS projects must sign a contributor license agreement: the [Corporate Contributor License Agreement](CCLA.pdf) for corporate/institutional contributors and [Individual Contributor License Agreement](ICLA.pdf) for individual contributors whose contributions are not owned by their employer.
 
