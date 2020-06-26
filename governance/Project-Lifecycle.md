@@ -2,9 +2,9 @@
 
 FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes three states:
 
-* 'Incubating' for new (and newly contributed) projects;
-* 'Active', for mature, active projects with healthy and diverse contributor communities; and
-* 'Archived', for projects that are no longer actively maintained.
+* **Incubating** for new (and newly contributed) projects;
+* **Active** for mature, active projects with healthy and diverse contributor communities; and
+* **Archived** for projects that are no longer actively maintained.
 
 Optionally projects can temporarily start in a 'Forming' stage, which is typically a time-bound period where a project idea or initial contribution is explored amongst FINOS members to evaluate viability of a contribution into 'Incubating' stage.
 
