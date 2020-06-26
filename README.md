@@ -5,6 +5,7 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 
 ## Quick Links
 - [FINOS Governance](governance/)
+- [FINOS Code of Conduct](governance/Code-of-Conduct.md)
 - [FINOS Members](https://finos.org/members)
 - [FINOS Project Catalog](https://finos.github.io)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
