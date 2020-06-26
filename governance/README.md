@@ -2,6 +2,23 @@
 
 This space provides an overview of the Foundation's governance. 
 
+## Table of Contents
+
+   * [FINOS Governance](#finos-governance)
+      * [Foundation Governance](#foundation-governance)
+         * [Membership](#membership)
+         * [Governing Board](#governing-board)
+         * [Policies](#policies)
+      * [Community Governance](#community-governance)
+         * [Open Source Software Projects](#open-source-software-projects)
+            * [Open Source Software Projects Governance](#open-source-software-projects-governance)
+         * [Open Standards Projects](#open-standards-projects)
+            * [Open Standards Projects Governance](#open-standards-projects-governance)
+         * [Project Lifecycle](#project-lifecycle)
+         * [Project Metrics](#project-metrics)
+         * [Project Quarterly Reporting](#project-quarterly-reporting)
+            * [Quarterly Focus projects](#quarterly-focus-projects)
+
 ## Foundation Governance
 
 ### Membership
