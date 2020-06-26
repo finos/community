@@ -5,16 +5,13 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 
 ## Quick Links
 - [FINOS Governance](governance/)
+- [FINOS Members](https://finos.org/members)
 - [FINOS Project Catalog](https://finos.github.io)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
 - [FINOS Project template/blueprint](https://github.com/finos/project-blueprint)
 - [FINOS Community Handbook](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
 - [FINOS Mailing lists](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/77955298/Engage+Our+Community)
-- [FINOS Members](https://finos.org/members)
-
-## Archives
 - [Email Archives (requires Google login)](http://groups.google.com/a/finos.org/) 
-- FINOS used to have a [now deprecated](https://github.com/finos/community/issues/31) federated governance based on the construct of Programs, independently managed by PMCs (Program Management Committees). For historical information see[Pan PMC meetings minutes and other docs](docs/).
 
 ## License
 
