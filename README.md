@@ -4,15 +4,10 @@
 This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large.
 
 ## Quick Links
-
-
-
 - [FINOS Governance](governance/)
 - [FINOS Project Catalog](https://finos.github.io)
-- [FINOS Projects Landscape](https://l.finos.org/)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
-- [FINOS Project template/blueprint)](https://github.com/finos/project-blueprint)
-- [Community Requests for Comments](rfcs/)
+- [FINOS Project template/blueprint](https://github.com/finos/project-blueprint)
 - [FINOS Community Handbook](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
 - [FINOS Mailing lists](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/77955298/Engage+Our+Community)
 - [FINOS Members](https://finos.org/members)
