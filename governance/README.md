@@ -4,7 +4,7 @@ This space provides an overview of the Foundation's governance:
    * [Foundation Governance](#foundation-governance)
       * [Membership](#membership)
       * [Governing Board](#governing-board)
-         * [Policies](#policies)
+      * [Policies](#policies)
    * [Community Governance](#community-governance)
       * [Open Source Software Projects](#open-source-software-projects)
          * [Open Source Software Projects Governance](#open-source-software-projects-governance)
