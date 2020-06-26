@@ -1,4 +1,4 @@
-#FINOS Community Code of Conduct
+# FINOS Community Code of Conduct
 
 ## Overview
 
@@ -24,23 +24,23 @@ If you observe or are subject to a violation of these rules at a Foundation even
 
 * **Be respectful.** People working together will inevitably disagree or become frustrated with one another at times, but conflict is no excuse for bad behavior or personal attacks. A community where people feel uncomfortable or threatened is not a productive one. Be respectful of one another and those outside our community who interact with us.
 
-**Be careful in the words that you choose.** Conduct yourself professionally. Be kind to others. Refrain from all forms of harassment, including:
+* **Be careful in the words that you choose.** Conduct yourself professionally. Be kind to others. Refrain from all forms of harassment, including:
 
-** Violent threats or language directed against another person.
+    * Violent threats or language directed against another person.
 
-** Discriminatory jokes and language.
+    * Discriminatory jokes and language.
 
-** Posting sexually explicit or violent material.
+    * Posting sexually explicit or violent material.
 
-** Posting (or threatening to post) other people's personally identifying information ("doxing").
+    * Posting (or threatening to post) other people's personally identifying information ("doxing").
 
-** Personal insults, especially those using racist or sexist terms.
+    * Personal insults, especially those using racist or sexist terms.
 
-**Unwelcome sexual attention.
+    * Unwelcome sexual attention.
         
-** Advocating for, or encouraging, any of the above behavior.
+    *  Advocating for, or encouraging, any of the above behavior.
         
-** Repeated harassment of others. In general, if someone asks you to stop, then stop.
+* **Repeated harassment of others**. In general, if someone asks you to stop, then stop.
     
 * **Be understanding.** Strive to resolve disagreements constructively. Our contributors come from different backgrounds and have different perspectives. If you disagree with someone, seek to understand their perspective and share yours respectfully.
 
