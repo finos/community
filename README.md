@@ -1,9 +1,12 @@
-<img align="right" width="20%" src="https://raw.githubusercontent.com/finos/branding/master/finos-logos/icon-wordmark-name/FINOS_Icon_Wordmark_Name_RGB.png">
+<img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
-# FINOS Foundation & Community Collaboration Space
-This repository hosts FINOS governance information and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large.
+# FINOS Community Collaboration Space
+This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large.
 
 ## Quick Links
+
+
+
 - [FINOS Governance](governance/)
 - [FINOS Project Catalog](https://finos.github.io)
 - [FINOS Projects Landscape](https://l.finos.org/)
