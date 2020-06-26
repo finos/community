@@ -23,6 +23,8 @@ FINOS is a membership organization part of the [Linux Foundation](http://linuxfo
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
 
+**NOTE**: Membership is NOT required to contribute to existing FINOS projects but contributors will need to comply with the [FINOS contribution compliance requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements).
+
 ## Governing Board
 
 The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representative appointed (and elected) by our members and led by FINOS Executive Director. The Foundation's day-to-day operations are run by the [FINOS team](finos.org/team).
