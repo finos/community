@@ -4,14 +4,13 @@ This Project Charter establishes the terms under which this FINOS Project will o
 
 1.    Establishment.
 
-1.1    Purposes. The purposes of this Project are: [Purposes]
+    1.1    Purposes. The purposes of this Project are: [Purposes]
 
-1.2    Initial Steering Members. The initial Steering Members of this Project are: [Initial Steering Members]
+    1.2    Initial Steering Members. The initial Steering Members of this Project are: [Initial Steering Members]
 
-1.3.   Project Initiation.  The Project will become effective upon ratification of this Charter by FINOS and the Joining of 2 Steering
-Members.  New parties may Join the Project upon Approval of the Steering Members.
+    1.3.   Project Initiation.  The Project will become effective upon ratification of this Charter by FINOS and the Joining of 2 Steering Members.  New parties may Join the Project upon Approval of the Steering Members.
 
-1.4.   Applicable Policies. This Project and all Participants are subject to the FINOS Charter, Intellectual Property Policy ("IP Policy"), Antitrust Policy, Code of Conduct, and any other FINOS or Linux Foundation policy that by its terms applies to all FINOS projects.
+    1.4.   Applicable Policies. This Project and all Participants are subject to the FINOS Charter, Intellectual Property Policy ("IP Policy"), Antitrust Policy, Code of Conduct, and any other FINOS or Linux Foundation policy that by its terms applies to all FINOS projects.
 
 2.    Membership Levels. The Project will include the following levels of membership, each referred to as a "Participant":
 
