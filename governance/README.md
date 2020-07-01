@@ -57,7 +57,7 @@ FINOS is home to dozens of open source projects. Any FINOS member (and only FINO
 
 ### Open Source Software Projects Governance
 
-The [default governance policy](CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
+The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
 ## Open Standards Projects
 
@@ -69,7 +69,7 @@ The default governance policy for FINOS standards projects can be found [here](S
 
 ## Project Lifecycle
 
-Software and standards projects follow the [Project Lifecycle](Project-Lifecycle.md), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
+Software projects follow the [Project Lifecycle](Software-Projects/Project-Lifecycle.md), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
 
 The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects. 
 
