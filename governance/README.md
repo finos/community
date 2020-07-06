@@ -49,7 +49,9 @@ The following policies apply to all FINOS members and activities:
 
 FINOS is home to two kinds of [collaborative projects](finos.github.io): open source software projects and open standards projects. The majority of FINOS projects are open source software projects. FINOS projects are self-governing and may determine their own governance rules consistent with FINOS policies and the [open source definition](https://opensource.org/docs/osd), but FINOS provides default governance templates for both to provide projects with a starting point. 
 
-FINOS also hosts Special Interest Groups (SIGs), forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects). 
+FINOS also hosts Special Interest Groups (SIGs), forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects).
+
+All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md) and [Meeting Procedures](Meeting-Procedures.md).
 
 ## Open Source Software Projects
 
