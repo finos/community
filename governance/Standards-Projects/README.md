@@ -45,8 +45,8 @@ This notice should also be provided to new participants that join after the proj
 
 Project and working group chairs should begin each meeting of the project by referencing the FINOS IP Policy and the FINOS Antitrust Policy. Here are slides that can be used:
 
-* [Download as PPTX](Standards-Project-Compliance-Slides.pptx)
-* [Download as PDF](Standards-Project-Compliance-Slides.pdf)
+* [Download as PPTX](../Compliance-Slides/Standards-Project-Compliance-Slides.pptx)
+* [Download as PDF](../Compliance-Slides/Standards-Project-Compliance-Slides.pdf)
 * [View as Google Slides](https://docs.google.com/presentation/d/1Jhaqsb0FZoCViiYpCvfC6sMymyg8QCI01bd0gnffQx4/edit?usp=sharing)
 
 ## Preparing for release
