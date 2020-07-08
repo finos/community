@@ -27,7 +27,9 @@ Individuals who have made significant contributions to FINOS projects can join o
 
 ## Governing Board
 
-The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representative appointed (and elected) by our members and led by FINOS Executive Director. The Foundation's day-to-day operations are run by the [FINOS team](finos.org/team).
+The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representatives and led by FINOS Executive Director. The Governing Board is composed of Platinum Representatives, each appointed by a Platinum member; up to five Gold Representatives, elected by the Gold Members voting as a class; and one Silver Representative, elected by the Silver Members voting as a class. FINOS uses [ranked-choice voting](Board-Election-Procedure.md) to tabulate elections.
+
+The Foundation's day-to-day operations are run by the [FINOS team](finos.org/team).
 
 ## Policies
 
@@ -49,7 +51,9 @@ The following policies apply to all FINOS members and activities:
 
 FINOS is home to two kinds of [collaborative projects](finos.github.io): open source software projects and open standards projects. The majority of FINOS projects are open source software projects. FINOS projects are self-governing and may determine their own governance rules consistent with FINOS policies and the [open source definition](https://opensource.org/docs/osd), but FINOS provides default governance templates for both to provide projects with a starting point. 
 
-FINOS also hosts Special Interest Groups (SIGs), forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects). 
+FINOS also hosts Special Interest Groups (SIGs), forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects).
+
+All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md) and [Meeting Procedures](Meeting-Procedures.md).
 
 ## Open Source Software Projects
 
@@ -57,19 +61,19 @@ FINOS is home to dozens of open source projects. Any FINOS member (and only FINO
 
 ### Open Source Software Projects Governance
 
-The [default governance policy](CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
+The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
 ## Open Standards Projects
 
-Technical standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed freely to all.
+Information about FINOS open standards project governance can be found in the [Standards-Projects folder](Standards-Projects). Standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed freely to all.
 
 ### Open Standards Projects Governance
 
-The default governance policy for FINOS standards projects can be found [here](CONTRIBUTING.standards.md).
+The default governance policy for FINOS standards projects can be found [here](Standards-Projects/CONTRIBUTING.standards.md).
 
 ## Project Lifecycle
 
-Software and standards projects follow the [Project Lifecycle](Project-Lifecycle.md), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
+Software projects follow the [Project Lifecycle](Software-Projects/Project-Lifecycle.md), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
 
 The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects. 
 
