@@ -6,9 +6,9 @@ This space provides an overview of the Foundation's governance:
       * [Governing Board](#governing-board)
       * [Policies](#policies)
    * [Community Governance](#community-governance)
-      * [Open Source Software Projects](#open-source-software-projects-governance)
-      * [Open Standards Projects](#open-standards-projects-governance)
-      * [Special Interest Groups](#special-interest-groups-governance)
+      * [Open Source Software Projects](#open-source-software-projects)
+      * [Open Standards Projects](#open-standards-projects)
+      * [Special Interest Groups](#special-interest-groups)
    * [Project Lifecycle and Steering](#project-lifecycle-and-steering)
       * [Project Lifecycle](#project-lifecycle)
       * [Project Metrics](#project-metrics)
@@ -18,7 +18,7 @@ This space provides an overview of the Foundation's governance:
 
 ## Membership
 
-FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits) or reach out to [membership@finos.org](mailto:membership@finos.org).
+FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter.md). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits) or reach out to [membership@finos.org](mailto:membership@finos.org).
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
 
