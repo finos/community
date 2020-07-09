@@ -1,18 +1,11 @@
-```
-Fintech Open Source Foundation (FINOS)
-```
-```
-Charter
-```
-```
-The Linux Foundation
-```
-```
-Effective June 30, 2020
-```
-1) Mission and Scope of the Fintech Open Source Foundation.
+# Fintech Open Source Foundation (FINOS)
+A directed fund of the Linux Foundation
+# Charter
 
-```
+Effective June 30, 2020
+
+**1) Mission and Scope of the Fintech Open Source Foundation.**
+
 a) The purpose of the Fintech Open Source FINOS Foundation (“FINOS”, or, alternatively,
 the “Directed Fund”) is to raise, budget and spend funds in support of various open
 source and/or open standards projects, including infrastructure and support initiatives
@@ -24,20 +17,18 @@ and other constituents; and (c) provide a trusted, neutral forum for community
 collaboration by offering an efficient, compliant open source collaboration infrastructure
 and transparent, community-driven technical governance. The governance of each
 Technical Project is as set forth in the applicable charter for each Technical Project.
-```
-```
+
 b) The Directed Fund supports the Technical Projects. The Directed Fund operates under the
 guidance of the Governing Board of the Directed Fund (the “Governing Board”) and The
 Linux Foundation (the “LF”) as may be consistent with The Linux Foundation’s tax-
 exempt status.
-```
-```
+
 c) The Governing Board manages the Directed Fund. The Directed Fund will also have a
 Budget Committee, Membership & Governance Committee, and other working groups,
 councils, committees and similar bodies (collectively, “Committees”) that may be
 established by the Governing Board. These committees report to the Governing Board.
-```
-2) Membership.
+
+**2) Membership.**
 
 ```
 a) The Directed Fund will be composed of Platinum, Gold, Silver and Associate Members
