@@ -18,11 +18,11 @@ This space provides an overview of the Foundation's governance:
 
 ## Membership
 
-FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have three tiers of corporate membership (Platinum, Gold, and Silver), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). For more information on the benefits of membership, please see our [Member Benefits Guide](https://www.finos.org/hubfs/FINOS/assets/2020%20-%20FINOS%20Member%20Benefits%20Guide.pdf).
+FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). For more information on FINOS members and membership benefits, please see [the FINOS Website](https://www.finos.org/membership-benefits).
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
 
-**NOTE**: Membership is NOT required to contribute to existing FINOS projects but contributors will need to comply with the [FINOS contribution compliance requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements). Membership is instead required to propose new FINOS projects as outlined in our [Community Governance](#community-governance).
+**NOTE**: Membership is NOT required to contribute to existing FINOS projects but contributors will need to comply with the [FINOS contribution compliance requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements). Only FINOS members instead can propose new FINOS projects as outlined in our [Community Governance](#community-governance) below.
 
 ## Governing Board
 
