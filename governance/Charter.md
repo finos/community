@@ -74,13 +74,10 @@ activities; and
 
 a) The Governing Board voting members will consist of:
 
-\ i) the Platinum Representatives;
-
-\ ii) the Executive Director (as defined herein);
-
-\ iii) the Gold Representative(s); and
-
-\ iv) the Silver Representative.
+  i) the Platinum Representatives;
+  ii) the Executive Director (as defined herein);
+  iii) the Gold Representative(s); and
+  iv) the Silver Representative.
 
 b) No more than two Members that are part of a group of Related Companies (as defined in
 Section 9) may appoint, or nominate for a membership class election, a representative on
