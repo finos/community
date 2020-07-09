@@ -30,7 +30,6 @@ established by the Governing Board. These committees report to the Governing Boa
 
 **2) Membership.**
 
-```
 a) The Directed Fund will be composed of Platinum, Gold, Silver and Associate Members
 (each, a “Member” and, collectively, the “Members”) in Good Standing. All Members
 must be current corporate members of the LF (at any level) to participate in the Directed
@@ -39,77 +38,59 @@ undertake the obligations described in this Charter, as from time to time amende
 Governing Board with the approval of the LF. During the term of their membership, all
 members will comply with all such policies as the LF Board of Directors and/or the
 Directed Fund may adopt with notice to members.
-```
-```
+
 b) There will be a maximum of 19 initial representatives on the Governing Board (the
 “Governing Board Cap”), but the Governing Board Cap may be increased by vote of the
 Governing Board; provided however, that the Governing Board Cap may not exceed 27.
-```
 
-```
 c) Platinum Members will be entitled to appoint a representative (each, a “Platinum
 Representative”) to the Governing Board. Initially there will be 10 Platinum
 Representatives. The number of Platinum Members will not exceed the Governing Board
 Cap less seven. Each Platinum Representative must be employed by a Platinum Member.
-```
-```
+
 d) Gold Members, acting as a class, will be entitled to annually elect up to five
 representatives to the Governing Board (each, a “Gold Representative”), as follows: the
 lesser of (a) five and (b) one representative per three Gold Members. Each Gold
 Representative must be employed by a Gold Member.
-```
-```
+
 e) Silver Members, acting as a class, will be entitled to annually elect one representative to
 the Governing Board (the “Silver Representative”). The Silver Representative must be
 employed by a Silver Member.
-```
-```
+
 f) The Associate Member category of membership is limited to Associate Members of The
 Linux Foundation. The Governing Board may set additional criteria for joining the
 Directed Fund as an Associate Member. If the Associate Member is a membership
 organization, Associate Membership in the Directed Fund does not confer any benefits or
 rights to the members of the Associate Member.
-```
-```
-g) Members will be entitled to:
-```
-```
-i) participate in Directed Fund general meetings, initiatives, events and any other
-activities; and
-```
-```
-ii) identify themselves as members of FINOS supporting the FINOS community.
-```
-3) Governing Board
 
-```
+g) Members will be entitled to:
+
+* i) participate in Directed Fund general meetings, initiatives, events and any other
+activities; and
+
+* ii) identify themselves as members of FINOS supporting the FINOS community.
+
+**3) Governing Board**
+
 a) The Governing Board voting members will consist of:
-```
-```
-i) the Platinum Representatives;
-```
-```
-ii) the Executive Director (as defined herein);
-```
-```
-iii) the Gold Representative(s); and
-```
-```
-iv) the Silver Representative.
-```
-```
+
+\ i) the Platinum Representatives;
+
+\ ii) the Executive Director (as defined herein);
+
+\ iii) the Gold Representative(s); and
+
+\ iv) the Silver Representative.
+
 b) No more than two Members that are part of a group of Related Companies (as defined in
 Section 9) may appoint, or nominate for a membership class election, a representative on
 the Governing Board. No single Member, company or set of Related Companies will be
 entitled to: (i) appoint or nominate for Membership class election more than two
 representatives for the Governing Board, or (ii) have more than two representatives on
 the Governing Board.
-```
-```
-c) Conduct of Meetings
-```
 
-```
+c) Conduct of Meetings
+
 i) Governing Board meetings will be limited to the Governing Board representatives,
 the Outreach Committee Chair, invited guests and LF staff.
 ```
