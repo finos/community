@@ -1,6 +1,6 @@
 # Fintech Open Source Foundation (FINOS)
 A directed fund of the Linux Foundation
-# Charter
+## Charter
 
 Effective June 30, 2020
 
