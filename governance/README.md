@@ -54,21 +54,21 @@ FINOS also hosts **Special Interest Groups (SIGs)** which are forums where commu
 
 All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md) and [Meeting Procedures](Meeting-Procedures.md).
 
-## Open Source Software Projects Governance
+## Open Source Software Projects
 
 FINOS is home to dozens of open source projects. Any FINOS member (and only FINOS members) may propose a new project or sponsor a project from an outside contributor. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board. Please refer to the [contribution process](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute) if you'd like to propose a new project. 
 
 The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
-## Open Standards Projects Governance
+## Open Standards Projects
 
 Information about FINOS open standards project governance can be found in the [Standards-Projects folder](Standards-Projects). Standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed freely to all.
 
 The default governance policy for FINOS standards projects can be found [here](Standards-Projects/CONTRIBUTING.standards.md).
 
-## Special Interest Groups Governance
+## Special Interest Groups
 
-Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board which also appoints the initial SIG chair. Over time the SIG might decide to vote in a new Chair or the Board can appoint one. 
+Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, which also appoints the initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. 
 
 # Project Lifecycle and steering
 
