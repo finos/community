@@ -32,14 +32,14 @@ If a final standard includes software (e.g. example code) in the specification i
 
 When a standards project or working group begins its activities, it should notify all initial participants of the relevant terms of the FINOS IP Policy. Here is a sample email that can be used:
 
-    This standards project is subject to the rules related to standards development set out in Section V of the FINOS IP Policy. By joining this project and/or participating in its activities, you agree that you are bound by those rules. These include the following:
-
-        By participating in a standards project, each participant agrees to be bound by the FINOS IP Policy.
-        If a participant owns any intellectual property rights necessary to implement the final approved standard, it agrees to license those rights to all implementers on a royalty-free, reasonable, and non-discriminatory basis. 
-        This license applies to the entire approved standard, including portions contributed by other participants.
-        Upon joining the project, participants have 60 days to withdraw from the project and its licensing obligations. Withdrawal does not affect the license to any intentional submission made by the participant that is incorporated into a final specification.
-
-    The above are summaries only; it is the FINOS IP Policy which is binding on participants. Please review the FINOS IP Policy with your counsel before participating. If you have any questions, please contact legal@finos.org.
+>This standards project is subject to the rules related to standards development set out in Section V of the FINOS IP Policy. By joining this project and/or participating in its activities, you agree that you are bound by those rules. These include the following:
+>
+> * By participating in a standards project, each participant agrees to be bound by the FINOS IP Policy.
+> * If a participant owns any intellectual property rights necessary to implement the final approved standard, it agrees to license those rights to all implementers on a royalty-free, reasonable, and non-discriminatory basis. 
+> * This license applies to the entire approved standard, including portions contributed by other participants.
+> * Upon joining the project, participants have 60 days to withdraw from the project and its licensing obligations. Withdrawal does not affect the license to any intentional submission made by the participant that is incorporated into a final specification.
+>
+> The above are summaries only; it is the FINOS IP Policy which is binding on participants. Please review the FINOS IP Policy with your counsel before participating. If you have any questions, please contact legal@finos.org.
 
 This notice should also be provided to new participants that join after the project's activities are underway.
 
