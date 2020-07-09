@@ -2,7 +2,9 @@
 
 Within FINOS, a standards project is a project chartered to produce technical standards specifications, rather than software alone (although standards projects may also produce software related to their standards). Because the process for producing standards, and the intellectual property rules associated with them, are different than for software, the [FINOS IP Policy](../IP-Policy.pdf) contains special rules for standards projects. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
 
-The information in this document summarize the requirements for standards projects, most of which are found in the [IP Policy](../IP-Policy.pdf). Anyone involved in running a standards project should review that policy carefully in addition to referring to this information. Each standards project will also be goverened by the additional policies and procedures set out in its charter.
+The information in this document summarize the requirements for standards projects, most of which are found in the [IP Policy](../IP-Policy.pdf). Anyone involved in running a standards project should review that policy carefully in addition to referring to this information. 
+
+Each standards project will also be goverened by the additional policies and procedures set out in its charter. FINOS recommends that new standards projects adopt the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Because the Community Specification process varies in a few respects from the FINOS IP Policy, the Board must approve its use together with the project's charter.
 
 ## Establishing a standards project
 
@@ -30,14 +32,14 @@ If a final standard includes software (e.g. example code) in the specification i
 
 When a standards project or working group begins its activities, it should notify all initial participants of the relevant terms of the FINOS IP Policy. Here is a sample email that can be used:
 
-    This standards project is subject to the rules related to standards development set out in Section V of the FINOS IP Policy. By joining this project and/or participating in its activities, you agree that you are bound by those rules. These include the following:
-
-        By participating in a standards project, each participant agrees to be bound by the FINOS IP Policy.
-        If a participant owns any intellectual property rights necessary to implement the final approved standard, it agrees to license those rights to all implementers on a royalty-free, reasonable, and non-discriminatory basis. 
-        This license applies to the entire approved standard, including portions contributed by other participants.
-        Upon joining the project, participants have 60 days to withdraw from the project and its licensing obligations. Withdrawal does not affect the license to any intentional submission made by the participant that is incorporated into a final specification.
-
-    The above are summaries only; it is the FINOS IP Policy which is binding on participants. Please review the FINOS IP Policy with your counsel before participating. If you have any questions, please contact legal@finos.org.
+>This standards project is subject to the rules related to standards development set out in Section V of the FINOS IP Policy. By joining this project and/or participating in its activities, you agree that you are bound by those rules. These include the following:
+>
+> * By participating in a standards project, each participant agrees to be bound by the FINOS IP Policy.
+> * If a participant owns any intellectual property rights necessary to implement the final approved standard, it agrees to license those rights to all implementers on a royalty-free, reasonable, and non-discriminatory basis. 
+> * This license applies to the entire approved standard, including portions contributed by other participants.
+> * Upon joining the project, participants have 60 days to withdraw from the project and its licensing obligations. Withdrawal does not affect the license to any intentional submission made by the participant that is incorporated into a final specification.
+>
+> The above are summaries only; it is the FINOS IP Policy which is binding on participants. Please review the FINOS IP Policy with your counsel before participating. If you have any questions, please contact legal@finos.org.
 
 This notice should also be provided to new participants that join after the project's activities are underway.
 
@@ -55,7 +57,7 @@ Project and working group chairs should begin each meeting of the project by ref
 
 If a draft specification is published for public comment prior to its approval, it must include the introductory language provided in Section V.3.2.1 of the FINOS IP Policy:
 
-    Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
+> Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
 
 ### Disclosure of necessary claims
 

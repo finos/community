@@ -64,7 +64,7 @@ The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for 
 
 Information about FINOS open standards project governance can be found in the [Standards-Projects folder](Standards-Projects). Standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed freely to all.
 
-The default governance policy for FINOS standards projects can be found [here](Standards-Projects/CONTRIBUTING.standards.md).
+FINOS standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development.
 
 ## Special Interest Groups
 
