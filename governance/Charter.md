@@ -65,10 +65,10 @@ rights to the members of the Associate Member.
 
 g) Members will be entitled to:
 
-* i) participate in Directed Fund general meetings, initiatives, events and any other
+> i) participate in Directed Fund general meetings, initiatives, events and any other
 activities; and
-
-* ii) identify themselves as members of FINOS supporting the FINOS community.
+>
+> ii) identify themselves as members of FINOS supporting the FINOS community.
 
 **3) Governing Board**
 
