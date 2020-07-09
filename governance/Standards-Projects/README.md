@@ -57,7 +57,7 @@ Project and working group chairs should begin each meeting of the project by ref
 
 If a draft specification is published for public comment prior to its approval, it must include the introductory language provided in Section V.3.2.1 of the FINOS IP Policy:
 
-    Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
+> Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
 
 ### Disclosure of necessary claims
 
