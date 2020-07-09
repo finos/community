@@ -18,7 +18,7 @@ This space provides an overview of the Foundation's governance:
 
 ## Membership
 
-FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). For more information on FINOS members and membership benefits, please see [the FINOS Website](https://www.finos.org/membership-benefits).
+FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter.pdf). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits).
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
 
