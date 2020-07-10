@@ -19,6 +19,7 @@ Because trademarks are intended to uniquely associate a product with its produce
 To ensure that a mark is distinctive, projects should **avoid**:
 * **Generic** marks that employ words or designs commonly used to refer to a class of products generally. For example, "Software" as a name for computer software would be generic.
 * **Descriptive** marks that merely describe the product. Descriptive marks are similar to generic marks, but include a broader category of marks. For example, "Fast Sort" for a data-sorting library is descriptive. Unlike generic marks, it is possible for descriptive marks to be registered, if through their use in commerce they come to take on "secondary meaning" in the minds of consumers (i.e. to become uniquely associated with the product in the relevant market) and therefore acquire distinctiveness. However, this result is not guaranteed and descriptive marks should therefore generally be avoided.
+* **Common words or phrases**. The more common, the more likely it's used on products of all kinds, and when you get to your trademark search, you're likely to get lots of results, including in relevant markets.
 
 The **strongest** marks marks are those that do not directly describe the product. They are generally categorized (in order from strongest to weakest) as:
 * **Fanciful** marks bearing no meaning except to designate the product. A common example is "XEROX" for copiers.
@@ -27,29 +28,28 @@ The **strongest** marks marks are those that do not directly describe the produc
 
 By selecting a name or logo that meets these criteria, projects are more likely to end up with a distinctive mark that can be protected from confusingly similar uses.
 
+## Other Things to Avoid
+
+In addition to the above guidelines for choosing a distinctive mark, we also encourage projects to **avoid** marks that:
+* Imply a particular level of service or might otherwise create liability (e.g. supported, secure, fastest, etc.)
+* Are so general that they imply the project is the only, or standard, solution for certain area of technology, especially if no wide support exists amongst FINOS Members and contributors
+* Does not include references to other products or (third-party) projects, except where explicitly allowed by the owner, or in a way that makes clear that there's no endorsement by or affiliation with the owner
+
 ## Doing a Trademark Search
 
-[TBD]
+Choosing a mark that fits the criteria above isn't always enough. If someone else is already using the mark (or a confusingly similar one) in a related market, the mark may infringe that third-party mark (or at least be impossible to register or protect). Before settling on a mark, it's important to ensure there are no directly conflicting marks already out there. A thorough search typically requires the help of an experienced trademark attorney. However, you can do an initial search yourself to ensure there are no obvious conflicts. This usually involves:
+* A few **internet searches** on the mark and other relevant words (e.g. "foobar computer software") to see if there are others using the mark for similar goods or services.
+* Searching the **USPTO [TESS Database](http://tess2.uspto.gov/)** to see if the same or similar marks are registered for similar goods or services. The TESS search interface can be a little intimidating -- [this guide](http://www.bpmlegal.com/howtotmsrch.html) includes some useful tips for running a complete search. It may be necessary to narrow your search to the classes of goods and services that your product falls under. Each trademark registration must specify one of [45 internationally recognized classes](https://www.uspto.gov/trademark/trademark-updates-and-announcements/nice-agreement-current-edition-version-general-remarks) of goods and services. If your initial search turns up too many results across all classes, limiting your search to relevant classes (like Class 9 for software, or Class 42 for software services, or Class 36 for financial services) can make the results easier to comb through.
 
-# Project Name
+No trademark search can 100% exclude the possibility of a competing mark, but by taking these steps, you can avoid choosing a name with obvious conflicts. When brainstorming names, it's often a good idea to come up with several potential options, because one or more is likely to be knocked out by your initial search.
 
-We encourage FINOS project to select project names that:
+## When to Register a Trademark
 
-- Has a good chance to be trademarkable. Generally favor an abstract, proper name, which is now already in use. The FINOS team can help validate that during contribution.
-- Does not include words which might imply an SLA or create a potential liability (e.g. supported, secure, fastest, etc.)
-- Does not attempt to position a project as "the unique" solution for certain area of technology, especially if no wide support exists amongst FINOS Members and contributors
-- Does not include other (proprietary or open source) project names (e.g. upstream), unless that's explicitly allowed by the project
-
-
-# Project Logo
-We encourage FINOS project to select project logos that:
-
-- Do not include other project logos
-- Remind too closely existing brands
-
+FINOS does not register the trademarks of all of its projects, as the costs would be prohibitive. If you'd like to discuss registration, please contact us at finos.org and we can discuss whether it's appropriate in your project's case.
 
 # How does FINOS protect a project brand?
-FINOS generally monitors usage of FINOS project brands and the FINOS brand itself for compliance with the [FINOS trademark guidelines](Trademark-Guidelines.pdf). 
+
+FINOS generally endeavors to monitors usage of FINOS project brands and the FINOS brand itself for compliance with the [FINOS trademark guidelines](Trademark-Guidelines.pdf). 
 Additionally if the FINOS team becomes aware of allegedd technical misrepresentations on a FINOS project in the public press, it will work with the Project maintainers to 
 validate veracity of the statements and take actions as needed.
 
