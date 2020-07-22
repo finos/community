@@ -47,10 +47,10 @@ Choosing a mark that fits the criteria above isn't always enough. If someone els
 * A few **internet searches** on the mark and other relevant words (e.g. "foobar computer software") to see if there are others using the mark for similar goods or services.
 * Searching the **USPTO [TESS Database](http://tess2.uspto.gov/)** to see if the same or similar marks are registered for similar goods or services in the US. The TESS search interface can be a little intimidating -- [this guide](http://www.bpmlegal.com/howtotmsrch.html) includes some useful tips for running a complete search. It may be necessary to narrow your search to the classes of goods and services that your product falls under. Each trademark registration must specify one of [45 internationally recognized classes](https://www.uspto.gov/trademark/trademark-updates-and-announcements/nice-agreement-current-edition-version-general-remarks) of goods and services. If your initial search turns up too many results across all classes, limiting your search to relevant classes (like Class 9 for software, or Class 42 for software services, or Class 36 for financial services) can make the results easier to comb through.
 * Searching trademark databases in other jurisdictions where the mark is likely to be used:
-  * Europe: https://www.tmdn.org/tmview/welcome
-  * Benelux (Belgium, Netherlands, and Luxembourg): https://www.boip.int/en/trademarks-register
+  * European Union: https://www.tmdn.org/tmview/welcome
   * United Kingdom: https://www.gov.uk/search-for-trademarkhttps://www.gov.uk/search-for-trademark
   * Switzerland: https://www.swissreg.ch/srclient/faces/jsp/start.jsp
+  * Benelux (Belgium, Netherlands, and Luxembourg): https://www.boip.int/en/trademarks-register  
   * For more international databases, see the WIPO database: https://www.wipo.int/amc/en/trademark/output.html
 
 No trademark search can 100% exclude the possibility of a competing mark, but by taking these steps, you can avoid choosing a name with obvious conflicts. When brainstorming names, it's often a good idea to come up with several potential options, because one or more is likely to be knocked out by your initial search.
