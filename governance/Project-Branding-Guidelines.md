@@ -13,6 +13,8 @@ When choosing a mark, projects should follow these guidelines to ensure that you
 * Are so general that they imply the project is the only, or standard, solution for certain area of technology, especially if no wide support exists amongst FINOS Members and contributors
 * Do not include references to other products or (third-party) projects, except where explicitly allowed by the owner, or in a way that makes clear that there's no endorsement by or affiliation with the owner
 
+If you have any questions about whether a particular mark meets FINOS's criteria, please contact us at legal@finos.org.
+
 ## Choosing Marks that Can Be Registered as Trademarks
 
 FINOS does not register trademarks for all project marks, and does not require that projects choose marks that can be registered as trademarks. However, for some projects it may be appropriate to file for trademark protection. This section and those that follow contain guidelines for selecting a mark that is suitable for registration.
