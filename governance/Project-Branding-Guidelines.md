@@ -1,6 +1,6 @@
 # Project Branding Guidelines
 
-One of the first steps any open source project takes is choosing a name (and possibly a logo). Project names and logos should be distinctive and should avoid incorporating the names and logos of third-parties and third-party products.
+One of the first steps any open source project takes is choosing a name (and possibly a logo). Project names and logos should be distinctive and should avoid incorporating the names and logos of third parties and third-party products.
 
 As with other products and services, the names and logos of open source projects (including nonprofit projects) are the project's trademarks. A well-chosen mark can confer upon the project the exclusive right to use that mark under applicable trademark laws, as well as the right to exclude others from using the same or confusingly similar marks. Without taking care, however, it is easy to choose a mark that cannot be protected, or that may infringe upon another's rights. FINOS does not register all its projects' marks as trademarks, but the rules for selecting marks that can be registered are still useful guidelines when choosing a brand.
 
