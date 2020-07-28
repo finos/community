@@ -18,11 +18,7 @@ If you are FINOS project maintainer and you'd like the FINOS team to put forward
 
 ### Q2 2020
 
-<object data="https://raw.githubusercontent.com/finos/community/94b666c4ea720b3159d2aa772af5109352da8e34/focus-projects/assets/2020Q2-focus-projects-report.pdf" type="application/pdf" width="500px">
-    <embed src="https://raw.githubusercontent.com/finos/community/94b666c4ea720b3159d2aa772af5109352da8e34/focus-projects/assets/2020Q2-focus-projects-report.pdf">
-        <p><a href="https://raw.githubusercontent.com/finos/community/94b666c4ea720b3159d2aa772af5109352da8e34/focus-projects/assets/2020Q2-focus-projects-report.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<img src="assets/2020Q2-focus-projects-report.png" width="500" />
 
 
 ### Q1 2020
