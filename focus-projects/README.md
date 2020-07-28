@@ -8,7 +8,7 @@ The focus projects for the current quarter (Q2 2020) are:
 
 <img src="images/2020Q2-focus-projects.png" width="500" />
 
-A report on progress will be published after its presented to the Governing Board in the upcoming meeting.
+Reports on progress from the last quarter will be published shortly after the quarterly Governing Board meeting.
 
 ## Want to be a focus project?
 If you are FINOS project maintainer and you'd like the FINOS team to put forward your project as a candidate for quarterly focus project to the Board, [just raise an issue](https://github.com/finos/community/issues/new?title=Please%20consider%20%3Cproject%20name%3E%20as%20quarterly%20focus%20project%20for%20%3Cquarter%20year%3E&body=A%20brief%20description%20of%20your%20quarterly%20goals%20and%20how%20FINOS%20can%20help).
@@ -16,8 +16,15 @@ If you are FINOS project maintainer and you'd like the FINOS team to put forward
 
 ## Previous focus projects 
 
+### Q2 2020
+
+<object data="https://github.com/finos/community/raw/master/focus-projects/assets/2020Q2-focus-projects-report.pdf" type="application/pdf" width="500px">
+    <embed src="https://github.com/finos/community/raw/master/focus-projects/assets/2020Q2-focus-projects-report.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/finos/community/raw/master/focus-projects/assets/2020Q2-focus-projects-report.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
+
 ### Q1 2020
 
 <img src="images/2020Q1-focus-projects-report.png" width="500" />
-
-
