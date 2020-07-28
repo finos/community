@@ -6,7 +6,7 @@ Every quarter the Board evaluates and selects 5/6 focus projects that are in for
 
 The focus projects for the current quarter (Q2 2020) are:
 
-<img src="assets/2020Q2-focus-projects.png" width="500" />
+<img src="assets/2020Q2-focus-projects.png" width="800" />
 
 Reports on progress from the last quarter will be published shortly after the quarterly Governing Board meeting.
 
@@ -18,9 +18,9 @@ If you are FINOS project maintainer and you'd like the FINOS team to put forward
 
 ### Q2 2020
 
-<img src="assets/2020Q2-focus-projects-report.png" width="500" />
+<img src="assets/2020Q2-focus-projects-report.png" width="800" />
 
 
 ### Q1 2020
 
-<img src="assets/2020Q1-focus-projects-report.png" width="500" />
+<img src="assets/2020Q1-focus-projects-report.png" width="800" />
