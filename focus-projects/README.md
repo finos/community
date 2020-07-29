@@ -12,7 +12,7 @@ The focus projects for the current quarter (Q3 2020) are:
 | Morphir                 | Formation       | Contribution in Incubating stage                                                                                      | @brooklynrob      | [CONTRIB Issue](https://finosfoundation.atlassian.net/projects/CONTRIB/board?issue-key=CONTRIB-71) |
 | DevOps mutualization    | Formation       | Evaluate consensus to create SIG <br/> Get First Project Contribution and First Technology Consumer          | @mcleo-d          | [Formation Issue](https://github.com/finos/community/issues/44)                                      |
 | Security Reference Data | Incubating      | First Incubating release of mapping framework                                                                         | @toshaellison     | [Project Issue Tracking](https://github.com/finos/secref-data/issues)                                       |
-| Datahub / Data Helix    | Incubating      | Define FINOS Synthetic Data Project Synergies Grow Project(s) Consumers and Contributors Projects Utilized by 2 Banks | @mcleo-d          |                                                                                   |
+| Datahub / Data Helix    | Incubating      | Define FINOS Synthetic Data Project Synergies, <br/>Grow Project(s) Consumers and Contributors Projects, <br/>Utilized by 2 Banks | @mcleo-d          |                                                                                   |
 
 Reports on progress from the last quarter will be published below shortly after the quarterly Governing Board meeting. Join our [Community list](mailto:community+subscribe@finos.org) to stay up to date.
 
