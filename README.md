@@ -9,6 +9,11 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 - [FINOS Governance](governance/)
 - [FINOS Code of Conduct](governance/Code-of-Conduct.md)
 - [FINOS Members](https://finos.org/members)
+- [FINOS Project Landscape](https://landscape.finos.org)
+- [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
+- [FINOS Project template/blueprint](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
+- [FINOS Community Handbook](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
+=======
 
 ### Projects
 - [Current Quarterly Focus Projects](focus-projects#current-focus-projects)

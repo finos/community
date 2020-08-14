@@ -28,7 +28,7 @@ Individuals who have made significant contributions to FINOS projects can join o
 
 The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representatives and led by FINOS Executive Director. The Governing Board is composed of Platinum Representatives, each appointed by a Platinum member; up to five Gold Representatives, elected by the Gold Members voting as a class; and one Silver Representative, elected by the Silver Members voting as a class. FINOS uses [ranked-choice voting](Board-Election-Procedure.md) to tabulate elections.
 
-The Foundation's day-to-day operations are run by the [FINOS team](finos.org/team).
+The Foundation's day-to-day operations are run by the [FINOS team](https://finos.org/team).
 
 ## Policies
 
@@ -48,13 +48,13 @@ The following policies apply to all FINOS members and activities:
 
 # Community Governance
 
-FINOS is home to two kinds of [collaborative projects](finos.github.io): **open source software projects** and **open standards projects**. The majority of FINOS projects are open source software projects. FINOS projects are self-governing and may determine their own governance rules consistent with FINOS policies and the [open source definition](https://opensource.org/docs/osd), but FINOS provides default governance templates for both to provide projects with a starting point. 
+FINOS is home to two kinds of [collaborative projects](https://landscape.finos.org): **open source software projects** and **open standards projects**. The majority of FINOS projects are open source software projects. FINOS projects are self-governing and may determine their own governance rules consistent with FINOS policies and the [open source definition](https://opensource.org/docs/osd), but FINOS provides default governance templates for both to provide projects with a starting point. 
 
 FINOS also hosts **Special Interest Groups (SIGs)** which are forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects).
 
 All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md), [Meeting Procedures](Meeting-Procedures.md) and recommended to follow [Branding Guidelines](project-branding-guidelines.md). 
 
-For a list of our project see the [FINOS project catalog](finos.github.io) or the [FINOS landscape](l.finos.org).
+For a list of our project see the [FINOS project landscape](https://landscape.finos.org).
 
 ## Open Source Software Projects
 
@@ -83,9 +83,9 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead.
 
 ## Project Metrics 
-Live metrics of Project activity and contributions across all FINOS collaboration systems are publicly available in [FINOS Project Activity Dashboard](metrics.finos.org).
+Live metrics of Project activity and contributions across all FINOS collaboration systems are publicly available in [FINOS Project Activity Dashboard](https://metrics.finos.org).
 
 ## Project Quarterly Reporting and Focus Projects
-Every quarter, data about the health, activity, and progress of projects is reported to the Governing Board. Reports are largely generated automatically out of the [FINOS Project Activity Dashboard](metrics.finos.org) and provided to project teams for review and revision before being passed along to the board. The Governing Board and FINOS team use these reports to determine which projects need additional attention, which should be considered for archiving, etc.
+Every quarter, data about the health, activity, and progress of projects is reported to the Governing Board. Reports are largely generated automatically out of the [FINOS Project Activity Dashboard](https://metrics.finos.org) and provided to project teams for review and revision before being passed along to the board. The Governing Board and FINOS team use these reports to determine which projects need additional attention, which should be considered for archiving, etc.
 
 Additionally, every quarter the Governing Board identifies a few "focus projects" to receive particular attention from the FINOS team during the following quarter, with the goal of support growth and progression through the Project Lifecycle. Focus projects should be prepared to provide more detailed progress reports to the Board at the next Board meeting. For a list of current focus projects or to propose your project for quarterly focus, see [Quarterly Focus Projects](../focus-projects/README.md).
