@@ -9,7 +9,6 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 - [FINOS Governance](governance/)
 - [FINOS Code of Conduct](governance/Code-of-Conduct.md)
 - [FINOS Members](https://finos.org/members)
-=======
 
 ### Projects
 - [Current Quarterly Focus Projects](focus-projects#current-focus-projects)
