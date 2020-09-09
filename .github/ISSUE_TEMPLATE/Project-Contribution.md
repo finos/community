@@ -53,6 +53,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] (optional - if a build system is provided) The build process runs successfully
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
 - [ ] The codebase complies with FINOS Project Blueprint
+- [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
 
 ## Voting
 - [ ] Assign issue to @mindthegab to trigger voting
