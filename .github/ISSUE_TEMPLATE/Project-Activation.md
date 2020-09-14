@@ -17,7 +17,7 @@ A full description of FINOS project activation is linked and found in the table 
 |  | **Activation (promotion to Active State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
 | **What it means for consumers?**   | The Project is high quality, mature from a codebase and community dynamics perspective. The Project produces valuable releases to solve a useful business problem for our Community. |  |
-| **What it means for the Project Team?** | Glory in the Community<br/>Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc. |  <ul><li>[x] #4912 - Ready for Review</li></ul> |
+| **What it means for the Project Team?** | Glory in the Community<br/>Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc. |  |
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul><p>If Project Team choses not to use the FINOS provided Open Developer Platform (ODP), a comparable SDLC should be adopted and made available.</p> |  |
 | **Build & Release** | <p>The Project code/documentation release process automated or at lest well documented.</p><p>If code is published, publicly redistributed release binaries should be listed or referred to in the documentation (e.g. under the FINOS namespace in an artefact repository or package manager, e.g. NPM, Maven Central, etc.)</p> |   |
