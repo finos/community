@@ -65,6 +65,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 ## Code transfer and infra setup
 - [ ] (optional) Transfer code assets under github.com/finos
 - [ ] Add project to metadata
+- [ ] Update release coordinates to include `finos`
 - [ ] Add identities, orgs and affiliations to metadata
 - [ ] Apply project blueprint contents - see ODP docs
 - [ ] Update project badge
