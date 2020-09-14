@@ -51,6 +51,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
 - [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
 - [ ] (optional - if a build system is provided) The build process runs successfully
+  - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
 - [ ] The codebase complies with FINOS Project Blueprint
 - [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
