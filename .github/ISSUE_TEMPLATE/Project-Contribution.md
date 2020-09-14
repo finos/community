@@ -46,6 +46,8 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Check if maintainers and other contributors are all covered by FINOS CLA
 - [ ] Engage with FINOS Legal team to figure out what’s needed to cover all maintainers and contributors with FINOS CLA
 - [ ] Reach out to contributors and employers to coordinate CLA signatures
+- [ ] Invite GitHub usernames to GitHub FINOS Org
+- [ ] Create `<project-name>-maintainers` GitHub team and invite users
 
 ## Code validation (only if code is contributed)
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
@@ -64,7 +66,6 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] (optional) Transfer code assets under github.com/finos
 - [ ] Add project to metadata
 - [ ] Add identities, orgs and affiliations to metadata
-- [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Apply project blueprint contents - see ODP docs
 - [ ] Update project badge
 - [ ] Add logo to FINOS landscape
