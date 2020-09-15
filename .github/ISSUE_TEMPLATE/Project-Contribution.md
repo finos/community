@@ -62,8 +62,15 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Assign issue to @mindthegab to trigger voting
 - [ ] FINOS accepts the contribution (and the contribution process can move forward)
 
-## Code transfer and infra setup
-- [ ] (optional) Transfer code assets under github.com/finos
+## Code transfer
+- [ ] Check GitHub repository transfer requirements:
+  - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
+  - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
+  - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
+- [ ] Transfer all code assets as GitHub repositories under github.com/finos
+
+## Infra setup
+
 - [ ] Add project to metadata
 - [ ] Update release coordinates to include `finos`
 - [ ] Add identities, orgs and affiliations to metadata
