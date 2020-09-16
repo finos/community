@@ -26,8 +26,15 @@ assignees: 'maoo, aitana16'
 Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS contribution process.
 **Please do not edit these contents at contribution time!**
 
-## Identify project meta
-- [ ] Project Title
+## FINOS Contrib POC
+- [ ] Identify and Assign FINOS Contrib POC
+
+## Identify project meta (Lead: FINOS Contrib POC)
+- [ ] Project Name
+    - [ ] Assess current trademark status
+    - [ ] Define new project name (if applicable)
+    - [ ] Design new project logo (if applicable)
+    - [ ] Trademark new project name and logo (if applicable)
 - [ ] Category and sub-category (for FINOS Landscape)
 - [ ] Existing code or new Github repository
 - [ ] Existing code releases (and which artifact repositories are used)
@@ -37,7 +44,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Continuous Integration (existing/yes/no)
 - [ ] Documentation website (existing/yes/no)
 
-## Maintainers, contributors and CLAs
+## Maintainers, contributors and CLAs (Lead: FINOS Contrib POC, Support: FINOS infra)
 - [ ] For each maintainer identified in the previous step, collect: the following info:
   - Fullname
   - GitHub username
@@ -49,28 +56,28 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 
-## Code validation (only if code is contributed)
+## Code validation (only if code is contributed) (Lead: FINOS Infra)
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
 - [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
 - [ ] (optional - if a build system is provided) The build process runs successfully
   - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
 - [ ] The codebase complies with FINOS Project Blueprint
+    - [ ] Create new CONTRIBUTING.template.md
 - [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
 
-## Voting
+## Voting (Lead: FINOS Infra)
 - [ ] Assign issue to @mindthegab to trigger voting
 - [ ] FINOS accepts the contribution (and the contribution process can move forward)
 
-## Code transfer
+## Code transfer (Lead: FINOS Infra)
 - [ ] Check GitHub repository transfer requirements:
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
 
-## Infra setup
-
+## Infra setup (Lead: FINOS Infra)
 - [ ] Add project to metadata
 - [ ] Update release coordinates to include `finos`
 - [ ] Add identities, orgs and affiliations to metadata
@@ -82,8 +89,16 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Enable security vulnerabilities scanning
 - [ ] Enable meeting attendance tracking (optional)
 
-## Announcement
+## Announcement (Lead: FINOS Contrib POC)
 - [ ] Work with FINOS marketing to send out announcement to community@finos.org , checkout announcement template on https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+
+## Press Release (OPTIONAL) (Lead: FINOS Contrib POC)
+- [ ] Identify quotes for press release
+- [ ] Draft press release
+- [ ] Send embargoed press release to reporters
+- [ ] Coordinate social media promotion of the press release with FINOS marketing 
+    - [ ] Post on FINOS social media
+    - [ ] Post on LF social media
 
 ## Onboarding and training
 - [ ] FINOS Project Governance
