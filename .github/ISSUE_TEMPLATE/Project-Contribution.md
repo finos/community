@@ -29,7 +29,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 ## FINOS Contrib POC
 - [ ] Identify and Assign FINOS Contrib POC
 
-## Identify project meta (Lead: FINOS Contrib POC)
+## Identify project meta (Lead: FINOS Contrib POC, Support: FINOS Marketing)
 - [ ] Project Name
     - [ ] Assess current trademark status
     - [ ] Define new project name (if applicable)
@@ -63,7 +63,6 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
   - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
 - [ ] The codebase complies with FINOS Project Blueprint
-    - [ ] Create new CONTRIBUTING.template.md
 - [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
 
 ## Voting (Lead: FINOS Infra)
