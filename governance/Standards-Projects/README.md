@@ -22,7 +22,7 @@ The above is only a summary of the IP licensing requirements of the FINOS IP Pol
 
 ### Joining a standards project, grace period for new participants
 
-Because every participant in a standards process must make a meaningful commitment regarding its own IP, membership in standards projects is important. Project leads should ensure that participants make their intent to join the group explicit, in writing (an email is fine). Each participant has a grace period of 60 days after their enrollment to withdraw from the project and from any licensing commitment regarding the standards it approves. However, this grace period does not apply to the participant's own intentional contributions; if a participant makes a written or oral contribution to the standards process during the grace period, it commits to license any IP it holds related to that contribution.
+Because every participant in a standards process must make a meaningful commitment regarding its own IP, membership in standards projects is important. Project leads should ensure that participants make their intent to enroll as a participant to the group explicit, in writing (an email is fine). Each participant has a grace period of 60 days after their enrollment to withdraw from the project and from any licensing commitment regarding the standards it approves. However, this grace period does not apply to the participant's own intentional contributions; if a participant makes a written or oral contribution to the standards process during the grace period, it commits to license any IP it holds related to that contribution.
 
 ### Specific rules for software
 
