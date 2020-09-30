@@ -4,7 +4,7 @@ Within FINOS, a standards project is a project chartered to produce technical st
 
 The information in this document summarize the requirements for standards projects, most of which are found in the [IP Policy](../IP-Policy.pdf). Anyone involved in running a standards project should review that policy carefully in addition to referring to this information. 
 
-Each standards project will also be goverened by the additional policies and procedures set out in its charter. FINOS recommends that new standards projects adopt the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Because the Community Specification process varies in a few respects from the FINOS IP Policy, the Board must approve its use together with the project's charter.
+Each standards project will also be governed by the additional policies and procedures set out in its charter. FINOS recommends that new standards projects adopt the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Because the Community Specification process varies in a few respects from the FINOS IP Policy, the Board must approve its use together with the project's charter.
 
 ## Establishing a standards project
 
