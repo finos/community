@@ -1,9 +1,9 @@
 ---
 name: "\U0001F58AProject Contribution and Onboarding"
 about: To Contribute a Project to FINOS
-title: 'Project Contribution and Onboarding'
+title: Project Contribution and Onboarding
 labels: ''
-assignees: 'maoo, aitana16'
+assignees: aitana16, maoo
 
 ---
 
@@ -22,7 +22,7 @@ assignees: 'maoo, aitana16'
 ## Development Team
 *List out all of the current team members, including full name, affiliation, work email address, and GitHub.com username*
 
-# Contribution process
+# Contribution process (v. 1.0, last updated on October 2, 2020)
 Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS contribution process.
 **Please do not edit these contents at contribution time!**
 
@@ -43,6 +43,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Meeting minutes, agenda, attendance tracking (existing/yes/no)
 - [ ] Continuous Integration (existing/yes/no)
 - [ ] Documentation website (existing/yes/no)
+- [ ] Define project slug
 
 ## Maintainers, contributors and CLAs (Lead: FINOS Contrib POC, Support: FINOS infra)
 - [ ] For each maintainer identified in the previous step, collect: the following info:
@@ -56,6 +57,13 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 
+## Project Communication Channel(s)
+- [ ] Ask maintainers which communications channels they'd like to use and if more than one are needed. These may include
+    - [ ] Creation of one or more project mailing lists (e.g. general@, or dev@ and users@)
+    - [ ] Creation of one or more Slack or Symphony chats for the project
+- [ ] Create the identified communication channels during infra set up
+- [ ] Link communication channels linked front and center in the project README.md.
+
 ## Code validation (only if code is contributed) (Lead: FINOS Infra)
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
 - [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
@@ -66,7 +74,8 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
 
 ## Voting (Lead: FINOS Infra)
-- [ ] Assign issue to @mindthegab to trigger voting
+- [ ] Assign issue to Executive Director (@mindthegab) to trigger voting
+- [ ] (optional) at the discretion of the Executive Director: bring projects to the Board for additional socialization and approval
 - [ ] FINOS accepts the contribution (and the contribution process can move forward)
 
 ## Code transfer (Lead: FINOS Infra)
@@ -80,16 +89,26 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Add project to metadata
 - [ ] Update release coordinates to include `finos`
 - [ ] Add identities, orgs and affiliations to metadata
-- [ ] Apply project blueprint contents - see ODP docs
+- [ ] Invite GitHub usernames to GitHub FINOS Org
+- [ ] Apply project blueprint contents - see [ODP docs](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
+    - [ ] ensure that the proper project governance is in the CONTRIBUTING.md file
 - [ ] Update project badge
+- [ ] Update code namespace (best effort)
 - [ ] Add logo to FINOS landscape
 - [ ] Add project maintainers emails to finos-project-maintainers@finos.org list
 - [ ] Add project maintainers GitHub usernames to the project-maintainers Team
 - [ ] Enable security vulnerabilities scanning
 - [ ] Enable meeting attendance tracking (optional)
 
+## Define support model for project constituents (with special attention to ticketing systems, SLAs and support across timezones)
+- [ ] Developers/ Contributors
+    - [ ] internal developers (i.e. developers from the contributing organization)
+    - [ ] external developers/ contributors
+- [ ] Consumers
+
 ## Announcement (Lead: FINOS Contrib POC)
-- [ ] Work with FINOS marketing to send out announcement to community@finos.org , checkout announcement template on https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Work with FINOS marketing to send out announcement to community@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
 ## Press Release (OPTIONAL) (Lead: FINOS Contrib POC)
 - [ ] Identify quotes for press release
