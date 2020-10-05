@@ -2,7 +2,7 @@
 name: "\U0001F58AProject Contribution and Onboarding"
 about: To Contribute a Project to FINOS
 title: Project Contribution and Onboarding
-labels: ''
+labels: contribution
 assignees: aitana16, maoo
 
 ---
