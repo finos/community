@@ -80,7 +80,7 @@ Software projects follow the [Project Lifecycle](Software-Projects/Project-Lifec
 
 The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects. 
 
-Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead.
+Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead. [Forming projects](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#forming-projects-optional) might not be publicly visible until entering Incubation when they will be fully open sourced.
 
 ## Project Metrics 
 Live metrics of Project activity and contributions across all FINOS collaboration systems are publicly available in [FINOS Project Activity Dashboard](https://metrics.finos.org).
