@@ -70,7 +70,11 @@ FINOS standards projects are recommended to use the Joint Development Foundation
 
 ## Special Interest Groups
 
-Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, which also appoints the initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. Read more for [a list of current SIGs](special-interest-groups) and how to propose a new SIG.
+Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, including a Charter and  initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. The Charter may also be updated from time to time with udpates published publicly. Read more for [a list of current SIGs](special-interest-groups) and how to propose a new SIG.
+
+All participants in SIGs are subject to [FINOS Policies](#policies) and [Community Governance](#community-governance) including complying with [Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy) and [Community Code of Conduct](Code-of-Conduct.md).
+
+Documents produced or contributed as part of the SIG will be contributed and made available under CC-BY-4.0.
 
 # Project Lifecycle and steering
 
