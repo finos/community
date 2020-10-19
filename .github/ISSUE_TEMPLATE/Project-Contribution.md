@@ -107,7 +107,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Consumers
 
 ## Announcement (Lead: FINOS Contrib POC)
-- [ ] Work with FINOS marketing to send out announcement to community@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
 - [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
 ## Press Release (OPTIONAL) (Lead: FINOS Contrib POC)
