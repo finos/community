@@ -54,8 +54,6 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Check if maintainers and other contributors are all covered by FINOS CLA
 - [ ] Engage with FINOS Legal team to figure out what’s needed to cover all maintainers and contributors with FINOS CLA
 - [ ] Reach out to contributors and employers to coordinate CLA signatures
-- [ ] Invite GitHub usernames to GitHub FINOS Org
-- [ ] Create `<project-name>-maintainers` GitHub team and invite users
 
 ## Project Communication Channel(s)
 - [ ] Ask maintainers which communications channels they'd like to use and if more than one are needed. These may include
@@ -68,9 +66,10 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
 - [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
 - [ ] (optional - if a build system is provided) The build process runs successfully
-  - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
+- [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
-- [ ] The codebase complies with FINOS Project Blueprint
+- [ ] Apply project blueprint contents - see [ODP docs](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
+    - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
 - [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
 
 ## Voting (Lead: FINOS Infra)
@@ -84,21 +83,22 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
+- [ ] Invite GitHub usernames to GitHub FINOS Org
+- [ ] Create `<project-name>-maintainers` GitHub team and invite users
 
 ## Infra setup (Lead: FINOS Infra)
-- [ ] Add project to metadata
-- [ ] Update release coordinates to include `finos`
-- [ ] Add identities, orgs and affiliations to metadata
-- [ ] Invite GitHub usernames to GitHub FINOS Org
-- [ ] Apply project blueprint contents - see [ODP docs](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
-    - [ ] ensure that the proper project governance is in the CONTRIBUTING.md file
+- [ ] Update release coordinates and code namespace to include `finos` (best effort)
 - [ ] Update project badge
-- [ ] Update code namespace (best effort)
+- [ ] Update project README
+- [ ] Enable security vulnerabilities scanning
+- [ ] Enable meeting attendance tracking (optional)
+
+## Metadata update (Lead: FINOS Infra)
+- [ ] Add project to metadata
+- [ ] Add identities, orgs and affiliations to metadata
 - [ ] Add logo to FINOS landscape
 - [ ] Add project maintainers emails to finos-project-maintainers@finos.org list
 - [ ] Add project maintainers GitHub usernames to the project-maintainers Team
-- [ ] Enable security vulnerabilities scanning
-- [ ] Enable meeting attendance tracking (optional)
 
 ## Define support model for project constituents (with special attention to ticketing systems, SLAs and support across timezones)
 - [ ] Developers/ Contributors
