@@ -72,7 +72,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
 - [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
 
-## Voting (Lead: FINOS Infra)
+## Approval (Lead: FINOS Infra)
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger voting
 - [ ] (optional) at the discretion of the Executive Director: bring projects to the Board for additional socialization and approval
 - [ ] FINOS accepts the contribution (and the contribution process can move forward)
@@ -109,6 +109,10 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 ## Announcement (Lead: FINOS Contrib POC)
 - [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
 - [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
+
+## Marketing collateral
+- [ ] Update marketing collateral to include the new project
+- [ ] Update numbers and project logos as needed
 
 ## Press Release (OPTIONAL) (Lead: FINOS Contrib POC)
 - [ ] Identify quotes for press release
