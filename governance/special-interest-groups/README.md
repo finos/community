@@ -5,7 +5,8 @@ Here's a list of special interest groups (SIGs) currently active in FINOS:
 
 | Name  | Charter | Chair | URL  | Approved on  |
 |---|---|---|---|---|
-|  Diversity & Inclusion | TBC  | Alejandra Villagra (Citi) | TBC  | July 15th 2020 |
+| Devops Mutualization | | Amol Shukla (Morgan Stanley) | TBC | October 21st 2020|
+| Regulation Innovation | | David Ehrich (AIR) | https://github.com/finos/open-regtech | October 21st 2020|
 
 ## Want to propose a new SIG?
 
