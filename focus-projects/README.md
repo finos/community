@@ -6,13 +6,12 @@ Every quarter the Board evaluates and selects 5/6 focus projects that are in for
 
 The focus projects for the current quarter (Q3 2020) are:
 
-| Project                 | Lifecycle Stage | Q3 Target Goals                                                                                                  | FINOS Support POC | Progress (issues, a high level description, etc.)                                 |
+| Project                 | Lifecycle Stage | Q4 Target Goals                                                                                                  | FINOS Support POC | Progress (issues, a high level description, etc.)                                 |
 |-------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------------------------------------------------------------------|
-| Alloy                   | Formation       | Phase 2, “Wave 1” Code Contribution Milestone:  </br>SDLC, Execution, Studio, PURE System                                 | @brooklynrob      | [Phase 2, Wave 1 Milestone](https://github.com/finos/alloy/milestone/6)                                       |
-| Morphir                 | Formation       | Contribution in Incubating stage                                                                                      | @brooklynrob      | [CONTRIB Issue](https://finosfoundation.atlassian.net/projects/CONTRIB/board?issue-key=CONTRIB-71) |
-| DevOps mutualization    | Formation       | Evaluate consensus to create SIG <br/> Get First Project Contribution and First Technology Consumer          | @mcleo-d          | [Formation Issue](https://github.com/finos/community/issues/44)                                      |
-| Security Reference Data | Incubating      | First Incubating release of mapping framework                                                                         | @toshaellison     | [Project Issue Tracking](https://github.com/finos/secref-data/issues)                                       |
-| Datahub / Data Helix    | Incubating      | Define FINOS Synthetic Data Project Synergies, <br/>Grow Project(s) Consumers and Contributors Projects, <br/>Utilized by 2 Banks | @mcleo-d          |                                                                                   |
+| Git-proxy                   | Formation      | Grow Git Proxy community and complete code contribution into FINOS.                                 | @maoo      | [Contribution issue](https://github.com/finos/community/issues/65)                                       |
+| Regulation Innovation SIG   | Approved       | SIG fully functional and structured. One project created.                                                                                      | @aitana16      | [SIG Onboarding](https://github.com/finos/community/issues/80) |
+| Cloud Service Certification | Incubating     | Public results for one end-to-end test. Forge pan-Industry partnership. | @mcleo-d          | [Repo](https://github.com/finos/cloud-service-certification)                                      |                                   |
+| Symphony Java Toolkit    | Incubating      | Consolidate ecosystem  and expand contributors from other firms. | @mindthegab          |                 [Repo](https://github.com/finos/symphony-java-toolkit)                                                                  |
 
 Reports on progress from the last quarter will be published below shortly after the quarterly Governing Board meeting. Join our [Community list](mailto:community+subscribe@finos.org) to stay up to date.
 
@@ -22,10 +21,12 @@ If you are FINOS project maintainer and you'd like the FINOS team to put forward
 
 ## Previous focus projects
 
+### Q3 2020
+<img src="assets/2020Q3-focus-projects-report.png" width="800" />
+
 ### Q2 2020
 
 <img src="assets/2020Q2-focus-projects-report.png" width="800" />
-
 
 ### Q1 2020
 
