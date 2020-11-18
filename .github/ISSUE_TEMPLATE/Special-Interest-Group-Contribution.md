@@ -62,6 +62,7 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 - [ ] Transfer all assets as GitHub repositories under github.com/finos
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<sig-name>-maintainers` GitHub team and invite users
+- [ ] Configure `finos-admins` and `finos-staff` team permissions
 
 ## Infra setup (Lead: FINOS Infra)
 - [ ] Update SIG badge
