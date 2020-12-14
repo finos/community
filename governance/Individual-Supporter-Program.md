@@ -19,3 +19,6 @@ To apply, please email membership@finos.org and let us know how you meet the cri
 * Attendance at select members-only events
 * Free or discounted tickets to select paid FINOS events
 * Access to the members-only lists and communications
+
+## List of individual supporters
+Our valued individual supporters are listed in our [FINOS Members page](https://www.finos.org/members#at-large).
