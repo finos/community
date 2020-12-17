@@ -10,7 +10,7 @@ labels: community-recognition
 Let FINOS know who you'd like to recognise in the FINOS Community by providing the following information your GitHub issue.  
 
 - The person or people in the FINOS Community you'd like to recognise
-- The tagged GitHub profiles of the recognised person or people 
+- The GitHub profiles of the recognised person or people 
 - The FINOS projects, special interest groups, meetups, events ... etc where they contribute to FINOS
 - The reason why they've been recognised 
 
