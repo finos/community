@@ -7,7 +7,7 @@ labels: community-recognition
 ---
 
 ## Who in the FINOS Community would you like to recognise?
-Let FINOS know who you'd like to recognise in the FINOS Community by providing the following information your GitHub issue.  
+Let FINOS know who you'd like to recognise in the FINOS Community by providing the following information in your GitHub issue.  
 
 - The person or people in the FINOS Community you'd like to recognise
 - The GitHub profiles of the recognised person or people 
