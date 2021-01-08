@@ -1,4 +1,4 @@
-# What is a Quarterly Focus Project
+# What is a Quarterly Focus Project?
 
 Every quarter the Board evaluates and selects 5/6 focus projects that are in formation, incubation or active stage. Focus projects get special attention from the FINOS team, according to the [FINOS Project Support Guidelines](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1511161857/Project+Support+Guidelines), during a 3 months period in order to achieve goals most often related to growing maturity, adoption and contribution, often resulting in the project evolve to the next stage in the [Project Lifecycle](../governance/Project-Lifecycle.md).
 
