@@ -8,6 +8,7 @@ assignees: maoo, aitana16
 ---
 
 # New modeling initiative on FINOS Legend shared instance
+Please note that only FINOS members can propose new projects. If you are not a FINOS member, feel free to reach out to community@finos.org to find a FINOS member willing to sponsor your proposal.
 
 ## Business Problem
 *Describe the business problem that the modeling effort addresses*
@@ -23,12 +24,12 @@ assignees: maoo, aitana16
 
 ## Team
 ### Leadership
-*Who will lead this modeling effort? Provide full name, affiliation, work email address, and GitHub.com username.*
+*Who will lead this project? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 ### Confirmed Contributors
 *List all of the individuals that have expressed interest in and are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
 
-**_Please note that proposals for new modeling initiatives will be pending until at least two different organizations have [expressed interest in contributing](https://www.finos.org/legend) to it_**
+FINOS hosts collaborative modeling initiatives, so contributors are encouraged to seek public commitment from at least one additional organization before the project can be approved. 
 
 ### Target Contributors
 *Describe the contributor profile (background, position, organization) you'd like to see engaged in this project*
@@ -54,8 +55,8 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
 - [ ] Meetings (existing/yes/no)
 - [ ] Meeting minutes, agenda, attendance tracking (existing/yes/no)
 
-## Proposal (Modeling effort Lead)
-- [ ] Modeling effort Lead to send out announcement to community@finos.org using this template:
+## Proposal (Lead maintainer)
+- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
     
     ```
     Dear FINOS Community, 
@@ -70,7 +71,9 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
    
    Thanks a lot,
    ```
-   
+## Approval
+- [ ] Assign this issue to Executive Director for approval
+
 ## Project setup
 - [ ] If applicable, create a new project for the modeling initiative on the Legend hosted instance
 - [ ] If applicable, set up recurring meetings
