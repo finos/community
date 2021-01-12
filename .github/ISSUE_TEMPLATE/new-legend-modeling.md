@@ -83,5 +83,4 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
 - [ ] Add project maintainers GitHub usernames to the project-maintainers Team
 
 ## Next steps (to be addressed in a separate GitHub issue once the project has been set up)
-- Logo
 - Invite GitHub usernames to GitHub FINOS Org
