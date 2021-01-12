@@ -7,8 +7,8 @@ assignees: maoo, aitana16
 
 ---
 
-# New modeling initiative on FINOS Legend shared instance
-Please note that only FINOS members can propose new projects. If you are not a FINOS member, feel free to reach out to community@finos.org to find a FINOS member willing to sponsor your proposal.
+# Proposal: New modeling initiative on FINOS Legend shared instance
+Please note that only FINOS members can propose new projects. If you are not a FINOS member, consider [becoming a FINOS member](https://www.finos.org/membership-benefits#become-a-member) or reach out to community@finos.org to find a FINOS member willing to sponsor your proposal.
 
 ## Business Problem
 *Describe the business problem that the modeling effort addresses*
@@ -27,7 +27,7 @@ Please note that only FINOS members can propose new projects. If you are not a F
 *Who will lead this project? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 ### Confirmed Contributors
-*List all of the individuals that have expressed interest in and are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
+*If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
 
 FINOS hosts collaborative modeling initiatives, so contributors are encouraged to seek public commitment from at least one additional organization before the project can be approved. 
 
