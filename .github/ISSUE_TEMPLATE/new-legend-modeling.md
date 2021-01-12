@@ -26,7 +26,7 @@ assignees: maoo, aitana16
 *Who will lead this modeling effort? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 ### Confirmed Contributors
-*List all of the individuals that have expressed interest in and are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username
+*List all of the individuals that have expressed interest in and are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
 
 **_Please note that proposals for new modeling initiatives will be pending until at least two different organizations have [expressed interest in contributing](https://www.finos.org/legend) to it_**
 
