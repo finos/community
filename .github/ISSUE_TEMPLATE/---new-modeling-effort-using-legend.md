@@ -31,10 +31,8 @@ assignees: maoo, aitana16
 *Describe the contributor profile (background, position, organization) you'd like to see engaged in this project*
 
 ## Infrastructure needs
-*Describe the infrastructure needed from FINOS (i.e. a project on the Legend Studio hosted instance, recurring meetings, a mailing list*
+*Describe the infrastructure set up needed from FINOS (i.e. a project on the Legend Studio hosted instance, recurring meeting infrastructure*
 
-## Other asks for the FINOS team
-*Describe any additional asks to the FINOS team (e.g. introductions)*
 
 ----
 
@@ -59,7 +57,6 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
 - [ ] Encourage interested modelers to sign up for an account at finos.org/legend
 - [ ] Encourage interested modelers to sign up by commenting on this proposal issue with their name, org and email
 
-## Collaboration platform setup
-- [ ] If applicable, create the communication channels requested in the modeling effort proposal 
-- [ ] Assess whether modelers would like to work off a branch of the Scratch project or if they need a project created for them
+## Project setup
 - [ ] If applicable, create a new project for the modeling initiative on the Legend hosted instance
+- [ ] If applicable, set up recurring meetings
