@@ -31,7 +31,7 @@ assignees: maoo, aitana16
 *Describe the contributor profile (background, position, organization) you'd like to see engaged in this project*
 
 ## Infrastructure needs
-*Describe the infrastructure set up needed from FINOS (i.e. a project on the Legend Studio hosted instance, recurring meeting infrastructure*
+*Describe the infrastructure set up needed from FINOS (i.e. a project on the Legend Studio hosted instance, recurring meeting infrastructure, mailing list*
 
 
 ----
@@ -50,13 +50,22 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
 - [ ] Modeling effort leader
 - [ ] Meetings (existing/yes/no)
 - [ ] Meeting minutes, agenda, attendance tracking (existing/yes/no)
-- [ ] Continuous Integration (existing/yes/no)
 
-## Announcement (Modeling effort Lead)
-- [ ] Modeling effort Lead to send out announcement to community@finos.org 
-- [ ] Encourage interested modelers to sign up for an account at finos.org/legend
-- [ ] Encourage interested modelers to sign up by commenting on this proposal issue with their name, org and email
-
+## Proposal (Modeling effort Lead)
+- [ ] Modeling effort Lead to send out announcement to community@finos.org using this template:
+    Dear FINOS Community, 
+    
+    We would like to propose a new modeling effort to be hosted on the FINOS Legend shared instance.
+    Please review the proposal details at (TODO: add link to this GitHub issue proposal).
+    
+    If you're interested in participating, please 
+    - :+1: the GitHub issue proposal and drop a comment with your name, org and email
+    - sign up for an account at finos.org/legend
+    - sign up to the legend@finos.org mailing list by sending an email to legend+subscribe@finos.org
+   
+   Thanks a lot,
+   
 ## Project setup
 - [ ] If applicable, create a new project for the modeling initiative on the Legend hosted instance
 - [ ] If applicable, set up recurring meetings
+- [ ] If applicable, set up mailing list
