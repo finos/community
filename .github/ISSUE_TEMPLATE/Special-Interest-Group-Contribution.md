@@ -28,7 +28,7 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 ## Voting (SIG Lead and FINOS ED)
 - [ ] Contribution author triggers community voting to propose SIG to FINOS board
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger vote
-- [ ] (optional) at the discretion of the Executive Director: bring SIG to the Board for additional socialization and approval
+- [ ] Executive Director brings SIG to the Board for additional socialization and approval
 - [ ] FINOS board accepts the SIG (and the onboarding process can move forward)
 
 ## Identify project meta (Lead: FINOS SIG POC, Support: FINOS Marketing)
