@@ -56,11 +56,9 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Reach out to contributors and employers to coordinate CLA signatures
 
 ## Project Communication Channel(s)
-- [ ] Ask maintainers which communications channels they'd like to use and if more than one are needed. These may include
-    - [ ] Creation of one or more project mailing lists (e.g. general@, or dev@ and users@)
-    - [ ] Creation of one or more Slack or Symphony chats for the project
+- [ ] Ask maintainers which communications channels they'd like to use: GitHub Issues and/or Google Groups
 - [ ] Create the identified communication channels during infra set up
-- [ ] Link communication channels linked front and center in the project README.md.
+- [ ] Link communication channels linked front and center in the project README.md
 
 ## Code validation (only if code is contributed) (Lead: FINOS Infra)
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
@@ -102,29 +100,21 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Add project maintainers emails to finos-project-maintainers@finos.org list
 - [ ] Add project maintainers GitHub usernames to the project-maintainers Team
 
-## Define support model for project constituents (with special attention to ticketing systems, SLAs and support across timezones)
-- [ ] Developers/ Contributors
-    - [ ] internal developers (i.e. developers from the contributing organization)
-    - [ ] external developers/ contributors
-- [ ] Consumers
-
 ## Announcement (Lead: FINOS Contrib POC)
 - [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
 - [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
-## Marketing collateral
-- [ ] Update marketing collateral to include the new project
-- [ ] Update numbers and project logos as needed
+## Marketing collaterals and Social (Lead: FINOS Marketing)
+- [ ] Update FINOS marketing collaterals to update numbers and include the new project
+- [ ] Post on FINOS social media
+- [ ] Post on LF social media
 
-## Press Release (OPTIONAL) (Lead: FINOS Contrib POC)
-- [ ] Identify quotes for press release
-- [ ] Draft press release
-- [ ] Send embargoed press release to reporters
-- [ ] Coordinate social media promotion of the press release with FINOS marketing 
-    - [ ] Post on FINOS social media
-    - [ ] Post on LF social media
-
-## Onboarding and training
+## Onboarding and training (Lead: FINOS Infra)
 - [ ] FINOS Project Governance
 - [ ] FINOS Project Lifecycle
 - [ ] ODP Training
+
+## Press Release (OPTIONAL - Lead: FINOS Marketing)
+- [ ] Identify quotes for press release
+- [ ] Draft press release
+- [ ] Send embargoed press release to reporters
