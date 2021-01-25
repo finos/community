@@ -37,6 +37,10 @@ FINOS hosts collaborative modeling initiatives, so contributors are encouraged t
 ## Infrastructure needs
 *Describe the infrastructure set up needed from FINOS (i.e. a project on the Legend Studio hosted instance, recurring meeting infrastructure, mailing list*
 
+### Please indicate if the project you are proposing is:
+- [ ] A **new FINOS project** , which requires approval from FINOS Executive Director
+- [ ] A **new work stream under an [existing FINOS project](https://landscape.finos.org/)** (e.g. Financial Objects, Securities Reference Data,...), which requires approval from the project's lead maintainers
+
 
 ----
 
@@ -72,7 +76,9 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
    Thanks a lot,
    ```
 ## Approval
-- [ ] Assign this issue to Executive Director for approval
+- [ ] If this is a proposal for a **new FINOS project**, assign this issue to FINOS Executive Director for approval
+- [ ] If this is a proposal for a **new workstream under an existing FINOS project**, request approval from the project's lead maintainer(s) 
+
 
 ## Project setup
 - [ ] If applicable, create a new project for the modeling initiative on the Legend hosted instance
