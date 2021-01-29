@@ -3,7 +3,7 @@
 The following are details of all FINOS and FINOS Member / Partner meetups open to the FINOS and wider open source community to join.
 
 ## Presenting at a FINOS meetup
-Meetup organiser details are also provided for FINOS projects wanting to join, present or demo to any FINOS meetup community.  
+Organiser details are also provided for FINOS projects wanting to join, present or demo to any FINOS meetup community.  
 
 ## UK Open Source Fintech Meetups
 
