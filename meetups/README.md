@@ -2,7 +2,7 @@
 
 ## UK Open Source Fintech Meetups
 
-### Meetup Organisers 
+### UK Meetup Organisers 
 - Claire Cocks, Business Development Campaign Manager, Scott Logic  - ccocks@scottlogic.com
 - Paul Dykes, Content and Channel Manager, Scott Logic - PDykes@scottlogic.com
 
