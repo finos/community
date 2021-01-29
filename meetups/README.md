@@ -19,7 +19,7 @@
 
 ### APAC Meetup Organiser 
 
-- Andrew King, Principal Consultant, Suite2Go
+- Andrew King, Principal Consultant, Suite2Go - andrew.king@cosaic.io
 
 ### APAC Virtual Meetups
 
