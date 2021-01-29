@@ -20,7 +20,7 @@ Organiser details are also provided for FINOS projects and special interest grou
 | Bristol Open Source Fintech Meetup | Organised in partnership by FINOS and Scott Logic, the Bristol Open Source Fintech Meetup aims to expand contributions to and consumption of open source technologies, while growing a healthy engineering community in the financial services industry. | https://www.meetup.com/Bristol-Open-Source-Fintech-Meetup/ | 
 
 
-## APAC Open Source Fintech Meetups
+## APAC Open Source Fintech Meetup
 
 ### APAC Meetup Organiser 
 
