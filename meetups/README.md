@@ -17,3 +17,12 @@
 
 ## APAC Open Source Fintech Meetups
 
+### APAC Meetup Organiser 
+
+- Andrew King, Principal Consultant, Suite2Go
+
+### APAC Virtual Meetups
+
+|Meetup Name|Description|Where to find us|
+|:---|:---|:---|
+| APAC Open Source Fintech Meetup | The APAC Open Source Fintech Meetup aims to expand contributions to and consumption of FINOS open source technologies virtually across the APAC region, while growing a healthy engineering community in the financial services industry. | <ul><li><a href="https://www.finos.org/hosted-events/2020-11-25-apac-open-source-fintech-meetup">25th November 2020 APAC Open Source Fintech Meetup</a></li></ul> | 
