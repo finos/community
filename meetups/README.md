@@ -8,7 +8,7 @@
 
 ### UK Meetups
 
-|Meetup|Description|Where to find us|
+|Meetup Name|Description|Where to find us|
 |:---|:---|:---|
 | London Open Source Fintech Meetup | Organised in partnership by FINOS and Scott Logic, the London Open Source Fintech Meetup aims to expand contributions to and consumption of open source technologies, while growing a healthy engineering community in the financial services industry. | https://www.meetup.com/London-Open-Source-Fintech-Meetup/ | 
 | Edinburgh Open Source Fintech Meetup | Organised in partnership by FINOS and Scott Logic, the Edinburgh Open Source Fintech Meetup aims to expand contributions to and consumption of open source technologies, while growing a healthy engineering community in the financial services industry. | https://www.meetup.com/Edinburgh-Open-Source-Fintech-Meetup/ | 
