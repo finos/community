@@ -16,6 +16,7 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 - [FINOS Project Catalog](https://finos.github.io)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
 - [FINOS Project template/blueprint](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
+- [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
 
 ### Resources
 - [FINOS Website](https://finos.org)
