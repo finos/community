@@ -99,6 +99,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Add logo to FINOS landscape
 - [ ] Add project maintainers emails to finos-project-maintainers@finos.org list
 - [ ] Add project maintainers GitHub usernames to the project-maintainers Team
+- [ ] Onboard project on LF systems (SFDC, Insights, EasyCLA, Groups.io)
 
 ## Announcement (Lead: FINOS Contrib POC)
 - [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
