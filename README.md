@@ -26,6 +26,10 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 - [FINOS Jira](https://finosfoundation.atlassian.net/secure/Dashboard.jspa)
 - [FINOS Community Handbook - ARCHIVED](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
 
+
+## Join the FINOS Slack
+Join the FINOS Project, SIG and wider community conversation in the FINOS Slack by emailing help@finos.org for an invitation or by visiting https://finos-lf.slack.com/ if you're a FINOS or Linux Foundation team member.
+
 ## License
 
 Copyright 2020 Fintech Open Source Foundation
