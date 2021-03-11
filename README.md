@@ -1,3 +1,6 @@
+[<img src="https://img.shields.io/badge/slack-@finos/community-green.svg?logo=slack">](https://finos-lf.slack.com/messages/finos-community/)
+
+
 <img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
 # FINOS Community Collaboration Space
@@ -28,7 +31,8 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 
 
 ## Join the FINOS Slack
-Join the FINOS Project, SIG and wider community conversation in the FINOS Slack by emailing help@finos.org for an invitation or by visiting https://finos-lf.slack.com/ if you're a FINOS or Linux Foundation team member.
+Join the FINOS Project, SIG and wider community conversation in the FINOS Slack by signing up at https://finos-lf.slack.com/. Don't hesitate to reach out to help@finos.org for any issues when joining Slack. The FINOS Community wide channel on Slack is reachable directly at https://finos-lf.slack.com/messages/finos-community/.
+
 
 ## License
 
