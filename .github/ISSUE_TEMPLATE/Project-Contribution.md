@@ -105,10 +105,11 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
 - [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
-## Marketing collaterals and Social (Lead: FINOS Marketing)
+## Marketing collateral and Social (Lead: FINOS Marketing)
 - [ ] Update FINOS marketing collaterals to update numbers and include the new project
 - [ ] Post on FINOS social media
 - [ ] Post on LF social media
+- [ ] Email brief announcement to lf_staff@linuxfoundation.org (Optional depending applicability of contribution)
 
 ## Onboarding and training (Lead: FINOS Infra)
 - [ ] FINOS Project Governance
