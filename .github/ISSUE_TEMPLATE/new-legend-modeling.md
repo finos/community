@@ -15,6 +15,9 @@ Please note that only FINOS members can propose new projects. If you are not a F
  
 ## Proposed Solution
 *Describe the proposed modeling effort and how it aims to solve the business problem.*
+
+## Tentative Roadmap
+*Describe the short and medium term goals and phases of the modeling initiative. What does success look like for this modeling initiative?
  
 ## Current Status
 *If applicable, summarize the history and current state of the modeling effort*
@@ -37,11 +40,16 @@ FINOS hosts collaborative modeling initiatives, so contributors are encouraged t
 ## Infrastructure needs
 *Describe the infrastructure set up needed from FINOS (i.e. a project on the Legend Studio hosted instance, recurring meeting infrastructure, mailing list*
 
-### Please indicate if the project you are proposing is:
+Please indicate if the modeling effort you are proposing will:
+- [ ] require a **new project** to be set up in the FINOS hosted instance of Legend Studio
+- [ ] leverage an **existing project** in the FINOS hosted instance of Legend Studio
+
+Please indicate if the modeling effort you are proposing is:
 - [ ] A **new FINOS project** , which requires approval from FINOS Executive Director
-- [ ] A **new work stream under an [existing FINOS project](https://landscape.finos.org/)** (e.g. Financial Objects, Securities Reference Data,...), which requires approval from the project's lead maintainers
+- [ ] A **new work stream under an [existing FINOS project](https://landscape.finos.org/)** (e.g. [Financial Objects](https://github.com/finos/finos-fo), [Securities Reference Data](https://github.com/finos/secref-data),...), which requires approval from the project's lead maintainers
 
-
+## What's next
+Upon submission of the issue, the FINOS team will get in touch with you to discuss next steps. 
 ----
 
 **Please do not edit the below content at contribution time**
@@ -49,8 +57,14 @@ FINOS hosts collaborative modeling initiatives, so contributors are encouraged t
 ----
 
 # Legend modeling effort: Setup Checklist  
-#### (v. 1.0, last updated on 2021-01-11)
+#### (v. 1.1, last updated on 2021-03-22)
 Below is the list of tasks that FINOS Team go through in order to onboard and set up the FINOS Legend modeling effort.
+
+## Kick-off meeting
+- [ ] Set up kick-off meeting with project leads to cover
+    - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
+    - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/) 
+    - [ ] Modeling effort proposal
 
 ## Identify modeling effort meta
 - [ ] Identify and Assign FINOS Modeling effort POC
@@ -78,7 +92,6 @@ Below is the list of tasks that FINOS Team go through in order to onboard and se
 ## Approval
 - [ ] If this is a proposal for a **new FINOS project**, assign this issue to FINOS Executive Director for approval
 - [ ] If this is a proposal for a **new workstream under an existing FINOS project**, request approval from the project's lead maintainer(s) 
-
 
 ## Project setup
 - [ ] If applicable, create a new project for the modeling initiative on the Legend hosted instance
