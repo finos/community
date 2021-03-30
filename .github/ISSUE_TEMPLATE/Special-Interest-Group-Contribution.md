@@ -26,10 +26,10 @@ assignees: aitana16, maoo
 Below is the list of tasks that FINOS Team and the contribution author goes through in order to complete the FINOS SIG onboarding process. **Please do not edit these contents at contribution time!**
 
 ## Voting (SIG Lead and FINOS ED)
-- [ ] Contribution author triggers community voting to propose SIG to FINOS board
-- [ ] Assign issue to Executive Director (@mindthegab) to trigger vote
-- [ ] (optional) at the discretion of the Executive Director: bring SIG to the Board for additional socialization and approval
-- [ ] FINOS board accepts the SIG (and the onboarding process can move forward)
+- [ ] Contribution author triggers community socialization to gauge interest - recommended emailing issue link to community@finos.org
+- [ ] If there's positive response from the Community, prepare short SIG proposal deck ([template here](https://github.com/finos/community/blob/master/governance/special-interest-groups/202103%20-%20New%20Project%20or%20SIG%20proposal%20(template)%20-%20PUBLIC.pptx) for the FINOS Governing Board
+- [ ] Assign issue to Executive Director (@mindthegab) to request SIG to be proposed to FINOS Governing Board
+- [ ] FINOS governing board accepts (and the onboarding process can move forward) or declines the SIG
 
 ## Identify project meta (Lead: FINOS SIG POC, Support: FINOS Marketing)
 - [ ] Identify and Assign FINOS SIG POC
