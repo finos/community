@@ -56,7 +56,14 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Reach out to contributors and employers to coordinate CLA signatures
 
 ## Project Communication Channel(s)
-- [ ] Ask maintainers which communications channels they'd like to use: GitHub Issues and/or Google Groups
+- [ ] Ask maintainers which communications channels they'd like to use
+- Asynchronous
+  - [ ] GitHub Issues (_public_)
+  - [ ] GitHub Discussions (_public_)
+  - [ ] GitHub Team Discussions (_public_ and _private_ **FINOS CLAs Required**)
+  - [ ] Google Groups
+- Synchronous
+  - [ ] FINOS Slack Channel (general _public Slack_ / leadership _private Slack_)
 - [ ] Create the identified communication channels during infra set up
 - [ ] Link communication channels linked front and center in the project README.md
 
