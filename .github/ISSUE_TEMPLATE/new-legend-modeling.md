@@ -8,7 +8,7 @@ assignees: maoo, aitana16
 ---
 
 # Proposal: New modeling initiative on FINOS Legend shared instance
-Please note that only FINOS members can propose new projects. If you are not a FINOS member, consider [becoming a FINOS member](https://www.finos.org/membership-benefits#become-a-member) or reach out to community@finos.org to find a FINOS member willing to sponsor your proposal.
+Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
 
 ## Business Problem
 *Describe the business problem that the modeling effort addresses*
