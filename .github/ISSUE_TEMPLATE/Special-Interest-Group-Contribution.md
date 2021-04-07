@@ -6,6 +6,7 @@ labels: contribution
 assignees: aitana16, maoo
 
 ---
+Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
 
 ## Business Problem
 *Describe the business problem the contribution solves*
