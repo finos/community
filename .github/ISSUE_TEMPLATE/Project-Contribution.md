@@ -6,6 +6,7 @@ labels: contribution
 assignees: aitana16, maoo
 
 ---
+Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
 
 ## Business Problem
 *Describe the business problem the contribution solves*
@@ -79,7 +80,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 
 ## Approval (Lead: FINOS Infra)
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger voting
-- [ ] (optional) at the discretion of the Executive Director: bring projects to the Board for additional socialization and approval
+- [ ] (optional) if additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
 - [ ] FINOS accepts the contribution (and the contribution process can move forward)
 
 ## Code transfer (Lead: FINOS Infra)
