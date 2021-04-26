@@ -98,6 +98,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Update project badge
 - [ ] Update project README
 - [ ] Enable security vulnerabilities scanning
+- [ ] Aggregate mailing lists to community@finos.org
 - [ ] Enable meeting attendance tracking (optional)
 - [ ] Enable Hubspot Sync for all project mailing lists created
 - [ ] (optional) Onboard into legend.finos.org/studio
