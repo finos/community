@@ -99,6 +99,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Update project README
 - [ ] Enable security vulnerabilities scanning
 - [ ] Enable meeting attendance tracking (optional)
+- [ ] Enable Hubspot Sync for all project mailing lists created
 - [ ] (optional) Onboard into legend.finos.org/studio
 
 ## Metadata update (Lead: FINOS Infra)
