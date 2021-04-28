@@ -100,7 +100,6 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Enable security vulnerabilities scanning
 - [ ] Aggregate mailing lists to community@finos.org
 - [ ] Enable meeting attendance tracking (optional)
-- [ ] Enable Hubspot Sync for all project mailing lists created
 - [ ] (optional) Onboard into legend.finos.org/studio
 
 ## Metadata update (Lead: FINOS Infra)
@@ -111,6 +110,12 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Add project maintainers GitHub usernames to the project-maintainers Team
 - [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SOPS), Insights, EasyCLA, Groups.io)
 
+## Mailing list (optional)
+- [ ] Create mailing-list
+- [ ] Enable Hubspot Sync for all project mailing lists created
+- [ ] Update marketing lists
+  - Add new list to the included "Email List" part of the filter
+  - Add new list to the excluded "Email" part of the filter
 ## Announcement (Lead: FINOS Contrib POC)
 - [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
 - [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
