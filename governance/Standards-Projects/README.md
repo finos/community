@@ -52,6 +52,6 @@ If a standards project incorporates software (e.g. example code or reference imp
 
 At the beginning of each meeting of a standards project, the project leaders should remind participants that their participation is subject to the Community Specification License and the Linux Foundation Antitrust Policy. Here are slides that can be used:
 
-* [Download as PPTX](../Compliance-Slides/Standards-Project-Compliance-Slides.pptx)
-* [Download as PDF](../Compliance-Slides/Standards-Project-Compliance-Slides.pdf)
+* [Download as PPTX](../Compliance-Slides/Comm-Spec-Compliance-Slides.pptx)
+* [Download as PDF](../Compliance-Slides/Comm-Spec-Compliance-Slides.pdf)
 * [View as Google Slides](https://docs.google.com/presentation/d/1qVhtj3OoPxfPSIPAbR8mQl3z3P9Ai2IH2CIzv1ReBoM/edit#slide=id.g41c8fed37d_0_0)
