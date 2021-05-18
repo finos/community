@@ -11,8 +11,8 @@ This document summarizes the requirements for establishing, joining, and running
 ## Establishing a standards project
 
 To begin a new standards project, a FINOS member must:
-1. involve two or more institutional sponsors, at least one of which is a FINOS member, to serve as Steering Members.
-2. submit a draft project charter to FINOS, identifying the project's purpose and initial Steering Members. FINOS provides a [template charter](CONTRIBUTING.standards.md) for projects to start from.
+1. involve two or more institutional sponsors, at least one of which is a FINOS member, to serve as Maintainers.
+2. submit a draft project charter to FINOS, identifying the project's purpose and initial Maintiners.
 
 ## Getting the project started
 
