@@ -10,13 +10,11 @@ This document summarizes the requirements for establishing, joining, and running
 
 ## Establishing a standards project
 
-### Getting Governing Board approval
-
 To begin a new standards project, a FINOS member must:
 1. involve two or more institutional sponsors, at least one of which is a FINOS member, to serve as Steering Members.
 2. submit a draft project charter to FINOS, identifying the project's purpose and initial Steering Members. FINOS provides a [template charter](CONTRIBUTING.standards.md) for projects to start from.
 
-### Getting the project started
+## Getting the project started
 
 After a standards project is approved, it will be given a repository in the FINOS GitHub organization. The project can then copy the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) into the project repository and follow the directions in the [Getting Started](https://github.com/finos/standards-project-blueprint/blob/master/..Getting%20Started.md) file.
 
@@ -26,9 +24,9 @@ After a standards project is approved, it will be given a repository in the FINO
 
 Contributions to FINOS standards projects are governed by the [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (the "CSL"). The CSL specifies the copyright and patent rights licensed by contributors to implementers of the specification, as well as the other terms applicable to contributions. Generally, contributors authorize anyone to produce specification-compliant implementations of: (1) any draft version of the specification that they contributed to, and (2) any final specification approved by the project (except for patent claims properly excluded by the contributor).
 
-Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to sign the CLA on behalf of their employer.
+Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CLA on behalf of their employer.
 
-By signing the CLA, participants agree to the terms of the following project policies:
+By agreeing the CLA, participants agree to the terms of the following project policies:
 * [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) (described above)
 * [Community Specification Governance Policy](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (setting out the project governance rules)
 * [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/master/6._Contributing.md) (setting out the workflow for making contributions to the project)
