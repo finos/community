@@ -4,13 +4,9 @@ Within FINOS, a standards project is a project chartered primarily to produce te
 
 FINOS standards projects follow the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Each standards project will also be goverened by the additional policies and procedures set out in its charter.
 
-<<<<<<< HEAD
 This document summarizes the requirements for establishing, joining, and running standards projects, but it is not comprehensive. Anyone involved in running a standards project should review the Community Specification documentation carefully in addition to referring to this information. Note that FINOS has made a few customizations to the Community Specification process for its own needs, so please refer to the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint/), which contains the full Community Specification documentation together with those customizations. The rest of this document links to the Blueprint.
 
 **NB**: The Community Specification process replaces the previous rules for standards projects found in the FINOS [IP Policy](../IP-Policy.pdf). While some existing FINOS projects still follow the IP Policy process, all new standards projects should use the Community Specification process.
-=======
-Each standards project will also be governed by the additional policies and procedures set out in its charter. FINOS recommends that new standards projects adopt the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Because the Community Specification process varies in a few respects from the FINOS IP Policy, the Board must approve its use together with the project's charter.
->>>>>>> e6e9182749a311c1d8919c5feded917c69613674
 
 ## Establishing a standards project
 
@@ -36,11 +32,7 @@ By agreeing the CLA, participants agree to the terms of the following project po
 * [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/master/6._Contributing.md) (setting out the workflow for making contributions to the project)
 * [Community Specification Code of Conduct](https://github.com/finos/standards-project-blueprint/blob/master/8._Code_of_Conduct.md) (setting out the rules for appropriate participant behavior)
 
-<<<<<<< HEAD
 The CLA also requires that participants represent that their contributions are original (or appropriately licensed by third parties) and that they have permission to enter the CLA on behalf of their employer, if applicable.
-=======
-Because every participant in a standards process must make a meaningful commitment regarding its own IP, membership in standards projects is important. Project leads should ensure that participants make their intent to enroll as a participant to the group explicit, in writing (an email is fine). Each participant has a grace period of 60 days after their enrollment to withdraw from the project and from any licensing commitment regarding the standards it approves. However, this grace period does not apply to the participant's own intentional contributions; if a participant makes a written or oral contribution to the standards process during the grace period, it commits to license any IP it holds related to that contribution.
->>>>>>> e6e9182749a311c1d8919c5feded917c69613674
 
 The above is only a summary of the obligations of participants. Each participant should review the CLA, and the other policies it references, with their own counsel to understand how these terms apply to their participation.
 
