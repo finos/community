@@ -64,7 +64,7 @@ The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for 
 
 ## Open Standard and Open Specification Projects
 
-Open Source collaboration goes beyond code, and our community hosts several open standard and open specification projects. New FINOS open standards / specification projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development. Detailed Information about FINOS open standards / specification project governance and how to propose a new stan can be found in the [Standards-Projects folder](Standards-Projects). 
+Open Source collaboration goes beyond code, and our community hosts several open standard and open specification projects. New FINOS open standards / specification projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development. Detailed Information about FINOS open standards / specification project governance and how to propose a new stan can be found in the [Standards Projects Documentation](Standards-Projects). 
 
 ## Special Interest Groups
 
