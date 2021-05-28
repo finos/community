@@ -24,17 +24,17 @@ After a standards project is approved, it will be given a repository in the FINO
 
 Contributions to FINOS standards projects are governed by the [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (the "CSL"). The CSL specifies the copyright and patent rights licensed by contributors to implementers of the specification, as well as the other terms applicable to contributions. Generally, contributors authorize anyone to produce specification-compliant implementations of: (1) any draft version of the specification that they contributed to, and (2) any final specification approved by the project (except for patent claims properly excluded by the contributor).
 
-Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CLA on behalf of their employer.
+Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CSLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CSLA on behalf of their employer.
 
-By agreeing the CLA, participants agree to the terms of the following project policies:
+By agreeing the CSLA, participants agree to the terms of the following project policies:
 * [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) (described above)
 * [Community Specification Governance Policy](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (setting out the project governance rules)
 * [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/master/6._Contributing.md) (setting out the workflow for making contributions to the project)
 * [Community Specification Code of Conduct](https://github.com/finos/standards-project-blueprint/blob/master/8._Code_of_Conduct.md) (setting out the rules for appropriate participant behavior)
 
-The CLA also requires that participants represent that their contributions are original (or appropriately licensed by third parties) and that they have permission to enter the CLA on behalf of their employer, if applicable.
+The CSLA also requires that participants represent that their contributions are original (or appropriately licensed by third parties) and that they have permission to enter the CSLA on behalf of their employer, if applicable.
 
-The above is only a summary of the obligations of participants. Each participant should review the CLA, and the other policies it references, with their own counsel to understand how these terms apply to their participation.
+The above is only a summary of the obligations of participants. Each participant should review the CSLA, and the other policies it references, with their own counsel to understand how these terms apply to their participation.
 
 ### Community Specification License Patent Exclusion Rules
 
