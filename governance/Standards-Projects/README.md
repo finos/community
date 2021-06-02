@@ -1,14 +1,12 @@
-# Establishing and Running a Standards/Specification Project
+# Establishing and Running an Open Standard Project
 
-Within FINOS, a standards/specification project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes from software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
+Within FINOS, a Open standard project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes from software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
 
 FINOS standards projects follow the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Each standards project will also be goverened by the additional policies and procedures set out in its charter.
 
 This document summarizes the requirements for establishing, joining, and running standards projects, but it is not comprehensive. Anyone involved in running a standards project should review the Community Specification documentation carefully in addition to referring to this information. Note that FINOS has made a few customizations to the Community Specification process for its own needs, so please refer to the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint/), which contains the full Community Specification documentation together with those customizations. The rest of this document links to the Blueprint.
 
 **NB**: The Community Specification process replaces the **now deprecated** previous rules for standards projects found in the FINOS [IP Policy](../IP-Policy.pdf). While some existing FINOS projects still follow the IP Policy process and are in the process of migrating out of it, all new standards projects should use the Community Specification process. Future versions of the IP Policy will likely remove the current open standard IPR related provisions.
-
-
 
 ## Establishing a standards project
 
