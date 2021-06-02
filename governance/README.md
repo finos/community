@@ -7,7 +7,7 @@ This space provides an overview of the Foundation's governance:
       * [Policies](#policies)
    * [Community Governance](#community-governance)
       * [Open Source Software Projects](#open-source-software-projects)
-      * [Open Standard/Specification Projects](#open-standard-and-open-specification-projects)
+      * [Open Standard Projects](#open-standard-projects)
       * [Special Interest Groups](#special-interest-groups)
    * [Project Lifecycle and Steering](#project-lifecycle-and-steering)
       * [Project Lifecycle](#project-lifecycle)
@@ -62,9 +62,9 @@ FINOS is home to dozens of open source projects. Any FINOS member (and only FINO
 
 The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
-## Open Standard and Open Specification Projects
+## Open Standard Projects
 
-Open Source collaboration goes beyond code, and our community hosts several open standard and open specification projects. New FINOS open standards / specification projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development. Detailed Information about FINOS open standards / specification project governance and how to propose a new stan can be found in the [Standards Projects Documentation](Standards-Projects). 
+Open Source collaboration goes beyond code, and our community hosts several projects focused on building a specification or a standard for an API, a data model, a protocol or even a shared policy. New FINOS open standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development. Detailed Information about FINOS open standards / specification project governance and how to propose a new stan can be found in the [Standards Projects Documentation](Standards-Projects). 
 
 ## Special Interest Groups
 
