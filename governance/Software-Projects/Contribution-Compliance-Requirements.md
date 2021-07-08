@@ -11,9 +11,7 @@ To ensure that we have the legal right to distribute your contribution, the Foun
 ### Contributor License Agreement
 Each contribution to a Foundation open source project must be covered by a contributor license agreement (CLA). This is a legal agreement granting the Foundation the necessary rights (under copyright and patent laws) to distribute the contribution.
 
-If **your employer owns the rights** to your contributions, you should submit a [Corporate Contributor License Agreement (CCLA)](TODO) signed by an authorized representative of your employer.
-
-If **you alone own the rights** to your contributions, you should sign and submit an [Individual Contributor License Agreement (ICLA)](TODO).
+If **your employer owns the rights** to your contributions, you should submit a **Corporate Contributor License Agreement (CCLA)** signed by an authorized representative of your employer; if **you alone own the rights** to your contributions, you should sign and submit an Individual Contributor License Agreement (ICLA). [Read more about EasyCLA](EasyCLA.md) and how to proceed with signature.
 
 If you change jobs after contributing to the Foundation under your previous employer's CCLA, please notify [help@finos.org](mailto:help@finos.org) so that we can ensure that an appropriate CLA is in place with you or your new employer.
 
