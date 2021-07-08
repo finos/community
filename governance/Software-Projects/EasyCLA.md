@@ -1,6 +1,6 @@
-# OpenJS Foundation CLA
+# FINOS CLA
 
-The FINOS IP policy specifies that projects should adopt the FINOS CLA. FINOS Board of Directors has adopted [Individual](https://individual-cla.openjsf.org) and [Corporate](https://corporate-cla.openjsf.org) CLA derived from the commonly used Apache-style CLA template.
+The FINOS IP policy specifies that projects should adopt the FINOS CLA. FINOS Board of Directors has adopted Individual and Corporate CLA derived from the commonly used Apache-style CLA template.
 
 FINOS uses [EasyCLA](https://lfcla.com) to ensure that all contributors have signed the appropriate documents when contributing to a project which requires a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
 
@@ -84,22 +84,18 @@ Here are the steps to add EasyCLA to your project.
 
 ### 1. Prepare your core contributors
 
-The single most valuable thing you can do prior to adding EasyCLA is to ensure your core contributors have already been authorized. This minimizes the potential for disruption, and can be accomplished by them simply opening a trivial PR against this repo and [following the steps](#how-to-use-easycla). (Contributors who have already signed the OpenJS Foundation CLA in EasyCLA for another project do not need to do this.)
+The single most valuable thing you can do prior to adding EasyCLA is to ensure your core contributors have already been authorized. This minimizes the potential for disruption, and can be accomplished by them simply opening a trivial PR against this repo and [following the steps](#how-to-use-easycla). (Contributors who have already signed the FINOS CLA in EasyCLA for another project do not need to do this.)
 
 You may also want to open an issue letting others know that this will be happening.
 
-### 2. Prepare your GitHub organization
-
-You will need to add an OpenJS Foundation staff member to your org to set up EasyCLA for your organization. Reach out to [help@finos.org](mailto:help@finos.org) to coordinate on the details.
-
-### 3. Add instructions to your project
+### 2. Add instructions to your project
 
 We recommend adding something like the following to your main `README` and/or `CONTRIBUTING` files, so that new contributors are not surprised. You may also consider updating your PR template to point to the instructions.
 
 Here is some suggested text you can use:
 
 ```
-This repository is managed by EasyCLA. Project participants must sign the free [OpenJS Foundation CLA](https://github.com/finos/<your repo>) before making a contribution. You only need to do this one time, and it can be signed by individual contributors or their employers.
+This repository is managed by EasyCLA. Project participants must sign the free [FINOS CLA](https://github.com/finos/<your repo>) before making a contribution. You only need to do this one time, and it can be signed by individual contributors or their employers.
 
 To initiate the signature process please open a PR against this repo. The EasyCLA bot will block the merge if we still need a CLA from you.
 
@@ -108,6 +104,6 @@ You can find [detailed instructions here](https://github.com/community/TODO - li
 If your company benefits from this project and you would like to provide essential financial support for the systems and people that power our community, please also consider [membership in FINOS](https://www.finos.org/membership-benefits).
 ```
 
-### 4. Request that EasyCLA be enabled
+### 3. Request that EasyCLA be enabled
 
 When the above steps are complete, please reach out to [help@finos.org](mailto:help@finos.org) and EasyCLA will be enabled for your repos.
