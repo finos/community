@@ -1,64 +1,55 @@
 # Establishing and Running a Standards Project
 
-Within FINOS, a standards project is a project chartered to produce technical standards specifications, rather than software alone (although standards projects may also produce software related to their standards). Because the process for producing standards, and the intellectual property rules associated with them, are different than for software, the [FINOS IP Policy](../IP-Policy.pdf) contains special rules for standards projects. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
+Within FINOS, a standards project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes from software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
 
-The information in this document summarize the requirements for standards projects, most of which are found in the [IP Policy](../IP-Policy.pdf). Anyone involved in running a standards project should review that policy carefully in addition to referring to this information. 
+FINOS standards projects follow the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Each standards project will also be goverened by the additional policies and procedures set out in its charter.
 
-Each standards project will also be goverened by the additional policies and procedures set out in its charter. FINOS recommends that new standards projects adopt the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Because the Community Specification process varies in a few respects from the FINOS IP Policy, the Board must approve its use together with the project's charter.
+This document summarizes the requirements for establishing, joining, and running standards projects, but it is not comprehensive. Anyone involved in running a standards project should review the Community Specification documentation carefully in addition to referring to this information. Note that FINOS has made a few customizations to the Community Specification process for its own needs, so please refer to the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint/), which contains the full Community Specification documentation together with those customizations. The rest of this document links to the Blueprint.
+
+**NB**: The Community Specification process replaces the previous rules for standards projects found in the FINOS [IP Policy](../IP-Policy.pdf). While some existing FINOS projects still follow the IP Policy process, all new standards projects should use the Community Specification process.
 
 ## Establishing a standards project
 
 To begin a new standards project, a FINOS member must:
-1. involve two or more institutional sponsors, at least one of which is a FINOS member, to serve as Steering Members.
-2. submit a draft project charter to FINOS, identifying the project's purpose and initial Steering Members. FINOS provides a [template charter](CONTRIBUTING.standards.md) for projects to start from.
+1. involve two or more institutional sponsors, at least one of which is a FINOS member, to serve as Maintainers.
+2. submit a draft project charter to FINOS, identifying the project's purpose and initial Maintiners.
+
+## Getting the project started
+
+After a standards project is approved, it will be given a repository in the FINOS GitHub organization. The project can then copy the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) into the project repository and follow the directions in the [Getting Started](https://github.com/finos/standards-project-blueprint/blob/master/..Getting%20Started.md) file.
 
 ## Requirements of standards project participants
 
 ### IP licensing requirements
 
-When a standards project approves a final standard, every participant in the project agrees to license its IP for purposes of implementing the standard, to anyone who chooses to implement it. This includes IP related to the participant's own specific contributions to the standard, as well as IP owned by the participant that relates to contributions made by other participants. These rules ensure that a standard cannot be held hostage by a single participant at the end of the process.
+Contributions to FINOS standards projects are governed by the [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (the "CSL"). The CSL specifies the copyright and patent rights licensed by contributors to implementers of the specification, as well as the other terms applicable to contributions. Generally, contributors authorize anyone to produce specification-compliant implementations of: (1) any draft version of the specification that they contributed to, and (2) any final specification approved by the project (except for patent claims properly excluded by the contributor).
 
-The above is only a summary of the IP licensing requirements of the FINOS IP Policy. Each participant should review the policy with its own counsel for complete information about these requirements.
+Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CLA on behalf of their employer.
 
-### Joining a standards project, grace period for new participants
+By agreeing the CLA, participants agree to the terms of the following project policies:
+* [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) (described above)
+* [Community Specification Governance Policy](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (setting out the project governance rules)
+* [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/master/6._Contributing.md) (setting out the workflow for making contributions to the project)
+* [Community Specification Code of Conduct](https://github.com/finos/standards-project-blueprint/blob/master/8._Code_of_Conduct.md) (setting out the rules for appropriate participant behavior)
 
-Because every participant in a standards process must make a meaningful commitment regarding its own IP, membership in standards projects is important. Project leads should ensure that participants make their intent to join the group explicit, in writing (an email is fine). Each participant has a grace period of 60 days after their enrollment to withdraw from the project and from any licensing commitment regarding the standards it approves. However, this grace period does not apply to the participant's own intentional contributions; if a participant makes a written or oral contribution to the standards process during the grace period, it commits to license any IP it holds related to that contribution.
+The CLA also requires that participants represent that their contributions are original (or appropriately licensed by third parties) and that they have permission to enter the CLA on behalf of their employer, if applicable.
+
+The above is only a summary of the obligations of participants. Each participant should review the CLA, and the other policies it references, with their own counsel to understand how these terms apply to their participation.
+
+### Community Specification License Patent Exclusion Rules
+
+When a participant contributes to a draft specification, the participant agrees to license to implementers of the specification any of its patent claims that apply to that draft specification. Likewise, when the project issues an approved specification, all contributors to that specification agree to license any claims that apply to that approved specification. These licenses apply to any claims practiced by the specification as a whole, not merely to the individual participant's contributions.
+
+However, the CSL (in Section 3) gives contributors an opportunity to exclude specified claims from its licensing commitments by issuing an "exclusion notice" within 45 days of its contribution to a draft specification, or from the project's adoption of a draft specification as an approved specification. Thus, if a participant learns that a specification it has contributed to incorporates patented claims it is unwilling to license, it may withhold a license for those claims.
 
 ### Specific rules for software
 
-If a final standard includes software (e.g. example code) in the specification itself, that software is subject to the same licensing requirements as any other contribution. If a standards project produces software separate from the specification (e.g. a reference implementation or other tools related to implementing the standard), that software is subject to the same licensing requirements as other FINOS software projects, i.e. it must be licensed under the Apache License unless the board approves an exception.
-
-## Getting the standards process underway
-
-When a standards project or working group begins its activities, it should notify all initial participants of the relevant terms of the FINOS IP Policy. Here is a sample email that can be used:
-
->This standards project is subject to the rules related to standards development set out in Section V of the FINOS IP Policy. By joining this project and/or participating in its activities, you agree that you are bound by those rules. These include the following:
->
-> * By participating in a standards project, each participant agrees to be bound by the FINOS IP Policy.
-> * If a participant owns any intellectual property rights necessary to implement the final approved standard, it agrees to license those rights to all implementers on a royalty-free, reasonable, and non-discriminatory basis. 
-> * This license applies to the entire approved standard, including portions contributed by other participants.
-> * Upon joining the project, participants have 60 days to withdraw from the project and its licensing obligations. Withdrawal does not affect the license to any intentional submission made by the participant that is incorporated into a final specification.
->
-> The above are summaries only; it is the FINOS IP Policy which is binding on participants. Please review the FINOS IP Policy with your counsel before participating. If you have any questions, please contact legal@finos.org.
-
-This notice should also be provided to new participants that join after the project's activities are underway.
+If a standards project incorporates software (e.g. example code or reference implementations), whether in the specification itself or as supporting material, that software is subject to the same licensing requirements as other FINOS software projects, i.e. it must be licensed under the Apache License unless the FINOS Governing Board approves the use of another license.
 
 ## Meeting procedures for standards projects and working groups
 
-Project and working group chairs should begin each meeting of the project by referencing the FINOS IP Policy and the FINOS Antitrust Policy. Here are slides that can be used:
+At the beginning of each meeting of a standards project, the project leaders should remind participants that their participation is subject to the Community Specification License and the Linux Foundation Antitrust Policy. Here are slides that can be used:
 
-* [Download as PPTX](../Compliance-Slides/Standards-Project-Compliance-Slides.pptx)
-* [Download as PDF](../Compliance-Slides/Standards-Project-Compliance-Slides.pdf)
-* [View as Google Slides](https://docs.google.com/presentation/d/1Jhaqsb0FZoCViiYpCvfC6sMymyg8QCI01bd0gnffQx4/edit?usp=sharing)
-
-## Preparing for release
-
-### Publication for public comment
-
-If a draft specification is published for public comment prior to its approval, it must include the introductory language provided in Section V.3.2.1 of the FINOS IP Policy:
-
-> Recipients of this document are requested to submit, with their comments, notification of any relevant patent claims or other intellectual property rights of which they may be aware that might be infringed by any implementation of the standard set forth in this document, and to provide supporting documentation.
-
-### Disclosure of necessary claims
-
-Before a final specification is approved, the project lead should again remind participants of the FINOS IP Policy. Participants should be specifically reminded of Section V.3.1(c). That section says that, if a participant wishes to require implementers of the standard to obtain an explicit license from them, they must disclose the relevant patents, necessary claims, and the relevant portion of the standard using the appropriate form in Appendix A-1 or A-2 of the FINOS IP Policy. Any such forms submitted must be provided to the FINOS legal department at legal@finos.org.
+* [Download as PPTX](../Compliance-Slides/Comm-Spec-Compliance-Slides.pptx)
+* [Download as PDF](../Compliance-Slides/Comm-Spec-Compliance-Slides.pdf)
+* [View as Google Slides](https://docs.google.com/presentation/d/1qVhtj3OoPxfPSIPAbR8mQl3z3P9Ai2IH2CIzv1ReBoM/edit#slide=id.g41c8fed37d_0_0)
