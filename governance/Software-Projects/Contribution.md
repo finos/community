@@ -6,20 +6,20 @@
 
 The easiest way to engage is to contribute code, documentation, test cases, requirements, issues and pull requests, etc. to projects that are currently within the Foundation. A great place to start is the [good first issues in the FINOS GitHub organization](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22&unscoped_q=is%3Aopen+label%3A%22good+first+issue%22).
 
-Before contributing to a project, community members are encouraged to take a "[participate](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83165227/Participate) first, contribute second" approach whereby they first familiarize themselves with a project by doing any or all of the following:
+Before contributing to a project, community members are encouraged to familiarize themselves with a project by doing any or all of the following:
 
-- Attend a couple of project or working group meetings (note: not all projects run regularly scheduled meetings)
-- Follow and participate in discussions within the participate first meetings that are attended.
-- Getting involved in discussions within a project or working group's respective Google Group mailing list. 
+- Attend a couple of project meetings (note: not all projects run regularly scheduled meetings, check out the [Community Calendar](https://calendar.google.com/calendar/ical/finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com/public/basic.ics))
+- Getting involved in discussions within a project respective [Google Group mailing list](https://groups.google.com/a/finos.org/) or [Slack Channel](https://finos-lf.slack.com/)
+- The project specific governance and areas of focus, typically contained in a project Readme.md.
 
-Often, though not always, after getting familiar with a project's work, usually by attending a project meeting and/or participating in FINOS working groups a contributor may choose to start making concrete contributions to currently active FINOS projects. Contributions can take various forms:
+Contributions can take various forms:
 
-- Creating/Identifying a GitHub/GitLab Issue
-- Starting a new discussion thread
+- Raising a GitHub/GitLab Issue on code or documentation
+- Starting a new discussion thread on email / slack
 - Extending and amending documentation (**)
 - Actively raising code contributions (**)
 
-** Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must have a Contributor License Agreement in place within FINOS.
+** Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must comply with the [Contribution Compliance Requirements](Contribution-Compliance-Requirements.md) in place within FINOS.
 
 ## Contribution of an existing code base into FINOS as a new project
 
@@ -32,11 +32,9 @@ Since every Project contributed to the Foundation comes into an [Incubating stag
 
 For Projects initiated by FINOS Members, there’s the opportunity to carry out a pre-incubation so called [Formation stage](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md), where the FINOS team and Members can support the contributor to socialize, gauge interest and ready the project for open sourcing.
 
-### Step 1 (optional but recommended): Gauge Community interest 
-You are encouraged to email directly to the Community at [community@finos.org](mailto:community@finos.org) ([subscribe here](mailto:community+subscribe@finos.org)) to outline your contribution idea and gauge interest or you can reach you directly to the FINOS team at [help@finos.org](mailto:help@finos.org). Note that while everyone is welcome to contribute to existing projects, only FINOS Members can propose new projects. If you are not a Member this step is particularly important to identify a Member who could be a sponsor for your project.
 
-### Step 2: Submit a contribution proposal
-Draft a proposal to be reviewed by the FINOS team of the program you've chosen. Your proposal should include the following headings:
+### Step 1: Submit a contribution proposal
+Draft a proposal to be reviewed by the FINOS team of the program you've chosen. You can [Submit your proposal based on this template](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Project-Contribution.md&title=Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community). The proposal is meant to cover the following:
 
 1. Business problem: the business problem the contribution solves.
 2. Proposed solution: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and it's functionality.
@@ -45,15 +43,16 @@ Draft a proposal to be reviewed by the FINOS team of the program you've chosen. 
 5. Development team: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
 6. Contributor commitment: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
-You can [Submit your proposal based on this template](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Project-Contribution.md&title=Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community).
+To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+). 
 
-To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+) and the (now deprecated) [Contribution Jira board](https://finosfoundation.atlassian.net/jira/core/projects/CONTRIB/issues/). 
+### Step 2: Gauge Community interest 
+You are encouraged to email directly to the Community at [community@finos.org](mailto:community@finos.org) ([subscribe here](mailto:community+subscribe@finos.org)) to outline your contribution idea (and link to the previously created contribution issue). If you experience issues, you can reach you directly to the FINOS team at [help@finos.org](mailto:help@finos.org). Note that while everyone is welcome to contribute to existing projects, **only FINOS Members can propose new projects**. If you are not a Member this step is particularly important to identify a Member who could become a sponsor for your project.
 
 #### Compliance review & IP transition
-Once a contribution is raised, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution compliance requirements](TODO). In addition to having contributor agreements for each contributor (see tooltip), the main steps are:
+Once a contribution is raised, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution compliance requirements](Contribution-Compliance-Requirements.md). In addition to having contributor agreements for each contributor, the main steps are:
 
-- Transferring the project trademark to FINOS, or selecting a new name for the FINOS project that does not conflict with any existing marks, so that FINOS can enforce the project's rights consistent with our [Trademark Guidelines](https://www.finos.org/hubfs/FINOS/governance/FINOS%20Trademark%20Guidelines%202018-12-12.pdf).
-- Compliance with third-party licenses and the [FINOS acceptable Apache-compatible license policy](TODO).
+- Transferring the project trademark to FINOS, or selecting a new name for the FINOS project that does not conflict with any existing marks, so that FINOS can enforce the project's rights consistent with our [Trademark Guidelines](../Trademark-Guidelines.pdf).
+- Compliance with third-party licenses and the [FINOS acceptable Apache-compatible license policy](License-categories.md).
 - Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md))
 
 ### Step 3: FINOS Approval
@@ -62,7 +61,7 @@ Once legal and IP review is complete, the FINOS team will review the proposal an
 The FINOS team will review your proposal for alignment with the scope and objectives of the Foundation, viability, perceived interest within the FINOS community. The FINOS may contact the submitter for more information during its evaluation, and will typically be providing constant updates on the progress of the approval process.
 
 ### Step 4: Transfer and Review of Contribution Materials
-Following contribution approval, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or Sending the FINOS team an archive containing the code to be contributed. See [Code Transfer options](TODO).
+Following contribution approval, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or Sending the FINOS team an archive containing the code to be contributed. See [Code Transfer options](Code-Transfer-Options.md).
 
 It's during this step as well that [code validation and scanning](https://odp.finos.org/docs/development-infrastructure/code-validation/intro) of the code base with be performed, any build processes set up and configured, and the various components of the [FINOS Open Developer Platform (ODP)](https://odp.finos.org) configured and set up for the project, at which point the rest of the Foundation's infrastructure will be available to the project contributors moving forward to use to develop, test and release the project.
 
@@ -91,7 +90,7 @@ Thanks to the FINOS Community for a warm welcome!
 <insert contributor name(s)>
 ```
 
-- We welcome blog post on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Director of Community](mailto:james@finos.org) to propose an article
+- We welcome blog post on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Marketing](mailto:marketing@finos.org) to propose an article
 - Social media support - you can reach out to [marketing@finos.org](mailto:marketing@finos.org) to ask for our support in promoting the contribution
 - For substantial contributions, especially of those with multiple contributing orgs, FINOS may choose to support contribution announcement with a press release. Contact [press@finos.org](mailto:press@finos.org) if you think a press release is warranted. 
 
