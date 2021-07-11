@@ -22,7 +22,7 @@ FINOS is a membership organization within the [Linux Foundation](http://linuxfou
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
 
-**NOTE**: Membership is NOT required to contribute to existing FINOS projects but contributors will need to comply with the [FINOS contribution compliance requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements). Only FINOS members instead can propose new FINOS projects as outlined in our [Community Governance](#community-governance) below.
+**NOTE**: Membership is NOT required to contribute to existing FINOS projects, but contributors to software projects will need to comply with the [FINOS code contribution compliance requirements](Software-Projects/Contribution-Compliance-Requirements.md) while participants to standard projects will need to comply with the [FINOS Standard Governance IP requirements](Standards-Projects#requirements-of-standards-project-participants). Only FINOS members instead can propose new FINOS projects as outlined in our [Community Governance](#community-governance) below.
 
 ## Governing Board
 
@@ -40,7 +40,7 @@ The following policies apply to all FINOS members and activities:
 
 * The [Community Code of Conduct](Code-of-Conduct.md) is the set of principles that participants in the Foundation's collaborative work are expected to abide by to maintain a healthy and inclusive community.
 
-* The [IP Policy](IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](ICLA.pdf) (for individual contributors whose contributions are not owned by their employer).
+* The [IP Policy](IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](ICLA.pdf) (for individual contributors whose contributions are not owned by their employer). FINOS uses [EasyCLA](Software-Projects/EasyCLA.md) to simplify the CLA process.
 
 * The [Trademark Guidelines](Trademark-Guidelines.pdf) list the Foundation's trademarks and set out our policies for appropriate use of FINOS project marks.
 
@@ -58,15 +58,14 @@ For a list of our project see the [FINOS project landscape](https://landscape.fi
 
 ## Open Source Software Projects
 
-FINOS is home to dozens of open source projects. Any FINOS member (and only FINOS members) may propose a new project or sponsor a project from an outside contributor. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board. Please refer to the [contribution process](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute) if you'd like to propose a new project. 
+FINOS is home to dozens of open source projects. Any FINOS member (and only FINOS members) may propose a new project or sponsor a project from an outside contributor. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board. Please refer to the [contribution process](Software-Projects/Contribution.md) if you'd like to propose a new project or contribute to an existing one. 
 
 The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
 ## Open Standards Projects
 
-Information about FINOS open standards project governance can be found in the [Standards-Projects folder](Standards-Projects). Standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed freely to all.
+Information about FINOS open standards project governance can be found in the [Standards-Projects folder](Standards-Projects). New FINOS standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/finos/standards-project-blueprint) process for standards development (earlier standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf)). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed appropriately to all standard users and implementers.
 
-FINOS standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development.
 
 ## Special Interest Groups
 
