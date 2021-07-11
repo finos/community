@@ -85,7 +85,7 @@ PackageLicenseDeclared: Apache-2.0
 If your contribution includes any third-party open source code, the license for that code must permit its use within an Apache-licensed project, and the Foundation's use of the code must comply with the terms of the third-party license.
 
 #### Identifying acceptable licenses
-All Foundation projects must be licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the license for any third-party code must be compatible with this requirement. The Foundation [categorizes open source licenses in the same way as the Apache Software Foundation](TODO):
+All Foundation projects must be licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the license for any third-party code must be compatible with this requirement. The Foundation [categorizes open source licenses in the same way as the Apache Software Foundation](License-categories.md):
 
 - **Category A licenses** have similar terms to the Apache License. Contributions to the Foundation can include (or depend upon) code licensed under Category A licenses.
   - Examples: common variants of the BSD and MIT licenses; the Apache License.
