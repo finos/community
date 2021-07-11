@@ -7,7 +7,7 @@ This space provides an overview of the Foundation's governance:
       * [Policies](#policies)
    * [Community Governance](#community-governance)
       * [Open Source Software Projects](#open-source-software-projects)
-      * [Open Standards Projects](#open-standards-projects)
+      * [Open Standard Projects](#open-standard-projects)
       * [Special Interest Groups](#special-interest-groups)
    * [Project Lifecycle and Steering](#project-lifecycle-and-steering)
       * [Project Lifecycle](#project-lifecycle)
@@ -62,15 +62,17 @@ FINOS is home to dozens of open source projects. Any FINOS member (and only FINO
 
 The [default governance policy](Software-Projects/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
-## Open Standards Projects
+## Open Standard Projects
 
-Information about FINOS open standards project governance can be found in the [Standards-Projects folder](Standards-Projects). Standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](IP-Policy.pdf). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed freely to all.
-
-FINOS standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development.
+Open Source collaboration goes beyond code, and our community hosts several projects focused on building a specification or a standard for an API, a data model, a protocol or even a shared policy. New FINOS open standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/CommunitySpecification/1.0) process for standards development. Detailed Information about FINOS open standards / specification project governance and how to propose a new stan can be found in the [Standards Projects Documentation](Standards-Projects). 
 
 ## Special Interest Groups
 
-Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, which also appoints the initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. Read more for [a list of current SIGs](special-interest-groups) and how to propose a new SIG.
+Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, including a Charter and  initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. The Charter may also be updated from time to time with udpates published publicly. Read more for [a list of current SIGs](special-interest-groups) and how to propose a new SIG.
+
+All participants in SIGs are subject to [FINOS Policies](#policies) and [Community Governance](#community-governance) including complying with [Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy) and [Community Code of Conduct](Code-of-Conduct.md).
+
+Documents produced or contributed as part of the SIG will be contributed and made available under CC-BY-4.0.
 
 # Project Lifecycle and steering
 
@@ -80,7 +82,7 @@ Software projects follow the [Project Lifecycle](Software-Projects/Project-Lifec
 
 The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects. 
 
-Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead.
+Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead. [Forming projects](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#forming-projects-optional) might not be publicly visible until entering Incubation when they will be fully open sourced.
 
 ## Project Metrics 
 Live metrics of Project activity and contributions across all FINOS collaboration systems are publicly available in [FINOS Project Activity Dashboard](https://metrics.finos.org).
