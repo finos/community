@@ -16,9 +16,11 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 ### Projects
 - [FINOS Project Landscape](https://landscape.finos.org)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
-- Propose a new project or SIG (NOTE: you must be [FINOS Member](finos.org/members)): [Open Source Software Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding), [Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding), [Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)
+- Propose a new project or SIG (NOTE: limited to [FINOS Members](finos.org/members)): 
+  - [New Open Source Software Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding)
+  - [New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding)
+  - [New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)
 - [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
-- [Current Quarterly Focus Projects](focus-projects#current-focus-projects)
 
 ### Resources
 - [FINOS Website](https://finos.org)
