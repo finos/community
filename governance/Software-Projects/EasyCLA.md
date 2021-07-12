@@ -60,9 +60,9 @@ Here are the steps to have your company sign the CLA.
 ### When your company has finished signing the agreement
 
 1. Once the agreement is signed, any CLA manager can [log into the EasyCLA site](https://easycla.lfx.linuxfoundation.org/#/) (choose EasyCLA v2) and either:
-  * Add your GitHub username individually to the list of authorized contributors, or
-  * Add your corporate email domain, which authorizes anyone who has that email in their GitHub account, or
-  * Add a corporate GitHub Organization, where any member of the org is covered by the CLA.
+    * Add your GitHub username individually to the list of authorized contributors, or
+    * Add your corporate email domain, which authorizes anyone who has that email in their GitHub account, or
+    * Add a corporate GitHub Organization, where any member of the org is covered by the CLA.
 1. Once this is done, you'll need to click the *Details* link in the PR (again) and click a button that acknowledges you want to be covered by the company.
 1. Wait a little while for the check to re-run.
 
