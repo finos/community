@@ -1,11 +1,11 @@
 # FINOS CLA
 
-The FINOS IP policy specifies that projects should adopt the FINOS CLA. FINOS Board of Directors has adopted Individual and Corporate CLA derived from the commonly used Apache-style CLA template.
+The FINOS IP policy specifies that projects should adopt the FINOS CLA. The FINOS Governing Board has adopted both an Individual and a Corporate CLA derived from the commonly used Apache-style CLA template.
 
-FINOS uses [EasyCLA](https://lfcla.com) to ensure that all contributors have signed the appropriate documents when contributing to a project which requires a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
+FINOS uses EasyCLA ([more information](https://lfx.linuxfoundation.org/tools/easycla), [direct access](https://lfcla.com) to ensure that all contributors have signed the appropriate documents when contributing to a project which requires a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
 
 * Once a contributor is authorized for one FINOS project, the signature is recognized for any other FINOS repositories that use EasyCLA.
-* Contributors may sign as individuals, or their company can sign on their behalf.
+* Contributors may sign as individuals, or be covered under a corporate CLA that their company has signed.
 * Companies who sign the CLA can authorize employee usernames individually, add an entire email domain, or specify a GitHub organization containing their employees as members.
 
 There is no cost to signing the FINOS CLA. Please note that this is different from [membership in FINOS](https://www.finos.org/membership-benefits). If your organization relies upon our projects, [please become a member](https://www.finos.org/members). Membership dues are an essential source of funding, and we rely upon them to support the FINOS project ecosystem.
@@ -16,7 +16,7 @@ There is no cost to signing the FINOS CLA. Please note that this is different fr
 
 You can sign the FINOS CLA as an individual, or your company can sign and authorize you as a contributor. 
 
-The individual workflow is for people who can make CLA commitments on their own behalf (e.g., hobbyists, students, sole proprietors, etc). This workflow is fast and easy, but may not be appropriate for people who are doing work-for-hire. The corporate workflow involves more steps, but allows a company to sign one document one time for all of their contributors.
+The individual workflow is for people who can make CLA commitments on their own behalf (e.g., hobbyists, students, sole proprietors, etc). This workflow is fast and easy, but may not be appropriate for people who are doing work-for-hire. The corporate workflow involves more steps, but allows a company to sign one document, once, for all of their contributors.
 
 At a high level, the signature process works like this:
 
@@ -59,7 +59,7 @@ Here are the steps to have your company sign the CLA.
 
 ### When your company has finished signing the agreement
 
-1. Once the agreement is signed, any CLA manager can [log into the EasyCLA site](https://easycla.lfx.linuxfoundation.org/#/) (choose EasyCLA v1) and either:
+1. Once the agreement is signed, any CLA manager can [log into the EasyCLA site](https://easycla.lfx.linuxfoundation.org/#/) (choose EasyCLA v2) and either:
   * Add your GitHub username individually to the list of authorized contributors, or
   * Add your corporate email domain, which authorizes anyone who has that email in their GitHub account, or
   * Add a corporate GitHub Organization, where any member of the org is covered by the CLA.
