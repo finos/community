@@ -7,6 +7,7 @@
 This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large.
 
 ## Quick Links
+You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email help@finos.org if you still can't find what you're looking for.
 
 ### Legal & Governance
 - [FINOS Governance](governance/)
@@ -16,7 +17,7 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 ### Projects
 - [FINOS Project Landscape](https://landscape.finos.org)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
-- Propose a new project or SIG (NOTE: limited to [FINOS Members](finos.org/members)): 
+- Propose a new project or SIG (NOTE: limited to [FINOS Members](http://finos.org/members)): 
   - [New Open Source Software Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding)
   - [New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding)
   - [New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)
@@ -26,8 +27,8 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 - [FINOS Website](https://finos.org)
 - [FINOS Mailing lists](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/77955298/Engage+Our+Community)
 - [Email Archives (requires Google login)](http://groups.google.com/a/finos.org/)
-- [FINOS Wiki](wiki.finos.org)
-- [FINOS Jira](https://finosfoundation.atlassian.net/secure/Dashboard.jspa)
+- [FINOS Wiki](http://wiki.finos.org) - **Deprecated** in favor of [this Community repository](http://github.com/finos/community).
+- [FINOS Jira](https://finosfoundation.atlassian.net/secure/Dashboard.jspa) - **Deprecated** in favor of [this Community repository](http://github.com/finos/community/issues).
 - [FINOS Community Handbook - ARCHIVED](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
 
 ## Join the FINOS Community list
