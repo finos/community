@@ -95,7 +95,7 @@ We recommend adding something like the following to your main `README` and/or `C
 Here is some suggested text you can use:
 
 ```
-This repository is managed by EasyCLA. Project participants must sign the free [FINOS CLA](https://github.com/finos/<your repo>) before making a contribution. You only need to do this one time, and it can be signed by individual contributors or their employers.
+This repository is managed by EasyCLA. Project participants must sign the free [FINOS CLA](https://github.com/finos/community/edit/master/governance/Software-Projects/EasyCLA.md) before making a contribution. You only need to do this one time, and it can be signed by individual contributors or their employers.
 
 To initiate the signature process please open a PR against this repo. The EasyCLA bot will block the merge if we still need a CLA from you.
 
