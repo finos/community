@@ -4,7 +4,9 @@ Every quarter the Board evaluates and selects 5/6 focus projects that are in for
 
 ## Current focus projects
 
-The focus projects for the current quarter (Q1 2021) are:
+Given the breadth and depth of activity in the FINOS community, starting Q2 2021 the Governing Board has decided to pause the concept of Focus Projects and provide a broader support to all projecs in FINOS. 
+
+<!---
 
 | Project                 | Lifecycle Stage | Q1 Target Goals                                                                                                  | FINOS Support POC | Progress (issues, a high level description, etc.)                                 |
 |-------------------------|-----------------|-----------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------------------------------------------------------------------|
@@ -13,13 +15,18 @@ The focus projects for the current quarter (Q1 2021) are:
 | Regulation Innovation | Not Applicable     | <ul><li>Identify and initiate work on 1-3 specific projects</li><li>Continue to explore themes and potential collaboration opportunities with SIG participants</li><li>(Opportunistically) engage with regulators</li></ul> | @toshaellison / @agitana          | [Repo](https://github.com/finos/open-regtech-sig)                                      |                                   |
 | InnerSource | Not Applicable | <ul><li>Gather information on InnerSource shared experiences, challenges, and value experienced</li><li>Document appropriate patterns to address challenges identified</li><li>Identify 1-3 potential project contributions (stretch goal for end of quarter)</li></ul> | @mcleo-d | Not Applicable |
 
-Reports on progress from the last quarter will be published below shortly after the quarterly Governing Board meeting. Join our [Community list](mailto:community+subscribe@finos.org) to stay up to date.
+--->
+
+Reports on progress from the last quarter are generally published shortly after the quarterly Governing Board meeting. Join our [Community list](mailto:community+subscribe@finos.org) to stay up to date.
 
 ## Want to be a focus project?
 If you are FINOS project maintainer and you'd like the FINOS team to put forward your project as a candidate for quarterly focus project to the Board, [just raise an issue](https://github.com/finos/community/issues/new?title=Please%20consider%20%3Cproject%20name%3E%20as%20quarterly%20focus%20project%20for%20%3Cquarter%20year%3E&body=A%20brief%20description%20of%20your%20quarterly%20goals%20and%20how%20FINOS%20can%20help).
 
 
 ## Previous focus projects
+
+### Q1 2021
+<img src="assets/2021Q4-focus-projects-report.png" width="800" />
 
 ### Q4 2020
 <img src="assets/2020Q4-focus-projects-report.png" width="800" />
