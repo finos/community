@@ -34,7 +34,7 @@ For Projects initiated by FINOS Members, there’s the opportunity to carry out 
 
 
 ### Step 1: Submit a contribution proposal
-Draft a proposal to be reviewed by the FINOS team of the program you've chosen. You can [Submit your proposal based on this template](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Project-Contribution.md&title=Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community). The proposal is meant to cover the following:
+Draft a proposal to be reviewed by the FINOS team of the program you've chosen. You can [Submit your proposal based on this template](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community). The proposal is meant to cover the following:
 
 1. Business problem: the business problem the contribution solves.
 2. Proposed solution: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and it's functionality.
