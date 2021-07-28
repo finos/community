@@ -24,13 +24,13 @@ Please note that only FINOS members can propose new projects. If you're interest
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
 ## Development Team
-# Leadership
+### Leadership
 *Who will be the project's lead maintainer(s)? Provide full name, affiliation, work email address, and GitHub.com username.*
 
-## Confirmed contributors
+### Confirmed contributors
 *If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
 
-## Target Contributors
+### Target Contributors
 *Describe the contributor profile (background, position, organization) you would like to get contributions from*
 
 ## Infrastructure needs
@@ -58,6 +58,19 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/) 
 - [ ] Discuss project proposal
 
+## Proposal (Lead Maintainer)
+- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
+    
+    ```
+    Dear FINOS Community, 
+    
+    We would like to propose a new FINOS project. Please review the proposal details at (_TODO: add link to the GitHub issue proposal_).
+    
+    If you're interested in participating, please :+1: the GitHub issue proposal and drop a comment with your name, org and email
+
+   Thanks a lot,
+   ```
+
 ## Identify project meta (Lead: FINOS Contrib POC, Support: FINOS Marketing)
 - [ ] Project Name
     - [ ] Assess current trademark status
@@ -73,20 +86,6 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Continuous Integration (existing/yes/no)
 - [ ] Documentation website (existing/yes/no)
 - [ ] Define project slug
-
-## Proposal (Lead Maintainer)
-- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
-    
-    ```
-    Dear FINOS Community, 
-    
-    We would like to propose a new FINOS project. Please review the proposal details at (_TODO: add link to the GitHub issue proposal_).
-    
-    If you're interested in participating, please :+1: the GitHub issue proposal and drop a comment with your name, org and email
-
-   Thanks a lot,
-   ```
-
 
 ## Maintainers, contributors and CLAs (Lead: FINOS Contrib POC, Support: FINOS infra)
 - [ ] For each maintainer identified in the previous step, collect: the following info:
