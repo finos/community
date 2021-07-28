@@ -12,7 +12,7 @@ The code of conduct also applies to every member of the Foundation community, in
 
 ## Reporting Violations
 
-If you observe or are subject to a violation of these rules at a Foundation event, please report the matter to any FINOS representative on-site. Please report any other code of conduct violations by emailing conduct@finos.org. We are committed to protecting the safety and privacy of anyone who reports a violation.
+If you observe or are subject to a violation of these rules at a Foundation event, please report the matter to any FINOS representative on-site. Please report any other code of conduct violations by emailing legal@linuxfoundation.org. We are committed to protecting the safety and privacy of anyone who reports a violation.
 
 ## Code of Conduct
 
