@@ -13,6 +13,9 @@ Please note that only FINOS members can propose new projects. If you're interest
  
 ## Proposed Solution
 *Describe the type of contribution (project or working group) and how it solves that business problem*
+
+## Tentative Roadmap
+*Describe the short and medium term goals and phases of the project. What does success look like for this project?* 
  
 ## Current State
 *Summarize the history and current state of the project*
@@ -21,7 +24,26 @@ Please note that only FINOS members can propose new projects. If you're interest
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
 ## Development Team
-*List out all of the current team members, including full name, affiliation, work email address, and GitHub.com username*
+### Leadership
+*Who will be the project's lead maintainer(s)? Provide full name, affiliation, work email address, and GitHub.com username.*
+
+### Confirmed contributors
+*If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
+
+### Target Contributors
+*Describe the contributor profile (background, position, organization) you would like to get contributions from*
+
+## Infrastructure needs
+*Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure*
+- [ ] Recurring meetings
+- [ ] Mailing list
+- [ ] A project on the [Legend Studio shared instance](https://odp.finos.org/docs/platforms/legend-studio-shared)
+- [ ] Other (please explain):
+
+# What's next?
+Upon submission of this project proposal, the FINOS team will get in touch with you to discuss next steps. 
+
+-----
 
 # Contribution process (v. 1.0, last updated on October 2, 2020)
 Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS contribution process.
@@ -29,6 +51,25 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 
 ## FINOS Contrib POC
 - [ ] Identify and Assign FINOS Contrib POC
+
+## Kick-off meeting
+- [ ] Set up kick-off meeting with project leads to review:
+    - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
+    - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/) 
+- [ ] Discuss project proposal
+
+## Proposal (Lead Maintainer)
+- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
+    
+    ```
+    Dear FINOS Community, 
+    
+    We would like to propose a new FINOS project. Please review the proposal details at (_TODO: add link to the GitHub issue proposal_).
+    
+    If you're interested in participating, please :+1: the GitHub issue proposal and drop a comment with your name, org and email
+
+   Thanks a lot,
+   ```
 
 ## Identify project meta (Lead: FINOS Contrib POC, Support: FINOS Marketing)
 - [ ] Project Name
