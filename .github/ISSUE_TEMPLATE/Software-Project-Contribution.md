@@ -50,7 +50,8 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 **Please do not edit these contents at contribution time!**
 
 ## FINOS Contrib POC
-- [ ] Identify and Assign FINOS Contrib POC
+- [ ] Identify and Assign FINOS Project Coordinator
+- [ ] Identify and Assign FINOS Strategic Advisor
 
 ## Kick-off meeting
 - [ ] Set up kick-off meeting with project leads to review:
