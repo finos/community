@@ -149,9 +149,9 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Add project to metadata
 - [ ] Add identities, orgs and affiliations to metadata
 - [ ] Add logo to FINOS landscape
-- [ ] Add project maintainers emails to finos-project-maintainers@finos.org list
-- [ ] Add project maintainers GitHub usernames to the project-maintainers Team
-- [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SOPS), Insights, EasyCLA, Groups.io)
+- [ ] Add project maintainers emails to [finos-project-maintainers@finos.org](https://groups.google.com/u/1/a/finos.org/g/ifnos-project-maintainers/members) list
+- [ ] Add project maintainers GitHub usernames to the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members)
+- [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SS), Insights, EasyCLA, Groups.io)
 
 ## Mailing list (optional)
 - [ ] Create mailing-list
