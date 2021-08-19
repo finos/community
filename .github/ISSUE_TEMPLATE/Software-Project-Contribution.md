@@ -134,7 +134,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 - [ ] Configure `finos-admins` and `finos-staff` team permissions
-- [ ] Enable EasyCLA
+- [ ] Enable EasyCLA / CLA Bot
 
 ## Infra setup (Lead: FINOS Infra)
 - [ ] Update release coordinates and code namespace to include `finos` (best effort)
