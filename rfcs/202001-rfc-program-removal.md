@@ -167,7 +167,7 @@ The Wiki is currently organized around the Program construct. Whether the wiki r
 
 
 
-1. **Early Jan:** Internal review (AaronW, Tosha, Rob, Gab, James)
+1. **Early Jan:** Internal review (AaronW, Tosha, Gab, James)
 2. **Mid Jan:** M&G Committee review
 3. **Mid Jan: **Community RFC starts
 4. **Late Jan: **Board approves a “blanket” resolution giving FINOS team green light to proceed
