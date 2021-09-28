@@ -3,7 +3,7 @@ name: "\U0001F58ASpecial Interest Group Contribution and Onboarding"
 about: To Contribute a Special Interest Group to FINOS
 title: Special Interest Group Contribution and Onboarding
 labels: contribution
-assignees: aitana16, maoo
+assignees: aitana16, maoo, TheJuanAndOnly99
 
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
