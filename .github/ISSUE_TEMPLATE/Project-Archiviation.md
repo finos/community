@@ -3,7 +3,7 @@ name: "\U0001F58ASoftware Project Archiviation"
 about: To Archive a FINOS Software Project
 title: Software Project Archiviation
 labels: contribution
-assignees: aitana16, maoo, TheJuanAndOnly99
+assignees: agitana, maoo, TheJuanAndOnly99
 
 ---
 
