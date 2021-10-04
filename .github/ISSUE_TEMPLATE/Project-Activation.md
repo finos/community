@@ -3,7 +3,7 @@ name: "\U0001F58AProject Activation"
 about: To Activate a FINOS hosted Project
 title: Project Activation
 labels: ''
-assignees: aitana16, maoo
+assignees: agitana, maoo, TheJuanAndOnly99
 
 ---
 
