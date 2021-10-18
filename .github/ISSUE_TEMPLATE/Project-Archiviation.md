@@ -15,7 +15,7 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 -----
 
 # Confirm archiviation
-- [ ] Validate [reasons for project archival](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530367/Archived#Archived-Triggers)
+- [ ] Validate [reasons for project archival](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#archived-projects)
 - [ ] Discuss request with FINOS Leadership team
 - [ ] Get in touch with Project Lead. If she/he agrees with the request, then move forward
 - [ ] (if applicable, and on a case to case basis) communicate project archival, reasons for archival and implications of archival to the project community
