@@ -15,12 +15,16 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 -----
 
 # Confirm archiviation
-- [ ] Validate reasons for project archival
+- [ ] Validate [reasons for project archival](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#archived-projects)
 - [ ] Discuss request with FINOS Leadership team
 - [ ] Get in touch with Project Lead. If she/he agrees with the request, then move forward
+- [ ] (if applicable, and on a case to case basis) communicate project archival, reasons for archival and implications of archival to the project community
 
 # Archive project
 - [ ] Archive all Github repositories related with the project
+- [ ] Archive mailing list: 
+    - [ ] add `[ARCHIVED]`prefix to project mailing list name
+    - [ ] set up an automated message for any emails sent to that mailing list, to let the community know that the mailing list has been archived + encourage to reach out to help@finos.org
 - [ ] Update FINOS Metadata
 - [ ] Update FINOS Landscape
 - [ ] Submit ticket to LF to update SFDC
