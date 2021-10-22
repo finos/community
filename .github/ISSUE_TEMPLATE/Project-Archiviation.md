@@ -22,6 +22,7 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 
 # Archive project
 - [ ] Archive all Github repositories related with the project
+- [ ] Set README.md badge as archived
 - [ ] Archive mailing list: 
     - [ ] add `[ARCHIVED]`prefix to project mailing list name
     - [ ] set up an automated message for any emails sent to that mailing list, to let the community know that the mailing list has been archived + encourage to reach out to help@finos.org
