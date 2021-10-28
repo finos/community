@@ -28,8 +28,8 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 - [ ] Archive mailing list: 
     - [ ] add `[ARCHIVED]`prefix to project mailing list name
     - [ ] set up an automated message for any emails sent to that mailing list, to let the community know that the mailing list has been archived + encourage to reach out to help@finos.org
-- [ ] Update FINOS Metadata
-- [ ] Update FINOS Landscape
+- [ ] Create a `staging` branch on https://github.com/finos/finos-landscape
+- [ ] Update FINOS Metadata (set `state` to `ARCHIVED` and set `archiveDate`)
 - [ ] Submit ticket to LF to update SFDC
 - [ ] Remove project Leads from the [finos-project-maintainers@finos.org](https://groups.google.com/u/1/a/finos.org/g/finos-project-maintainers/members) list
 - [ ] Remove project Leads from the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members)
