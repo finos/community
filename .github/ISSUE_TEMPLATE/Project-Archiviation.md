@@ -21,9 +21,10 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 - [ ] (if applicable, and on a case to case basis) communicate project archival, reasons for archival and implications of archival to the project community
 
 # Archive project
-- [ ] Remove all users and teams from `Member Access` repository settings
-- [ ] Update badge on `README.md` to archived, or remove it
-- [ ] Archive all Github repositories related with the project
+- [ ] Collect all GitHub repository for a given project, from FINOS metadata; iterate the following steps on each of them:
+    - [ ] Remove all users and teams from `Member Access` repository settings
+    - [ ] Update badge on `README.md` to archived, or remove it
+    - [ ] Archive all Github repositories related with the project
 - [ ] Archive mailing list: 
     - [ ] add `[ARCHIVED]`prefix to project mailing list name
     - [ ] set up an automated message for any emails sent to that mailing list, to let the community know that the mailing list has been archived + encourage to reach out to help@finos.org
