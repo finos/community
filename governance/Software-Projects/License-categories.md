@@ -13,7 +13,7 @@ Code licensed under the following licenses (and public domain dedications) may b
 - [Apache License v. 2.0 (Apache-2.0)](http://apache.org/licenses/LICENSE-2.0)
 - [BSD Zero Clause (0BSD)](https://spdx.org/licenses/0BSD.html)
 - [BSD 2-clause (BSD-2-Clause)](http://opensource.org/licenses/bsd-license.php)
-- [BSD 3-clause (BSD-3-Clause)](http://opensource.org/licenses/BSD-3-Clause) , or `New BSD License`
+- [BSD 3-clause (BSD-3-Clause)](http://opensource.org/licenses/BSD-3-Clause) , or `New BSD License`, or `Modified BSD License`
 - [Eclipse Distribution License v. 1.0 (?)](http://www.eclipse.org/org/documents/edl-v10.php)
 - [ISC](https://opensource.org/licenses/ISC)
 - [Microsoft Public License (Ms-PL)](http://www.opensource.org/licenses/ms-pl.html)
