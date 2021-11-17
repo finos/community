@@ -26,7 +26,7 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
 
-## Activation Checklist
+# Activation Checklist
 |  | **Activation (promotion to Active State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
 |  | **QUALITY & SECURITY** |   |
