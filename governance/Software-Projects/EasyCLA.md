@@ -51,11 +51,25 @@ Here are the steps to have your company sign the CLA.
 ### If your company hasn't yet signed the agreement
 
 1. Open a PR against a repo that uses EasyCLA.
-1. When blocked by the bot, follow the prompts and choose *Corporate*.
-1. Choose your company from the list. If it's not there, add it.
-1. Designate someone with signing authority (generally an officer or attorney, if in doubt ask your manager) to receive the DocuSign. This person is the *CLA Manager*.
-1. Follow up with the CLA Manager and ask them to sign the DocuSign form.
-1. The CLA Manager can now designate other CLA Managers who are allowed to manage your company's list of authorized contributors.
+2. When blocked by the bot, follow the prompts and choose *Corporate Contributor*.
+
+<img width="1719" alt="EasyCLA - 1  Contributor Type" src="https://user-images.githubusercontent.com/327285/143480686-a83b21fe-447c-471c-b6a9-4fa1e4df30de.png">
+
+3. Choose your company from the list. If it's not there, add it.
+
+<img width="779" alt="EasyCLA - 2  Select Organization" src="https://user-images.githubusercontent.com/327285/143480751-219e68ca-024d-43ae-9b17-9b949e3a1dbf.png">
+
+4. If you're a CLA Manager, press `Yes` and login with your LFID (or create an LF Account)
+
+<img width="517" alt="EasyCLA - 3  CLA Manager" src="https://user-images.githubusercontent.com/327285/143480856-3421d122-89cd-4766-a872-87c793bd0e37.png">
+
+5. Designate someone with signing authority (generally an officer or attorney, if in doubt ask your manager) to receive the DocuSign. This person is the *CLA Manager*.
+
+<img width="517" alt="EasyCLA - 4  Specify CLA Manager" src="https://user-images.githubusercontent.com/327285/143480895-ffaaca63-a636-4812-a9b7-4404939e169f.png">
+
+6. Follow up with the CLA Manager and ask them to sign the DocuSign form; if the CLA Manager have already approved you, the Pull Request will automatically update and be marked as `Covered`. If not...
+    6.1. The CLA Manager can now designate other CLA Managers who are allowed to manage your company's list of authorized contributors.
+    6.2. The EasyCLA bot can be re-triggered by adding a comment on the Pull Request with the content `/easycla`
 
 ### When your company has finished signing the agreement
 
@@ -107,3 +121,11 @@ If your company benefits from this project and you would like to provide essenti
 ### 3. Request that EasyCLA be enabled
 
 When the above steps are complete, please reach out to [help@finos.org](mailto:help@finos.org) and EasyCLA will be enabled for your repos.
+
+## CLA Documents
+
+Please find below the FINOS CLA document templates (Individual and Corporate):
+- [Individual_Contributor_License_Agreement.pdf](https://github.com/finos/community/files/7604554/Individual_Contributor_License_Agreement.pdf)
+- [Corporate_Contributor_License_Agreement.pdf](https://github.com/finos/community/files/7604556/Corporate_Contributor_License_Agreement.pdf)
+
+- 
