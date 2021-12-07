@@ -32,7 +32,7 @@ This document describes requirements and recommendations for holding meetings of
   * Open the conference call 5 minutes before the scheduled start time.
   * Start the meeting 5 minutes after the scheduled start to give people time to join.
   * Keep the meeting to the agenda. Move off-topic discussions to the agenda for the next meeting, or the mailing list.
-  * If a discussion becomes unproductive, move on. Ask the participants to send their proposals on the mailing list or as agenda items for future meetings.
+  * If a discussion becomes unproductive, move on. Ask the participants to send their proposals via issues/pull requests, on the mailing list or as agenda items for future meetings.
   * End the meeting on time, even if you don't get through the agenda, so those with other appointments do not miss important discussions.
 
 ## Call votes as needed
