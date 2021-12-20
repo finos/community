@@ -32,6 +32,9 @@ An incubating project is allowed to deploy releases while incubating, **provided
 
 Incubating projects may also use ecosystem-appropriate suffixes for **pre-releases** (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem), in an effort to support wider contribution.
 
+**NOTE!**
+The Foundation strongly recommends the use of [Semantic Versioning](http://semver.org/) ("semver") throughout a project's lifecycle.
+
 ## Incubating Lifecycle Checklist
 
 The table below presents a consolidate checklist for contributors to guide the decision to accept a new contribution into Incubation (all Projects get contributed into Incubating state):
