@@ -3,7 +3,7 @@ name: "\U0001F58ASoftware Project Contribution and Onboarding"
 about: To Contribute a Software Project to FINOS
 title: Software Project Contribution and Onboarding
 labels: contribution
-assignees: agitana, maoo, TheJuanAndOnly99
+assignees: maoo, TheJuanAndOnly99
 
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
@@ -45,19 +45,23 @@ Upon submission of this project proposal, the FINOS team will get in touch with 
 
 -----
 
-# Contribution process (v. 1.0, last updated on October 2, 2020)
+# Contribution process (v. 1.1, last updated on December 20, 2021)
 Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS contribution process.
 **Please do not edit these contents at contribution time!**
+
+## Kick-off meeting
+- [ ] Set up kick-off meeting with project leads
+- [ ] Run kick-off meeting
+    - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
+    - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/)
+    - [ ] [FINOS Project/Standards Governance](https://github.com/finos/community/tree/master/governance)
+    - [ ] [FINOS Project Lifecycle](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md)
+    - [ ] Walk through the checklist, answer questsion and remove items that don't apply
+    - [ ] Write and send contribution proposal announcement (optional - see below)
 
 ## FINOS Contrib POC
 - [ ] Identify and Assign FINOS Project Coordinator
 - [ ] Identify and Assign FINOS Strategic Advisor
-
-## Kick-off meeting
-- [ ] Set up kick-off meeting with project leads to review:
-    - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
-    - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/) 
-- [ ] Discuss project proposal
 
 ## Proposal (Lead Maintainer)
 - [ ] Lead maintainer to send out announcement to community@finos.org using this template:
@@ -73,20 +77,19 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
    ```
 
 ## Identify project meta (Lead: FINOS Contrib POC, Support: FINOS Marketing)
-- [ ] Project Name
-    - [ ] Assess current trademark status
-    - [ ] Define new project name (if applicable)
-    - [ ] Design new project logo (if applicable)
-    - [ ] Trademark new project name and logo (if applicable)
-- [ ] Category and sub-category (for FINOS Landscape)
-- [ ] Existing code or new Github repository
-- [ ] Existing code releases (and which artifact repositories are used)
+- Project main coordinates
+    - [ ] Project Name
+    - [ ] Project Slug
+    - [ ] Does the name have a registered trademark?
+    - [ ] Request logo design (if needed)
+- [ ] Category and sub-category (for [FINOS Landscape](https://landscape.finos.org/))
+- [ ] Is there existing code? If so, is it public? If not, can you grant read access to user github.com/finos-admin ?
+- [ ] Was the project ever released? If so, are releases public? And what's the latest released version?
 - [ ] Team composition: lead maintainer and other maintainers
-- [ ] Meetings (existing/yes/no)
-- [ ] Meeting minutes, agenda, attendance tracking (existing/yes/no)
-- [ ] Continuous Integration (existing/yes/no)
-- [ ] Documentation website (existing/yes/no)
-- [ ] Define project slug
+- [ ] Are meetings currently held for the project?
+- [ ] Are meeting minutes, agenda and attendance tracked?
+- [ ] Is Continuous Integration used? If so, which system is used?
+- [ ] Is there an existing Documentation website? If not, would you like to have one?
 
 ## Maintainers, contributors and CLAs (Lead: FINOS Contrib POC, Support: FINOS infra)
 - [ ] For each maintainer identified in the previous step, collect: the following info:
@@ -108,6 +111,12 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - Synchronous
   - [ ] FINOS Slack Channel (general _public Slack_ / leadership _private Slack_)
 - [ ] Create the identified communication channels during infra set up
+    - [ ] Create mailing-list on lists.finos.org (optional)
+        - [ ] Enable Hubspot Sync for all project mailing lists created
+        - [ ] Aggregate mailing lists to community@finos.org
+        - [ ] Update marketing lists
+          - Add new list to the included "Email List" part of the filter
+          - Add new list to the excluded "Email" part of the filter
 - [ ] Link communication channels linked front and center in the project README.md
 
 ## Code validation (only if code is contributed) (Lead: FINOS Infra)
@@ -126,56 +135,42 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] FINOS accepts the contribution (and the contribution process can move forward)
 
 ## Code transfer (Lead: FINOS Infra)
+- [ ] Backup (even with screenshot) GitHub permissions of the repository to transfer
 - [ ] Check GitHub repository transfer requirements:
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
+- [ ] Review FINOS [project blueprint contents](https://odp.finos.org/docs/project-collaboration#finos-project-blueprint)
+    - [ ] Project title/description in README
+    - [ ] Project badge in README
+    - [ ] License in README
+    - [ ] Contributing in README
+    - [ ] `CONTRIBUTING.md`
+    - [ ] `LICENSE` (look for `{}` placeholders)
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 - [ ] Configure `finos-admins` (`Maintain` role) and `finos-staff` (`Triage` role) team permissions
-- [ ] Enable EasyCLA / CLA Bot
-- [ ] Update Metadata
+- [ ] Enable EasyCLA
+- [ ] Update FINOS Project Metadata
 
 ## Infra setup (Lead: FINOS Infra)
-- [ ] Update release coordinates and code namespace to include `finos` (best effort)
-- [ ] Update project badge
-- [ ] Update project README
-- [ ] Enable security vulnerabilities scanning
-- [ ] Aggregate mailing lists to community@finos.org
-- [ ] Enable meeting attendance tracking (optional)
-- [ ] (optional) Onboard into legend.finos.org/studio
-
-## Metadata update (Lead: FINOS Infra)
 - [ ] Add project to metadata
-- [ ] Add identities, orgs and affiliations to metadata
+- [ ] Add identities, orgs and affiliations to metadata (deprecated by EasyCLA)
 - [ ] Add logo to FINOS landscape
+    - [ ] Create `staging` branch on `finos/finos-landscape`
+    - [ ] Merge `finos/metadata` changes on master (will udpdate `landscape.yml` in `finos/finos-landscape`)
+    - [ ] Create PR from `staging` branch on `finos/finos-landscape`
+    - [ ] Review Netlify preview
+    - [ ] Merge PR
 - [ ] Add project maintainers emails to [finos-project-maintainers@finos.org](https://groups.google.com/u/1/a/finos.org/g/finos-project-maintainers/members) list
 - [ ] Add project maintainers GitHub usernames to the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members)
 - [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SS), Insights, EasyCLA, Groups.io)
+- [ ] (best effort) Update release coordinates and code namespace to include `finos`
+- [ ] Enable security vulnerabilities scanning
+- [ ] (optional) Enable meeting attendance tracking
+- [ ] (optional) Onboard into legend.finos.org/studio
 
-## Mailing list (optional)
-- [ ] Create mailing-list
-- [ ] Enable Hubspot Sync for all project mailing lists created
-- [ ] Update marketing lists
-  - Add new list to the included "Email List" part of the filter
-  - Add new list to the excluded "Email" part of the filter
 ## Announcement (Lead: FINOS Contrib POC)
-- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
-- [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
-
-## Marketing collateral and Social (Lead: FINOS Marketing)
-- [ ] Update FINOS marketing collaterals to update numbers and include the new project
-- [ ] Post on FINOS social media
-- [ ] Post on LF social media
-- [ ] Email brief announcement to lf_staff@linuxfoundation.org (Optional depending applicability of contribution)
-
-## Onboarding and training (Lead: FINOS Infra)
-- [ ] FINOS Project Governance
-- [ ] FINOS Project Lifecycle
-- [ ] ODP Training
-
-## Press Release (OPTIONAL - Lead: FINOS Marketing)
-- [ ] Identify quotes for press release
-- [ ] Draft press release
-- [ ] Send embargoed press release to reporters
+- [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Notify FINOS Contrib POC and FINOS marketing (@grizzwolf + finos-marketing internal Slack channel)
