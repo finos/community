@@ -10,6 +10,7 @@ module.exports = {
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
+  onBrokenLinks: 'log',
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
   },
@@ -48,36 +49,15 @@ module.exports = {
       },
       links: [
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: 'docs/home',
-            },
-            {
-              label: 'Roadmap',
-              to: 'docs/roadmap',
-            },
-            {
-              label: 'Team',
-              to: 'docs/team',
-            }
-          ]
-        },
-        {
           title: 'FINOS',
           items: [
             {
               label: 'FINOS Website',
-              to: 'https://regulationinnovation.org/air-events/',
-            },
-            {
-              label: 'Community Handbook',
-              to: 'https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook',
+              to: 'https://www.finos.org',
             },
             {
               label: 'Community Governance',
-              to: 'https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530783/Community+Governance',
+              to: "governance/intro",
             }
           ]
         },
