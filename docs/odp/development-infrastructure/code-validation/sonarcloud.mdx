@@ -1,0 +1,42 @@
+---
+id: sonarcloud
+title: Sonar Cloud
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+<img height="150px" alt="sonarcloud-logo" src={useBaseUrl('img/vendors/sonarcloud-logo.png')} />
+
+| | |
+|--- | :---|
+| **Name** | sonarcloud |
+| **Status** | Delivered |
+| **Link** | [sonarcloud.io](https://sonarcloud.io) |
+| **Topics** | Security, Quality |
+| **Languages** | Java, Javascript, C# |
+
+[SonarCloud](https://sonarcloud.io/) is a service operated by [SonarSource](https://www.sonarsource.com/), the company that develops and promotes open-source code quality products [SonarQube](https://www.sonarqube.org/) and [SonarLint](https://www.sonarlint.org/); SonarSource provides SonarCloud for open source projects, free of charge.
+
+Below are some of the most important features used by Foundation projects:
+
+1. Integration with CI environments
+2. Measures test coverage
+3. Scans code for security vulnerabilities
+4. Scans code for bad practices (duplicated logic, debts and code smells)
+5. Scans code for bugs
+
+<img alt="sonarcloud-dashboard" src={useBaseUrl('img/vendors/sonarcloud-dashboard.png')} />
+
+## Request access
+Sign into [sonarcloud.io](https://sonarcloud.io) and register your Github project.
+
+## Build configuration
+There are different ways to enable Sonar in your project, follow the [Getting Started guide](https://about.sonarcloud.io/get-started/) to know more.
+
+You can configure a SonarCloud badge by adding the following syntax at the top of your README.md:
+
+```
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=<group-id>%3A<artifact-id>&metric=alert_status)](https://sonarcloud.io/dashboard?id=&lt;group-id&gt;%3A&lt;artifact-id>)
+```
+
+From the [`Account > Security`](https://sonarcloud.io/account/security/) menu of SonarCloud dashboard, you'll be able to generate the token that needs to be passed as `SONAR_TOKEN` environment variable.

@@ -1,0 +1,122 @@
+---
+id: java
+title: Java
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+The Foundation hosts [several Java projects](https://github.com/finos?q=&type=&language=java) and provides a good level of support for building, testing and releasing Java code.
+
+The most adopted (68% in 2016, [according to RebelLabs](https://pages.zeroturnaround.com/RebelLabs-Developer-Productivity-Report-2016.html)) build tool for Java is [Apache Maven](https://maven.apache.org/), which provides a standard, modular, convention-based model to build and publish your Java projects; as such, the Foundation provides a Maven Module called [Parent POM](https://github.com/finos/finos-parent-pom), containing build configurations that can be easily inherited by the single projects; in provides:
+
+1. Plugin configuration for the most common Maven functionalities
+2. Nightly-built (in Maven terms, snapshots) deployment into Sonatype OSS public repository (oss.sonatype.org)
+3. Release deployment on the Central Repository
+4. Rules to validate Central Repository code requirements
+5. Other integrations for checks and validations
+
+You can also adopt other Java build tools, such as [Gradle](https://gradle.org/), [Ant](https://ant.apache.org/), [Leiningen](https://leiningen.org/) or others, assuming that they are able to interact with the Central Repository.
+
+## Build
+The build process aims to produce reusable Java binaries (**artifacts**, in Maven terms) in a reliable and reproducible way, from every contributor or consumer workstation; special build requirements should be documented in the project homepage.
+
+The Maven command to build artifacts is `mvn package`.
+
+## Artifact publishing
+All Java projects hosted by the Foundation are expected to use a groupId that is (or prefixed by) `org.finos` and are published on the [Maven central repository](https://search.maven.org/#search%7Cga%7C1%7Corg.finos) (also known as Maven Central).
+
+In order to publish artifacts (in Maven terms, **artifact deployment**), it's necessary to setup some accounts and configure the workstation accordingly; please note that these steps are not mandatory for all project teams, but only for those performing artifact deployment and releases (normally the project lead or a team member elected as release manager).
+
+1. Sign up on [https://issues.sonatype.org](https://issues.sonatype.org) (`https://oss.sonatype.org` Maven repo will use these credentials for authentication).
+2. Email [help@finos.org](mailto:help@finos.org), with the GitHub URL of your project, and your Sonatype Jira ID (from step 1)
+3. Update your Maven `settings.xml` file as [shown below](#publishing-settings); using Maven encrypted passwords is strongly advised, to avoid setting up the password in clear text
+
+At this point, you can proceed with the deployment of the snapshot artifacts, by simply invoking `mvn deploy` from the project root folder; as a result, artifacts will be publicly available on [`oss.sonatype.org`](https://oss.sonatype.org) and usable by anyone as Maven dependencies.
+
+You can find more info on the [Central Repository howto page for Maven](https://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication).
+
+### Publishing settings
+```
+<settings>
+  <servers>
+    <server>
+      <id>ossrh</id>
+      <username>[your-sonatype-jira-id]</username>
+      <password>[your-sonatype-jira-pwd]</password>
+    </server>
+    <server>
+      <id>ossrh-distro</id>
+      <username>[your-sonatype-jira-id]</username>
+      <password>[your-sonatype-jira-pwd]</password>
+    </server>
+  </servers>
+</settings>
+```
+
+### Maven Central Badge
+A badge can be added at the top of the project's root-level [README.md] file, using the following Markdown syntax:
+```
+[![Maven Central](https://img.shields.io/maven-central/v/org.finos/<project name>.svg?maxAge=2592000)](https://search.maven.org/#artifactdetails%7Corg.finos%7C<project name>%7C2%7Cpom)
+```
+
+If you want to run this process continuously for each commit, you can integrate with [Travis CI or other Continuous Integration systems](intro).
+
+## Release
+The Maven release process performs the following activities:
+
+1. Verify that there are no uncommitted changes in the local workspace.
+2. Prompt the user for the desired tag, release and development version names.
+3. Modify and commit release information into the pom.xml file.
+4. Tag the entire project source tree with the new tag name.
+5. Extract file revisions versioned under the new tag name.
+6. Deploy the versioned artifacts to appropriate local and remote repositories.
+
+All the configurations documented in the section above (see snapshot deployment) also apply to the release process; additionally, it is required to:
+
+1. [Install gpg](https://central.sonatype.org/pages/working-with-pgp-signatures.html) on the local workstation where the release process is invoked
+2. Configure [settings.xml as shown below](#release-settings)
+3. Test a snapshot deployment (see above), to make sure that you can authenticate against Sonatype servers
+
+At this point you can **proceed with the release**:
+
+1. `export GPG_TTY=$(tty)`
+2. Run the maven command `mvn release:prepare release:perform -Prelease`; the release profile will provide javadocs, sources and gpg signature configuration for the build; if you're not using `finos-parent-pom`, you'd need to configure these plugins by yourself; feel free to copy bits and pieces from the [FINOS parant `pom.xml`](https://github.com/finos/finos-parent-pom/blob/master/pom.xml)
+3. Promote the staged artifacts by accessing the [Nexus staging repositories](https://central.sonatype.org/pages/releasing-the-deployment.html) to:
+  a. Identify which repository refers to the release process performed on step **#1**. Look at the description column to identify the specific project (look towards bottom of list).
+  b. Select the staging repository. To release the request, click the `Close` (button on top menu) the release request - this operation will trigger a validation of the artifacts to be released
+  c. Click on the refresh button to update status of repository.  Click on `Release` (button on top menu) to sync artifacts with the Central Repository and remove staging repository. 
+
+Upon release, your component will be published to Central: this typically occurs within 10 minutes, though updates to [search](https://search.maven.org/) can take up to two hours.  You can also [watch this youtube video](https://www.youtube.com/watch?v=aO-QFRsYxN4) to know more about the Nexus staging lifecycle.
+
+### Release settings
+```
+<settings>
+  ...
+  <profiles>
+    <profile>
+      <id>ossrh</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <gpg.executable>gpg2</gpg.executable>
+      </properties>
+    </profile>
+  </profiles>
+</settings>
+```
+
+### Known issues
+If the release command fails with "gpg: signing failed: Inappropriate ioctl for device", run the following command and try again; [more info on stackexchange](https://unix.stackexchange.com/a/257065).
+```
+export GPG_TTY=$(tty)
+```
+
+## Project Documentation
+Maven allows to generate a documentation website in HTML format and provides different options to publish such content on remote servers; content is composed by:
+
+1. [Javadocs](https://www.oracle.com/technetwork/articles/java/index-137868.html) - can be easily generated using the [maven-javadoc-plugin](https://maven.apache.org/plugins/maven-javadoc-plugin/), which is already configured to run during the build by the FINOS Parent Pom; the documentation is delivered in HTML format and included in the target/site/apidocs project sub-folder; to invoke the javadoc generation manually, you can invoke `mvn javadoc:javadoc`.
+2. [Reporting](https://maven.apache.org/plugins/maven-site-plugin/examples/configuring-reports.html) - to collect different metrics from Maven build plugins and publish them as part of the docs.
+3. [Free content](https://maven.apache.org/plugins/maven-site-plugin/examples/creating-content.html) - A free structure of documentation content, which supports different template languages (apt, fml, markdown, xdoc and xhtml)
+
+The FINOS Parent POM provides a configuration that allows to publish such content under the [FINOS Project Landscape](https://landscape.finos.org); to enable it, the build must be invoked using the `-Ppublish-site` Maven profile.  For more info, follow the [related Pom documentation](https://github.com/finos/finos-parent-pom#github-plugins-configuration) and check configuration on the [symphony-java-sample-bots project](https://github.com/symphonyoss/symphony-java-sample-bots).

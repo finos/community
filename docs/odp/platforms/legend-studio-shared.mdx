@@ -1,0 +1,39 @@
+---
+id: legend-studio-shared
+title: FINOS Legend Studio Shared instance
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+[Legend](https://github.com/finos/legend) provides an **end-to-end data platform experience covering the full data lifecycle**. It encompasses the [**Legend-Pure language**](https://github.com/finos/legend-pure) and a suite of data management and governance tools known as the **Legend Platform**, which allows engineers and non-engineers alike to describe, connect, visualize, and query high-quality data. 
+
+**Learn more about Legend at [legend.finos.org](https://legend.finos.org).**
+
+## Shared Public Instance of Legend Studio
+FINOS hosts a shared instance of Legend Studio at [https://legend.finos.org/studio](https://legend.finos.org/studio). The shared instance of Legend Studio is provided free-of-charge and as-is. It is primarily intended to be used for shared modeling efforts conducted by FINOS members and other non-member community participants as part of [FINOS hosted projects or initiatives](https://landscape.finos.org/).
+
+Learn about the projects that are currently leveraging the shared instance of Legend Studio in the "modeling initiatives" section of the [FINOS Landscape](https://landscape.finos.org/). The shared instance was also used by participants in the [FINOS Legend Studio pilot (April-September 2020)](https://www.finos.org/press/goldman-sachs-open-sources-its-data-modeling-platform-through-finos). 
+
+Anyone is welcome to [request an account on the shared instance](https://www.finos.org/legend). Requests for accounts will be fulfilled based on FINOS staff availability as well as the rationale stated below for wanting an account and/or any connection between a request and the work of an ongoing FINOS project. Additional consideration will be also given to account requests from FINOS members.
+
+### Default project configuration and permissions
+
+Legend models developed on the [FINOS hosted shared instance of Legend Studio](https://legend.finos.org/studio), are open source and map to a GitLab project within the https://gitlab.com/finosfoundation/Legend group.
+
+**Configuration**. All projects in the https://gitlab.com/finosfoundation/Legend group are subject to the following configuration:
+- `master` branches are protected from direct commits, only Merge Requests are allowed
+- Merge Requests must be approved by at least one project [Code Owner](https://docs.gitlab.com/ee/user/project/code_owners.html)
+
+**Access, roles and permissions**. Anyone interested can request access to the shared instance of Legend Studio by filling out the form at https://www.finos.org/legend. Access to the shared instance of Legend Studio will be associated to one of the following roles and permission levels:
+
+- `Reporter`: is the default permission level provided to anyone requesting an account on the shared instance of Legend Studio. Users with reporter access can read [Legend workspaces](https://legend.finos.org/docs/studio/create-workspace) across all FINOS hosted models.
+- `Developer`: users with developer access can create [Legend workspaces](https://legend.finos.org/docs/studio/create-workspace) and submit changes across all FINOS hosted models. A prerequisite to get `developer` access is to have a [Contributor License Agreement (CLA)](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) in place with FINOS.
+- `Maintainer`: users with maintainer access can review merge requests and merge changes. A prerequisite to get `maintainer` access is to have a [Contributor License Agreement (CLA)](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) in place with FINOS. `Maintainers` are elected according to the steps set out in the [FINOS Governance](https://github.com/finos/community/blob/master/governance/Software-Projects/CONTRIBUTING.template.md)
+
+Maintainers can be:
+- `Legend Maintainers`: they lead the Legend project and have Maintainer access across all models
+- `FINOS Modeling Project Maintainers`: they lead one specific project in FINOS, which includes Legend modeling initiatives; they are granted `Maintainer` roles across all the modeling initiatives within that FINOS project
+- `Model Maintainers`: they lead one specific modeling initiative, as part of a FINOS project
+
+## Background
+[Legend](https://github.com/finos/legend) was originally developed by Goldman Sachs and contributed to FINOS in October 2020. See the October 2020 [Open Sourcing Press Release](https://www.finos.org/press/goldman-sachs-open-sources-its-data-modeling-platform-through-finos), and coverage in Business Insider ["Code for Goldman Sachs' internal data platform is now open for anyone to use"](https://www.businessinsider.com/code-for-goldmans-data-platform-legend-open-sharing-github-2020-10), and Bloomberg ["Goldman Sachs Open Sources its Data Modeling Platform through FINOS"](https://www.bloomberg.com/press-releases/2020-10-19/goldman-sachs-open-sources-its-data-modeling-platform-through-finos).

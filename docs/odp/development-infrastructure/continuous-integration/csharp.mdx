@@ -1,0 +1,33 @@
+---
+id: csharp
+title: C#
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+[**C#**](https://msdn.microsoft.com/en-us/library/z1zx9t92.aspx) is an object-oriented language that runs on the .NET Framework; feel free to browse the [Foundation hosted projects written in C#](https://github.com/finos?q=&type=&language=c%23).
+
+## Build
+The easiest way to locally build a C# project is to [use Visual Studio](https://msdn.microsoft.com/en-us/library/5tdasz7h.aspx), although it's also possible to use the [MSBuild](https://msdn.microsoft.com/en-us/library/dd393574.aspx) command-line tool; you can find more info on [Microsoft Developer Network](https://msdn.microsoft.com/en-us/library/cyz1h6zd.aspx).
+
+There is an open source, cross-platform alternative to the .NET Framework implementation called [Mono](https://www.mono-project.com/), based on the [ECMA](https://www.mono-project.com/docs/about-mono/languages/ecma/) standards for C# and the [Common Language Runtime](https://www.mono-project.com/docs/advanced/runtime/), however not all .NET applications can run on this platform, therefore it's safer to run all builds on a Windows environment that is configured with the .NET Framework installed.
+
+## Release on NuGet
+[NuGet](https://nuget.org/) is the package manager for the Microsoft development platform including .NET. The [NuGet client tools](https://docs.nuget.org/ndocs/guides/install-nuget) provide the ability to produce and consume packages. The NuGet Gallery is the central package repository used by all package authors and consumers.
+
+To release a project on NuGet, it is currently required to run the build process from a .NET (Windows) environment, as there are some known issues for NuGet to run with Mono on Linux and OSX; please refer to [Mono issues](https://github.com/NuGet/Home/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+mono) on GitHub for more info.
+
+From command-line, you can invoke the following command:
+```
+nuget pack project.csproj -IncludeReferencedProjects -Prop Configuration=Release
+```
+
+A badge can be added at the top of the project's root-level README.md file, using the following Markdown syntax:
+
+```
+[![NuGet Packages Status](https://img.shields.io/nuget/v/<package name>.svg?maxAge=2592000)](https://www.nuget.org/packages/<package name>/)
+```
+
+You can also run this process continuously on each commit and publish pre-releases by <a href="intro#myget">integrating with MyGet</a>.
+
+<img alt="openshift-console" src={useBaseUrl('img/vendors/openshift-console.png')} />

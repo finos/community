@@ -1,0 +1,193 @@
+---
+id: intro
+title: Continuous Integration
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+Continuous Integration (CI) allows developers to run different type of validation processes automatically at commit / merge time, in order to identify problems earlier.  As a result, configuring CI is inherently language and eco-system specific (see the `Release and deployment` section below).
+
+The Open Developer Platform facilitates adoption CI tools and services that have been either requested by projects or provided by vendors, like WhiteSource, GitHub and RedHat, who offered their services to FINOS project teams and improve their build pipelines.
+
+Below are listed the CI engines that we have been adopted by FINOS projects; although in the past the majority of project used Travis CI, we've seen our community shifting towards GitHub Actions, following [their new release in 2019](https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/).
+
+## GitHub Actions
+GitHub gives the ability to create, reuse and share actions, which can be easily described as workloads that can be triggered on a wide range of events.
+
+Actions can be only defined at repository level, creating a `YAML` file in the `.github/workflows` folder. The `Actions` tab available in `github.com` web UI will list the actions defined and show the execution logs.
+
+The Open Developer Platform uses GitHub Actions for the following use cases:
+- <a href={useBaseUrl('docs/development-infrastructure/project-documentation')}>Building and publishing Project websites</a>
+- <a href={useBaseUrl('docs/project-collaboration')}>Tracking meeting attendance</a>
+- <a href="https://github.com/finos/open-developer-platform/blob/master/.github/workflows/project-blueprint.yml">Validating repository compliance (work in progress)</a>
+
+To learn how to use GitHub Actions, start reading [https://help.github.com/en/actions](https://help.github.com/en/actions).
+When it's time to start writing your first `.yml` file, we found extremely helpful the following resources:
+- [Using the GITHUB_TOKEN in a workflow](https://help.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token#using-the-github_token-in-a-workflow)
+- [Context and expression syntax](https://help.github.com/en/actions/reference/context-and-expression-syntax-for-github-actions)
+- [Event Types & Payloads](https://developer.github.com/v3/activity/events/types/)
+
+## Travis CI
+Travis CI is a hosted, distributed continuous integration service used to build and test software projects hosted at GitHub.
+
+To enable Travis CI on a Foundation hosted project:
+
+1. [Sign in to Travis CI](https://travis-ci.org/) with your Github credentials
+2. Access the [Travis CI profile](https://travis-ci.org/profile/symphonyoss) and sync your project
+3. Add a `.travis.yml` file in the root folder of your GitHub repo (check this [.travis.yml](https://github.com/finos/finos-parent-pom/blob/master/.travis.yml) as example)
+  a. (optional) If you need to perform variable encryption and other useful commands, install the [Travis CI Client](https://github.com/travis-ci/travis.rb) (using `gem install travis`)
+4. Access `https://travis-ci.org/finos/<repository-name>` and validate the build
+
+Please check the [Travis supported languages](https://docs.travis-ci.com/user/languages/) and how to [customize your build](https://docs.travis-ci.com/user/customizing-the-build) to understand if your language is supported and how to configure additional build features.
+
+A badge can be added at the top of the project's root-level `README.md` file, using the following Markdown syntax:
+
+```
+[![Build Status](https://travis-ci.org/finos/<repository name>.svg)](https://travis-ci.org/finos/<repository name>)
+```
+
+### Example of Configuring Integration Testing
+In order to run this sample (some Symphony sample bots), the Travis build needs to be configured to add the following items:
+
+```
+# Download certificate before the build script runs
+before_script: "curl -s https://raw.githubusercontent.com/symphonyoss/contrib-toolbox/master/scripts/download-files.sh | bash"
+```
+
+```
+# Define environment variables with Symphony Pod endpoints
+env:
+ global:
+  - FOUNDATION_API_URL=https://foundation-dev-api.symphony.com
+  - FOUNDATION_POD_URL=https://foundation-dev.symphony.com
+  - SESSIONAUTH_URL=$FOUNDATION_API_URL/sessionauth
+  - KEYAUTH_URL=$FOUNDATION_API_URL/keyauth
+  - POD_URL=$FOUNDATION_POD_URL/pod
+  - AGENT_URL=$FOUNDATION_POD_URL/agent
+```
+
+At this point, the certificates are in place and downloaded into the build box; integration tests can resolve User Identity certificates by accessing environment variables.
+
+The [symphony-java-sample-bots](https://github.com/symphonyoss/symphony-java-sample-bots/) was amongst the first Foundation projects that was enabled to run integration tests from Travis CI; the [Travis build logs](https://travis-ci.org/symphonyoss/symphony-java-sample-bots/) for this project show the info below.
+
+- The (hidden) environment variables that identify User Identity certificates (in this case 2, one for the message sender, one for the message receiver)
+
+```
+# Setting environment variables from repository settings
+$ export DOWNLOAD_PATH=[secure]
+$ export DOWNLOAD_ITEMS=[secure]
+$ export TRUSTSTORE_FILE=[secure]
+$ export TRUSTSTORE_PASSWORD=[secure]
+$ export BOT_USER_EMAIL=[secure]
+$ export BOT_USER_CERT_FILE=[secure]
+$ export SENDER_USER_EMAIL=[secure]
+$ export SENDER_USER_CERT_FILE=[secure]
+$ export DOWNLOAD_HOST=[secure]
+$ export SENDER_USER_CERT_PASSWORD=[secure]
+$ export BOT_USER_CERT_PASSWORD=[secure]
+```
+
+- The integration test logs of a successful run
+
+```
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.symphonyoss.simplebot.EchoBotIT
+chat initialised
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.132 sec - in org.symphonyoss.simplebot.EchoBotIT
+ 
+Results :
+ 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+```
+
+#### Known Certificate Issues
+```
+Caused by: javax.crypto.BadPaddingException: Given final block not properly padded at
+org.symphonyoss.simplebot.EchoBotIT.sendAndReceiveEcho(EchoBotIT.java:64)
+```
+This basically means that the certificate password is wrong; to validate the certificate using the following command:
+```
+openssl pkcs12 -info -nodes \
+-in <certificate_path> \
+-passin pass:<certificate_password>
+```
+
+Reminder for Foundation staff: every password symbol must be escaped by prefixing it with character ‘\’, before setting it as Travis environment variable.
+
+#### Branch specific build commands
+Travis CI does not provide a syntax to specify branch-specific build commands; however, it is possible to use the following `.travis.yml` syntax to workaround it; in this example, the Maven build will use the `sonar` profile only if the current branch is master.
+```
+script:
+- "[[ $TRAVIS_BRANCH =~ master ]] && mvn clean deploy -Pintegration-testing,sonar --settings settings.xml"
+- "[[ $TRAVIS_BRANCH =~ dev ]] && mvn clean deploy -Pintegration-testing --settings settings.xml"
+```
+
+## Azure Pipelines
+
+FINOS can provide projects with Azure Pipelines integration on [https://dev.azure.com/finosfoundation](https://dev.azure.com/finosfoundation).
+
+You can follow docs on the [Microsoft docs page](https://docs.microsoft.com/en-us/azure/devops/pipelines/create-first-pipeline)
+
+## MyGet
+[Myget](https://myget.org/) is a friction-free continuous integration & delivery for your nuget, npm, bower and vsix packages; the Foundation provides package repositories, which allow:
+
+1. **Pre-release build and publishing**, using build environments that are equipped with .NET Framework and Visual Studio (headless); it also features source code tagging and version updates on source code based on incremental build number, to fully automate the package publishing pipeline
+2. **Sync with NuGet**, that can be either manual (promoting pre-releases to releases using MyGet web interface) or automatic (a committer must create a personal account on MyGet and request access from the Foundation in order to be able to push packages)
+
+In order to request a project to be integrated with MyGet, a Project lead can sign up to MyGet and email [help@finos.org](mailto:help@finos.org) the following info:
+1. Project coordinates - GitHub project url and other useful info
+2. MyGet username
+3. CSProj and CS files - Where project descriptors are located
+4. Packages - A list of the packages that need to be published; by default all packages are taken into account
+5. Publishing strategy to NuGet - Whether to enable automatic publishing based on source code branching or rely on manual package pushing using the MyGet interface; if the latter, a MyGet personal account username must be provided
+
+An example of project building with MyGet is the Symphony [RestApiClient project](https://symphonyoss.atlassian.net/wiki/github.com/symphonyoss/RestApiClient), which is also published on the [FINOS MyGet repository](https://www.myget.org/feed/ssf-restapiclient/package/nuget/SymphonyOSS.RestApiClient) and [NuGet](https://www.nuget.org/packages/SymphonyOSS.RestApiClient/).
+
+Badges can be added at the top of the project's root-level `README.md` file, using the following Markdown syntax:
+
+- Build status: 
+```
+[![MyGet Build Status](https://www.myget.org/BuildSource/Badge/<feed name>?identifier=<guid>)](https://www.myget.org/feed/<feed name>/package/nuget/<package name>)
+```
+- Latest Pre-Release package published: 
+```
+[![MyGet Pre Release](https://img.shields.io/myget/<feed name>/v/<package name>.svg)](https://www.myget.org/feed/<feed name>/package/nuget/<package name>)
+```
+
+## Release and deployment
+
+### Continuous (artifact) deployment in Java
+When using Java, Travis CI can be easily configured to publish new snapshot artifacts on commit; to enable this feature, a project committer can follow these simple steps:
+
+1. Follow the Java Snapshot deployment configuration ; as a result, you should have username/password credentials (mentioned below as `CI_DEPLOY_USERNAME` and `CI_DEPLOY_PASSWORD`) to access issues.sonatype.org
+2. Email [help@finos.org](mailto:help@finos.org) to request permission to deploy artifacts on Maven remote repositories; this action is not required if the developer has already been granted access previously
+3. Commit a `settings.xml` file in the project root folder
+4. Define `CI_DEPLOY_USERNAME` and `CI_DEPLOY_PASSWORD` variables with Travis CI; make sure that they're encrypted and hidden during the build process; the credentials to use are the ones defined on step 1; if you don't want to share your username/password credentials, you can request and use Nexus tokens
+5. Change the `mvn` build command to
+  a. Invoke the `deploy` goal
+  b. Append `--settings settings.xml` at the end of the build command
+
+[This tutorial](https://coderwall.com/p/9b_lfq/deploying-maven-artifacts-from-travis) walks through the mentioned steps, with more details and configuration options; a working example of this configuration is the [symphony-java-sample-bots project](https://github.com/symphonyoss/symphony-java-sample-bots/blob/dev/.travis.yml).
+
+#### settings.xml sample
+```
+<settings xmlns="https://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+    <server>
+      <id>ossrh</id>
+      <username>${env.CI_DEPLOY_USERNAME}</username>
+      <password>${env.CI_DEPLOY_PASSWORD}</password>
+    </server>
+  </servers>
+</settings>
+```
+
+### Continuous release in Python
+Travis CI can be configured to use [python-semantic-release](https://python-semantic-release.readthedocs.io/en/latest/), a package that simplifies and automates versioning for python projects; a project lead can email [help@finos.org](mailto:help@finos.org) to request Foundation staff to apply the proper Travis CI project settings; packages will be published on behalf of the FINOS pypi user.
+
+### Continuous release in NodeJS
+Travis CI can easily publish packages to npm using [semantic-release.org](https://semantic-release.org/), which delegates release operations to your CI environment and allows you to control versioning [using commits (commitizen)](https://www.npmjs.com/package/commitizen); as a result, npm packages will be continuously released on each code repository change.
+
+[Follow our instructions](javascript) on how to register a package and user in the Foundation npm organisation.
