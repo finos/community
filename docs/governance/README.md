@@ -56,7 +56,7 @@ FINOS is home to two kinds of [collaborative projects](https://landscape.finos.o
 
 FINOS also hosts **Special Interest Groups (SIGs)** which are forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects).
 
-All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md), [Meeting Procedures](Meeting-Procedures.md) and recommended to follow [Branding Guidelines](project-branding-guidelines.md). 
+All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md), [Meeting Procedures](Meeting-Procedures.md) and recommended to follow [Branding Guidelines](/docs/governance/project-branding-guidelines).
 
 For a list of our project see the [FINOS project landscape](https://landscape.finos.org).
 
