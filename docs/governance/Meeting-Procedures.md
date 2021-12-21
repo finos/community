@@ -27,8 +27,8 @@ This document describes requirements and recommendations for holding meetings of
 
 ## Run the meeting
 * Organizers **must** ensure that the meeting adheres to the [LF Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy)
-* Organizers **should** display the [Antitrust Policy summary slide](Compliance-Slides/Antitrust-Compliance-Slide.pdf) at the beginning of the meeting
-* Standards project organizers **should** display the [standards project compliance slides](Compliance-Slides/Standards-Project-Compliance-Slides.pdf) at the beginning of the meeting
+* Organizers **should** display the [Antitrust Policy summary slide](/Compliance-Slides/Antitrust-Compliance-Slide.pdf) at the beginning of the meeting
+* Standards project organizers **should** display the [standards project compliance slides](/Compliance-Slides/Standards-Project-Compliance-Slides.pdf) at the beginning of the meeting
 * Organizers **should** run the meeting according to the following best practices:
   * Ensure a good audio connection. Laptop audio is often worse than a phone call.
   * Minimize background noise. Mute yourself and (if necessary) other participants when you or they are not speaking.

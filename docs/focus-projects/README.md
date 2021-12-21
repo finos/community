@@ -29,18 +29,18 @@ If you are FINOS project maintainer and you'd like the FINOS team to put forward
 ## Previous focus projects
 
 ### Q1 2021
-<img src="assets/2021Q1-focus-projects-report.png" width="800" />
+<img src="/focus-projects/2021Q1-focus-projects-report.png" width="800" />
 
 ### Q4 2020
-<img src="assets/2020Q4-focus-projects-report.png" width="800" />
+<img src="/focus-projects/2020Q4-focus-projects-report.png" width="800" />
 
 ### Q3 2020
-<img src="assets/2020Q3-focus-projects-report.png" width="800" />
+<img src="/focus-projects/2020Q3-focus-projects-report.png" width="800" />
 
 ### Q2 2020
 
-<img src="assets/2020Q2-focus-projects-report.png" width="800" />
+<img src="/focus-projects/2020Q2-focus-projects-report.png" width="800" />
 
 ### Q1 2020
 
-<img src="assets/2020Q1-focus-projects-report.png" width="800" />
+<img src="/focus-projects/2020Q1-focus-projects-report.png" width="800" />

@@ -64,6 +64,6 @@ FINOS does not register the trademarks of all of its projects, as the costs woul
 
 # How does FINOS protect a project brand?
 
-FINOS generally endeavors to monitors usage of FINOS project brands and the FINOS brand itself for compliance with the [FINOS trademark guidelines](Trademark-Guidelines.pdf). Additionally, if the FINOS team becomes aware of alleged technical misrepresentations on a FINOS project in the public press, it will work with the Project maintainers to validate veracity of the statements and take actions as needed.
+FINOS generally endeavors to monitors usage of FINOS project brands and the FINOS brand itself for compliance with the [FINOS trademark guidelines](/governance-docs/Trademark-Guidelines.pdf). Additionally, if the FINOS team becomes aware of alleged technical misrepresentations on a FINOS project in the public press, it will work with the Project maintainers to validate veracity of the statements and take actions as needed.
 
 Please email legal@finos.org if you'd like to report misuse of FINOS projects brands.

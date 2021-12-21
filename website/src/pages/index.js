@@ -14,16 +14,15 @@ function Home() {
       description={`${siteConfig.tagline}`}>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className={classnames('hero--subtitle')}>{siteConfig.tagline}</p>
-          <p>This repository hosts the FINOS Foundation governance and collaboration across the <a href="https://www.finos.org/">Fintech Open Source Foundation (FINOS)</a> Project Leads and Community at large.</p>
+          <h1 className="hero__title">FINOS</h1>
+          <p className={classnames('hero--subtitle')}>Community Website</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://finos.org/'}>
+              to={'/docs/journey/learn'}>
               GET STARTED
             </Link>
             <Link
@@ -38,6 +37,15 @@ function Home() {
         </div>
       </header>
       <main>
+        <br/>
+        <br/>
+          <section>
+            <div className="container">
+              <h2>Welcome to the FINOS Community!</h2>
+              <p>This website collects documentation around project, community and Foundation's governance. You can follow the different steps of your journey, starting from <a href="/docs/journey/learn">learn</a>.</p>
+              <p>Feel free to submit fixes or enhancements to this documentation, by following the link `Edit this page` reported at the bottom of each page (this page is the only exception)</p>
+            </div>
+          </section>
           {/* <section>
             <div className="container">
               <h2>Legal & Governance</h2>
@@ -76,7 +84,7 @@ function Home() {
               </ul>
               </div>
             </div>
-          </section> */}
+          </section>
           <section>
             <div className="container">
               <h2>Join the FINOS Community list</h2>
@@ -103,7 +111,7 @@ function Home() {
                 SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)</p>
               </div>
             </div>
-          </section>
+          </section> */}
       </main>
     </Layout>
   );

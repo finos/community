@@ -38,15 +38,15 @@ The Foundation's day-to-day operations are run by the [FINOS team](https://finos
 
 The following policies apply to all FINOS members and activities:
 
-* The [Charter](Charter.pdf) is the Foundation's constitution. It sets out our mission, members' rights and responsibilities, the authority and procedures of our Governing Board and its committees, and other Foundation policies.
+* The [Charter](/governance-docs/Charter.pdf) is the Foundation's constitution. It sets out our mission, members' rights and responsibilities, the authority and procedures of our Governing Board and its committees, and other Foundation policies.
 
-* The [Participation Agreement](Participation-Agreement.pdf) is the agreement that all of our members sign to join FINOS. It sets membership fees and terms and binds members to the terms of the [Charter](Charter.pdf). FINOS members must also be members of the Linux Foundation (at any level) and remain in compliance with LF's [Good Standing Policy](https://www.linuxfoundation.org/good-standing-policy). There is no requirement for membership to participate in the FINOS Community, but only members can propose new projects.
+* The [Participation Agreement](/governance-docs/Participation-Agreement.pdf) is the agreement that all of our members sign to join FINOS. It sets membership fees and terms and binds members to the terms of the [Charter](Charter.pdf). FINOS members must also be members of the Linux Foundation (at any level) and remain in compliance with LF's [Good Standing Policy](https://www.linuxfoundation.org/good-standing-policy). There is no requirement for membership to participate in the FINOS Community, but only members can propose new projects.
 
 * The [Community Code of Conduct](Code-of-Conduct.md) is the set of principles that participants in the Foundation's collaborative work are expected to abide by to maintain a healthy and inclusive community.
 
-* The [IP Policy](IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](ICLA.pdf) (for individual contributors whose contributions are not owned by their employer). FINOS uses [EasyCLA](Software-Projects/EasyCLA.md) to simplify the processes of executing CLAs and managing contributors.
+* The [IP Policy](/governance-docs/IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](/governance-docs/CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](/governance-docs/ICLA.pdf) (for individual contributors whose contributions are not owned by their employer). FINOS uses [EasyCLA](Software-Projects/EasyCLA.md) to simplify the processes of executing CLAs and managing contributors.
 
-* The [Trademark Guidelines](Trademark-Guidelines.pdf) list the Foundation's trademarks and set out our policies for appropriate use of FINOS project marks.
+* The [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf) list the Foundation's trademarks and set out our policies for appropriate use of FINOS project marks.
 
 * The Linux Foundation [Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy) applies to all FINOS collaborative projects and prohibits all potentially anticompetive conduct.
 

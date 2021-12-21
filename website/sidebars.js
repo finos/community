@@ -1,11 +1,11 @@
 module.exports = {
   mainSidebar: {
     'OSS Journey': [
-      "governance/Software-Projects/journey/learn",
-      "governance/Software-Projects/journey/consume",
-      "governance/Software-Projects/journey/engage",
-      "governance/Software-Projects/journey/participate",
-      "governance/Software-Projects/journey/lead"
+      "journey/learn",
+      "journey/consume",
+      "journey/engage",
+      "journey/participate",
+      "journey/lead"
     ],
     'Project Lifecycle': [
       "governance/Software-Projects/project-lifecycle",

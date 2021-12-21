@@ -7,14 +7,11 @@ assignees: agitana, maoo, TheJuanAndOnly99
 
 ---
 # Activation
-Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Active  status](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530371/Active). 
+Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Active  status](/docs/governance/Software-Projects/stages/active). 
 
 An active lifecycle status badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
 
-A full description of FINOS project activation is linked and found in the table below.
-* https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation
-
-The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://github.com/finos/community/tree/master/governance#project-lifecycle).
+The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](/docs/governance/intro#project-lifecycle).
 
 ### What does activation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
@@ -32,7 +29,7 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul><p>If Project Team choses not to use the FINOS provided Open Developer Platform (ODP), a comparable SDLC should be adopted and made available.</p> |  |
 | **Build & Release** | <p>The Project code/documentation release process automated or at lest well documented.</p><p>If code is published, publicly redistributed release binaries should be listed or referred to in the documentation (e.g. under the FINOS namespace in an artefact repository or package manager, e.g. NPM, Maven Central, etc.)</p> |   |
-| **Security** | <li>No OWASP Top 10 warnings are present in the code</li> <li>No long-standing medium or higher vulnerabilities (2+ months) and proper security disclosure processes</li> <li>Any cryptographic functions and key lengths used within the software should be identified and vetted with Foundation's legal counsel in order to request compliance with U.S. Export policy.</li> Read more about [FINOS Security vulnerabilities responsible disclosure](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1230176257/Security+Vulnerabilities+Responsible+Disclosure+Policy) and how to [automate scanning with WhiteSource](https://odp.finos.org/docs/development-infrastructure/code-validation/whitesource/). |
+| **Security** | <li>No OWASP Top 10 warnings are present in the code</li> <li>No long-standing medium or higher vulnerabilities (2+ months) and proper security disclosure processes</li> <li>Any cryptographic functions and key lengths used within the software should be identified and vetted with Foundation's legal counsel in order to request compliance with U.S. Export policy.</li> Read more about [FINOS Security vulnerabilities responsible disclosure](/docs/governance/Software-Projects/cve-responsible-disclosure) and how to [automate scanning with WhiteSource](/docs/odp/development-infrastructure/code-validation/whitesource). |
 | **Documentation** | <p>The README.md must include or reference up to date:</p><ul><li>end user docs, including a description of the software, feature overview, installation & configuration instructions</li><li>developer docs, including links to other external systems (further docs, wiki, CI & validation tools, artefact repository, change log / history, etc.)</li><li>where possible badges (e.g. from shields.io) are encouraged</li><li>sample code explaining how to use the project, library, standard, SDK, etc.</li></ul> |  |
 |  | **DIVERSITY & VIABILITY** |       |
 | **Community** | Project has active participation from 2+ independent individuals and/or organizations; Ideally Project Team members who make contributions in connection with their employment are doing do as part of their regular job duties. |  |

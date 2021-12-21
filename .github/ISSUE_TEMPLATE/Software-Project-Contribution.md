@@ -127,7 +127,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
 - [ ] Apply project blueprint contents - see [ODP docs](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
-- [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
+- [ ] [All incubating criteria](/docs/governance/Software-Projects/stages/incubating) are checked and documented below
 
 ## Approval (Lead: FINOS Infra)
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger voting
