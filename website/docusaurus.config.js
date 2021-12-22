@@ -28,11 +28,11 @@ module.exports = {
         src: 'img/favicon/favicon-finos.ico',
       },
       items: [
-        {to: "docs/governance/Software-Projects/journey/learn", label: 'Learn', position: 'right'},
-        {to: "docs/governance/Software-Projects/journey/consume", label: 'Consume', position: 'right'},
-        {to: "docs/governance/Software-Projects/journey/engage", label: 'Enage', position: 'right'},
-        {to: "docs/governance/Software-Projects/journey/participate", label: 'Participate', position: 'right'},
-        {to: "docs/governance/Software-Projects/journey/lead", label: 'Lead', position: 'right'},
+        {to: "docs/journey/learn", label: 'Learn', position: 'right'},
+        {to: "docs/journey/consume", label: 'Consume', position: 'right'},
+        {to: "docs/journey/engage", label: 'Enage', position: 'right'},
+        {to: "docs/journey/participate", label: 'Participate', position: 'right'},
+        {to: "docs/journey/lead", label: 'Lead', position: 'right'},
         {
           href: 'https://github.com/finos/community',
           label: 'GitHub',
