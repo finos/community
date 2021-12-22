@@ -10,9 +10,9 @@ module.exports = {
     'Project Lifecycle': [
       "governance/Software-Projects/project-lifecycle",
       "governance/Software-Projects/contribution",
+      "governance/Software-Projects/stages/incubating",
       "governance/Software-Projects/stages/active",
-      "governance/Software-Projects/stages/archived",
-      "governance/Software-Projects/stages/incubating"
+      "governance/Software-Projects/stages/archived"
     ],
     'Project Governance': [
       "focus-projects/intro",
