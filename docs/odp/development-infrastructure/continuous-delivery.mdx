@@ -83,16 +83,14 @@ after_success: curl -s https://raw.githubusercontent.com/symphonyoss/contrib-too
 ### Project setup
 In order to configure Continuous Delivery, the project must meet few requirements and some configuration must be defined.
 
-1. Get familiar with [OpenShift concepts](https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/75727050/Continuous+Delivery#ContinuousDelivery-glossary); keep in mind that most of them are inherited by Kubernetes, which is the orchestration engine used by OpenShift.
-2. **Memory (size) and CPU (number) requirements must be known** upfront
-3. The [**deployment strategy**](https://docs.openshift.com/container-platform/3.3/dev_guide/deployments/deployment_strategies.html) **must be known** upfront; default is RollingDeployment, which spins up a new container in parallel to the existing one, switches traffic when the new one is ready and finally kills the existing one.
-4. Collect all passwords and secrets that are needed by the applications to run; the Foundation Staff will register these entries as secrets in OpenShift and deliver secret key references
-5. The build process MUST generate a folder that:
+1. **Memory (size) and CPU (number) requirements must be known** upfront
+2. The [**deployment strategy**](https://docs.openshift.com/container-platform/3.3/dev_guide/deployments/deployment_strategies.html) **must be known** upfront; default is RollingDeployment, which spins up a new container in parallel to the existing one, switches traffic when the new one is ready and finally kills the existing one.
+3. Collect all passwords and secrets that are needed by the applications to run; the Foundation Staff will register these entries as secrets in OpenShift and deliver secret key references
+4. The build process MUST generate a folder that:
   a. **MUST contain all the artifacts** to run the application; for Maven builds, the assembly plugin can be used
   b. **MUST contain a (Unix) run script**; for Maven builds, the [appassember plugin](https://www.mojohaus.org/appassembler/appassembler-maven-plugin/) can generate it
   c. **MUST NOT contain any password**, secret or sensitive data (like emails, names, addresses, etc) in clear text; [OpenShift secrets](https://docs.openshift.com/container-platform/latest/dev_guide/secrets.html#dev-guide-secrets-using-secrets) provide a safe way to manage them
-6. Follow the instructions below to define an [OpenShift template](https://docs.openshift.org/latest/architecture/core_concepts/templates.html) called `.openshift-template.yaml`, in the root folder of the GitHub repository
-
+5. Follow the instructions below to define an [OpenShift template](https://docs.openshift.org/latest/architecture/core_concepts/templates.html) called `.openshift-template.yaml`, in the root folder of the GitHub repository
 
 ## Template definition
 Below is described, section by section, an OpenShift template that defines

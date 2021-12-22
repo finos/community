@@ -85,10 +85,10 @@ As soon as the project team finds and implements a fix for the vulnerability, al
 5. The log for the Git commit that applied the fix is updated to include the CVE number. Projects that use git as their primary source code control system should not do this as editing a pushed commit causes all sorts of problems.
 
 ## Automating security vulnerabilities
-Using the [WhiteSource integration for GitHub.com](https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/1129283585/DRAFT+WhiteSource+for+GitHub.com) it is possible to monitor commits, Pull Requests and also scan existing dependencies for new CVE; the .whitesource configuration can either:
+Using the [WhiteSource integration for GitHub.com](/docs/odp/development-infrastructure/code-validation/whitesource) it is possible to monitor commits, Pull Requests and also scan existing dependencies for new CVE; the .whitesource configuration can either:
 
 1. (Default) Use the [WhiteSource Unified Agent](https://whitesource.atlassian.net/wiki/spaces/WD/pages/33718339/Unified+Agent) and configure your build tools accordingly
-2. Use the [WhiteSource integration for GitHub.com](https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/1129283585/WhiteSource+for+GitHub.com) to publicly notify the community about the CVE found; this is the standard configuration for project that are either not publicly released yet or haven't been deployed anywhere publicly.
+2. Use the [WhiteSource integration for GitHub.com](/docs/odp/development-infrastructure/code-validation/whitesource) to publicly notify the community about the CVE found; this is the standard configuration for project that are either not publicly released yet or haven't been deployed anywhere publicly.
 3. Disable GitHub Issues and request FINOS - by sending an email to [help@finos.org](mailto:help@finos.org) - to configure email notifications; we encourage using personal email addresses or private mailing-lists for this type of communication.
 
 ## Responsible Disclosure at Apache Software Foundation

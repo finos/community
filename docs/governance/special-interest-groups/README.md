@@ -26,5 +26,5 @@ and the FINOS team will work with you to bring the proposal to the Board if rele
 
 The FINOS Governing could be looking at converting into SIGs existing long running initiatives like:
 
-- [Open Source Readiness Project](https://finosfoundation.atlassian.net/wiki/spaces/OSR/pages/154435612/Open+Source+Readiness+Working+Group)
+- [Open Source Readiness Project](https://osr.finos.org)
 - [Open Developer Platform Project](https://github.com/finos/open-developer-platform/) 

@@ -83,7 +83,7 @@ Documents produced or contributed as part of the SIG will be contributed and mad
 
 Software projects follow the [Project Lifecycle](Software-Projects/Project-Lifecycle.md), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
 
-The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating#Incubating-IncubatingLifecycleChecklist) and [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation#Activation-ActivationLifecycleChecklist) projects. 
+The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](governance/Software-Projects/stages/incubating) and [Active](governance/Software-Projects/stages/active) projects. 
 
 Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead. [Forming projects](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#forming-projects-optional) might not be publicly visible until entering Incubation when they will be fully open sourced.
 

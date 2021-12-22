@@ -11,7 +11,7 @@ FINOS projects are categorized by maturity and activity according to the FINOS P
 
 Optionally projects can temporarily start in a 'Forming' stage, which is typically a time-bound period where a project idea or initial contribution is explored amongst FINOS members to evaluate viability of a contribution into 'Incubating' stage.
 
-These stages are described in greater detail below. For complete information on the different stages of the Project Lifecycle, please visit the [FINOS wiki](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530756/Project+Lifecycle).
+These stages are described in greater detail below.
 
 ## Forming Projects (Optional)
 
@@ -23,10 +23,10 @@ Before a project is contributed, optionally the FINOS team might work with the c
 
 <img src="https://github.com/finos/contrib-toolbox/blob/master/images/badge-incubating.png" width="150" />
 
-When a project is first created or contributed, it is automatically placed in the [Incubating stage](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating).
+When a project is first created or contributed, it is automatically placed in the [Incubating stage](/docs/governance/Software-Projects/stages/incubating).
 An Incubating project is under active early development and typically has not made its first major release (i.e. version 1.0). During incubation, projects typically experiment heavily with technical designs, standardize their build and release processes, develop their collaborative processes, and work to grow their developer community. Incubating projects are usually not focused on support or backward compatibility.
 
-To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](https://github.com/finos/community/blob/master/governance/Software-Projects/stages/Incubating.md). 
+To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/Software-Projects/stages/incubating). 
 
 ## Active Projects
 
@@ -34,12 +34,12 @@ To be accepted into the Incubating stage, a project must meet the requirements o
 
 **Active** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become active, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
 
-To graduate from the Incubating to the Active stage, a project must meet the requirements of the [Activation Lifecycle Checklist](https://github.com/finos/community/blob/master/governance/Software-Projects/stages/Active.md).
+To graduate from the Incubating to the Active stage, a project must meet the requirements of the [Activation Lifecycle Checklist](/docs/governance/Software-Projects/stages/active).
 
 ## Archived Projects
 
 <img src="https://github.com/finos/contrib-toolbox/blob/master/images/badge-archived.png" width="150"/>
 
-Projects are [Archived](https://github.com/finos/community/blob/master/governance/Software-Projects/stages/Archived.md) when they are no longer actively developed, for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
+Projects are [Archived](/docs/governance/Software-Projects/stages/archived) when they are no longer actively developed, for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
 
 Projects may be moved to the Archived state from either the Incubating or Active states, either upon the request of the project maintiners, or upon a determination by FINOS that the project is inactive.

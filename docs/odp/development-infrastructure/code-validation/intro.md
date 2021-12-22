@@ -8,7 +8,7 @@ In order to assess Security, Quality and Legal compliance of software hosted by 
 Below is the list of code validation systems currently available, across supported languages and validation features.
 
 ## Security vulnerabilities responsible disclosure
-Read the [FINOS security vulnerabilities responsible disclosure](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1230176257/Security+vulnerabilities+responsible+disclosure) document to know how security incidents are managed across FINOS projects. Use [WhiteSource](whitesource) to configure your FINOS project for automated scanning.
+Read the [FINOS security vulnerabilities responsible disclosure](/docs/governance/Software-Projects/cve-responsible-disclosure) document to know how security incidents are managed across FINOS projects. Use [WhiteSource](/docs/odp/development-infrastructure/code-validation/whitesource) to configure your FINOS project for automated scanning.
 
 ## Matrix of validation features and supported languages
 
@@ -98,7 +98,7 @@ FINOS have developed a tool that scans all the GitHub repositories across all FI
 - `no-badge` - `README.md` file is missing the FINOS badge; check the [README.md template](https://github.com/finos/project-blueprint/blob/master/README.template.md) and make sure that it embeds one of SVG FINOS badges.
 - `wrong-badge` - Our internal records state that this project is in {{project-state}} state, whereas `README.md` states `{{readme-state}}`; make sure that `README.md` embeds the right FINOS badge."
    :repo-not-on-file "We don't have this repository on file. We will fix this issue on our side as soon as possible and keep you posted.
-- `no-whitesource` - WhiteSource configuration was not found; make sure that dependencies are scanned against security vulnerabilities. Read more on [the WhiteSource Wiki page](https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/75530440/WhiteSource).
+- `no-whitesource` - WhiteSource configuration was not found; make sure that dependencies are scanned against security vulnerabilities. Read more on [the WhiteSource page](/docs/odp/development-infrastructure/code-validation/whitesource).
 
 Code is publicly available on https://github.com/finos/metadata-tool, the command to invoke is `check-project-repos`.
 

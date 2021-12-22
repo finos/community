@@ -79,7 +79,6 @@ function Home() {
               <div className="row">
                 <ul>
                   <li>[FINOS Website](https://finos.org)</li>
-                  <li>[FINOS Mailing lists](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/77955298/Engage+Our+Community)</li>
                   <li>[Email Archives (requires Google login)](http://groups.google.com/a/finos.org/)</li>
               </ul>
               </div>

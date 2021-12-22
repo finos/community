@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 FINOS leverages many services offered by [GitHub.com](https://github.com/), which are documented in the [Collaboration Use Cases on GitHub](#collaboration-use-cases-on-github) and [other collaboration use cases](#other-collaboration-use-cases) sections below.
 
-In order to collaborate in a FINOS project, the first thing is to get a GitHub.com account and sign the FINOS [Contributor License Agreement (CLA)](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement); this document will walk you through access control and permissions that are enforced on FINOS GitHub properties.
+In order to collaborate in a FINOS project, the first thing is to get a GitHub.com account and sign the FINOS [Contributor License Agreement (CLA)](/docs/governance/Software-Projects/contribution-compliance-requirements#ContributionComplianceRequirements-ContributorLicenseAgreement); this document will walk you through access control and permissions that are enforced on FINOS GitHub properties.
 
 :::important
 
@@ -33,7 +33,7 @@ All repositories managed by the Foundation are open (public); as a consequence, 
 3. Access [FINOS Kanban boards](https://github.com/orgs/finos/projects)
 4. Use GitHub Issues to contribute to the discussion (a GitHub account is required)
 
-Any GitHub user covered by a [Contributor License Agreement with FINOS](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) can also:
+Any GitHub user covered by a [Contributor License Agreement with FINOS](/docs/governance/Software-Projects/contribution-compliance-requirements) can also:
 
 1. [Become a member of the FINOS GitHub Organization](#becoming-github-finos-organization-member)
 2. Submit a code change via [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
@@ -50,7 +50,7 @@ Below is a recap of who can do what.
 | Any GitHub user | Read | Fork repository |
 | | | Submit a code change via Pull Request (flagged by the <a href={useBaseUrl('docs/development-infrastructure/code-validation/intro')}>FINOS CLA bot</a>)
 | | | Use GitHub Issues to contribute to the discussion |
-| GitHub user covered by [CLA](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement) | Read | Become a member of the GitHub FINOS Organization |
+| GitHub user covered by [CLA](governance/Software-Projects/easycla) | Read | Become a member of the GitHub FINOS Organization |
 | | | Submit a code change via Pull Request (validated by the <a href={useBaseUrl('docs/development-infrastructure/code-validation/intro')}>FINOS CLA bot</a>) |
 | FINOS Staff | Triage | Issue/PR Triage |
 | | | Administration tasks |
@@ -65,14 +65,10 @@ Below is a recap of who can do what.
 Checkout the [GitHub docs around roles and permissions](https://docs.github.com/en/github/setting-up-and-managing-organizations-and-teams/repository-permission-levels-for-an-organization#repository-access-for-each-permission-level) to know more about entitlements.
 
 ### GitHub Member VS FINOS Member
-Please note, the term [FINOS Members](https://finos.org/members) normally refers to the firms that sit on the FINOS Board and provide industrial and financial support to the foundation. Whereas, [GitHub FINOS Organization Members](https://github.com/orgs/finos/people) are individuals, represented by a [GitHub Profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile) and a signed FINOS [CLA](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement).
+Please note, the term [FINOS Members](https://finos.org/members) normally refers to the firms that sit on the FINOS Board and provide industrial and financial support to the foundation. Whereas, [GitHub FINOS Organization Members](https://github.com/orgs/finos/people) are individuals, represented by a [GitHub Profile](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/about-your-profile) and a signed FINOS [CLA](/docs/governance/Software-Projects/easycla).
 
 ### Becoming GitHub FINOS Organization member
-Assuming that you have read our [Contribution Compliance Requirements](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements) and have a [CLA](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement) signed with FINOS, you can request invitation to [FINOS GitHub Organization](https://github.com/orgs/finos/people) by emailing your GitHub username to [help@finos.org](mailto:help@finos.org).
-
-FINOS uses [GitHub Actions](https://docs.github.com/en/actions) to automatically track new GitHub users (we have on file) which are covered by a [CLA](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement), and automatically sends out an invitation to join the FINOS GitHub org.
-
-The source code is part of the FINOS [Project Quality & Compliance Action](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/project-compliance-quality.yml).
+Assuming that you have read our [Contribution Compliance Requirements](/docs/governance/Software-Projects/contribution-compliance-requirements) and have a [CLA](/docs/governance/Software-Projects/easycla) signed with FINOS, you can request invitation to [FINOS GitHub Organization](https://github.com/orgs/finos/people) by emailing your GitHub username to [help@finos.org](mailto:help@finos.org).
 
 ### Public VS Private Membership
 
@@ -124,13 +120,13 @@ Although GitHub doesn't directly support the concept of a "project" (a group of 
 #### Building and testing
 The build is an end-to-end process that converts source code into reusable artifacts, something that we will refer to as deployable units, which is developed by the project team and hosted in the github repository. It is a particularly important task, as it can centralise and trigger several automated sub-tasks, such as version control, code testing, quality and compliance reports and more.
 
-A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('docs/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project activation](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530376/Activation).
+A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('docs/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project activation](/docs/governance/Software-Projects/stages/active).
 
 #### Versioning
 Versioning is the process to establish a format to a project version and the rules to update it, preferably integrating with automated build and release systems; the Foundation mandates the use of [Semantic Versioning](https://semver.org/) ("semver") throughout a project's lifecycle:
 
 - for incubating projects, version numbers must be less than 1.0.0
-- for [Active](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530371/Active) projects, version numbers can be 1.0.0 or greater
+- for [Active](/docs/governance/Software-Projects/stages/active) projects, version numbers can be 1.0.0 or greater
 
 Every project team is encouraged to define specific criteria by which the MAJOR, MINOR and PATCH components of the semver scheme will be used (keeping in mind the general guidelines semver itself mandates), since this helps to provide clarity to consumers.
 
@@ -142,7 +138,7 @@ The release process allows to publish deployable units into a publicly available
 ##### Avoid direct changes to GitHub repositories - use Pull Requests
 Making direct changes to repositories is not recommended, for teams bigger than 1, for few reasons, including:
 
-1. Direct commits are not validated, as they cannot be blocked (ie, if [CLA](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530375/Contribution+Compliance+Requirements#ContributionComplianceRequirements-ContributorLicenseAgreement) is not in place)
+1. Direct commits are not validated, as they cannot be blocked (ie, if [CLA](/docs/governance/Software-Projects/easycla) is not in place)
 2. Pull Requests allow to have a conversation with the team
 3. Pull Requests tent to have a more thorough validation pipeline
 
@@ -337,10 +333,10 @@ A project needs:
 6. GitHub repository secrets (ask [help@finos.org](mailto:help@finos.org) to set them up)
 
 ### Security Scanning
-In order to consolidate processes and tools around security vulnerabilities management, FINOS have shared a [guidelines around responsible disclosure for security vulnerabilities](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1230176257/Security+Vulnerabilities+Responsible+Disclosure+Policy) and teamed up with WhiteSource to configure a bot that continuously scans - across each configured repository - all external dependencies; the bot is able to scan direct commits and Pull Requests, and by default creates GitHub Issues with details about the vulnerability; you can read more about [WhiteSource integration for GitHub.com](https://finosfoundation.atlassian.net/wiki/spaces/FDX/pages/1129283585/WhiteSource+for+GitHub.com).
+In order to consolidate processes and tools around security vulnerabilities management, FINOS have shared a [guidelines around responsible disclosure for security vulnerabilities](/docs/governance/Software-Projects/cve-responsible-disclosure) and teamed up with WhiteSource to configure a bot that continuously scans - across each configured repository - all external dependencies; the bot is able to scan direct commits and Pull Requests, and by default creates GitHub Issues with details about the vulnerability; you can read more about [WhiteSource integration for GitHub.com](/docs/odp/development-infrastructure/code-validation/whitesource).
 
 ### FINOS Project blueprint
-[Project blueprint](https://github.com/finos/project-blueprint) is a FINOS project that provides a template for new or existing repositories; it includes:
+[Project blueprint](https://github.com/finos/software-project-blueprint) is a FINOS project that provides a template for new or existing repositories; it includes:
 
 1. A [README.md template](https://github.com/finos/project-blueprint/blob/master/README.template.md), with a suggested structure of content
 2. A [NOTICE template](https://github.com/finos/project-blueprint/blob/master/NOTICE), required by FINOS bylaws
@@ -390,7 +386,7 @@ Getting started is quite simple:
   | `{name of copyright owner}`  | The copyright owner of the code (typically you or your employer). |
   | `{email of copyright owner}` | The email address of the copyright owner of the code (if known). |
 
-5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530255/License+Categories).
+5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](/docs/governance/Software-Projects/license-categories).
 6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
 7. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
 8. (optional) Remove `.whitesource` and `whitesource.config`, if vulnverability detection does not apply to this project
@@ -415,7 +411,7 @@ The Foundation provides mailing lists via the [Google Groups service](https://gr
 
 The FINOS mailing lists have a fairly low amount of collaboration, as GitHub.com Issues and Discussions are normally used instead; they're mostly used for announcements and notifications, to stay in touch with marketing, community and project updates.
 
-Checkout the [list of FINOS Google Groups](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/77955298/Engage+Our+Community).
+Checkout the [list of FINOS Google Groups](/docs/journey/engage).
 
 #### Email Best Practices
 
@@ -427,17 +423,6 @@ Checkout the [list of FINOS Google Groups](https://finosfoundation.atlassian.net
 - Minimize "walls of text" - avoid emails containing large blocks of text.  A worthy aspiration is to try to craft emails that fit on a smart phone screen without swiping.
 - Prefer public mailing lists for all email communication - chances are that someone else in the community will be interested in the topic you're discussing, and by leveraging public mailing lists you create the opportunity for them to find that content themselves.
 - Don't use email attachment - Many banks silently delete emails containing certain types of file attachment - notably executables (EXE files, etc.), source code files (JS files, etc.), and archive files (ZIP files, etc.).  For this reason we recommend using file attachments sparingly, limiting the use of archive files when sending attachments, and trying to stick to "safe" (content only) file formats such as PDF, Word, Powerpoint, etc.
-
-### Wiki (Confluence Cloud)
-The Foundation provides a Cloud-hosted instance of the [Atlassian Confluence wiki](https://finosfoundation.atlassian.net/wiki) for use by the community. This software provides content collaboration features, for both web content, and document-based content. Most of the content is publicly available, though it's possible to restrict access to pages.
-
-Access to Confluence is available to the community for free - you can [sign up for an account](https://id.atlassian.com/signup?continue=https%3A%2F%2Ffinosfoundation.atlassian.net%2Flogin%3FredirectCount%3D1%26dest-url%3D%252Fwiki%252Fspaces%252FFINOS%252Foverview).
-
-#### Accessibility issues
-Please be aware that several eployees of financial institutions have experienced issues creating accounts on https://finosfoundation.atlassian.net/wiki due to compliance related restrictions applied to their corporate network.
-
-The Project Website section documents how to 
-Teams can also decide to use GitHub Wiki to document their project activity and publish documentation, you can read more on https://help.github.com/en/articles/about-wikis or see how some FINOS hosted projects, like the GreenKey Discovery SDK, are using it today.
 
 ### Minuting Services
 The Foundation offers a dedicated scribe who is available to capture the minutes of online meetings.  These minutes include:
