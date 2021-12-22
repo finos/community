@@ -8,7 +8,7 @@ A CLA is a document that specifies how a project is allowed to use your contribu
 
 _All_ **code** contributions to _all_ projects hosted by [FINOS](https://www.finos.org/) must be made with a Foundation CLA in place; any other contribution, such as emails, issues and meetings won't need a CLA in place.
 
-EasyCLA is a system adopted by all FINOS projects to intercept code contributions that are not covered by CLA, in order to guide the contributor through the onboarding process; you can read more in the [EasyCLA page](/governance/Software-Projects/easycla).
+EasyCLA is a system adopted by all FINOS projects to intercept code contributions that are not covered by CLA, in order to guide the contributor through the onboarding process; you can read more in the [EasyCLA page](/docs/governance/Software-Projects/easycla).
 
 Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)
 

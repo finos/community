@@ -125,7 +125,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] (optional - if a build system is provided) The build process runs successfully
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
-- [ ] Apply project blueprint contents - see [ODP docs](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
+- [ ] Apply project blueprint contents - see [ODP docs](/docs/odp/project-collaboration#finos-project-blueprint)
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
 - [ ] [All incubating criteria](/docs/governance/Software-Projects/stages/incubating) are checked and documented below
 
@@ -140,7 +140,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
-- [ ] Review FINOS [project blueprint contents](https://odp.finos.org/docs/project-collaboration#finos-project-blueprint)
+- [ ] Review FINOS [project blueprint contents](/docs/odp/project-collaboration#finos-project-blueprint)
     - [ ] Project title/description in README
     - [ ] Project badge in README
     - [ ] License in README

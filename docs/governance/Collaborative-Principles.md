@@ -23,7 +23,7 @@ Open source projects function best when their code, documentation, and roadmaps 
 Projects should ensure that governance procedures are well-documented and followed by the team. Project governance documents should clearly state:
 * the requirements for a community member to gain committer or other leadership privileges
 * acceptance criteria for pull requests, including any style or quality guidelines (see the [CONTRIBUTING.md template](https://github.com/finos/project-blueprint/blob/master/.github/CONTRIBUTING.md) from our project blueprint for an example)
-Please see the software project [governance template](Software-Projects/CONTRIBUTING.template.md) for an example.
+Please see the software project [governance template](/CONTRIBUTING.template.md) for an example.
 
 ## IP compliance
 

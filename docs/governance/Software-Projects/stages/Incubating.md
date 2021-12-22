@@ -12,17 +12,17 @@ The objectives of incubation are to allow the project team to form in the open, 
 Once established, incubating projects are expected to prioritise some or all of the following activities, in approximately this order:
 1. Rapid experimentation e.g. with different technical designs, deployment architectures, platforms & capabilities etc.
 2. Identification of a preferred technical design.
-3. Selection and adoption of an appropriate SDLC and supporting [project infrastructure services](https://odp.finos.org/docs/project-collaboration).
+3. Selection and adoption of an appropriate SDLC and supporting [project infrastructure services](/docs/odp/project-collaboration).
 4. Construction of an implementation timeline or add to the Program Roadmap
 5. Development and testing.
 
-The ultimate goal being to meet or exceed the requirements for activation, and thereby be ready for promotion to Active status.  To help support this, the Foundation encourages the thoughtful adoption of a variety of [project infrastructure services](https://odp.finos.org/docs/project-collaboration); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
+The ultimate goal being to meet or exceed the requirements for activation, and thereby be ready for promotion to Active status.  To help support this, the Foundation encourages the thoughtful adoption of a variety of [project infrastructure services](/docs/odp/project-collaboration); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
 
 ## Requirements
 
 ### Badge
 
-<img src="https://github.com/finos/contrib-toolbox/blob/master/images/badge-incubating.png" width="150" />
+<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-incubating.png" width="150" />
 
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are incubating.  To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
@@ -47,14 +47,14 @@ The table below presents a consolidate checklist for contributors to guide the d
 | What it means for consumers? | The Project is at early stages of maturity, across quality, community dynamics and value. |
 | What it means for the Project Team? | All Projects enter in Incubating state so this is a good checklist for a new contribution which contributors can use to discuss approval of a new Project.  |
 | **QUALITY & SECURITY** |
-| Development Process | The current contributor(s) commit to adopt a development process suitable for distributed development -- i.e., well established ways of working in successful open source projects, like automated builds, CI/CD and maintaining a public backlog of issues. Access and support for the FINOS [project infrastructure](odp.finos.org) is offered free of charge to all Project Teams for this purpose. |
+| Development Process | The current contributor(s) commit to adopt a development process suitable for distributed development -- i.e., well established ways of working in successful open source projects, like automated builds, CI/CD and maintaining a public backlog of issues. Access and support for the FINOS [project infrastructure](/docs/odp/project-collaboration) is offered free of charge to all Project Teams for this purpose. |
 | Build & Release | If pre-existing software is contributed and there is a build process required to make software work, that build should work successfully as documented using publicly available artefacts. 
 Security | No high or critical vulnerabilities are discovered by scanning systems during FINOS contribution due diligence or they are resolved before the code base is brought into FINOS. Read more about [FINOS Security vulnerabilities responsible disclosure](https://github.com/finos/community/blob/master/governance/Software-Projects/Security-Vulnerabilities-Responsible-Disclosure-Policy.md) and how to [automate scanning with WhiteSource](https://odp.finos.org/docs/development-infrastructure/code-validation/whitesource). |
 | Documentation | The `README.md` must include a description of the idea or how to use and build any pre-existing contributed software. |
 | **DIVERSITY & VIABILITY** |
 | Community | The Project Team seeks more contributions, as well as wider adoption and feedback; the Project has a good idea of tasks (e.g. "good first issue) for new contributors to work on. |
 | Project Team | One or more initial contributors, agree to form the initial Project Team and are able to further maintain the code base and work with prospective contributors. |
-| License | Project is Apache v2 licensed or one of the [Category A licenses](https://github.com/finos/community/blob/master/governance/Software-Projects/License-categories.md#category-a). If your Project uses another license please get in touch with [help@finos.org](mailto:help@finos.org). |
+| License | Project is Apache v2 licensed or one of the [Category A licenses](/docs/governance/Software-Projects/license-categories#category-a). If your Project uses another license please get in touch with [help@finos.org](mailto:help@finos.org). |
 | Trademark | Contributors choose a different name for the contributed Project or commit to transfer to FINOS the original contribution trademark and all related assets (web domains, websites, etc). |
 | **ROADMAP & RESOURCES** |
 | Progress | New Projects might involve existing code, but can also be an idea or proof of concept which gets developed and accelerate in the Open. |
@@ -65,7 +65,7 @@ Security | No high or critical vulnerabilities are discovered by scanning system
 | Usefulness | The contributed code or idea has the potential to be useful to end users and organizations in the financial industry (even if the code base / project is not necessarily finance-specific)
 Status Badging | Project Team is ready to adopt the FINOS Incubating badge in the `README.md` once contribution is approved |
 | **HYGIENE & OPERATIONS** |
-| Compliance | Before or during contribution, Project should work with the FINOS team to comply with the [FINOS contribution compliance requirements](https://github.com/finos/community/blob/master/governance/Software-Projects/Contribution-Compliance-Requirements.md), including `LICENSE`, `NOTICE` and `CONTRIBUTING` files are present and correct. Checkout [FINOS Software Project Blueprint](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint) |
+| Compliance | Before or during contribution, Project should work with the FINOS team to comply with the [FINOS contribution compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements), including `LICENSE`, `NOTICE` and `CONTRIBUTING` files are present and correct. Checkout [FINOS Software Project Blueprint](/docs/odp/project-collaboration/#finos-project-blueprint) |
 | Community Inquiries | The project team commits to answer to Community inquiries on the project channels (mailing lists, issues and pull requests, etc) | 
 | Meeting Hygiene | If the Project holds meetings, the Project Team commits to preparing and distributing agenda and as meeting minutes in accordance to guidelines to run good meetings. |
 | Transparency | Project Team commits to work with FINOS to implement a transparent governance model(*) and publish a roadmap for the project towards activation. |
