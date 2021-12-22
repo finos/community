@@ -48,10 +48,10 @@ Below is a recap of who can do what.
 | | | Consume any artifact produced by a Project |
 | | | Access FINOS issue boards |
 | Any GitHub user | Read | Fork repository |
-| | | Submit a code change via Pull Request (flagged by the <a href={useBaseUrl('docs/development-infrastructure/code-validation/intro')}>FINOS CLA bot</a>)
+| | | Submit a code change via Pull Request (flagged by the <a href={useBaseUrl('/docs/odp/development-infrastructure/code-validation/intro')}>FINOS CLA bot</a>)
 | | | Use GitHub Issues to contribute to the discussion |
 | GitHub user covered by [CLA](governance/Software-Projects/easycla) | Read | Become a member of the GitHub FINOS Organization |
-| | | Submit a code change via Pull Request (validated by the <a href={useBaseUrl('docs/development-infrastructure/code-validation/intro')}>FINOS CLA bot</a>) |
+| | | Submit a code change via Pull Request (validated by the <a href={useBaseUrl('/docs/odp/development-infrastructure/code-validation/intro')}>FINOS CLA bot</a>) |
 | FINOS Staff | Triage | Issue/PR Triage |
 | | | Administration tasks |
 | | | Monitoring |
@@ -115,12 +115,12 @@ The Foundation encourages the thoughtful design of projects such that they resul
 
 If you have an existing project and you'd like to add more repositories to it, you should have all permissions to be able to do it. If you'd like any advanced configuration for your repository, build or release process, please reach out to [help@finos.org](mailto:help@finos.org). 
 
-Although GitHub doesn't directly support the concept of a "project" (a group of related repositories), the Foundation keeps track of this information, and uses it in our [landscape](landscape.finos.org) and [metrics](metrics.finos.org) dashboards.
+Although GitHub doesn't directly support the concept of a "project" (a group of related repositories), the Foundation keeps track of this information, and uses it in our [landscape](https://landscape.finos.org) and [metrics](https://metrics.finos.org) dashboards.
 
 #### Building and testing
 The build is an end-to-end process that converts source code into reusable artifacts, something that we will refer to as deployable units, which is developed by the project team and hosted in the github repository. It is a particularly important task, as it can centralise and trigger several automated sub-tasks, such as version control, code testing, quality and compliance reports and more.
 
-A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('docs/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project activation](/docs/governance/Software-Projects/stages/active).
+A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('/docs/odp/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project activation](/docs/governance/Software-Projects/stages/active).
 
 #### Versioning
 Versioning is the process to establish a format to a project version and the rules to update it, preferably integrating with automated build and release systems; the Foundation mandates the use of [Semantic Versioning](https://semver.org/) ("semver") throughout a project's lifecycle:
@@ -131,7 +131,7 @@ Versioning is the process to establish a format to a project version and the rul
 Every project team is encouraged to define specific criteria by which the MAJOR, MINOR and PATCH components of the semver scheme will be used (keeping in mind the general guidelines semver itself mandates), since this helps to provide clarity to consumers.
 
 #### Release
-The release process allows to publish deployable units into a publicly available artifact repository, by invoking the build process and applying version control to increment the project's version; the Foundation collects guides and best practices on how to release a project, depending on the <a href={useBaseUrl('docs/development-infrastructure/continuous-integration/intro')}>language and eco-system of choice</a>.
+The release process allows to publish deployable units into a publicly available artifact repository, by invoking the build process and applying version control to increment the project's version; the Foundation collects guides and best practices on how to release a project, depending on the <a href={useBaseUrl('/docs/odp/development-infrastructure/continuous-integration/intro')}>language and eco-system of choice</a>.
 
 #### Best practices
 
@@ -152,7 +152,7 @@ In addition to the usual code-level checks a project team may choose to perform 
 
 The Foundation's project infrastructure automatically checks for CLA compliance for pull requests only. Unfortunately it's not currently possible to check for CLA compliance of commits that are directly pushed to a master branch by a committer (this is a GitHub limitation).  For that reason, we strongly recommend that project teams do not add new project team members until they've verified that those contributors have a CLA in place with the Foundation.  In the meantime, you can encourage contributors to fork your project and contribute via pull requests, until such time as you've confirmed their CLA status with the Foundation's legal counsel.
 
-Confirming that contributions haven't introduced incompatibly licensed code is inherently build tool specific, and so we are unable to provide instructions that cover all possible development setups. Check the list of <a href={useBaseUrl('docs/development-infrastructure/code-validation/intro')}>code validation tools</a> available to FINOS hosted projects.
+Confirming that contributions haven't introduced incompatibly licensed code is inherently build tool specific, and so we are unable to provide instructions that cover all possible development setups. Check the list of <a href={useBaseUrl('/docs/odp/development-infrastructure/code-validation/intro')}>code validation tools</a> available to FINOS hosted projects.
 
 ### Managing Issues
 [**GitHub Issues**](https://guides.github.com/features/issues/) provides a simple and flexible way to track task lists; issues can also include list of checkboxes, as shown in the image.
@@ -208,7 +208,7 @@ FINOS uses a framework called Docusaurus to build a website template that any pr
 3. Automated - any change to the `master` branch version will trigger a deployment of the website, using the [Docusaurus build action](#docusaurus-build-action); also forks can enable this action, so that Pull Request submitters can provide a link to their preview website.
 4. Branded - enforces FINOS graphic guidelines across all websites
 
-If you want to add a website to an existing project, checkout the <a href={useBaseUrl('docs/development-infrastructure/project-documentation')}>ODP Project Documentation</a>; if you are starting a project from scratch, checkout the [FINOS project blueprint](#finos-project-blueprint).
+If you want to add a website to an existing project, checkout the <a href={useBaseUrl('/docs/odp/development-infrastructure/project-documentation')}>ODP Project Documentation</a>; if you are starting a project from scratch, checkout the [FINOS project blueprint](#finos-project-blueprint).
 
 Checkout [FDC3](https://fdc3.finos.org/) and [Financial Objects](https://fo.finos.org/) as other examples.
 
@@ -366,7 +366,7 @@ If you don't need or like the documentation website provided by the FINOS bluepr
 Getting started is quite simple:
 
 1. Make sure that your GitHub repository includes the `docs/` and `website/` folder from the [project-blueprint](https://github.com/finos/project-blueprint)
-2. Read our <a href={useBaseUrl('docs/development-infrastructure/project-documentation')}>getting started guide</a> to understand more about Docusaurus
+2. Read our <a href={useBaseUrl('/docs/odp/docs/development-infrastructure/project-documentation')}>getting started guide</a> to understand more about Docusaurus
 3. Edit `website/siteConfig.js` following comments in file
 4. Install the <a href="#docusaurus-build-action">Docusaurus Build Action provided by FINOS</a>
 5. Make edits on `docs/` files and check changes on `https://finos.github.io/<reposirory name>.`
