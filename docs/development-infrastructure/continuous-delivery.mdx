@@ -89,7 +89,7 @@ In order to configure Continuous Delivery, the project must meet few requirement
 4. The build process MUST generate a folder that:
   a. **MUST contain all the artifacts** to run the application; for Maven builds, the assembly plugin can be used
   b. **MUST contain a (Unix) run script**; for Maven builds, the [appassember plugin](https://www.mojohaus.org/appassembler/appassembler-maven-plugin/) can generate it
-  c. **MUST NOT contain any password**, secret or sensitive data (like emails, names, addresses, etc) in clear text; [OpenShift secrets](https://docs.openshift.com/container-platform/latest/dev_guide/secrets.html#dev-guide-secrets-using-secrets) provide a safe way to manage them
+  c. **MUST NOT contain any password**, secret or sensitive data (like emails, names, addresses, etc) in clear text; [OpenShift secrets](https://docs.openshift.com/container-platform/4.6/nodes/pods/nodes-pods-secrets.html) provide a safe way to manage them
 5. Follow the instructions below to define an [OpenShift template](https://docs.openshift.com/container-platform/4.9/openshift_images/using-templates.html) called `.openshift-template.yaml`, in the root folder of the GitHub repository
 
 ## Template definition
