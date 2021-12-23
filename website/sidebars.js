@@ -30,7 +30,7 @@ module.exports = {
         type: 'category',
         label: 'Basics',
         items: [
-          "project-collaboration",
+          "collaboration-infrastructure",
           "development-infrastructure/project-documentation",
           "finos-contributors-cheatsheet",
           "finos-maintainers-cheatsheet",

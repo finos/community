@@ -49,15 +49,36 @@ module.exports = {
       },
       links: [
         {
-          title: 'FINOS',
+          title: 'FINOS Projects',
           items: [
             {
-              label: 'FINOS Website',
-              to: 'https://www.finos.org',
+              label: 'FINOS Landscape',
+              to: "https://landscape.finos.org",
             },
             {
+              label: 'FINOS Projects on GitHub',
+              to: 'https://github.com/finos',
+            },
+            {
+              label: 'Collaboration Infrastructure',
+              to: "/docs/collaboration-infrastructure",
+            }
+          ]
+        },
+        {
+          title: 'FINOS Governance',
+          items: [
+            {
               label: 'Community Governance',
-              to: "docs/governance/intro",
+              to: "/docs/governance/intro",
+            },
+            {
+              label: 'FINOS Charter',
+              to: "/docs/governance/charter",
+            },
+            {
+              label: 'Meeting Procedures',
+              to: "/docs/governance/meeting-procedures",
             }
           ]
         },
@@ -65,8 +86,8 @@ module.exports = {
           title: 'About FINOS',
           items: [
             {
-              label: 'FINOS Projects on GitHub',
-              to: 'https://github.com/finos',
+              label: 'FINOS Website',
+              to: 'https://www.finos.org',
             },
             {
               label: 'Engage the FINOS Community',
@@ -77,9 +98,9 @@ module.exports = {
               to: 'https://www.finos.org/news-and-events',
             }
           ]
-        },
+        }
       ]
-    },
+    }
   },
   presets: [
     [

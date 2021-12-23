@@ -12,11 +12,11 @@ The objectives of incubation are to allow the project team to form in the open, 
 Once established, incubating projects are expected to prioritise some or all of the following activities, in approximately this order:
 1. Rapid experimentation e.g. with different technical designs, deployment architectures, platforms & capabilities etc.
 2. Identification of a preferred technical design.
-3. Selection and adoption of an appropriate SDLC and supporting [project infrastructure services](/docs/project-collaboration).
+3. Selection and adoption of an appropriate SDLC and supporting [project infrastructure services](/docs/collaboration-infrastructure).
 4. Construction of an implementation timeline or add to the Program Roadmap
 5. Development and testing.
 
-The ultimate goal being to meet or exceed the requirements for activation, and thereby be ready for promotion to Active status.  To help support this, the Foundation encourages the thoughtful adoption of a variety of [project infrastructure services](/docs/project-collaboration); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
+The ultimate goal being to meet or exceed the requirements for activation, and thereby be ready for promotion to Active status.  To help support this, the Foundation encourages the thoughtful adoption of a variety of [project infrastructure services](/docs/collaboration-infrastructure); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
 
 ## Requirements
 
@@ -47,7 +47,7 @@ The table below presents a consolidate checklist for contributors to guide the d
 | What it means for consumers? | The Project is at early stages of maturity, across quality, community dynamics and value. |
 | What it means for the Project Team? | All Projects enter in Incubating state so this is a good checklist for a new contribution which contributors can use to discuss approval of a new Project.  |
 | **QUALITY & SECURITY** |
-| Development Process | The current contributor(s) commit to adopt a development process suitable for distributed development -- i.e., well established ways of working in successful open source projects, like automated builds, CI/CD and maintaining a public backlog of issues. Access and support for the FINOS [project infrastructure](/docs/project-collaboration) is offered free of charge to all Project Teams for this purpose. |
+| Development Process | The current contributor(s) commit to adopt a development process suitable for distributed development -- i.e., well established ways of working in successful open source projects, like automated builds, CI/CD and maintaining a public backlog of issues. Access and support for the FINOS [project infrastructure](/docs/collaboration-infrastructure) is offered free of charge to all Project Teams for this purpose. |
 | Build & Release | If pre-existing software is contributed and there is a build process required to make software work, that build should work successfully as documented using publicly available artefacts. 
 Security | No high or critical vulnerabilities are discovered by scanning systems during FINOS contribution due diligence or they are resolved before the code base is brought into FINOS. Read more about [FINOS Security vulnerabilities responsible disclosure](/docs/governance/Software-Projects/cve-responsible-disclosure) and how to [automate scanning with WhiteSource](/docs/development-infrastructure/code-validation/whitesource). |
 | Documentation | The `README.md` must include a description of the idea or how to use and build any pre-existing contributed software. |
@@ -65,7 +65,7 @@ Security | No high or critical vulnerabilities are discovered by scanning system
 | Usefulness | The contributed code or idea has the potential to be useful to end users and organizations in the financial industry (even if the code base / project is not necessarily finance-specific)
 Status Badging | Project Team is ready to adopt the FINOS Incubating badge in the `README.md` once contribution is approved |
 | **HYGIENE & OPERATIONS** |
-| Compliance | Before or during contribution, Project should work with the FINOS team to comply with the [FINOS contribution compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements), including `LICENSE`, `NOTICE` and `CONTRIBUTING` files are present and correct. Checkout [FINOS Software Project Blueprint](/docs/project-collaboration/#finos-project-blueprint) |
+| Compliance | Before or during contribution, Project should work with the FINOS team to comply with the [FINOS contribution compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements), including `LICENSE`, `NOTICE` and `CONTRIBUTING` files are present and correct. Checkout [FINOS Software Project Blueprint](/docs/collaboration-infrastructure/#finos-project-blueprint) |
 | Community Inquiries | The project team commits to answer to Community inquiries on the project channels (mailing lists, issues and pull requests, etc) | 
 | Meeting Hygiene | If the Project holds meetings, the Project Team commits to preparing and distributing agenda and as meeting minutes in accordance to guidelines to run good meetings. |
 | Transparency | Project Team commits to work with FINOS to implement a transparent governance model(*) and publish a roadmap for the project towards activation. |
