@@ -22,7 +22,7 @@ This document describes requirements and recommendations for holding meetings of
     * A record of any decisions made or actions taken, including a record of the vote (i.e. votes in favor, votes against, and abstentions)
   * Any action items assigned, including the assignee and the deadline (if any)
 * Minutes **must not** attribute any statement to an individual or organization without their express prior approval. This is to ensure that people feel free to speak candidly.
-* Minutes **should** be concise records of the important parts of the meeting. They should not be an exhaustive transcript. (See [this example](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/863207445/%5BSample+Minutes%5D+2019-04-01+XYZ+WG+Meeting+Notes).)
+* Minutes **should** be concise records of the important parts of the meeting. They should not be an exhaustive transcript. (See [this example](https://github.com/finos/FDC3/issues/481).)
 * Organizers **must** post a public link to meeting minutes after the meeting. 
 
 ## Run the meeting

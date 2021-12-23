@@ -20,7 +20,7 @@ NOTE: All contributors must have a contributor license agreement (CLA) on file w
 The project community consists of Contributors and Maintainers:
 * A **Contributor** is anyone who submits a contribution to the project. (Contributions may include code, issues, comments, documentation, media, or any combination of the above.)
 * A **Maintainer** is a Contributor who, by virtue of their contribution history, has been given write access to project repositories and may merge approved contributions.
-* The **Lead Maintainer** is the project's interface with the FINOS team and Board. They are responsible for approving [quarterly project reports](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/93225748/Board+Reporting+and+Program+Health+Checks) and communicating on behalf of the project. The Lead Maintainer is elected by a vote of the Maintainers. 
+* The **Project Lead Maintainer** is the project's interface with the FINOS team and Board. They are responsible for communicating quarterly project reports (based on [metrics.finos.org](https://metrics.finos.org)) on behalf of the project. The Lead Maintainer is elected by a vote of the Maintainers. 
 
 ### Contribution Rules
 
