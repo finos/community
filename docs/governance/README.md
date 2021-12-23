@@ -64,7 +64,7 @@ For a list of our project see the [FINOS project landscape](https://landscape.fi
 
 FINOS is home to dozens of open source projects. Any FINOS member (and only FINOS members) may propose a new project or sponsor a project from an outside contributor. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board. Please refer to the [contribution process](Software-Projects/Contribution.md) if you'd like to propose a new project or contribute to an existing one. 
 
-The [default governance policy](/CONTRIBUTING.template.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
+The [default governance policy](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
 ## Open Standard Projects
 

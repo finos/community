@@ -1,3 +1,5 @@
+## [Duplicative of https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md]
+
 # {project name} Contribution and Governance Policies
 
 This document describes the contribution process and governance policies of the FINOS {project name} project. The project is also governed by the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/antitrust-policy/), and the FINOS [IP Policy](https://community.finos.org/governance-docs/IP-Policy.pdf), [Code of Conduct](https://www.finos.org/code-of-conduct), [Collaborative Principles](https://community.finos.org/docs/governance/collaborative-principles), and [Meeting Procedures](https://community.finos.org/docs/governance/meeting-procedures).
