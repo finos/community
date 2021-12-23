@@ -90,7 +90,7 @@ In order to configure Continuous Delivery, the project must meet few requirement
   a. **MUST contain all the artifacts** to run the application; for Maven builds, the assembly plugin can be used
   b. **MUST contain a (Unix) run script**; for Maven builds, the [appassember plugin](https://www.mojohaus.org/appassembler/appassembler-maven-plugin/) can generate it
   c. **MUST NOT contain any password**, secret or sensitive data (like emails, names, addresses, etc) in clear text; [OpenShift secrets](https://docs.openshift.com/container-platform/latest/dev_guide/secrets.html#dev-guide-secrets-using-secrets) provide a safe way to manage them
-5. Follow the instructions below to define an [OpenShift template](https://docs.openshift.org/latest/architecture/core_concepts/templates.html) called `.openshift-template.yaml`, in the root folder of the GitHub repository
+5. Follow the instructions below to define an [OpenShift template](https://docs.openshift.com/container-platform/4.9/openshift_images/using-templates.html) called `.openshift-template.yaml`, in the root folder of the GitHub repository
 
 ## Template definition
 Below is described, section by section, an OpenShift template that defines
@@ -183,7 +183,7 @@ The DeploymentConfig resource defines:
 2. The container configuration
   a. The image to use to create the container; this must match with the ImageStream output defined above
   b. TCP/UDP ports to expose; in this case port `8080` is open at container level
-  c. The [`readinessProbe`](https://docs.openshift.org/latest/dev_guide/application_health.html) detects if the container is unhealthy
+  c. The [`readinessProbe`](https://docs.openshift.com/container-platform/4.6/applications/application-health.html) detects if the container is unhealthy
   d. Container environment variables can be defined in clear text (ie `LOG4J_FILE`) or loaded from a secret key reference; secrects are managed by the Foundation Staff and are normally used to manage credentials used to access the external APIs.
 3. The deployment configuration `trigger`, pointing to the `latest` tag of an image called `${BOT_NAME}`
 

@@ -102,15 +102,6 @@ FINOS have developed a tool that scans all the GitHub repositories across all FI
 
 Code is publicly available on https://github.com/finos/metadata-tool, the command to invoke is `check-project-repos`.
 
-#### Reporting via GitHub Issues
-*Work in progress - follow https://github.com/finos/open-developer-platform/issues/31*
-
-In order to deliver these reports directly to the teams, the Open Developer Platform have developed a GitHub Action that uses metadata-tool to generate the project reports and submits a GitHub Issue for each GitHub repository where validation problems were spotted; the issue will include a detailed description of the validation done and point the reader on how to resolve it.
-
-This is an example of [auto-generated issue for project compliance](https://github.com/finos/contrib-toolbox/issues/12).
-
-GitHub Action can be found in the [ODP GitHub repo](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/project-blueprint.yml).
-
 #### Ignoring validations
 There may be corner cases, for example repositories that contain data don't need whitesource integration. In those cases, it is possible to define a `.finos-blueprint.json` file in the root folder, with the following structure:
 ```

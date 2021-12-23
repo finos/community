@@ -214,9 +214,11 @@ Checkout [FDC3](https://fdc3.finos.org/) and [Financial Objects](https://fo.fino
 
 <img alt="fdc3-org" src={useBaseUrl('img/collab/fdc3-org.png')} />
 
-#### Docusaurus Build Action
+#### [DEPRECATED] Docusaurus Build Action
 
-The [docusaurus workflow](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml) defines a GitHub Action that automatically builds the Docusaurus website after any commit.
+**Note!** This GitHub action has been deprecated in favor of using [Netlify](https://netlify.com)
+
+The [docusaurus workflow](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated) defines a GitHub Action that automatically builds the Docusaurus website after any commit.
 
 If a `Push` event occurs on the a Docusaurus file (`website/**`, `docs/**` or `docusaurus.yml`) on a FINOS master branch, the action will simply invoke the `docusaurus-build` command and push the (HTML) result into the `gh-pages` branch.
 
@@ -329,7 +331,7 @@ A project needs:
 2. The meeting leader must have at least `Write` access to the repository
 3. The `meeting` issue label defined
 4. Issue template [`.github/ISSUE_TEMPLATE/Meeting.md`](https://github.com/finos/open-developer-platform/blob/master/.github/ISSUE_TEMPLATE/Meeting.md) defined
-5. Action [`.github/workflows/meetings.yml`](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/meetings.yml) defined
+5. [DEPRECATED] Action [`.github/workflows/meetings.yml`](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/meetings.yml.deprecated) defined
 6. GitHub repository secrets (ask [help@finos.org](mailto:help@finos.org) to set them up)
 
 ### Security Scanning
