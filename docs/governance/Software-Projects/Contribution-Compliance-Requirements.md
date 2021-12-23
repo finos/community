@@ -45,7 +45,7 @@ The `CONTRIBUTING` file contains basic instructions to prospective contributors 
 Please note that Github will prompt this content when a user creates an issue or pull request, you can read more on [GitHub Contributing Guidelines](https://github.com/blog/1184-contributing-guidelines).
 
 #### Source code license headers
-For [Activation](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md), it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
+For [Activation](/docs/governance/Software-Projects/project-lifecycle), it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
 
 ```
 SPDX-License-Identifier: Apache-2.0
@@ -117,6 +117,6 @@ The purpose of this notice is to make contributors aware that their modification
 **If the third-party license requires specific notices**, you must add them to the `NOTICE` file. For example, some open source licenses require that you include a description of any modifications made to the third-party code.
 
 #### Validating license and notice information
-When you make a contribution, the Foundation attempts to validate compliance with these requirements automatically using a variety of tools made available by the [Open Developer Platform](https://odp.finos.org).
+When you make a contribution, the Foundation attempts to validate compliance with these requirements automatically using a variety of tools [made available by FINOS](/docs/development-infrastructure/code-validation/intro).
 
 However, no automated tool can resolve these questions definitively, so we depend upon our contributors, project teams and PMCs to ensure compliance with this policy at all times.

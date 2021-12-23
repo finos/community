@@ -31,9 +31,9 @@ Do you have an existing product, project, or activity that would be a good fit w
 ### Pre-Work: Contribution Fitness
 First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. 
 
-Since every Project contributed to the Foundation comes into an [Incubating stage](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md), a comprehensive set of criteria to review to evaluate contribution fitness is the Incubation checklist.  Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution.
+Since every Project contributed to the Foundation comes into an [Incubating stage](/docs/governance/Software-Projects/project-lifecycle), a comprehensive set of criteria to review to evaluate contribution fitness is the Incubation checklist.  Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution.
 
-For Projects initiated by FINOS Members, there’s the opportunity to carry out a pre-incubation so called [Formation stage](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md), where the FINOS team and Members can support the contributor to socialize, gauge interest and ready the project for open sourcing.
+For Projects initiated by FINOS Members, there’s the opportunity to carry out a pre-incubation so called [Formation stage](/docs/governance/Software-Projects/project-lifecycle), where the FINOS team and Members can support the contributor to socialize, gauge interest and ready the project for open sourcing.
 
 
 ### Step 1: Submit a contribution proposal
@@ -56,7 +56,7 @@ Once a contribution is raised, the Foundation will perform an audit to ensure th
 
 - Transferring the project trademark to FINOS, or selecting a new name for the FINOS project that does not conflict with any existing marks, so that FINOS can enforce the project's rights consistent with our [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf).
 - Compliance with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
-- Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md))
+- Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/project-lifecycle))
 
 ### Step 3: FINOS Approval
 Once legal and IP review is complete, the FINOS team will review the proposal and work with the Governing Board where appropriate to make a decision on approving the project. 
@@ -66,7 +66,7 @@ The FINOS team will review your proposal for alignment with the scope and object
 ### Step 4: Transfer and Review of Contribution Materials
 Following contribution approval, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or Sending the FINOS team an archive containing the code to be contributed. See [Code Transfer options](/docs/governance/Software-Projects/code-transfer).
 
-It's during this step as well that [code validation and scanning](/docs/odp/development-infrastructure/code-validation/intro) of the code base with be performed, any build processes set up and configured, and the various components documented in the `Project Tooling` section configured and set up for the project, at which point the rest of the Foundation's infrastructure will be available to the project contributors moving forward to use to develop, test and release the project.
+It's during this step as well that [code validation and scanning](/docs/development-infrastructure/code-validation/intro) of the code base with be performed, any build processes set up and configured, and the various components documented in the `Project Tooling` section configured and set up for the project, at which point the rest of the Foundation's infrastructure will be available to the project contributors moving forward to use to develop, test and release the project.
 
 ### Step 5: Contribution Announcements
 Once the transfer and review is complete, it's time to announce the contribution and garner attention and additional contribution from our the FINOS community. In order to do so:

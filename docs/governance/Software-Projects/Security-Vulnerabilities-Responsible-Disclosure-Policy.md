@@ -39,10 +39,10 @@ To submit a new vulnerability, please follow these steps:
 **IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. That means, for example that a GitHub Issue must NOT be created to track the issue since that will make the issue public. Also the messages associated with any commits should not make ANY reference to the security nature of the commit.
 
 ### FINOS lifecycle
-The responsible disclosure ties into [FINOS Project Lifecycle](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md) in the following items:
+The responsible disclosure ties into [FINOS Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle) in the following items:
 
-- All [Incubating projects](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#incubating-projects) **MUST** have an automated way to manage security vulnerabilities, see below
-- All [Active projects](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#active-projects) **MUST** have WhiteSource enabled
+- All [Incubating projects](/docs/governance/Software-Projects/stages/incubating) **MUST** have an automated way to manage security vulnerabilities, see below
+- All [Active projects](/docs/governance/Software-Projects/stages/active) **MUST** have WhiteSource enabled
 - All projects **publishing artefacts under FINOS package registries MUST** have WhiteSource enabled
 
 ### Collecting project CVE list
@@ -85,10 +85,10 @@ As soon as the project team finds and implements a fix for the vulnerability, al
 5. The log for the Git commit that applied the fix is updated to include the CVE number. Projects that use git as their primary source code control system should not do this as editing a pushed commit causes all sorts of problems.
 
 ## Automating security vulnerabilities
-Using the [WhiteSource integration for GitHub.com](/docs/odp/development-infrastructure/code-validation/whitesource) it is possible to monitor commits, Pull Requests and also scan existing dependencies for new CVE; the .whitesource configuration can either:
+Using the [WhiteSource integration for GitHub.com](/docs/development-infrastructure/code-validation/whitesource) it is possible to monitor commits, Pull Requests and also scan existing dependencies for new CVE; the .whitesource configuration can either:
 
 1. (Default) Use the [WhiteSource Unified Agent](https://whitesource.atlassian.net/wiki/spaces/WD/pages/33718339/Unified+Agent) and configure your build tools accordingly
-2. Use the [WhiteSource integration for GitHub.com](/docs/odp/development-infrastructure/code-validation/whitesource) to publicly notify the community about the CVE found; this is the standard configuration for project that are either not publicly released yet or haven't been deployed anywhere publicly.
+2. Use the [WhiteSource integration for GitHub.com](/docs/development-infrastructure/code-validation/whitesource) to publicly notify the community about the CVE found; this is the standard configuration for project that are either not publicly released yet or haven't been deployed anywhere publicly.
 3. Disable GitHub Issues and request FINOS - by sending an email to [help@finos.org](mailto:help@finos.org) - to configure email notifications; we encourage using personal email addresses or private mailing-lists for this type of communication.
 
 ## Responsible Disclosure at Apache Software Foundation

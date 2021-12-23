@@ -41,7 +41,7 @@ Activation votes are performed by the Project Lead Maintainer, and only after an
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
-[![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#active-projects)
+[![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/active)
 ```
 
 ## Activation Lifecycle Checklist

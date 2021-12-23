@@ -15,7 +15,7 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 -----
 
 # Confirm archiviation
-- [ ] Validate [reasons for project archival](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md#archived-projects)
+- [ ] Validate [reasons for project archival](https://community.finos.org/docs/governance/Software-Projects/stages/archived)
 - [ ] Discuss request with FINOS Leadership team
 - [ ] Get in touch with Project Lead. If she/he agrees with the request, then move forward
 - [ ] (if applicable, and on a case to case basis) communicate project archival, reasons for archival and implications of archival to the project community
@@ -31,5 +31,5 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 - [ ] Create a `staging` branch on https://github.com/finos/finos-landscape
 - [ ] Update FINOS Metadata (set `state` to `ARCHIVED` and set `archiveDate`)
 - [ ] Submit ticket to LF to update SFDC
-- [ ] Remove project Leads from the [finos-project-maintainers@finos.org](https://groups.google.com/u/1/a/finos.org/g/finos-project-maintainers/members) list (unless they're leading other FINOS projects!)
+- [ ] Remove project Leads from the [finos-project-maintainers@finos.org](https://groups.google.com/a/finos.org/g/finos-project-maintainers/members) list (unless they're leading other FINOS projects!)
 - [ ] Remove project Leads from the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members) (unless they're leading other FINOS projects!)

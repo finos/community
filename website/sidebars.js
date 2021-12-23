@@ -30,10 +30,10 @@ module.exports = {
         type: 'category',
         label: 'Basics',
         items: [
-          "odp/project-collaboration",
-          "odp/development-infrastructure/project-documentation",
-          "odp/finos-contributors-cheatsheet",
-          "odp/finos-maintainers-cheatsheet",
+          "project-collaboration",
+          "development-infrastructure/project-documentation",
+          "finos-contributors-cheatsheet",
+          "finos-maintainers-cheatsheet",
         ]
       },
       {
@@ -45,26 +45,26 @@ module.exports = {
             type: 'category',
             label: 'CI/CD',
             items: [
-              "odp/development-infrastructure/continuous-integration/intro",
-              "odp/development-infrastructure/continuous-integration/clojure",
-              "odp/development-infrastructure/continuous-integration/csharp",
-              "odp/development-infrastructure/continuous-integration/java",
-              "odp/development-infrastructure/continuous-integration/javascript",
-              "odp/development-infrastructure/continuous-integration/python",
-              'odp/development-infrastructure/continuous-delivery'
+              "development-infrastructure/continuous-integration/intro",
+              "development-infrastructure/continuous-integration/clojure",
+              "development-infrastructure/continuous-integration/csharp",
+              "development-infrastructure/continuous-integration/java",
+              "development-infrastructure/continuous-integration/javascript",
+              "development-infrastructure/continuous-integration/python",
+              'development-infrastructure/continuous-delivery'
             ]
           },
           {
             type: 'category',
             label: 'Code Validations',
             items: [
-            "odp/development-infrastructure/code-validation/intro",
-            "odp/development-infrastructure/code-validation/bithound",
-            "odp/development-infrastructure/code-validation/codeclimate",
-            "odp/development-infrastructure/code-validation/coverityscan",
-            "odp/development-infrastructure/code-validation/nodesecurity",
-            "odp/development-infrastructure/code-validation/sonarcloud",
-            "odp/development-infrastructure/code-validation/whitesource"
+            "development-infrastructure/code-validation/intro",
+            "development-infrastructure/code-validation/bithound",
+            "development-infrastructure/code-validation/codeclimate",
+            "development-infrastructure/code-validation/coverityscan",
+            "development-infrastructure/code-validation/nodesecurity",
+            "development-infrastructure/code-validation/sonarcloud",
+            "development-infrastructure/code-validation/whitesource"
             ]
           }
         ]
@@ -73,8 +73,8 @@ module.exports = {
         type: 'category',
         label: 'Platforms',
         items: [
-          "odp/platforms/legend-studio-shared",
-          "odp/platforms/symphony-dev-pod"
+          "platforms/legend-studio-shared",
+          "platforms/symphony-dev-pod"
         ]
       }  
     ],

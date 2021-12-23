@@ -13,15 +13,15 @@ title: Project Support Guidelines
 |**Infrastructure Support**||||||||||
 |Initial License scanning (at contribution time)|✓|✓|N/A|N/A|N/A|N/A|N/A|||
 |Continuous license scanning (on commits and PRs)|✓|✓|✓|✓|✓|✓|✓|Feature not currently offered in ODP|https://github.com/finos/open-developer-platform/issues/30|
-|Project infrastructure initial setup|✓|✓|✓|✓|N/A|N/A|N/A|More info at the [Collaboration Infrastructure page](/docs/odp/project-collaboration)||
-|Github roster management (authentication and authorization)|On exception basis (i.e., Pilot)|✗|✗|✗|✗|✗|✗|More info at the [Collaboration Infrastructure page](/docs/odp/project-collaboration)||
+|Project infrastructure initial setup|✓|✓|✓|✓|N/A|N/A|N/A|More info at the [Collaboration Infrastructure page](/docs/project-collaboration)||
+|Github roster management (authentication and authorization)|On exception basis (i.e., Pilot)|✗|✗|✗|✗|✗|✗|More info at the [Collaboration Infrastructure page](/docs/project-collaboration)||
 |Email lists roster management|✓|✓|✓|✓|✓|✓|✓|Currently managed in Google Groups, will be part of LFX PCC (released in H2 2022)||
 |Atlassian/Confluence roster management|✓|✓|✓|✓|✓|✓|✓|Deprecated in favor of GitHub and Docusaurus websites||
-|CI setup support by FINOS Team|On exception basis (i.e., Pilot)|✗|✓|✓|✓|✓|N/A|More info at the [Continuous Integration page](/docs/odp/development-infrastructure/continuous-integration/intro)||
-|CD setup support by FINOS Team|On exception basis (e.g. Pilot)|✗|On exception basis|On exception basis|On exception basis|On exception basis|✗|More info atin the [Continuous Delivery page](/docs/odp/development-infrastructure/continuous-delivery)||
-|Project docs site setup|On exception basis (i.e., Pilot)|✗|✓(via Project Blueprint )|✓(via Project Blueprint )|✓(via Project Blueprint)|✓(via Project Blueprint)|N/A|More info at the [Project Documentation page](/docs/odp/development-infrastructure/project-documentation)||
+|CI setup support by FINOS Team|On exception basis (i.e., Pilot)|✗|✓|✓|✓|✓|N/A|More info at the [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
+|CD setup support by FINOS Team|On exception basis (e.g. Pilot)|✗|On exception basis|On exception basis|On exception basis|On exception basis|✗|More info atin the [Continuous Delivery page](/docs/development-infrastructure/continuous-delivery)||
+|Project docs site setup|On exception basis (i.e., Pilot)|✗|✓(via Project Blueprint )|✓(via Project Blueprint )|✓(via Project Blueprint)|✓(via Project Blueprint)|N/A|More info at the [Project Documentation page](/docs/development-infrastructure/project-documentation)||
 |Ongoing vulnerability scanning|✓|✓|✓|✓|✓|✓|N/A|Need to complete roll-out throughout project portfolio. More info at WhiteSource for GitHub.com|https://github.com/finos/open-developer-platform/issues/108|
-|Code / Docs Release Process configuration|On exception basis (e.g. Pilot)|✗|✓|✓|✓|✗|N/A|More info at [Continuous Integration page](/docs/odp/development-infrastructure/continuous-integration/intro)||
+|Code / Docs Release Process configuration|On exception basis (e.g. Pilot)|✗|✓|✓|✓|✗|N/A|More info at [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
 |**Project Marketing**||||||||||
 |Project docs (microsite) information architecture and content|✗|✗|On exception basis|✗|✗|✗|✗|||
 |Contribution announcement in newsletter|✓|✓|✓|✓|N/A|N/A|N/A|||

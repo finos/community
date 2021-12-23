@@ -15,6 +15,6 @@ These are some of the key steps you might want to take as your start your journe
 - [Contact the FINOS team](https://www.finos.org/contact-us?hsLang=en-us) or join FINOS Office Hours with the FINOS team
 - Check out our [FAQ](https://www.finos.org/faq)
 - [Sign up for our news](https://www.finos.org/sign-up)
-- Learn [how the FINOS Community is governed](https://github.com/finos/community/tree/master/governance)
+- Learn [how the FINOS Community is governed](/docs/governance/intro)
 
 Once you've feel comfortable, we encourage you to start consuming our Projects and joining our SIG for the benefit of your software development efforts!

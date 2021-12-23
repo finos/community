@@ -123,9 +123,3 @@ If your company benefits from this project and you would like to provide essenti
 ### 3. Request that EasyCLA be enabled
 
 When the above steps are complete, please reach out to [help@finos.org](mailto:help@finos.org) and EasyCLA will be enabled for your repos.
-
-## CLA Documents
-
-Please find below the FINOS CLA document templates (Individual and Corporate):
-* [Individual_Contributor_License_Agreement.pdf](https://github.com/finos/community/files/7604554/Individual_Contributor_License_Agreement.pdf)
-* [Corporate_Contributor_License_Agreement.pdf](https://github.com/finos/community/files/7604556/Corporate_Contributor_License_Agreement.pdf)
