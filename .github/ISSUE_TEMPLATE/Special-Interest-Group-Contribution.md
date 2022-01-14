@@ -20,8 +20,8 @@ Please note that only FINOS members can propose new projects. If you're interest
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
-## SIG Leadership Team
-*List out the leadership team members, including full name, affiliation, work email address, and GitHub.com username*
+## SIG Maintainers
+*Who will be the [SIG maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 # SIG Contribution and Onboarding process (v. 1.0, last updated on October 27, 2020)
 Below is the list of tasks that FINOS Team and the contribution author goes through in order to complete the FINOS SIG onboarding process. **Please do not edit these contents at contribution time!**
