@@ -24,8 +24,8 @@ Please note that only FINOS members can propose new projects. If you're interest
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
 ## Development Team
-### Leadership
-*Who will be the project's lead maintainer(s)? Provide full name, affiliation, work email address, and GitHub.com username.*
+### Maintainers
+*Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 ### Confirmed contributors
 *If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
