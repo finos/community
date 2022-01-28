@@ -147,10 +147,12 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] Contributing in README
     - [ ] `CONTRIBUTING.md`
     - [ ] `LICENSE` (look for `{}` placeholders)
+- [ ] Check protection settings and disable after transfer if necessary
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 - [ ] Configure `finos-admins` (`Maintain` role) and `finos-staff` (`Triage` role) team permissions
+
 
 ## Infra setup (Lead: FINOS Infra)
 - [ ] Enable EasyCLA
