@@ -3,7 +3,7 @@ name: "\U0001F58ASoftware Project Contribution and Onboarding"
 about: To Contribute a Software Project to FINOS
 title: Software Project Contribution and Onboarding
 labels: contribution
-assignees: maoo, TheJuanAndOnly99
+assignees: mcleo-d
 
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
