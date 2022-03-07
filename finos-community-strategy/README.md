@@ -6,7 +6,7 @@
 
 ## Download as a PDF
 
-The original presentation can be [downloaded as a PDF](finos-2022-community-strategy-public.pdf).
+The original presentation can be [downloaded as a PDF](assets/finos-2022-community-strategy-public.pdf).
 
 ## Markdown Content
 
