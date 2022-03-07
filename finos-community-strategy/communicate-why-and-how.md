@@ -1,8 +1,8 @@
-Communicate WHY and HOW the FINOS Community should contribute
+# Communicate WHY and HOW the FINOS Community should contribute
 
 Successful open source Projects and SIGs clearly communicate their purpose and tell people why and how they should contribute and consume. Look at [Morphir](https://github.com/finos/morphir), [ReactJS](https://github.com/facebook/react), [Svelte](https://github.com/sveltejs/svelte) for great examples.
 
-Update or Add Content to FINOS Project and SIG README.md and CONTRIBUTING.md
+## Update or Add Content to FINOS Project and SIG README.md and CONTRIBUTING.md
 
 - Articulate your FINOS Project and SIG purpose in your README.md
   - Invite the team to review and feedback to make sure it makes sense.
@@ -15,4 +15,4 @@ Update or Add Content to FINOS Project and SIG README.md and CONTRIBUTING.md
 
 **Remember to update FINOS Project and SIG microsites to reflect consistent content!**
 
-<img src="assets/why-how.png?raw=true" width="100%">
+<img src="assets/why-how.png?raw=true">
