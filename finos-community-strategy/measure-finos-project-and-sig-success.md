@@ -1,4 +1,4 @@
-Measure FINOS Project and SIG Success with LFX Insights
+# Measure FINOS Project and SIG Success with LFX Insights
 
 ## Data-driven reporting enables you to make informed decisions.
 
@@ -14,4 +14,4 @@ Measure FINOS Project and SIG Success with LFX Insights
 - Include metrics review in team meetings / sprint reviews to help influence direction and decisions.
 - Work with FINOS to grow your Projects and SIGs and celebrate your success!
 
-<img src="assets/insights.png?raw=true">
+<img src="assets/insights.png?raw=true" width="70%">
