@@ -1,6 +1,6 @@
 # Coordinate work through GitHub Issues, Discussions and FINOS Slack
 
-## Take full advantage of GitHub Issues for work allocation.
+## Take full advantage of GitHub Issues for work allocation
 
 - Use GitHub Issues to create a backlog of well described work e.g. ([Legend](https://github.com/finos/legend/issues)).
 - Allocate work to individuals so the team knows what they’re doing e.g ([FDC3](https://github.com/finos/fdc3/issues)).
