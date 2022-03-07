@@ -26,15 +26,3 @@ The first steps to participate in a SIG are to subscribe to the SIG's mailing li
 SIGs are expected to document participation eligibility criteria, their mailing list information and meeting information on their GitHub repository.
 
 SIGs may create and enforce additional participation eligibility criteria or requirements; an example might be to require a particular area of industry expertise (e.g., interest rate swaps) or knowledge of a programming language (e.g., C++) or library. These criteria should also be clearly documented on the SIG's documentation page.
-
-### Different types of Participation
-
-#### Active participation
-The FINOS Community is based on the "governance by contribution" principles. Therefore we encourage participants to Projects and SIGs to take an active role by contributing actual code or sweat equity (taking the minutes, follow up on action points to meetings, etc).
-
-#### Passive Participation
-Another option, geared for those new or unfamiliar with a SIG, is passive (listen-only / read-only) participation. Passive participation allows those in the FINOS Community so inclined to check out a SIG for a bit to see if they'd like to get involved on an on-going basis, usually with an eye towards demonstrable active participation. Other than possibly a brief introduction at the start of the call, it's expected that passive participants are essentially auditing the calls (and/or reading mailing list threads and Github issues, as the case may be) in listen-only (or read-only) mode. Moderators of meetings may choose to open a SIG meeting to questions from passive participants if they choose, but are under no obligation to do so. Critically, passive participation, by either an individual or organization, is intended to be finite and limited in duration.
-
-The primary purpose of passive participation is to provide an opportunity for potential participants newer to the SIG or project to understand the topics discussed, depth of the discussions, and/or any technical/product/industry experience expected for on-going participation.
-
-Passive participation is not intended to be used for indefinite auditing or non-collaborative purpose (e.g. seeking competitive insights). Passive participants will typically attend a limited number of meetings, after which they'll seek to join as a participant (and have met any eligibility criteria, if they exist) or cease attending. 
