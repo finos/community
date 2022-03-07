@@ -14,4 +14,4 @@
 - Include metrics review in team meetings / sprint reviews to help influence direction and decisions.
 - Work with FINOS to grow your Projects and SIGs and celebrate your success!
 
-<img src="assets/insights.png?raw=true" width="70%">
+<img src="assets/insights.png?raw=true" width="50%">
