@@ -14,3 +14,5 @@ Sometimes having documentation isn’t enough for attracting contributors and sc
 
 **Why invest in an awesome engineering experience?**
 Easy and speed of deployment enables innovation, playful experiments and lowers the barrier of entry to open source consumption and contribution. When you deploy fast, you can run hackathons!
+
+<img src="assets/devops.png?raw=true">
