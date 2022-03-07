@@ -3,18 +3,20 @@ id: learn
 title: Learn
 ---
 
-If you are new to FINOS, new to Open Source or working for an institution who's looking to accelerate their consumption and contribution to open source, FINOS provides several resources for your perusal as well as venues where you can learn from peers and open source experts. 
+If you are new to FINOS, new to Open Source, or working for an organization looking to accelerate their open source consumption and contribution, FINOS hosts a set of free and member-only resources, as well as meetings, events and other venues for financial services developers and subject matter experts to fully embrace the benefitsnof open source. 
 
-Additionally, FINOS provides several self-serve and interactive channels for you to learn more about our Community, its initiatives (Programs and Projects), it's governance.
+Additionally, FINOS provides access to self-serve and interactive channels to learn about the FINOS Community and projects as well as about our governance.
 
-These are some of the key steps you might want to take as your start your journey in FINOS:
+Not sure where to get started? Here are some suggestions to start your FINOS journey:
 
-- Learn focus of the different [FINOS Projects](http://landscape.finos.org/)
-- Join an [Open Source Readiness](https://osr.finos.org) meeting
-- [Join the Community Mailing List](mailto:community+subscribe@finos.org) or if you are an employee of a FINOS Member firm [join the Member only Mailing List](mailto:member+subscribe@finos.org)
-- [Contact the FINOS team](https://www.finos.org/contact-us?hsLang=en-us) or join FINOS Office Hours with the FINOS team
+- [Join the Community Mailing List](mailto:community+subscribe@finos.org) and/ or the [FINOS Member-only mailing List](mailto:member+subscribe@finos.org) if you are an employee of a [FINOS Member](https://finos.org/members)
+- Learn about [FINOS Projects](http://landscape.finos.org/)
+- Learn about the FINOS [Open Source Readiness Initiative](https://finos.org/open-source-readiness) and [Open Source Readiness Special Interest Group (SIG)](https://osr.finos.org) meeting
+- Attend a [FINOS Project Meeting](https://calendar.google.com/calendar/u/0/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig@group.calendar.google.com&ctz=America/New_York)
+- Listen to the FINOS Podcast
+- [Get in touch with the FINOS team](https://www.finos.org/contact-us?hsLang=en-us) or join FINOS Office Hours with the FINOS team
 - Check out our [FAQ](https://www.finos.org/faq)
-- [Sign up for our news](https://www.finos.org/sign-up)
+- [Sign up for FINOS updates](https://www.finos.org/sign-up)
 - Learn [how the FINOS Community is governed](/docs/governance/intro)
 
-Once you've feel comfortable, we encourage you to start consuming our Projects and joining our SIG for the benefit of your software development efforts!
+Need help? Email [help@finos.org](mailto:help@finos.org) and we will be in touch shortly
