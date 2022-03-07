@@ -14,5 +14,3 @@ The FINOS Community Strategy centers around the FINOS Community On Ramp that imp
 4. Backlog items tagged Good First Issues and ideally assigned to individuals and communicated via Calls / GitHub / FINOS Slack.
 5. FINOS Project and SIG communities should work to resolve blockers & answer questions fast.
 6. Contributions, achievements and releases should be publicly celebrated.
-
-<img src="assets/why-how.png?raw=true" width="100%">
