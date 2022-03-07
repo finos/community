@@ -7,7 +7,7 @@
 - Drill down into performance metrics across the open source development lifecycle.
 - Analyse technical trends, team performance, ecosystem and community statistics.
 
-<img src="assets/insights.png?raw=true" width="40%">
+<img src="assets/insights.png?raw=true" width="30%">
 
 ## Next Steps
 
