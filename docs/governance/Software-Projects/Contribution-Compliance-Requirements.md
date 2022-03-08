@@ -4,7 +4,7 @@ title: Contribution Compliance Requirements
 ---
 
 ## Overview
-To ensure that we have the legal right to distribute your contribution, the Foundation has three requirements for every contribution:
+To ensure that FINOS has the legal right to distribute your contribution, the Foundation has three requirements for every contribution:
 
 1. **Contributor License Agreement**. Before contributing for the first time, every contributor (or their employer) must complete the appropriate contributor license agreement.
 2. **License information**. Projects and contributions must include certain license information, copyright notices, and other information.
