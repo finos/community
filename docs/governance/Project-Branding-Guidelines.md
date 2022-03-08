@@ -37,7 +37,7 @@ To ensure that a mark is distinctive, projects should **avoid**:
 * **Descriptive** marks that merely describe the product. Descriptive marks are similar to generic marks, but include a broader category of marks. For example, "Fast Sort" for a data-sorting library is descriptive. Unlike generic marks, it is possible for descriptive marks to be registered, if through their use in commerce they come to take on "secondary meaning" in the minds of consumers (i.e. to become uniquely associated with the product in the relevant market) and therefore acquire distinctiveness. However, this result is not guaranteed and descriptive marks should therefore generally be avoided.
 * **Common words or phrases**. The more common, the more likely it's used on products of all kinds, and when you get to your trademark search, you're likely to get lots of results, including in relevant markets.
 
-The **strongest** marks marks are those that do not directly describe the product. They are generally categorized (in order from strongest to weakest) as:
+The **strongest** marks are those that do not directly describe the product. They are generally categorized (in order from strongest to weakest) as:
 * **Fanciful** marks bearing no meaning except to designate the product. A common example is "XEROX" for copiers.
 * **Arbitrary** marks may contain words with an independent meaning, but with no connection to the product. For example, "APPLE" for computers.
 * **Suggestive** marks suggest qualities or characteristics of the product but do not directly describe them like a descriptive mark does. For example, "WIKIPEDIA" suggests a wiki website containing an encyclopedia, but in the form of a made-up portmanteau.
