@@ -15,3 +15,5 @@
 - Review with your teams to determine your FINOS Project and SIG growth metrics.
 - Include metrics review in team meetings / sprint reviews to help influence direction and decisions.
 - Work with FINOS to grow your Projects and SIGs and celebrate your success!
+
+[<< Back to Index](README.md)

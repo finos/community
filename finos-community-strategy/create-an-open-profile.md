@@ -16,3 +16,5 @@
 - Register your LinkedIn account to auto populate your FINOS contribution history!
 
 <img src="assets/open-profile.png?raw=true">
+
+[<< Back to Index](README.md)
