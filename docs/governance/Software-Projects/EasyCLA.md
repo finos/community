@@ -3,9 +3,9 @@ id: easycla
 title: FINOS CLA
 ---
 
-The FINOS IP policy specifies that projects should adopt the FINOS CLA. The FINOS Governing Board has adopted both an Individual and a Corporate CLA derived from the commonly used Apache-style CLA template.
+The FINOS IP policy specifies that projects should adopt the FINOS contributor license agreement (CLA). The FINOS Governing Board has adopted both an Individual and a Corporate CLA derived from the commonly used Apache-style CLA template.
 
-FINOS uses EasyCLA ([more information](https://lfx.linuxfoundation.org/tools/easycla), [direct access](https://lfcla.com)) to ensure that all contributors have signed the appropriate documents when contributing to a project which requires a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
+FINOS uses EasyCLA ([more information](https://lfx.linuxfoundation.org/tools/easycla), [direct access](https://lfcla.com)) to ensure that all contributors have signed the appropriate documents when contributing to a project requiring a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
 
 * Once a contributor is authorized for one FINOS project, the signature is recognized for any other FINOS repositories that use EasyCLA.
 * Contributors may sign as individuals, or be covered under a corporate CLA that their company has signed.
