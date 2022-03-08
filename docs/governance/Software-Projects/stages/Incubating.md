@@ -40,7 +40,7 @@ The Foundation strongly recommends the use of [Semantic Versioning](http://semve
 
 ## Incubating Lifecycle Checklist
 
-The table below presents a consolidate checklist for contributors to guide the decision to accept a new contribution into Incubation (all Projects get contributed into Incubating state):
+The table below presents a consolidated checklist for contributors to guide the decision to accept a new contribution into Incubation (all Projects get contributed into Incubating state):
 
 | Check       | Description |
 | ----------- | ----------- |
