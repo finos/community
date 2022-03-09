@@ -6,7 +6,7 @@ title: The Archived stage
 Projects and SIGs that are no longer active, or falter for other reasons, may be marked as archived to educate consumers and other potential evaluators.  In this state, issues may not be triaged in a timely fashion (or at all), and almost certainly won't be addressed.  The project team or SIG group may also have disbanded.
 
 ## Triggers
-Projects and SIGs that have become inactive become eligible for archiving, where "inactivity" is defined as having had no activity (released / publications, commits, PRs, mailing list traffic, wiki updates, documentation updates, issue updates, etc.) in the last 180 days (6 months).
+Projects and SIGs that have become inactive become eligible for archiving, where "inactivity" is defined as having had no activity (released / publications, commits, PRs, mailing list traffic, documentation updates, issue updates, etc.) in the last 180 days (6 months).
 
 Anyone can publicly request to trigger the archiviation process for a project or SIG by [creating a GitHub Issue](https://github.com/finos/community/issues/new?template=Project-Archiviation.md); if the Project Lead Maintainer agrees that archiving is the appropriate course of action, or the project team  does not respond within 14 days, FINOS will proceed with the archiviation.
 

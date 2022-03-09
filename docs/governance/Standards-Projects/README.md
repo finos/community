@@ -3,9 +3,9 @@ id: intro
 title: Establishing and Running an Open Standard Project
 ---
 
-Within FINOS, a Open standard project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes from software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
+Within FINOS, an Open standard project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes than software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.
 
-FINOS standards projects follow the Joint Development Foundation's [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Each standards project will also be goverened by the additional policies and procedures set out in its charter.
+FINOS standards projects follow the [Joint Development Foundation](https://www.jointdevelopment.org/)'s [Community Specification](https://github.com/CommunitySpecification/1.0) process, which is a mature suite of workflows, policies, and templates for collaborating on a standard specification via source code management system such as git & GitHub. Each standards project will also be goverened by the additional policies and procedures set out in its charter.
 
 This document summarizes the requirements for establishing, joining, and running standards projects, but it is not comprehensive. Anyone involved in running a standards project should review the Community Specification documentation carefully in addition to referring to this information. Note that FINOS has made a few customizations to the Community Specification process for its own needs, so please refer to the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint/), which contains the full Community Specification documentation together with those customizations. The rest of this document links to the Blueprint.
 
@@ -13,13 +13,11 @@ This document summarizes the requirements for establishing, joining, and running
 
 ## Establishing a standards project
 
-To begin a new standards project, a FINOS member must:
-1. involve two or more institutional sponsors, at least one of which is a FINOS member, to serve as Maintainers.
-2. submit a draft project charter to FINOS, identifying the project's purpose and initial Maintiners.
+In order to contribute an existing standards project, or to start a new standards project, a [FINOS member](https://finos.org/members) must submit a standard project proposal, using the [FINOS standard project proposal template](https://github.com/finos/community/blob/master/.github/ISSUE_TEMPLATE/Standards-Project-Contribution.md), and identifying the project's scope, roadmap, and [maintainers](https://odp.finos.org/docs/finos-maintainers-cheatsheet/).
 
 ## Getting the project started
 
-After a standards project is approved, it will be given a repository in the FINOS GitHub organization. The project can then copy the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) into the project repository and follow the directions in the [Getting Started](https://github.com/finos/standards-project-blueprint/blob/master/..Getting%20Started.md) file.
+After a standards project is approved, FINOS will set up a repository for the standard project within the FINOS GitHub organization. Project maintainers will then copy the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) into the project repository and follow the directions in the [Getting Started](https://github.com/finos/standards-project-blueprint/blob/master/..Getting%20Started.md) file to finalize the repository setup.
 
 ## Requirements of standards project participants
 
@@ -29,7 +27,7 @@ Contributions to FINOS standards projects are governed by the [Community Specifi
 
 Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CSLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CSLA on behalf of their employer.
 
-By agreeing the CSLA, participants agree to the terms of the following project policies:
+By agreeing to the CSLA, participants agree to the terms of the following project policies:
 * [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) (described above)
 * [Community Specification Governance Policy](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (setting out the project governance rules)
 * [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/master/6._Contributing.md) (setting out the workflow for making contributions to the project)

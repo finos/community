@@ -13,7 +13,7 @@ Once established, incubating projects are expected to prioritise some or all of 
 1. Rapid experimentation e.g. with different technical designs, deployment architectures, platforms & capabilities etc.
 2. Identification of a preferred technical design.
 3. Selection and adoption of an appropriate SDLC and supporting [project infrastructure services](/docs/collaboration-infrastructure).
-4. Construction of an implementation timeline or add to the Program Roadmap
+4. Construction of an implementation timeline or additions to the project roadmap
 5. Development and testing.
 
 The ultimate goal being to meet or exceed the requirements for activation, and thereby be ready for promotion to Active status.  To help support this, the Foundation encourages the thoughtful adoption of a variety of [project infrastructure services](/docs/collaboration-infrastructure); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
@@ -24,7 +24,7 @@ The ultimate goal being to meet or exceed the requirements for activation, and t
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-incubating.png" width="150" />
 
-Foundation-hosted projects are expected to provide a clear indication to visitors that they are incubating.  To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
+Foundation-hosted projects are expected to provide a clear indication to visitors that they are in an incubating stage.  To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
 [![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/incubating)
@@ -40,7 +40,7 @@ The Foundation strongly recommends the use of [Semantic Versioning](http://semve
 
 ## Incubating Lifecycle Checklist
 
-The table below presents a consolidate checklist for contributors to guide the decision to accept a new contribution into Incubation (all Projects get contributed into Incubating state):
+The table below presents a consolidated checklist for contributors to guide the decision to accept a new contribution into Incubation (all Projects get contributed into Incubating state):
 
 | Check       | Description |
 | ----------- | ----------- |
@@ -59,7 +59,7 @@ Security | No high or critical vulnerabilities are discovered by scanning system
 | **ROADMAP & RESOURCES** |
 | Progress | New Projects might involve existing code, but can also be an idea or proof of concept which gets developed and accelerate in the Open. |
 | Versioning | Projects releases versions below 1.0.0 (or equivalent based on existing number scheme used in project). |
-| Roadmap | The Project Team commits to building and working towards a public roadmap, aligned with the overall program Roadmap. |
+| Roadmap | The Project Team commits to building and working towards a public roadmap, aligned with the overall project roadmap. |
 | FINOS Support | The Project Team can work with FINOS to identify areas where they may need further help and support form the Community and the FINOS team |
 | **GROWTH & ADOPTION** |
 | Usefulness | The contributed code or idea has the potential to be useful to end users and organizations in the financial industry (even if the code base / project is not necessarily finance-specific)
