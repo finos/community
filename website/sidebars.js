@@ -15,7 +15,6 @@ module.exports = {
       "governance/Software-Projects/stages/archived"
     ],
     'Project Governance': [
-      "focus-projects/intro",
       "governance/special-interest-groups/intro",
       "governance/Standards-Projects/intro",
       "governance/Software-Projects/code-transfer",
