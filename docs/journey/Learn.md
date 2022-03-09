@@ -3,7 +3,7 @@ id: learn
 title: Learn
 ---
 
-If you are new to FINOS, new to Open Source, or working for an organization looking to accelerate their open source consumption and contribution, FINOS hosts a set of free and member-only resources, as well as meetings, events and other venues for financial services developers and subject matter experts to fully embrace the benefitsnof open source. 
+If you are new to FINOS, new to Open Source, or working for an organization looking to accelerate their open source consumption and contribution, FINOS hosts a set of free and member-only resources, as well as meetings, events and other venues for financial services developers and subject matter experts to fully embrace the benefits of open source. 
 
 Additionally, FINOS provides access to self-serve and interactive channels to learn about the FINOS Community and projects as well as about our governance.
 
