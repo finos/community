@@ -1,6 +1,6 @@
 # FINOS Community Meetups
 
-The following are details of all FINOS and FINOS Member / Partner meetups open to the FINOS and wider open source community to join.
+The following are details of all FINOS and FINOS Member / Partner meetups open to the FINOS and wider open source community to join. Please reach out to help@finos.org if you'd like to organize or present at a FINOS meetup.
 
 ## Presenting at a FINOS meetup
 Organiser details are also provided for FINOS projects and special interest groups wanting to join, present or demo to any FINOS meetup community.  
