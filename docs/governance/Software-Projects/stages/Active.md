@@ -36,7 +36,7 @@ Activation votes are performed by the Project Lead Maintainer, and only after an
 
 ### Badge
 
-<img src="https://github.com/finos/contrib-toolbox/blob/master/images/badge-active.png" width="150"/>
+<img src="https://github.com/finos/contrib-toolbox/blob/main/images/badge-active.png" width="150"/>
 
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 

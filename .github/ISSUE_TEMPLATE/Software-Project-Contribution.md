@@ -3,7 +3,7 @@ name: "\U0001F58ASoftware Project Contribution and Onboarding"
 about: To Contribute a Software Project to FINOS
 title: Software Project Contribution and Onboarding
 labels: contribution
-assignees: maoo, TheJuanAndOnly99
+assignees: mcleo-d
 
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
@@ -24,8 +24,8 @@ Please note that only FINOS members can propose new projects. If you're interest
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
 ## Development Team
-### Leadership
-*Who will be the project's lead maintainer(s)? Provide full name, affiliation, work email address, and GitHub.com username.*
+### Maintainers
+*Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 ### Confirmed contributors
 *If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
@@ -147,10 +147,12 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] Contributing in README
     - [ ] `CONTRIBUTING.md`
     - [ ] `LICENSE` (look for `{}` placeholders)
+- [ ] Check protection settings and disable after transfer if necessary
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 - [ ] Configure `finos-admins` (`Maintain` role) and `finos-staff` (`Triage` role) team permissions
+
 
 ## Infra setup (Lead: FINOS Infra)
 - [ ] Enable EasyCLA

@@ -30,7 +30,7 @@ To request access, send an email to [help@finos.org](mailto:help@finos.org), wit
 The FINOS Infra team will create a project for your project, grant permissions to your Red Hat user and notify you via email the link to access the FINOS OpenShift Console.
 
 ## Travis CI to OpenShift integration
-Travis CI [configuration](https://docs.travis-ci.com/user/customizing-the-build/) can be extended trigger the OpenShift image build and deployment; to make configuration easier, the Foundation provides a script called [`oc-deploy.sh`](https://github.com/symphonyoss/contrib-toolbox/blob/master/scripts/oc-deploy.sh) that can be executed as `after_success` script and triggers a containerised deployment, using the OpenShift CLI tool; with a simple bash line, the following operations are performed:
+Travis CI [configuration](https://docs.travis-ci.com/user/customizing-the-build/) can be extended trigger the OpenShift image build and deployment; to make configuration easier, the Foundation provides a script called [`oc-deploy.sh`](https://github.com/finos/contrib-toolbox/blob/main/scripts/oc-deploy.sh) that can be executed as `after_success` script and triggers a containerised deployment, using the OpenShift CLI tool; with a simple bash line, the following operations are performed:
 
 1. Install OpenShift CLI (oc) in the current environment (see `OC_VERSION` and `OC_RELEASE`)
 2. Logs into OpenShift Online (see `OC_ENDPOINT`) and select the right OpenShift project (see `OC_PROJECT`)

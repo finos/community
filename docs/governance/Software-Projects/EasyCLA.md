@@ -8,10 +8,17 @@ The FINOS IP policy specifies that projects should adopt the FINOS contributor l
 FINOS uses EasyCLA ([more information](https://lfx.linuxfoundation.org/tools/easycla), [direct access](https://lfcla.com)) to ensure that all contributors have signed the appropriate documents when contributing to a project requiring a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
 
 * Once a contributor is authorized for one FINOS project, the signature is recognized for any other FINOS repositories that use EasyCLA.
-* Contributors may sign as individuals, or be covered under a corporate CLA that their company has signed.
-* Companies who sign the CLA can authorize employee usernames individually, add an entire email domain, or specify a GitHub organization containing their employees as members.
+* Contributors may sign as individuals, or be covered under a Corporate CLA, if the contributor is employed by a firm
+* Companies can elect a CLA Manager, a person within the firm that can update approval configurations, using the [EasyCLA Organization Dashboard](https://organization.lfx.linuxfoundation.org/).
+* Companies who sign the CLA can authorize employee usernames individually, or use email domain or github organization affiliation containing their employees as members.
 
 There is no cost to signing the FINOS CLA. Please note that this is different from [membership in FINOS](https://www.finos.org/membership-benefits). If your organization relies upon our projects, [please become a member](https://www.finos.org/members). Membership dues are an essential source of funding, and we rely upon them to support the FINOS project ecosystem.
+
+It is important to notice that - for any given contributor covered by a Corporate CLAs - there are 2 steps necessary in order for EasyCLA to approve her/his contributions:
+* The CLA Manager adds an approval criteria that applies to the Contributor
+* The Contributor confirms her/his affiliation to the firm, by following the link provided in the first Pull Request being submitted to an EasyCLA-covered gitHub repository (see below, `Click here to be authorized`)
+
+![EasyCLA confirm affiliation](easycla-confirm-affiliation.png)
 
 ## How to use EasyCLA
 
