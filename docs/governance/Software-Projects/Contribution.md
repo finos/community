@@ -37,14 +37,15 @@ For Projects initiated by FINOS Members, there’s the opportunity to carry out 
 
 
 ### Step 1: Submit a contribution proposal
-Draft a proposal to be reviewed by the FINOS team of the program you've chosen. You can [Submit your proposal based on this template](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community). The proposal is meant to cover the following:
+Draft a proposal to be reviewed by the FINOS team. Please use the available templates for [software projects](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding) and [standards projects](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community). The proposal is meant to cover the following:
 
-1. Business problem: the business problem the contribution solves.
-2. Proposed solution: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and it's functionality.
-3. Current state: a summary of the contribution's history and status. Include information about the contribution's maturity and roadmap.
-4. Existing materials: links to and descriptions of any existing project materials (e.g. GitHub repositories). If any materials are currently private, please describe them in detail. The Foundation will reach out about providing access to FINOS and the program PMC for evaluation.
-5. Development team: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
-6. Contributor commitment: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
+1. Business problem: the business problem that the proposed contribution solves.
+2. Proposed solution: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and its functionality.
+3. Tentative roadmap: a description of the short and medium term goals and phases of the project, and what success looks like for this project
+4. Current state: a summary of the contribution's history and status. Include information about the contribution's maturity and roadmap.
+5. Existing materials: links to and descriptions of any existing project materials (e.g. GitHub repositories). If any materials are currently private, please describe them in detail. The FINOS team will reach out to request access to private materials in order to evaluate them.
+6. Development team: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
+7. Contributor commitment: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
 To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+). 
 
@@ -74,7 +75,7 @@ Once the transfer and review is complete, it's time to announce the contribution
 We encourage project leads to [email announce@finos.org](mailto:announce@finos.org) - see a couple of [good examples](https://groups.google.com/a/finos.org/forum/#!topic/announce/2LoANL9lzB0) or use the template below and don't be shy!
 
 ```
-Subject: New Project announcement: <insert Project Name> now Open Source under the <insert Program Name> Program
+Subject: New Project announcement: <insert Project Name> now Open Source in FINOS
  
 Body:
  
