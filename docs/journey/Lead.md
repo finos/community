@@ -6,7 +6,7 @@ title: Lead
 If you are a FINOS project maintainer, looking to lead a FINOS-hosted project, and/or a [FINOS member](https://finos.org/members), welcome and thank you!  It is community leaders like you who drive FINOS' success.
 
 ## FINOS Maintainers
-Each FINOS project and SIG has a community of [participants](https://github.com/finos/community/blob/master/governance/Software-Projects/CONTRIBUTING.template.md#roles), also referred to as "contributors", and [maintainers](https://github.com/finos/community/blob/master/governance/Software-Projects/CONTRIBUTING.template.md#roles).
+Each FINOS project and SIG has a community of [participants](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md#roles), also referred to as "contributors", and [maintainers](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md#roles).
 
 A **contributor** is anyone who submits a contribution to the project. Contributions include code & pull requests, issues, comments, documentation, media, or any combination of the above.
 
@@ -21,7 +21,7 @@ To support you in your leadership capacity, we've prepared a [FINOS Maintainers 
 And of course don't hesitate to [get in touch with Foundation staff](https://finos.org/contact-us) if you can't find the answer to a question.
 
 ## Contributing a new project to FINOS
-If you would like to propose a [new project contribution](https://github.com/finos/community/blob/master/governance/Software-Projects/finos-contribution-process.png), please raise a project contribution issue [here](https://github.com/finos/community/issues/new/choose), and email [help@finos.org](https://github.com/finos/community/blob/master/governance/Software-Projects/finos-contribution-process.png) with questions or if you need support.
+If you would like to propose a [new project contribution](https://github.com/finos/community/blob/master/docs/governance/Software-Projects/finos-contribution-process.png), please raise a project contribution issue [here](https://github.com/finos/community/issues/new/choose), and email [help@finos.org](https://github.com/finos/community/blob/master/docs/governance/Software-Projects/finos-contribution-process.png) with questions or if you need support.
 
 ## FINOS Members 
 The FINOS community and operations are supported by [FINOS corporate members](https://finos.org/members). We are thankful and proud to have a diverse community of financial services and technology organizations shaping the future of open innovation in financial services.  
