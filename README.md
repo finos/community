@@ -10,8 +10,8 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email help@finos.org if you still can't find what you're looking for.
 
 ### Legal & Governance
-- [FINOS Governance](governance/)
-- [FINOS Code of Conduct](governance/Code-of-Conduct.md)
+- [FINOS Governance](docs/governance/)
+- [FINOS Code of Conduct](docs/governance/Code-of-Conduct.md)
 - [FINOS Members](https://finos.org/members)
 
 ### Projects
