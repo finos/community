@@ -10,8 +10,8 @@ This repository hosts the FINOS Foundation governance and collaboration across t
 You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email help@finos.org if you still can't find what you're looking for.
 
 ### Legal & Governance
-- [FINOS Governance](governance/)
-- [FINOS Code of Conduct](governance/Code-of-Conduct.md)
+- [FINOS Governance](docs/governance/)
+- [FINOS Code of Conduct](docs/governance/Code-of-Conduct.md)
 - [FINOS Members](https://finos.org/members)
 
 ### Projects
@@ -25,11 +25,8 @@ You should be able to find most relevant and up to date information below (and y
 
 ### Resources
 - [FINOS Website](https://finos.org)
-- [FINOS Mailing lists](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/77955298/Engage+Our+Community)
+- [FINOS Mailing lists](/docs/governance/Software-Projects/journey/engage)
 - [Email Archives (requires Google login)](http://groups.google.com/a/finos.org/)
-- [FINOS Wiki](http://wiki.finos.org) - **Deprecated** in favor of [this Community repository](http://github.com/finos/community).
-- [FINOS Jira](https://finosfoundation.atlassian.net/secure/Dashboard.jspa) - **Deprecated** in favor of [this Community repository](http://github.com/finos/community/issues).
-- [FINOS Community Handbook - ARCHIVED](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/80642059/Community+Handbook)
 
 ## Join the FINOS Community list
 Everyone is welcome to subscribe to the FINOS General Community List at community@finos.org by emailing community+subscribe@finos.org. 

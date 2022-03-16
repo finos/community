@@ -7,7 +7,7 @@ sidebar_label: October 2019 Pan-PMC Meeting
 # Meeting Minutes (Approved on November 19th, 2019)
 ## Q4 Health Checks
 * Review Roadmaps
-* Collect Metrics for https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/93225748/Board+Reporting+and+Program+Health+Checks
+* Collect Metrics for Board reporting and program Health Checks
 ## POP approval
 
 ## OSSF (Tosha)

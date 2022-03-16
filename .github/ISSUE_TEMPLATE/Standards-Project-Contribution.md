@@ -3,7 +3,7 @@ name: "\U0001F58AStandard Project Contribution and Onboarding"
 about: To Contribute a Standard Project to FINOS
 title: Standard Project Contribution and Onboarding
 labels: contribution
-assignees: agitana, maoo, TheJuanAndOnly99
+assignees: maoo, TheJuanAndOnly99
 
 ---
 Please note that only FINOS members can propose new Standards projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
@@ -41,7 +41,7 @@ Please note that only FINOS members can propose new Standards projects. If you'r
 *Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure*
 - [ ] Recurring meetings
 - [ ] Mailing list
-- [ ] A project on the [Legend Studio shared instance](https://odp.finos.org/docs/platforms/legend-studio-shared)
+- [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
 - [ ] Other (please explain):
 
 # What's next?
@@ -59,7 +59,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 ## Kick-off meeting
 - [ ] Set up kick-off meeting with project leads to cover
     - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
-    - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/) 
+    - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/) 
     - [ ] Discuss project proposal
 
 ## Proposal (Lead Maintainer)
@@ -151,7 +151,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
   - Add new list to the included "Email List" part of the filter
   - Add new list to the excluded "Email" part of the filter
 ## Announcement (Lead: FINOS Contrib POC)
-- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution).
 - [ ] Notify FINOS Contrib POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
 ## Marketing collateral and Social (Lead: FINOS Marketing)
