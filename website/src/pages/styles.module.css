@@ -29,6 +29,49 @@
   margin: 0em .5em 0em .5em;
 }
 
+.section {
+  padding: 2em 9em 4em 9em;
+}
+
+.twoColumnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.finosLogo {
+  max-height: 80%;
+}
+
+.textContainer {
+  font-size: 1.25em;
+}
+
+.welcomeTextContainer {
+  max-width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  justify-content: center;
+}
+
+.collabContainer {
+
+}
+
+.ossContainer {
+
+}
+
+.getInTouchContainer {
+
+}
+
 .features {
   display: flex;
   align-items: center;
