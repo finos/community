@@ -19,7 +19,3 @@ Badges can be added at the top of the project's root-level `README.md` file, usi
 ```
 [![Maven Central](https://img.shields.io/maven-central/v/<group id>/<artifact id>.svg?maxAge=2592000)](https://search.maven.org/#artifactdetails%7C<group id>%7C<artifact id>%7C2%7Cpom)
 ```
-
-## Continuous Integration
-Check [Travis CI support for Clojure](https://docs.travis-ci.com/user/languages/clojure/) in order to run build, test and deployment processes periodically or on commit.  A ([.travis.yml](https://github.com/symphonyoss/clj-symphony/blob/master/.travis.yml)) is available in the clj-symphony project.
-

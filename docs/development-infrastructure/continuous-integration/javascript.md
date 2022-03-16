@@ -30,7 +30,7 @@ It is worth noting that release managers have the opportunity [squash and merge]
 
 When a release is performed, your CI environment will do the following:
 
-- Run all build and validation tasks defined by your build descriptor (ie `.travis.yml`)
+- Run all build and validation tasks defined by your build descriptor (ie GitHub Actions)
 - Create a GitHub tag, labelled after the version specified in `package.json`
   - Include a `CHANGELOG.md` file with a recap of all commits added since last release
   - Publish (on [npmjs.org/org/finos](https://npmjs.org/org/finos)) an updated version of the NPM package defined by `package.json`

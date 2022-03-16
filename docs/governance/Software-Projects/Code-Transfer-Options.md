@@ -37,8 +37,8 @@ Perform an import, transfer, and freeze:
 3. Delete or freeze (e.g. disable access, make read-only, etc.) the repository in your SCM installation, to prevent accidental modifications to the wrong repository.
 
 ## Source code snapshot
-Snapshotting the code and providing it to the PMC in an archive file (.zip, .tar.gz, etc.) can also work.
+Snapshotting the code and providing it to the FINOS Infra team in an archive file (.zip, .tar.gz, etc.) can also work.
 This is the recommended approach if you wish to truncate the commit history prior to contribution.
 
 ## Do-It-Yourself (DIY)
-If you wish to populate your repository yourself, the PMC should create an empty repository in the project's GitHub organization (as described above), and then configure the contributing team as owners and committe
+If you wish to populate your repository yourself, the FINOS Infra team should create an empty repository in the project's GitHub organization (as described above), and then configure the contributing team as owners and committe

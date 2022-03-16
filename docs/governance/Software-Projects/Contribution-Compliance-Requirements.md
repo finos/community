@@ -119,4 +119,4 @@ The purpose of this notice is to make contributors aware that their modification
 #### Validating license and notice information
 When you make a contribution, the Foundation attempts to validate compliance with these requirements automatically using a variety of tools [made available by FINOS](/docs/development-infrastructure/code-validation/intro).
 
-However, no automated tool can resolve these questions definitively, so we depend upon our contributors, project teams and PMCs to ensure compliance with this policy at all times.
+However, no automated tool can resolve these questions definitively, so we depend upon our contributors and project teams to ensure compliance with this policy at all times.

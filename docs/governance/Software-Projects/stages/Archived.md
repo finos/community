@@ -13,13 +13,13 @@ Anyone can publicly request to trigger the archiviation process for a project or
 ## Objectives
 Archived projects and SIGs have no objectives - they are simply retained as-is, in whatever state they were in at the time of archival.
 
-The PMC will, however, continue to gauge community interest in reviving the project or SIG, and will actively support such activities.
+The FINOS team might, however, continue to gauge community interest in reviving the project or SIG, and will actively support such activities.
 
 ## Requirements
 
 ### Badge
 
-<img src="https://github.com/finos/contrib-toolbox/blob/main/images/badge-archived.png" width="150"/>
+<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-archived.png" width="150"/>
 
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 

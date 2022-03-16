@@ -97,7 +97,7 @@ openssl pkcs12 -info -nodes \
 Reminder for Foundation staff: every password symbol must be escaped by prefixing it with character ‘\’, before setting it as Travis environment variable.
 
 #### Branch specific build commands
-Travis CI does not provide a syntax to specify branch-specific build commands; however, it is possible to use the following `.travis.yml` syntax to workaround it; in this example, the Maven build will use the `sonar` profile only if the current branch is master.
+Travis CI does not provide a syntax to specify branch-specific build commands; however, it is possible to use the following bash syntax (applicable to most CI environments) to workaround it; in this example, the Maven build will use the `sonar` profile only if the current branch is master.
 ```
 script:
 - "[[ $TRAVIS_BRANCH =~ master ]] && mvn clean deploy -Pintegration-testing,sonar --settings settings.xml"
