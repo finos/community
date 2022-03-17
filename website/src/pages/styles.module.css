@@ -45,7 +45,7 @@
 }
 
 .finosLogo {
-  max-height: 50%;
+  max-height: 95%;
 }
 
 .textContainer {
@@ -147,6 +147,12 @@
 .projects {
   padding: 74px 0;
   background-color: #ffffff;
+}
+
+@media only screen and (min-device-width: 1200px) {
+  /* .finosLogo {
+    max-height: 100%;
+  } */
 }
 
 @media only screen and (max-device-width: 1000px) {
