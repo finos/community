@@ -17,7 +17,7 @@ function Home() {
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">FINOS</h1>
-          <p className={classnames('hero--subtitle')}>Community Website</p>
+          <p className={classnames('hero--subtitle')}>Community Collaboration Space</p>
           <div className={styles.buttons}>
             <Link
               className={classnames(
@@ -47,7 +47,7 @@ function Home() {
                 <img className={styles.finosLogo} src={logo} alt="FINOS logo"></img>
               </div>
               <div className={classnames(styles.textContainer, styles.welcomeTextContainer)}>
-                <h2>Welcome to the FINOS Community Collaboration Space</h2>
+                <h2>Welcome to the FINOS community!</h2>
                 <p>This website hosts all FINOS Foundation documentation for our Project Leads and Community at large. Here you can learn more about FINOS projects and participants, Project Governance, communication channels, collaboration infrastructure, security and compliance validations, and much more.</p>
                 {/* <p>Feel free to submit fixes or enhancements to this documentation, by following the link `Edit this page` reported at the bottom of each page (this page is the only exception)</p> <a href="/docs/journey/learn">learn</a>. */}
               </div>
@@ -56,20 +56,21 @@ function Home() {
           <section className={styles.section}>
               <div className={classnames(styles.textContainer, styles.collabContainer)}>
                 <h2>Collaborative Effort</h2>
-                <p>Every page of this website (except this homepage) provides an "Edit" link at the bottom, which you can use to submit any type of content changes, whether it's a typo fix or a new paragraph. We value and appreciate every type of contribution, so thanks in advance!</p>
+                <p>Every page of this website (except this homepage) provides an `Edit` link at the bottom, which you can use to submit any type of content changes, whether it's a typo fix or a new paragraph. We value and appreciate every type of contribution, so thanks in advance!</p>
               </div>
           </section>
           <section className={styles.section}>
               <div className={classnames(styles.textContainer, styles.ossContainer)}>
                 <h2>OSS Journey</h2>
-                <p>If you're new to FINOS, please start here to <a href="/docs/journey/learn">learn</a> about us. Afterwards, you can continue your Open Source journey through <a href="/docs/journey/cosume">consumtion</a>, <a href="/docs/journey/engage">engagement</a>, <a href="/docs/journey/participate">participation</a> and <a href="/docs/journey/lead">leadership</a>.</p>
+                <p>If you're new to FINOS, please start here to <a href="/docs/journey/learn">Learn</a> about us. Afterwards, you can continue your Open Source journey through <a href="/docs/journey/cosume">consumption</a>, <a href="/docs/journey/engage">engagement</a>, <a href="/docs/journey/participate">participation</a> and <a href="/docs/journey/lead">leadership</a>.</p>
               </div>
           </section>
           <section className={styles.section}>
               <div className={classnames(styles.textContainer, styles.getInTouchContainer)}>
                 <h2>Get In Touch</h2>
-                <p>Join the FINOS Project, SIG and wider community conversation in the FINOS Community Slack. If you are an employee of a FINOS Member, corporate firewall restrictions allowing, you should be able to <a href='https://finos-lf.slack.com/signup'>self-subscribe</a>. If you are not a FINOS Member or have any trouble joining, please email to help@finos.org with your desired email address and we'll set you up.</p>
-                <p>The FINOS Community wide channel on Slack is reachable directly at https://finos-lf.slack.com/messages/finos-community/. We warmly encourage existing community contributors to invite their peers to join the collaboration and the open source fun &#128516;.</p>
+                <p>Join the FINOS Project, SIG and wider community conversation in the <a href='https://finos-lf.slack.com/messages/finos-community/'>FINOS Community Slack</a>. If you are an employee of a FINOS Member, corporate firewall restrictions allowing, you should be able to <a href='https://finos-lf.slack.com/signup'>self-subscribe</a>. If you are not a FINOS Member or have any trouble joining, please email to help@finos.org with your desired email address and we'll set you up.</p>
+                <p>We warmly encourage existing community contributors to invite their peers to join the collaboration and the open source fun &#128516;.</p>
+                <p className={styles.paddingTop}>Everyone is welcome to subscribe to the FINOS General Community List by emailing <a href='mailto:community+subscribe@finos.org'>community@finos.org</a>.</p>
               </div>
           </section>
           {/* <section>

@@ -60,16 +60,8 @@
   justify-content: center;
 }
 
-.collabContainer {
-
-}
-
-.ossContainer {
-
-}
-
-.getInTouchContainer {
-
+.paddingTop {
+  padding-top: 2em;
 }
 
 .features {
