@@ -30,7 +30,7 @@
 }
 
 .section {
-  padding: 2em 9em 4em 9em;
+  padding: 2em 9em 2em 9em;
 }
 
 .twoColumnContainer {
@@ -45,7 +45,7 @@
 }
 
 .finosLogo {
-  max-height: 80%;
+  max-height: 50%;
 }
 
 .textContainer {
@@ -53,11 +53,11 @@
 }
 
 .welcomeTextContainer {
-  max-width: 30em;
   display: flex;
   flex-direction: column;
   align-items: normal;
   justify-content: center;
+  margin-left: 3em;
 }
 
 .paddingTop {
@@ -147,4 +147,36 @@
 .projects {
   padding: 74px 0;
   background-color: #ffffff;
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .logoContainer {
+    display: none;
+  }
+
+  .welcomeTextContainer {
+    margin-left: 0em;
+  }
+
+  .section {
+    padding: 2em 4em 2em 4em;
+  }
+}
+
+@media only screen and (max-device-width: 850px) {
+  .section {
+    padding: 2em 3em 2em 3em;
+  }
+}
+
+@media only screen and (max-device-width: 650px) {
+  .section {
+    padding: 2em 5em 2em 5em;
+  }
+}
+
+@media only screen and (max-device-width: 450px) {
+  .section {
+    padding: 2em 2em 2em 2em;
+  }
 }

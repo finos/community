@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
-import logo from '../../static/img/finos/finos-horizontal.png'
+import logo from '../../static/img/finos/finos-blue.png'
 
 function Home() {
   const context = useDocusaurusContext();
@@ -69,7 +69,7 @@ function Home() {
               <div className={classnames(styles.textContainer, styles.getInTouchContainer)}>
                 <h2>Get In Touch</h2>
                 <p>Join the FINOS Project, SIG and wider community conversation in the <a href='https://finos-lf.slack.com/messages/finos-community/'>FINOS Community Slack</a>. If you are an employee of a FINOS Member, corporate firewall restrictions allowing, you should be able to <a href='https://finos-lf.slack.com/signup'>self-subscribe</a>. If you are not a FINOS Member or have any trouble joining, please email to help@finos.org with your desired email address and we'll set you up.</p>
-                <p>We warmly encourage existing community contributors to invite their peers to join the collaboration and the open source fun &#128516;.</p>
+                <p>We warmly encourage existing community contributors to invite their peers to join the collaboration and the open source fun. &#128516;</p>
                 <p className={styles.paddingTop}>Everyone is welcome to subscribe to the FINOS General Community List by emailing <a href='mailto:community+subscribe@finos.org'>community@finos.org</a>.</p>
               </div>
           </section>
