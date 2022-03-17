@@ -1,2 +1,5 @@
 .vscode
 .project
+website/node_modules
+website/.docusaurus
+website/build

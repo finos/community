@@ -3,7 +3,7 @@ name: "\U0001F58ASpecial Interest Group Contribution and Onboarding"
 about: To Contribute a Special Interest Group to FINOS
 title: Special Interest Group Contribution and Onboarding
 labels: contribution
-assignees: agitana, maoo, TheJuanAndOnly99
+assignees: maoo, TheJuanAndOnly99
 
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
@@ -28,7 +28,7 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 
 ## Voting (SIG Lead and FINOS ED)
 - [ ] Contribution author triggers community socialization to gauge interest - recommended emailing issue link to community@finos.org
-- [ ] If there's positive response from the Community, prepare short SIG proposal deck for the FINOS Governing Board. You can start from [this template](https://github.com/finos/community/blob/master/governance/special-interest-groups/202103%20-%20New%20Project%20or%20SIG%20proposal%20(template)%20-%20PUBLIC.pptx) or see a [previous SIG example](https://github.com/finos/community/blob/master/governance/special-interest-groups/202101%20-%20InnerSource%20SIG%20Proposal%20-%20APPROVED.pdf))
+- [ ] If there's positive response from the Community, prepare short SIG proposal deck for the FINOS Governing Board. You can start from [this template](/governance-docs/202103-New-Project-or-SIG-proposal-(template)-PUBLIC.pptx) or see a [previous SIG example](/governance-docs/202101-InnerSource-SIG-Proposal-APPROVED.pdf))
 - [ ] Assign issue to Executive Director (@mindthegab) to request SIG to be proposed to FINOS Governing Board
 - [ ] FINOS governing board accepts (and the onboarding process can move forward) or declines the SIG
 
@@ -78,10 +78,10 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 - [ ] Add SIG Leads GitHub usernames to the project-maintainers Team
 
 ## Update FINOS SIG Roster
-- [ ] [FINOS Governance](https://github.com/finos/community/tree/master/governance/special-interest-groups)
+- [ ] [FINOS Governance](https://community.finos.org/docs/governance/special-interest-groups/intro)
 
 ## Announcement (Lead: FINOS POC)
-- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution).
 - [ ] Notify FINOS POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
 ## Press Release (OPTIONAL) (Lead: FINOS POC)

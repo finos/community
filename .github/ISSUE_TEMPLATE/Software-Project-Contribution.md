@@ -37,7 +37,7 @@ Please note that only FINOS members can propose new projects. If you're interest
 *Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure*
 - [ ] Recurring meetings
 - [ ] Mailing list
-- [ ] A project on the [Legend Studio shared instance](https://odp.finos.org/docs/platforms/legend-studio-shared)
+- [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
 - [ ] Other (please explain):
 
 # What's next?
@@ -53,9 +53,9 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Set up kick-off meeting with project leads
 - [ ] Run kick-off meeting
     - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
-    - [ ] [FINOS Maintainers cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/)
-    - [ ] [FINOS Project/Standards Governance](https://github.com/finos/community/tree/master/governance)
-    - [ ] [FINOS Project Lifecycle](https://github.com/finos/community/blob/master/governance/Software-Projects/Project-Lifecycle.md)
+    - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
+    - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance/intro)
+    - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
     - [ ] Walk through the checklist, answer questsion and remove items that don't apply
     - [ ] Write and send contribution proposal announcement (optional - see below)
 
@@ -125,9 +125,9 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] (optional - if a build system is provided) The build process runs successfully
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
-- [ ] Apply project blueprint contents - see [ODP docs](https://odp.finos.org/docs/project-collaboration/#finos-project-blueprint)
+- [ ] Apply project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
-- [ ] [All incubating criteria](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/75530363/Incubating) are checked and documented below
+- [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are checked and documented below
 
 ## Approval (Lead: FINOS Infra)
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger voting
@@ -140,7 +140,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
-- [ ] Review FINOS [project blueprint contents](https://odp.finos.org/docs/project-collaboration#finos-project-blueprint)
+- [ ] Review FINOS [project blueprint contents](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
     - [ ] Project title/description in README
     - [ ] Project badge in README
     - [ ] License in README
@@ -164,7 +164,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] Create PR from `staging` branch on `finos/finos-landscape`
     - [ ] Review Netlify preview
     - [ ] Merge PR
-- [ ] Add project maintainers emails to [finos-project-maintainers@finos.org](https://groups.google.com/u/1/a/finos.org/g/finos-project-maintainers/members) list
+- [ ] Add project maintainers emails to [finos-project-maintainers@finos.org](https://groups.google.com/a/finos.org/g/finos-project-maintainers/members) list
 - [ ] Add project maintainers GitHub usernames to the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members)
 - [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SS), Insights, EasyCLA, Groups.io)
 - [ ] (best effort) Update release coordinates and code namespace to include `finos`
@@ -173,5 +173,5 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] (optional) Onboard into legend.finos.org/studio
 
 ## Announcement (Lead: FINOS Contrib POC)
-- [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution)
 - [ ] Notify FINOS Contrib POC and FINOS marketing (@grizzwolf + finos-marketing internal Slack channel)
