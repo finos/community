@@ -43,7 +43,7 @@ function Home() {
           <section className={styles.section}>
             <div className={styles.twoColumnContainer}>
               <div className={styles.logoContainer}>
-                <img className={styles.finosLogo} src="/static/img/finos/finos-horizontal.png" alt="FINOS logo"></img>
+                <img className={styles.finosLogo} src="static/img/finos/finos-horizontal.png" alt="FINOS logo"></img>
               </div>
               <div className={classnames(styles.textContainer, styles.welcomeTextContainer)}>
                 <h2>Welcome to the FINOS Community Collaboration Space</h2>
