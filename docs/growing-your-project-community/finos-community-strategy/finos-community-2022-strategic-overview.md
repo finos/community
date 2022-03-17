@@ -1,10 +1,15 @@
+---
+id: finos-community-2022-strategic-overview
+title: FINOS Community 2022 Strategic Overview
+---
+
 # FINOS Community 2022 Strategic Overview
 
 There are many communities surrounding FINOS, with Projects and SIGs attracting people from lots of different backgrounds, that we should all work to Recruit, Reward and Retain in 2022.
 
 The FINOS Community Strategy centers around the FINOS Community On Ramp that implements an approach for directly educating, growing and rewarding FINOS OSS contributors.
 
-<img src="assets/finos-on-ramp.png?raw=true" width="100%">
+<img src="assets/finos-on-ramp.png?raw=true" width="100%"></img>
 
 ## FINOS Community On Ramp Steps
 

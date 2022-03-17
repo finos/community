@@ -1,3 +1,8 @@
+---
+id: measure-finos-project-and-sig-success
+title: Measure FINOS Project and SIG Success with LFX Insights
+---
+
 # Measure FINOS Project and SIG Success with LFX Insights
 
 ## Data-driven reporting enables you to make informed decisions.
@@ -7,7 +12,7 @@
 - Drill down into performance metrics across the open source development lifecycle.
 - Analyse technical trends, team performance, ecosystem and community statistics.
 
-<img src="assets/insights.png?raw=true" width="30%">
+<img src="assets/insights.png?raw=true" width="30%"></img>
 
 ## Next Steps
 

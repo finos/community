@@ -1,3 +1,8 @@
+---
+id: coordinate-work
+title: Coordinate work through GitHub Issues, Discussions and FINOS Slack
+---
+
 # Coordinate work through GitHub Issues, Discussions and FINOS Slack
 
 ## Take full advantage of GitHub Issues for work allocation

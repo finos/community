@@ -1,3 +1,8 @@
+---
+id: communicate-why-and-how
+title: Communicate WHY and HOW the FINOS Community should contribute
+---
+
 # Communicate WHY and HOW the FINOS Community should contribute
 
 Successful open source Projects and SIGs clearly communicate their purpose and tell people why and how they should contribute and consume. Look at [Morphir](https://github.com/finos/morphir), [ReactJS](https://github.com/facebook/react), [Svelte](https://github.com/sveltejs/svelte) for great examples.
@@ -15,6 +20,6 @@ Successful open source Projects and SIGs clearly communicate their purpose and t
 
 **Remember to update FINOS Project and SIG microsites to reflect consistent content!**
 
-<img src="assets/why-how.png?raw=true">
+<img src="assets/why-how.png?raw=true"></img>
 
 [<< Back to Index](README.md)
