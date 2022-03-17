@@ -1,10 +1,9 @@
 [<img src="https://img.shields.io/badge/slack-@finos/community-green.svg?logo=slack">](https://finos-lf.slack.com/messages/finos-community/)
 
-
 <img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
 # FINOS Community Collaboration Space
-This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large.
+This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large. You can browse these contents also via https://community.finos.org .
 
 ## Quick Links
 You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email help@finos.org if you still can't find what you're looking for.
