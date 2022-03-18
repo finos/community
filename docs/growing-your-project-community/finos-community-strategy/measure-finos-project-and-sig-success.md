@@ -12,7 +12,7 @@ title: Measure FINOS Project and SIG Success with LFX Insights
 - Drill down into performance metrics across the open source development lifecycle.
 - Analyse technical trends, team performance, ecosystem and community statistics.
 
-<img src="assets/insights.png?raw=true" width="30%"></img>
+<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/insights.png?raw=true" width="30%"></img>
 
 ## Next Steps
 

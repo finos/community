@@ -20,6 +20,6 @@ title: Create an Open Profile to Benefit Maintainers and Contributors
 - Create an Open Profile account on the LFX Homepage - https://lfx.linuxfoundation.org/
 - Register your LinkedIn account to auto populate your FINOS contribution history!
 
-<img src="assets/open-profile.png?raw=true"></img>
+<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/open-profile.png?raw=true"></img>
 
 [<< Back to Index](README.md)

@@ -9,7 +9,7 @@ There are many communities surrounding FINOS, with Projects and SIGs attracting 
 
 The FINOS Community Strategy centers around the FINOS Community On Ramp that implements an approach for directly educating, growing and rewarding FINOS OSS contributors.
 
-<img src="assets/finos-on-ramp.png?raw=true" width="100%"></img>
+<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/finos-on-ramp.png?raw=true" width="100%"></img>
 
 ## FINOS Community On Ramp Steps
 
