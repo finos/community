@@ -5,7 +5,7 @@ module.exports = {
       "journey/consume",
       "journey/engage",
       "journey/participate",
-      "journey/lead"
+      "journey/lead",
     ],
     'Project Lifecycle': [
       "governance/Software-Projects/project-lifecycle",
@@ -86,6 +86,22 @@ module.exports = {
       "governance/individual-supporter-program",
       "governance/meeting-procedures",
       "governance/project-branding-guidelines"
+    ],
+    'Growing Your Project Community':[
+      {
+        type: 'category',
+        label: 'FINOS Community Strategy',
+        items: [
+          'growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs',
+          'growing-your-project-community/finos-community-strategy/communicate-why-and-how',
+          'growing-your-project-community/finos-community-strategy/provide-an-amazing-engineering-experience',
+          'growing-your-project-community/finos-community-strategy/coordinate-work',
+          'growing-your-project-community/finos-community-strategy/create-an-open-profile',
+          'growing-your-project-community/finos-community-strategy/measure-finos-project-and-sig-success',
+          'growing-your-project-community/finos-community-strategy/recognise-community-achievements',
+          'growing-your-project-community/finos-community-strategy/ensure-finos-project-security',
+        ]
+      },
     ]
-  },
+  }
 }
