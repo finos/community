@@ -11,7 +11,7 @@ title: Leveraging FINOS to Build Flourishing Projects and SIGs
 
 ## Download as a PDF
 
-The original presentation can be [downloaded as a PDF](assets/finos-2022-community-strategy-public.pdf).
+The original presentation can be [downloaded as a PDF](https://github.com/finos/community/blob/master/website/static/growing-your-project-community/finos-2022-community-strategy-public.pdf).
 
 ## Markdown Content
 
