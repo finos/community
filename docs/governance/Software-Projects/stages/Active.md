@@ -1,17 +1,51 @@
 ---
-name: "\U0001F58AProject Activation"
-about: To Activate a FINOS hosted Project
-title: Project Activation
-labels: ''
-assignees: maoo, TheJuanAndOnly99
-
+id: active
+title: The Active stage
 ---
-# Activation
-Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Active  status](https://community.finos.org/docs/governance/Software-Projects/stages/active). 
 
-An active lifecycle status badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
+Projects that have been approved for activation transition to the Active state, a formal recognition that **the software is now suitable for production use**.
 
-The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/intro#project-lifecycle).
+Virtually all Foundation-hosted projects are expected to strive towards, and ultimately attain, Active  status. This indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
+
+## Objectives
+The first priority of a newly Active project is to deploy a `v1.0.0` or higher production-grade version.
+The Foundation expects this to occur soon after activation, ideally within one month.
+
+Once a `v1.0.0` is released, the objectives of the Active lifecycle state primarily involve the project team developing and executing on an ongoing roadmap of features and bug fixes, informed by feedback from the project's user base.
+
+## Releases
+An Active project can use any version number it wishes, although it is expected that virtually all releases from a released project will be `≥ v1.0.0`.  Ecosystem-specific suffixes may also be used for pre-releases (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem).
+
+All Active project starting from `v1.0.0` upward must adhere to the version numbering rules defined by semantic versioning, specifically:
+- Increment `MAJOR` version when an incompatible change is made
+- Increment `MINOR` version when new functionality is added in a backwards-compatible manner
+- Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
+
+**NOTE!**
+The Foundation strongly recommends the use of [Semantic Versioning](http://semver.org/) ("semver") throughout a project's lifecycle.
+
+## Initiating Activation
+In order for a project to become Active, it must be reviewed and the change formally approved by the Project Lead Maintainer; any project team may initiate this approval process at any time, which involves:
+- Preparing an information packet demonstrating that they've met the requirements for activation (see below for details).
+- Submitting the packet via the project's GitHub Issue.
+
+## Approval Process
+Activation votes are performed by the Project Lead Maintainer, and only after any outstanding questions or clarifications are answered by the project team.
+
+## Requirements
+
+### Badge
+
+<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-active.png" width="150"/>
+
+Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
+
+```
+[![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/active)
+```
+
+## Activation Lifecycle Checklist
+The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://github.com/finos/community/tree/master/governance#project-lifecycle).
 
 ### What does activation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
@@ -29,7 +63,7 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul><p>If Project Team choses not to use the FINOS provided Open Developer Platform (ODP), a comparable SDLC should be adopted and made available.</p> |  |
 | **Build & Release** | <p>The Project code/documentation release process automated or at lest well documented.</p><p>If code is published, publicly redistributed release binaries should be listed or referred to in the documentation (e.g. under the FINOS namespace in an artefact repository or package manager, e.g. NPM, Maven Central, etc.)</p> |   |
-| **Security** | <li>No OWASP Top 10 warnings are present in the code</li> <li>No long-standing medium or higher vulnerabilities (2+ months) and proper security disclosure processes</li> <li>Any cryptographic functions and key lengths used within the software should be identified and vetted with Foundation's legal counsel in order to request compliance with U.S. Export policy.</li> Read more about [FINOS Security vulnerabilities responsible disclosure](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure) and how to [automate scanning with WhiteSource](https://community.finos.org/docs/development-infrastructure/code-validation/whitesource). |
+| **Security** | <li>No OWASP Top 10 warnings are present in the code</li> <li>No long-standing medium or higher vulnerabilities (2+ months) and proper security disclosure processes</li> <li>Any cryptographic functions and key lengths used within the software should be identified and vetted with Foundation's legal counsel in order to request compliance with U.S. Export policy.</li> Read more about [FINOS Security vulnerabilities responsible disclosure](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1230176257/Security+Vulnerabilities+Responsible+Disclosure+Policy) and how to [automate scanning with WhiteSource](https://odp.finos.org/docs/development-infrastructure/code-validation/whitesource/). |
 | **Documentation** | <p>The README.md must include or reference up to date:</p><ul><li>end user docs, including a description of the software, feature overview, installation & configuration instructions</li><li>developer docs, including links to other external systems (further docs, wiki, CI & validation tools, artefact repository, change log / history, etc.)</li><li>where possible badges (e.g. from shields.io) are encouraged</li><li>sample code explaining how to use the project, library, standard, SDK, etc.</li></ul> |  |
 |  | **DIVERSITY & VIABILITY** |       |
 | **Community** | Project has active participation from 2+ independent individuals and/or organizations; Ideally Project Team members who make contributions in connection with their employment are doing do as part of their regular job duties. |  |
@@ -51,3 +85,12 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 | **Transparency** | Project Team has adopted a transparent governance model(*) consistent with FINOS Community governance. Work for new contributors is organized into issues within a public issue tracking system, as appropriate, tagged as "Good First Issues" |  |
 
 _(*) transparent governance model is when a project’s discussions, minutes, deliberations, project plans, issue tracking plans for new features, and other artefacts are open, public, and easily accessible in the FINOS Project Infrastructure or FINOS sanctioned external system._
+## Notes for Evaluators
+If you're evaluating Foundation-hosted open source projects and see the released badge shown above, here are some of the things you should expect should you choose to download and use the software. 
+
+- The software is functional, though perhaps minimally viable.
+- The software has high quality - it has met or exceeded all of the Foundation's security and compliance requirements, and has been well tested.
+- The installation & upgrade experiences should be relatively smooth - binaries will be available at a minimum, and more advanced deployment options (installers, containers, VM images, automated upgrade scripts etc.) may also be available.
+- The project is well documented.
+- The project is supported by an engaged project team. While there may not be a formal SLA (depending on the availability of commercial support for the project), bugs and enhancement requests will be triaged and addressed by the team.
+- Backwards compatibility is a priority, and [semantic versioning](http://semver.org/) (or similar) is used to clearly communicate breaking changes.

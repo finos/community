@@ -3,9 +3,10 @@ name: "\U0001F58ASpecial Interest Group Contribution and Onboarding"
 about: To Contribute a Special Interest Group to FINOS
 title: Special Interest Group Contribution and Onboarding
 labels: contribution
-assignees: aitana16, maoo
+assignees: maoo, TheJuanAndOnly99
 
 ---
+Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
 
 ## Business Problem
 *Describe the business problem the contribution solves*
@@ -19,14 +20,15 @@ assignees: aitana16, maoo
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
-## SIG Leadership Team
-*List out the leadership team members, including full name, affiliation, work email address, and GitHub.com username*
+## SIG Maintainers
+*Who will be the [SIG maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub.com username.*
 
 # SIG Contribution and Onboarding process (v. 1.0, last updated on October 27, 2020)
 Below is the list of tasks that FINOS Team and the contribution author goes through in order to complete the FINOS SIG onboarding process. **Please do not edit these contents at contribution time!**
 
 ## Voting (SIG Lead and FINOS ED)
-- [ ] Contribution author triggers community voting to propose SIG to FINOS board
+- [ ] Contribution author triggers community socialization to gauge interest - recommended emailing issue link to community@finos.org
+- [ ] If there's positive response from the Community, prepare short SIG proposal deck for the FINOS Governing Board. You can start from [this template](/governance-docs/202103-New-Project-or-SIG-proposal-(template)-PUBLIC.pptx) or see a [previous SIG example](/governance-docs/202101-InnerSource-SIG-Proposal-APPROVED.pdf))
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger vote
 - [ ] Executive Director brings SIG to the Board for additional socialization and approval
 - [ ] FINOS board accepts the SIG (and the onboarding process can move forward)
@@ -76,8 +78,11 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 - [ ] Add SIG Leads emails to finos-project-maintainers@finos.org list
 - [ ] Add SIG Leads GitHub usernames to the project-maintainers Team
 
+## Update FINOS SIG Roster
+- [ ] [FINOS Governance](https://community.finos.org/docs/governance/special-interest-groups/intro)
+
 ## Announcement (Lead: FINOS POC)
-- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/83034172/Contribute
+- [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution).
 - [ ] Notify FINOS POC and FINOS marketing manager once the announcement has been sent out (FINOS infra)
 
 ## Press Release (OPTIONAL) (Lead: FINOS POC)
