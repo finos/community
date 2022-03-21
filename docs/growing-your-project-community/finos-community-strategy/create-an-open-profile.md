@@ -5,6 +5,8 @@ title: Create an Open Profile to Benefit Maintainers and Contributors
 
 # Create an Open Profile to Benefit Maintainers and Contributors
 
+https://user-images.githubusercontent.com/6029572/159292145-3a19fdea-37c6-4a9e-bad9-d00983e372d7.mp4
+
 ## Maintainers
 
 - Identify key contributors based on their FINOS Project and SIG contributions.
