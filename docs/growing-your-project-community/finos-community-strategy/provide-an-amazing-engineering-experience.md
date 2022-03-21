@@ -5,6 +5,8 @@ title: Provide an amazing engineering experience for first time contributors
 
 # Provide an amazing engineering experience for first time contributors
 
+https://user-images.githubusercontent.com/6029572/159293646-34b06315-1774-4cce-805a-45a2e090ac24.mp4
+
 Sometimes having documentation isn’t enough for attracting contributors and scaling your projects. Engineering Experience is about leveraging technology to demonstrate impact in under 10 mins.
 
 ## Explore cloud and open source projects / platforms for mechanisms of fast deployment
