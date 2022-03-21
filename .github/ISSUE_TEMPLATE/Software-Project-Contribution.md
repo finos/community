@@ -173,5 +173,5 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] (optional) Onboard into legend.finos.org/studio
 
 ## Announcement (Lead: FINOS Contrib POC)
-- [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution)
+- [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements)
 - [ ] Notify FINOS Contrib POC and FINOS marketing (@grizzwolf + finos-marketing internal Slack channel)
