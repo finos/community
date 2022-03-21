@@ -2,7 +2,7 @@
 id: communicate-why-and-how
 title: Communicate WHY and HOW the FINOS Community should contribute
 ---
-# Communicate WHY and HOW the FINOS Community should contribute
+# Communicate WHY and HOW the FINOS Community should contribute 
 
 https://user-images.githubusercontent.com/6029572/159290369-2798a41f-8b1f-4c5f-9639-102bed68a24d.mp4
 
