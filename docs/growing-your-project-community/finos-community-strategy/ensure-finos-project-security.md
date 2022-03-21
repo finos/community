@@ -5,6 +5,8 @@ title: Ensure FINOS Project Security with LF Security Training and OpenSSF
 
 # Ensure FINOS Project Security with LF Security Training and OpenSSF
 
+https://user-images.githubusercontent.com/6029572/159292641-7a6d0b3a-0de7-4e7e-9699-41d2990a9f58.mp4
+
 FINOS with the **Open Source Security Foundation** primary objective is protecting the open source supply chain against malicious attacks and bad actors. This makes security everyone’s OSS priority.
 
 ## Follow OpenSSF Best Practices and get your OpenSSF Badge
