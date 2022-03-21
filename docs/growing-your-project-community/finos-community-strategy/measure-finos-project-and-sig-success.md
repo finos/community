@@ -5,6 +5,8 @@ title: Measure FINOS Project and SIG Success with LFX Insights
 
 # Measure FINOS Project and SIG Success with LFX Insights
 
+https://user-images.githubusercontent.com/6029572/159293060-76fd0411-7846-4ed5-9b8a-d27a03468212.mp4
+
 ## Data-driven reporting enables you to make informed decisions.
 
 - Track FINOS Project and SIG trends with rich engagement driven reports.
