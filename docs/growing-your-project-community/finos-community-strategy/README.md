@@ -7,7 +7,7 @@ title: Leveraging FINOS to Build Flourishing Projects and SIGs
 
 **Leveraging FINOS to Build Flourishing Projects and SIGs** is a presentation given to FINOS Project and SIG leads that demonstrates the FINOS 2022 Community Strategy.
 
-<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/leveraging-finos.png?raw=true" width="60%"></img>
+https://user-images.githubusercontent.com/6029572/159551146-8d8ea8e4-7c2b-4318-a46f-3c0a20c0b788.mp4
 
 ## Download as a PDF
 
