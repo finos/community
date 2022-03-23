@@ -30,7 +30,7 @@ module.exports = {
       items: [
         {to: "docs/journey/learn", label: 'Learn', position: 'right'},
         {to: "docs/journey/consume", label: 'Consume', position: 'right'},
-        {to: "docs/journey/engage", label: 'Enage', position: 'right'},
+        {to: "docs/journey/engage", label: 'Engage', position: 'right'},
         {to: "docs/journey/participate", label: 'Participate', position: 'right'},
         {to: "docs/journey/lead", label: 'Lead', position: 'right'},
         {
