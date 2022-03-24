@@ -9,7 +9,7 @@ One of the most exciting aspects of open source in general, and the modern "soci
 
 Everyone is welcome to contribute to an existing project in the [FINOS landscape](https://landscape.finos.org): the only requirement is to have a [Contributor License Agreement on file](../governance/Software-Projects/EasyCLA.md).
 
-Choose a project and take a look at the [contribution workflow](../governance/Software-Projects/Contribution.md#contribution-of-code-to-an-existing-finos-project) - or if you don't know where to start, take a look at the list of [Good First Issues on Github](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22&unscoped_q=is%3Aopen+label%3A%22good+first+issue%22) where projects are actively seeking for help! If you are interested in participating in a project and unsure where to start. Most project teams will label issues with `Help Wanted` or `Good First Issue` labels, marking themas been pre-vetted by the project team to be desirable and in order to not be overly complex or time consuming to implement.
+Choose a project and take a look at the [contribution workflow](https://github.com/finos/community/tree/master/governance/governance/Software-Projects/Contribution.md#contribution-of-code-to-an-existing-finos-project) - or if you don't know where to start, take a look at the list of [Good First Issues on Github](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22&unscoped_q=is%3Aopen+label%3A%22good+first+issue%22) where projects are actively seeking for help! If you are interested in participating in a project and unsure where to start. Most project teams will label issues with `Help Wanted` or `Good First Issue` labels, marking themas been pre-vetted by the project team to be desirable and in order to not be overly complex or time consuming to implement.
 
 Ideas to get involved are also socialized in the Foundation's "This Week at FINOS" weeky newsletter (published via the [Community mailing list](https://groups.google.com/a/finos.org/g/community), to which you can easily subscribe by emailing `community+subscribe@finos.org`))
 
@@ -29,4 +29,4 @@ SIGs are expected to document participation eligibility criteria, their mailing 
 
 SIGs may create and enforce additional participation eligibility criteria or requirements; an example might be to require a particular area of industry expertise (e.g., interest rate swaps) or knowledge of a programming language (e.g., C++) or library. These criteria should also be clearly documented on the SIG's documentation page.
 
-For a list of active SIGs refer to the [SIGs page](../governance/special-interest-groups) or the [FINOS landscape](https://landscape.finos.org/).
+For a list of active SIGs refer to the [SIGs page](https://github.com/finos/community/tree/master/governance/special-interest-groups) or the [FINOS landscape](https://landscape.finos.org/).
