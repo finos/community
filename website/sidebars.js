@@ -22,7 +22,6 @@ module.exports = {
       "governance/Software-Projects/easycla",
       "governance/Software-Projects/license-categories",
       "governance/Software-Projects/cve-responsible-disclosure",
-      "meetups/intro",
     ],
     'Project Collaboration': [
       {
@@ -88,18 +87,19 @@ module.exports = {
       "governance/project-branding-guidelines"
     ],
     'Growing Your Project Community':[
+      "growing-your-project-community/meetups/finos-meetups",
       {
         type: 'category',
         label: 'FINOS Community Strategy',
         items: [
-          'growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs',
-          'growing-your-project-community/finos-community-strategy/communicate-why-and-how',
-          'growing-your-project-community/finos-community-strategy/provide-an-amazing-engineering-experience',
-          'growing-your-project-community/finos-community-strategy/coordinate-work',
-          'growing-your-project-community/finos-community-strategy/create-an-open-profile',
-          'growing-your-project-community/finos-community-strategy/measure-finos-project-and-sig-success',
-          'growing-your-project-community/finos-community-strategy/recognise-community-achievements',
-          'growing-your-project-community/finos-community-strategy/ensure-finos-project-security',
+          "growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs",
+          "growing-your-project-community/finos-community-strategy/communicate-why-and-how",
+          "growing-your-project-community/finos-community-strategy/provide-an-amazing-engineering-experience",
+          "growing-your-project-community/finos-community-strategy/coordinate-work",
+          "growing-your-project-community/finos-community-strategy/create-an-open-profile",
+          "growing-your-project-community/finos-community-strategy/measure-finos-project-and-sig-success",
+          "growing-your-project-community/finos-community-strategy/recognise-community-achievements",
+          "growing-your-project-community/finos-community-strategy/ensure-finos-project-security",
         ]
       },
     ]
