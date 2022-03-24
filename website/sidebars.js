@@ -93,6 +93,7 @@ module.exports = {
         label: 'FINOS Community Strategy',
         items: [
           "growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs",
+          "growing-your-project-community/finos-community-strategy/finos-community-2022-strategic-overview",
           "growing-your-project-community/finos-community-strategy/communicate-why-and-how",
           "growing-your-project-community/finos-community-strategy/provide-an-amazing-engineering-experience",
           "growing-your-project-community/finos-community-strategy/coordinate-work",
