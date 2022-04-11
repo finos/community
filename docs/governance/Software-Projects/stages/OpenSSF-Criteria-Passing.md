@@ -1,4 +1,4 @@
-# FLOSS Best Practices Criteria (Passing Only)
+# OpenSSF FLOSS Best Practices Criteria (Passing Only)
 
 The information contained in this page has been created to help FINOS Software Projects obtain the [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org/) at a `Pass` criteria.
 
