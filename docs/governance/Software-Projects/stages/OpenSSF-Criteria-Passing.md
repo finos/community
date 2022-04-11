@@ -1,5 +1,11 @@
 # FLOSS Best Practices Criteria (Passing Only)
 
+The information contained in this page has been created to help FINOS Software Projects obtain the OpenSSF badge at a `Pass` criteria.
+
+More information on how to submit your `Pass` criteria for evaluation by OpenSSF can be found on the OpenSSF Best Practives website - https://bestpractices.coreinfrastructure.org/en
+
+FINOS projects wanting to achieve OpenSSF `Silver` and `Gold` badges should refer to the OpenSSF website for the criteria needed to hit these standards - https://bestpractices.coreinfrastructure.org/en/criteria
+
 ## Passing
 
 ### Basics
