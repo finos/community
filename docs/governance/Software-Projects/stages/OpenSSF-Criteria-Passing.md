@@ -110,9 +110,9 @@
 
 - [ ] The project MUST have a general policy (formal or not) that as major new functionality is added to the software produced by the project, tests of that functionality should be added to an automated test suite.
 
-- [ ] The project MUST have evidence that the <a href="#test_policy">test_policy</a> for adding tests has been adhered to in the most recent major changes to the software produced by the project.
+- [ ] The project MUST have evidence that the test policy _(point 1 above)_ for adding tests has been adhered to in the most recent major changes to the software produced by the project.
 
-- [ ] It is SUGGESTED that this policy on adding tests (see <a href="#test_policy">test_policy</a>) be <em>documented</em> in the instructions for change proposals.
+- [ ] It is SUGGESTED that this policy on adding tests _(point 1 above)_ be <em>documented</em> in the instructions for change proposals.
 
 #### Warning flags
 
