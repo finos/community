@@ -19,7 +19,7 @@ Once established, incubating projects are expected to prioritise some or all of 
 
 The ultimate goal being to meet or exceed the requirements for activation, and thereby be ready for promotion to Active status. To help support this, the Foundation encourages the thoughtful adoption of a variety of [project infrastructure services](/docs/collaboration-infrastructure); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
 
-## OpenSSF Badge Passing Criteria
+## OpenSSF Best Practices Badge
 
 To promote FINOS Incubating projects to an Active status, FINOS requires that every Incubating project meets the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) `pass` criteria prior to requesting activation.
 
