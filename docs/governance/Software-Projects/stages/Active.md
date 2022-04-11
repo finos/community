@@ -66,11 +66,11 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
 
-# Activation Checklist
-
-## Obtaining the OpenSSF Best Practices Badge
+# Obtaining the OpenSSF Best Practices Badge
 
 In order to achieve an Active status, FINOS requires that every project meets the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) `pass` criteria prior to requesting activation.
+
+# Activation Checklist
 
 |                         | **Activation (promotion to Active State)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | How and Where Demonstrated |
 | :---------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------- |
