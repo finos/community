@@ -33,6 +33,7 @@ In order for a project to become Active, it must be reviewed and the change form
 
 - Preparing an information packet demonstrating that they've met the requirements for activation (see below for details).
 - Submitting the packet via the project's GitHub Issue.
+- Have obtained and are demonstrating an [OpenSSF Best Practices Badge](https://bestpractices.coreinfrastructure.org) as laid out below.
 
 ## Approval Process
 
