@@ -21,7 +21,7 @@ The ultimate goal being to meet or exceed the requirements for activation, and t
 
 ## Obtaining the OpenSSF Best Practices Badge
 
-To promote FINOS Incubating projects to an Active status, FINOS requires that every Incubating project meets the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) `pass` criteria prior to requesting activation.
+To promote FINOS Incubating projects to an Active status, FINOS requires that every Incubating project meets the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) `pass` criteria prior to requesting activation. This is also reflected in the lifecycle [Active](Active.md) criteria.
 
 ## Requirements
 
