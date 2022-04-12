@@ -73,7 +73,7 @@ In order to achieve an Active status, FINOS requires that every project also mee
 
 The `pass` criteria for FINOS Active status can be found in the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) page of this repository.
 
-Crossovers between the FINOS Active Criteria and the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) are also highlighted below.
+Crossovers between the FINOS Activation criteria and the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) are also highlighted in the table below.
 
 # Activation Checklist
 
