@@ -71,6 +71,8 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 
 In order to achieve an Active status, FINOS requires that every project meets the [OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) `pass` criteria prior to requesting activation.
 
+[OpenSSF Best Practices Badge](OpenSSF-Criteria-Passing.md) `pass` [criteria can be found here](OpenSSF-Criteria-Passing.md).
+
 # Activation Checklist
 
 |                         | **Activation (promotion to Active State)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | How and Where Demonstrated |
