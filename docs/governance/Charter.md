@@ -2,6 +2,8 @@
 id: charter
 title: Fintech Open Source Foundation (FINOS) Charter
 ---
+(You can find a PDF copy of this charter on [the FINOS website](https://www.finos.org/hubfs/FINOS%20Charter.pdf))
+
 
 A directed fund of the Linux Foundation
 
