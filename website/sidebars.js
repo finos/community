@@ -104,19 +104,20 @@ module.exports = {
       }  
     ],
     'Grow Your Project Community':[
-      "meetups/intro",
+      "growing-your-project-community/meetups/finos-meetups",
       {
         type: 'category',
         label: 'Best Practices',
         items: [
-          'growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs',
-          'growing-your-project-community/finos-community-strategy/communicate-why-and-how',
-          'growing-your-project-community/finos-community-strategy/provide-an-amazing-engineering-experience',
-          'growing-your-project-community/finos-community-strategy/coordinate-work',
-          'growing-your-project-community/finos-community-strategy/create-an-open-profile',
-          'growing-your-project-community/finos-community-strategy/measure-finos-project-and-sig-success',
-          'growing-your-project-community/finos-community-strategy/recognise-community-achievements',
-          'growing-your-project-community/finos-community-strategy/ensure-finos-project-security',
+          "growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs",
+          "growing-your-project-community/finos-community-strategy/finos-community-2022-strategic-overview",
+          "growing-your-project-community/finos-community-strategy/communicate-why-and-how",
+          "growing-your-project-community/finos-community-strategy/provide-an-amazing-engineering-experience",
+          "growing-your-project-community/finos-community-strategy/coordinate-work",
+          "growing-your-project-community/finos-community-strategy/create-an-open-profile",
+          "growing-your-project-community/finos-community-strategy/measure-finos-project-and-sig-success",
+          "growing-your-project-community/finos-community-strategy/recognise-community-achievements",
+          "growing-your-project-community/finos-community-strategy/ensure-finos-project-security",
         ]
       },
     ]
