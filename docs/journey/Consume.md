@@ -24,4 +24,4 @@ Once you've identified suitable components we encourage you to consume them in y
 As you consume FINOS projects, you may be willing to take an active role in the development of that intellectual property. As an open community, we encourage you to participate in the Projects or Special Interest Groups (SIGs) whose work you consume!
 
 ## Developing an Open Source Consumption Policy
-If you need help consuming Open Source Code, the [FINOS Open Source Readiness (OSR) Initiative)](https://www.finos.org/open-source-readiness) exists to support financial services organizations in their open source maturity journey. Get in touch and start realizing the benefits of open source code and collaboration today. 
+If you need help consuming Open Source Code, the [FINOS Open Source Readiness (OSR) Initiative](https://www.finos.org/open-source-readiness) exists to support financial services organizations in their open source maturity journey. Get in touch and start realizing the benefits of open source code and collaboration today. 

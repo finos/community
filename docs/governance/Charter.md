@@ -1,11 +1,13 @@
 ---
 id: charter
-title: Fintech Open Source Foundation (FINOS) Charter
+title: FINOS Funding Charter
 ---
+(You can find a PDF copy of this charter on [the FINOS website](https://www.finos.org/hubfs/FINOS%20Charter.pdf))
+
 
 A directed fund of the Linux Foundation
 
-Effective June 30, 2020
+Effective April 20, 2022
 
 **1) Mission and Scope of the Fintech Open Source Foundation.**
 
@@ -51,22 +53,26 @@ Representative”) to the Governing Board. Initially there will be 10 Platinum
 Representatives. The number of Platinum Members will not exceed the Governing Board
 Cap less seven. Each Platinum Representative must be employed by a Platinum Member.
 
-d) Gold Members, acting as a class, will be entitled to annually elect up to five
+d) Gold Members, acting as a class, will be entitled to elect up to five
 representatives to the Governing Board (each, a “Gold Representative”), as follows: the
 lesser of (a) five and (b) one representative per three Gold Members. Each Gold
 Representative must be employed by a Gold Member.
 
-e) Silver Members, acting as a class, will be entitled to annually elect one representative to
+e) Silver Members, acting as a class, will be entitled to elect one representative to
 the Governing Board (the “Silver Representative”). The Silver Representative must be
 employed by a Silver Member.
 
-f) The Associate Member category of membership is limited to Associate Members of The
+f) Unless otherwise decided by the Governing Board, Gold Representatives and Silver 
+Representatives will be elected to serve a term of two years, or until their earlier 
+resignation or replacement.
+
+g) The Associate Member category of membership is limited to Associate Members of The
 Linux Foundation. The Governing Board may set additional criteria for joining the
 Directed Fund as an Associate Member. If the Associate Member is a membership
 organization, Associate Membership in the Directed Fund does not confer any benefits or
 rights to the members of the Associate Member.
 
-g) Members will be entitled to:
+h) Members will be entitled to:
 
 > i) participate in Directed Fund general meetings, initiatives, events and any other
 activities; and

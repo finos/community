@@ -109,7 +109,7 @@ module.exports = {
         docs: {
           path: '../docs',
           editUrl:
-            'https://github.com/maoo/community/edit/new-community-repo/website/',
+            'https://github.com/finos/community/edit/new-community-repo/website/',
           sidebarPath: require.resolve('./sidebars.js')
         },
         theme: {

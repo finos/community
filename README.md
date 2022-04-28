@@ -6,11 +6,11 @@
 This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large. You can browse these contents also via https://community.finos.org .
 
 ## Quick Links
-You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email help@finos.org if you still can't find what you're looking for.
+All the documentation in this website (anything in the /docs and /website folder) are deployed for easy consumption at [community.finos.org](community.finos.org). You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email [help@finos.org](help@finos.org) if you still can't find what you're looking for.
 
 ### Legal & Governance
-- [FINOS Governance](docs/governance/)
-- [FINOS Code of Conduct](docs/governance/Code-of-Conduct.md)
+- [FINOS Governance](https://community.finos.org/docs/governance/intro)
+- [FINOS Code of Conduct](https://community.finos.org/docs/governance/intro/governance/Code-of-Conduct)
 - [FINOS Members](https://finos.org/members)
 
 ### Projects
@@ -21,6 +21,7 @@ You should be able to find most relevant and up to date information below (and y
   - [New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding)
   - [New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)
 - [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
+- 
 
 ### Resources
 - [FINOS Website](https://finos.org)
