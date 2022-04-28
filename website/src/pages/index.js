@@ -25,15 +25,15 @@ function Home() {
                 styles.getStarted
               )}
               to={'/docs/journey/learn'}>
-              GET STARTED
+              COMMUNITY 
             </Link>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://github.com/finos/community'}>
-              IMPROVE THIS PAGE 
+              to={'https://finos.org/'}>
+              FOUNDATION 
             </Link>
           </div>
         </div>
