@@ -39,8 +39,8 @@ module.exports = {
           {
             type: 'category',
             label: 'Project Lifecycle',
-            link: {type: 'doc', id:'governance/Software-Projects/project-lifecycle'},
             items: [
+              'governance/Software-Projects/project-lifecycle',
               "governance/Software-Projects/stages/incubating",
               "governance/Software-Projects/stages/active",
               "governance/Software-Projects/stages/archived"
