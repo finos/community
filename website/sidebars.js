@@ -24,6 +24,7 @@ module.exports = {
       {
         type: 'category',
         label: 'Software Project Governance',
+        link: {type: "href", href:"https://community.finos.org/docs/governance/intro#open-source-software-projects"},
         items: [
           "governance/Software-Projects/contribution",
           "governance/Software-Projects/code-transfer",
@@ -31,10 +32,16 @@ module.exports = {
           "governance/Software-Projects/easycla",
           "governance/Software-Projects/license-categories",
           "governance/Software-Projects/cve-responsible-disclosure",
-          "governance/Software-Projects/project-lifecycle",
-          "governance/Software-Projects/stages/incubating",
-          "governance/Software-Projects/stages/active",
-          "governance/Software-Projects/stages/archived"
+          {
+            type: 'category',
+            label: 'Project Lifecycle',
+            link: {type: 'doc', id:'governance/Software-Projects/project-lifecycle'},
+            items: [
+              "governance/Software-Projects/stages/incubating",
+              "governance/Software-Projects/stages/active",
+              "governance/Software-Projects/stages/archived"
+            ]
+          }
         ]
       },
       "governance/special-interest-groups/intro",
