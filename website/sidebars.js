@@ -26,7 +26,7 @@ module.exports = {
         label: 'Software Project Governance',
         items: [
           {
-            type: "href", 
+            type: "link", 
             label: "Intro",
             href:"https://community.finos.org/docs/governance/intro#open-source-software-projects"
           },
