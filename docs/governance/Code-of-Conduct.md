@@ -1,6 +1,6 @@
 ---
 id: code-of-conduct
-title: FINOS Community Code of Conduct
+title: Community Code of Conduct
 ---
 
 ## Overview
