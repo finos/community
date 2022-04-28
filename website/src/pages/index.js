@@ -25,15 +25,15 @@ function Home() {
                 styles.getStarted
               )}
               to={'/docs/journey/learn'}>
-              GET STARTED
+              COMMUNITY 
             </Link>
             <Link
               className={classnames(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted
               )}
-              to={'https://github.com/finos/community'}>
-              GITHUB
+              to={'https://finos.org/'}>
+              FOUNDATION 
             </Link>
           </div>
         </div>
@@ -48,7 +48,7 @@ function Home() {
               </div>
               <div className={classnames(styles.textContainer, styles.welcomeTextContainer)}>
                 <h2>Welcome to the FINOS community!</h2>
-                <p>This website hosts all FINOS Foundation documentation for our Project Leads and Community at large. Here you can learn more about FINOS projects and participants, Project Governance, communication channels, collaboration infrastructure, security and compliance validations, and much more.</p>
+                <p>This website hosts all the FINOS documentation for our contributors, maintainers and Community at large. Here you can learn more about FINOS projects and participants, Project Governance, communication channels, collaboration infrastructure, security and compliance validations, and much more.</p>
                 {/* <p>Feel free to submit fixes or enhancements to this documentation, by following the link `Edit this page` reported at the bottom of each page (this page is the only exception)</p> <a href="/docs/journey/learn">learn</a>. */}
               </div>
             </div>

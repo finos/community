@@ -1,22 +1,9 @@
 ---
 id: intro
-title: FINOS Governance
+title: Overview
 ---
 
 This space provides an overview of the Foundation's governance: 
-
-   * [Foundation Governance](#foundation-governance)
-      * [Membership](#membership)
-      * [Governing Board](#governing-board)
-      * [Policies](#policies)
-   * [Community Governance](#community-governance)
-      * [Open Source Software Projects](#open-source-software-projects)
-      * [Open Standard Projects](#open-standard-projects)
-      * [Special Interest Groups](#special-interest-groups)
-   * [Project Lifecycle and Steering](#project-lifecycle-and-steering)
-      * [Project Lifecycle](#project-lifecycle)
-      * [Project Metrics](#project-metrics)
-      * [Project Quarterly Reporting](#project-quarterly-reporting-and-focus-projects)
 
 # Foundation Governance
 
@@ -91,7 +78,7 @@ Some projects may optionally start in a time-bound pre-incubation stage called *
 ## Project Metrics 
 Live metrics of Project activity and contributions across all FINOS collaboration systems are publicly available in [FINOS Project Activity Dashboard](https://metrics.finos.org).
 
-## Project Quarterly Reporting and Focus Projects
+## Project Governing Board Reporting 
 Every quarter, data about the health, activity, and progress of projects is reported to the Governing Board. Reports are largely generated automatically out of the [FINOS Project Activity Dashboard](https://metrics.finos.org) and provided to project teams for review and revision before being passed along to the board. The Governing Board and FINOS team use these reports to determine which projects need additional attention, which should be considered for archiving, etc.
 
-In certain quarters, the Governing Board identifies a few "focus projects" to receive extra attention from the FINOS team during the following quarter, with the goal of supporting growth and progression through the Project Lifecycle. Focus projects should be prepared to provide more detailed progress reports to the Board at the next Board meeting. For a list of current focus projects or to propose your project for quarterly focus.
+In certain quarters, the Governing Board identifies a few "focus projects" to receive extra attention from the FINOS team during the following quarter, with the goal of supporting growth and progression through the Project Lifecycle. Focus projects should be prepared to provide more detailed progress reports to the Board at the next Board meeting.

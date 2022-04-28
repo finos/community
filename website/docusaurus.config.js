@@ -30,7 +30,7 @@ module.exports = {
       items: [
         {to: "docs/journey/learn", label: 'Learn', position: 'right'},
         {to: "docs/journey/consume", label: 'Consume', position: 'right'},
-        {to: "docs/journey/engage", label: 'Enage', position: 'right'},
+        {to: "docs/journey/engage", label: 'Engage', position: 'right'},
         {to: "docs/journey/participate", label: 'Participate', position: 'right'},
         {to: "docs/journey/lead", label: 'Lead', position: 'right'},
         {
@@ -109,7 +109,7 @@ module.exports = {
         docs: {
           path: '../docs',
           editUrl:
-            'https://github.com/maoo/community/edit/new-community-repo/website/',
+            'https://github.com/finos/community/edit/new-community-repo/website/',
           sidebarPath: require.resolve('./sidebars.js')
         },
         theme: {
