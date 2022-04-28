@@ -17,7 +17,6 @@ module.exports = {
           "governance/board-election",
           "governance/code-of-conduct",
           "governance/individual-supporter-program",
-          "governance/collaborative-principles",
           "governance/project-branding-guidelines"
         ]
       },
@@ -56,6 +55,7 @@ module.exports = {
         type: 'category',
         label: 'Basics',
         items: [
+          "governance/collaborative-principles",
           "collaboration-infrastructure",
           "development-infrastructure/project-documentation",
           "finos-contributors-cheatsheet",
