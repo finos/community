@@ -1,9 +1,9 @@
 ---
 id: collaborative-principles
-title: Collaborative Principles for FINOS Projects
+title: Our Collaborative Principles
 ---
 
-FINOS technical projects are free to determine their own governance so long as it is consistent with FINOS policy. However, projects are expected to adhere to best practices for open source collaboration. The practices documented here help to ensure that FINOS projects are well-documented, inclusive, free of intellectual property issues, and responsive to their communities.
+FINOS technical projects are free to determine their own governance so long as it is consistent with [FINOS policies](https://finos.org/governance). However, projects are expected to adhere to best practices for open source collaboration. The practices documented here help to ensure that FINOS projects are well-documented, inclusive, free of intellectual property issues, and responsive to their communities.
 
 ## Project materials and communication
 
@@ -22,9 +22,10 @@ Open source projects function best when their code, documentation, and roadmaps 
 
 Projects should ensure that governance procedures are well-documented and followed by the team. Project governance documents should clearly state:
 * the requirements for a community member to gain committer or other leadership privileges
-* acceptance criteria for pull requests, including any style or quality guidelines (see the [CONTRIBUTING.md template](https://github.com/finos/project-blueprint/blob/master/.github/CONTRIBUTING.md) from our project blueprint for an example)
-Please see the software project [governance template](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md) for an example.
+* acceptance criteria for pull requests, including any style or quality guidelines (see the [CONTRIBUTING.md template](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md) from our software project blueprint for an example)
+
+Please see the [software project governance template](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md) or [standard project governance template](https://github.com/finos/standards-project-blueprint/blob/master/Readme.md) for recommended starting points.
 
 ## IP compliance
 
-FINOS maintains policies and procedures for ensuring that all contributed code is appropriately licensed. We require a contributor license agreement (CLA) from every contributor and use cla-bot to flag contributions that are not covered by a CLA. When cla-bot flags a pull request, project maintainers should not merge the pull request until FINOS has obtained a CLA from the contributor and cleared the contribution.
+FINOS maintains policies and procedures for ensuring that all contributed code is appropriately licensed. We require a contributor license agreement (CLA) from every contributor and use [EasyCLA](Software-Projects/easycla) to flag contributions that are not covered by a CLA. When EasyCLA flags a pull request, project maintainers should not merge the pull request until FINOS has obtained a CLA from the contributor and cleared the contribution. See our [Contribution Compliance Requirements](Software-Projects/contribution-compliance-requirements) for more information.
