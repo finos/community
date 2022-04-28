@@ -24,8 +24,12 @@ module.exports = {
       {
         type: 'category',
         label: 'Software Project Governance',
-        link: {type: "href", href:"https://community.finos.org/docs/governance/intro#open-source-software-projects"},
         items: [
+          {
+            type: "href", 
+            label: "Intro",
+            href:"https://community.finos.org/docs/governance/intro#open-source-software-projects"
+          },
           "governance/Software-Projects/contribution",
           "governance/Software-Projects/code-transfer",
           "governance/Software-Projects/contribution-compliance-requirements",
