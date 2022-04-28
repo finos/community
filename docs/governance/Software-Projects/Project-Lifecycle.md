@@ -1,6 +1,6 @@
 ---
 id: project-lifecycle
-title: FINOS Project Lifecycle
+title: Intro
 ---
 
 FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes three states:
