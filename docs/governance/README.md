@@ -17,7 +17,7 @@ Individuals who have made significant contributions to FINOS projects can join o
 
 ## Governing Board
 
-The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representatives and led by FINOS Executive Director. The Governing Board is composed of Platinum Representatives, each appointed by a Platinum member; up to five Gold Representatives, elected by the Gold Members voting as a class; and one Silver Representative, elected by the Silver Members voting as a class. FINOS uses [ranked-choice voting](Board-Election-Procedure) to tabulate elections.
+The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representatives and led by FINOS Executive Director. The Governing Board is composed of Platinum Representatives, each appointed by a Platinum member; up to five Gold Representatives, elected by the Gold Members voting as a class; and one Silver Representative, elected by the Silver Members voting as a class. FINOS uses [ranked-choice voting](board-election) to tabulate elections.
 
 The Foundation's day-to-day operations are run by the [FINOS team](https://finos.org/team).
 
