@@ -45,9 +45,9 @@ Once you have identified a project you'd like to participate to take a look at [
 ## Contribute your use case in our Special Interest Group
 FINOS Special Interest Groups (SIGs) provide a venue for financial services participants to discuss common challenges, use cases, and topics of interest that they would like to tackle through open source collaboration. Your input would be extremely valuable to help focus and influence foundation activities.
 
-Everyone can join a SIG by subscribing to the SIG mailing list and attend the group's scheduled [meetings](https://www.finos.org/finos-community-calendar). For a list of active SIGs refer to the [SIGs page](https://github.com/finos/community/blob/master/docs/governance/special-interest-groups) or the [FINOS landscape](https://landscape.finos.org/).
+Everyone can join a SIG by subscribing to the SIG mailing list and attend the group's scheduled [meetings](https://www.finos.org/finos-community-calendar). For a list of active SIGs refer to the [SIGs page](/docs/governance/special-interest-groups/intro) or the [FINOS landscape](https://landscape.finos.org/).
 
-[SIG governance is very lightweight](/docs/governance#special-interest-groups), and SIGs are generally document target audience, their mailing list information and meeting information in their [Github repository](https://github.com/finos/). 
+[SIG governance is very lightweight](/docs/governance/intro#special-interest-groups), and SIGs are generally document target audience, their mailing list information and meeting information in their [Github repository](https://github.com/finos/). 
 
 SIGs may create and enforce additional desirability criteria for participants; an example might be to require a particular area of industry expertise (e.g., interest rate swaps) or knowledge of a programming language (e.g., C++) or library. These criteria should also be clearly documented on the SIG's documentation page.
 
