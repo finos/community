@@ -116,6 +116,15 @@ module.exports = {
           customCss: require.resolve('./src/css/custom.css'),
         }
       }
+    ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        gtag: {
+          trackingID: 'G-Q2K0WLVFHP',
+          anonymizeIP: true,
+        },
+      },
     ]
   ]
 };
