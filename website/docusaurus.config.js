@@ -121,7 +121,6 @@ module.exports = {
         }
 
       }
-     ]
     ]
   ]
 };
