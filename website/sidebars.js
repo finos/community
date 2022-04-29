@@ -47,8 +47,8 @@ module.exports = {
           }
         ]
       },
-      "governance/special-interest-groups/intro",
       "governance/Standards-Projects/intro",      
+      "governance/special-interest-groups/intro",
     ],
     'Project Collaboration': [
       {
