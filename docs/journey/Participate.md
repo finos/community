@@ -51,6 +51,6 @@ Everyone can join a SIG by subscribing to the SIG mailing list and attend the gr
 
 SIGs may create and enforce additional desirability criteria for participants; an example might be to require a particular area of industry expertise (e.g., interest rate swaps) or knowledge of a programming language (e.g., C++) or library. These criteria should also be clearly documented on the SIG's documentation page.
 
-### Contribute to our blog
+## Contribute to our blog
 A great way to contribute besides code, issues or documentation is to contribute content to our [Community blog](https://www.finos.org/blog) - we welcome FINOS projects related topics (technical or not) and more broadly open source topics relevant for the financial services industry. Send your proposed article to [marketing@finos.org](mailto:marketing@finos.org).
 
