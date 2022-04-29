@@ -25,6 +25,7 @@ Here are some suggestions to kick off your FINOS journey:
 - Browse the [FINOS Youtube Channel](https://www.youtube.com/c/FINOS)
 - Read our [FAQ](https://www.finos.org/faq)
 - [Sign up for FINOS updates](https://www.finos.org/sign-up)
+- Follow us on [Twitter](https://twitter.com/finosfoundation) or [LinkedIn](https://www.linkedin.com/company/finosfoundation/) 
 
 ## Need help? 
 Email [help@finos.org](mailto:help@finos.org) and we will be in touch shortly
