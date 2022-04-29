@@ -1,6 +1,6 @@
 ---
 id: participate
-title: Participate
+title: Contribute
 ---
 
 ## Contributing to a Project
