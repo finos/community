@@ -2,62 +2,57 @@
 id: contribution
 title: Contributing to FINOS
 ---
+There's a several ways you can contribute to our existing projects and SIGS, as well as [FINOS Members](https://finos.org/members) can propose new projects for contribution. Take a look at the diagram below for an overall picture of how contributions flow into FINOS:
 
 ![FINOS Contribution Process](/finos-contribution-process.png)
 
-## Contribution of code to an existing FINOS project
+## Contribution of use cases and ideas to a Special Interest Group (SIG)
+If you are looking to contribute a use case, take a look at [our special interest groups](/docs/governance/special-interest-groups/intro) which are meant to be arenas for like minded professionals to identify common challenges, pain points and opportunities to be solved collaboratively in the open.
 
-The easiest way to engage is to contribute code, documentation, test cases, requirements, issues and pull requests, etc. to projects that are currently within the Foundation. A great place to start is the [good first issues in the FINOS GitHub organization](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22&unscoped_q=is%3Aopen+label%3A%22good+first+issue%22).
+## Contribution of code / issues / documentation to an existing FINOS project
+The easiest way to engage is to contribute code, documentation, test cases, requirements, issues and pull requests, etc. to projects that are currently within the Foundation. 
 
 Before contributing to a project, community members are encouraged to familiarize themselves with a project by doing any or all of the following:
 
-- Attend a couple of project meetings (note: not all projects run regularly scheduled meetings, check out the [Community Calendar](https://calendar.google.com/calendar/ical/finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com/public/basic.ics))
-- Getting involved in discussions within a project respective [Google Group mailing list](https://groups.google.com/a/finos.org/) or [Slack Channel](https://finos-lf.slack.com/)
-- The project specific governance and areas of focus, typically contained in a project Readme.md.
+- [Engage](/docs/journey/engage) with the project community via mailing list/slack/github 
+- Review the project specific roadmap, area of focus, typically contained in a project Readme.md. 
+- Review [good first issue/help wanted issues in the FINOS GitHub organization](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22%2C%22help+wanted%22).
 
-Contributions can take various forms:
-
-- Raising a GitHub/GitLab Issue on code or documentation
-- Starting a new discussion thread on email / slack
-- Extending and amending documentation (**)
-- Actively raising code contributions (**)
-
-** Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must comply with the [Contribution Compliance Requirements](Contribution-Compliance-Requirements.md) in place within FINOS.
+**NOTE**: Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must comply with the [Contribution Compliance Requirements](Contribution-Compliance-Requirements.md) in place within FINOS.
 
 ## Contribution of an existing code base into FINOS as a new project
 
 Do you have an existing product, project, or activity that would be a good fit within the FINOS community? Here's how to propose a new contribution.
 
 ### Pre-Work: Contribution Fitness
-First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. 
+First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. Every Project contributed to the Foundation comes into an [Incubating stage](/docs/governance/Software-Projects/project-lifecycle), which sets out a comprehensive set of criteria to review to evaluate contribution fitness is the Incubation checklist.  Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution.
 
-Since every Project contributed to the Foundation comes into an [Incubating stage](/docs/governance/Software-Projects/project-lifecycle), a comprehensive set of criteria to review to evaluate contribution fitness is the Incubation checklist.  Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution.
-
-For Projects initiated by FINOS Members, there’s the opportunity to carry out a pre-incubation so called [Formation stage](/docs/governance/Software-Projects/project-lifecycle), where the FINOS team and Members can support the contributor to socialize, gauge interest and ready the project for open sourcing.
-
+> Optionally FINOS Members can carry out a pre-incubation so called [Formation stage](/docs/governance/software-projects/project-lifecycle/#forming-projects-optional), where the FINOS team and Members can support the contributor to socialize, gauge interest and ready the project for open sourcing, in a time-bound Member-only visible basis.
 
 ### Step 1: Submit a contribution proposal
-Draft a proposal to be reviewed by the FINOS team. Please use the available templates for [software projects](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding) and [standards projects](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community). The proposal is meant to cover the following:
+Draft a proposal to be reviewed by the FINOS team. Please use the available templates for [software projects](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding) and [standards projects](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding), which will create a new issue on the [FINOS Github Community](https://github.com/finos/community/issues). The proposal is meant to cover the following:
 
-1. Business problem: the business problem that the proposed contribution solves.
-2. Proposed solution: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and its functionality.
-3. Tentative roadmap: a description of the short and medium term goals and phases of the project, and what success looks like for this project
-4. Current state: a summary of the contribution's history and status. Include information about the contribution's maturity and roadmap.
-5. Existing materials: links to and descriptions of any existing project materials (e.g. GitHub repositories). If any materials are currently private, please describe them in detail. The FINOS team will reach out to request access to private materials in order to evaluate them.
-6. Development team: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
-7. Contributor commitment: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
+1. **Business problem**: the business problem that the proposed contribution solves.
+2. **Proposed solution**: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and its functionality.
+3. **Tentative roadmap**: a description of the short and medium term goals and phases of the project, and what success looks like for this project
+4. **Current state**: a summary of the contribution's history and status. Include information about the contribution's maturity and roadmap.
+5. **Existing materials**: links to and descriptions of any existing project materials (e.g. GitHub repositories). If any materials are currently private, please describe them in detail. The FINOS team will reach out to request access to private materials in order to evaluate them.
+6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
+7. **Contributor commitment**: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
 To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+). 
 
 ### Step 2: Gauge Community interest 
-You are encouraged to email directly to the Community at [community@finos.org](mailto:community@finos.org) ([subscribe here](mailto:community+subscribe@finos.org)) to outline your contribution idea (and link to the previously created contribution issue). If you experience issues, you can reach you directly to the FINOS team at [help@finos.org](mailto:help@finos.org). Note that while everyone is welcome to contribute to existing projects, **only FINOS Members can propose new projects**. If you are not a Member this step is particularly important to identify a Member who could become a sponsor for your project.
+You are encouraged to email directly to the Community at [community@finos.org](mailto:community@finos.org) ([subscribe here](mailto:community+subscribe@finos.org)) to outline your contribution idea (and link to the previously created contribution issue). A simple note pointing to the Github contribution issue and encouraging the FINOS Community and Members to post their support / feedback on the issue will go a long way here.
+
+**Note**: while everyone is welcome to contribute to existing projects, **only FINOS Members can propose new projects**. If you are not a Member this step is particularly important to identify a Member who could become a sponsor for your project.
 
 #### Compliance review & IP transition
 Once a contribution is raised, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution compliance requirements](Contribution-Compliance-Requirements.md). In addition to having contributor agreements for each contributor, the main steps are:
 
 - Transferring the project trademark to FINOS, or selecting a new name for the FINOS project that does not conflict with any existing marks, so that FINOS can enforce the project's rights consistent with our [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf).
 - Compliance with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
-- Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/project-lifecycle))
+- Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/stages/incubating))
 
 ### Step 3: FINOS Approval
 Once legal and IP review is complete, the FINOS team will review the proposal and work with the Governing Board where appropriate to make a decision on approving the project. 
@@ -94,7 +89,7 @@ Thanks to the FINOS Community for a warm welcome!
 <insert contributor name(s)>
 ```
 
-- We welcome blog post on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Marketing](mailto:marketing@finos.org) to propose an article
+- We welcome blog posts to announce the contribution on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Marketing](mailto:marketing@finos.org) to propose an article
 - Social media support - you can reach out to [marketing@finos.org](mailto:marketing@finos.org) to ask for our support in promoting the contribution
 - For substantial contributions, especially of those with multiple contributing orgs, FINOS may choose to support contribution announcement with a press release. Contact [press@finos.org](mailto:press@finos.org) if you think a press release is warranted. 
 

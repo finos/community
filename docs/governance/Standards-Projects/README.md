@@ -1,6 +1,6 @@
 ---
 id: intro
-title: Establishing and Running an Open Standard Project
+title: Establishing and Running an Open Standard project
 ---
 
 Within FINOS, an Open standard project is a project chartered primarily to produce technical standards specifications, rather than software. Standards projects follow a different set of processes than software projects, to account for the different intellectual property requirements of standards. The purpose of these rules is to ensure that all contributions to a standard are appropriately licensed and that the final published standard may be implemented freely by FINOS members and the community at large.

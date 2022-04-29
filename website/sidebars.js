@@ -47,8 +47,12 @@ module.exports = {
           }
         ]
       },
+       {
+        type: "link", 
+        label: "Standard Projects Governance",
+        href:"/docs/governance/intro#open-standard-projects"
+      },      
       "governance/special-interest-groups/intro",
-      "governance/Standards-Projects/intro",      
     ],
     'Project Collaboration': [
       {
