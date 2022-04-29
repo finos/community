@@ -54,15 +54,15 @@ function Home() {
             </div>
           </section>
           <section className={styles.section}>
-              <div className={classnames(styles.textContainer, styles.collabContainer)}>
-                <h2>Collaborative Effort</h2>
-                <p>Every page of this website (except this homepage) provides an `Edit` link at the bottom, which you can use to submit any type of content changes, whether it's a typo fix or a new paragraph. We value and appreciate every type of contribution, so thanks in advance!</p>
+              <div className={classnames(styles.textContainer, styles.ossContainer)}>
+                <h2>OSS Journey</h2>
+                <p>If you're new to FINOS, please start here to <a href="/docs/journey/learn">Learn</a> about us. Afterwards, you can continue your Open Source journey through <a href="/docs/journey/consume">consumption</a>, <a href="/docs/journey/engage">engagement</a>, <a href="/docs/journey/participate">contribution</a> and <a href="/docs/journey/lead">leadership</a>.</p>
               </div>
           </section>
           <section className={styles.section}>
-              <div className={classnames(styles.textContainer, styles.ossContainer)}>
-                <h2>OSS Journey</h2>
-                <p>If you're new to FINOS, please start here to <a href="/docs/journey/learn">Learn</a> about us. Afterwards, you can continue your Open Source journey through <a href="/docs/journey/cosume">consumption</a>, <a href="/docs/journey/engage">engagement</a>, <a href="/docs/journey/participate">participation</a> and <a href="/docs/journey/lead">leadership</a>.</p>
+              <div className={classnames(styles.textContainer, styles.collabContainer)}>
+                <h2>This website is a collaborative effort</h2>
+                <p>Every page of this website (except this homepage) provides an `Edit` link at the bottom, which you can use to submit any type of content changes (source code is [in Github](https://github.com/finos/community/)), whether it's a typo fix or a new paragraph. We value and appreciate every type of contribution, so thanks in advance!</p>
               </div>
           </section>
           <section className={styles.section}>
@@ -79,7 +79,7 @@ function Home() {
               <div className="row">
                 <ul>
                   <li>[FINOS Governance](governance/)</li>
-                  <li>[FINOS Code of Conduct](governance/Code-of-Conduct.md)</li>
+                  <li>[FINOS Code of Conduct](/docs/governance/Code-of-Conduct)</li>
                   <li>[FINOS Members](https://finos.org/members)</li>
                 </ul>
               </div>
