@@ -4,7 +4,7 @@ const copyrightOwner = 'FINOS'
 
 module.exports = {
   title: `FINOS ${projectName}`,
-  tagline: `FINOS ${projectName}`, 
+  tagline: `FINOS ${projectName} website with detailed information around governance, tooling and best practices of our Community`, 
   url: 'https://finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/favicon-finos.ico',
@@ -114,7 +114,12 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-Q2K0WLVFHP',
+          anonymizeIP: true,
         }
+
       }
     ]
   ]
