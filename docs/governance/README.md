@@ -9,15 +9,15 @@ This space provides an overview of the Foundation's governance:
 
 ## Membership
 
-FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter.md). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits) or reach out to [membership@finos.org](mailto:membership@finos.org).
+FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits) or reach out to [membership@finos.org](mailto:membership@finos.org).
 
-Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program.md) to be recognized for their contributions and receive certain members-only benefits.
+Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program) to be recognized for their contributions and receive certain members-only benefits.
 
-**NOTE**: Membership is NOT required to contribute to existing FINOS projects, but contributors to software projects will need to comply with the [FINOS code contribution compliance requirements](Software-Projects/Contribution-Compliance-Requirements.md) while participants to standard projects will need to comply with the [FINOS Standard Governance IP requirements](/docs/governance/Standards-Projects/intro#requirements-of-standards-project-participants). Only FINOS members instead can propose new FINOS projects as outlined in our [Community Governance](#community-governance) below.
+**NOTE**: Membership is NOT required to contribute to existing FINOS projects, but contributors to software projects will need to comply with the [FINOS code contribution compliance requirements](/docs/governance/Software-Projects/Contribution-Compliance-Requirements) while participants to standard projects will need to comply with the [FINOS Standard Governance IP requirements](/docs/governance/Standards-Projects/intro#requirements-of-standards-project-participants). Only FINOS members instead can propose new FINOS projects as outlined in our [Community Governance](#community-governance) below.
 
 ## Governing Board
 
-The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representatives and led by FINOS Executive Director. The Governing Board is composed of Platinum Representatives, each appointed by a Platinum member; up to five Gold Representatives, elected by the Gold Members voting as a class; and one Silver Representative, elected by the Silver Members voting as a class. FINOS uses [ranked-choice voting](Board-Election-Procedure.md) to tabulate elections.
+The Foundation is overseen by a [Governing Board](https://finos.org/board-of-directors/) composed of member representatives and led by FINOS Executive Director. The Governing Board is composed of Platinum Representatives, each appointed by a Platinum member; up to five Gold Representatives, elected by the Gold Members voting as a class; and one Silver Representative, elected by the Silver Members voting as a class. FINOS uses [ranked-choice voting](Board-Election-Procedure) to tabulate elections.
 
 The Foundation's day-to-day operations are run by the [FINOS team](https://finos.org/team).
 
@@ -29,9 +29,9 @@ The following policies apply to all FINOS members and activities:
 
 * The [Participation Agreement](/governance-docs/Participation-Agreement.pdf) is the agreement that all of our members sign to join FINOS. It sets membership fees and terms and binds members to the terms of the [Charter](https://www.finos.org/hubfs/FINOS%20Charter.pdf). FINOS members must also be members of the Linux Foundation (at any level) and remain in compliance with LF's [Good Standing Policy](https://www.linuxfoundation.org/good-standing-policy). There is no requirement for membership to participate in the FINOS Community, but only members can propose new projects.
 
-* The [Community Code of Conduct](Code-of-Conduct.md) is the set of principles that participants in the Foundation's collaborative work are expected to abide by to maintain a healthy and inclusive community.
+* The [Community Code of Conduct](Code-of-Conduct) is the set of principles that participants in the Foundation's collaborative work are expected to abide by to maintain a healthy and inclusive community.
 
-* The [IP Policy](/governance-docs/IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](/governance-docs/CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](/governance-docs/ICLA.pdf) (for individual contributors whose contributions are not owned by their employer). FINOS uses [EasyCLA](Software-Projects/EasyCLA.md) to simplify the processes of executing CLAs and managing contributors.
+* The [IP Policy](/governance-docs/IP-Policy.pdf) contains rules related to the intellectual property of FINOS, our members, and contributors. It includes policies for the licensing of contributions to FINOS projects, licensing of FINOS projects to third parties, and licensing of contributions to FINOS technical standards. The policy also requires all contributors to FINOS projects to sign either a [Corporate Contributor License Agreement](/governance-docs/CCLA.pdf) (for corporate/institutional contributors) and [Individual Contributor License Agreement](/governance-docs/ICLA.pdf) (for individual contributors whose contributions are not owned by their employer). FINOS uses [EasyCLA](/docs/governance/Software-Projects/EasyCLA) to simplify the processes of executing CLAs and managing contributors.
 
 * The [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf) list the Foundation's trademarks and set out our policies for appropriate use of FINOS project marks.
 
@@ -43,22 +43,21 @@ FINOS is home to two kinds of [collaborative projects](https://landscape.finos.o
 
 FINOS also hosts **Special Interest Groups (SIGs)** which are forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects).
 
-All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles.md), [Meeting Procedures](Meeting-Procedures.md) and recommended to follow [Branding Guidelines](/docs/governance/project-branding-guidelines).
+All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](Collaborative-Principles), [Meeting Procedures](Meeting-Procedures) and recommended to follow [Branding Guidelines](/docs/governance/project-branding-guidelines).
 
 For a list of our project see the [FINOS project landscape](https://landscape.finos.org).
 
 ## Open Source Software Projects
 
-FINOS is home to dozens of open source projects. Any FINOS member (and only FINOS members) may propose a new project or sponsor a project from an outside contributor. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board. Please refer to the [contribution process](Software-Projects/Contribution.md) if you'd like to propose a new software project or contribute to an existing one. 
+FINOS is home to dozens of open source software projects. Any FINOS member (and only FINOS members) may propose a new project or sponsor a project from an outside contributor. Project proposals are reviewed and approved by the FINOS team in consultation with the Governing Board. Please refer to the [contribution process](/docs/governance/Software-Projects/Contribution) if you'd like to propose a new software project or contribute to an existing one. 
 
 The [default governance policy](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md) for FINOS open source software projects follows a governance-by-contribution model. Project maintainers have the last word on technical matters, reaching decisions by consensus if possible and by vote if necessary. Anyone who has made a substantial contribution (of any kind) to the project may be nominated to become a maintainer.
 
 ## Open Standard Projects
 
-Information about FINOS open standards project governance can be found in the [Standards-Projects page](/docs/governance/Standards-Projects/intro). New FINOS standards projects are recommended to use the Joint Development Foundation [Community Specification](https://github.com/finos/standards-project-blueprint) process for standards development (earlier standards projects are governed by detailed IP rules set out in the [FINOS IP Policy](/governance-docs/IP-Policy.pdf)). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed appropriately to all standard users and implementers. Please create a [new Standard Project issue](https://github.com/finos/community/issues/new?assignees=agitana%2C+maoo%2C+TheJuanAndOnly99&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding) if you'd like to propose a new standard project (FINOS Members only).
+Projects producing open standards require different IP rules detailing how to [Establish and Running Open Standard Projects](/docs/governance/Standards-Projects/intro). New FINOS standards projects are recommended to use the [Community Specification](https://github.com/finos/standards-project-blueprint) process for standards development (earlier standards projects are governed by the, now deprecated, detailed IP rules set out in the [FINOS IP Policy](/governance-docs/IP-Policy.pdf)). All participants in standards projects are bound by these rules, even if their only contribution is participation in project meetings. This is to ensure that any specification or other materials produced by a standards project may be licensed appropriately to all standard users and implementers. Please create a [new Standard Project issue](https://github.com/finos/community/issues/new?assignees=agitana%2C+maoo%2C+TheJuanAndOnly99&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding) if you'd like to propose a new standard project (FINOS Members only).
 
 ## Special Interest Groups
-
 Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, including a Charter and  initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. The Charter may also be updated from time to time with udpates published publicly. Read more for [a list of current SIGs](/docs/governance/special-interest-groups/intro) and how to propose a new SIG.
 
 All participants in SIGs are subject to [FINOS Policies](#policies) and [Community Governance](#community-governance) including complying with [Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy) and [Community Code of Conduct](https://www.finos.org/code-of-conduct).
@@ -68,7 +67,6 @@ Documents produced or contributed as part of the SIG will be contributed and mad
 # Project Lifecycle and steering
 
 ## Project Lifecycle
-
 Software projects follow the [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
 
 The FINOS team approves lifecycle transitions following objective criteria detailed for [Incubating](/docs/governance/software-projects/stages/incubating) and [Active](/docs/governance/software-projects/stages/active) projects. 
