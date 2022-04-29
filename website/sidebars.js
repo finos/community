@@ -49,7 +49,7 @@ module.exports = {
       },
        {
         type: "link", 
-        label: "Open Standard Projects",
+        label: "Standard Projects Governance",
         href:"/docs/governance/intro#open-standard-projects"
       },      
       "governance/special-interest-groups/intro",
