@@ -10,7 +10,6 @@ module.exports = {
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
-  gtag: {},
   // onBrokenLinks: 'log',
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
@@ -107,6 +106,10 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        gtag: {
+          trackingID: 'G-Q2K0WLVFHP',
+          anonymizeIP: true,
+        },
         docs: {
           path: '../docs',
           editUrl:
@@ -115,12 +118,7 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        },
-        gtag: {
-          trackingID: 'G-Q2K0WLVFHP',
-          anonymizeIP: true,
         }
-
       }
     ]
   ]
