@@ -1190,7 +1190,7 @@
     "@docsearch/css" "3.0.0"
     algoliasearch "^4.0.0"
 
-"@docusaurus/core@2.0.0-beta.18", "@docusaurus/core@^2.0.0-alpha.50":
+"@docusaurus/core@2.0.0-beta.18":
   version "2.0.0-beta.18"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-beta.18.tgz#44c6eefe29257462df630640a35f0c86bd80639a"
   integrity sha512-puV7l+0/BPSi07Xmr8tVktfs1BzhC8P5pm6Bs2CfvysCJ4nefNCD1CosPc1PGBWy901KqeeEJ1aoGwj9tU3AUA==
@@ -1394,7 +1394,7 @@
     "@docusaurus/utils-validation" "2.0.0-beta.18"
     tslib "^2.3.1"
 
-"@docusaurus/plugin-google-gtag@2.0.0-beta.18", "@docusaurus/plugin-google-gtag@^2.0.0-alpha.50":
+"@docusaurus/plugin-google-gtag@2.0.0-beta.18":
   version "2.0.0-beta.18"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-2.0.0-beta.18.tgz#b51611ac01915523ddcfc9732f7862cf4996a0e1"
   integrity sha512-h7vPuLVo/9pHmbFcvb4tCpjg4SxxX4k+nfVDyippR254FM++Z/nA5pRB0WvvIJ3ZTe0ioOb5Wlx2xdzJIBHUNg==
@@ -1416,7 +1416,7 @@
     sitemap "^7.1.1"
     tslib "^2.3.1"
 
-"@docusaurus/preset-classic@^2.0.0-alpha.50":
+"@docusaurus/preset-classic@2.0.0-beta.18":
   version "2.0.0-beta.18"
   resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-beta.18.tgz#82f6905d34a13e46289ac4d2f1125e47033bd9d8"
   integrity sha512-TfDulvFt/vLWr/Yy7O0yXgwHtJhdkZ739bTlFNwEkRMAy8ggi650e52I1I0T79s67llecb4JihgHPW+mwiVkCQ==
