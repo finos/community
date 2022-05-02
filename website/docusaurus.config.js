@@ -10,7 +10,7 @@ module.exports = {
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
-  // onBrokenLinks: 'log',
+  onBrokenLinks: 'log',
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
   },
