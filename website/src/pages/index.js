@@ -123,7 +123,7 @@ function Home() {
             <div className="container">
               <h2>Join the FINOS Slack</h2>
               <div className="row">
-                <p>Join the FINOS Project, SIG and wider community conversation in the FINOS Community Slack. If you are an employee of a [FINOS Member](https://finos.org/members), corporate firewall restrictions allowing, you should be able to self-subscribe at https://finos-lf.slack.com/signup. If you are not a FINOS Member or have any trouble joining, please email to help@finos.org with your desired email address and we'll set you up.</p>
+                <p>Join the FINOS Projects, SIG and wider community conversation in the FINOS Community Slack. If you are an employee of a [FINOS Member](https://finos.org/members), corporate firewall restrictions allowing, you should be able to self-subscribe at https://finos-lf.slack.com/signup. If you are not a FINOS Member or have any trouble joining, please email to help@finos.org with your desired email address and we'll set you up.</p>
                 <p>The FINOS Community wide channel on Slack is reachable directly at https://finos-lf.slack.com/messages/finos-community/. We warmly encourage existing community contributors to invite their peers to join the collaboration and the open source fun :)</p>
                 </div>
             </div>
