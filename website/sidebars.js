@@ -27,7 +27,7 @@ module.exports = {
           {
             type: "link", 
             label: "Intro",
-            href:"/docs/governance/intro#open-source-software-projects"
+            href:"/docs/governance/#open-source-software-projects"
           },
           "governance/Software-Projects/contribution",
           "governance/Software-Projects/code-transfer",
