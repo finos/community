@@ -50,7 +50,7 @@ module.exports = {
        {
         type: "link", 
         label: "Standard Projects Governance",
-        href:"/docs/governance/intro#open-standard-projects"
+        href:"/docs/governance/#open-standard-projects"
       },      
       "governance/special-interest-groups/intro",
     ],
