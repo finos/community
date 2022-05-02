@@ -21,7 +21,6 @@ All the documentation in this website (anything in the /docs and /website folder
   - [New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding)
   - [New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)
 - [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
-- 
 
 ### Resources
 - [FINOS Website](https://finos.org)
