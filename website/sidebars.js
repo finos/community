@@ -95,7 +95,8 @@ module.exports = {
             "development-infrastructure/code-validation/sonarcloud",
             "development-infrastructure/code-validation/whitesource"
             ]
-          }
+          },
+          "governance/meeting-procedures"
         ]
       },
       {
