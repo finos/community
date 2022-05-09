@@ -53,6 +53,7 @@ module.exports = {
         href:"/docs/governance/#open-standard-projects"
       },      
       "governance/special-interest-groups/intro",
+      "governance/meeting-procedures"
     ],
     'Project Collaboration': [
       {
@@ -95,8 +96,7 @@ module.exports = {
             "development-infrastructure/code-validation/sonarcloud",
             "development-infrastructure/code-validation/whitesource"
             ]
-          },
-          "governance/meeting-procedures"
+          }
         ]
       },
       {
