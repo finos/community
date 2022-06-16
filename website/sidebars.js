@@ -53,6 +53,7 @@ module.exports = {
         href:"/docs/governance/#open-standard-projects"
       },      
       "governance/special-interest-groups/intro",
+      "governance/meeting-procedures"
     ],
     'Project Collaboration': [
       {
