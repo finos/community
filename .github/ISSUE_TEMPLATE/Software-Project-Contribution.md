@@ -152,6 +152,10 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 - [ ] Configure `finos-admins` (`Maintain` role) and `finos-staff` (`Triage` role) team permissions
+- [ ] Set up Branch protection
+    - [ ] `main` branch matching
+    - [ ] **Require a pull request before merging** enabled
+    - [ ] **Require status checks to pass before merging** enabled
 
 
 ## Infra setup (Lead: FINOS Infra)
