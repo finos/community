@@ -79,7 +79,7 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 - [ ] Add SIG Leads GitHub usernames to the project-maintainers Team
 
 ## Update FINOS SIG Roster
-- [ ] [FINOS Governance](https://community.finos.org/docs/governance/special-interest-groups/intro)
+- [ ] [FINOS Governance](https://community.finos.org/docs/governance/special-interest-groups)
 
 ## Announcement (Lead: FINOS POC)
 - [ ] Work with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution).
