@@ -2,7 +2,7 @@
 id: contribution
 title: Contributing to FINOS
 ---
-There's a several ways you can contribute to our existing projects and SIGS, as well as [FINOS Members](https://finos.org/members) can propose new projects for contribution. Take a look at the diagram below for an overall picture of how contributions flow into FINOS:
+There are several ways you can contribute to our existing projects and SIGs, and [FINOS Members](https://finos.org/members) can propose new projects for contribution. Take a look at the diagram below for an overall picture of how contributions flow into FINOS:
 
 ![FINOS Contribution Process](/finos-contribution-process.png)
 
