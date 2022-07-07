@@ -54,7 +54,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Run kick-off meeting
     - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
     - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
-    - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance/intro)
+    - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
     - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
     - [ ] Walk through the checklist, answer questsion and remove items that don't apply
     - [ ] Write and send contribution proposal announcement (optional - see below)
