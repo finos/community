@@ -11,7 +11,7 @@ Virtually all FINOS hosted projects are expected to strive towards, and ultimate
 
 An active lifecycle status badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
 
-The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/intro#project-lifecycle).
+The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/#project-lifecycle).
 
 ### What does activation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 

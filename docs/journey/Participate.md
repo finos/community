@@ -36,7 +36,7 @@ If/ once the project is approved, the FINOS team will create the project based o
 **NOTE**: Only FINOS Members are allowed to propose new contributions or you will need at least one Member to support / vouch you contribution.
 
 ## Contributing to an Open Standard project
-Given their non-code nature, FINOS [Open Standard projects](https://landscape.finos.org/?license=csla-1-0,finos-ip-policy,isda-developer-license) follow a [different governance](https://community.finos.org/docs/governance/intro#open-standard-projects) and rules for participation will be documented in the standard specific documentation.
+Given their non-code nature, FINOS [Open Standard projects](https://landscape.finos.org/?license=csla-1-0,finos-ip-policy,isda-developer-license) follow a [different governance](https://community.finos.org/docs/governance/#open-standard-projects) and rules for participation will be documented in the standard specific documentation.
 
 Once you have identified a project you'd like to participate to take a look at [the FINOS Community calendar](https://www.finos.org/finos-community-calendar) to attend the next the next standard meeting. Agendas will be published in advance typically in the project github issues. 
 
