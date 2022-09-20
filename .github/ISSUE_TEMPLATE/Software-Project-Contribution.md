@@ -107,7 +107,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
   - [ ] GitHub Issues (_public_)
   - [ ] GitHub Discussions (_public_)
   - [ ] GitHub Team Discussions (_public_ and _private_ **FINOS CLAs Required**)
-  - [ ] Google Groups
+  - [ ] Mailing-list (groups.io)
 - Synchronous
   - [ ] FINOS Slack Channel (general _public Slack_ / leadership _private Slack_)
 - [ ] Create the identified communication channels during infra set up
