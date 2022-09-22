@@ -129,10 +129,9 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
 - [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are checked and documented below
 
-## Approval (Lead: FINOS Infra)
-- [ ] Assign issue to Executive Director (@mindthegab) to trigger voting
-- [ ] (optional) if additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
-- [ ] FINOS accepts the contribution (and the contribution process can move forward)
+## Approval (Lead: FINOS TSC)
+- [ ] FINOS TSC approves the contribution
+- [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
 
 ## Code transfer (Lead: FINOS Infra)
 - [ ] Backup (even with screenshot) GitHub permissions of the repository to transfer
