@@ -8,6 +8,19 @@ assignees: mcleo-d
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
 
+
+# Onboarding Process
+
+Completing an onboarding of a project into FINOS requires following these 4 main steps:  
+
+1.  [Describing the Contribution](#describing-the-contribution)
+2.  [Approval]()
+3.  [Preparing for Contribution]()
+4.  [Onboarding]()
+
+
+# Describing The Contribution
+
 ## Business Problem
 *Describe the business problem the contribution solves*
  
