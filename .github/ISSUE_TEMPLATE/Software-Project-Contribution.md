@@ -3,7 +3,6 @@ name: "\U0001F58ASoftware Project Contribution and Onboarding"
 about: To Contribute a Software Project to FINOS
 title: Software Project Contribution and Onboarding
 labels: contribution
-assignees: mcleo-d
 
 ---
 Please note that only FINOS members can propose new projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
@@ -13,13 +12,14 @@ Please note that only FINOS members can propose new projects. If you're interest
 
 Completing an onboarding of a project into FINOS requires following these 4 main steps:  
 
-1.  [Describing the Contribution](#describing-the-contribution)
-2.  [Approval]()
-3.  [Preparing for Contribution]()
-4.  [Onboarding]()
-
+1.  Describing the Contribution _performed by contributor_
+2.  FINOS Approval _performed by FINOS_
+3.  Preparing for Contribution _performed by contributor_
+4.  Onboarding _completed by FINOS_
 
 # Describing The Contribution
+
+This is a list of questions that need to be answered by the contributor in order to allow a new project to pass to the approval stage of onboarding.
 
 ## Business Problem
 *Describe the business problem the contribution solves*
@@ -36,30 +36,52 @@ Completing an onboarding of a project into FINOS requires following these 4 main
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
+ - [ ] GitHub / GitLab Repository _(delete as appropriate)_
+ - [ ] @finos-admin has been given read-only permissions if private
+ - [ ] High-Level Presentation prepared for Technical Steering Committee _(~15 mins)_
+ - [ ] Existing Project Documentation ( URL / microsite / PDF etc) _detail here_. 
+
 ## Development Team
 ### Maintainers
-*Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub.com username.*
+*Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub / GitLab username.*
+
+|Name                        |Work Email Address.                             |Github / GitLab username|
+|----------------------------|------------------------------------------------|------------------------|
+|John Example                |john@example.com                                |@johnexampleabc         |
+|Jane Example                |jane@example.com                                |@janeexamplexyz         |
+
 
 ### Confirmed contributors
 *If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
+
+|Name                        |Work Email Address.                             |Github / GitLab username|
+|----------------------------|------------------------------------------------|------------------------|
+|Contributor1 Example        |con1@example.com                                |@con1xampleabc          |
+|Contributor2 Example        |con2@example.com                                |@con2examplexyz         |
+
 
 ### Target Contributors
 *Describe the contributor profile (background, position, organization) you would like to get contributions from*
 
 ## Infrastructure needs
 *Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure*
+
 - [ ] Recurring meetings
 - [ ] Mailing list
 - [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
 - [ ] Other (please explain):
 
-# What's next?
-Upon submission of this project proposal, the FINOS team will get in touch with you to discuss next steps. 
+# Finally...
 
------
+ - [ ] All the above sections are completed / ticked
+ - [ ] Notify help@finos.org that you have completed the _describing the contribution_ section. 
 
-# Contribution process (v. 1.1, last updated on December 20, 2021)
-Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS contribution process.
+
+
+
+# FINOS Approval
+
+Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS approval process.
 **Please do not edit these contents at contribution time!**
 
 ## Kick-off meeting
