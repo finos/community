@@ -14,10 +14,10 @@ Completing an onboarding of a project into FINOS requires following these 4 main
 
 1.  Describing the Contribution _performed by contributor_
 2.  FINOS Approval _performed by FINOS_
-3.  Preparing for Contribution _performed by contributor_
+3.  Preparing for Onboarding _performed by contributor_
 4.  Onboarding _completed by FINOS_
 
-# Describing The Contribution
+# 1. Describing The Contribution
 
 This is a list of questions that need to be answered by the contributor in order to allow a new project to pass to the approval stage of onboarding.
 
@@ -36,12 +36,24 @@ This is a list of questions that need to be answered by the contributor in order
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
- - [ ] GitHub / GitLab Repository _(delete as appropriate)_
- - [ ] @finos-admin has been given read-only permissions if private
+ - Project Repository
+   - [ ] GitHub / GitLab Repository _(delete as appropriate)_
+   - [ ] URL for the repository _(if it exists)_
+   - [ ] Project Name _(enter here)_
+   - [ ] @finos-admin has been given read-only permissions if private
+
+ - [ ] Does the name have a registered trademark? _(yes / no)_
+ - [ ] Is there a logo? _(yes / no)_
  - [ ] High-Level Presentation prepared for Technical Steering Committee _(~15 mins)_
  - [ ] Existing Project Documentation ( URL / microsite / PDF etc) _detail here_. 
+ - [ ] Is Continuous Integration used? _If so, which system is used?_
+ - [ ] Was the project ever released? If so, are releases public? And what's the latest released version?
+ - [ ] Are meetings currently held for the project?
+ - [ ] Are meeting minutes, agenda and attendance tracked?
+ - [ ] Does the name have a registered trademark?
 
 ## Development Team
+
 ### Maintainers
 *Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub / GitLab username.*
 
@@ -71,15 +83,22 @@ This is a list of questions that need to be answered by the contributor in order
 - [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
 - [ ] Other (please explain):
 
+## Project Communication Channel(s)
+- [ ] Contributor to ask maintainers which communications channels they'd like to use:
+- Asynchronous
+  - [ ] GitHub Issues (_public_)
+  - [ ] GitHub Discussions (_public_)
+  - [ ] GitHub Team Discussions (_public_ and _private_ **FINOS CLAs Required**)
+  - [ ] Mailing-list (groups.io)
+- Synchronous
+  - [ ] FINOS Slack Channel (general _public Slack_ / leadership _private Slack_)
+
 # Finally...
 
  - [ ] All the above sections are completed / ticked
  - [ ] Notify help@finos.org that you have completed the _describing the contribution_ section. 
 
-
-
-
-# FINOS Approval
+# 2. FINOS Approval
 
 Below is the list of tasks that FINOS Team and the contribution author go through in order to complete the FINOS approval process.
 **Please do not edit these contents at contribution time!**
@@ -91,7 +110,7 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
     - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
     - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
-    - [ ] Walk through the checklist, answer questsion and remove items that don't apply
+    - [ ] Walk through the checklist, answer questions and remove items that don't apply
     - [ ] Write and send contribution proposal announcement (optional - see below)
 
 ## FINOS Contrib POC
@@ -111,12 +130,34 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
    Thanks a lot,
    ```
 
+## Technical Steering Committee Approval
+- [ ] Prioritise this issue on the TSC Backlog
+- [ ] Assign this issue to the TSC
+- [ ] TSC to invite contributors to present their project
+- [ ] FINOS TSC approves the contribution
+- [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
+
+## TSC Findings / Report
+*TSC to enter findings summary here.*
+
+# 3. Preparing For Onboarding
+
+Before the FINOS team can onboard your project, there are a few housekeeping that need to be taken care of.
+
+## Code validation 
+- [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
+- [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
+- [ ] (optional - if a build system is provided) The build process runs successfully
+- [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
+- [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
+- [ ] Apply project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
+    - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
+- [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are checked and documented below
+
 ## Identify project meta (Lead: FINOS Contrib POC, Support: FINOS Marketing)
-- Project main coordinates
-    - [ ] Project Name
-    - [ ] Project Slug
-    - [ ] Does the name have a registered trademark?
-    - [ ] Request logo design (if needed)
+- [ ] Project Slug _(a short name that forms part of the url.  E.g. `test` at the end of https://github.com/finos/test)_
+- [ ] Does the name have a registered trademark?
+- [ ] Request logo design (if needed)
 - [ ] Category and sub-category (for [FINOS Landscape](https://landscape.finos.org/))
 - [ ] Is there existing code? If so, is it public? If not, can you grant read access to user github.com/finos-admin ?
 - [ ] Was the project ever released? If so, are releases public? And what's the latest released version?
@@ -164,10 +205,6 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
 - [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are checked and documented below
 
-## Approval (Lead: FINOS TSC)
-- [ ] FINOS TSC approves the contribution
-- [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
-
 ## Code transfer (Lead: FINOS Infra)
 - [ ] Backup (even with screenshot) GitHub permissions of the repository to transfer
 - [ ] Check GitHub repository transfer requirements:
@@ -186,6 +223,17 @@ Below is the list of tasks that FINOS Team and the contribution author go throug
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
 - [ ] Configure `finos-admins` (`Maintain` role) and `finos-staff` (`Triage` role) team permissions
+
+
+## Communication Channels
+- [ ] Create the identified communication channels during infra set up
+    - [ ] Create mailing-list on lists.finos.org (optional)
+        - [ ] Enable Hubspot Sync for all project mailing lists created
+        - [ ] Aggregate mailing lists to community@finos.org
+        - [ ] Update marketing lists
+          - Add new list to the included "Email List" part of the filter
+          - Add new list to the excluded "Email" part of the filter
+- [ ] Link communication channels linked front and center in the project README.md
 
 
 ## Infra setup (Lead: FINOS Infra)
