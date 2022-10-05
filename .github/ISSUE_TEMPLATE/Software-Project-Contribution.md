@@ -72,7 +72,7 @@ This is a list of questions that need to be answered by the contributor in order
 
 
 ### Target Contributors
-*Describe the contributor profile (background, position, organization) you would like to get contributions from*
+*Describe the contributor profile (background, position, organization) you would like to get contributions from.*
 
 ## Infrastructure needs
 *Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure.  Remove items if not required. *
