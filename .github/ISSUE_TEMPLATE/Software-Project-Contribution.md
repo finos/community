@@ -36,21 +36,20 @@ This is a list of questions that need to be answered by the contributor in order
 ## Existing Materials
 *If materials already exist, provide a link to them that Foundation staff can access - if it's in a private GitHub.com repositories, you should invite the finos-admin user with R/O permissions to those repositories*
 
- - Project Repository
-   - [ ] GitHub / GitLab Repository _(delete as appropriate)_
+ - [ ] GitHub / GitLab Repository _(delete as appropriate)_
    - [ ] URL for the repository _(if it exists)_
    - [ ] Project Name _(enter here)_
    - [ ] @finos-admin has been given read-only permissions if private
-
+ - [ ] Is Continuous Integration used? _If so, which system is used?_
+ - [ ] Was the project ever released? _(yes / no)_ 
+   - [ ] If so, are releases public? _(yes / no)_ 
+   - [ ] And what's the latest released version?
+ - [ ] Existing Project Documentation _( URL / microsite / PDF etc detail here)_
  - [ ] Does the name have a registered trademark? _(yes / no)_
  - [ ] Is there a logo? _(yes / no)_
  - [ ] High-Level Presentation prepared for Technical Steering Committee _(~15 mins)_
- - [ ] Existing Project Documentation ( URL / microsite / PDF etc) _detail here_. 
- - [ ] Is Continuous Integration used? _If so, which system is used?_
- - [ ] Was the project ever released? If so, are releases public? And what's the latest released version?
- - [ ] Are meetings currently held for the project?
- - [ ] Are meeting minutes, agenda and attendance tracked?
- - [ ] Does the name have a registered trademark?
+ - [ ] Are meetings currently held for the project? _(yes / no + details)_
+ - [ ] Are meeting minutes, agenda and attendance tracked? _(yes / no + details)_
 
 ## Development Team
 
@@ -76,22 +75,27 @@ This is a list of questions that need to be answered by the contributor in order
 *Describe the contributor profile (background, position, organization) you would like to get contributions from*
 
 ## Infrastructure needs
-*Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure*
+*Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure.  Remove items if not required. *
 
-- [ ] Recurring meetings
-- [ ] Mailing list
 - [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
-- [ ] Other (please explain):
+- [ ] Other _(please explain)_
 
 ## Project Communication Channel(s)
+*Remove items if not required*
+
 - [ ] Contributor to ask maintainers which communications channels they'd like to use:
 - Asynchronous
-  - [ ] GitHub Issues (_public_)
-  - [ ] GitHub Discussions (_public_)
-  - [ ] GitHub Team Discussions (_public_ and _private_ **FINOS CLAs Required**)
+  - [ ] GitHub Issues _(public)_
+  - [ ] GitHub Discussions _(public)_
+  - [ ] GitHub Team Discussions _(consisting of the above described contributors)_
+    - [ ] Public
+    - [ ] Private
   - [ ] Mailing-list (groups.io)
+  - [ ] FINOS Slack Channel (consisting of the above described contributors)
+    - [ ] General _(public Slack)_ 
+    - [ ] Leadership _(private Slack)_
 - Synchronous
-  - [ ] FINOS Slack Channel (general _public Slack_ / leadership _private Slack_)
+  - [ ] Recurring meetings
 
 # Finally...
 
