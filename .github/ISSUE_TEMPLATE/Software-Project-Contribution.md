@@ -56,19 +56,19 @@ This is a list of questions that need to be answered by the contributor in order
 ### Maintainers
 *Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub / GitLab username.*
 
-|Name                        |Work Email Address.                             |Github / GitLab username|
-|----------------------------|------------------------------------------------|------------------------|
-|John Example                |john@example.com                                |@johnexampleabc         |
-|Jane Example                |jane@example.com                                |@janeexamplexyz         |
+|Name                        |Affiliation              |Work Email Address             |Github / GitLab username              |
+|----------------------------|-------------------------|-------------------------------|--------------------------------------|
+|John Example                |Example LTD              |john@example.com               |@johnexampleabc                       |
+|Jane Example                |Example LTD              |jane@example.com               |@janeexamplexyz                       |
 
 
 ### Confirmed contributors
 *If applicable, list all of the individuals that have expressed interest in and/or are committed to contributing to this project, including full name, affiliation, work email address, and GitHub.com username*
 
-|Name                        |Work Email Address.                             |Github / GitLab username|
-|----------------------------|------------------------------------------------|------------------------|
-|Contributor1 Example        |con1@example.com                                |@con1xampleabc          |
-|Contributor2 Example        |con2@example.com                                |@con2examplexyz         |
+|Name                        |Affiliation              |Work Email Address             |Github / GitLab username              |
+|----------------------------|-------------------------|-------------------------------|--------------------------------------|
+|Contributor1 Example        |Example LTD              |con1@example.com               |@con1xampleabc                        |
+|Contributor2 Example        |Example LTD              |con2@example.com               |@con2examplexyz                       |
 
 
 ### Target Contributors
