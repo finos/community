@@ -92,8 +92,8 @@ _Describe the FINOS infrastructure you will need for this project, in addition t
     - [ ] Private
   - [ ] Mailing-list (groups.io)
   - [ ] FINOS Slack Channel (consisting of the above described contributors)
-    - [ ] General _(public Slack)_ 
-    - [ ] Leadership _(private Slack)_
+    - [ ] General (public) _(supply channel name)_ 
+    - [ ] Leadership (private) _(supply channel name)_
 - Synchronous
   - [ ] Recurring meetings
 
