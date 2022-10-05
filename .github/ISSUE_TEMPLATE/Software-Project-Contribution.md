@@ -75,7 +75,7 @@ This is a list of questions that need to be answered by the contributor in order
 *Describe the contributor profile (background, position, organization) you would like to get contributions from.*
 
 ## Infrastructure needs
-*Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure.  Remove items if not required. *
+_Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure.  Remove items if not required._
 
 - [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
 - [ ] Other _(please explain)_
