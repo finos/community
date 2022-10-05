@@ -12,10 +12,10 @@ Please note that only FINOS members can propose new projects. If you're interest
 
 Completing an onboarding of a project into FINOS requires following these 4 main steps:  
 
-1.  Describing the Contribution _led by contributor_
-2.  FINOS Approval _led by FINOS Point of Contact (POC)_
-3.  Preparing for Onboarding _led by contributor_
-4.  Onboarding _completed by FINOS Infra_
+1.  **Describing the Contribution** _led by contributor_
+2.  **FINOS Approval** _led by FINOS Point of Contact (POC)_
+3.  **Preparing for Onboarding** _led by contributor_
+4.  **Onboarding** _completed by FINOS Infra_
 
 # 1. Describing The Contribution
 
