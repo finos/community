@@ -21,6 +21,15 @@ Completing an onboarding of a project into FINOS requires following these 4 main
 
 This is a list of questions that need to be answered by the contributor in order to allow a new project to pass to the approval stage of onboarding.
 
+## Understanding FINOS Onboarding Requirements
+
+As a project onboarding into FINOS, you will need to familiarize yourself and your contributor team with the following materials:
+
+  - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
+  - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
+  - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
+  - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
+
 ## Business Problem
 *Describe the business problem the contribution solves*
  
@@ -111,12 +120,8 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 ## Kick-off meeting
 - [ ] Set up kick-off meeting with project leads
 - [ ] Run kick-off meeting
-    - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
-    - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
-    - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
-    - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
-    - [ ] Walk through the checklist in part 1, ensure all the questions are answered and remove items that don't apply
-    - [ ] Write and send contribution proposal announcement (optional - see below)
+  - [ ] Walk through the checklist in part 1, ensure all the questions are answered and remove items that don't apply
+  - [ ] Write and send contribution proposal announcement (optional - see below)
 
 ## FINOS Contrib POC
 - [ ] Identify and Assign FINOS Project Coordinator
