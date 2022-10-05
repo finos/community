@@ -106,7 +106,7 @@ _Describe the FINOS infrastructure you will need for this project, in addition t
 
 Below is the list of tasks that the **FINOS Team** go through in order to complete the FINOS approval process.  At this point, a FINOS Point-of-Contact (POC) should be assigned to this GitHub issue.
 
-**Please do not edit these contents when completing part 1, "describing the contribution" above. **
+**Please do not edit these contents when completing part 1, "describing the contribution" above.**
 
 ## Kick-off meeting
 - [ ] Set up kick-off meeting with project leads
