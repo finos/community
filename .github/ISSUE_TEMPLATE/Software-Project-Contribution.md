@@ -158,6 +158,7 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
 ## Logo / Copyright
  - [ ] Initiate transfer of copyrights to FINOS. 
  - [ ] Request logo design from `help@finos.org` _(if needed)_
+ - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws. _(POC to validate with FINOS Legal team if anything important is raised)_
 
 ## Coding Standards 
 - [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries.  _Enable GitHub actions from [Security Scanning](https://github.com/maoo/security-scanning) to ensure this._
@@ -166,7 +167,6 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
 
 ## FINOS Project Standards
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
-- [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
 - [ ] Apply project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
     - [ ] README.md file contains the sections in the [README Template](https://github.com/finos/software-project-blueprint/blob/main/README.template.md)
     - [ ] Project badge in README
