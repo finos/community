@@ -21,15 +21,6 @@ Completing an onboarding of a project into FINOS requires following these 4 main
 
 This is a list of questions that need to be answered by the contributor in order to allow a new project to pass to the approval stage of onboarding.
 
-## Understanding FINOS Onboarding Requirements
-
-As a project onboarding into FINOS, you will need to familiarize yourself and your contributor team with the following materials:
-
-  - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
-  - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
-  - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
-  - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
-
 ## Business Problem
 *Describe the business problem the contribution solves*
  
@@ -83,12 +74,6 @@ As a project onboarding into FINOS, you will need to familiarize yourself and yo
 ### Target Contributors
 *Describe the contributor profile (background, position, organization) you would like to get contributions from.*
 
-## Infrastructure needs
-_Describe the FINOS infrastructure you will need for this project, in addition to a GitHub repository. The FINOS team will connect with you before setting up any of this infrastructure.  Remove items if not required._
-
-- [ ] A project on the [Legend Studio shared instance](https://community.finos.org/docs/platforms/legend-studio-shared)
-- [ ] Other _(please explain)_
-
 ## Project Communication Channel(s)
 *Remove items if not required*
 
@@ -106,9 +91,14 @@ _Describe the FINOS infrastructure you will need for this project, in addition t
 - Synchronous
   - [ ] Recurring meetings
 
-## Finally...
+## Understanding FINOS Onboarding Requirements
 
- - [ ] All the above sections are completed / ticked
+As a project onboarding into FINOS, you will need to familiarize yourself and your contributor team with the following materials:
+
+ - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
+ - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
+ - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
+ - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
  - [ ] Notify help@finos.org that you have completed the _describing the contribution_ section. 
 
 # 2. FINOS Approval
@@ -155,8 +145,8 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 
 Before the FINOS team can onboard your project, there are a few housekeeping that need to be taken care of.  These must be completed by the contributor, with help if required from the POC or FINOS Infra.   
 
-## Logo / Copyright
- - [ ] Initiate transfer of copyrights to FINOS. 
+## Logo / Trademarks
+ - [ ] Initiate transfer of trademarks to FINOS _(request help from help@finos.org / LF Legal if needed)_
  - [ ] Request logo design from `help@finos.org` _(if needed)_
  - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws. _(POC to validate with FINOS Legal team if anything important is raised)_
 
