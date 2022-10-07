@@ -134,6 +134,7 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 
 - [ ] Prioritise this issue on the [TSC Backlog](https://github.com/orgs/finos/projects/39)
 - [ ] Assign this issue to @colineberhardt
+- [ ] Add the `ready-for-tsc` label
 - [ ] TSC to invite contributors to present their project
 - [ ] FINOS TSC approves/rejects the contribution
 - [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
