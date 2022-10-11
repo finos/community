@@ -3,7 +3,7 @@ id: intro
 title: Special Interest Groups
 ---
 
-Special Interest Groups provide a venue to discuss and compare notes on a common topic of interest. SIGs governance is documented [here](/docs/governance/intro#special-interest-groups). 
+Special Interest Groups provide a venue to discuss and compare notes on a common topic of interest. SIGs governance is documented [here](/docs/governance#special-interest-groups). 
 
 Here's a list of special interest groups (SIGs) currently active in FINOS:
 
