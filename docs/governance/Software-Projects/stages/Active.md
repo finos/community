@@ -57,6 +57,13 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
 
+## Obtaining the OpenSSF Best Practices Badge
+The Open Source Security Foundation (OpenSSF) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice.
+
+In order to achieve an Active status, FINOS requires that every project also meets the OpenSSF Best Practices Badge `pass` criteria prior to requesting activation.
+
+You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or [access the list of criteria](https://github.com/coreinfrastructure/best-practices-badge#summary-of-best-practices-criteria-passing-level); crossovers between the FINOS Activation criteria and the OpenSSF Best Practices Badge are also highlighted in the table below.
+
 # Activation Checklist
 |  | **Activation (promotion to Active State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
@@ -78,6 +85,7 @@ The FINOS team approves lifecycle transitions following objective criteria detai
 |  | **GROWTH & ADOPTION** |       |
 | **Usefulness** | The Project demonstrably solves a real life use case in the Community. Evidence of adoption beyond the contributing individuals or firms (e.g., in the form of download statistics, listing known deployments or implementations, etc.) |  |
 | **Status Badging** | Project Team commits to adopt the FINOS Active badge in the README.md once the FINOS team approves activation, in order to properly signal  the new Project Lifecycle status to adopters. |  |
+| **Status Badging** | Project Team commits to adopt the FINOS Active badge in the README.md once the FINOS team approves activation, in order to properly signal the new Project Lifecycle status to adopters. |  |
 |  | **HYGIENE & OPERATIONS** |       |
 | **Compliance** | The appropriate license text is included in each source file's header. See details and template |  |
 | **Community Inquiries** | Community inquiries on the project channels (mailing lists, issues and pull requests, etc) are generally promptly answered |   |
