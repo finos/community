@@ -54,7 +54,7 @@ The action can be [copied from the ODP GitHub repository](https://github.com/fin
 
 In order to use the action, simply copy the [`Raw` file content](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated) into a file called `.github/workflows/docusaurus.yml` , then push the changes; the action should automatically run and deploy the HTML files into the `gh-pages` branch.
 
-### Docusaurus 2 (alpha)
+### Docusaurus 2
 This document refers to Docusaurus 1.x version.
 
 The new version of docusaurus is currently (March 2020) in alpha, and brings lots of improvements; for those starting to use Docusaurus now, it is strongly suggested to start using this version. This version is built with Docusaurus 2.
@@ -71,13 +71,10 @@ node -v
 Create a Docusaurus project and start the website locally:
 ```
 npm i -g docusaurus-init docusaurus
-mkdir docusaurus-test
-cd docusaurus-test
-docusaurus-init
-mv docs-examples-from-docusaurus docs
-mv website/blog-examples-from-docusaurus website/blog
+git clone git@github.com:finos/software-project-blueprint.git
 cd website
-docusaurus-start
+npm install
+npm start
 ```
 
 ### Directory Structure
