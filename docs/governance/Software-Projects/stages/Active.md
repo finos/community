@@ -88,7 +88,6 @@ You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or
 | **FINOS Support** | Project Team is largely self-sufficient, requiring minimal operational support from FINOS to govern and maintain the project. FINOS support switches to strategic growth of the Project in the Community. |  |
 |  | **GROWTH & ADOPTION** |       |
 | **Usefulness** | The Project demonstrably solves a real life use case in the Community. Evidence of adoption beyond the contributing individuals or firms (e.g., in the form of download statistics, listing known deployments or implementations, etc.) |  |
-| **Status Badging** | Project Team commits to adopt the FINOS Active badge in the README.md once the FINOS team approves activation, in order to properly signal  the new Project Lifecycle status to adopters. |  |
 | **Status Badging** | Project Team commits to adopt the FINOS Active badge in the README.md once the FINOS team approves activation, in order to properly signal the new Project Lifecycle status to adopters. |  |
 |  | **HYGIENE & OPERATIONS** |       |
 | **Compliance** | The appropriate license text is included in each source file's header. See details and template |  |
