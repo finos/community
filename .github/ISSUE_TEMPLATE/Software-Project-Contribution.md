@@ -152,7 +152,7 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
  - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws. _(POC to validate with FINOS Legal team if anything important is raised)_
 
 ## Coding Standards 
-- [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries.  _Enable GitHub actions from [Security Scanning](https://github.com/maoo/security-scanning) to ensure this._
+- [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries.  _Enable GitHub actions from [Security Scanning](https://github.com/finos/security-scanning) to ensure this._
 - [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
 - [ ] (optional - if a build system is provided) The build process runs successfully
 
