@@ -85,11 +85,7 @@ As soon as the project team finds and implements a fix for the vulnerability, al
 5. The log for the Git commit that applied the fix is updated to include the CVE number. Projects that use git as their primary source code control system should not do this as editing a pushed commit causes all sorts of problems.
 
 ## Automating security vulnerabilities
-Using the [WhiteSource integration for GitHub.com](/docs/development-infrastructure/code-validation/whitesource) it is possible to monitor commits, Pull Requests and also scan existing dependencies for new CVE; the .whitesource configuration can either:
-
-1. (Default) Use the [WhiteSource Unified Agent](https://whitesource.atlassian.net/wiki/spaces/WD/pages/33718339/Unified+Agent) and configure your build tools accordingly
-2. Use the [WhiteSource integration for GitHub.com](/docs/development-infrastructure/code-validation/whitesource) to publicly notify the community about the CVE found; this is the standard configuration for project that are either not publicly released yet or haven't been deployed anywhere publicly.
-3. Disable GitHub Issues and request FINOS - by sending an email to [help@finos.org](mailto:help@finos.org) - to configure email notifications; we encourage using personal email addresses or private mailing-lists for this type of communication.
+FINOS provides multiple tools that adapt to languages and build platforms adopted by the project's codebase, please visit the [code validation page](https://community.finos.org/docs/development-infrastructure/code-validation/intro/). 
 
 ## Responsible Disclosure at Apache Software Foundation
 We took great inspiration from the work that the Apache Software Foundation have done; we started from there, then adapted processes and contents around our requirements; below the links describing the ASF responsible disclosure.
