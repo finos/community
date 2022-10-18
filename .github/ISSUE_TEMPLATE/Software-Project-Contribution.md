@@ -10,12 +10,13 @@ Please note that only FINOS members can propose new projects. If you're interest
 
 # Onboarding Process
 
-Completing an onboarding of a project into FINOS requires following these 4 main steps:  
+Completing an onboarding of a project into FINOS requires following these 5 main steps:  
 
 1.  **Describing the Contribution** _led by contributor_
 2.  **FINOS Approval** _led by FINOS Point of Contact (POC)_
 3.  **Preparing for Onboarding** _led by contributor_
 4.  **Onboarding** _completed by FINOS Infra_
+5.  **Announcement** _led by FINOS Point of Contact (POC)_
 
 # 1. Describing The Contribution
 
@@ -107,6 +108,9 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 
 **Please do not edit these contents when completing part 1, "describing the contribution" above.**
 
+## Record The Contribution
+- [ ] Record Contribution as "Exploratory" by sending an email to **LF Legal Representative** with a summary of the **Business Problem** and **Proposed Solution** (above) of the project.
+
 ## Kick-off meeting
 - [ ] Set up kick-off meeting with project leads
 - [ ] Run kick-off meeting
@@ -138,6 +142,7 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 - [ ] TSC to invite contributors to present their project
 - [ ] FINOS TSC approves/rejects the contribution
 - [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
+- [ ] Update the contribution status to "Engaged" by sending another email to **LF Legal Representative** with the name of the project and its new status.
 
 ## TSC Findings / Report
 *TSC to enter findings summary here.*
@@ -230,6 +235,10 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] (optional) Enable meeting attendance tracking
 - [ ] (optional) Onboard into legend.finos.org/studio
 
-## Announcement (Lead: FINOS Contrib POC)
+# 5. Announcement 
+
+(Lead: FINOS Contrib POC)
+
+- [ ] Update the contribution status to "Active" by sending another email to **LF Legal Representative** with the name of the project and its new status.
 - [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements)
-- [ ] Notify FINOS Contrib POC and FINOS marketing (@grizzwolf + finos-marketing internal Slack channel)
+- [ ] Notify FINOS marketing (@grizzwolf + finos-marketing internal Slack channel)
