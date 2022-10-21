@@ -165,7 +165,8 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] Apply project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
     - [ ] README.md file contains the sections in the [README Template](https://github.com/finos/software-project-blueprint/blob/main/README.template.md)
-    - [ ] Project badge in README
+    - [ ] Project FINOS badge in README (incubating)
+    - [ ] [OpenSSF Passing Badge](https://bestpractices.coreinfrastructure.org/en)
     - [ ] License in README
     - [ ] Contributing in README
     - [ ] `CONTRIBUTING.md`
