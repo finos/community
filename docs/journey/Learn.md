@@ -15,7 +15,7 @@ Here are some suggestions to kick off your FINOS journey:
 - Join our [Slack channels](https://finos-lf.slack.com/messages/finos-community/) (email [help@finos](mailto:help@finos.org) if you have issues joining)
 - Learn about [FINOS Projects & Special Interest Groups](http://landscape.finos.org/) and a [Project or SIG Meeting](https://www.finos.org/finos-community-calendar)
 - Learn about the FINOS [Open Source Readiness Initiative](https://finos.org/open-source-readiness) and join [Open Source Readiness Special Interest Group (SIG)](https://osr.finos.org) meeting to improve your firm's participation to Open Source 
-- Learn [how the FINOS Community is governed](/docs/governance/intro)
+- Learn [how the FINOS Community is governed](/docs/governance)
 - [Get in touch with the FINOS team](https://www.finos.org/contact-us?hsLang=en-us) or join [FINOS Office Hours](https://calendar.google.com/event?action=TEMPLATE&tmeid=MXVuM2xpNmc5ajRtaXExNnFrZWEyZGo3aXVfMjAyMjA0MTNUMTUwMDAwWiBmaW5vcy5vcmdfZmFjOG1vMXJmYzZlaHNjZzBkODBmaThqaWdAZw&tmsrc=finos.org_fac8mo1rfc6ehscg0d80fi8jig%40group.calendar.google.com&scp=ALL) with our Community Management team
 
 ## Amazing resources for you to learn more
