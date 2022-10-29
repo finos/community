@@ -201,7 +201,6 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
-- [ ] Check protection settings and disable after transfer if necessary
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
 - [ ] Invite GitHub usernames to GitHub FINOS Org
 - [ ] Create `<project-name>-maintainers` GitHub team and invite users
@@ -232,7 +231,9 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Add project maintainers GitHub usernames to the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members)
 - [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SS), Insights, EasyCLA, Groups.io)
 - [ ] (best effort) Update release coordinates and code namespace to include `finos`
-- [ ] Check security vulnerabilities scanning is in place
+- [ ] Check that CVE (and preferably static code analysis, if applicable) scanning is in place
+- [ ] Enable automated dependency update, using [Renovate](https://renovatebot.com/)
+- [ ] Enable [branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (`Require a pull request before merging`)
 - [ ] (optional) Enable meeting attendance tracking
 - [ ] (optional) Onboard into legend.finos.org/studio
 
