@@ -109,7 +109,7 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 **Please do not edit these contents when completing part 1, "describing the contribution" above.**
 
 ## Record The Contribution
-- [ ] Record Contribution as "Exploratory" by sending an email to **LF Legal Representative** with a summary of the **Business Problem** and **Proposed Solution** (above) of the project.
+- [ ] Submit contribution to LF by opening a ticket via https://jira.linuxfoundation.org/browse/SS and marking contribution as "Exploratory"; attach a summary of the **Business Problem** and **Proposed Solution** (above) of the project.
 
 ## Kick-off meeting
 - [ ] Set up kick-off meeting with project leads
@@ -141,6 +141,7 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 - [ ] Add the `ready-for-tsc` label
 - [ ] TSC to invite contributors to present their project
 - [ ] FINOS TSC approves/rejects the contribution
+- [ ] Ask @jgavronsky to mark contribution as "Engaged" within LF systems
 - [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
 - [ ] Update the contribution status to "Engaged" by sending another email to **LF Legal Representative** with the name of the project and its new status.
 
@@ -230,7 +231,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
     - [ ] Merge PR
 - [ ] Add project maintainers emails to [finos-project-maintainers@finos.org](https://groups.google.com/a/finos.org/g/finos-project-maintainers/members) list
 - [ ] Add project maintainers GitHub usernames to the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members)
-- [ ] Onboard project on LF systems ([SFDC](https://jira.linuxfoundation.org/browse/SS), Insights, EasyCLA, Groups.io)
+- [ ] Ask @jgavronsky to mark contribution as "Active" within LF systems
 - [ ] (best effort) Update release coordinates and code namespace to include `finos`
 - [ ] Check security vulnerabilities scanning is in place
 - [ ] (optional) Enable meeting attendance tracking
