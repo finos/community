@@ -198,6 +198,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 
 ## Code transfer 
 - [ ] Backup (even with screenshot) GitHub permissions of the repository to transfer
+- [ ] Rename main branch to `main` (instead of `master`)
 - [ ] Check GitHub repository transfer requirements:
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
