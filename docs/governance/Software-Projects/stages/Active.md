@@ -32,9 +32,7 @@ In order for a project to become Active, it must be reviewed and the change form
 ## Approval Process
 Activation votes are performed by the Project Lead Maintainer, and only after any outstanding questions or clarifications are answered by the project team.
 
-## Requirements
-
-### Badge
+## Badge
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-active.png" width="150"/>
 
@@ -44,15 +42,12 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 [![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/active)
 ```
 
-## Activation Lifecycle Checklist
-The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://github.com/finos/community/tree/master/governance#project-lifecycle).
-
-### What does activation mean for the consumer? 
+## What does activation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
 
 :dart: The Project produces valuable releases to solve a useful business problem for our Community.
 
-### What does activation mean for the project team?
+## What does activation mean for the project team?
 :star: Glory in the Community 
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
@@ -68,7 +63,7 @@ You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5948/badge)](https://bestpractices.coreinfrastructure.org/projects/5948)
 
-# Activation Checklist
+## Activation Checklist
 |  | **Activation (promotion to Active State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
 |  | **QUALITY & SECURITY** |   |
