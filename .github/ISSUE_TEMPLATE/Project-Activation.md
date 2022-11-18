@@ -7,11 +7,9 @@ assignees: maoo, TheJuanAndOnly99
 
 ---
 # Activation
-Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Active  status](https://community.finos.org/docs/governance/Software-Projects/stages/active). 
+Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Active status](https://community.finos.org/docs/governance/Software-Projects/stages/active) and the related badge. An active badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
 
-An active lifecycle status badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
-
-The FINOS team approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/#project-lifecycle).
+The [Technical Steering Committee](https://github.com/finos/technical-steering-committee) approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/#project-lifecycle).
 
 ### What does activation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
