@@ -4,7 +4,7 @@ const copyrightOwner = 'FINOS'
 
 module.exports = {
   title: `FINOS ${projectName}`,
-  tagline: `FINOS ${projectName} website with detailed information around governance, tooling and best practices of our Community`, 
+  tagline: `FINOS ${projectName} documentation around governance, development infrastructure and best practices of our Community`, 
   url: 'https://finos.org',
   baseUrl: '/',
   favicon: 'img/favicon/favicon-finos.ico',
