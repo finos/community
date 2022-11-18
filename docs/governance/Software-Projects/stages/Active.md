@@ -3,34 +3,23 @@ id: active
 title: The Active stage
 ---
 
-Projects that have been approved for activation transition to the Active state, a formal recognition that **the software is now suitable for production use**.
+Projects that have been approved for activation or graduation (aka transition to the Active state), a formal recognition that **the project is now mature in terms of quality and community**.
 
-Virtually all Foundation-hosted projects are expected to strive towards, and ultimately attain, Active  status. This indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
+Virtually all Foundation-hosted projects are expected to strive towards, and ultimately attain, Active (or Graduated, or Top-Level) status. This indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that represents a solid long term investment.
 
 ## Objectives
-The first priority of a newly Active project is to deploy a `v1.0.0` or higher production-grade version.
-The Foundation expects this to occur soon after activation, ideally within one month.
-
-Once a `v1.0.0` is released, the objectives of the Active lifecycle state primarily involve the project team developing and executing on an ongoing roadmap of features and bug fixes, informed by feedback from the project's user base.
+The objectives of the Active lifecycle state primarily involve the project team developing and executing on an ongoing roadmap of features and bug fixes, informed by feedback from the project's user base. It's also recommended an Active project deploy a `v1.0.0` or higher version, a generally accepted signal of a stable, production-ready version.
 
 ## Releases
-An Active project can use any version number it wishes, although it is expected that virtually all releases from a released project will be `≥ v1.0.0`.  Ecosystem-specific suffixes may also be used for pre-releases (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem).
+An Active project can use any version number it wishes, although generally releases from an Active project will be `≥ v1.0.0`.  Ecosystem-specific suffixes may also be used for pre-releases (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem).
 
-All Active project starting from `v1.0.0` upward must adhere to the version numbering rules defined by semantic versioning, specifically:
+All Active project starting from `v1.0.0` upward must adhere to the version numbering rules defined by [Semantic Versioning](http://semver.org/) ("semver"), specifically:
 - Increment `MAJOR` version when an incompatible change is made
 - Increment `MINOR` version when new functionality is added in a backwards-compatible manner
 - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
 
-**NOTE!**
-The Foundation strongly recommends the use of [Semantic Versioning](http://semver.org/) ("semver") throughout a project's lifecycle.
-
 ## Initiating Activation
-In order for a project to become Active, it must be reviewed and the change formally approved by the Project Lead Maintainer; any project team may initiate this approval process at any time, which involves:
-- Preparing an information packet demonstrating that they've met the requirements for activation (see below for details).
-- Submitting the packet via the project's GitHub Issue.
-
-## Approval Process
-Activation votes are performed by the Project Lead Maintainer, and only after any outstanding questions or clarifications are answered by the project team.
+In order for a project to become Active, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee); any project maintainer may initiate this approval process at any time, but opening a [project activation issue]([url](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Activation.md&title=Project+Activation)) with an information packet demonstrating that they've met the requirements for activation (see below for details).
 
 ## Badge
 
