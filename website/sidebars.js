@@ -122,7 +122,7 @@ module.exports = {
           "growing-your-project-community/finos-community-strategy/create-an-open-profile",
           "growing-your-project-community/finos-community-strategy/measure-finos-project-and-sig-success",
           "growing-your-project-community/finos-community-strategy/recognise-community-achievements",
-          "growing-your-project-community/finos-community-strategy/ensure-finos-project-security",
+          "growing-your-project-community/finos-community-strategy/ensure-finos-project-security", 
         ]
       },
     ]
