@@ -52,24 +52,13 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
 
-## Obtaining the OpenSSF Best Practices Badge
-The Open Source Security Foundation (OpenSSF) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice.
-
-In order to achieve an Active status, FINOS requires that every project also meets the OpenSSF Best Practices Badge `pass` criteria prior to requesting activation.
-
-You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or [access the list of criteria](https://github.com/coreinfrastructure/best-practices-badge#summary-of-best-practices-criteria-passing-level); crossovers between the FINOS Activation criteria and the OpenSSF Best Practices Badge are also highlighted in the table below.
-
-:eyes: :loudspeaker: As soon as you start applying for an OpenSSF badge, even prior to full completion, you'll be able to add the markdown syntax to the top of your project's README.md file, as shown in the example below.
-
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5948/badge)](https://bestpractices.coreinfrastructure.org/projects/5948)
-
 ## Activation Checklist
 |  | **Activation (promotion to Active State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul><p>If Project Team choses not to use the FINOS provided Open Developer Platform (ODP), a comparable SDLC should be adopted and made available.</p> |  |
 | **Build & Release** | <p>The Project code/documentation release process automated or at lest well documented.</p><p>If code is published, publicly redistributed release binaries should be listed or referred to in the documentation (e.g. under the FINOS namespace in an artefact repository or package manager, e.g. NPM, Maven Central, etc.)</p> |   |
-| **Security** | <li>No OWASP Top 10 warnings are present in the code</li> <li>No long-standing medium or higher vulnerabilities (2+ months) and proper security disclosure processes</li> <li>Any cryptographic functions and key lengths used within the software should be identified and vetted with Foundation's legal counsel in order to request compliance with U.S. Export policy.</li> Read more about [FINOS Security vulnerabilities responsible disclosure](https://finosfoundation.atlassian.net/wiki/spaces/FINOS/pages/1230176257/Security+Vulnerabilities+Responsible+Disclosure+Policy) and how to [automate scanning with WhiteSource](https://odp.finos.org/docs/development-infrastructure/code-validation/whitesource/). |
+| **Security** | <li>The project has an [OpenSSF "Passing" badge](#obtaining-the-openssf-best-practices-badge) </li> <li>Maintainers are familiar with the [FINOS Security vulnerabilities responsible disclosure](../cve-responsible-disclosure)</li><li>An automated security scanning tool is enabled on the project (e.g. [FINOS Security Scanning](https://www.finos.org/blog/introducing-finos-security-scanning) or [WhiteSource](/docs/development-infrastructure/code-validation/whitesource))</li>
 | **Documentation** | <p>The README.md must include or reference up to date:</p><ul><li>end user docs, including a description of the software, feature overview, installation & configuration instructions</li><li>developer docs, including links to other external systems (further docs, wiki, CI & validation tools, artefact repository, change log / history, etc.)</li><li>where possible badges (e.g. from shields.io) are encouraged</li><li>sample code explaining how to use the project, library, standard, SDK, etc.</li></ul> |  |
 |  | **DIVERSITY & VIABILITY** |       |
 | **Community** | Project has active participation from 2+ independent individuals and/or organizations; Ideally Project Team members who make contributions in connection with their employment are doing do as part of their regular job duties. |  |
@@ -100,3 +89,14 @@ If you're evaluating Foundation-hosted open source projects and see the released
 - The project is well documented.
 - The project is supported by an engaged project team. While there may not be a formal SLA (depending on the availability of commercial support for the project), bugs and enhancement requests will be triaged and addressed by the team.
 - Backwards compatibility is a priority, and [semantic versioning](http://semver.org/) (or similar) is used to clearly communicate breaking changes.
+
+## Obtaining the OpenSSF Best Practices Badge
+The Open Source Security Foundation (OpenSSF) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice.
+
+In order to achieve an Active status, FINOS requires that every project also meets the OpenSSF Best Practices Badge `pass` criteria prior to requesting activation.
+
+You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or [access the list of criteria](https://github.com/coreinfrastructure/best-practices-badge#summary-of-best-practices-criteria-passing-level); crossovers between the FINOS Activation criteria and the OpenSSF Best Practices Badge are also highlighted in the table below.
+
+:eyes: :loudspeaker: As soon as you start applying for an OpenSSF badge, even prior to full completion, you'll be able to add the markdown syntax to the top of your project's README.md file, as shown in the example below.
+
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5948/badge)](https://bestpractices.coreinfrastructure.org/projects/5948)
