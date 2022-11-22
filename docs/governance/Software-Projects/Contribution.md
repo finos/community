@@ -7,7 +7,7 @@ There are several ways you can contribute to our existing projects and SIGs, and
 ![FINOS Contribution Process](/finos-contribution-process.png)
 
 ## Contribution of use cases and ideas to a Special Interest Group (SIG)
-If you are looking to contribute a use case, take a look at [our special interest groups](/docs/governance/special-interest-groups/intro) which are meant to be arenas for like minded professionals to identify common challenges, pain points and opportunities to be solved collaboratively in the open.
+If you are looking to contribute a use case, take a look at [our special interest groups](/docs/governance/special-interest-groups) which are meant to be arenas for like minded professionals to identify common challenges, pain points and opportunities to be solved collaboratively in the open.
 
 ## Contribution of code / issues / documentation to an existing FINOS project
 The easiest way to engage is to contribute code, documentation, test cases, requirements, issues and pull requests, etc. to projects that are currently within the Foundation. 

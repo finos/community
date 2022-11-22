@@ -8,7 +8,7 @@ As you start [consuming](https://community.finos.org/docs/journey/consume) and [
 - Become a [FINOS Project Maintainer](#leadership-through-maintainership)
 - Your company can fund [FINOS through Membership](#leadership-through-membership)
 - Provide [feedback and enhance our governance & documentation](https://github.com/finos/community/issues) 
-- Organize or speak at an [FINOS Open Source in Finance Meetup](/docs/growing-your-project-community/meetups/finos-meetups)
+- Organize or speak at an [FINOS Open Source in Finance Meetup](/docs/growing-your-project-community/meetups)
 - Speak or sponsor our [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/)
 
 ## Leaderhip through maintainership

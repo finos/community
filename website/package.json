@@ -6,8 +6,8 @@
     "publish-gh-pages": "docusaurus deploy"
   },
   "devDependencies": {
-    "@docusaurus/core": "2.0.0-beta.18",
-    "@docusaurus/preset-classic": "2.0.0-beta.18",
+    "@docusaurus/core": "^2.2.0",
+    "@docusaurus/preset-classic": "^2.2.0",
     "classnames": "^2.2.6",
     "eslint": "^7.25.0",
     "eslint-plugin-react": "^7.23.2",
@@ -15,7 +15,7 @@
     "react-dom": "^16.10.2"
   },
   "dependencies": {
-    "@docusaurus/plugin-google-gtag": "2.0.0-beta.18",
+    "@docusaurus/plugin-google-gtag": "^2.2.0",
     "is-promise": "2.1.0"
   }
 }

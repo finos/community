@@ -10,7 +10,8 @@ module.exports = {
   favicon: 'img/favicon/favicon-finos.ico',
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
-  onBrokenLinks: 'log',
+  // fail build on broken links
+  // onBrokenLinks: 'log',
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
   },
@@ -70,7 +71,7 @@ module.exports = {
           items: [
             {
               label: 'Community Governance',
-              to: "/docs/governance/intro",
+              to: "/docs/governance",
             },
             {
               label: 'FINOS Charter',
