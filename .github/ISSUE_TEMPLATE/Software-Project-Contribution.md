@@ -13,10 +13,10 @@ Please note that only FINOS members can propose new projects. If you're interest
 Completing an onboarding of a project into FINOS requires following these 5 main steps:  
 
 1.  **Describing the Contribution** _led by contributor_
-2.  **FINOS Approval** _led by FINOS Point of Contact (POC)_
+2.  **Approval** _led by FINOS Infra_
 3.  **Preparing for Onboarding** _led by contributor_
 4.  **Onboarding** _completed by FINOS Infra_
-5.  **Announcement** _led by FINOS Point of Contact (POC)_
+5.  **Announcement** _led by FINOS Marketing_
 
 # 1. Describing The Contribution
 
@@ -102,7 +102,7 @@ As a project onboarding into FINOS, you will need to familiarize yourself and yo
  - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
  - [ ] Notify help@finos.org that you have completed the _describing the contribution_ section. 
 
-# 2. FINOS Approval
+# 2. Approval
 
 Below is the list of tasks that the **FINOS Team** go through in order to complete the FINOS approval process.  At this point, a FINOS Point-of-Contact (POC) should be assigned to this GitHub issue.
 
@@ -181,25 +181,24 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Check if maintainers and other contributors are all covered by FINOS CLA
 - [ ] Engage with FINOS Legal team to figure out what’s needed to cover all maintainers and contributors with FINOS CLA
 - [ ] Reach out to contributors and employers to coordinate CLA signatures
+- [ ] Invite GitHub usernames to GitHub FINOS Org
+- [ ] Create `<project-name>-maintainers` GitHub team and invite users
 
-## Validation (only if code is contributed) 
-- [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
-- [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
-- [ ] (optional - if a build system is provided) The build process runs successfully
-- [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
-- [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
-- [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are met (review documentation provided above)
-
-## Code transfer 
+## Validation (only if code is contributed)
 - [ ] Backup (even with screenshot) GitHub permissions of the repository to transfer
-- [ ] Rename main branch to `main` (instead of `master`)
 - [ ] Check GitHub repository transfer requirements:
   - [ ] [finos-admin](http://github.com/finos-admin) has `Admin` to all repositories to transfer
   - [ ] [finos-admin](http://github.com/finos-admin) ia allowed to transfer repositories out of the org
   - [ ] if the repository is owned by a user (and not an org), the user must be able to transfer the repository to [finos-admin](http://github.com/finos-admin)
+- [ ] The codebase doesn’t have HIGH or CRITICAL CVEs across direct and transitive libraries
+- [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
+- [ ] (optional - if a build system is provided) The build process runs successfully
+- [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
+- [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are met (review documentation provided above)
+
+## Code transfer 
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
-- [ ] Invite GitHub usernames to GitHub FINOS Org
-- [ ] Create `<project-name>-maintainers` GitHub team and invite users
+- [ ] Rename main branch to `main` (instead of `master`)
 - [ ] Configure `finos-admins` (`Maintain` role) and `finos-staff` (`Triage` role) team permissions
 
 ## Project Communication Channel(s)
@@ -213,7 +212,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Create Slack channels if requested.
 - [ ] Link communication channels linked front-and-center in the project README.md
 
-## Infra setup 
+## Repository setup 
 - [ ] Enable EasyCLA
 - [ ] Add project to metadata
 - [ ] Add identities, orgs and affiliations to metadata (deprecated by EasyCLA)
