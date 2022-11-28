@@ -188,7 +188,6 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] (optional - if a build system is provided) The build process runs successfully
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
-- [ ] Check project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
 - [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/stages/incubating) are met (review documentation provided above)
 
 ## Code transfer 
