@@ -12,11 +12,11 @@ Please note that only FINOS members can propose new projects. If you're interest
 
 Completing an onboarding of a project into FINOS requires following these 5 main steps:  
 
-1.  **Describing the Contribution** _led by contributor_
-2.  **Approval** _led by FINOS Infra_
-3.  **Preparing for Onboarding** _led by contributor_
-4.  **Onboarding** _completed by FINOS Infra_
-5.  **Announcement** _led by FINOS Marketing_
+1.  [**Describing the Contribution**](#1-describing-the-contribution) _led by contributor_
+2.  [**Approval**](#2-approval) _led by FINOS TSC_
+3.  [**Preparing for Onboarding**](#3-preparing-for-onboarding) _led by contributor_
+4.  [**Onboarding**](#4--finos-onboarding) _completed by FINOS Infra_
+5.  [**Announcement**](#4--finos-onboarding) _led by FINOS Marketing_
 
 # 1. Describing The Contribution
 
@@ -76,7 +76,6 @@ This is a list of questions that need to be answered by the contributor in order
 *Describe the contributor profile (background, position, organization) you would like to get contributions from.*
 
 ## Project Communication Channel(s)
-*Remove items if not required*
 
 - [ ] Contributor to ask maintainers which communications channels they'd like to use:
 - Asynchronous
@@ -96,46 +95,22 @@ This is a list of questions that need to be answered by the contributor in order
 
 As a project onboarding into FINOS, you will need to familiarize yourself and your contributor team with the following materials:
 
- - [ ] [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
- - [ ] [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
- - [ ] [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
- - [ ] [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
- - [ ] Notify help@finos.org that you have completed the _describing the contribution_ section. 
+ - [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
+ - [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
+ - [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
+ - [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
+
+## Record The Contribution (FINOS Infra)
+- [ ] (optional) Identify and Assign FINOS Strategic Advisor
+- [ ] Submit contribution to LF by opening a ticket via https://jira.linuxfoundation.org/browse/SS and marking contribution as "Exploratory"; attach a summary of the **Business Problem** and **Proposed Solution** (above) of the project.
 
 # 2. Approval
 
-Below is the list of tasks that the **FINOS Team** go through in order to complete the FINOS approval process.  At this point, a FINOS Point-of-Contact (POC) should be assigned to this GitHub issue.
+The [FINOS Technical Steering Committee](https://github.com/finos/technical-steering-committee) (TSC) is responsible for approving FINOS project contributions; feel free to check their [contribution principles](https://github.com/finos/technical-steering-committee/blob/master/contribution-principles.md).
 
-**Please do not edit these contents when completing part 1, "describing the contribution" above.**
+If needed, the TSC will request a follow up either via GitHub Issue comments or by inviting project leads to one of their recurrent meetings.
 
-## Record The Contribution
-- [ ] Submit contribution to LF by opening a ticket via https://jira.linuxfoundation.org/browse/SS and marking contribution as "Exploratory"; attach a summary of the **Business Problem** and **Proposed Solution** (above) of the project.
-
-## Kick-off meeting
-- [ ] Set up kick-off meeting with project leads
-- [ ] Run kick-off meeting
-  - [ ] Walk through the checklist in part 1, ensure all the questions are answered and remove items that don't apply
-  - [ ] Write and send contribution proposal announcement (optional - see below)
-
-## FINOS Contrib POC
-- [ ] Identify and Assign FINOS Project Coordinator
-- [ ] Identify and Assign FINOS Strategic Advisor
-
-## Proposal (Lead Maintainer)
-- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
-    
-    ```
-    Dear FINOS Community, 
-    
-    We would like to propose a new FINOS project. Please review the proposal details at (_TODO: add link to the GitHub issue proposal_).
-    
-    If you're interested in participating, please :+1: the GitHub issue proposal and drop a comment with your name, org and email
-
-   Thanks a lot,
-   ```
-
-## Technical Steering Committee Approval
-
+Tasks (for FINOS Infra/TSC)
 - [ ] Prioritise this issue on the [TSC Backlog](https://github.com/orgs/finos/projects/39)
 - [ ] Assign this issue to @colineberhardt
 - [ ] Add the `ready-for-tsc` label
@@ -150,14 +125,33 @@ Below is the list of tasks that the **FINOS Team** go through in order to comple
 
 # 3. Preparing For Onboarding
 
-Before the FINOS team can onboard your project, there are a few housekeeping that need to be taken care of.  These must be completed by the contributor, with help if required from the POC or FINOS Infra.   
+Before the FINOS team can onboard your project, there are a few housekeeping that need to be taken care of.  These must be completed by the contributor, with help if required from the FINOS Infra.   
+
+## Kick-off meeting
+- [ ] Set up kick-off meeting with project leads
+- [ ] Run kick-off meeting
+  - [ ] Walk through the checklist in part 1, ensure all the questions are answered and remove items that don't apply
+  - [ ] Write and send contribution proposal announcement (optional - see below)
+
+## Proposal (Lead Maintainer)
+- [ ] Lead maintainer to send out announcement to community@finos.org using this template:
+    
+    ```
+    Dear FINOS Community, 
+    
+    We would like to propose a new FINOS project. Please review the proposal details at (_TODO: add link to the GitHub issue proposal_).
+    
+    If you're interested in participating, please :+1: the GitHub issue proposal and drop a comment with your name, org and email
+
+   Thanks a lot,
+   ```
 
 ## Logo / Trademarks
  - [ ] Initiate transfer of trademarks to FINOS _(request help from help@finos.org / LF Legal if needed)_
  - [ ] Request logo design from `help@finos.org` _(if needed)_
- - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws. _(POC to validate with FINOS Legal team if anything important is raised)_
+ - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws. _(Infra team to validate with FINOS Legal team if anything important is raised)_
 
-## FINOS Project Standards
+## FINOS Project Blueprint
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
 - [ ] Apply project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
     - [ ] README.md file contains the sections in the [README Template](https://github.com/finos/software-project-blueprint/blob/main/README.template.md)
@@ -174,7 +168,7 @@ _Add documentation here_
 
 # 4.  FINOS Onboarding
 
-This is performed by FINOS Infra once the three previous stages are complete, with support from the contributor and the FINOS POC.
+This is performed by FINOS Infra once the three previous stages are complete, with support from the contributor and the FINOS Infra team.
 
 ## Maintainers, Contributors and CLAs 
 - [ ] Identify other existing contributors (assuming there's a contribution history (eg Git history)
@@ -206,9 +200,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Create mailing-list on lists.finos.org (if requested)
     - [ ] Enable Hubspot Sync for all project mailing lists created
     - [ ] Aggregate mailing lists to community@finos.org
-    - [ ] Update marketing lists
-      - Add new list to the included "Email List" part of the filter
-      - Add new list to the excluded "Email" part of the filter
+    - [ ] Update marketing lists (see `Email List` and `Email` filter fields)
 - [ ] Create Slack channels if requested.
 - [ ] Link communication channels linked front-and-center in the project README.md
 
@@ -234,7 +226,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 
 # 5. Announcement 
 
-(Lead: FINOS Contrib POC)
+(Lead: Project Lead and FINOS Infra team)
 
 - [ ] Update the contribution status to "Active" by sending another email to **LF Legal Representative** with the name of the project and its new status.
 - [ ] Lead maintainer works with FINOS marketing to send out announcement to announce@finos.org , checkout announcement template at the [Contribution page](https://community.finos.org/docs/governance/Software-Projects/contribution#step-5-contribution-announcements)
