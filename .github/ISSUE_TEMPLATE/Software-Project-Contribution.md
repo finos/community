@@ -147,7 +147,7 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
    ```
 
 ## Logo / Trademarks
- - [ ] Initiate transfer of trademarks to FINOS _(request help from help@finos.org / LF Legal if needed)_
+ - [ ] Sign the [project contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to allow FINOS to act on behalf of the contributor for accounts related to the project (e.g., GitHub, domain names, social media) and to optionally manage trademark assignment
  - [ ] Request logo design from `help@finos.org` _(if needed)_
  - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws. _(Infra team to validate with FINOS Legal team if anything important is raised)_
 
