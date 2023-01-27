@@ -29,7 +29,6 @@ Organiser details are also provided for FINOS projects and special interest grou
 ### Sweden Meetup Organisers
 
 - Aleksandar Marinkovic - alex.marinkovic@linux.com
-- 
 ### Sweden Meetups
 
 | Meetup Name                          | Description                                                                                                                                                                                                                                                | Where to find us                                             |
