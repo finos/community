@@ -2,6 +2,9 @@
 id: cve-responsible-disclosure
 title: FINOS Security Vulnerabilities Responsible Disclosure Policy
 ---
+:::caution
+Right now, FINOS does not operate a bug bounty program, and does not offer rewards or compensations of any kind in exchange for submitting potential bugs, issues or vulnerabilities.
+:::
 
 This document defines a **set of rules and policies established by FINOS to manage the lifecycle of potential vulnerabilities and security incidents within FINOS projects**, aimed to guarantee...
 
