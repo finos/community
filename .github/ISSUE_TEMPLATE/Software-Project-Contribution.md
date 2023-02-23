@@ -200,7 +200,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] Create mailing-list on lists.finos.org (if requested)
     - [ ] Enable Hubspot Sync for all project mailing lists created
     - [ ] Aggregate mailing lists to community@finos.org
-    - [ ] Update marketing lists (see `Email List` and `Email` filter fields)
+    - [ ] Update marketing lists (see `Email List` and `Email` filter fields), particularly [Hubspot all community list](https://app.hubspot.com/contacts/2419532/lists/2247/filters)
 - [ ] Create Slack channels if requested.
 - [ ] Link communication channels linked front-and-center in the project README.md
 
