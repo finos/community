@@ -3,6 +3,12 @@ id: easycla
 title: FINOS CLA
 ---
 
+:::caution
+
+Permissions for access to the [LFX Organization console](https://organization.lfx.linuxfoundation.org/) were designed with a little extra gating: if a new user tries to access but and is already associated with a company who had never before signed any cla, then it will ask them to [open a ticket](https://jira.linuxfoundation.org/plugins/servlet/desk/portal/4/create/143) for access. As soon as the ticket is created, feel free to send the ticket URL to help@finos.org , so we can help expediting the resolution.
+
+:::
+
 The FINOS IP policy specifies that projects should adopt the FINOS contributor license agreement (CLA). The FINOS Governing Board has adopted both an Individual and a Corporate CLA derived from the commonly used Apache-style CLA template.
 
 FINOS uses EasyCLA ([more information](https://lfx.linuxfoundation.org/tools/easycla), [direct access](https://lfcla.com)) to ensure that all contributors have signed the appropriate documents when contributing to a project requiring a CLA. This tool was created and is maintained by the Linux Foundation, and has a number of features designed to support our open source project communities:
