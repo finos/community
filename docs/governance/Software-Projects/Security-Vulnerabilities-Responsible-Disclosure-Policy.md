@@ -55,7 +55,7 @@ Since all CVE entries are labeled as security vulnerability, it is possible to u
 A typical process for handling a new security vulnerability is as follows. Projects that wish to use other processes MAY do so, but **MUST** clearly and publicly document their process and have FINOS team review it ahead of time.
 
 #### Accepting a new vulnerability
-1. The person discovering the issue, the reporter, reports the vulnerability privately to the Lead Maintainer and cc's [security@finos.org](mailto:security@finos.org) (or sends the email directly to help@finos.org).
+1. The person discovering the issue, the reporter, reports the vulnerability privately to the Lead Maintainer and cc's [security@finos.org](mailto:security@finos.org) (or sends the email directly to security@finos.org).
 2. The project team sends an e-mail to the original reporter to acknowledge the report, cc to [security@finos.org](mailto:security@finos.org).
 3. The project team investigates report and either rejects it or accepts it.
 
