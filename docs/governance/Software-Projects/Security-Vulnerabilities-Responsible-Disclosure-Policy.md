@@ -55,8 +55,8 @@ Since all CVE entries are labeled as security vulnerability, it is possible to u
 A typical process for handling a new security vulnerability is as follows. Projects that wish to use other processes MAY do so, but **MUST** clearly and publicly document their process and have FINOS team review it ahead of time.
 
 #### Accepting a new vulnerability
-1. The person discovering the issue, the reporter, reports the vulnerability privately to the Lead Maintainer and cc's [help@finos.org](mailto:help@finos.org) (or sends the email directly to help@finos.org).
-2. The project team sends an e-mail to the original reporter to acknowledge the report, cc to [help@finos.org](mailto:help@finos.org).
+1. The person discovering the issue, the reporter, reports the vulnerability privately to the Lead Maintainer and cc's [security@finos.org](mailto:security@finos.org) (or sends the email directly to help@finos.org).
+2. The project team sends an e-mail to the original reporter to acknowledge the report, cc to [security@finos.org](mailto:security@finos.org).
 3. The project team investigates report and either rejects it or accepts it.
 
 #### Working on a fix
@@ -80,7 +80,7 @@ As soon as the project team finds and implements a fix for the vulnerability, al
         vii. Specify affected and fixed released versions
     b. The same destinations as the release announcement.
     c. The vulnerability reporter.
-    d. [help@finos.org](mailto:help@finos.org)
+    d. [security@finos.org](mailto:security@finos.org)
 3. Additional requirements for the emails sent to the above lists are:
     a. The subject must contain the name of the project and the CVE name(s), and should contain a short description of the issue(s), for example `Subject: [CVE-2007-5648] Apache Tomcat information disclosure vulnerability`
     b. The message body must contain details of the vulnerability, similar to what will be sent to The Mitre Corporation in the next step (not just a URL link to the details)
