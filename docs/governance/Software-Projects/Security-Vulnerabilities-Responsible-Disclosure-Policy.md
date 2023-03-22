@@ -32,10 +32,10 @@ Security vulnerabilities are published as GitHub Issues marked with the label se
 ### Submit a new security vulnerability
 To submit a new vulnerability, please follow these steps:
 1. Identify the FINOS Project (project) related to the security vulnerability.
-2. If you cannot find her personal email, please ask [help@finos.org](mailto:help@finos.org)
+2. If you cannot find her personal email, please ask [security@finos.org](mailto:security@finos.org)
 3. Email the Lead Maintainer privately with the description - and screenshots, if useful - of the vulnerability.
 
-**Sharing information. ** Information may be shared with domain experts (e.g. colleagues at your employer) at the discretion of the project's security team providing that it's made clear the information is not for public disclosure and that [help@finos.org](mailto:help@finos.org) or the Lead Maintainer must be copied on any communication regarding the vulnerability.
+**Sharing information. ** Information may be shared with domain experts (e.g. colleagues at your employer) at the discretion of the project's security team providing that it's made clear the information is not for public disclosure and that [security@finos.org](mailto:security@finos.org) or the Lead Maintainer must be copied on any communication regarding the vulnerability.
 
 ## For FINOS Open Source Contributors
 
