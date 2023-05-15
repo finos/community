@@ -41,3 +41,9 @@ This document describes requirements and recommendations for holding meetings of
 ## Call votes as needed
 * Organizers **should** call a vote on any agenda item requiring one, according to the voting procedures of the group.
 
+
+## FINOS AI Policies
+
+* To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation privacy policy that excludes the use of AI chatbots and scribing services participating in any public or private virtual meetings hosted by The Linux Foundation.
+
+
