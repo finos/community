@@ -62,7 +62,7 @@ function Home() {
           <section className={styles.section}>
               <div className={classnames(styles.textContainer, styles.collabContainer)}>
                 <h2>This website is a collaborative effort</h2>
-                <p>Every page of this website (except this homepage) provides an `Edit` link at the bottom, which you can use to submit any type of content changes (source code is [in Github](https://github.com/finos/community/)), whether it's a typo fix or a new paragraph. We value and appreciate every type of contribution, so thanks in advance!</p>
+                <p>Every page of this website (except this homepage) provides an <pre>Edit</pre> link at the bottom, which you can use to submit any type of content changes (source code is <a href="https://github.com/finos/community/">in Github</a>), whether it's a typo fix or a new paragraph. We value and appreciate every type of contribution, so thanks in advance!</p>
               </div>
           </section>
           <section className={styles.section}>
