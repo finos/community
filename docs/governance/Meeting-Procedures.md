@@ -3,6 +3,12 @@ id: meeting-procedures
 title: Meetings of FINOS projects
 ---
 
+:::caution
+
+To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation **privacy policy that excludes the use of AI chatbots and scribing services** participating in any public or private virtual meetings hosted by FINOS.
+
+:::
+
 This document describes requirements and recommendations for holding meetings of FINOS projects, special-interest groups (SIGs), working groups, and other bodies. Note that individual projects may have their own meeting requirements, in which case those should be followed except where they conflict with any FINOS policy.
 
 ## Schedule the meeting
@@ -39,5 +45,10 @@ This document describes requirements and recommendations for holding meetings of
   * End the meeting on time, even if you don't get through the agenda, so those with other appointments do not miss important discussions.
 
 ## Call votes as needed
-* Organizers **should** call a vote on any agenda item requiring one, according to the voting procedures of the group.
+Organizers **should** call a vote on any agenda item requiring one, according to the voting procedures of the group.
+
+
+## About AI chatbots and scribing services
+To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation privacy policy that excludes the use of AI chatbots and scribing services participating in any public or private virtual meetings hosted by The Linux Foundation.
+
 
