@@ -45,7 +45,7 @@ At a high level, the signature process works like this:
 
 The easiest way to initiate the process is to open a PR against any covered repo, including this one.
 
-If you simply want to sign the documents in preparation for future contributions, you can open a trivial PR against this file (for example, to fix this spleling error) and you will be prompted through the process. PRs against this repo will be closed periodically.
+If you simply want to sign the documents in preparation for future contributions, you can open a trivial PR against this file (for example, to fix this spelling error) and you will be prompted through the process. PRs against this repo will be closed periodically.
 
 ## Sign as an individual
 
