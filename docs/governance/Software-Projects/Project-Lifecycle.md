@@ -26,7 +26,7 @@ Before a project is contributed, optionally the FINOS team might work with the c
 When a project is first created or contributed, it is automatically placed in the [Incubating stage](/docs/governance/Software-Projects/stages/incubating).
 An Incubating project is under active early development and typically has not made its first major release (i.e. version 1.0). During incubation, projects typically experiment heavily with technical designs, standardize their build and release processes, develop their collaborative processes, and work to grow their developer community. Incubating projects are usually not focused on support or backward compatibility.
 
-To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/Software-Projects/stages/incubating). 
+To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/Software-Projects/stages/incubating) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
 
 ## Active Projects
 
@@ -34,7 +34,7 @@ To be accepted into the Incubating stage, a project must meet the requirements o
 
 **Active** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become active, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
 
-To graduate from the Incubating to the Active stage, a project must meet the requirements of the [Activation Lifecycle Checklist](/docs/governance/Software-Projects/stages/active).
+To graduate from the Incubating to the Active stage, a project must meet the requirements of the [Activation Lifecycle Checklist](/docs/governance/Software-Projects/stages/active) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
 
 ## Archived Projects
 
@@ -43,3 +43,5 @@ To graduate from the Incubating to the Active stage, a project must meet the req
 Projects are [Archived](/docs/governance/Software-Projects/stages/archived) when they are no longer actively developed, for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
 
 Projects may be moved to the Archived state from either the Incubating or Active states, either upon the request of the project maintiners, or upon a determination by FINOS that the project is inactive.
+
+The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/) provides support to resolve any potential dispute that may occur between project maintainers and who is proposing the transition to archived.
