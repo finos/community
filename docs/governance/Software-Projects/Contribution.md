@@ -54,10 +54,10 @@ Once a contribution is raised, the Foundation will perform an audit to ensure th
 - Compliance with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
 - Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/stages/incubating))
 
-### Step 3: FINOS Approval
-Once legal and IP review is complete, the FINOS team will review the proposal and work with the Governing Board where appropriate to make a decision on approving the project. 
-
-The FINOS team will review your proposal for alignment with the scope and objectives of the Foundation, viability, perceived interest within the FINOS community. The FINOS may contact the submitter for more information during its evaluation, and will typically be providing constant updates on the progress of the approval process.
+### Step 3: Approval
+Once legal and IP review is complete, the contribution must go through an approval phase, for alignment with the scope and objectives of the Foundation, viability, perceived interest within the FINOS community:
+- For Special Interest Groups and Open Standards, the Governing Board will review and approve the contributions.
+- For all other project contributions, the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee/) will review and approve the contributions.
 
 ### Step 4: Transfer and Review of Contribution Materials
 Following contribution approval, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or Sending the FINOS team an archive containing the code to be contributed. See [Code Transfer options](/docs/governance/Software-Projects/code-transfer).
