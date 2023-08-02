@@ -23,7 +23,7 @@ The Foundation's day-to-day operations are run by the [FINOS team](https://finos
 
 ## Technical Oversight Committee
 
-This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC resposibilities](https://github.com/finos/technical-oversight-committee/blob/master/responsibilities.md)); it is composed by [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process]([url](https://github.com/finos/technical-oversight-committee/blob/master/voting.md))).
+This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC resposibilities](https://github.com/finos/technical-oversight-committee/blob/master/responsibilities.md)); it is composed by [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/master/voting.md)).
 
 ## Policies
 
