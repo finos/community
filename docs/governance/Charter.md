@@ -25,13 +25,14 @@ Technical Project is as set forth in the applicable charter for each Technical P
 
 b) The Directed Fund supports the Technical Projects. The Directed Fund operates under the
 guidance of the Governing Board of the Directed Fund (the “Governing Board”) and The
-Linux Foundation (the “LF”) as may be consistent with The Linux Foundation’s tax-
-exempt status.
+Linux Foundation (the “LF”) as may be consistent with The Linux Foundation’s
+tax-exempt status.
 
 c) The Governing Board manages the Directed Fund. The Directed Fund will also have a
-Budget Committee, Membership & Governance Committee, and other working groups,
-councils, committees and similar bodies (collectively, “Committees”) that may be
-established by the Governing Board. These committees report to the Governing Board.
+Budget Committee, Technical Oversight Committee (“TOC”), Membership &
+Governance Committee, and other working groups, councils, committees and similar
+bodies (collectively, “Committees”) that may be established by the Governing Board.
+These committees report to the Governing Board.
 
 **2) Membership.**
 
@@ -87,9 +88,11 @@ a) The Governing Board voting members will consist of:
 >
 > ii) the Executive Director (as defined herein);
 >
-> iii) the Gold Representative(s); and
+> iii) the TOC Chair (as defined here);
 >
-> iv) the Silver Representative.
+> iv) the Gold Representative(s); and
+>
+> v) the Silver Representative.
 
 b) No more than two Members that are part of a group of Related Companies (as defined in
 Section 9) may appoint, or nominate for a membership class election, a representative on
@@ -128,13 +131,13 @@ sources of revenue;
 >
 > iii) communicate and coordinate with all Technical Project leadership;
 >
-> iv) approve all Technical Projects;
+> iv) approve all Technical Projects, provided that in the case of open data and open source projects the TOC can also approve such projects as Technical Projects subject to final review by the Governing Board if so elected by the Governing Board;
 >
 > v) oversee all Directed Fund business and community outreach matters and work with the LF on any legal matters that arise;
 >
 > vi) adopt and maintain policies or rules and procedures for the Directed Fund (subject to LF approval);
 >
-> vii) establish advisory bodies, committees, programs or councils to resolve any particular matter or in support of the mission of the Directed Fund and/or its Technical Projects including in support of end-users and ambassadors for the project;
+> vii) establish advisory bodies, special interest groups, committees, programs or councils to resolve any particular matter or in support of the mission of the Directed Fund and/or its Technical Projects including in support of end-users and ambassadors for the project;
 >
 > viii) establish any conformance programs and solicit input (including testing tools) from the applicable governance body of any Technical Project for defining and administering any programs related to conformance with any Technical Project (each, a “Conformance Program”);
 >
@@ -182,7 +185,63 @@ b) The responsibilities of the Budget Committee include:
 
 c) The Treasurer shall be chairperson of the Budget Committee.
 
-**6) Voting**
+**6) Technical Oversight Committee**
+
+a) The role of the TOC is to facilitate communication and collaboration among the
+Technical Projects. The TOC will be responsible for:
+> i) Landscape ownership
+>> (1) Solicit and recommend cross-project synergies;
+>> 
+>> (2) Establish technical and security standards, conventions and best practice;
+>> 
+>> (3) Provide impartial and knowledge-based input into technical disputes;
+>> 
+>> (4) Quarterly review of project health;
+>> 
+>> (5) Quarterly review of project alignment with the Directed Fund’s strategy;
+>> 
+>> (6) Evolve the overall Directed Fund’s landscape;
+>> 
+>> (7) Assist the Directed Fund in maintaining life-cycle criteria; and
+>> 
+>> (8) Assist the Directed Fund in managing life-cycle transitions.
+> 
+> ii) Landscape growth
+>> (1) Review and approve contributions of open source and open data projects intended to become Technical Projects;
+>> 
+>> (2) Assist the Directed Fund in promoting new contributions of projects intended to become Technical Projects; and
+>> 
+>> (3) Assist the Directed Fund in nurturing new Technical Projects.
+>
+> iii) FINOS Strategy
+>> (1) Work with the Governing Board to identity use-cases / areas of interest for the Directed Fund;
+>> 
+>> (2) Provide strategic input based on existing landscape components; and
+>> 
+>> (3) Quarterly report to the board.
+
+b) The voting members of the TOC consist of:
+> i) six representatives selected by the Governing Board; and
+> 
+> ii) six representatives elected by existing TOC members.
+
+c) Members of the TOC will serve two-year terms, and the Governing Board will determine
+both (a) the selection process for representatives selected through Section 6.b.i. and (b)
+the election procedures for representatives elected through Section 6.b.ii. The Governing
+Board may maintain a list of requirements and qualifications required for membership in
+the TOC.
+
+d) Unless otherwise authorized by the Governing Board, TOC meetings are open to the
+public to observe.
+
+e) The TOC may maintain an attendance policy, and any TOC representative who fails to
+comply with the attendance policy may be removed by vote of the TOC or Governing
+Board.
+
+f) The TOC representatives will elect a chair to preside over meetings, ensure minutes are
+taken and drive the TOC agenda with input from the TOC representatives (“TOC Chair”).
+
+**7) Voting**
 
 a) Quorum for Governing Board and Committee meetings will require at least fifty percent
 of the voting representatives. If advance notice of the meeting has been given per normal
