@@ -13,7 +13,7 @@ Please note that only FINOS members can propose new projects. If you're interest
 Completing an onboarding of a project into FINOS requires following these 5 main steps:  
 
 1.  [**Describing the Contribution**](#1-describing-the-contribution) _led by contributor_
-2.  [**Approval**](#2-approval) _led by FINOS TSC_
+2.  [**Approval**](#2-approval) _led by FINOS TOC_
 3.  [**Preparing for Onboarding**](#3-preparing-for-onboarding) _led by contributor_
 4.  [**Onboarding**](#4--finos-onboarding) _completed by FINOS Infra_
 5.  [**Announcement**](#4--finos-onboarding) _led by FINOS Marketing_
@@ -48,7 +48,7 @@ This is a list of questions that need to be answered by the contributor in order
  - [ ] Existing Project Documentation _( URL / microsite / PDF etc detail here)_
  - [ ] Does the name have a registered trademark? _(yes / no)_
  - [ ] Is there a logo? _(yes / no)_
- - [ ] High-Level Presentation prepared for Technical Steering Committee _(~15 mins)_
+ - [ ] High-Level Presentation prepared for Technical Oversight Committee _(~15 mins)_
  - [ ] Are meetings currently held for the project? _(yes / no + details)_
  - [ ] Are meeting minutes, agenda and attendance tracked? _(yes / no + details)_
 
@@ -106,22 +106,22 @@ As a project onboarding into FINOS, you will need to familiarize yourself and yo
 
 # 2. Approval
 
-The [FINOS Technical Steering Committee](https://github.com/finos/technical-steering-committee) (TSC) is responsible for approving FINOS project contributions; feel free to check their [contribution principles](https://github.com/finos/technical-steering-committee/blob/master/contribution-principles.md).
+The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) (TOC) is responsible for approving FINOS project contributions; feel free to check their [contribution principles](https://github.com/finos/technical-oversight-committee/blob/master/contribution-principles.md).
 
-If needed, the TSC will request a follow up either via GitHub Issue comments or by inviting project leads to one of their recurrent meetings.
+If needed, the TOC will request a follow up either via GitHub Issue comments or by inviting project leads to one of their recurrent meetings.
 
-Tasks (for FINOS Infra/TSC)
-- [ ] Prioritise this issue on the [TSC Backlog](https://github.com/orgs/finos/projects/39)
+Tasks (for FINOS Infra/TOC)
+- [ ] Prioritise this issue on the [TOC Backlog](https://github.com/orgs/finos/projects/39)
 - [ ] Assign this issue to @colineberhardt
 - [ ] Add the `ready-for-tsc` label
-- [ ] TSC to invite contributors to present their project
-- [ ] FINOS TSC approves/rejects the contribution
+- [ ] TOC to invite contributors to present their project
+- [ ] FINOS TOC approves/rejects the contribution
 - [ ] Ask @jgavronsky to mark contribution as "Engaged" within LF systems
 - [ ] (optional) If additional socialization is required, the Executive Director may bring projects to the FINOS Governing Board
 - [ ] Update the contribution status to "Engaged" by sending another email to **LF Legal Representative** with the name of the project and its new status.
 
-## TSC Findings / Report
-*TSC to enter findings summary here.*
+## TOC Findings / Report
+*TOC to enter findings summary here.*
 
 # 3. Preparing For Onboarding
 
