@@ -43,9 +43,7 @@ At a high level, the signature process works like this:
 
 ### Initiating the signature process against a test repo
 
-The easiest way to initiate the process is to open a PR against any covered repo, including this one.
-
-If you simply want to sign the documents in preparation for future contributions, you can open a trivial PR against this file (for example, to fix this spleling error) and you will be prompted through the process. PRs against this repo will be closed periodically.
+The easiest way to initiate the process is to open a PR against any covered repo, for example [proposing a small change to open-developer-platform/EASYCLA_CHANGEME.md](https://github.com/finos/open-developer-platform/edit/main/EASYCLA_CHANGEME.md); note that these types of PRs will be closed periodically.
 
 ## Sign as an individual
 
