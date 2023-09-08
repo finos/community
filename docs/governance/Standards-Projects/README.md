@@ -28,10 +28,10 @@ Contributions to FINOS standards projects are governed by the [Community Specifi
 Every participant to a FINOS standards project must agree to the [Community Specification Contributor License Agreement 1.0](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) ("CSLA") as it applies to that project. Participants contributing on behalf of their employers must have permission to agree to the CSLA on behalf of their employer.
 
 By agreeing to the CSLA, participants agree to the terms of the following project policies:
-* [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/master/.0_CS_Contributor_License_Agreement.md) (described above)
-* [Community Specification Governance Policy](https://github.com/finos/standards-project-blueprint/blob/master/1._Community_Specification_License-v1.md) (setting out the project governance rules)
-* [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/master/6._Contributing.md) (setting out the workflow for making contributions to the project)
-* [Community Specification Code of Conduct](https://github.com/finos/standards-project-blueprint/blob/master/8._Code_of_Conduct.md) (setting out the rules for appropriate participant behavior)
+* [Community Specification License](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/0._CS_Contributor_License_Agreement.md) (described above)
+* [Community Specification Governance Policy](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/1._Community_Specification_License-v1.md) (setting out the project governance rules)
+* [Community Specification Contribution Policy](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/6._Contributing.md) (setting out the workflow for making contributions to the project)
+* [Community Specification Code of Conduct](https://github.com/finos/standards-project-blueprint/blob/main/governance-documents/8._Code_of_Conduct.md) (setting out the rules for appropriate participant behavior)
 
 The CSLA also requires that participants represent that their contributions are original (or appropriately licensed by third parties) and that they have permission to enter the CSLA on behalf of their employer, if applicable.
 
