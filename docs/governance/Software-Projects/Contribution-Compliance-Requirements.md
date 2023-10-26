@@ -20,7 +20,7 @@ If you change jobs after contributing to the Foundation under your previous empl
 
 #### CLA Bot (legacy system)
 
-If in the uncommon case that the project you would like to contribute to is covered by the CLA Bot (and not EasyCLA) each contribution must still be covered by a contributor license agreement (CLA). You have two options: 
+In the uncommon case that the project you would like to contribute to is covered by the CLA Bot (and not EasyCLA) each contribution must still be covered by a contributor license agreement (CLA). You have two options: 
 
 1. (Recommended) Sign an ICLA or CCLA via [EasyCLA](EasyCLA.md) then send and email to [help@finos.org](mailto:help@finos.org) so that you can be added to the CLA Bot. Signing with EasyCLA will enable you to contribute to the vast majority of FINOS projects.
 
