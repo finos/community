@@ -7,7 +7,7 @@ title: FINOS Funding Charter
 
 A directed fund of the Linux Foundation
 
-Effective April 20, 2022
+Effective July 19, 2023
 
 **1) Mission and Scope of the Fintech Open Source Foundation.**
 
