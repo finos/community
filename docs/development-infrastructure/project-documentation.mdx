@@ -9,6 +9,19 @@ FINOS collaboration services include several ways to write, collaborate and publ
 
 After experimenting with few tools, services and technologies, we have chosen [Docusaurus](#using-docusaurus) (and GitHub Pages) to be the best choice.
 
+The advantages of having a centralised strategy for project documentation includes:
+
+1. Ease of use - Markdown file syntax, simple local development, easy configuration.
+2. Easy to collaborate - Files are stored in a `docs/` GitHub repository folder, anyone can submit a Pull Request.
+3. Automated - any change to the `master` branch version will trigger a deployment of the website, using the [Docusaurus build action](#docusaurus-build-action); also forks can enable this action, so that Pull Request submitters can provide a link to their preview website.
+4. Branded - enforces FINOS graphic guidelines across all websites
+
+If you want to add a website to an existing project, checkout the <a href={useBaseUrl('/docs/development-infrastructure/project-documentation')}>Project Documentation page</a>; if you are starting a project from scratch, checkout the [FINOS project blueprint](#finos-project-blueprint).
+
+Checkout [FDC3](https://fdc3.finos.org/) and [Open Source Readiness](https://osr.finos.org/) as other examples.
+
+<img alt="fdc3-org" src={useBaseUrl('img/collab/fdc3-org.png')} />
+
 ## Docusaurus
 
 Docusaurus is a static website generator written in React and available open source under the Apache 2.0 license. A similar technology is Jekyll, which provides a tighter integration with GitHub Pages, but lacks of development support (as in Ruby) and tools for local development.
@@ -21,7 +34,7 @@ This page walks through the use of docusaurus on a local environment; full docum
 
 **Note!** This GitHub action has been deprecated in favor of using [Netlify](https://netlify.com)
 
-FINOS have developed a GitHub Action to automatically build the Docusaurus websites and publish them into GitHub Pages; the action works on upstream repositories (ie https://github.com/finos/open-developer-platform) as well as forked ones (ie https://github.com/maoo/open-developer-platform), providing a simple way to stage the web version of a change to a Docusaurus website.
+FINOS have developed a GitHub Action to automatically build the Docusaurus websites and publish them into GitHub Pages; the action works on upstream repositories (ie https://github.com/finos/software-project-blueprint) as well as forked ones , providing a simple way to stage the web version of a change to a Docusaurus website.
 
 The action also intercepts Pull Requests and adds a comment with the link to the website (preview) of the PR submitter; this way issue reviewers can easily and visually see the changes.
 
@@ -50,7 +63,7 @@ To fix it, follow these steps:
 
 It may take 20 to 40 minutes to enable the URL, until then you may get a 404 error.
 
-The action can be [copied from the ODP GitHub repository](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated)
+The action can be [copied from here](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated)
 
 In order to use the action, simply copy the [`Raw` file content](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated) into a file called `.github/workflows/docusaurus.yml` , then push the changes; the action should automatically run and deploy the HTML files into the `gh-pages` branch.
 

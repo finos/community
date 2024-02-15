@@ -7,7 +7,7 @@ There are several ways in which contributors can transfer their project's code t
 
 ## GitHub.com repository (recommended)
 
-Use [GitHub's transfer ownership capability](https://help.github.com/articles/about-repository-transfers/) to move it over to the project's GitHub organization. To do this, the contributor will need to temporarily add one of the project's's GitHub organization owners (e.g. the project [maintainer](https://odp.finos.org/docs/finos-maintainers-cheatsheet/)) as an admin on the source repository, so that they can initiate the transfer. Once the code has been transfered, the contributor will be able (and is encouraged) to remove the project's GitHub organization owner from the repository.
+Use [GitHub's transfer ownership capability](https://help.github.com/articles/about-repository-transfers/) to move it over to the project's GitHub organization. To do this, the contributor will need to temporarily add one of the project's's GitHub organization owners (e.g. the project [maintainer](https://community.finos.org/docs/finos-maintainers-cheatsheet/)) as an admin on the source repository, so that they can initiate the transfer. Once the code has been transfered, the contributor will be able (and is encouraged) to remove the project's GitHub organization owner from the repository.
 
 FINOS recommends this approach as it has the unique benefit of preserving the full commit & pull request histories, the project's issue list, wiki and GitHub pages, and more.
 
