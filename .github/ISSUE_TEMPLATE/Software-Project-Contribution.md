@@ -55,7 +55,7 @@ This is a list of questions that need to be answered by the contributor in order
 ## Development Team
 
 ### Maintainers
-*Who will be the [project maintainer(s)](https://odp.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub / GitLab username.*
+*Who will be the [project maintainer(s)](https://community.finos.org/docs/finos-maintainers-cheatsheet/#maintainer-responsibilities-and-available-resources)? Provide full name, affiliation, work email address, and GitHub / GitLab username.*
 
 |Name                        |Affiliation              |Work Email Address             |Github / GitLab username              |
 |----------------------------|-------------------------|-------------------------------|--------------------------------------|
@@ -153,7 +153,7 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
 
 ## FINOS Project Blueprint
 - [ ] [finos-admin](http://github.com/finos-admin) is Admin of the GitHub repository to transfer
-- [ ] Apply project blueprint contents - see [ODP docs](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
+- [ ] Apply project blueprint contents - see [our docs on collaboration infrastructure](https://community.finos.org/docs/collaboration-infrastructure#finos-project-blueprint)
     - [ ] README.md file contains the sections in the [README Template](https://github.com/finos/software-project-blueprint/blob/main/README.template.md)
     - [ ] Project FINOS badge in README (incubating)
     - [ ] [OpenSSF Passing Badge](https://bestpractices.coreinfrastructure.org/en)

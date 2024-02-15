@@ -11,7 +11,7 @@ In order to contribute to and collaborate on a FINOS project, you will need to [
 
 :::important
 
-If you're a maintainer of a FINOS hosted project and need infrastructure that is not documented here, please [open a issue on ODP](https://github.com/finos/open-developer-platform/issues/new), the FINOS Staff will be happy to assist you.
+If you're a maintainer of a FINOS hosted project and need infrastructure that is not documented here, please [contact help@finos.org](mailto:help@finos.org), the FINOS Staff will be happy to assist you.
 
 :::
 
@@ -194,38 +194,7 @@ As a complement or alternative, [**GitHub project boards**](https://help.github.
 ### Project Website
 FINOS Projects may need a Wiki in order to collaboratively edit and publish content related with general documentation, team composition, meeting information, how to get in touch and other useful info.
 
-FINOS uses a framework called Docusaurus to build a website template that any project can adopt; this website is an example. The advantages of having a centralised strategy for project documentation includes:
-
-1. Ease of use - Markdown file syntax, simple local development, easy configuration.
-2. Easy to collaborate - Files are stored in a `docs/` GitHub repository folder, anyone can submit a Pull Request.
-3. Automated - any change to the `master` branch version will trigger a deployment of the website, using the [Docusaurus build action](#docusaurus-build-action); also forks can enable this action, so that Pull Request submitters can provide a link to their preview website.
-4. Branded - enforces FINOS graphic guidelines across all websites
-
-If you want to add a website to an existing project, checkout the <a href={useBaseUrl('/docs/development-infrastructure/project-documentation')}>ODP Project Documentation</a>; if you are starting a project from scratch, checkout the [FINOS project blueprint](#finos-project-blueprint).
-
-Checkout [FDC3](https://fdc3.finos.org/) and [Financial Objects](https://fo.finos.org/) as other examples.
-
-<img alt="fdc3-org" src={useBaseUrl('img/collab/fdc3-org.png')} />
-
-#### [DEPRECATED] Docusaurus Build Action
-
-**Note!** This GitHub action has been deprecated in favor of using [Netlify](https://netlify.com)
-
-The [docusaurus workflow](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated) defines a GitHub Action that automatically builds the Docusaurus website after any commit.
-
-If a `Push` event occurs on the a Docusaurus file (`website/**`, `docs/**` or `docusaurus.yml`) on a FINOS master branch, the action will simply invoke the `docusaurus-build` command and push the (HTML) result into the `gh-pages` branch.
-
-If the `Push` event occurs on a fork of a repo with this action, the same workflow will follow, and the Docusaurus configuration (`siteConfig.js`) will be patched prior to the build, in order to serve the pages using the personal GitHub account that forked the repo.
-
-If a `Pull Request` is submitted (related to Docusaurus files) against a FINOS repository with this action, beyond following the process described above, the action also adds a comment to the PR with the link to the preview website, containing the changes to the PR (still work in progress).
-
-**IMPORTANT!** After forking the repository, make sure to enable the action, by accessing the `Actions` tab on your fork; Actions of forked repos are not enabled by default for security reasons.
-
-<img alt="Enable GitHub Actions on a forked repo" src={useBaseUrl('img/enable-actions.png')} />
-
-You will need to either update file in the `docs/` or `website/` folder (only on `master` branch) in order to trigger a build.
-
-No other configuration is needed, it should work out of the box.
+You can read more on the <a href={useBaseUrl('/docs/development-infrastructure/project-documentation')}>project documentation page</a>.
 
 ### Conversations
 In order to track threaded conversations - among FINOS Project / SIG team members, external collaborators and consumers - it is possible to use [GitHub Issues](https://help.github.com/en/github/managing-your-work-on-github/about-issues), with the following limitations:
@@ -233,15 +202,19 @@ In order to track threaded conversations - among FINOS Project / SIG team member
 1. The scope of the conversations is always public, whereas there may be sensitive conversations across project leaders that may require to be confidential
 2. Issue comments are flat, although mentions and quoting can be used to follow multiple conversation threads.
 
-### GitHub Team Discussions
+### [DEPRECATED] GitHub Team Discussions
+
+:::important
+
+The Team Discussion feature was [deprecated on February 8th 2023](https://github.blog/changelog/2023-02-08-sunset-notice-team-discussions/)
+
+:::
 
 A more advanced way is to use [GitHub Team Discussions](https://help.github.com/en/articles/about-team-discussions):
 
 1. Can be created as private, which are accessible only by team members
 2. Can be created as public to all GitHub FINOS org members
 3. Cannot be created at public to non FINOS member or unauthenticated visitors, so GitHub Issues is the only option for that.
-
-Both features **support email notifications** and the ability to post a comment by answering to it. Simply raise a [FINOS Slack Channel / GitHub Team Discussions Request](https://github.com/finos/open-developer-platform/issues/new?assignees=mcleo-d&labels=comms-channel-request&template=Communication_channel_request.md&title=) to enable GitHub Team Discussions for FINOS Project and SIG teams. 
 
 <img alt="team-page-discussions-tab" src={useBaseUrl('img/collab/team-page-discussions-tab.png')} />
 
@@ -255,7 +228,7 @@ Join the FINOS Project, SIG and wider community conversation in the FINOS Commun
 
 The FINOS Community wide channel on Slack is reachable directly at https://finos-lf.slack.com/messages/finos-community/. We warmly encourage existing community contributors to invite their peers to join the collaboration and the open source fun :)
 
-FINOS Project and SIG Leads, simply raise a [FINOS Slack Channel / GitHub Team Discussions Request](https://github.com/finos/open-developer-platform/issues/new?assignees=mcleo-d&labels=comms-channel-request&template=Communication_channel_request.md&title=) to create a Slack Channel for your FINOS Project or Special Interest Group.
+FINOS Project and SIG Leads, please email to [help@finos.org](mailto:help@finos.org) to create a Slack Channel for your FINOS Project or Special Interest Group.
 
 <img alt="finos-slack-workspace" src={useBaseUrl('img/collab/finos-slack-workspace.png')} />
 
@@ -271,7 +244,7 @@ FINOS Governance processes require voting at different levels (and publicly avai
 
 GitHub Issues can provide an easy platform to vehicle this process:
 
-1. The person casting the vote opens a GitHub Issue (see ODP issue template as example). The following items must be filled/reviewed, before circulating the issue URL:
+1. The person casting the vote opens a GitHub Issue. The following items must be filled/reviewed, before circulating the issue URL:
   a. Title and description of the vote; use the [VOTE] prefix in the issue title, to help issue browsing and discoverability
   b. Add the vote label
   c. List of users who have the right to a binding vote, typically project maintainers
@@ -298,7 +271,7 @@ A project needs:
 
 Meetings are one of the most used collaboration channels at FINOS, and minutes are very important, as they provide transparency across all project activities and decisions; you can read more in the [Running Good Meetings](/docs/governance/meeting-procedures) page; they are also very important for participants, as they are used to track meeting participation and therefore the activity of each individual and firm; all data is publicly available at metrics.finos.org
 
-FINOS provides a way to use GitHub Issues to manage meeting minutes. The person leading the meeting (or meeting leader) can create a new GitHub Issue for each meeting, following the [Meeting template provided by FINOS](https://github.com/finos/project-blueprint/issues/new?template=meeting-minutes.md) and leverage issue assignees to track meeting participants (see our public activity dashboards).
+FINOS provides a way to use GitHub Issues to manage meeting minutes. The person leading the meeting (or meeting leader) can create a new GitHub Issue for each meeting, following the [Meeting template provided by FINOS](https://github.com/finos/software-project-blueprint/issues/new?template=meeting-minutes.md) and leverage issue assignees to track meeting participants (see our public activity dashboards).
 
 - *Prior to the meeting* - 48 hours before, as per [meeting best practices](/docs/governance/meeting-procedures), the meeting leader creates a new GitHub Issue using...
     - Meetings issue template
@@ -323,22 +296,20 @@ A project needs:
 1. A Github repository
 2. The meeting leader must have at least `Write` access to the repository
 3. The `meeting` issue label defined
-4. Issue template [`.github/ISSUE_TEMPLATE/Meeting.md`](https://github.com/finos/open-developer-platform/blob/master/.github/ISSUE_TEMPLATE/Meeting.md) defined
-5. [DEPRECATED] Action [`.github/workflows/meetings.yml`](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/meetings.yml.deprecated) defined
-6. GitHub repository secrets (ask [help@finos.org](mailto:help@finos.org) to set them up)
+4. Issue template [`.github/ISSUE_TEMPLATE/Meeting.md`](https://github.com/finos/software-project-blueprint/blob/main/.github/ISSUE_TEMPLATE/meeting-minutes.md) defined
 
 ### Security Scanning
-In order to consolidate processes and tools around security vulnerabilities management, FINOS have shared a [guidelines around responsible disclosure for security vulnerabilities](/docs/governance/Software-Projects/cve-responsible-disclosure) and teamed up with WhiteSource to configure a bot that continuously scans - across each configured repository - all external dependencies; the bot is able to scan direct commits and Pull Requests, and by default creates GitHub Issues with details about the vulnerability; you can read more about [WhiteSource integration for GitHub.com](/docs/development-infrastructure/code-validation/whitesource).
+In order to consolidate processes and tools around security vulnerabilities management, FINOS have shared a [guidelines around responsible disclosure for security vulnerabilities](/docs/governance/Software-Projects/cve-responsible-disclosure) and tools that can be used to automate code scanning, you can read more on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>. FINOS also provides a collection of Github Action that can be used on your repositories, checkout the [code scanning project](https://github.com/finos/code-scanning).
 
 ### FINOS Project blueprint
 [Project blueprint](https://github.com/finos/software-project-blueprint) is a FINOS project that provides a template for new or existing repositories; it includes:
 
-1. A [README.md template](https://github.com/finos/project-blueprint/blob/master/README.template.md), with a suggested structure of content
-2. A [NOTICE template](https://github.com/finos/project-blueprint/blob/master/NOTICE), required by FINOS bylaws
-3. A [LICENSE template](https://github.com/finos/project-blueprint/blob/master/LICENSE), required by FINOS bylaws
-4. A [Code of Conduct](https://github.com/finos/project-blueprint/blob/master/.github/CODE_OF_CONDUCT.md) template, required by FINOS bylaws
-5. [Contributing guidelines](https://github.com/finos/project-blueprint/blob/master/.github/CONTRIBUTING.md), required by FINOS bylaws
-6. Issue templates for bugs, feature requests and support questions , [defined in the `.github` folder](https://github.com/finos/project-blueprint/tree/master/.github/ISSUE_TEMPLATE)
+1. A [README.md template](https://github.com/finos/software-project-blueprint/blob/master/README.template.md), with a suggested structure of content
+2. A [NOTICE template](https://github.com/finos/software-project-blueprint/blob/master/NOTICE), required by FINOS bylaws
+3. A [LICENSE template](https://github.com/finos/software-project-blueprint/blob/master/LICENSE), required by FINOS bylaws
+4. A [Code of Conduct](https://github.com/finos/software-project-blueprint/blob/master/.github/CODE_OF_CONDUCT.md) template, required by FINOS bylaws
+5. [Contributing guidelines](https://github.com/finos/software-project-blueprint/blob/master/.github/CONTRIBUTING.md), required by FINOS bylaws
+6. Issue templates for bugs, feature requests and support questions , [defined in the `.github` folder](https://github.com/finos/software-project-blueprint/tree/master/.github/ISSUE_TEMPLATE)
 
 Placeholders are defined using the `{}` brackets.
 
@@ -374,7 +345,7 @@ Getting started is quite simple:
   | Token                        | Replace with                                                      |
   | ---------------------------- | ----------------------------------------------------------------- |
   | `{project name}`             | The name of the FINOS Project, ie `Open Developer Platform` |
-  | `{project slug}`             | The name of the GitHub repository the project resides in, ie `open-developer-platform` |
+  | `{project slug}`             | The name of the GitHub repository the project resides in, ie `software-project-blueprint` |
   | `{yyyy}`                     | The year you started working on the code. |
   | `{current year}`             | The current year. |
   | `{name of copyright owner}`  | The copyright owner of the code (typically you or your employer). |
@@ -388,7 +359,7 @@ Getting started is quite simple:
 10. Commit and push all of your changes.
 
 ### Automated and continuous quality scanning
-The ODP team is working on a GitHub action to continuously check all FINOS repositories against FINOS bylaws and requirements; see https://github.com/finos/open-developer-platform/issues/31 to know more.
+FINOS provides some examples on https://github.com/finos/code-scanning to run continuous code scanning activities. More tools are also documented on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>.
 
 ## Other collaboration use cases
 
