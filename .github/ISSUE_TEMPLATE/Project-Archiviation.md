@@ -31,6 +31,9 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
     - [ ] Update badge on `README.md` to [Archived](https://community.finos.org/docs/governance/software-projects/stages/archived/#badge) (linking to https://community.finos.org/docs/governance/Software-Projects/stages/archived)
     - [ ] Add a note at the top of the README file, stating: _This project is archived, which means that it's in read-only state; you can download and use this code, but please be aware that it may be buggy and may also contain security vulnerabilities. If you're interested to restore development activities on this project, please email help@finos.org_
     - [ ] Hit the `Archive` button on GitHub, by accessing the Settings repository page using `finos-admin` credentials
+    - [ ] Open ticket to LF Support in order to update Project definition:
+      - `Stage` = `Archived`
+      - `Category` = `Idle`
 
 ## Archive mailing list (if present)
 - [ ] add `[ARCHIVED]`prefix to project mailing list name
