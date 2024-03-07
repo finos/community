@@ -100,12 +100,8 @@ module.exports = {
         ]
       },
       {
-        type: 'category',
-        label: 'Hosted Platforms',
-        items: [
-          "platforms/legend-studio-shared",
-          "platforms/symphony-dev-pod"
-        ]
+        type: 'doc',
+        id: 'project-sandbox'
       }  
     ],
     'Grow Your Project Community':[
