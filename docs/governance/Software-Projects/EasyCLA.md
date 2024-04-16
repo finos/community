@@ -47,7 +47,7 @@ FINOS currently hosts few Standards projects, like [FDC3](fdc3.finos.org) and [C
 
 ### Initiating the signature process against a test repo
 
-The easiest way to initiate the process is to open a PR against any covered repo, for example [proposing a small change to software-project-blueprint/EASYCLA_CHANGEME.md](https://github.com/finos/software-project-blueprint/edit/main/EASYCLA_CHANGEME.md); note that these types of PRs will be closed periodically.
+The easiest way to initiate the process is to open a PR against any covered repo, for example [proposing a small change to software-project-blueprint/EASYCLA_CHANGEME.md](https://github.com/finos/software-project-blueprint/edit/main/EASYCLA_CHANGEME.md); note that these types of PRs will be closed periodically. For more information about EasyCLA, please visit [our Community website](https://community.finos.org/docs/governance/Software-Projects/easycla).
 
 ## Sign as an individual
 
