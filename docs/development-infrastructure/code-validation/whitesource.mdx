@@ -132,12 +132,8 @@ If no issues are created, and want to know if the scan was performed, email [hel
 ### Configuring WhiteSource scanning
 False positives are expected, when enabling the WhiteSource integration, because of a long list of factors related with the (sometimes low) quality of the downstream library that you're consuming; being able to fine-tune the WhiteSource agent is very important, in particular excluding files and folders that should not be scanned, which is necessary most of the times.
 
-To have the ability to exclude files and folders, you must:
+To have the ability to exclude files and folders, please follow instructions on https://docs.mend.io/bundle/integrations/page/global_repo_configuration.html
 
-1. Copy the FINOS blueprint [**.whitesource**](https://github.com/finos/project-blueprint/blob/master/.whitesource) into your GitHub repository.
-2. Copy the FINOS blueprint [**whitesource.config**](https://github.com/finos/project-blueprint/blob/master/whitesource.config) into your GitHub repository.
-3. Configure your project [excludes](https://github.com/finos/project-blueprint/blob/master/whitesource.config#L11) in `whitesource.config`.
-4. Send a Pull Request to your project which includes a change to your dependencies, and see the WhiteSource scanning in action.
 
 Please note that there may be additional configurations to apply, based on your build requirements and tools; build-specific configurations can be viewed  on [WhiteSource Agent docs](https://whitesource.atlassian.net/wiki/spaces/WD/pages/804814917/Unified+Agent+Configuration+File+and+Parameters#UnifiedAgentConfigurationFileandParameters-PackageManagerDependencyResolvers), and see what applies to your project configuration.
 
@@ -161,7 +157,7 @@ Additionally, a convenience script has been created and saved to [https://github
 Below an example to submit metrics for the Open Developer Platform repo.
 ```
 export WSS_API_KEY="xxx"
-curl -L https://raw.githubusercontent.com/finos/contrib-toolbox/master/scripts/wss-maven-scan.sh | bash -s -- finos open-developer-platform
+curl -L https://raw.githubusercontent.com/finos/contrib-toolbox/master/scripts/wss-maven-scan.sh | bash -s -- finos software-project-blueprint
 ```
 
 ## Request access

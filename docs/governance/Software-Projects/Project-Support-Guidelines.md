@@ -123,7 +123,7 @@ Continuous license scanning (on commits and PRs)
 
 ✓
 
-Feature not currently offered in ODP
+https://github.com/finos/code-scanning
 
 30
 

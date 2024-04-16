@@ -86,16 +86,16 @@ FINOS have developed a tool that scans all the GitHub repositories across all FI
 - `has-user` - One or more user collaborators were found in this GitHub repository. FINOS Governance only allows GitHub users to be added via Teams. Please remove it, therefore it must be removed.
 - `disabled-issues` - This GitHub repository does not have GitHub Issues enabled; make sure that there is a documented way to submit questions, feature requests and other communications to the project team.
 - `no-teams` - This GitHub repository does not grant permissions to any FINOS Team, although it should be configured to grant access to project maintainers defined as [GitHub Teams](https://github.com/orgs/finos/teams). Please email help@finos.org and coordinate changes to the repository access permissions.
-- `no-issue-templates` - This GitHub repository does not use issue templates; please check the [issue template blueprints](https://github.com/finos/project-blueprint/tree/master/.github/ISSUE_TEMPLATE).
-- `no-contributing` - `CONTRIBUTING.md` file is missing; check the [CONTRIBUTING.md template](https://github.com/finos/project-blueprint/blob/master/.github/CONTRIBUTING.md).
-- `no-code-conduct` - `CODE_OF_CONDUCT.md` file is missing; check the [CODE_OF_CONDUCT.md template](https://github.com/finos/project-blueprint/blob/master/.github/CODE_OF_CONDUCT.md).
-- `notice-nok` - `NOTICE` file is incomplete; check line 4 of the [NOTICE template](https://github.com/finos/project-blueprint/blob/master/NOTICE).
-- `no-notice` - `NOTICE` file is missing; check the [NOTICE template](https://github.com/finos/project-blueprint/blob/master/NOTICE).
-- `no-readme` - `README.md` file is missing; check the [README.md template](https://github.com/finos/project-blueprint/blob/master/README.template.md).
+- `no-issue-templates` - This GitHub repository does not use issue templates; please check the [issue template blueprints](https://github.com/finos/software-project-blueprint/tree/master/.github/ISSUE_TEMPLATE).
+- `no-contributing` - `CONTRIBUTING.md` file is missing; check the [CONTRIBUTING.md template](https://github.com/finos/software-project-blueprint/blob/master/.github/CONTRIBUTING.md).
+- `no-code-conduct` - `CODE_OF_CONDUCT.md` file is missing; check the [CODE_OF_CONDUCT.md template](https://github.com/finos/software-project-blueprint/blob/master/.github/CODE_OF_CONDUCT.md).
+- `notice-nok` - `NOTICE` file is incomplete; check line 4 of the [NOTICE template](https://github.com/finos/software-project-blueprint/blob/master/NOTICE).
+- `no-notice` - `NOTICE` file is missing; check the [NOTICE template](https://github.com/finos/software-project-blueprint/blob/master/NOTICE).
+- `no-readme` - `README.md` file is missing; check the [README.md template](https://github.com/finos/software-project-blueprint/blob/master/README.template.md).
 `no-description` - This GitHub repository does not have a general description defined; the `Edit` button is seen when on the repositories main page, which is the `Code` tab.
 - `is-archivable` - This repository belongs to project `{{project-name}}` which is archived, therefore the GitHub repository is expected to be archived too. @finos-staff will get in touch with the project lead to sort it out.
-- `readme-nok` - `README.md` file is incomplete; check the [README.md template](https://github.com/finos/project-blueprint/blob/master/README.template.md) and make sure that `## Contributing` and `## License` sections exist.
-- `no-badge` - `README.md` file is missing the FINOS badge; check the [README.md template](https://github.com/finos/project-blueprint/blob/master/README.template.md) and make sure that it embeds one of SVG FINOS badges.
+- `readme-nok` - `README.md` file is incomplete; check the [README.md template](https://github.com/finos/software-project-blueprint/blob/master/README.template.md) and make sure that `## Contributing` and `## License` sections exist.
+- `no-badge` - `README.md` file is missing the FINOS badge; check the [README.md template](https://github.com/finos/software-project-blueprint/blob/master/README.template.md) and make sure that it embeds one of SVG FINOS badges.
 - `wrong-badge` - Our internal records state that this project is in {{project-state}} state, whereas `README.md` states `{{readme-state}}`; make sure that `README.md` embeds the right FINOS badge."
    :repo-not-on-file "We don't have this repository on file. We will fix this issue on our side as soon as possible and keep you posted.
 - `no-whitesource` - WhiteSource configuration was not found; make sure that dependencies are scanned against security vulnerabilities. Read more on [the WhiteSource page](/docs/development-infrastructure/code-validation/whitesource).

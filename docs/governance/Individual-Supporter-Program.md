@@ -13,7 +13,7 @@ To apply, please email membership@finos.org and let us know how you meet the cri
   * Maintainership of a FINOS project
   * Commits accepted to a FINOS project
   * Active participation in a FINOS standards project (determined by reference to the policy of the project)
-  * Service as an ambassador of FINOS through participation in marketing activities, speaking at events, organizing meetups, or writing blog posts (with qualifying activity to be determined by the FINOS Executive Director)
+  * 1+ year of service as a [FINOS ambassador](https://www.finos.org/finos-ambassador-program) through participation in marketing activities, speaking at events, organizing meetups, or writing blog posts
 * Membership must be renewed annually and applicants must meet the above criteria as of the date of renewal.
 
 ## Benefits

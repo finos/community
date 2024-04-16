@@ -33,7 +33,7 @@ FINOS strong encoursage projects have multiple maintainers from multiple organiz
 In the case of large maintainer teams, maintainers should consider electing one or two **lead maintainers**. The lead maintainer(s) are the project's interface with the FINOS Team and Governing Board and are responsible for communicating on behalf of the project. The lead maintainer(s) are also accountable for steering project direction and prioritisation with the rest of the project community, and to build consensus.
 
 ### How does FINOS support maintainers?
-To support you in your leadership capacity, we've prepared a [FINOS Maintainers Cheatsheet](https://odp.finos.org/docs/finos-maintainers-cheatsheet/) that is intended to be a one-stop reference for all of the responsibilities, governance activities, and support tools used by the Foundation. Our [Community Growth best practices](https://community.finos.org/docs/growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs) are also a great resources to build a lively community.
+To support you in your leadership capacity, we've prepared a [FINOS Maintainers Cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/) that is intended to be a one-stop reference for all of the responsibilities, governance activities, and support tools used by the Foundation. Our [Community Growth best practices](https://community.finos.org/docs/growing-your-project-community/finos-community-strategy/leveraging-finos-projects-sigs) are also a great resources to build a lively community.
 
 And of course don't hesitate to [get in touch with Foundation staff](mailto:help@finos.org) if you need help in maintaining your project. 
 

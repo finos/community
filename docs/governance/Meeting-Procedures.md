@@ -17,7 +17,7 @@ This document describes requirements and recommendations for holding meetings of
 
 ##  Prepare and circulate an agenda
 * Before each meeting, organizers **must** circulate an agenda listing the topics to be discussed and decisions to be made at the meeting, and circulate the agenda via the group's preferred communication channel.
-* See this [sample agenda](https://github.com/finos/project-blueprint/issues/new?template=meeting-minutes.md) for an example.
+* See this [sample agenda](https://github.com/finos/software-project-blueprint/issues/new?template=meeting-minutes.md) for an example.
 
 ## Keep minutes
 * Organizers **must** keep minutes of meetings, capturing:

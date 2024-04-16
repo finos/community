@@ -13,7 +13,7 @@ This document summarizes the requirements for establishing, joining, and running
 
 ## Establishing a standards project
 
-In order to contribute an existing standards project, or to start a new standards project, a [FINOS member](https://finos.org/members) must submit a standard project proposal, using the [FINOS standard project proposal template](https://github.com/finos/community/blob/master/.github/ISSUE_TEMPLATE/Standards-Project-Contribution.md), and identifying the project's scope, roadmap, and [maintainers](https://odp.finos.org/docs/finos-maintainers-cheatsheet/).
+In order to contribute an existing standards project, or to start a new standards project, a [FINOS member](https://finos.org/members) must submit a standard project proposal, using the [FINOS standard project proposal template](https://github.com/finos/community/blob/master/.github/ISSUE_TEMPLATE/Standards-Project-Contribution.md), and identifying the project's scope, roadmap, and [maintainers](https://community.finos.org/docs/finos-maintainers-cheatsheet/).
 
 ## Getting the project started
 
