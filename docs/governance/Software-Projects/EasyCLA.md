@@ -41,9 +41,13 @@ At a high level, the signature process works like this:
 3. If you're already covered you will get a green checkmark, and your contribution can be merged.
 4. If you're not covered, you'll be prompted through the signature process.
 
+### Standards projects
+
+FINOS currently hosts few Standards projects, like [FDC3](fdc3.finos.org) and [CDM](cdm.finos.org); each of them uses a "dedicated instance" EasyCLA (also known as _EasyCLA Group_), which ensures that each Standard can manage a dedicated/isolated list of approved contributors; on the contrary, all (other) FINOS non-Standards software projects are covered by the same EasyCLA Group, therefore enrolling into one project will allow contributors to also be covered across all other ones.
+
 ### Initiating the signature process against a test repo
 
-The easiest way to initiate the process is to open a PR against any covered repo, for example [proposing a small change to software-project-blueprint/EASYCLA_CHANGEME.md](https://github.com/finos/software-project-blueprint/edit/main/EASYCLA_CHANGEME.md); note that these types of PRs will be closed periodically.
+The easiest way to initiate the process is to open a PR against any covered repo, for example [proposing a small change to software-project-blueprint/EASYCLA_CHANGEME.md](https://github.com/finos/software-project-blueprint/edit/main/EASYCLA_CHANGEME.md); note that these types of PRs will be closed periodically. For more information about EasyCLA, please visit [our Community website](https://community.finos.org/docs/governance/Software-Projects/easycla).
 
 ## Sign as an individual
 
