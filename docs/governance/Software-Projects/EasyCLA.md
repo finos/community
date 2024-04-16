@@ -43,7 +43,7 @@ At a high level, the signature process works like this:
 
 ### Standards projects
 
-FINOS currently hosts few Standards projects, like [FDC3](fdc3.finos.org) and [CDM](cdm.finos.org); each of them uses a "dedicated instance" EasyCLA (also known as _EasyCLA Group_), which ensures that each Standard can manage a dedicated/isolated list of approved contributors; on the contrary, all (other) FINOS non-Standards software projects are covered by the same EasyCLA Group, therefore enrolling into one project will allow contributors to also be covered across all other ones.
+FINOS currently hosts few Standards projects, like [FDC3](https://fdc3.finos.org) and [CDM](https://cdm.finos.org); each of them uses a "dedicated instance" EasyCLA (also known as _EasyCLA Group_), which ensures that each Standard can manage a dedicated/isolated list of approved contributors; on the contrary, all (other) FINOS non-Standards software projects are covered by the same EasyCLA Group, therefore enrolling into one project will allow contributors to also be covered across all other ones.
 
 ### Initiating the signature process against a test repo
 
