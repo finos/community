@@ -34,51 +34,9 @@ Read the [FINOS security vulnerabilities responsible disclosure](/docs/governanc
 
 FINOS provides a set of tools, specifically GitHub Apps and Actions, that enforce a continuous scanning across the FINOS GitHub repositories.
 
-### CLA bot
-To help project leads validating external contributor's identity and capacity to contribute code to the Foundation, the Foundation team have deployed an instance of cla-bot, which validates all Pull Requests (PRs) across all FINOS repositories and:
+### CLA 
 
-1. Extracts the list of GitHub users who contributed to the PR
-2. Matches their identities against FINOS internal identity database
-3. Updates the Pull Request with the result of the validation
-    a. If ok, adds a cla-signed label
-    b. if not ok, posts a comment on the issue and informs 1) the user on how to submit the CLA to FINOS 2) the project lead that the PR cannot be merged.
-
-The CLA bot source code can be found on [https://github.com/finos/cla-bot](https://github.com/finos/cla-bot).
-
-#### PR validation failure
-If the CLA Bot finds something wrong in a PR, it will fail the validation checks, showing a visible red mark and (optionally, if configured), block anyone to merge the Pull Request.
-
-#### Re summoning the bot
-When a Pull Request gets modified, or a contributors CLA gets added, it can be re-summoned simply adding a comment with the text `@cla-bot[bot] check`.
-
-#### GitLab version
-There is a GitLab version of this bot that can be found on [https://github.com/ScottLogic/gitlab-cla-bot](https://github.com/ScottLogic/gitlab-cla-bot); FINOS uses it to run an internal GitLab instance.
-
-#### Email validation
-In order to allow the CLA bot to validate a Pull Request, every contributor must ensure that commits are signed with a valid email address, properly configured (and verified) on GitHub. Otherwise, the CLA bot will post the following message:
-```
-Thank you for your contribution and Welcome to our Open Source Community!
-
-To make sure your pull request is successful, we need all our contributors to be identifiable, but we couldn't parse the GitHub details of the following people : {{unidentifiedUsers}}
-
-Luckily, resolving the issue is straightforward and you can resolve it by following the instructions below.
-
-1. Check your git client is configured with a user email git config --list | grep email
-
-2. If the user email is missing, run the following command, substituting with your git commit email address git config --global user.email email@example.com
-
-3. Make sure your git commit email is configured on GitHub by Setting your Commit Email Address
-
-4. Then, amend the authors in your commit history by using git commit --amend to change your last commit.
-
-Alternatively, use the slightly more complex git reset --soft and git rebase to checkout your changes, rewrite the commit history locally and (force) push changes to the downstream branch.
-
-If you have any issues with the steps above, please email [help@finos.org](mailto:help@finos.org) so we can help you resolve before reviewing and accepting your pull request.
-
-Thanks once again for the contribution and understanding.
-
-_cc_ @finos-admin
-```
+To help project leads validate external contributor's identity and capacity to contribute code to the Foundation please visit https://community.finos.org/docs/governance/software-projects/easycla/ to know more about FINOS CLAs. 
 
 ### Project compliance scan
 FINOS have developed a tool that scans all the GitHub repositories across all FINOS orgs and generates a report based on the following quality and compliance validations:

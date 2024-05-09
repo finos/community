@@ -18,20 +18,6 @@ If **your employer owns the rights** to your contributions, you should submit a 
 
 If you change jobs after contributing to the Foundation under your previous employer's CCLA, please notify [help@finos.org](mailto:help@finos.org) so that we can ensure that an appropriate CLA is in place with you or your new employer.
 
-#### CLA Bot (legacy system)
-
-In the uncommon case that the project you would like to contribute to is covered by the CLA Bot (and not EasyCLA) each contribution must still be covered by a contributor license agreement (CLA). You have two options: 
-
-1. (Recommended) Sign an ICLA or CCLA via [EasyCLA](EasyCLA.md) then send and email to [help@finos.org](mailto:help@finos.org) so that you can be added to the CLA Bot. Signing with EasyCLA will enable you to contribute to the vast majority of FINOS projects.
-
-2. Physically signing an ICLA or CCLA and sending it to [help@finos.org](mailto:help@finos.org).
-
-  2a. If your employer owns the rights to your contributions, you should submit a [Corporate Contributor License Agreement (CCLA)](https://www.finos.org/hubfs/FINOS%20CCLA.pdf) signed by an authorized representative of your employer.
-
-  2b. If you alone own the rights to your contributions, you should sign and submit an [Individual Contributor License Agreement (ICLA)](https://www.finos.org/hubfs/FINOS%20ICLA.pdf).
-
-For any questions please email [help@finos.org](mailto:help@finos.org).
-
 ### License Information
 All Foundation projects must include certain license information and copyright notices. If you are contributing a new project, you must include `LICENSE`, and `NOTICE` files, as described below. If you are contributing to an existing project, you may need to add information to the `NOTICE` or (optionally) `CONTRIBUTING` file.
 
