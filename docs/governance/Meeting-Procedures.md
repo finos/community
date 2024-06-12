@@ -13,7 +13,7 @@ This document describes requirements and recommendations for holding meetings of
 
 ## Schedule the meeting
 * Organizers **should** schedule meetings at least 7 days in advance, preferably at a time that works for most participants. 
-* Organizers **should** use WebEx for teleconferences unless all members are able to use another system. The FINOS team can help to schedule a call on the Foundation's WebEx system.
+* Organizers **should** use Zoom for teleconferences unless all members are able to use another system. The FINOS team can help to schedule a call on the Foundation's Zoom system.
 
 ##  Prepare and circulate an agenda
 * Before each meeting, organizers **must** circulate an agenda listing the topics to be discussed and decisions to be made at the meeting, and circulate the agenda via the group's preferred communication channel.
