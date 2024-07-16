@@ -27,9 +27,10 @@ All Java projects hosted by the Foundation are expected to use a groupId that is
 
 In order to publish artifacts (in Maven terms, **artifact deployment**), it's necessary to setup some accounts and configure the workstation accordingly; please note that these steps are not mandatory for all project teams, but only for those performing artifact deployment and releases (normally the project lead or a team member elected as release manager).
 
-1. Sign up on [https://issues.sonatype.org](https://issues.sonatype.org) (`https://oss.sonatype.org` Maven repo will use these credentials for authentication).
-2. Email [help@finos.org](mailto:help@finos.org), with the GitHub URL of your project, and your Sonatype Jira ID (from step 1)
+1. Sign up on [https://central.sonatype.com/](https://central.sonatype.com/) (`https://s01.oss.sonatype.org/` Maven repo will use these credentials for authentication).
+2. Generate a "user token" by going to your account settings.
 3. Update your Maven `settings.xml` file as [shown below](#publishing-settings); using Maven encrypted passwords is strongly advised, to avoid setting up the password in clear text
+4. Email [help@finos.org](mailto:help@finos.org), with the GitHub URL of your project, and your Sonatype ID (from step 1)
 
 At this point, you can proceed with the deployment of the snapshot artifacts, by simply invoking `mvn deploy` from the project root folder; as a result, artifacts will be publicly available on [`oss.sonatype.org`](https://oss.sonatype.org) and usable by anyone as Maven dependencies.
 
@@ -40,18 +41,19 @@ You can find more info on the [Central Repository howto page for Maven](https://
 <settings>
   <servers>
     <server>
-      <id>ossrh</id>
-      <username>[your-sonatype-jira-id]</username>
-      <password>[your-sonatype-jira-pwd]</password>
+      <id>ossrh</id> 
+      <username>[token-username]</username>
+      <password>[token-passsword]</password>
     </server>
     <server>
       <id>ossrh-distro</id>
-      <username>[your-sonatype-jira-id]</username>
-      <password>[your-sonatype-jira-pwd]</password>
+      <username>[token-username]</username>
+      <password>[token-passsword]</password>
     </server>
   </servers>
 </settings>
 ```
+Edit the ID property to match your pom.xml file
 
 ### Maven Central Badge
 A badge can be added at the top of the project's root-level [README.md] file, using the following Markdown syntax:
