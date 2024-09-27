@@ -1,0 +1,109 @@
+# Sonatype 
+> *"A better way to SCA"*
+
+Sonatype is an Open Source Software Supply Chain management platform to help identify and manage the 3rd party libraries within applications. 
+
+
+|Solution:|Sonatype Lifecycle|
+|-|-|
+|Website|https://www.sonatype.com/|
+|Documentation|https://help.sonatype.com/en/sonatype-lifecycle.html|
+|Focus| Software Composition Analysis (SCA)|
+|Coverage|Over 14 languages|
+|Scan Output|SBOMs, CVEs, Licenses, Remediation Guidance|
+
+<br>
+Modern applications consist of over 85% open source software. The Sonatype Platform aims not only to identify which open source components are in use, but also identify their security and license risks, and determine the best path for remediation. All of this is powered by the largest proprietary CVE database and highest accuracy for identification in the market.
+<br><br>
+
+
+***
+Projects Onboarded to the [FINOS Sonatype Lifecycle Platform](https://finos.sonatype.app/):
+- [Morphir-Scala](https://github.com/finos/morphir-scala)
+- [Morphir-ELM](https://github.com/finos/morphir-elm)
+- [Morphir-JVM](https://github.com/finos/morphir-jvm)
+- [Morphir-Dotnet](https://github.com/finos/morphir-dotnet)
+
+
+## Quickstart
+1. Contact [help@finos.org](mailto:help@finos.org) to get onboarded onto the Sonatype platform.
+    - Get user login.
+    - Create organization and application.
+<!-- FINOS owner will create users, create organization(s), and add new users to the appropriate role within the organization. -->
+2. Determine what kind of app you want to scan (https://help.sonatype.com/en/analysis.html).
+3. Add the GitHub Actions plugin to your pipelines (https://help.sonatype.com/en/sonatype-github-actions.html).
+4. Configure any other desired integrations (https://help.sonatype.com/en/sonatype-integrations.html).
+5. Start evaluating results and remediating!
+
+
+
+## A few best practices
+Details on the best way to scan your applications can be determined with the Sonatype team who can help guide your implementation. 
+- Scan the application *after* build
+- Exclude driectories not deployed with the application: `-D dirExcludes="**/website/, **/docs/, **/.*" `
+- Omit dev dependencies
+- Add the SBOM to the build output (https://help.sonatype.com/en/sonatype-github-actions.html#fetch-sbom-action)
+
+More best practices can be found here: https://help.sonatype.com/en/lifecycle-best-practices.html
+
+
+### Scanning Mill / Coursier Projects
+When scanning an app being built by Mill and using Coursier as the cache, make sure to get the cache and copy it to a temporary directory so that the binary scan can identify the artifacts (the default configuration is to omit scanning the cache).
+```
+  sonatype-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cache scala dependencies
+        uses: coursier/cache-action@v6
+
+      - name: Get OUT cache
+        uses: actions/cache/restore@v4
+        with:
+          path: out/
+          key: ${{ runner.os }}-*
+          
+      - name: Copy Cache for SCA Scan
+        run: |
+          mkdir depCache/ #Create local copy of cache for Sonatype Scanner
+          cp -r /home/runner/.cache/coursier/ depCache/
+
+      - name: Sonatype Lifecycle SCA Scan
+        ...
+```
+
+
+### Scanning Paket / .NET Projects
+When scanning Paket or .NET projects the CycloneDX dotnet plugin can help build out the dependency tree. Also the Windows CLI from the [Sonatype downloads page](https://help.sonatype.com/en/download-and-compatibility.html) can be used for scanning on Windows VMs (current official plugin only supports Linux VMs). Implementation example: 
+```
+    - name: Resolve Paket Dependencies
+      run: |
+        dotnet tool install --global Paket
+        dotnet tool restore
+        paket install
+        .\build.cmd DotnetRestore
+        
+    - name: Create CycloneDX SBOM (transitive mapping)
+      run: |
+         dotnet tool install --global CycloneDX
+         dotnet restore
+         copy build/build.fsproj SonatypeSCA.csproj
+         echo $env:SBOM_Path
+         dotnet CycloneDX SonatypeSCA.csproj -o packages/
+    
+    - name: Download and Scan with Sonatype Lifecycle CLI
+      if: always()
+      run: |
+         curl --location https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/scanner/nexus-iq-cli-1.182.0-01+864-windows.zip > Sonatype.zip
+         tar -xf Sonatype.zip
+         rm Sonatype.zip
+         .\nexus-iq-cli.exe -s ${{ env.SonatypeUrl }} -a ${{ secrets.SONATYPE_USER }}:${{ secrets.SONATYPE_PASSWORD }} -t ${{ env.SonatypeStage }} ${{ env.ExcludeDirectory }} -r sonatype-results.json -i ${{ env.SonatypeAppId }} ${{ env.SonatypeScanTarget }}
+
+    - name: Upload Sonatype Scan Results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ env.SonatypeAppId }} Sonatype Scan Results 
+        path: sonatype-results.json
+```
+
+
