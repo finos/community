@@ -94,7 +94,8 @@ module.exports = {
             "development-infrastructure/code-validation/coverityscan",
             "development-infrastructure/code-validation/nodesecurity",
             "development-infrastructure/code-validation/sonarcloud",
-            "development-infrastructure/code-validation/whitesource"
+            "development-infrastructure/code-validation/sonatype",
+            "development-infrastructure/code-validation/whitesource",
             ]
           }
         ]
