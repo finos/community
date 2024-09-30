@@ -57,25 +57,25 @@ More best practices can be found here: https://help.sonatype.com/en/lifecycle-be
 When scanning an app being built by Mill and using Coursier as the cache, make sure to get the cache and copy it to a temporary directory so that the binary scan can identify the artifacts (the default configuration is to omit scanning the cache).
 
 ```
-  sonatype-scan:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Cache scala dependencies
-        uses: coursier/cache-action@v6
+sonatype-scan:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Cache scala dependencies
+      uses: coursier/cache-action@v6
 
-      - name: Get OUT cache
-        uses: actions/cache/restore@v4
-        with:
-          path: out/
-          key: ${{ runner.os }}-*
-          
-      - name: Copy Cache for SCA Scan
-        run: |
-          mkdir depCache/ #Create local copy of cache for Sonatype Scanner
-          cp -r /home/runner/.cache/coursier/ depCache/
+    - name: Get OUT cache
+      uses: actions/cache/restore@v4
+      with:
+        path: out/
+        key: ${{ runner.os }}-*
+        
+    - name: Copy Cache for SCA Scan
+      run: |
+        mkdir depCache/ #Create local copy of cache for Sonatype Scanner
+        cp -r /home/runner/.cache/coursier/ depCache/
 
-      - name: Sonatype Lifecycle SCA Scan
-        ...
+    - name: Sonatype Lifecycle SCA Scan
+      ...
 ```
 
 ### Scanning Paket / .NET Projects
@@ -83,33 +83,33 @@ When scanning an app being built by Mill and using Coursier as the cache, make s
 When scanning Paket or .NET projects the CycloneDX dotnet plugin can help build out the dependency tree. Also the Windows CLI from the [Sonatype downloads page](https://help.sonatype.com/en/download-and-compatibility.html) can be used for scanning on Windows VMs (current official plugin only supports Linux VMs). Implementation example: 
 
 ```
-    - name: Resolve Paket Dependencies
-      run: |
-        dotnet tool install --global Paket
-        dotnet tool restore
-        paket install
-        .\build.cmd DotnetRestore
-        
-    - name: Create CycloneDX SBOM (transitive mapping)
-      run: |
-         dotnet tool install --global CycloneDX
-         dotnet restore
-         copy build/build.fsproj SonatypeSCA.csproj
-         echo $env:SBOM_Path
-         dotnet CycloneDX SonatypeSCA.csproj -o packages/
+- name: Resolve Paket Dependencies
+  run: |
+    dotnet tool install --global Paket
+    dotnet tool restore
+    paket install
+    .\build.cmd DotnetRestore
     
-    - name: Download and Scan with Sonatype Lifecycle CLI
-      if: always()
-      run: |
-         curl --location https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/scanner/nexus-iq-cli-1.182.0-01+864-windows.zip > Sonatype.zip
-         tar -xf Sonatype.zip
-         rm Sonatype.zip
-         .\nexus-iq-cli.exe -s ${{ env.SonatypeUrl }} -a ${{ secrets.SONATYPE_USER }}:${{ secrets.SONATYPE_PASSWORD }} -t ${{ env.SonatypeStage }} ${{ env.ExcludeDirectory }} -r sonatype-results.json -i ${{ env.SonatypeAppId }} ${{ env.SonatypeScanTarget }}
+- name: Create CycloneDX SBOM (transitive mapping)
+  run: |
+      dotnet tool install --global CycloneDX
+      dotnet restore
+      copy build/build.fsproj SonatypeSCA.csproj
+      echo $env:SBOM_Path
+      dotnet CycloneDX SonatypeSCA.csproj -o packages/
 
-    - name: Upload Sonatype Scan Results
-      if: always()
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.SonatypeAppId }} Sonatype Scan Results 
-        path: sonatype-results.json
+- name: Download and Scan with Sonatype Lifecycle CLI
+  if: always()
+  run: |
+      curl --location https://sonatype-download.global.ssl.fastly.net/repository/downloads-prod-group/scanner/nexus-iq-cli-1.182.0-01+864-windows.zip > Sonatype.zip
+      tar -xf Sonatype.zip
+      rm Sonatype.zip
+      .\nexus-iq-cli.exe -s ${{ env.SonatypeUrl }} -a ${{ secrets.SONATYPE_USER }}:${{ secrets.SONATYPE_PASSWORD }} -t ${{ env.SonatypeStage }} ${{ env.ExcludeDirectory }} -r sonatype-results.json -i ${{ env.SonatypeAppId }} ${{ env.SonatypeScanTarget }}
+
+- name: Upload Sonatype Scan Results
+  if: always()
+  uses: actions/upload-artifact@v4
+  with:
+    name: ${{ env.SonatypeAppId }} Sonatype Scan Results 
+    path: sonatype-results.json
 ```
