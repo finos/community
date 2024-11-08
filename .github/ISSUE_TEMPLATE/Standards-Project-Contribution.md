@@ -17,7 +17,7 @@ Please note that only FINOS members can propose new Standards projects. If you'r
 ## Tentative Roadmap
 *Describe the short and medium term goals and phases of the project. What does success look like for this project?* 
 
-## Scope (optional)
+## Scope
 *Clearly define the scope of the standard. In cases where the scope is expected to be defined by the standard project participants this should be one of the first tasks the group completes. Guidelines can be found in the [Community Specification documentation](https://github.com/finos/standards-project-blueprint).*
 
 ## Current State
