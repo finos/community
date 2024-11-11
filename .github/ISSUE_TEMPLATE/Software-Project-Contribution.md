@@ -112,7 +112,7 @@ If needed, the TOC will request a follow up either via GitHub Issue comments or 
 
 Tasks (for FINOS Infra/TOC)
 - [ ] Prioritise this issue on the [TOC Backlog](https://github.com/orgs/finos/projects/39)
-- [ ] Assign this issue to @colineberhardt
+- [ ] Assign this issue to @eddie-knight
 - [ ] Add the `ready-for-tsc` label
 - [ ] TOC to invite contributors to present their project
 - [ ] FINOS TOC approves/rejects the contribution
