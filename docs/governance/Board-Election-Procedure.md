@@ -21,11 +21,10 @@ In any contest for more than one office conducted by ranked choice voting, each 
 
 III. Ties
 
-FINOS shall resolve prospective ties between candidates as follows:
-1. After all votes are cast but before tabulation, FINOS shall calculate a tiebreaker score for each candidate. To calculate a candidate's tiebreaker score, each ranking assigned to that candidate on a validly cast ballot shall be given a score that is the inverse of the ranking (relative to the number of candidates to be ranked). For example, if the ballot requires voters to rank three candidates, a ranking of 1 will correspond to a score of 3, a ranking of 2 to a score of 2, and a ranking of 3 to a score of 1. The candidate's tiebreaker score is the sum of the scores from all ballots ranking that candidate.
-1. If a tie to determine which candidate has the greatest number of votes or the fewest votes occurs at any point in the tabulation procedures described above, and tabulation cannot proceed until the tie is resolved, then the tied candidate with the higher tiebreaker score will be considered to have the highest number of votes.
-1. As a backstop, before tabulation, FINOS shall also generate a randomized ordering of the alphabet. If a tie cannot be resolved by the tied candidates' tiebreaker scores, then the tied candidate who is considered to have the greater number of votes shall be the candidate whose name is first alphabetically in accordance with this randomized alphabet, when candidate names are arranged: Last Name, First Name.
-
+FINOS shall resolve prospective ties between candidates using a "backward" approach:
+1. The vote count at the previous round is used to break the tie. Suppose we are selecting a candidate to eliminate at round 4 and Alice and Bob are tied for last place. The tie would be broken by comparing Alice and Bob's vote counts at round 3. If they are still tied at round 3, then round 2 is used and so forth.
+2. If the candidates are tied at all rounds, then the tie is broken randomly.
+   
 IV. Definitions
 
 For the purposes of this policy, the following terms have the following meanings:
