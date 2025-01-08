@@ -43,7 +43,7 @@ To be accepted into the Incubating stage, a project must meet the requirements o
 
 **Graduated** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become active, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
 
-To graduate from the Incubating stage, a project must meet the requirements of the [Graduation Lifecycle Checklist](/docs/governance/Software-Projects/stages/active) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
+To graduate from the Incubating stage, a project must meet the requirements of the [Graduation Lifecycle Checklist](/docs/governance/Software-Projects/stages/graduated) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
 
 ## Archived Projects
 
