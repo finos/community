@@ -6,10 +6,10 @@ title: Lifecycle introduction
 FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aliging to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) and [repostatus.org status](https://www.repostatus.org/) models. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
 
 * Maturity
-  * **[Sandbox - finos-labs](https://github.com/finos-labs/)** - experimental or innovative projects that are early in their life
-  * **Incubation** - for new (and newly contributed) projects;
-  * **Graduated** - for mature, active projects with healthy and diverse contributor communities; and
-  * **[Archived](archiving.md)** - for projects that are no longer actively maintained.
+  * **[Sandbox - finos-labs](stages/Sandbox.md)** - experimental or innovative projects that are early in their life
+  * **[Incubation](stages/Incubating.md)** - for new (and newly contributed) projects;
+  * **[Graduated](stages/Graduated.md)** - for mature, active projects with healthy and diverse contributor communities; and
+  * **[Archived](stages/Archived.md)** - for projects that are no longer actively maintained.
 * Status (from [repostatus.org](https://www.repostatus.org/))
   *  **Concept** – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.
   *  **WIP** – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.
