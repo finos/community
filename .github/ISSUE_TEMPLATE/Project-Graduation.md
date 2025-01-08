@@ -1,28 +1,28 @@
 ---
-name: "\U0001F58AProject Activation"
-about: To Activate a FINOS hosted Project
-title: Project Activation
+name: "\U0001F58AProject Graduate"
+about: To Graduate a FINOS hosted Project
+title: Project Graduation
 labels: ''
 assignees: maoo, TheJuanAndOnly99
 
 ---
-# Activation
-Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Active status](https://community.finos.org/docs/governance/Software-Projects/stages/active) and the related badge. An active badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
+# Graduation
+Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Graduated status](https://community.finos.org/docs/governance/Software-Projects/stages/graduated) and the related badge. A Graduated badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
 
 The [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/#project-lifecycle).
 
-### What does activation mean for the consumer? 
+### What does graduation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
 
 :dart: The Project produces valuable releases to solve a useful business problem for our Community.
 
-### What does activation mean for the project team?
+### What does graduation mean for the project team?
 :star: Glory in the Community 
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
 
-# Activation Checklist
-|  | **Activation (promotion to Active State)** | How and Where Demonstrated |
+# Graduation Checklist
+|  | **Graduation (promotion to Graduated State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul> |  |
