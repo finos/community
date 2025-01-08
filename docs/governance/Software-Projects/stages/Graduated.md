@@ -1,25 +1,25 @@
 ---
-id: active
-title: The Active stage
+id: graduated
+title: The Graduated stage
 ---
 
-Projects that have been approved for activation or graduation (aka transition to the Active state), a formal recognition that **the project is now mature in terms of quality and community**.
+Projects that have been approved for graduation (aka transition to the Graduated state), a formal recognition that **the project is now mature in terms of quality and community**.
 
 Virtually all Foundation-hosted projects are expected to strive towards, and ultimately attain, Active (or Graduated, or Top-Level) status. This indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that represents a solid long term investment.
 
 ## Objectives
-The objectives of the Active lifecycle state primarily involve the project team developing and executing on an ongoing roadmap of features and bug fixes, informed by feedback from the project's user base. It's also recommended an Active project deploy a `v1.0.0` or higher version, a generally accepted signal of a stable, production-ready version.
+The objectives of the Graduated lifecycle state primarily involve the project team developing and executing on an ongoing roadmap of features and bug fixes, informed by feedback from the project's user base. It's also recommended a Graduated project deploy a `v1.0.0` or higher version, a generally accepted signal of a stable, production-ready version.
 
 ## Releases
-An Active project can use any version number it wishes, although generally releases from an Active project will be `≥ v1.0.0`.  Ecosystem-specific suffixes may also be used for pre-releases (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem).
+A Graduated project can use any version number it wishes, although generally releases from a Graduated project will be `≥ v1.0.0`.  Ecosystem-specific suffixes may also be used for pre-releases (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem).
 
-All Active project starting from `v1.0.0` upward must adhere to the version numbering rules defined by [Semantic Versioning](http://semver.org/) ("semver"), specifically:
+All Graduated project starting from `v1.0.0` upward must adhere to the version numbering rules defined by [Semantic Versioning](http://semver.org/) ("semver"), specifically:
 - Increment `MAJOR` version when an incompatible change is made
 - Increment `MINOR` version when new functionality is added in a backwards-compatible manner
 - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
 
-## Initiating Activation
-In order for a project to become Active, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee); any project maintainer may initiate this approval process at any time, but opening a [project activation issue](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Activation.md&title=Project+Activation) with an information packet demonstrating that they've met the requirements for activation (see below for details).
+## Initiating Graduation
+In order for a project to become Graduated, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee); any project maintainer may initiate this approval process at any time, but opening a [project graduation issue](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Activation.md&title=Project+Graduation) with an information packet demonstrating that they've met the requirements for activation (see below for details).
 
 ## Badge
 
@@ -28,21 +28,21 @@ In order for a project to become Active, it must be reviewed and the change form
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
-[![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/active)
+[![FINOS - Graduated](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/graduated)
 ```
 
-## What does activation mean for the consumer? 
+## What does graduation mean for the consumer? 
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
 
 :dart: The Project produces valuable releases to solve a useful business problem for our Community.
 
-## What does activation mean for the project team?
+## What does graduation mean for the project team?
 :star: Glory in the Community 
 
 :eyes: :loudspeaker: Increased visibility and positioning in FINOS web resources, marketing and Community building efforts like meetups, blog posts, etc.
 
-## Activation Checklist
-|  | **Activation (promotion to Active State)** | How and Where Demonstrated |
+## Graduation Checklist
+|  | **Graduation (promotion to Graduated State)** | How and Where Demonstrated |
 |:------ |:----------- |:----------- |
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul> |  |
@@ -82,9 +82,9 @@ If you're evaluating Foundation-hosted open source projects and see the released
 ## Obtaining the OpenSSF Best Practices Badge
 The Open Source Security Foundation (OpenSSF) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice.
 
-In order to achieve an Active status, FINOS requires that every project also meets the OpenSSF Best Practices Badge `pass` criteria prior to requesting activation.
+In order to achieve a Graduated status, FINOS requires that every project also meets the OpenSSF Best Practices Badge `pass` criteria prior to requesting graduation.
 
-You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or [access the list of criteria](https://github.com/coreinfrastructure/best-practices-badge#summary-of-best-practices-criteria-passing-level); crossovers between the FINOS Activation criteria and the OpenSSF Best Practices Badge are also highlighted in the table below.
+You can [get your badge now](https://bestpractices.coreinfrastructure.org/en) or [access the list of criteria](https://github.com/coreinfrastructure/best-practices-badge#summary-of-best-practices-criteria-passing-level); crossovers between the FINOS Graduation criteria and the OpenSSF Best Practices Badge are also highlighted in the table below.
 
 :eyes: :loudspeaker: As soon as you start applying for an OpenSSF badge, even prior to full completion, you'll be able to add the markdown syntax to the top of your project's README.md file, as shown in the example below.
 
