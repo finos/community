@@ -1,6 +1,6 @@
 ---
-id: sandbox
-title: The Sandbox stage
+id: labs
+title: The Labs stage
 ---
 
 Experimental or concept Projects may be created within the [finos-labs](https://github.com/finos-labs/) organsiation, regardless of their size or level of maturity.  As projects become more mature they may be become Incubated within the FINOS organisation by [requesting onboarding](https://community.finos.org/docs/governance/software-projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project).
@@ -13,7 +13,7 @@ The objectives of the sandbox finos-labs stage is to allow the project team to f
 
 ### Starting
 
-Anything github repo can be started by a project or SIG lead.
+Anything github repo can be started by a project or SIG lead but new project ideas must be agreed by the TOC.
 
 ### Maintaining
 
@@ -24,11 +24,11 @@ Normal restrictions on who can maintain or contribute to a labs repo once assign
 
 ### Migration out of Labs
 
-1. Apply to become a project in FINOS proper
+1. Apply to become a project in FINOS proper - TOC agreement
 2. Recommend for other LF foundation
 3. Archive
 
 ## Requirements
 
-1. SIG / TOC Sponsor
-TODO - what is appropriate here?
+1. SIG / TOC Agreement
+
