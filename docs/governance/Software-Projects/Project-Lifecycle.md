@@ -6,7 +6,7 @@ title: Lifecycle introduction
 FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aliging to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) and [repostatus.org status](https://www.repostatus.org/) models. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
 
 * Maturity
-  * **[Sandbox - finos-labs](stages/Sandbox.md)** - experimental or innovative projects that are early in their life
+  * **[Labs](stages/Labs.md)** - experimental or innovative projects that are early in their life
   * **[Incubation](stages/Incubating.md)** - for new (and newly contributed) projects;
   * **[Graduated](stages/Graduated.md)** - for mature, active projects with healthy and diverse contributor communities; and
   * **[Archived](stages/Archived.md)** - for projects that are no longer actively maintained.
@@ -26,11 +26,11 @@ These maturity stages and project statuses are described in greater detail below
 
 The project maturity is a recognition of scale of governance and community involvement and not a statement on worthiness or usefulness.  Indeed a project may have Active status (active development and usage) but remain in Incubating status due to very fast delivery of the already existing contributors, or a Graduated project with Inactive status due to already having solved the business need and low maintainence requirements.
 
-### Sandbox - finos-labs
+### Labs
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-forming.png" width="150" />
 
-Optionally, before a project is contributed, the FINOS team might work with the contributors and FINOS Members to gauge viability and evaluate interest ahead of contribution as an Incubating project via the use of the [finos-labs](https://github.com/finos-labs/).
+Optionally, before a project is contributed, the FINOS team might work with the contributors and FINOS Members to gauge viability and evaluate interest ahead of contribution as an Incubating project via the use of the [finos-labs](https://github.com/finos-labs/).  FINOS TOC will decide if the project is appropriate for entry into the Labs.
 
 ### Incubating Projects
 
@@ -73,7 +73,7 @@ The following is a non-exclusive overview of possible project statuses per Matur
 
 | Maturity | Possible Status | Notes |
 |--|--|--|
-| Sandbox | Concept, WIP, Abandoned, Suspended | The intention should be to Incubate when a degree of stability is reached.  If a project reaches Abandoned status, or remains at Suspended for an extended period of time it will Archived by the TOC |
+| Labs | Concept, WIP, Abandoned, Suspended | The intention should be to Incubate when a degree of stability is reached.  If a project reaches Abandoned status, or remains at Suspended for an extended period of time it will Archived by the TOC |
 | Incubating | WIP, Active, Inactive | All Incubated projects will enter WIP status until a stable, usable release is made signalling transition into Active status,  Inactive projects will not be Graduated. * |
 | Graduated | Active, Inactive | * |
 | Archived | Unsupported, Moved | Inactive projects that still recieve best-efforts support |
