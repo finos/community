@@ -74,8 +74,8 @@ module.exports = {
               to: "/docs/governance",
             },
             {
-              label: 'FINOS Charter',
-              to: "/docs/governance/charter",
+              label: 'FINOS Funding Documents',
+              to: "/docs/governance/funding-documents",
             },
             {
               label: 'Meeting Procedures',
