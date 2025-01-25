@@ -45,6 +45,28 @@ To review previous contribution proposals (to see examples, or to see if someone
 ### Step 2: Gauge Community interest 
 You are encouraged to email directly to the Community at [community@finos.org](mailto:community@finos.org) ([subscribe here](mailto:community+subscribe@finos.org)) to outline your contribution idea (and link to the previously created contribution issue). A simple note pointing to the Github contribution issue and encouraging the FINOS Community and Members to post their support / feedback on the issue will go a long way here.
 
+Below a template provided for you as a starting point to socialize your proposed contribution.
+ 
+```
+Subject: New project submitted for incubation: <insert Project Name> - we need your feedback!
+ 
+Body:
+ 
+Dear FINOS Community,
+ 
+I am excited to announce that we have just submitted the contribution of <insert Project Name> <insert project github URL if already open source>. You can find all the details of the contribution at <insert github contribution issue URL>. 
+ 
+<insert brief project description and example use cases>
+
+As the TOC gears up to review the contribution we would love to see your feedback and questions on the issue to express your interest in adopting or even better contributing to the project. Even a thumbs up would would be very much appreciated. 
+
+Also please don't hesitate to reach out to me at <insert mailing list / slack / email> if you have any questions.
+
+Thanks in advance for your consideration!
+
+<insert contributor name(s)>
+```
+
 **Note**: while everyone is welcome to contribute to existing projects, **only FINOS Members can propose new projects**. If you are not a Member this step is particularly important to identify a Member who could become a sponsor for your project.
 
 #### Compliance review & IP transition
@@ -68,7 +90,7 @@ It's during this step as well that [code validation and scanning](/docs/developm
 Once the transfer and review is complete, it's time to announce the contribution and garner attention and additional contribution from our the FINOS community. In order to do so:
 
 We encourage project leads to [email announce@finos.org](mailto:announce@finos.org) - see a couple of [good examples](https://groups.google.com/a/finos.org/forum/#!topic/announce/2LoANL9lzB0) or use the template below and don't be shy!
-
+ 
 ```
 Subject: New Project announcement: <insert Project Name> now Open Source in FINOS
  
@@ -89,9 +111,10 @@ Thanks to the FINOS Community for a warm welcome!
 <insert contributor name(s)>
 ```
 
+Additionally:
 - We welcome blog posts to announce the contribution on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Marketing](mailto:marketing@finos.org) to propose an article
 - Social media support - you can reach out to [marketing@finos.org](mailto:marketing@finos.org) to ask for our support in promoting the contribution
-- For substantial contributions, especially of those with multiple contributing orgs, FINOS may choose to support contribution announcement with a press release. Contact [press@finos.org](mailto:press@finos.org) if you think a press release is warranted. 
+- For substantial contributions, especially of those with multiple contributing orgs, FINOS may choose to support contribution announcement with a press release. Contact [marketing@finos.org](mailto:marketing@finos.org) if you think a press release is warranted. 
 
 ## Have questions?
 If you'd like help, don't hesitate to reach out by email to [help@finos.org](mailto:help@finos.org) or ask the wider community with a note to [community@finos.org](mailto:community@finos.org).
