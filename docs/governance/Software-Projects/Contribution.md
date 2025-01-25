@@ -46,9 +46,6 @@ To review previous contribution proposals (to see examples, or to see if someone
 You are encouraged to email directly to the Community at [community@finos.org](mailto:community@finos.org) ([subscribe here](mailto:community+subscribe@finos.org)) to outline your contribution idea (and link to the previously created contribution issue). A simple note pointing to the Github contribution issue and encouraging the FINOS Community and Members to post their support / feedback on the issue will go a long way here.
 
 Below a template provided for you as a starting point to socialize your proposed contribution.
-
-<details>
-  <summary><b>Click to see a sample project contribution socialization template</b></summary>
  
 ```
 Subject: New project submitted for incubation: <insert Project Name> - we need your feedback!
@@ -69,7 +66,6 @@ Thanks in advance for your consideration!
 
 <insert contributor name(s)>
 ```
-</details>
 
 **Note**: while everyone is welcome to contribute to existing projects, **only FINOS Members can propose new projects**. If you are not a Member this step is particularly important to identify a Member who could become a sponsor for your project.
 
@@ -94,9 +90,6 @@ It's during this step as well that [code validation and scanning](/docs/developm
 Once the transfer and review is complete, it's time to announce the contribution and garner attention and additional contribution from our the FINOS community. In order to do so:
 
 We encourage project leads to [email announce@finos.org](mailto:announce@finos.org) - see a couple of [good examples](https://groups.google.com/a/finos.org/forum/#!topic/announce/2LoANL9lzB0) or use the template below and don't be shy!
-
-<details>
-  <summary><b>Click to see a sample announcement template</b></summary>
  
 ```
 Subject: New Project announcement: <insert Project Name> now Open Source in FINOS
@@ -117,7 +110,6 @@ Thanks to the FINOS Community for a warm welcome!
  
 <insert contributor name(s)>
 ```
-</details>
 
 Additionally:
 - We welcome blog posts to announce the contribution on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Marketing](mailto:marketing@finos.org) to propose an article
