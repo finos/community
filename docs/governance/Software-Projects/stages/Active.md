@@ -19,7 +19,7 @@ All Active project starting from `v1.0.0` upward must adhere to the version numb
 - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
 
 ## Initiating Activation
-In order for a project to become Active, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee); any project maintainer may initiate this approval process at any time, but opening a [project activation issue](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Activation.md&title=Project+Activation) with an information packet demonstrating that they've met the requirements for activation (see below for details).
+In order for a project to become Active, it must be reviewed and the change formally approved by the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee); any project maintainer may initiate this approval process at any time, but opening a [project activation issue](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Activation.md&title=Project+Activation) with an information packet demonstrating that they've met the requirements for activation (see below for details).
 
 ## Badge
 
