@@ -35,36 +35,36 @@ If you sent an email to one of these lists and your message was not acknowledged
 ### Project & SIG specific Lists
 Most projects maintain mailing lists that anyone can post to. The mailing list reaches all participants in that project. They are a good venue for scope, functional, and technical questions about the project as well as expressing an interest in participating.
 
-You can self subscribe to any public FINOS mailing list by sending an email to list with `+subscribe`, like so fdc3+subscribe@finos.org. You can also email help@finos.org and request to be added directly.
+You can self subscribe to any public FINOS mailing list by sending an email to the list with a `+subscribe` added after the name of the list, like so fdc3+subscribe@finos.org. You can also email help@finos.org and request to be added directly.
 
 Here are all FINOS Project & SIG mailing lists:
-- [AI Readiness SIG](mailto:ai-readiness+subscribe@finos.org)  – ai-readiness@finos.org  
-- [CALM](mailto:calm+subscribe@lists.finos.org)  – calm@lists.finos.org  
-- [Common Cloud Controls](mailto:ccc-participants+subscribe@lists.finos.org)  – ccc-participants@lists.finos.org  
-- [Common Domain Model](mailto:cdm+subscribe@lists.finos.org)  – cdm@lists.finos.org  
-- [Compliant Financial Infrastructure](mailto:cfi+subscribe@lists.finos.org)  – cfi@lists.finos.org  
-- [DEI SIG](mailto:diversity-inclusion-committee+subscribe@finos.org)  – diversity-inclusion-committee@finos.org  
-- [DevOps Automation SIG](mailto:devops-automation+subscribe@finos.org)  – devops-automation@finos.org  
-- [FDC3 Standard](mailto:fdc3+subscribe@finos.org)  – fdc3@finos.org  
-- [Financial Objects SIG](mailto:fo+subscribe@finos.org)  – fo@finos.org  
-- [Git Proxy](mailto:git-proxy+subscribe@lists.finos.org)  – git-proxy@lists.finos.org  
-- [Innersource SIG](mailto:innersource+subscribe@finos.org)  – innersource@finos.org  
-- [KDB](mailto:data-tech-kdb+subscribe@finos.org)  – data-tech-kdb@finos.org  
-- [Legend Project](mailto:legend+subscribe@finos.org)  – legend@finos.org  
-- [Morphir](mailto:morphir+subscribe@finos.org)  – morphir@finos.org  
-- [Open Developer Platform](mailto:odp+subscribe@finos.org)  – odp@finos.org  
-- [Open Financial LLM](mailto:open-financial-llm+subscribe@lists.finos.org)  – open-financial-llm@lists.finos.org  
-- [Open Regtech SIG](mailto:open-regtech-sig+subscribe@finos.org)  – open-regtech-sig@finos.org  
-- [Open Source Readiness SIG](mailto:osr+subscribe@finos.org)  – osr@finos.org  
-- [Product Control Common Template](mailto:product-control-common-template+subscribe@finos.org)  – product-control-common-template@finos.org  
-- [Reg Tech Council](mailto:rtc+subscribe@lists.finos.org)  – rtc@lists.finos.org  
-- [Regulation Innovation SIG](mailto:open-regtech-sig+subscribe@finos.org)  – open-regtech-sig@finos.org  
-- [Security Reference Data](mailto:data-tech-sec-ref+subscribe@finos.org)  – data-tech-sec-ref@finos.org  
-- [Symphony Projects](mailto:symphony+subscribe@finos.org)  – symphony@finos.org  
-- [Technical Oversight Committee](mailto:toc+subscribe@lists.finos.org)  – toc@lists.finos.org  
-- [Vuu](mailto:vuu-announce+subscribe@lists.finos.org)  – vuu-announce@lists.finos.org  
-- [Waltz](mailto:waltz+subscribe@lists.finos.org)  – waltz@lists.finos.org  
-- [Zenith](mailto:zenith+subscribe@lists.finos.org)  – zenith@lists.finos.org  
+- [AI Readiness SIG](mailto:ai-readiness+subscribe@finos.org)  
+- [CALM](mailto:calm+subscribe@lists.finos.org)  
+- [Common Cloud Controls](mailto:ccc-participants+subscribe@lists.finos.org)  
+- [Common Domain Model](mailto:cdm+subscribe@lists.finos.org)  
+- [Compliant Financial Infrastructure](mailto:cfi+subscribe@lists.finos.org)  
+- [DEI SIG](mailto:diversity-inclusion-committee+subscribe@finos.org)  
+- [DevOps Automation SIG](mailto:devops-automation+subscribe@finos.org)  
+- [FDC3 Standard](mailto:fdc3+subscribe@finos.org)  
+- [Financial Objects SIG](mailto:fo+subscribe@finos.org)  
+- [Git Proxy](mailto:git-proxy+subscribe@lists.finos.org)  
+- [Innersource SIG](mailto:innersource+subscribe@finos.org)  
+- [kdb](mailto:data-tech-kdb+subscribe@finos.org)  
+- [Legend Project](mailto:legend+subscribe@finos.org)  
+- [Morphir](mailto:morphir+subscribe@finos.org)  
+- [Open Developer Platform](mailto:odp+subscribe@finos.org)  
+- [Open Financial LLM](mailto:open-financial-llm+subscribe@lists.finos.org)  
+- [Open Regtech SIG](mailto:open-regtech-sig+subscribe@finos.org)  
+- [Open Source Readiness SIG](mailto:osr+subscribe@finos.org)  
+- [Product Control Common Template](mailto:product-control-common-template+subscribe@finos.org)  
+- [Reg Tech Council](mailto:rtc+subscribe@lists.finos.org)  
+- [Regulation Innovation SIG](mailto:open-regtech-sig+subscribe@finos.org)  
+- [Security Reference Data](mailto:data-tech-sec-ref+subscribe@finos.org)  
+- [Symphony Projects](mailto:symphony+subscribe@finos.org)  
+- [Technical Oversight Committee](mailto:toc+subscribe@lists.finos.org)  
+- [Vuu](mailto:vuu-announce+subscribe@lists.finos.org)  
+- [Waltz](mailto:waltz+subscribe@lists.finos.org)  
+- [Zenith](mailto:zenith+subscribe@lists.finos.org)  
 
 ## Online Chat
 
