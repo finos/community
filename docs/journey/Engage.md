@@ -37,7 +37,7 @@ Most projects maintain mailing lists that anyone can post to. The mailing list r
 
 You can self subscribe to any public FINOS mailing list by sending an email to the list with a `+subscribe` added after the name of the list, like so fdc3+subscribe@finos.org. You can also email help@finos.org and request to be added directly.
 
-Here are all FINOS Project & SIG mailing lists:
+Below is a list of all FINOS Project & SIG mailing lists:
 - AI Readiness SIG — [ai-readiness@finos.org](mailto:ai-readiness+subscribe@finos.org)  
 - CALM — [calm@lists.finos.org](mailto:calm+subscribe@lists.finos.org)  
 - Common Cloud Controls — [ccc-participants@lists.finos.org](mailto:ccc-participants+subscribe@lists.finos.org)  
