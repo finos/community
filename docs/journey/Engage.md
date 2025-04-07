@@ -49,7 +49,7 @@ Here are all FINOS Project & SIG mailing lists:
 - [Financial Objects SIG](mailto:fo+subscribe@finos.org)  
 - [Git Proxy](mailto:git-proxy+subscribe@lists.finos.org)  
 - [Innersource SIG](mailto:innersource+subscribe@finos.org)  
-- [kdb](mailto:data-tech-kdb+subscribe@finos.org)  
+- [KDB](mailto:data-tech-kdb+subscribe@finos.org)  
 - [Legend Project](mailto:legend+subscribe@finos.org)  
 - [Morphir](mailto:morphir+subscribe@finos.org)  
 - [Open Developer Platform](mailto:odp+subscribe@finos.org)  
