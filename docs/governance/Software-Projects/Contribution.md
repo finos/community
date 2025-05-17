@@ -22,10 +22,10 @@ Before contributing to a project, community members are encouraged to familiariz
 
 ## Contribution of an existing code base into FINOS as a new project
 
-Are you a [FINOS member](https://finos.org/members) and you have an existing project, either already open source or proprietary, that would be a good fit within the FINOS community? Or do you want to form a [Special Interest Group](https://community.finos.org/docs/governance/special-interest-groups/) to discuss a specific topic?  Here's how to propose a new contribution.
+Are you a [FINOS member](https://finos.org/members) and you have an existing project, either already open source or proprietary, that would be a good fit within the FINOS community? Or do you want to form a [Special Interest Group](/docs/governance/special-interest-groups/) to discuss a specific topic?  Here's how to propose a new contribution.
 
 ### Pre-Work: Contribution Fitness
-First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. Every Project contributed to the Foundation can come into an [Incubating stage](/docs/governance/governance/software-projects/stages/Incubating.md), which sets out a comprehensive set of criteria to review to evaluate contribution fitness is the [Incubation checklist](https://community.finos.org/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist).  
+First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. Every Project contributed to the Foundation can come into an [Incubating stage](/docs/governance/software-projects/stages/incubating), which sets out a comprehensive set of criteria to review to evaluate contribution fitness is the [Incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist).  
 
 Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution. If the project is not mature enough to be contributed to FINOS, but the project could still could use a neutral space to collaborate, contributors are encouraged to propose the project to be created in [FINOS Labs](https://github.com/finos-labs/).
 
@@ -47,7 +47,7 @@ This will create a new issue on the [FINOS Community Repository](https://github.
 6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
 7. **Contributor commitment**: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
-To maximize the chances of being accepted, you are warmly encouraged to provide evidence in your submission of the requirements listed in the [Incubation checklist](https://community.finos.org/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist) 
+To maximize the chances of being accepted, you are warmly encouraged to provide evidence in your submission of the requirements listed in the [Incubation checklist](/docs/governance/software-projects/stages/incubating/#incubating-lifecycle-checklist) 
 
 > **TIP**: To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+). 
 
