@@ -85,11 +85,17 @@ Once the FINOS team has validated the contribution proposal for completeness, th
 - For software project contributions, the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee/) will review and approve the contributions.
 
 ### Step 4: IP review & Transfer of Contributions
-Once a contribution is approved, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution compliance requirements](Contribution-Compliance-Requirements.md). In addition to having contributor license agreements in place for each maintainer, the main steps are:
+Once a contribution is approved, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution compliance requirements](Contribution-Compliance-Requirements.md). The main areas covered are:
 
-- If the contributor holds a trademark or the project name has been previously publicly used, the contributing entity will be required to complete a [contribution agreement](https://community.finos.org/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf) to assign trademark right to FINOS (The Linux Foundation). Alternatively the project can select a new name for that does not conflict with any existing marks. Transferring the project trademark to FINOS, so that FINOS can enforce the project's rights consistent with our [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf).
-- Compliance with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
-- Compliance with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/stages/incubating))
+#### Trademark
+-  If the chosen project name and existing logo are found to be risky choices from a trademark standpoint (e.g. they clash with existing marks), the project will be requested to select a new name that does not conflict with any existing marks
+-  If the contributor holds a trademark or the project name has been previously used in the publid domain (therefore potentially granting the contributor [common law trademark rights](https://www.uspto.gov/learning-and-resources/trademark-faqs#type-browse-faqs_1967), the contributor will be requested to transfer the project trademark to the Linux Foundation by completing a [contribution agreement](/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf). This will allow FINOS to neutrally steward the project consistently with our [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf).
+
+#### Intellectual property
+The project will be required to:
+- Have [contributor license agreements](/docs/governance/software-projects/contribution-compliance-requirements/#contributor-license-agreement) in place for each maintainer 
+- Comply with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
+- Comply with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/stages/incubating))
 
 ### Step 5: Transfer and Review of Contribution Materials
 Following successful IP and trademark compliance, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or sending the FINOS team an archive containing the code to be contributed. See [Code Transfer options](/docs/governance/Software-Projects/code-transfer).
