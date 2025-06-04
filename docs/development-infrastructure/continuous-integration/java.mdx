@@ -62,8 +62,8 @@ mvn release:prepare release:perform -Prelease
 
 Note that the artifact publishing process is delivered by the `central-publishing-maven-plugin:plugin` goal, which is included in the `<release.goals>` property, see https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml#L75
 
-You may 
-3. Promote the staged artifacts by accessing the [Nexus staging repositories](https://central.sonatype.org/pages/releasing-the-deployment.html) to:
+
+1. Promote the staged artifacts by accessing the [Nexus staging repositories](https://central.sonatype.org/pages/releasing-the-deployment.html) to:
   a. Identify which repository refers to the release process performed on step **#1**. Look at the description column to identify the specific project (look towards bottom of list).
   b. Select the staging repository. To release the request, click the `Close` (button on top menu) the release request - this operation will trigger a validation of the artifacts to be released
   c. Click on the refresh button to update status of repository.  Click on `Release` (button on top menu) to sync artifacts with the Central Repository and remove staging repository. 
