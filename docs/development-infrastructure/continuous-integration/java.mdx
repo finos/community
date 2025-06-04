@@ -22,9 +22,9 @@ You can also:
 ## Artifact publishing
 All Java projects hosted by the Foundation are expected to use `org.finos.<project slug>` as `groupId`, in order to identify the source of the artifact, and associate it unequivocally to the FINOS project; all released artifacts for incubating and active projects must be hosted on [Maven central](https://search.maven.org/#search%7Cga%7C1%7Corg.finos).
 
-To publish artifacts into Macen Central, you can either use the FINOS Parent POM and inherit its configuration, or copy it [from here](https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml).
+To publish artifacts into Maven Central, you can either use the FINOS Parent POM and inherit its configuration, or copy it [from here](https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml).
 
-We also strongly suggest to rely on CI/CD actions to execute the deployment, in order to avoid falling into OS or environment-specific challenges; the [FINOS Parent POM Github Action](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml) provides a perfect example, which needs very little changes to adapt to any Maven project.
+We also strongly suggest to rely on CI/CD actions to execute the deployment, in order to avoid falling into OS or environment-specific challenges; the [FINOS Parent POM GitHub Action](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml) provides a perfect example, which needs very little changes to adapt to any Maven project.
 
 1. Make sure that:
   a. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
@@ -62,8 +62,8 @@ mvn release:prepare release:perform -Prelease
 
 Note that the artifact publishing process is delivered by the `central-publishing-maven-plugin:plugin` goal, which is included in the `<release.goals>` property, see https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml#L75
 
-You may 
-3. Promote the staged artifacts by accessing the [Nexus staging repositories](https://central.sonatype.org/pages/releasing-the-deployment.html) to:
+
+1. Promote the staged artifacts by accessing the [Nexus staging repositories](https://central.sonatype.org/pages/releasing-the-deployment.html) to:
   a. Identify which repository refers to the release process performed on step **#1**. Look at the description column to identify the specific project (look towards bottom of list).
   b. Select the staging repository. To release the request, click the `Close` (button on top menu) the release request - this operation will trigger a validation of the artifacts to be released
   c. Click on the refresh button to update status of repository.  Click on `Release` (button on top menu) to sync artifacts with the Central Repository and remove staging repository. 
