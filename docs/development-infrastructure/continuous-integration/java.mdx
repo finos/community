@@ -27,14 +27,14 @@ To publish artifacts into Maven Central, you can either use the FINOS Parent POM
 We also strongly suggest to rely on CI/CD actions to execute the deployment, in order to avoid falling into OS or environment-specific challenges; the [FINOS Parent POM GitHub Action](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml) provides a perfect example, which needs very little changes to adapt to any Maven project.
 
 1. Make sure that:
-  a. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
-  b. your root pom.xml does not have the following items, as they are all replaced by the `central-publishing-maven-plugin`
+  1. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
+  2. your root pom.xml does not have the following items, as they are all replaced by the `central-publishing-maven-plugin`
     - `<distributionManagement>`
     - `oss.sonatype.org` or `s01.oss.sonatype.org`
     - `maven-deploy-plugin`
-  c. you have properly configured your versioning updates (either using the `maven-release-plugin` or manually, using the `maven-versions-plugin`)
-  d. your GitHub Action includes `configure-java`, using the following `server-*` and `gpg-*` parameters [shown here](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml#L38)
-  e. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
+  3. you have properly configured your versioning updates (either using the `maven-release-plugin` or manually, using the `maven-versions-plugin`)
+  4. your GitHub Action includes `configure-java`, using the following `server-*` and `gpg-*` parameters [shown here](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml#L38)
+  5. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
 2. Request the setup of Maven Central credentials and GPG key for artifact signing to help@finos.org for your (FINOS) Github repository; the provisioning process normally takes 3-4 working days
 3. Trigger the workflow
 4. If auto publish is enabled in the `central-publishing-maven-plugin`, you should be able to see your new artifact deployed on search.maven.org ; otherwise, you'll need to access [central.sonatype.com](https://central.sonatype.com) with the project's email and password (needs to be requested to help@finos.org) and trigger the publishing (or drop) of the deployment(s).
@@ -61,14 +61,6 @@ mvn release:prepare release:perform -Prelease
 ```
 
 Note that the artifact publishing process is delivered by the `central-publishing-maven-plugin:plugin` goal, which is included in the `<release.goals>` property, see https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml#L75
-
-
-1. Promote the staged artifacts by accessing the [Nexus staging repositories](https://central.sonatype.org/pages/releasing-the-deployment.html) to:
-  a. Identify which repository refers to the release process performed on step **#1**. Look at the description column to identify the specific project (look towards bottom of list).
-  b. Select the staging repository. To release the request, click the `Close` (button on top menu) the release request - this operation will trigger a validation of the artifacts to be released
-  c. Click on the refresh button to update status of repository.  Click on `Release` (button on top menu) to sync artifacts with the Central Repository and remove staging repository. 
-
-Upon release, your component will be published to Central: this typically occurs within 10 minutes, though updates to [search](https://search.maven.org/) can take up to two hours.  You can also [watch this youtube video](https://www.youtube.com/watch?v=aO-QFRsYxN4) to know more about the Nexus staging lifecycle.
 
 ### Known issues
 If the release command fails with "gpg: signing failed: Inappropriate ioctl for device", run the following command and try again; [more info on stackexchange](https://unix.stackexchange.com/a/257065).
