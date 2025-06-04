@@ -29,9 +29,9 @@ We also strongly suggest to rely on CI/CD actions to execute the deployment, in 
 1. Make sure that:
   1. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
   2. your root pom.xml does not have the following items, as they are all replaced by the `central-publishing-maven-plugin` :
-    1. `<distributionManagement>`
-    2. `oss.sonatype.org` or `s01.oss.sonatype.org`
-    3. `maven-deploy-plugin`
+      1. `<distributionManagement>`
+      2. `oss.sonatype.org` or `s01.oss.sonatype.org`
+      3. `maven-deploy-plugin`
   3. you have properly configured your versioning updates (either using the `maven-release-plugin` or manually, using the `maven-versions-plugin`)
   4. your GitHub Action includes `configure-java`, using the following `server-*` and `gpg-*` parameters [shown here](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml#L38)
   5. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
