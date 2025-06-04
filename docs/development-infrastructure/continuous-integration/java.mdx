@@ -24,7 +24,7 @@ All Java projects hosted by the Foundation are expected to use `org.finos.<proje
 
 To publish artifacts into Maven Central, you can either use the FINOS Parent POM and inherit its configuration, or copy it [from here](https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml).
 
-We also strongly suggest to rely on CI/CD actions to execute the deployment, in order to avoid falling into OS or environment-specific challenges; the [FINOS Parent POM Github Action](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml) provides a perfect example, which needs very little changes to adapt to any Maven project.
+We also strongly suggest to rely on CI/CD actions to execute the deployment, in order to avoid falling into OS or environment-specific challenges; the [FINOS Parent POM GitHub Action](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml) provides a perfect example, which needs very little changes to adapt to any Maven project.
 
 1. Make sure that:
   a. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
