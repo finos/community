@@ -22,7 +22,7 @@ You can also:
 ## Artifact publishing
 All Java projects hosted by the Foundation are expected to use `org.finos.<project slug>` as `groupId`, in order to identify the source of the artifact, and associate it unequivocally to the FINOS project; all released artifacts for incubating and active projects must be hosted on [Maven central](https://search.maven.org/#search%7Cga%7C1%7Corg.finos).
 
-To publish artifacts into Macen Central, you can either use the FINOS Parent POM and inherit its configuration, or copy it [from here](https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml).
+To publish artifacts into Maven Central, you can either use the FINOS Parent POM and inherit its configuration, or copy it [from here](https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml).
 
 We also strongly suggest to rely on CI/CD actions to execute the deployment, in order to avoid falling into OS or environment-specific challenges; the [FINOS Parent POM Github Action](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml) provides a perfect example, which needs very little changes to adapt to any Maven project.
 
