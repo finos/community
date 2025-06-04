@@ -28,16 +28,16 @@ We also strongly suggest to rely on CI/CD actions to execute the deployment, in 
 
 1. Make sure that:
   1. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
-  2. your root pom.xml does not have the following items, as they are all replaced by the `central-publishing-maven-plugin`
-    - `<distributionManagement>`
-    - `oss.sonatype.org` or `s01.oss.sonatype.org`
-    - `maven-deploy-plugin`
+  2. your root pom.xml does not have the following items, as they are all replaced by the `central-publishing-maven-plugin` :
+    1. `<distributionManagement>`
+    2. `oss.sonatype.org` or `s01.oss.sonatype.org`
+    3. `maven-deploy-plugin`
   3. you have properly configured your versioning updates (either using the `maven-release-plugin` or manually, using the `maven-versions-plugin`)
   4. your GitHub Action includes `configure-java`, using the following `server-*` and `gpg-*` parameters [shown here](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml#L38)
   5. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
 2. Request the setup of Maven Central credentials and GPG key for artifact signing to help@finos.org for your (FINOS) Github repository; the provisioning process normally takes 3-4 working days
 3. Trigger the workflow
-4. If auto publish is enabled in the `central-publishing-maven-plugin`, you should be able to see your new artifact deployed on search.maven.org ; otherwise, you'll need to access [central.sonatype.com](https://central.sonatype.com) with the project's email and password (needs to be requested to help@finos.org) and trigger the publishing (or drop) of the deployment(s).
+4. If auto publish is enabled (the default configuration for FINOS Parent POM) in the `central-publishing-maven-plugin`, you should be able to see your new artifact deployed on search.maven.org after roughly 30 minutes, without the need for any further action; otherwise, you'll need to access [central.sonatype.com](https://central.sonatype.com) with the project's email and password (needs to be requested to help@finos.org) and trigger the publishing (or drop) of the deployment(s).
 
 ### Maven Central Badge
 A badge can be added at the top of the project's root-level [README.md] file, using the following Markdown syntax:
