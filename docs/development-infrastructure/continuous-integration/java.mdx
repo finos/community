@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 FINOS provides support for [Java projects](https://github.com/finos?q=&type=&language=java) by delivering:
 1. The FINOS Parent POM, a Maven POM Module that delivers out-of-the-box features for your FINOS-hosted Java project and saves some Maven configuration hassle
-2. The provisioning, configuration and management of the [Maven Central Portal](central.sonatype.com) account required to publish your Java project into Maven Central.
+2. The provisioning, configuration and management of the [Maven Central Portal](https://central.sonatype.com) account required to publish your Java project into Maven Central.
 
 The FINOS Parent POM provides:
 1. Plugin configuration for Java sources, Javadocs, Maven Site Plugin, Sonar and Docker
@@ -37,7 +37,7 @@ We also strongly suggest to rely on CI/CD actions to execute the deployment, in 
   e. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
 2. Request the setup of Maven Central credentials and GPG key for artifact signing to help@finos.org for your (FINOS) Github repository; the provisioning process normally takes 3-4 working days
 3. Trigger the workflow
-4. If auto publish is enabled in the `central-publishing-maven-plugin`, you should be able to see your new artifact deployed on search.maven.org ; otherwise, you'll need to access [central.sonatype.com](central.sonatype.com) with the project's email and password (needs to be requested to help@finos.org) and trigger the publishing (or drop) of the deployment(s).
+4. If auto publish is enabled in the `central-publishing-maven-plugin`, you should be able to see your new artifact deployed on search.maven.org ; otherwise, you'll need to access [central.sonatype.com](https://central.sonatype.com) with the project's email and password (needs to be requested to help@finos.org) and trigger the publishing (or drop) of the deployment(s).
 
 ### Maven Central Badge
 A badge can be added at the top of the project's root-level [README.md] file, using the following Markdown syntax:
