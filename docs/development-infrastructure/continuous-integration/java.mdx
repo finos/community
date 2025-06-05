@@ -30,10 +30,10 @@ First step is to make sure that the following tags are NOT included in your `pom
 3. `maven-deploy-plugin`
 
 Also make sure that:
-  1. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed; if you use the FINOS Parent POM, you can skip b) and c)
-  3. you have properly configured your versioning updates (either using the `maven-release-plugin` or manually, using the `maven-versions-plugin`)
-  4. your GitHub Action includes `configure-java`, using the following `server-*` and `gpg-*` parameters [shown here](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml#L38)
-  5. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
+  1. your GitHub Action generates GPG-signed (use self-signed certificates) artifacts, ready to be deployed
+  2. you have properly configured your versioning updates (either using the `maven-release-plugin` or manually, using the `maven-versions-plugin`)
+  3. your GitHub Action includes `configure-java`, using the following `server-*` and `gpg-*` parameters [shown here](https://github.com/finos/finos-parent-pom/blob/finos-7/.github/workflows/build.yml#L38)
+  4. the `server-id` on step d must match with the `<publishingServerId>` configuration of the `central-publishing-maven-plugin` in `pom.xml`; if you're using the FINOS Parent POM, you can override it using the `<publish.server.id>` property (default is `ossrh`)
 
 At this point you can request the setup of Maven Central credentials and GPG key for artifact signing to help@finos.org for your (FINOS) Github repository (the provisioning process normally takes 3-4 working days) and trigger the workflow.
 
