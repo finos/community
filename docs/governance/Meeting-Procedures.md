@@ -32,7 +32,7 @@ This document describes requirements and recommendations for holding meetings of
 
 ## Run the meeting
 * Hosts **must** ensure that the meeting adheres to the [LF Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy).
-* Hosts **must** ensure the [FINOS Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct/) is adhered to at all time and removing anyone from the call that does to adhear to it.
+* Hosts **must** ensure the [FINOS Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct/) is adhered to at all times and remove anyone from the call that does to adhear to it.
 * Hosts **should** display the [Antitrust Policy summary slide](/Compliance-Slides/Antitrust-Compliance-Slide.pdf) at the beginning of the meeting.
 * Standards project hosts **should** display the [standards project compliance slides](/Compliance-Slides/Standards-Project-Compliance-Slides.pdf) at the beginning of the meeting.
 * Hosts **should** ask new participants to identify themselves with a quick introduction and their affiliations. If an attendee is not able to be identified they **should** be removed.
