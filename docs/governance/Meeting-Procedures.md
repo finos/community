@@ -50,7 +50,7 @@ This document describes requirements and recommendations for holding meetings of
 Hosts **should** call a vote on any agenda item requiring one, according to the voting procedures of the group.
 
 ## Hosting meetings with the LFX PCC Meeting Management tool
-* Hosts **should** claim the host role. The host key can be obtained by going to your [LFX "My Meetings" Dashboard](https://openprofile.dev/my-meetings), clicking on the respective meeting, and copying the "Host Key". The host key is available up to 1 hour before the start of the call. Once inside the Zoom room:
+* Hosts **should** claim the host role. The host key can be obtained by going to your [LFX "My Meetings" Dashboard](https://openprofile.dev/my-meetings) (**Note**: You will need to create an Linux Foundation ID, you can do so at https://openprofile.dev/), clicking on the respective meeting, and copying the "Host Key". The host key is available up to 1 hour before the start of the call. Once inside the Zoom room:
   1. Open the "Participants" panel by clicking the "Participants" button in the meeting controls at the bottom of the screen. 
   2. At the bottom of the Participants panel, click the "Claim Host" button.
   3. Enter the 6-digit host key you copied in the pop-up window and click "Claim Host".
