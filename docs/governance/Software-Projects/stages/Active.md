@@ -63,7 +63,7 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 | **Usefulness** | The Project demonstrably solves a real life use case in the Community. Evidence of adoption beyond the contributing individuals or firms (e.g., in the form of download statistics, listing known deployments or implementations, etc.) |  |
 | **Status Badging** | Project Team commits to adopt the FINOS Active badge in the README.md once the FINOS team approves activation, in order to properly signal the new Project Lifecycle status to adopters. |  |
 |  | **HYGIENE & OPERATIONS** |       |
-| **Compliance** | The appropriate license text is included in each source file's header. See details and template |  |
+| **Compliance** | The appropriate license text is included in each source file's header. [See details and template](https://www.apache.org/licenses/LICENSE-2.0.html#apply). |  |
 | **Community Inquiries** | Community inquiries on the project channels (mailing lists, issues and pull requests, etc) are generally promptly answered |   |
 | **Meeting Hygiene** | If the project meets regularly on-line, the Project Team has demonstrated a track record of publishing and distributing agenda no less than 24 hours before the meeting, and publishes meeting minutes after calls. |  |
 | **Transparency** | Project Team has adopted a transparent governance model(*) consistent with FINOS Community governance. Work for new contributors is organized into issues within a public issue tracking system, as appropriate, tagged as "Good First Issues" |  |
