@@ -60,14 +60,6 @@ The following must remain true for _Incubating_ projects at all times. A Health 
 > 
 > A project’s discussions, minutes, deliberations, project plans, issue tracking plans for new features, and other artefacts are open, public, and easily accessible in the FINOS Project Infrastructure or FINOS sanctioned external system.
 
-### Releases
-An incubating project is allowed to deploy releases while incubating, **provided version numbers are < 1.0.0**.  Only released projects are entitled to label themselves with versions 1.0.0 and above.
-
-Incubating projects may also use ecosystem-appropriate suffixes for **pre-releases** (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem), in an effort to support wider contribution.
-
-**NOTE!**
-The Foundation strongly recommends the use of [Semantic Versioning](http://semver.org/) ("semver") throughout a project's lifecycle.
-
 ## Notes for Consumers and other Evaluators
 If you're evaluating Foundation-hosted open source projects and see the incubating badge shown above, here are some of the things you should expect should you choose to download and use the software:
 

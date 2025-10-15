@@ -15,7 +15,7 @@ The objectives of the Graduated lifecycle state primarily involve the project te
 ## Releases
 A Graduated project can use any version number it wishes, although generally releases from a Graduated project will be `≥ v1.0.0`.  Ecosystem-specific suffixes may also be used for pre-releases (e.g. `-SNAPSHOT` in the Java ecosystem, or `-alpha`, `-beta`, etc. in the .NET ecosystem).
 
-All Graduated project starting from `v1.0.0` upward must adhere to the version numbering rules defined by [Semantic Versioning](http://semver.org/) ("semver"), specifically:
+All Graduated project starting from `v1.0.0` upward using [Semantic Versioning](http://semver.org/) ("semver"), specifically must follow the below approach to provide robust expectations for consumers:
 - Increment `MAJOR` version when an incompatible change is made
 - Increment `MINOR` version when new functionality is added in a backwards-compatible manner
 - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
