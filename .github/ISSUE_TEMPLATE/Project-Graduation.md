@@ -1,5 +1,5 @@
 ---
-name: "\U0001F58AProject Graduate"
+name: "\U0001F58AProject Graduation"
 about: To Graduate a FINOS hosted Project
 title: Project Graduation
 labels: ''
