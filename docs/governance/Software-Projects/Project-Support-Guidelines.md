@@ -13,9 +13,9 @@ Incubating (Focus)
 
 Incubating (Non Focus)
 
-Active (Focus)
+Graduated (Focus)
 
-Active (Non Focus)
+Graduated (Non Focus)
 
 Archived
 
@@ -709,7 +709,7 @@ Active project management to achieve contribution
 
 N/A
 
-Product management (active task management, prioritization, release planning, etc)
+Product management (active task management, prioritization, release planning, etc.)
 
 ✓
 

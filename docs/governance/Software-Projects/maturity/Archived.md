@@ -1,6 +1,6 @@
 ---
 id: archived
-title: The Archived stage
+title: FINOS Archived Projects
 ---
 
 Projects that are no longer active, or falter for other reasons, may be marked as archived to educate consumers and other potential evaluators.  In this state:
@@ -29,7 +29,7 @@ The FINOS team might, however, continue to gauge community interest in reviving 
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
-[![FINOS - Archived](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-archived.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/archived)
+[![FINOS - Archived](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-archived.svg)](https://community.finos.org/docs/governance/Software-Projects/maturity/archived)
 ```
 
 ## Releases

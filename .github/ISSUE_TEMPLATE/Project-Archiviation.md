@@ -20,7 +20,7 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 -----
 
 ## Confirm archivation
-- [ ] Validate [reasons for project archival](https://community.finos.org/docs/governance/Software-Projects/stages/archived)
+- [ ] Validate [reasons for project archival](https://community.finos.org/docs/governance/Software-Projects/maturity/archived)
 - [ ] Discuss request with FINOS Leadership team
 - [ ] Get in touch with Project Lead. If she/he agrees with the request, then move forward
 - [ ] (if applicable, and on a case to case basis) communicate project archival, reasons for archival and implications of archival to the project community
@@ -28,7 +28,7 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 ## Archive GitHub repositories
 - [ ] Collect all GitHub repository for a given project, from FINOS metadata; iterate the following steps on each of them:
     - [ ] Remove all users and teams from `Member Access` repository settings
-    - [ ] Update badge on `README.md` to [Archived](https://community.finos.org/docs/governance/software-projects/stages/archived/#badge) (linking to https://community.finos.org/docs/governance/Software-Projects/stages/archived)
+    - [ ] Update badge on `README.md` to [Archived](https://community.finos.org/docs/governance/software-projects/maturity/archived/#badge) (linking to https://community.finos.org/docs/governance/Software-Projects/maturity/archived)
     - [ ] Add a note at the top of the README file, stating: _This project is archived, which means that it's in read-only state; you can download and use this code, but please be aware that it may be buggy and may also contain security vulnerabilities. If you're interested to restore development activities on this project, please email help@finos.org_
     - [ ] Hit the `Archive` button on GitHub, by accessing the Settings repository page using `finos-admin` credentials
     - [ ] Open ticket to LF Support in order to update Project definition:
