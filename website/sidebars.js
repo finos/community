@@ -40,8 +40,8 @@ module.exports = {
             label: 'Project Lifecycle',
             items: [
               'governance/Software-Projects/project-lifecycle',
-              "governance/Software-Projects/maturity/incubating",
               "governance/Software-Projects/maturity/labs",
+              "governance/Software-Projects/maturity/incubating",
               "governance/Software-Projects/maturity/graduated",
               "governance/Software-Projects/maturity/archived"
             ]
