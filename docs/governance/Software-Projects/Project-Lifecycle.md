@@ -3,22 +3,13 @@ id: project-lifecycle
 title: Lifecycle introduction
 ---
 
-FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aliging to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) and [repostatus.org status](https://www.repostatus.org/) models. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
+FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aligning to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) model. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
 
 * Maturity
-  * **[Labs](maturity/Labs.md)** - experimental or innovative projects that are early in their life
-  * **[Incubation](maturity/Incubating.md)** - for new (and newly contributed) projects;
-  * **[Graduated](maturity/Graduated.md)** - for mature, active projects with healthy and diverse contributor communities; and
-  * **[Archived](maturity/Archived.md)** - for projects that are no longer actively maintained.
-* Status (from [repostatus.org](https://www.repostatus.org/))
-  *  **Concept** – Minimal or no implementation has been done yet, or the repository is only intended to be a limited example, demo, or proof-of-concept.
-  *  **WIP** – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.
-  *  **Suspended** – Initial development has started, but there has not yet been a stable, usable release; work has been stopped for the time being but the author(s) intend on resuming work.
-  *  **Abandoned** – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.
-  *  **Active** – The project has reached a stable, usable state and is being actively developed.
-  *  **Inactive** – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.
-  *  **Unsupported** – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.
-  *  **Moved** - The project has been moved to a new location, and the version at that location should be considered authoritative. This status should be accompanied by a new URL.
+  * **[Labs](/docs/governance/Software-Projects/maturity/Labs.md)** - experimental or innovative projects that are early in their life
+  * **[Incubation](/docs/governance/Software-Projects/maturity/Incubating.md)** - for new (and newly contributed) projects;
+  * **[Graduated](/docs/governance/Software-Projects/maturity/Graduated.md)** - for mature, active projects with healthy and diverse contributor communities; and
+  * **[Archived](/docs/governance/Software-Projects/maturity/Archived.md)** - for projects that are no longer actively maintained.
 
 These maturity stages and project statuses are described in greater detail below.
 
@@ -49,7 +40,7 @@ To graduate from the Incubating stage, a project must meet the requirements of t
 
 Projects are [Archived](/docs/governance/Software-Projects/maturity/archived) when they are no longer actively developed (with a project status of Unsupported or Moved), for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
 
-Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the projects status.
+Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the project's status.
 
 ### FINOS Labs (Optional)
 
@@ -60,30 +51,3 @@ Optionally, before a project is contributed, the FINOS team might work with the 
 Projects may be moved to the Archived state from either the Incubating or Graduated maturity level, either upon the request of the project maintainers, or upon a determination by FINOS that the project is inactive.
 
 The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/) provides support to resolve any potential dispute that may occur between project maintainers and who is proposing the transition to archived.
-
-## Project Status
-
-During the life-cycle of even a Graduated project it's possible, even likely, that business need or strategy for further releases and support of a project changes over time.  The Maturity itself hasn't necessarily changed, rather that the level of support may, changing key contributors would be such an occurrence.   The projects Status therefore is a signal from either the project team or the TOC for what can be expected in terms of support or future functional releases or indeed security patches providing further information to consumers and potential contributors alike.
-
-### How Project Status and Maturity interact
-
-The repostatus.org [lifecycle](https://www.repostatus.org/lifecycle) focusses on the split between stable and unstable states of delivery:
-
-<img src="https://www.repostatus.org/images/lifecycle.svg" width="550" alt="lifecycle state transitions"/>
-
-The following is a non-exclusive overview of possible project statuses per Maturity level:
-
-| Maturity | Possible Status | Notes |
-|--|--|--|
-| Labs | Concept, WIP, Abandoned, Suspended | The intention should be to Incubate when a degree of stability is reached.  If a project reaches Abandoned status, or remains at Suspended for an extended period of time it will Archived by the TOC |
-| Incubating | WIP, Active, Inactive | All Incubated projects will enter WIP status until a stable, usable release is made signalling transition into Active status,  Inactive projects will not be Graduated. * |
-| Graduated | Active, Inactive | * |
-| Archived | Unsupported, Moved | Inactive projects that still recieve best-efforts support |
-
-\* 'Inactive' Incubating or Graduated projects that continue to have low activity over longer time periods will be subject Maturity re-assesment by the TOC, including possible status change to Unsupported and Archived.
-
-### (Re)Assignment of Status
-
-Project statuses, health metrics and their respective badges are mastered centrally, project teams may raise status change issues, with the TOC approving based on the provide evidence.
-
-A given projects lifecycle status determination is based on agreement between the project team and the FINOS TOC, with the TOC able to override based on collective recognition of status change (e.g. repeated quarters of low releases, code or community activity signals the project may be Inactive or Unsupported).
