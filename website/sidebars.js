@@ -13,7 +13,7 @@ module.exports = {
         type: 'category',
         label: 'Corporate Governance',
         items: [
-          "governance/charter",
+          "governance/funding-documents",
           "governance/board-election",
           "governance/code-of-conduct",
           "governance/individual-supporter-program",

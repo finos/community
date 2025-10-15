@@ -57,6 +57,15 @@ Projects are [Archived](/docs/governance/Software-Projects/stages/archived) when
 
 Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the projects status.
 
+## FINOS Labs (Optional)
+
+<img src="https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg" width="150" />
+
+If a project is not mature enough to be incubated in FINOS, but still could use a neutral space to collaborate, the [FINOS Labs](https://github.com/finos-labs) organization provides a great place to do so. Please [open an issue](http://github.com/finos-labs/issues) in FINOS Labs pointing to the code you'd like to contribute and reach out to the [FINOS team](mailto:infra@finos.org) to engage. 
+
+Projects may be moved to the Archived state from either the Incubating or Active states, either upon the request of the project maintainers, or upon a determination by FINOS that the project is inactive.
+
+
 The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/) provides support to resolve any potential dispute that may occur between project maintainers and who is proposing the transition to archived.
 
 ## Project Status

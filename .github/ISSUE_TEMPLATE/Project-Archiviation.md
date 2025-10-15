@@ -41,7 +41,6 @@ Upon submission of this proposal, the FINOS team will follow the checklist repor
 
 ## Infra tasks
 - [ ] Create a `staging` branch on https://github.com/finos/finos-landscape
-- [ ] Update FINOS Metadata (set `state` to `ARCHIVED` and set `archiveDate`)
-- [ ] Ask @jgavronsky to update project state to `Archived`
+- [ ] Update https://github.com/finos/finos-landscape/blob/master/landscape.yml
 - [ ] Remove project Leads from the [finos-project-maintainers@finos.org](https://groups.google.com/a/finos.org/g/finos-project-maintainers/members) list (unless they're leading other FINOS projects!)
 - [ ] Remove project Leads from the [project-maintainers Team](https://github.com/orgs/finos/teams/project-maintainers/members) (unless they're leading other FINOS projects!)

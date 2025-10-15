@@ -9,7 +9,7 @@ This space provides an overview of the Foundation's governance:
 
 ## Membership
 
-FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Charter](Charter). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits) or reach out to [membership@finos.org](mailto:membership@finos.org).
+FINOS is a membership organization within the [Linux Foundation](http://linuxfoundation.org/). We have four tiers of corporate membership (Platinum, Gold, Silver and Associate), each with different rights and obligations under the Foundation's [Funding Documents](funding-documents). Please refer to the FINOS website for more information on [FINOS members and membership benefits](https://www.finos.org/membership-benefits) or reach out to [membership@finos.org](mailto:membership@finos.org).
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](Individual-Supporter-Program) to be recognized for their contributions and receive certain members-only benefits.
 
@@ -23,15 +23,15 @@ The Foundation's day-to-day operations are run by the [FINOS team](https://finos
 
 ## Technical Oversight Committee
 
-This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC resposibilities](https://github.com/finos/technical-oversight-committee/blob/master/responsibilities.md)); it is composed by [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/master/voting.md)).
+This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC resposibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md)); it is composed by [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/main/operations/processes/elections/elections.md)).
 
 ## Policies
 
 The following policies apply to all FINOS members and activities:
 
-* The [Charter](https://www.finos.org/hubfs/FINOS%20Charter.pdf) is the Foundation's constitution. It sets out our mission, members' rights and responsibilities, the authority and procedures of our Governing Board and its committees, and other Foundation policies.
+* The [Charter](funding-documents) is the Foundation's constitution. It sets out our mission, members' rights and responsibilities, the authority and procedures of our Governing Board and its committees, and other Foundation policies.
 
-* The [Participation Agreement](/governance-docs/Participation-Agreement.pdf) is the agreement that all of our members sign to join FINOS. It sets membership fees and terms and binds members to the terms of the [Charter](https://www.finos.org/hubfs/FINOS%20Charter.pdf). FINOS members must also be members of the Linux Foundation (at any level) and remain in compliance with LF's [Good Standing Policy](https://www.linuxfoundation.org/good-standing-policy). There is no requirement for membership to participate in the FINOS Community, but only members can propose new projects.
+* The [Participation Agreement](funding-documents) is the agreement that all of our members sign to join FINOS. It sets membership fees and terms and binds members to the terms of the [Charter](funding-documents). FINOS members must also be members of the Linux Foundation (at any level) and remain in compliance with LF's [Good Standing Policy](https://www.linuxfoundation.org/good-standing-policy). There is no requirement for membership to participate in the FINOS Community, but only members can propose new projects.
 
 * The [Community Code of Conduct](Code-of-Conduct) is the set of principles that participants in the Foundation's collaborative work are expected to abide by to maintain a healthy and inclusive community.
 

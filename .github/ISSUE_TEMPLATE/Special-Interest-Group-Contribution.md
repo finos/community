@@ -28,7 +28,7 @@ Below is the list of tasks that FINOS Team and the contribution author goes thro
 
 ## Voting (SIG Lead and FINOS ED)
 - [ ] Contribution author triggers community socialization to gauge interest - recommended emailing issue link to community@finos.org
-- [ ] If there's positive response from the Community, prepare short SIG proposal deck for the FINOS Governing Board. You can start from [this template](/governance-docs/202103-New-Project-or-SIG-proposal-(template)-PUBLIC.pptx) or see a [previous SIG example](/governance-docs/202101-InnerSource-SIG-Proposal-APPROVED.pdf))
+- [ ] If there's positive response from the Community, prepare short SIG proposal deck for the FINOS Governing Board. You can start from [this template](/governance-docs/202103-New-Project-or-SIG-proposal-(template)-PUBLIC.pptx) or see a [previous SIG example](https://community.finos.org/assets/files/202101-InnerSource-SIG-Proposal-APPROVED-85e2fa26d6d2589ea59eb4ff6ab31e67.pdf)
 - [ ] Assign issue to Executive Director (@mindthegab) to trigger vote
 - [ ] Executive Director brings SIG to the Board for additional socialization and approval
 - [ ] FINOS board accepts the SIG (and the onboarding process can move forward)
