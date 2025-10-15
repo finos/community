@@ -3,7 +3,7 @@ id: labs
 title: FINOS Labs Projects
 ---
 
-Experimental or concept Projects may be created within the [finos-labs](https://github.com/finos-labs/) organsiation, regardless of their size or level of maturity.  As projects become more mature they may be become Incubated within the FINOS organisation by [requesting onboarding](https://community.finos.org/docs/governance/software-projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project).
+Experimental or concept Projects may be created within the [finos-labs](https://github.com/finos-labs/) organisation, regardless of their size or level of maturity.  As projects become more mature they may be become Incubated within the FINOS organisation by [requesting onboarding](https://community.finos.org/docs/governance/software-projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project).
 
 Labs projects are in an initial exploratory phase, hosted in a neutral space overseen by FINOS. They must comply with a formal checklist defined by the Technical Oversight Committee (TOC) and enforced by the FINOS team. After acceptance, they must also adhere to a short list of ongoing maintenance requirements.
 

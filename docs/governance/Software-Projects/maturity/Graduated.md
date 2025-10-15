@@ -21,7 +21,7 @@ All Graduated project starting from `v1.0.0` upward must adhere to the version n
 - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
 
 ## Initiating Graduation
-In order for a project to become Graduated, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee); any project maintainer may initiate this approval process at any time, but opening a [project graduation issue](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Activation.md&title=Project+Graduation) with an information packet demonstrating that they've met the requirements for activation (see below for details).
+In order for a project to become Graduated, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee); any project maintainer may initiate this approval process at any time, but opening a [project graduation issue](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Graduation.md&title=Project+Graduation) with an information packet demonstrating that they've met the requirements for activation (see below for details).
 
 ## Requirements
 

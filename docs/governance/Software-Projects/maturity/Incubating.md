@@ -3,7 +3,7 @@ id: incubating
 title: FINOS Incubating Projects
 ---
 
-All projects hosted by the Foundation initially land in incubating state, regardless of their size or level of maturity.  Mature projects may [request activation](https://github.com/finos/community/issues/new?template=Project-Activation.md&title=Project+Activation) relatively quickly of course, at least compared to projects that are starting from scratch; there are no expectations or requirements for how long projects incubate, provided they are being actively developed.
+All projects hosted by the Foundation initially land in incubating state, regardless of their size or level of maturity.  Mature projects may [request Graduation](https://github.com/finos/community/issues/new?template=Project-Graduation.md&title=Project+Graduation) relatively quickly of course, at least compared to projects that are starting from scratch; there are no expectations or requirements for how long projects incubate, provided they are being actively developed.
 
 The Incubation level continues to nurture developing projects, where they will receive FINOS infrastructure, legal, and marketing benefits to help bolster their visibility and adoption. After acceptance, they must also adhere to ongoing maintenance requirements.
 

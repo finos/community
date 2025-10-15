@@ -7,7 +7,7 @@ FINOS projects are categorized by maturity and activity according to the FINOS P
 
 * Maturity
   * **[Labs](/docs/governance/Software-Projects/maturity/Labs)** - experimental or innovative projects that are early in their life
-  * **[Incubation](/docs/governance/Software-Projects/maturity/Incubating)** - for new (and newly contributed) projects;
+  * **[Incubating](/docs/governance/Software-Projects/maturity/Incubating)** - for new (and newly contributed) projects;
   * **[Graduated](/docs/governance/Software-Projects/maturity/Graduated)** - for mature, active projects with healthy and diverse contributor communities; and
   * **[Archived](/docs/governance/Software-Projects/maturity/Archived)** - for projects that are no longer actively maintained.
 
