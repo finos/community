@@ -71,9 +71,9 @@ Documents produced or contributed as part of the SIG will be contributed and mad
 # Project Lifecycle and steering
 
 ## Project Lifecycle
-Software projects follow the [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Active" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
+Software projects follow the [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Graduate" and finally may move to the "Archived" state (from either Incubating or Active) if they are no longer actively developed. 
 
-The TOC approves lifecycle transitions following objective criteria detailed for [Incubating](/docs/governance/software-projects/stages/incubating) and [Active](/docs/governance/software-projects/stages/active) projects. 
+The TOC approves lifecycle transitions following objective criteria detailed for [Incubating](/docs/governance/software-projects/maturity/incubating) and [Graduated](/docs/governance/software-projects/maturity/graduated) projects. 
 
 Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead. [Forming projects](/docs/governance/Software-Projects/project-lifecycle) might not be publicly visible until entering Incubation when they will be fully open sourced.
 

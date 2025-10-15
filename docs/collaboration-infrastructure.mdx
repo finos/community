@@ -113,13 +113,13 @@ Although GitHub doesn't directly support the concept of a "project" (a group of 
 #### Building and testing
 The build is an end-to-end process that converts source code into reusable artifacts, something that we will refer to as deployable units, which is developed by the project team and hosted in the github repository. It is a particularly important task, as it can centralise and trigger several automated sub-tasks, such as version control, code testing, quality and compliance reports and more.
 
-A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('/docs/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project activation](/docs/governance/Software-Projects/stages/active).
+A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('/docs/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project Graduation](/docs/governance/Software-Projects/maturity/graduation).
 
 #### Versioning
 Versioning is the process to establish a format to a project version and the rules to update it, preferably integrating with automated build and release systems; the Foundation mandates the use of [Semantic Versioning](https://semver.org/) ("semver") throughout a project's lifecycle:
 
-- for incubating projects, version numbers must be less than 1.0.0
-- for [Active](/docs/governance/Software-Projects/stages/active) projects, version numbers can be 1.0.0 or greater
+- for Incubating projects, version numbers must be less than 1.0.0
+- for [Graduated](/docs/governance/Software-Projects/maturity/graduation) projects, version numbers can be 1.0.0 or greater
 
 Every project team is encouraged to define specific criteria by which the MAJOR, MINOR and PATCH components of the semver scheme will be used (keeping in mind the general guidelines semver itself mandates), since this helps to provide clarity to consumers.
 
