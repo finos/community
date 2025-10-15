@@ -40,7 +40,7 @@ The following must remain true for projects at all times. A Health Review may be
 
 ### Migration out of Labs
 
-1. Apply to become a project in FINOS proper - TOC agreement
+1. Submit application for incubation to the TOC
 2. Recommend for other LF foundation
 3. Archive
 
