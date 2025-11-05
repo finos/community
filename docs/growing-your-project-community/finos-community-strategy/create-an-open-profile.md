@@ -22,6 +22,6 @@ https://user-images.githubusercontent.com/6029572/159292145-3a19fdea-37c6-4a9e-b
 - Create an Open Profile account on the LFX Homepage - https://lfx.linuxfoundation.org/
 - Register your LinkedIn account to auto populate your FINOS contribution history!
 
-<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/open-profile.png?raw=true"></img>
+<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/open-profile.png?raw=true" />
 
-[<< Back to Index](README.md)
+[← Back to Index](README.md)

@@ -3,3 +3,4 @@
 website/node_modules
 website/.docusaurus
 website/build
+.env.local

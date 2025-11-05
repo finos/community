@@ -56,7 +56,7 @@ The oc-deploy.sh script requires some mandatory environment variables to be defi
 
 Please review the default values of the following variables:
 
-- `OC_DELETE_LABEL` - Used to delete a group of resources with the same label; If set, the script will invoke oc delete all -l <OC_DELETE_LABEL>; example: `OC_DELETE_LABEL="app=mybot"`
+- `OC_DELETE_LABEL` - Used to delete a group of resources with the same label; If set, the script will invoke `oc delete all -l &lt;OC_DELETE_LABEL&gt;`; example: `OC_DELETE_LABEL="app=mybot"`
 - `OC_TEMPLATE_PROCESS_ARGS` - Comma-separated list of environment variables to pass to the OC template; defaults to null; example `OC_TEMPLATE_PROCESS_ARGS="BOT_NAME,S2I_IMAGE"`
 - `OC_VERSION` - OpenShift CLI version; defaults to `1.5.1`
 - `OC_RELEASE` - OpenShift CLI release; defaults to `7b451fc-linux-64bit`

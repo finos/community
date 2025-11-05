@@ -1,2 +1,7 @@
 [build]
    ignore = "/bin/false"
+   command = "cd website && yarn install && yarn build"
+   publish = "website/build"
+
+[build.environment]
+   NODE_VERSION = "20"
