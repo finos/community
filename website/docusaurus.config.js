@@ -18,16 +18,20 @@ module.exports = {
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
-    algolia: {
-      // Algolia search configuration
-      // Environment variables are set in Netlify dashboard
-      appId: process.env.ALGOLIA_APP_ID || 'CTIC0AGXBA',
-      apiKey: process.env.ALGOLIA_API_KEY || '',
-      indexName: process.env.ALGOLIA_INDEX_NAME || 'finos-community',
-      contextualSearch: true,
-      searchParameters: {},
-      searchPagePath: 'search',
-    },
+    // Algolia search is only enabled when ALGOLIA_API_KEY is set
+    // For builds without the API key, search will be disabled gracefully
+    ...(process.env.ALGOLIA_API_KEY && {
+      algolia: {
+        // Algolia search configuration
+        // Environment variables are set in Netlify dashboard
+        appId: process.env.ALGOLIA_APP_ID || 'CTIC0AGXBA',
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME || 'finos-community',
+        contextualSearch: true,
+        searchParameters: {},
+        searchPagePath: 'search',
+      },
+    }),
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,

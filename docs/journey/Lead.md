@@ -25,10 +25,10 @@ A **maintainer** is a contributor who, by virtue of their contribution history, 
 
 ### How do I become a maintainer?
 There two ways an individual can become a FINOS Maintainer:
-1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
+1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/Contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
 2. By being nominated by an existing project's maintainers, based on extensive contributions to the project. 
 
-FINOS strong encoursage projects have multiple maintainers from multiple organizations: in fact having multiple maintainers is a pre-requisite for graduation into the [Active](https://community.finos.org/docs/governance/Software-Projects/stages/active) project [lifecycle stage](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle).
+FINOS strong encoursage projects have multiple maintainers from multiple organizations: in fact having multiple maintainers is a pre-requisite for graduation into the [Active](https://community.finos.org/docs/governance/Software-Projects/stages/Active) project [lifecycle stage](https://community.finos.org/docs/governance/Software-Projects/Project-Lifecycle).
 
 In the case of large maintainer teams, maintainers should consider electing one or two **lead maintainers**. The lead maintainer(s) are the project's interface with the FINOS Team and Governing Board and are responsible for communicating on behalf of the project. The lead maintainer(s) are also accountable for steering project direction and prioritisation with the rest of the project community, and to build consensus.
 

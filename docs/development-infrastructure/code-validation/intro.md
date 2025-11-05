@@ -36,7 +36,7 @@ FINOS provides a set of tools, specifically GitHub Apps and Actions, that enforc
 
 ### CLA 
 
-To help project leads validate external contributor's identity and capacity to contribute code to the Foundation please visit https://community.finos.org/docs/governance/software-projects/easycla/ to know more about FINOS CLAs. 
+To help project leads validate external contributor's identity and capacity to contribute code to the Foundation please visit https://community.finos.org/docs/governance/Software-Projects/EasyCLA/ to know more about FINOS CLAs. 
 
 ### Project compliance scan
 FINOS have developed a tool that scans all the GitHub repositories across all FINOS orgs and generates a report based on the following quality and compliance validations:
