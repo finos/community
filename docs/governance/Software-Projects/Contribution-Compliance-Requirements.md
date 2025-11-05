@@ -14,7 +14,7 @@ To ensure that FINOS has the legal right to distribute your contribution, the Fo
 ### Contributor License Agreement
 Each contribution to a Foundation open source project must be covered by a contributor license agreement (CLA). This is a legal agreement granting the Foundation the necessary rights (under copyright and patent laws) to distribute the contribution.
 
-If **your employer owns the rights** to your contributions, you should submit a **Corporate Contributor License Agreement (CCLA)** signed by an authorized representative of your employer; if **you alone own the rights** to your contributions, you should sign and submit an Individual Contributor License Agreement (ICLA). [Read more about EasyCLA](EasyCLA.md) and how to proceed with signature.
+If **your employer owns the rights** to your contributions, you should submit a **Corporate Contributor License Agreement (CCLA)** signed by an authorized representative of your employer; if **you alone own the rights** to your contributions, you should sign and submit an Individual Contributor License Agreement (ICLA). [Read more about EasyCLA](/docs/governance/Software-Projects/easycla) and how to proceed with signature.
 
 If you change jobs after contributing to the Foundation under your previous employer's CCLA, please notify [help@finos.org](mailto:help@finos.org) so that we can ensure that an appropriate CLA is in place with you or your new employer.
 
@@ -45,7 +45,7 @@ The `CONTRIBUTING` file contains basic instructions to prospective contributors 
 Please note that Github will prompt this content when a user creates an issue or pull request, you can read more on [GitHub Contributing Guidelines](https://github.com/blog/1184-contributing-guidelines).
 
 #### Source code license headers
-For [Activation](/docs/governance/Software-Projects/Project-Lifecycle), it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
+For [Activation](/docs/governance/Software-Projects/project-lifecycle), it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
 
 ```
 SPDX-License-Identifier: Apache-2.0
@@ -88,7 +88,7 @@ PackageLicenseDeclared: Apache-2.0
 If your contribution includes any third-party open source code, the license for that code must permit its use within an Apache-licensed project, and the Foundation's use of the code must comply with the terms of the third-party license.
 
 #### Identifying acceptable licenses
-All Foundation projects must be licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the license for any third-party code must be compatible with this requirement. The Foundation [categorizes open source licenses in the same way as the Apache Software Foundation](/docs/governance/Software-Projects/License-categories):
+All Foundation projects must be licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the license for any third-party code must be compatible with this requirement. The Foundation [categorizes open source licenses in the same way as the Apache Software Foundation](/docs/governance/Software-Projects/license-categories):
 
 - **Category A licenses** have similar terms to the Apache License. Contributions to the Foundation can include (or depend upon) code licensed under Category A licenses.
   - Examples: common variants of the BSD and MIT licenses; the Apache License.

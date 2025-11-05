@@ -18,8 +18,8 @@ No paid Membership is required, and everyone is welcome to contribute to an exis
 
 ### Contributing to an existing Software Project
 1. Choose a project in [our Landscape](https://landscape.finos.org/) or if you don't know where to start, take a look at the list of [Good First Issues on Github](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22%2C%22help+wanted%22) where projects are actively seeking for help! 
-2. Take look a how to [contribute to an existing project ](/docs/governance/Software-Projects/Contribution#contribution-of-code-to-an-existing-finos-project)
-3. You or your company will need a valid [Contributor License Agreement](/docs/governance/Software-Projects/Contribution-Compliance-Requirements#contributor-license-agreement), which can be easily completed online via [EasyCla](/docs/governance/Software-Projects/EasyCLA)
+2. Take look a how to [contribute to an existing project ](/docs/governance/Software-Projects/contribution#contribution-of-code-to-an-existing-finos-project)
+3. You or your company will need a valid [Contributor License Agreement](/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement), which can be easily completed online via [EasyCla](/docs/governance/Software-Projects/easycla)
 
 > The Foundation also encourages non-code contributions in the form of issues - bug reports and enhancement requests -, and documentation updates. 
 > This means that **you do not need to be a developer to contribute to FINOS projects**. These are also highly valued contributions, and project teams 
@@ -29,7 +29,7 @@ No paid Membership is required, and everyone is welcome to contribute to an exis
 Some projects may have additional contributing guidelines and requirements; such as requiring a particular coding standard or following a specific review process. In order to maximize the chances of your contribution being accepted, take a look at the `CONTRIBUTING.MD` file of the project you are contributing to. The [Contributor Cheat Sheet](/docs/finos-contributors-cheatsheet) is a great resource to help here.
 
 ### Contributing a new Software Project
-FINOS follows a formal structured process of proposal, community socialization and approval for our projects. Take a look at [how to contribute a new project to FINOS](/docs/governance/Software-Projects/Contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project).
+FINOS follows a formal structured process of proposal, community socialization and approval for our projects. Take a look at [how to contribute a new project to FINOS](/docs/governance/Software-Projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project).
 
 If/ once the project is approved, the FINOS team will create the project based on the [Software Project Blueprint](https://github.com/finos/software-project-blueprint) to jumpstart your project with proper contribution guidelines.
 

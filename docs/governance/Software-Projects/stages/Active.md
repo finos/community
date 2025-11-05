@@ -28,7 +28,7 @@ In order for a project to become Active, it must be reviewed and the change form
 Foundation-hosted projects are expected to provide a clear indication to visitors that they are active. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
-[![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/Active)
+[![FINOS - Active](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-active.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/active)
 ```
 
 ## What does activation mean for the consumer? 
@@ -47,7 +47,7 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 |  | **QUALITY & SECURITY** |   |
 | **Development Process** | <p>The Project adopts best-of-breed standards of distributed software development, including but not limited to:</p><ul><li>semantic versioning</li><li>tagging / branch protection</li><li>continuous integration ("CI") and continuous delivery ("CD") where applicable</li></ul> |  |
 | **Build & Release** | <p>The Project code/documentation release process automated or at lest well documented.</p><p>If code is published, publicly redistributed release binaries should be listed or referred to in the documentation (e.g. under the FINOS namespace in an artefact repository or package manager, e.g. NPM, Maven Central, etc.)</p> |   |
-| **Security** | <li>The project has an [OpenSSF "Passing" badge](#obtaining-the-openssf-best-practices-badge) </li> <li>Maintainers are familiar with the [FINOS Security vulnerabilities responsible disclosure](../Security-Vulnerabilities-Responsible-Disclosure-Policy)</li><li>An automated security scanning tool is enabled on the project (e.g. [FINOS Security Scanning](https://www.finos.org/blog/introducing-finos-security-scanning) or [WhiteSource](/docs/development-infrastructure/code-validation/whitesource))</li>
+| **Security** | <li>The project has an [OpenSSF "Passing" badge](#obtaining-the-openssf-best-practices-badge) </li> <li>Maintainers are familiar with the [FINOS Security vulnerabilities responsible disclosure](/docs/governance/Software-Projects/cve-responsible-disclosure)</li><li>An automated security scanning tool is enabled on the project (e.g. [FINOS Security Scanning](https://www.finos.org/blog/introducing-finos-security-scanning) or [WhiteSource](/docs/development-infrastructure/code-validation/whitesource))</li>
 | **Documentation** | <p>The README.md must include or reference up to date:</p><ul><li>end user docs, including a description of the software, feature overview, installation & configuration instructions</li><li>developer docs, including links to other external systems (further docs, wiki, CI & validation tools, artefact repository, change log / history, etc.)</li><li>where possible badges (e.g. from shields.io) are encouraged</li><li>sample code explaining how to use the project, library, standard, SDK, etc.</li></ul> |  |
 |  | **DIVERSITY & VIABILITY** |       |
 | **Community** | Project has active participation from 2+ independent individuals and/or organizations; Ideally Project Team members who make contributions in connection with their employment are doing do as part of their regular job duties. |  |

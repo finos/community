@@ -15,13 +15,13 @@ How a particular project asset is consumed will vary from project to project. [S
 ## Evaluating maturity of our projects 
 We encourage you to thoughtfully assess not only the **value** and **fit for purpose**, but also the **maturity** of both the technology and the team that produced a particular code asset. Evaluating the project's momentum and longevity will help you assess the level of technical risk that you may be taking on when leveraging it. FINOS provides tools to help the community in these assessments, particularly:
 
-- The [Project Lifecycle](/docs/governance/Software-Projects/Project-Lifecycle) which provides a single overall measure of the maturity of our projects
+- The [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle) which provides a single overall measure of the maturity of our projects
 - The [Metrics Dashboard](https://metrics.finos.org) which provides transparent analytics on the activity of each of our Projects and SIGs
 
 Once you've identified suitable components we encourage you to consume them in your own software development efforts! 
 
 ## FINOS ensures Security and IP Compliance of our projects
-As an open source community in a regulated industry, we are well aware of the strong enterprise requirements of our project consumers. That is why we require [strict IP compliance requirements](https://community.finos.org/docs/governance/Software-Projects/Contribution-Compliance-Requirements), enforced via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/EasyCLA) and increasingly mandatory [security scanning](https://community.finos.org/docs/development-infrastructure/code-validation/whitesource), backed [by a responsible disclosure policy](https://community.finos.org/docs/governance/Software-Projects/Security-Vulnerabilities-Responsible-Disclosure-Policy).
+As an open source community in a regulated industry, we are well aware of the strong enterprise requirements of our project consumers. That is why we require [strict IP compliance requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements), enforced via [EasyCLA](https://community.finos.org/docs/governance/Software-Projects/easycla) and increasingly mandatory [security scanning](https://community.finos.org/docs/development-infrastructure/code-validation/whitesource), backed [by a responsible disclosure policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure).
 
 ## Ready to contribute back?
 As you consume FINOS projects, you may be willing to take an active role in the development by [Engaging](/docs/journey/engage) with or [Contributing](https://community.finos.org/docs/journey/participate/) to that project. As an open community, we encourage you to participate in the Projects or Special Interest Groups (SIGs) whose work you consume!
