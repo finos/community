@@ -3,7 +3,7 @@
 <img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
 # FINOS Community Collaboration Space
-This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large. You can browse these contents also via https://community.finos.org .
+This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large. You can browse these contents also via [https://community.finos.org](https://community.finos.org). You are also **more than welcome to propose changes / fixes** by using the contextual _"Edit this page"_ feature on community.finos.org.
 
 ## Quick Links
 All the documentation in this website (anything in the /docs and /website folder) are deployed for easy consumption at [community.finos.org](community.finos.org). You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email [help@finos.org](help@finos.org) if you still can't find what you're looking for.
@@ -16,11 +16,8 @@ All the documentation in this website (anything in the /docs and /website folder
 ### Projects
 - [FINOS Project Landscape](https://landscape.finos.org)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
-- Propose a new project or SIG (NOTE: limited to [FINOS Members](http://finos.org/members)): 
-  - [New Open Source Software Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding)
-  - [New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding)
-  - [New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)
-- [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
+- [Propose a new project or SIG](https://community.finos.org/docs/governance/software-projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project) (NOTE: limited to [FINOS Members](http://finos.org/members)): 
+- [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=@opoupeney&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
 
 ### Resources
 - [FINOS Website](https://finos.org)
@@ -28,7 +25,7 @@ All the documentation in this website (anything in the /docs and /website folder
 - [Email Archives (requires Google login)](http://groups.google.com/a/finos.org/)
 
 ## Join the FINOS Community list
-Everyone is welcome to subscribe to the FINOS General Community List at community@finos.org by emailing community+subscribe@finos.org. 
+Everyone is welcome to subscribe to the FINOS General Community List at community@finos.org by emailing [community+subscribe@finos.org](mailto:community+subscribe@finos.org). 
 
 ## Join the FINOS Slack
 Join the FINOS Project, SIG and wider community conversation in the FINOS Community Slack. If you are an employee of a [FINOS Member](https://finos.org/members), corporate firewall restrictions allowing, you should be able to self-subscribe at https://finos-lf.slack.com/signup. If you are not a FINOS Member or have any trouble joining, please email to help@finos.org with your desired email address and we'll set you up. 

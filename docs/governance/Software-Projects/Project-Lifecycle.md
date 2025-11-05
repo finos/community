@@ -42,6 +42,13 @@ To graduate from the Incubating to the Active stage, a project must meet the req
 
 Projects are [Archived](/docs/governance/Software-Projects/stages/Archived) when they are no longer actively developed, for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
 
+
+## FINOS Labs (Optional)
+
+<img src="https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg" width="150" />
+
+If a project is not mature enough to be incubated in FINOS, but still could use a neutral space to collaborate, the [FINOS Labs](https://github.com/finos-labs) organization provides a great place to do so. Please [open an issue](http://github.com/finos-labs/issues) in FINOS Labs pointing to the code you'd like to contribute and reach out to the [FINOS team](mailto:infra@finos.org) to engage. 
+
 Projects may be moved to the Archived state from either the Incubating or Active states, either upon the request of the project maintiners, or upon a determination by FINOS that the project is inactive.
 
 The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/) provides support to resolve any potential dispute that may occur between project maintainers and who is proposing the transition to archived.
