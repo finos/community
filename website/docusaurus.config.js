@@ -22,7 +22,7 @@ module.exports = {
       // Algolia search configuration
       // Environment variables are set in Netlify dashboard
       appId: process.env.ALGOLIA_APP_ID || 'CTIC0AGXBA',
-      apiKey: process.env.ALGOLIA_API_KEY || 'e4be3fc92948e9e73d7d161188887ff8',
+      apiKey: process.env.ALGOLIA_API_KEY || '',
       indexName: process.env.ALGOLIA_INDEX_NAME || 'finos-community',
       contextualSearch: true,
       searchParameters: {},
