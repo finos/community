@@ -18,15 +18,15 @@ Read the [FINOS security vulnerabilities responsible disclosure](/docs/governanc
 | Check libraries for problematic/undefined licenses | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) |
 | Generates legal reports | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) |
 | **Security** |
-| Scans code for security vulnerabilities | [FINOS Code Scanning](https://github.com/finos/code-scanning), [CoverityScan](coverityscan), [SonarCloud](sonarcloud) | [FINOS Code Scanning](https://github.com/finos/code-scanning) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [CodeClimate](codeclimate), [CoverityScan](coverityscan), [SonarCloud](sonarcloud) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [CodeClimate](codeclimate), [NodeSecurity](nodesecurity),[SonarCloud](sonarcloud) | [FINOS Code Scanning](https://github.com/finos/code-scanning) |
-| Check libraries for security vulnerabilities | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource), [BitHound](bithound) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) |
+| Scans code for security vulnerabilities | [FINOS Code Scanning](https://github.com/finos/code-scanning), [CoverityScan](coverityscan), [SonarCloud](sonarcloud) | [FINOS Code Scanning](https://github.com/finos/code-scanning) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [CodeClimate](codeclimate), [CoverityScan](coverityscan), [SonarCloud](sonarcloud) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [CodeClimate](codeclimate),[SonarCloud](sonarcloud) | [FINOS Code Scanning](https://github.com/finos/code-scanning) |
+| Check libraries for security vulnerabilities | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) | [FINOS Code Scanning](https://github.com/finos/code-scanning), [WhiteSource](whitesource) |
 | **Quality** | | | | | |
 | Measures test coverage | [SonarCloud](sonarcloud) | | [CodeClimate](codeclimate),[SonarCloud](sonarcloud) | [CodeClimate](codeclimate), [SonarCloud](sonarcloud) | |
-| Check libraries for bugs | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource), [BitHound](bithound) | [WhiteSource](whitesource) |
-| Check libraries for outdated versions | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource), [BitHound](bithound) | [WhiteSource](whitesource) |
-| Check unused libraries | | | | [BitHound](bithound) | |
+| Check libraries for bugs | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) |
+| Check libraries for outdated versions | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource)| [WhiteSource](whitesource) |
+| Check unused libraries | | | |  | |
 | Check libraries for release activity | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) | [WhiteSource](whitesource) |
-| Scans code for hacks and todos | | | | [BitHound](bithound) | |
+| Scans code for hacks and todos | | | | | |
 | Scans code for bad practices | [CoverityScan](coverityscan) | | [CodeClimate](codeclimate), [CoverityScan](coverityscan) | [CodeClimate](codeclimate) | |
 | Scans code for bugs | [CoverityScan](coverityscan) | | [CoverityScan](coverityscan) | | |
 
