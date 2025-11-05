@@ -1,4 +1,20 @@
 {
+  "name": "finos-community",
+  "version": "1.0.0",
+  "description": "FINOS Community website",
+  "author": "FINOS",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finos/community"
+  },
+  "homepage": "https://community.finos.org",
+  "bugs": {
+    "url": "https://github.com/finos/community/issues"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
@@ -6,16 +22,18 @@
     "publish-gh-pages": "docusaurus deploy"
   },
   "devDependencies": {
-    "@docusaurus/core": "^2.2.0",
-    "@docusaurus/preset-classic": "^2.2.0",
+    "@docusaurus/core": "^3.9.0",
+    "@docusaurus/preset-classic": "^3.9.0",
+    "@mdx-js/react": "^3.0.0",
     "classnames": "^2.2.6",
     "eslint": "^7.25.0",
     "eslint-plugin-react": "^7.23.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "dependencies": {
-    "@docusaurus/plugin-google-gtag": "^2.2.0",
+    "@docusaurus/plugin-google-gtag": "^3.9.0",
+    "dotenv": "^16.4.5",
     "is-promise": "2.1.0"
   }
 }

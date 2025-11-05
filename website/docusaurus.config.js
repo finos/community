@@ -18,6 +18,16 @@ module.exports = {
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
+    algolia: {
+      // Algolia search configuration
+      // Environment variables are set in Netlify dashboard
+      appId: process.env.ALGOLIA_APP_ID || 'CTIC0AGXBA',
+      apiKey: process.env.ALGOLIA_API_KEY || 'e4be3fc92948e9e73d7d161188887ff8',
+      indexName: process.env.ALGOLIA_INDEX_NAME || 'finos-community',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: true,
@@ -103,14 +113,19 @@ module.exports = {
       ]
     }
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-Q2K0WLVFHP',
+        anonymizeIP: true,
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
       {
-        gtag: {
-          trackingID: 'G-Q2K0WLVFHP',
-          anonymizeIP: true,
-        },
         docs: {
           path: '../docs',
           editUrl:
