@@ -28,7 +28,7 @@ To be accepted into the Incubating stage, a project must meet the requirements o
 
 ### Graduated Projects
 
-<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-active.png" width="150"/>
+<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-graduated.png" width="150"/>
 
 **Graduated** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become Graduated, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
 
