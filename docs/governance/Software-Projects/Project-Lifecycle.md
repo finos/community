@@ -3,52 +3,51 @@ id: project-lifecycle
 title: Lifecycle introduction
 ---
 
-FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes three states:
+FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aligning to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) model. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
 
-* **Incubating** for new (and newly contributed) projects;
-* **Active** for mature, active projects with healthy and diverse contributor communities; and
-* **Archived** for projects that are no longer actively maintained.
+* Maturity
+  * **[Labs](/docs/governance/Software-Projects/maturity/Labs)** - experimental or innovative projects that are early in their life
+  * **[Incubating](/docs/governance/Software-Projects/maturity/Incubating)** - for new (and newly contributed) projects;
+  * **[Graduated](/docs/governance/Software-Projects/maturity/Graduated)** - for mature, active projects with healthy and diverse contributor communities; and
+  * **[Archived](/docs/governance/Software-Projects/maturity/Archived)** - for projects that are no longer actively maintained.
 
-Optionally projects can temporarily start in a 'Forming' stage, which is typically a time-bound period where a project idea or initial contribution is explored amongst FINOS members to evaluate viability of a contribution into 'Incubating' stage.
+These maturity stages and project statuses are described in greater detail below.
 
-These stages are described in greater detail below.
+## Maturity
 
-## Forming Projects (Optional)
+The project maturity is a recognition of scale of governance and community involvement and not a statement on worthiness or usefulness.  Indeed, a project may have Active project status (active development and usage) but remain in Incubating maturity level due to very fast delivery of the already existing contributors, or a Graduated project with Inactive status due to already having solved the business need and low maintenance requirements.
 
-<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-forming.png" width="150" />
-
-Before a project is contributed, optionally the FINOS team might work with the contributors and FINOS Members to gauge viability and evaluate interest ahead of contribution as an Incubating project. 
-
-## Incubating Projects
+### Incubating Projects
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-incubating.png" width="150" />
 
-When a project is first created or contributed, it is automatically placed in the [Incubating stage](/docs/governance/Software-Projects/stages/incubating).
+When a project is first created or contributed, it is automatically placed in the [Incubating stage](/docs/governance/Software-Projects/maturity/incubating).
 An Incubating project is under active early development and typically has not made its first major release (i.e. version 1.0). During incubation, projects typically experiment heavily with technical designs, standardize their build and release processes, develop their collaborative processes, and work to grow their developer community. Incubating projects are usually not focused on support or backward compatibility.
 
-To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/Software-Projects/stages/incubating) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
+To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/Software-Projects/maturity/incubating) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
 
-## Active Projects
+### Graduated Projects
 
-<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-active.png" width="150"/>
+<img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-graduated.png" width="150"/>
 
-**Active** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become active, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
+**Graduated** projects are mature open source projects with diverse and active developer communities. They follow best practices for collaborative software development, have mature and well-documented build and release processes, are free of high-risk security vulnerabilities, and maintain thorough documentation. To become Graduated, a project have made or be nearing its first major release and must have two or more independent contributors from different organizations.
 
-To graduate from the Incubating to the Active stage, a project must meet the requirements of the [Activation Lifecycle Checklist](/docs/governance/Software-Projects/stages/active) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
+To graduate from the Incubating stage, a project must meet the requirements of the [Graduation Lifecycle Checklist](/docs/governance/Software-Projects/maturity/graduated) and get approval from the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/).
 
-## Archived Projects
+### Archived Projects
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-archived.png" width="150"/>
 
-Projects are [Archived](/docs/governance/Software-Projects/stages/archived) when they are no longer actively developed, for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
+Projects are [Archived](/docs/governance/Software-Projects/maturity/archived) when they are no longer actively developed (with a project status of Unsupported or Moved), for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updated.
 
+Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the project's status.
 
-## FINOS Labs (Optional)
+### FINOS Labs (Optional)
 
 <img src="https://user-images.githubusercontent.com/327285/230928932-7c75f8ed-e57b-41db-9fb7-a292a13a1e58.svg" width="150" />
 
-If a project is not mature enough to be incubated in FINOS, but still could use a neutral space to collaborate, the [FINOS Labs](https://github.com/finos-labs) organization provides a great place to do so. Please [open an issue](http://github.com/finos-labs/issues) in FINOS Labs pointing to the code you'd like to contribute and reach out to the [FINOS team](mailto:infra@finos.org) to engage. 
+Optionally, before a project is contributed, the FINOS team might work with the contributors and FINOS Members to gauge viability and evaluate interest ahead of contribution as an Incubating project via the use of the [finos-labs](https://github.com/finos-labs/).  FINOS TOC will decide if the project is appropriate for entry into the Labs (see [Labs maturity](/docs/governance/Software-Projects/maturity/labs) for details).
 
-Projects may be moved to the Archived state from either the Incubating or Active states, either upon the request of the project maintiners, or upon a determination by FINOS that the project is inactive.
+Projects may be moved to the Archived state from either the Incubating or Graduated maturity level, either upon the request of the project maintainers, or upon a determination by FINOS that the project is inactive.
 
 The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee/) provides support to resolve any potential dispute that may occur between project maintainers and who is proposing the transition to archived.
