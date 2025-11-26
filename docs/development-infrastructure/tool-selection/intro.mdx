@@ -1,8 +1,121 @@
 ---
 id: intro
-title: Overview
+title: Tool Selection Overview
 ---
 
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-Hello World
+## Purpose
+
+Considering the priorities and perspectives of FINOS members and end users, our projects should be more stringent than most when it comes to selecting tools. This framework helps maintainers make informed decisions about tooling that align with FINOS values around transparency, security, and end-user privacy.
+
+When deciding which tool to use for a project, there are many aspects to consider. We have created a checklist to help you evaluate tools before use. This is not an exhaustive list but should help getting projects started with a solid foundation.
+
+## Key Evaluation Criteria
+
+### Community Adoption and Activity
+
+**Heavy use in the ecosystem** is a strong indicator of tool maturity and reliability. Look for:
+
+- Active user base and community engagement
+- Regular updates and releases
+- Production use by reputable organizations
+- Case studies or public testimonials
+
+### GitHub Health (for open source tools)
+
+Evaluate the project's GitHub presence:
+
+**Issues Management**
+
+- Are issues being addressed in a timely manner?
+- Is there a healthy ratio of open to closed issues?
+- How responsive are maintainers to bug reports and feature requests?
+
+**Actively Involved Maintainers**
+
+- Multiple active maintainers (avoid single-maintainer projects)
+- Recent commits and activity
+- Clear governance and decision-making processes
+- Transparent roadmap and release planning
+
+### Open Source Considerations
+
+**Licensing**
+
+- Is the license compatible with your project's license?
+- Are there any restrictions on commercial use or distribution?
+- Check for dependencies with restrictive licenses
+- Verify compliance with FINOS licensing policies
+
+**Source Code Availability**
+
+- Can you inspect, modify, and contribute to the code?
+- Is the project truly open source or just "source available"?
+
+### Documentation Quality
+
+**Getting Started Experience**
+
+- Is there clear, comprehensive documentation?
+- Are there quickstart guides and tutorials?
+- Is the API/configuration well-documented?
+- Are there examples and sample projects?
+- Is documentation kept up-to-date with releases?
+
+Poor documentation is often a red flag for tool maturity and maintainability.
+
+### Cost Considerations
+
+Evaluate the total cost of ownership:
+
+- Is the tool free or does it have licensing fees?
+- Are there usage-based costs or limits?
+- What features are behind paywalls?
+- Consider maintenance and training costs
+- Factor in migration costs if switching tools later
+
+### Security and Vulnerability Management
+
+**Security Posture**
+
+- Does the tool have a security policy and vulnerability disclosure process?
+- Check for known vulnerabilities (e.g., using Snyk, CVE databases)
+- How quickly are security issues addressed?
+- Is there a security audit trail?
+
+**Third-Party Risk**
+
+- Does the tool send data to external services?
+- What data is collected and how is it used?
+- Are there privacy implications for end users?
+- Can the tool operate in air-gapped or restricted environments?
+
+### Integration with Existing Stack
+
+**Compatibility**
+
+- Does it integrate well with your current technology stack?
+- If using AWS, Azure, or GCP, consider their native tools first
+- Evaluate switching costs and vendor lock-in
+- Consider existing team expertise and learning curve
+
+**Interoperability**
+
+- Does it support standard protocols and formats?
+- Can data be easily exported or migrated?
+
+### Maturity vs. Innovation
+
+**Avoid "Shiny Object Syndrome"**
+
+- Prefer established, battle-tested tools over the latest trends
+- Evaluate the risk of adopting cutting-edge technology
+- Consider the project's longevity and sustainability
+- Balance innovation with stability requirements
+
+**Proven Track Record**
+
+- Has the tool been used in production at scale?
+- What is the project's history and trajectory?
+- Is there evidence of long-term commitment from maintainers?
