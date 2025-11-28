@@ -3,7 +3,7 @@ id: project-support-guidelines
 title: Project Support Guidelines
 ---
 
-||Formation (Focus)|Formation (Non Focus)||Incubating (Focus)|Incubating (Non Focus)|Active (Focus)|Active (Non Focus)|Archived|Notes (and work to be done)|Issue URL|
+||Formation (Focus)|Formation (Non Focus)||Incubating (Focus)|Incubating (Non Focus)|Graduated (Focus)|Graduated (Non Focus)|Archived|Notes (and work to be done)|Issue URL|
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 |**Legal**|||||||||||
 |CCLA assistance and administration|✓|✓|✓|✓|✓|✓|✓|||

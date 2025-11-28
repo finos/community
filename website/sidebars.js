@@ -40,9 +40,10 @@ module.exports = {
             label: 'Project Lifecycle',
             items: [
               'governance/Software-Projects/project-lifecycle',
-              "governance/Software-Projects/stages/incubating",
-              "governance/Software-Projects/stages/active",
-              "governance/Software-Projects/stages/archived"
+              "governance/Software-Projects/maturity/labs",
+              "governance/Software-Projects/maturity/incubating",
+              "governance/Software-Projects/maturity/graduated",
+              "governance/Software-Projects/maturity/archived"
             ]
           }
         ]
@@ -89,10 +90,8 @@ module.exports = {
             label: 'Code Validations',
             items: [
             "development-infrastructure/code-validation/intro",
-            "development-infrastructure/code-validation/bithound",
             "development-infrastructure/code-validation/codeclimate",
             "development-infrastructure/code-validation/coverityscan",
-            "development-infrastructure/code-validation/nodesecurity",
             "development-infrastructure/code-validation/sonarcloud",
             "development-infrastructure/code-validation/sonatype",
             "development-infrastructure/code-validation/whitesource",

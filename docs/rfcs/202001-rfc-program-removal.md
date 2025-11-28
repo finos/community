@@ -12,7 +12,7 @@ Programs were designed to be self-governing, managed by a Program Management Com
 
 This governance structure was largely borrowed from other open source foundations with mature projects produced by many active contributors experienced with open source collaboration. FINOS is different: our members are still new to open source collaboration and many FINOS projects are experimental or less mature. For many participants, the projects they contribute to are not essential to their daily work, so participation in FINOS governance is extra work with little reward. Strict requirements to constitute a PMC, hold meetings, and report regularly on program activity can be burdensome or pointless for programs whose projects are loosely connected and immature.
 
-Additionally in July 2019 the Board of Directors approved a revision of the project lifecycle which identified objective criteria of quality, activity and viability for projects to transition into incubating, active and archived state. The goal was to provide a meta-roadmap for each project to become a successful pan industry open source effort while allowing a clear differentiation (for consumers primarily and for contributors) between nascent (incubating) and mature (active) projects. Like in most OSS Foundations, the project lifecycle should have a central role in the project taxonomy. 
+Additionally, in July 2019 the Board of Directors approved a revision of the project lifecycle which identified objective criteria of quality, activity and viability for projects to transition into incubating, graduated and archived state. The goal was to provide a meta-roadmap for each project to become a successful pan industry open source effort while allowing a clear differentiation (for consumers primarily and for contributors) between nascent (Incubating) and mature (Graduated) projects. Like in most OSS Foundations, the project lifecycle should have a central role in the project taxonomy. 
 
 
 # Background
@@ -54,9 +54,9 @@ The table below details how the existing governance structure has failed to oper
 
 
 1. **Do away with programs and PMCs**: Projects will live at top level. They can still be categorized around similar themes and areas of interest in Github (theming / tagging)  and other web properties.
-2. **FINOS approval role in software projects**: FINOS team approves new software projects and lifecycle transitions, based on objective criteria of [Incubating](/docs/governance/Software-Projects/stages/incubating) and [Activation](/docs/governance/Software-Projects/stages/active).  An appeal process to the Board is provided to contributors and community members to ensure impartiality and appropriate checks and balances.
-3. **Board input can be optionally requested**: FINOS team can decide to bring projects to the Board for approval into incubation (contribution) or other lifecycle transitions (activation/archival), to ensure initial industry wide buy-in as well as appropriate validation of the maturity state of a project. Board approves transition of incubating projects to “active” state when they demonstrate the required level of maturity.
-4. **Clarify Foundation focus and investments**:** **FINOS focuses on “coaching” incubating projects, while focused “marketing” efforts on active projects. In this sense, FINOS team’s open source coaching is directed more towards incubating projects, while marketing  investment is directed more towards active projects (the crown jewels).
+2. **FINOS approval role in software projects**: FINOS team approves new software projects and lifecycle transitions, based on objective criteria of [Incubating](/docs/governance/Software-Projects/maturity/incubating) and [Graduation](/docs/governance/Software-Projects/maturity/graduated).  An appeal process to the Board is provided to contributors and community members to ensure impartiality and appropriate checks and balances.
+3. **Board input can be optionally requested**: FINOS team can decide to bring projects to the Board for approval into incubation (contribution) or other lifecycle transitions (graduation/archival), to ensure initial industry wide buy-in as well as appropriate validation of the maturity state of a project. Board approves transition of incubating projects to “Graduated” state when they demonstrate the required level of maturity.
+4. **Clarify Foundation focus and investments**:** **FINOS focuses on “coaching” incubating projects, while focused “marketing” efforts on graduated projects. In this sense, FINOS team’s open source coaching is directed more towards incubating projects, while marketing  investment is directed more towards graduated projects (the crown jewels).
 
 The expected benefits of this simplification are as follows:
 
@@ -68,7 +68,7 @@ The expected benefits of this simplification are as follows:
   </tr>
   <tr>
     <td>Drive allocation of FINOS resources</td>
-    <td>Marketing focus only for "active" projects. Coaching / support focus for "incubating" projects.</td>
+    <td>Marketing focus only for "Graduated" projects. Coaching / support focus for "incubating" projects.</td>
   </tr>
   <tr>
     <td>Reduce contribution friction</td>
@@ -120,7 +120,7 @@ The removal of Programs will allow centering the FINOS messaging and web propert
 
 
 
-1. Project Lifecycle: Active projects will be given central visibility on website, project catalog and other FINOS web properties. Incubating project will be listed in the project catalog and organized in a simplifies taxonomy for easier discoverability
+1. Project Lifecycle: Graduated projects will be given central visibility on website, project catalog and other FINOS web properties. Incubating project will be listed in the project catalog and organized in a simplifies taxonomy for easier discoverability
 2. Functional taxonomy: With Program removed, FINOS will be able to implement a multi-dimensional taxonomy (e.g. tagging) allowing to simplify discovery of FINOS projects based on their functionality and / or position in the financial stack. This taxonomy will be validated with the Community and then implemented across web properties
 3. User centric messaging: FINOS web properties will be restructured to put the different target personas (consumers, contributors, etc.) front and center and enable discovery of high value projects solving problems for specific personas.
 
