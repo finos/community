@@ -56,7 +56,7 @@ The oc-deploy.sh script requires some mandatory environment variables to be defi
 
 Please review the default values of the following variables:
 
-- `OC_DELETE_LABEL` - Used to delete a group of resources with the same label; If set, the script will invoke oc delete all -l <OC_DELETE_LABEL>; example: `OC_DELETE_LABEL="app=mybot"`
+- `OC_DELETE_LABEL` - Used to delete a group of resources with the same label; If set, the script will invoke `oc delete all -l &lt;OC_DELETE_LABEL&gt;`; example: `OC_DELETE_LABEL="app=mybot"`
 - `OC_TEMPLATE_PROCESS_ARGS` - Comma-separated list of environment variables to pass to the OC template; defaults to null; example `OC_TEMPLATE_PROCESS_ARGS="BOT_NAME,S2I_IMAGE"`
 - `OC_VERSION` - OpenShift CLI version; defaults to `1.5.1`
 - `OC_RELEASE` - OpenShift CLI release; defaults to `7b451fc-linux-64bit`
@@ -128,7 +128,7 @@ objects:
 The OpenShift image creation process is carried by a container called deployer and decribed by the BuildConfig resource, which takes as parameters:
 
 - a `sourceStrategy`, which identifies the container image used to build the deployer container and points to the `ImageStream` with name `s2i-java`
-- the output image name and tag, which points to the `ImageStream` with name `${BOT_NAME}`
+- the output image name and tag, which points to the `ImageStream` with name matching the BOT_NAME variable
 
 See the example below.
 
@@ -185,7 +185,7 @@ The DeploymentConfig resource defines:
   b. TCP/UDP ports to expose; in this case port `8080` is open at container level
   c. The [`readinessProbe`](https://docs.openshift.com/container-platform/4.6/applications/application-health.html) detects if the container is unhealthy
   d. Container environment variables can be defined in clear text (ie `LOG4J_FILE`) or loaded from a secret key reference; secrects are managed by the Foundation Staff and are normally used to manage credentials used to access the external APIs.
-3. The deployment configuration `trigger`, pointing to the `latest` tag of an image called `${BOT_NAME}`
+3. The deployment configuration `trigger`, pointing to the `latest` tag of an image named after the BOT_NAME variable
 
 See the example below.
 
@@ -255,7 +255,7 @@ See the example below.
 ### Service definition
 In order to access the container port, it is necessary to define
 
-1. a Service that acts as load-balancer across all containers with app=${BOT_NAME} label
+1. a Service that acts as load-balancer across all containers with an `app` label matching the BOT_NAME variable
 2. a Route that registers to the OpenShift DNS and points to the Service
 
 See the example below.

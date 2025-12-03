@@ -21,6 +21,6 @@ Successful open source Projects and SIGs clearly communicate their purpose and t
 
 **Remember to update FINOS Project and SIG microsites to reflect consistent content!**
 
-<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/why-how.png?raw=true"></img>
+<img src="https://github.com/finos/community/blob/master/website/static/growing-your-project-community/why-how.png?raw=true" />
 
-[<< Back to Index](README.md)
+[← Back to Index](README.md)

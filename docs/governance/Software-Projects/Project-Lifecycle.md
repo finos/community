@@ -6,10 +6,10 @@ title: Lifecycle introduction
 FINOS projects are categorized by maturity and activity according to the FINOS Project Lifecycle, aligning to the [CNCF maturity](https://github.com/cncf/toc/blob/main/process/README.md) model. The lifecycle is designed to help users easily determine which projects are appropriate for their use and to give FINOS maintainers a roadmap for progressing their projects. The lifecycle includes two axis, maturity and status:
 
 * Maturity
-  * **[Labs](/docs/governance/Software-Projects/maturity/Labs)** - experimental or innovative projects that are early in their life
-  * **[Incubating](/docs/governance/Software-Projects/maturity/Incubating)** - for new (and newly contributed) projects;
-  * **[Graduated](/docs/governance/Software-Projects/maturity/Graduated)** - for mature, active projects with healthy and diverse contributor communities; and
-  * **[Archived](/docs/governance/Software-Projects/maturity/Archived)** - for projects that are no longer actively maintained.
+  * **[Labs](/docs/governance/Software-Projects/maturity/labs)** - experimental or innovative projects that are early in their life
+  * **[Incubating](/docs/governance/Software-Projects/maturity/incubating)** - for new (and newly contributed) projects;
+  * **[Graduated](/docs/governance/Software-Projects/maturity/graduated)** - for mature, active projects with healthy and diverse contributor communities; and
+  * **[Archived](/docs/governance/Software-Projects/maturity/archived)** - for projects that are no longer actively maintained.
 
 These maturity stages and project statuses are described in greater detail below.
 

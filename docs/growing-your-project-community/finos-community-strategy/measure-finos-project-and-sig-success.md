@@ -23,4 +23,4 @@ https://user-images.githubusercontent.com/6029572/159293060-76fd0411-7846-4ed5-9
 - Include metrics review in team meetings / sprint reviews to help influence direction and decisions.
 - Work with FINOS to grow your Projects and SIGs and celebrate your success!
 
-[<< Back to Index](README.md)
+[← Back to Index](README.md)

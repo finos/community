@@ -26,4 +26,4 @@ https://user-images.githubusercontent.com/6029572/159919596-400834c9-7915-42dc-a
 5. FINOS Project and SIG communities should work to resolve blockers & answer questions fast.
 6. Contributions, achievements and releases should be publicly celebrated.
 
-[<< Back to Index](README.md)
+[← Back to Index](README.md)

@@ -22,40 +22,28 @@ The table below details how the existing governance structure has failed to oper
 
 <table>
   <tr>
-   <td><strong>Expectations</strong>
-   </td>
-   <td><strong>Experience</strong>
-   </td>
+    <td><strong>Expectations</strong></td>
+    <td><strong>Experience</strong></td>
   </tr>
   <tr>
-   <td>Programs are self-governing on technology and lifecycle matters
-   </td>
-   <td>Programs have become a governance overhead for FINOS and PMCs
-   </td>
+    <td>Programs are self-governing on technology and lifecycle matters</td>
+    <td>Programs have become a governance overhead for FINOS and PMCs</td>
   </tr>
   <tr>
-   <td>PMCs are in charge of nurturing their own Projects through the lifecycle
-   </td>
-   <td>PMCs are not mature or engaged enough and responsibility falls on FINOS
-   </td>
+    <td>PMCs are in charge of nurturing their own Projects through the lifecycle</td>
+    <td>PMCs are not mature or engaged enough and responsibility falls on FINOS</td>
   </tr>
   <tr>
-   <td>Programs consolidate common activities around a theme/business problem
-   </td>
-   <td>Projects within programs are often loosely related. Concept of programs is a barrier of entry for new contributors.
-   </td>
+    <td>Programs consolidate common activities around a theme/business problem</td>
+    <td>Projects within programs are often loosely related. Concept of programs is a barrier of entry for new contributors.</td>
   </tr>
   <tr>
-   <td>Programs are a governance only structure
-   </td>
-   <td>Program quickly got conflated within the FINOS messaging, which became more complex, and effectively became a strong partition of the project portfolio which limits organic evolution and growth in new areas. 
-   </td>
+    <td>Programs are a governance only structure</td>
+    <td>Program quickly got conflated within the FINOS messaging, which became more complex, and effectively became a strong partition of the project portfolio which limits organic evolution and growth in new areas.</td>
   </tr>
   <tr>
-   <td>Membership to a PMC is a highly regarded responsibility and incentive for contributors to take a leadership role
-   </td>
-   <td>Only few PMCs have been functional with their members taking an active role 
-   </td>
+    <td>Membership to a PMC is a highly regarded responsibility and incentive for contributors to take a leadership role</td>
+    <td>Only few PMCs have been functional with their members taking an active role</td>
   </tr>
 </table>
 
@@ -75,40 +63,28 @@ The expected benefits of this simplification are as follows:
 
 <table>
   <tr>
-   <td><strong>Benefit</strong>
-   </td>
-   <td><strong>How?</strong>
-   </td>
+    <td><strong>Benefit</strong></td>
+    <td><strong>How?</strong></td>
   </tr>
   <tr>
-   <td>Drive allocation of FINOS resources
-   </td>
-   <td>Marketing focus only for “Graduated” projects. Coaching / support focus for “incubating” projects.
-   </td>
+    <td>Drive allocation of FINOS resources</td>
+    <td>Marketing focus only for "Graduated" projects. Coaching / support focus for "incubating" projects.</td>
   </tr>
   <tr>
-   <td>Reduce contribution friction 
-   </td>
-   <td>FINOS can approve new “Incubating” projects directly, removing need for PMC approval or other governance process
-   </td>
+    <td>Reduce contribution friction</td>
+    <td>FINOS can approve new "Incubating" projects directly, removing need for PMC approval or other governance process</td>
   </tr>
   <tr>
-   <td>Reduce governance overhead
-   </td>
-   <td>Remove need for aggregated quarterly program-level reporting.  Projects can report in a largely automated and independent fashion.
-   </td>
+    <td>Reduce governance overhead</td>
+    <td>Remove need for aggregated quarterly program-level reporting.  Projects can report in a largely automated and independent fashion.</td>
   </tr>
   <tr>
-   <td>Avoid speculative projects
-   </td>
-   <td>To promote sustainability and resource stewardship, FINOS will heavily validate initial buy-in from Community and board on “industry-wide” efforts (e.g. standards), thus promoting focus on valuable and viable efforts
-   </td>
+    <td>Avoid speculative projects</td>
+    <td>To promote sustainability and resource stewardship, FINOS will heavily validate initial buy-in from Community and board on "industry-wide" efforts (e.g. standards), thus promoting focus on valuable and viable efforts</td>
   </tr>
   <tr>
-   <td>Drive banks’ member engagement
-   </td>
-   <td>For industry-wide  projects (e.g. standards), FINOS will require bank SME engagement  to establish projects
-   </td>
+    <td>Drive banks' member engagement</td>
+    <td>For industry-wide  projects (e.g. standards), FINOS will require bank SME engagement  to establish projects</td>
   </tr>
 </table>
 

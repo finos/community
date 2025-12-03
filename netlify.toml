@@ -1,2 +1,5 @@
 [build]
    ignore = "/bin/false"
+
+[build.environment]
+   NODE_VERSION = "20"
