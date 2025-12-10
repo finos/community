@@ -33,7 +33,7 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 ```
 
 ## Releases
-Archived projects cannot publish anything, of any kind.  If an archived project intends to make publish new or updated artifacts, it must be revived first by going through the contribution process again and being reinstated as an incubating or active project.
+Archived projects cannot publish anything, of any kind.  If an archived project intends to make publish new or updated artifacts, it must be revived first by going through the contribution process again and being reinstated as an incubating or graduated project.
 
 The Foundation encourages community members to volunteer to revive any archived project, whether they originally contributed it or not. Reviving an existing code base is preferable to creating a competing alternative of the same functionality from scratch.
 
