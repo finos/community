@@ -45,7 +45,7 @@ The `CONTRIBUTING` file contains basic instructions to prospective contributors 
 Please note that Github will prompt this content when a user creates an issue or pull request, you can read more on [GitHub Contributing Guidelines](https://github.com/blog/1184-contributing-guidelines).
 
 #### Source code license headers
-For [Graduated](/docs/governance/Software-Projects/maturity/graduated) projects, it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
+For [Graduated](/docs/governance/Software-Projects/Project-Lifecycle#Graduated) projects, it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
 
 ```
 SPDX-License-Identifier: Apache-2.0
