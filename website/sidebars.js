@@ -29,23 +29,13 @@ module.exports = {
             label: "Intro",
             href:"/docs/governance/#open-source-software-projects"
           },
+          'governance/Software-Projects/project-lifecycle',
           "governance/Software-Projects/contribution",
           "governance/Software-Projects/code-transfer",
           "governance/Software-Projects/contribution-compliance-requirements",
           "governance/Software-Projects/easycla",
           "governance/Software-Projects/license-categories",
           "governance/Software-Projects/cve-responsible-disclosure",
-          {
-            type: 'category',
-            label: 'Project Lifecycle',
-            items: [
-              'governance/Software-Projects/project-lifecycle',
-              "governance/Software-Projects/Project-Lifecycle#Labs",
-              "governance/Software-Projects/Project-Lifecycle#Incubating",
-              "governance/Software-Projects/Project-Lifecycle#Graduated",
-              "governance/Software-Projects/maturity/archived"
-            ]
-          }
         ]
       },
        {
