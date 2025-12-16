@@ -102,7 +102,7 @@ The following must remain true for _Incubating_ projects at all times. A Health 
 
 The following must remain true for _Graduated_ projects at all times. A Health Review from the TOC will be executed every six months. Project support will be offered in the event that a project is found to be out of compliance. If a project remains out of compliance for three consecutive Health Reviews, it will qualify for archival.
 
-- All _Graduated, _Incubation_, _Labs_ acceptance requirements as well as _Incubation_ and _Labs_ maintenance requirements
+- All _Graduated_, _Incubation_, _Labs_ acceptance requirements as well as _Incubation_ and _Labs_ maintenance requirements
 - All feature work adheres to a public roadmap
 - Demonstrated progress against the Community Development Plan milestones
 - Demonstrated adherence to **Maturity Level 3** of the [Open Source Project Security Baseline](https://baseline.openssf.org/)
