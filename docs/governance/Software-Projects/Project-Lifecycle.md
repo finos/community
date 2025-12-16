@@ -9,9 +9,9 @@ The lifecycle is designed to help users easily determine which projects are appr
 
 The Lifecycle was refined in 2025 after a 12-month exploration process which included historical FINOS learnings, inspiration from the [CNCF Lifecycle](https://github.com/cncf/toc/blob/main/process/README.md) and recommendations from the OpenSSF's [Open Source Project Security Baseline](https://baseline.openssf.org). 
 
-* **[Labs](/docs/governance/Software-Projects/Project-Lifecycle#Labs)** - experimental or innovative projects that are early in their life
-* **[Incubating](/docs/governance/Software-Projects/Project-Lifecycle#Incubating)** - young, or mature but newly contributed projects
-* **[Graduated](/docs/governance/Software-Projects/Project-Lifecycle#Graduated)** - mature projects with healthy and diverse contributor communities
+* **[Labs](/docs/governance/Software-Projects/project-lifecycle#Labs)** - experimental or innovative projects that are early in their life
+* **[Incubating](/docs/governance/Software-Projects/project-lifecycle#Incubating)** - young, or mature but newly contributed projects
+* **[Graduated](/docs/governance/Software-Projects/project-lifecycle#Graduated)** - mature projects with healthy and diverse contributor communities
 
 These maturity levels are described in greater detail below.
 

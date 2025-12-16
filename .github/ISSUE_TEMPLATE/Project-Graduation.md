@@ -7,7 +7,7 @@ assignees: maoo, TheJuanAndOnly99
 
 ---
 # Graduation
-Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Graduated status](https://community.finos.org/docs/governance/Software-Projects/Project-Lifecycle#Graduated) and the related badge. A Graduated badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
+Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Graduated status](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle#Graduated) and the related badge. A Graduated badge indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that it is suitable for production use.
 
 The [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) approves lifecycle transitions following objective criteria detailed in the below checklist. More information in the [FINOS Governance](https://community.finos.org/docs/governance/#project-lifecycle).
 
