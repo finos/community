@@ -44,8 +44,8 @@ To submit a new vulnerability, please follow these steps:
 ### FINOS lifecycle
 The responsible disclosure ties into [FINOS Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle) in the following items:
 
-- All [Incubating projects](/docs/governance/Software-Projects/project-lifecycle#Incubating) **MUST** have an automated way to manage security vulnerabilities, see below
-- All [Graduated projects](/docs/governance/Software-Projects/project-lifecycle#Graduated) **MUST** have WhiteSource enabled
+- All [Incubating projects](/docs/governance/Software-Projects/project-lifecycle#incubating) **MUST** have an automated way to manage security vulnerabilities, see below
+- All [Graduated projects](/docs/governance/Software-Projects/project-lifecycle#graduated) **MUST** have WhiteSource enabled
 - All projects **publishing artefacts under FINOS package registries MUST** have WhiteSource enabled
 
 ### Collecting project CVE list

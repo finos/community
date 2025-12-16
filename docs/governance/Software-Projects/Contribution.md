@@ -25,7 +25,7 @@ Before contributing to a project, community members are encouraged to familiariz
 Are you a [FINOS member](https://finos.org/members) and you have an existing project, either already open source or proprietary, that would be a good fit within the FINOS community? Or do you want to form a [Special Interest Group](/docs/governance/special-interest-groups/) to discuss a specific topic?  Here's how to propose a new contribution.
 
 ### Pre-Work: Contribution Fitness
-First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. Every Project contributed to the Foundation can come into an [Incubating stage](/docs/governance/Software-Projects/project-lifecycle#Incubating), which sets out a comprehensive set of criteria to review to evaluate contribution fitness is the [Incubation requirements](/docs/governance/Software-Projects/project-lifecycle#Incubating/#requirements).
+First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors. Every Project contributed to the Foundation can come into an [Incubating stage](/docs/governance/Software-Projects/project-lifecycle#incubating), which sets out a comprehensive set of criteria to review to evaluate contribution fitness is the [Incubation requirements](/docs/governance/Software-Projects/project-lifecycle#incubating/#requirements).
 
 Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution. If the project is not mature enough to be contributed to FINOS, but the project could still could use a neutral space to collaborate, contributors are encouraged to propose the project to be created in [FINOS Labs](https://github.com/finos-labs/).
 
@@ -47,7 +47,7 @@ This will create a new issue on the [FINOS Community Repository](https://github.
 6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
 7. **Contributor commitment**: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
-To maximize the chances of being accepted, you are warmly encouraged to provide evidence in your submission of the requirements listed in the [Incubation Requirements](/docs/governance/Software-Projects/project-lifecycle#Incubating/#requirements)
+To maximize the chances of being accepted, you are warmly encouraged to provide evidence in your submission of the requirements listed in the [Incubation Requirements](/docs/governance/Software-Projects/project-lifecycle#incubating/#requirements)
 
 > **TIP**: To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc.) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+). 
 
@@ -100,7 +100,7 @@ The project will be required to:
 - Have [contributor license agreements](/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement) in place for each maintainer 
 
 - Comply with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
-- Comply with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/project-lifecycle#Incubating))
+- Comply with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/Software-Projects/project-lifecycle#incubating))
 
 ### Step 5: Transfer and Review of Contribution Materials
 
