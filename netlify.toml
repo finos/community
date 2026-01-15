@@ -3,3 +3,18 @@
 
 [build.environment]
    NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/incubating"
+  to = "/docs/governance/software-projects/project-lifecycle#incubating"
+  status = 301
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/active"
+  to = "/docs/governance/software-projects/project-lifecycle#graduated"
+  status = 301
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/archived"
+  to = "/docs/governance/software-projects/project-lifecycle#archived"
+  status = 301
