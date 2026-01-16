@@ -71,7 +71,7 @@ Documents produced or contributed as part of the SIG will be contributed and mad
 # Project Lifecycle and steering
 
 ## Project Lifecycle
-Software projects follow the [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects are contributed the "Incubating" state and graduate to "Graduated" and finally may move to the "Archived" state (from either Incubating or Graduated) if they are no longer actively developed. 
+Software projects follow the [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects may begin in either the "Labs" or "Incubating" state, graduate to "Graduated", and finally may move to the "Archived" state (from either Labs, Incubating, or Graduated) if they are no longer actively developed.
 
 The TOC approves lifecycle transitions following objective criteria detailed for [Incubating](/docs/governance/Software-Projects/project-lifecycle#incubating) and [Graduated](/docs/governance/Software-Projects/project-lifecycle#graduated) projects.
 
