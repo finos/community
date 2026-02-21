@@ -1,9 +1,9 @@
 ---
 id: graduated
-title: FINOS Graduated Projects
+title: Graduated Stage
 ---
 
-# Badge
+## Badge
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-graduated.png" width="150" />
 
@@ -15,7 +15,7 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 
 See here for a list of [FINOS Graduated Projects](https://landscape.finos.org/?group=undefined&view-mode=grid&project=active). 
 
-# Definition
+## Definition
 
 Graduated represent the highest level of maturity for FINOS projects. Projects awarded the Graduated state are in **the project is now mature in terms of quality, community, sustainability**. Projects in this stage have demonstrable widespread adoption in financial services and a healthy / diverse community of contributors.
 
@@ -26,21 +26,21 @@ Virtually all Foundation-hosted projects are expected to strive towards, and ult
 This indicates to potential consumers that the project has reached a level of maturity, both functional and non-functional, that represents a solid long term investment.
 
 
-# Objectives
+## Objectives
 The objectives of the Graduated lifecycle stage are to for project team to predictably execute on an ongoing roadmap of features and bug fixes informed by feedback from the project's user base, and continue growing its community of adopters and contributors in financial services.
 
 While development activities in this stage are largely established and self-sufficient, in recognition of the achievement and to sustain project adoption, in this stage projects will receive the highest level of visibility FINOS in marketing, events, community engagement platform.
 
 
-# Initiating Graduation
+## Initiating Graduation
 
 To graduate into the Graduated stage, a project must meet the requirements of the [Graduated Lifecycle Checklist](/docs/governance/lifecycle-stages/graduated#Graduated+Acceptance+Requirements) and [Graduated ongoing maintenance requirements](/docs/governance/lifecycle-stages/graduated#Graduated+Ongoing+Maintenance+Requirements). 
 
 Any project maintainer may request Graduation by opening a [project graduation request](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Graduation.md&title=projectName+Graduation+request) with an information packet demonstrating that they've met the requirements for activation (see below for details).
 
-# Requirements
+## Requirements
 
-## Graduated Acceptance Requirements
+### Graduated Acceptance Requirements
 
 - All Incubation maintenance requirements must be met in addition to the following:
 - The project has adhered to its roadmap during Incubation
@@ -54,7 +54,7 @@ Any project maintainer may request Graduation by opening a [project graduation r
 - The project [has worked with FINOS Staff](mailto:help@finos.org) to create a community sustainability plan which includes a go-to-market strategy
 - Project documentation starts with a clear, unique financial services value proposition
 
-## Ongoing Maintenance Requirements
+### Ongoing Maintenance Requirements
 
 The following must remain true for _Graduated_ projects at all times. A Health Review from the TOC will be executed every six months. Project support will be offered in the event that a project is found to be out of compliance. If a project remains out of compliance for three consecutive Health Reviews, it will qualify for archival.
 
@@ -66,12 +66,12 @@ The following must remain true for _Graduated_ projects at all times. A Health R
    - Increment `MINOR` version when new functionality is added in a backwards-compatible manner
    - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
 
-# Transition out of Graduation
+## Transition out of Graduation
 Mature projects that become no longer actively developed should transition into FINOS Archived stage by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request).
 
 This is an important FINOS maintainer hygiene duty. 
 
-# Notes for Consumers and Evaluators
+## Notes for Consumers and Evaluators
 :heavy_check_mark: The Project is high quality, mature from a codebase and community dynamics perspective. 
 
 :dart: The Project produces valuable releases to solve a useful business problem for our Community.
