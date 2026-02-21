@@ -1,6 +1,6 @@
 ---
 id: labs
-title: FINOS Labs Projects
+title: Labs Stage
 ---
 
 ## Badge
