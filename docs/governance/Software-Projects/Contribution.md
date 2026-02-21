@@ -53,7 +53,7 @@ This will create a new issue on the [FINOS Community Repository](https://github.
 6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
 7. **Contributor commitment**: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation, in line with the Lifecycle Stage you are applying for. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
-To maximize the chances of being accepted, you should provide evidence in your submission of compliance with the criteria and commitment to fulfill ongoing maintenance requirement listed in the [Project Lifecycle](/docs/governance/Project-lifecycle).
+To maximize the chances of being accepted, you should provide evidence in your submission of compliance with the criteria and commitment to fulfill ongoing maintenance requirement listed in the [Project Lifecycle](/docs/governance/project-lifecycle).
 
 > **TIP**: To review previous contribution proposals (to see examples, or to see if someone has contributed something similar, etc.) you can search our [Github contribution issues history](https://github.com/finos/community/issues?q=is%3Aissue+label%3Acontribution+). 
 
