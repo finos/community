@@ -20,7 +20,18 @@ module.exports = {
           "governance/project-branding-guidelines"
         ]
       },
-      'governance/Software-Projects/project-lifecycle',
+      {
+        type: 'category',
+          label: 'Project Lifecycle',
+          items: [
+            "governance/project-lifecycle",
+            "governance/lifecycle-stages/forming",
+            "governance/lifecycle-stages/labs",
+            "governance/lifecycle-stages/incubating",
+            "governance/lifecycle-stages/graduated",
+            "governance/lifecycle-stages/archived",
+          ]
+      },
       {
         type: 'category',
         label: 'Software Project Governance',
