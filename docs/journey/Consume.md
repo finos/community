@@ -15,7 +15,7 @@ How a particular project asset is consumed will vary from project to project. [S
 ## Evaluating maturity of our projects 
 We encourage you to thoughtfully assess not only the **value** and **fit for purpose**, but also the **maturity** of both the technology and the team that produced a particular code asset. Evaluating the project's momentum and longevity will help you assess the level of technical risk that you may be taking on when leveraging it. FINOS provides tools to help the community in these assessments, particularly:
 
-- The [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle) which provides a single overall measure of the maturity of our projects
+- The [Project Lifecycle](/docs/governance/project-lifecycle) which provides a single overall measure of the maturity of our projects
 - The [Metrics Dashboard](https://metrics.finos.org) which provides transparent analytics on the activity of each of our Projects and SIGs
 
 Once you've identified suitable components we encourage you to consume them in your own software development efforts! 

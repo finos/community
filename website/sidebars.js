@@ -20,6 +20,7 @@ module.exports = {
           "governance/project-branding-guidelines"
         ]
       },
+      'governance/Software-Projects/project-lifecycle',
       {
         type: 'category',
         label: 'Software Project Governance',
@@ -29,7 +30,6 @@ module.exports = {
             label: "Intro",
             href:"/docs/governance/#open-source-software-projects"
           },
-          'governance/Software-Projects/project-lifecycle',
           "governance/Software-Projects/contribution",
           "governance/Software-Projects/code-transfer",
           "governance/Software-Projects/contribution-compliance-requirements",

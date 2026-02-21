@@ -98,7 +98,7 @@ As a project onboarding into FINOS, you will need to familiarize yourself and yo
  - [FINOS overview](https://www.finos.org/hubfs/An%20Introduction%20to%20FINOS.pdf) (if necessary)
  - [FINOS Maintainers cheatsheet](https://community.finos.org/docs/finos-maintainers-cheatsheet/)
  - [FINOS Project/Standards Governance](https://community.finos.org/docs/governance)
- - [FINOS Project Lifecycle](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle)
+ - [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle)
 
 ## Record The Contribution (FINOS Infra)
 - [ ] (optional) Identify and Assign FINOS Strategic Advisor
@@ -162,7 +162,7 @@ Before the FINOS team can onboard your project, there are a few housekeeping tha
     - [ ] `CONTRIBUTING.md`
     - [ ] `LICENSE` (replace `{}` placeholders)
     - [ ] Ensure that the proper project governance is in the CONTRIBUTING.md file
-- [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle#incubating) are checked and documented below
+- [ ] [All incubating criteria](https://community.finos.org/docs/governance/lifecycle-stages/incubating) are checked and documented below
 
 _Add documentation here_
 
@@ -188,7 +188,7 @@ This is performed by FINOS Infra once the three previous stages are complete, wi
 - [ ] The codebase doesn’t have any unfriendly licenses across direct and transitive libraries
 - [ ] (optional - if a build system is provided) The build process runs successfully
 - [ ] The codebase doesn’t include any patent or copyright that conflicts with FINOS Governance and bylaws (to be validated with FINOS Legal team)
-- [ ] [All incubating criteria](https://community.finos.org/docs/governance/Software-Projects/project-lifecycle#incubating) are met (review documentation provided above)
+- [ ] [All incubating criteria](https://community.finos.org/docs/governance/lifecycle-stages/incubating) are met (review documentation provided above)
 
 ## Code transfer 
 - [ ] Transfer all code assets as GitHub repositories under github.com/finos
