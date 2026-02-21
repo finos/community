@@ -1,9 +1,9 @@
 ---
 id: archived
-title: FINOS Archived Projects
+title: Archived Stage
 ---
 
-# Badge
+## Badge
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-archived.png" width="150" />
 
@@ -15,20 +15,20 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 
 See here for a list of [FINOS Archived Projects](https://landscape.finos.org/?group=undefined&view-mode=grid&project=archived). 
 
-# Definition
+## Definition
 
 Projects are Archived when they are no longer actively developed, for any reason. Archived projects may no longer actively address new issues, including security vulnerabilities. Their code and documentation remain available because they may still be useful, but should be used with caution due to the lack of updates.
 
 Archived projects cannot publish anything, of any kind.  If an archived project intends to make publish new or updated artifacts, it must be revived first by going through the contribution process again and being reinstated as an incubating or active project.
 
-# Objectives
+## Objectives
 Archived projects have no objectives - they are simply retained as-is, in whatever state they were in at the time of archival. The FINOS team and maintainers might, however, continue to gauge community interest in reviving the project, and will actively support such activities.
 
 Projects that are no longer active, or falter for other reasons, should be marked as archived to educate consumers and other potential evaluators. It's an important maintainer duty to trigger archival when the project is no longer maintained. 
 
 Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the project's status.
 
-# Initiating archival
+## Initiating archival
 Anyone can publicly trigger the archiviation process for a project by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request); if the Project Lead Maintainer agrees that archiving is the appropriate course of action, or the project team does not respond within 14 days, the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) will formalize the archival request.
 
 The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) is responsible for resolving any possible dispute in case of disagreement from project teams
