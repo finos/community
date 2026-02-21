@@ -3,7 +3,7 @@ id: labs
 title: FINOS Labs Projects
 ---
 
-# Badge
+## Badge
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-labs.png" width="150" />
 
@@ -15,12 +15,12 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 
 See here for a list of [FINOS Labs](https://github.com/finos-labs/) projects.
 
-# Definition
+## Definition
 Projects in the FINOS Labs stage are in an experimental and exploratory phase. 
 
 To clearly differentiate their early stage maturity, projects in this stage are hosted in the dedicated [FINOS Labs](https://github.com/finos-labs/) Github org, separate from the main [FINOS org](https://github.com/finos).
 
-# Objectives
+## Objectives
 The objective of the Labs labs stage is to provide a low-friction environment to allow the project team to experiment under a neutral governance in the open, and work through their concepts collaboratively within the FINOS umbrella.   
 
 This stage serves the default entry stage for all new projects contributed to FINOS, allowing for quick evolution towards project-market-fit.
@@ -34,7 +34,7 @@ Once established, Labs projects are expected to prioritise some or all of the fo
 3. Construction of an implementation timeline or additions to the project roadmap
 4. Development and testing.
 
-# How to apply for FINOS Labs
+## How to apply for FINOS Labs
 
 To be accepted, Labs projects must comply with formal [FINOS Labs Acceptance Requirements](/docs/governance/lifecycle-stages/labs#labs-acceptance-requirements) by the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee) and enforced by the FINOS staff. After acceptance, they must also adhere to a short list [FINOS Labs ongoing maintainance requirements](/docs/governance/lifecycle-stages/labs#labs-ongoing-maintenance-requirements).
 
@@ -46,9 +46,9 @@ If you are a FINOS Member (or have a FINOS member as a maintainer of your projec
 
 If you believe your project is more mature than a Labs project, at the time of contribution you will have an option to evidence compliance with later stages and contextually request the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to award [Incubating](/docs/governance/lifecycle-stages/incubating) or [Graduated](/docs/governance/lifecycle-stages/graduated) stage.
 
-# Requirements
+## Requirements
 
-## Labs Acceptance Requirements
+### Labs Acceptance Requirements
 
 The following factors must be confirmed before the project can be accepted and onboarded as a FINOS Labs Project.
 
@@ -58,7 +58,7 @@ The following factors must be confirmed before the project can be accepted and o
 - Project's license must comply with the [FINOS IP Policy](https://community.finos.org/governance-docs/IP-policy.pdf)
 - The above may be brought into compliance during the contribution process before final onboarding
 
-## Labs Ongoing Maintenance Requirements
+### Labs Ongoing Maintenance Requirements
 
 The following must remain true for projects at all times. A Health Review may be done by the FINOS TOC or Staff as often as once every six months. Project support will be offered in the event that a project is found to be out of compliance. If a project remains out of compliance for two consecutive Health Reviews, it will qualify for archival.
 
@@ -73,7 +73,7 @@ The following must remain true for projects at all times. A Health Review may be
 - Released artifacts must be distributed under a FINOS namespace following language-specific best practices
 - Demonstrated adherence to Maturity Level 1 of the [Open Source Project Security Baseline](https://baseline.openssf.org/)
 
-# Transition out of Labs
+## Transition out of Labs
 As projects become more mature they have several options to progress:
 
 1. Transition into FINOS Incubating stage by [requesting incubation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Incubation.md&title=projectName+Incubation+Request).
@@ -81,7 +81,7 @@ As projects become more mature they have several options to progress:
 3. Graduate to another LF foundation (if scope / audience has grown beyond finance)
 5. Archive
 
-# Notes for Consumers and other Evaluators
+## Notes for Consumers and other Evaluators
 If you're evaluating Foundation-hosted open source projects and see the Labs badge shown above, here are some of the things you should expect should you choose to download and use the software:
 
 * The software is not guaranteed to be "finished", either from a functional perspective or a quality (security, compliance, testing) perspective. As a result you should expect to run into bugs and missing features.
