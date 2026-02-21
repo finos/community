@@ -8,3 +8,25 @@
   from = "/docs/governance/software-projects/stages/active"
   to = "/docs/governance/lifecycle-stages/graduated"
   status = 301
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/incubating"
+  to = "/docs/governance/lifecycle-stages/incubating"
+  status = 301
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/archived"
+  to = "/docs/governance/lifecycle-stages/archived"
+  status = 301
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/graduated"
+  to = "/docs/governance/lifecycle-stages/graduated"
+  status = 301
+
+
+[[redirects]]
+  from = "/docs/governance/software-projects/project-lifecycle"
+  to = "/docs/governance/project-lifecycle"
+  status = 301
+
