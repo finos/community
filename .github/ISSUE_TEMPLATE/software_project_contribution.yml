@@ -103,12 +103,12 @@ body:
     id: maintainers
     attributes:
       label: Maintainer Team
-      description: "Identify the core team. At least one maintainer must be from a FINOS member org."
+      description: "Identify the core team and lead maintainers. At least one maintainer must be from a FINOS member org."
       value: |
         | Name | Affiliation | Email | GitHub Username |
         | :--- | :--- | :--- | :--- |
-        | John Example |Example LTD | john@example.com | @johnexampleabc |
-        | Jane Example | Example LTD | jane@example.com | @janeexamplexyz |
+        | John Doe | Example LTD | john@example.com | @johnexampleabc |
+        | Jane Doe | Example LTD | jane@example.com | @janeexamplexyz |
 
     validations:
       required: true
@@ -149,7 +149,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        ---
         ### ℹ️ Next Steps for Advanced Stages
         If you have applied for the **Incubating** or **Graduated** stage, please note that these require a more detailed vetting process. After our initial review of this proposal, a member of the FINOS team will follow up on this issue with next steps and a link to a stage-specific sub-issue form to collect further technical and community evidence.
 
@@ -167,6 +166,6 @@ body:
       label: Operational Completion
       description: "This checkbox is for FINOS Staff use only."
       options:
-        - label: "I confirm that all preliminary internal FINOS reviews and workflow tasks have been completed and the contribution has been approved by FINOS staff for the Labs stage or has been passed of to the TOC for approval if seeking the incubating or graduated stage."
+        - label: "I confirm that all preliminary internal FINOS reviews and tasks have been completed and the contribution has been approved by FINOS staff for the Labs stage or has been passed of to the TOC for approval if seeking the incubating or graduated stage."
     validations:
       required: false
