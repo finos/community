@@ -42,9 +42,9 @@ body:
       description: "Incubating projects must continue to meet all Labs-level standards."
       options:
         - label: "I confirm that the codebase continues to meet [Labs Acceptance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-acceptance-requirements)"
+          required: true
         - label: "I confirm that the codebase meets [Labs Ongoing Maintenance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-ongoing-maintenance-requirements)"
-    validations:
-      required: true
+          required: true
 
   - type: markdown
     attributes:
@@ -60,13 +60,17 @@ body:
       label: Acceptance Checklist
       options:
         - label: "At least two maintainers from different organizations (one must be a FINOS member)"
+          required: true
         - label: "Active use by at least two financial services organizations"
+          required: true
         - label: "At least one detailed end-user adoption story provided"
+          required: true
         - label: "Consistent adherence to the contribution workflow in CONTRIBUTING.md"
+          required: true
         - label: "Project implements appropriate FINOS Community Governance structure"
+          required: true
         - label: "Public roadmap/backlog with target outcomes and timelines is available"
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     id: acceptance_evidence
@@ -92,15 +96,21 @@ body:
       description: "The Project Team formally commits to the following ongoing requirements:"
       options:
         - label: "The Project Team commits to public tracking of all activity using GitHub Issues"
+          required: true
         - label: "The Project Team commits to maintaining an up-to-date shortlist of 'Good First Issues' or 'Help Wanted'"
+          required: true
         - label: "The Project Team commits to replying to all community inquiries and issues with reasonable promptness"
+          required: true
         - label: "The Project Team commits to publicly visible adherence and updates to the project roadmap"
+          required: true
         - label: "The Project Team commits to pre-release integration with a FINOS-approved dependency and license scanner"
+          required: true
         - label: "The Project Team commits to build and release processes that use NO private or undocumented steps"
+          required: true
         - label: "The Project Team commits to presenting a project update once every six months at a public TOC meeting"
+          required: true
         - label: "The Project Team commits to adhering to Maturity Level 2 of the [OpenSSF Security Baseline](https://baseline.openssf.org/)"
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     id: maintenance_evidence
