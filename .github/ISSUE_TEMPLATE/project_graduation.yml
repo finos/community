@@ -42,10 +42,11 @@ body:
       description: "Graduated projects must meet and maintain all standards from the previous lifecycle stages."
       options:
         - label: "I confirm that the project continues to meet all [Incubating Acceptance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/incubating#acceptance-requirements) (including the Labs stage requirements)"
+          required: true
         - label: "I confirm that the project meets all [Incubating Ongoing Maintenance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/incubating#ongoing-maintenance-requirements)"
+          required: true
         - label: "I confirm that the project has adhered to its roadmap during Incubation"
-    validations:
-      required: true
+          required: true
 
   - type: markdown
     attributes:
@@ -62,12 +63,15 @@ body:
       description: "Graduated projects must demonstrate the highest technical standards."
       options:
         - label: "Project has made a production-ready major release (v1.0.0 or higher)"
+          required: true
         - label: "Major release was announced to the announce@lists.finos.org mailing list"
+          required: true
         - label: "The Project Team commits to following [Semantic Versioning (semver)](https://semver.org/) strictly"
+          required: true
         - label: "The Project Team has published and adheres to a [FINOS responsible disclosure security policy](https://community.finos.org/docs/governance/software-projects/cve-responsible-disclosure/)"
+          required: true
         - label: "The Project Team commits to adhering to Maturity Level 3 of the [OpenSSF Security Baseline](https://baseline.openssf.org/)"
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     id: quality_evidence
@@ -92,11 +96,13 @@ body:
       label: Community & Governance Checklist
       options:
         - label: "Maintainers from at least THREE different organizations (one must be a FINOS member)"
+          required: true
         - label: "The Project Team is largely self-sufficient, requiring minimal operational support from FINOS staff"
+          required: true
         - label: "Root-level README.md contains links to accurate usage and maintenance documentation"
+          required: true
         - label: "Documentation starts with a clear, unique financial services value proposition"
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     id: community_evidence
@@ -124,10 +130,11 @@ body:
       label: Adoption Checklist
       options:
         - label: "Actively used by at least FIVE organizations (at least three from financial services)"
+          required: true
         - label: "Two or more end-user adoption stories or case studies are available for public sharing"
+          required: true
         - label: "Project Team has worked with FINOS Staff to create a community sustainability and 'Go To Market' strategy"
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     id: adoption_evidence
@@ -152,9 +159,9 @@ body:
       label: Ongoing Roadmap Commitment
       options:
         - label: "The Project Team commits that all feature work adheres to a public roadmap"
+          required: true
         - label: "The Project Team can demonstrate progress against Community Development Plan milestones"
-    validations:
-      required: true
+          required: true
 
   - type: input
     id: roadmap_url
@@ -178,8 +185,8 @@ body:
       label: Status Badging
       options:
         - label: "Project Team commits to adopt the [FINOS Graduated badge](https://community.finos.org/docs/governance/lifecycle-stages/graduated#badge) once approved and to maintain adhearance with the [ongoing maintenance requirements](https://deploy-preview-388--eager-borg-83c1a5.netlify.app/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements)"
-    validations:
-      required: true
+          required: true
+
 
   - type: textarea
     id: toc_notes
@@ -202,5 +209,4 @@ body:
       description: "This checkbox is for FINOS Staff use only."
       options:
         - label: "I confirm that all internal FINOS operational tasks related to this Graduation have been completed."
-    validations:
-      required: false
+          required: false
