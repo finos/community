@@ -44,7 +44,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 1. ARCHIVAL ACKNOWLEDGMENT"
+      value: "## Archival Acknowledgment"
 
   - type: checkboxes
     id: maintainer_acknowledgment
@@ -65,7 +65,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 2. INTERNAL OPERATIONS (FINOS Staff Only)"
+      value: "## Internal Operations (FINOS Staff Only)"
 
   - type: checkboxes
     id: internal_ops
