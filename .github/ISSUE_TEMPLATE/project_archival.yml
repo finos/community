@@ -47,14 +47,37 @@ body:
       value: "## Archival Acknowledgment"
 
   - type: checkboxes
-    id: maintainer_acknowledgment
+    id: archival_readonly
     attributes:
-      label: Implications of Archival
-      description: "The Project Team must acknowledge the following:"
+      label: Archival Requirement 1
       options:
         - label: "I understand that all repositories will be set to a 'Read-Only' state on GitHub."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: archival_artifacts
+    attributes:
+      label: Archival Requirement 2
+      options:
         - label: "I understand that archived projects may no longer publish artifacts or make new releases."
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: archival_readme
+    attributes:
+      label: Archival Requirement 3
+      options:
         - label: "I understand that a specific 'Archived' note and badge must be added to the top of the README."
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: archival_revival
+    attributes:
+      label: Archival Requirement 4
+      options:
         - label: "I understand that the project may be revived in the future."
     validations:
       required: true
