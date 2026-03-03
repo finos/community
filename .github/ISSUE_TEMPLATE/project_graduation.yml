@@ -33,10 +33,10 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 1. INCUBATION FOUNDATION"
+      value: "## Incubation Requirements"
 
   - type: checkboxes
-    id: incubation_foundation
+    id: incubation_requirements
     attributes: 
       label: Incubation Compliance
       description: "Graduated projects must meet and maintain all standards from the previous lifecycle stages."
@@ -53,7 +53,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 2. QUALITY & SECURITY COMMITMENT"
+      value: "## Quality & Security Commitment"
 
   - type: checkboxes
     id: quality_security
@@ -84,10 +84,10 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 3. DIVERSITY & VIABILITY"
+      value: "## Sustainability & Viability"
 
   - type: checkboxes
-    id: diversity_viability
+    id: sustainability_viability
     attributes:
       label: Community & Governance Checklist
       options:
@@ -116,7 +116,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 4. GROWTH & ADOPTION"
+      value: "## Growth & Adoption"
 
   - type: checkboxes
     id: growth_adoption
@@ -144,7 +144,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 5. ROADMAP COMMITMENT"
+      value: "## Roadmap Commitment"
 
   - type: checkboxes
     id: roadmap_commitment
@@ -170,7 +170,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 6. FINAL STEPS"
+      value: "## Final Steps"
 
   - type: checkboxes
     id: badging_commitment
@@ -193,7 +193,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## 7. INTERNAL OPERATIONS (FINOS Staff Only)"
+      value: "## Internal Operations (FINOS Staff Only)"
 
   - type: checkboxes
     id: internal_ops
