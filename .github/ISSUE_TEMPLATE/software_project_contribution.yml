@@ -19,11 +19,13 @@ body:
       label: Contribution Prerequisites
       options:
         - label: "I confirm I am contributing on behalf of a FINOS member OR I will seek a maintainer from a member during socialization."
+          required: true
         - label: "I have reviewed the [FINOS Contribution Process](https://community.finos.org/docs/governance/software-projects/contribution/)."
+          required: true
         - label: "I have reviewed the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle) stages."
+          required: true
         - label: "I am familiar with [FINOS Governance](https://community.finos.org/docs/governance) and [Maintainer Responsibilities](https://community.finos.org/docs/finos-maintainers-cheatsheet/)."
-    validations:
-      required: true
+          required: true
 
   - type: dropdown
     id: stage
@@ -128,26 +130,25 @@ body:
       description: "Confirm you have read and agree to the following [FINOS Requirements](https://community.finos.org/docs/governance/Software-Projects/Contribution-Compliance-Requirements)."
       options:
         - label: "I understand that all maintainers and contributors will need to be covered by a [Contributors License Agreement](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#contributor-license-agreement) before being able to contribute."
+          required: true
         - label: "I confirm that software will be covered by the [Apache 2.0. License](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#license-information) and any [Third-Party code is compatible](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#third-party-code-compliance)."
+          required: true
         - label: "I have selected the appropriate [lifecycle stage](https://community.finos.org/docs/governance/project-lifecycle) based on that stages requirements. I agree and commit to to the Acceptance & Maintenance Requirements for my target stage."
-    validations:
-      required: true
-
+          required: true
+  
   - type: checkboxes
-    id: administrative-consent
+    id: administrative_consent
     attributes:
       label: Administrative Consent & Transfer Authorization
       description: Please confirm the following administrative requirements for FINOS onboarding.
       options:
-        - label: I agree to grant 'finos-admin' Admin/Owner access to the repository for security auditing and setup.
+        - label: "I agree to grant 'finos-admin' Admin/Owner access to the repository for security auditing and setup."
           required: true
-        - label: I authorize the transfer of this code/repository to the FINOS GitHub organization upon project acceptance.
+        - label: "I authorize the transfer of this code/repository to the FINOS GitHub organization upon project acceptance."
           required: true
-        - label: I confirm I have the legal authority (individual or corporate) to grant these permissions.
+        - label: "I confirm I have the legal authority (individual or corporate) to grant these permissions."
           required: true
-    validations:
-      required: true
-
+        
   - type: checkboxes
     id: socialization_confirm
     attributes:
