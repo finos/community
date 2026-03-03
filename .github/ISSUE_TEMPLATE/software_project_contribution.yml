@@ -145,8 +145,8 @@ body:
           required: true
         - label: I confirm I have the legal authority (individual or corporate) to grant these permissions.
           required: true
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: checkboxes
     id: socialization_confirm
