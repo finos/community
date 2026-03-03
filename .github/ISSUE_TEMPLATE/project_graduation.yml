@@ -22,7 +22,7 @@ body:
       label: Entry Path
       description: "Are you transitioning from the Incubation, Labs, or contributing an existing high-maturity project?"
       options:
-        - "Transitioning from FINOS Incubation (or Labs) stage"
+        - "Transitioning from FINOS Incubating (or Labs) stage"
         - "Direct contribution to Graduated stage (Advanced Contribution)"
     validations:
       required: true
