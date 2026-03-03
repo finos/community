@@ -155,8 +155,7 @@ body:
       label: Socialization Acknowledgement
       options:
         - label: "I understand I may need to socialize this proposal to community@finos.org before a TOC review to gauge community interest."
-    validations:
-      required: true
+        required: true
 
   - type: markdown
     attributes:
