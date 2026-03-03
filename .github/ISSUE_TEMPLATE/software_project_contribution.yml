@@ -134,6 +134,21 @@ body:
       required: true
 
   - type: checkboxes
+    id: administrative-consent
+    attributes:
+      label: Administrative Consent & Transfer Authorization
+      description: Please confirm the following administrative requirements for FINOS onboarding.
+      options:
+        - label: I agree to grant 'finos-admin' Admin/Owner access to the repository for security auditing and setup.
+          required: true
+        - label: I authorize the transfer of this code/repository to the FINOS GitHub organization upon project acceptance.
+          required: true
+        - label: I confirm I have the legal authority (individual or corporate) to grant these permissions.
+          required: true
+      validations:
+        required: true
+
+  - type: checkboxes
     id: socialization_confirm
     attributes:
       label: Socialization Acknowledgement
