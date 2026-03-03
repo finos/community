@@ -46,24 +46,21 @@ body:
     attributes:
       value: "## Archival Acknowledgment"
 
-  - type: markdown
-    attributes:
-      value: |
-        ### Implications of Archival
-        * All repositories will be set to a **Read-Only** state.
-        * Projects may no longer publish **artifacts or releases**.
-        * An **'Archived' badge** must be added to the README.
-        * The project **may be revived** in the future.
-
   - type: checkboxes
-    id: archival_confirm
-    attributes:
-      label: Confirmation
-      options:
-        - label: "I acknowledge and accept the implications of archiving this project."
-    validations:
-      required: true
-
+  id: maintainer_acknowledgment
+  attributes:
+    label: Implications of Archival
+    description: "The Project Team must acknowledge the following:"
+    options:
+      - label: "I understand that all repositories will be set to a 'Read-Only' state on GitHub."
+        required: true
+      - label: "I understand that archived projects may no longer publish artifacts or make new releases."
+        required: true
+      - label: "I understand that a specific 'Archived' note and badge must be added to the top of the README."
+        required: true
+      - label: "I understand that the project may be revived in the future."
+        required: true
+        
   - type: markdown
     attributes:
       value: "---"
