@@ -135,8 +135,7 @@ body:
       label: Status Badging
       options:
         - label: "Project Team commits to adopt the [FINOS Incubating badge](https://community.finos.org/docs/governance/lifecycle-stages/incubating#badge) in the README.md once approved"
-    validations:
-      required: true
+          required: true
 
   - type: textarea
     id: toc_notes
