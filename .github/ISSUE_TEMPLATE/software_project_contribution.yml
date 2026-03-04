@@ -34,9 +34,9 @@ body:
       description: |
         Which stage are you applying for based on the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle)?
         
-        * **[Labs](https://community.finos.org/docs/governance/project-lifecycle#labs):** For early-stage ideas or experiments looking for community feedback.
-        * **[Incubating](https://community.finos.org/docs/governance/project-lifecycle#incubating):** For projects with active development and a growing community presence.
-        * **[Graduated](https://community.finos.org/docs/governance/project-lifecycle#graduated):** For mature projects that have met all governance and adoption requirements.
+        * **[Labs](https://community.finos.org/docs/governance/lifecycle-stages/labs):** For early-stage ideas or experiments looking for community feedback. See [acceptance requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs#labs-acceptance-requirements).
+        * **[Incubating](https://community.finos.org/docs/governance/lifecycle-stages/incubating):** For projects with active development and a growing community presence. See [acceptance requirements](https://community.finos.org/docs/governance/lifecycle-stages/incubating#incubating-acceptance-requirements).
+        * **[Graduated](https://community.finos.org/docs/governance/lifecycle-stages/graduated):** For mature projects that have met all governance and adoption requirements. See [acceptance requirements](https://community.finos.org/docs/governance/lifecycle-stages/graduated#graduated-acceptance-requirements).
       options:
         - Labs
         - Incubating
