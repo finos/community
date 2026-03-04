@@ -44,6 +44,10 @@ body:
     validations:
       required: true
 
+  - type: markdown
+    attributes:
+      value: "---"
+
   - type: input
     id: member_org_name
     attributes:
