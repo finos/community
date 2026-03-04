@@ -67,8 +67,6 @@ body:
           required: true
         - label: "Consistent adherence to the contribution workflow in CONTRIBUTING.md"
           required: true
-        - label: "Project implements appropriate FINOS Community Governance structure"
-          required: true
         - label: "Public roadmap/backlog with target outcomes and timelines is available"
           required: true
 
