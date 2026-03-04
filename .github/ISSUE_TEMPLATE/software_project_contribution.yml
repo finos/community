@@ -54,7 +54,7 @@ body:
       label: FINOS Member Organization Name
       description: "Enter the name of the member organization backing this proposal."
     validations:
-      required: false
+      required: true
 
   - type: markdown
     attributes:
@@ -103,7 +103,7 @@ body:
 
   - type: markdown
     attributes:
-      value: "## Maintainer Team"
+      value: "## Team"
 
   - type: textarea
     id: maintainers
