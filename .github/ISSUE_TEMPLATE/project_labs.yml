@@ -1,4 +1,4 @@
-name: "🐣 Project Labs"
+name: "🧪 Project Labs"
 description: To apply for the Labs lifecycle stage.
 title: "Project Labs: [Project Name]"
 labels: ["lifecycle", "incubation"]
@@ -12,16 +12,7 @@ body:
         # Labs
         The [Labs stage](https://community.finos.org/docs/governance/lifecycle-stages/labs) is for projects in an experimental and exploratory phase.
 
-  - type: dropdown
-    id: entry_path
-    attributes:
-      label: Entry Path
-      description: "Are you transitioning from Labs or contributing an existing advanced project?"
-      options:
-        - "Transitioning from FINOS Labs"
-        - "Direct Entry (Advanced Contribution)"
-    validations:
-      required: true
+        **Note:** This issue form should only be filled out after the initial [software project contribution issue form](https://github.com/finos/community/issues/new?template=software_project_contribution.yml) has been submitted and only when applying for the Labs stage.
 
   - type: markdown
     attributes:
@@ -35,7 +26,7 @@ body:
     id: labs_requirements
     attributes: 
       label: Labs Compliance
-      description: "Incubating projects must continue to meet all Labs-level standards."
+      description: "Labs projects must continue to meet all Labs-level standards."
       options:
         - label: "I confirm that the codebase meets [Labs Acceptance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-acceptance-requirements)"
           required: true
