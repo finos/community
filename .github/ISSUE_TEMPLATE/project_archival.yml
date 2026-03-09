@@ -60,21 +60,3 @@ body:
           required: true
         - label: "I understand that the project may be revived in the future."
           required: true
-        
-  - type: markdown
-    attributes:
-      value: "---"
-
-  - type: markdown
-    attributes:
-      value: "## Internal Operations (FINOS Staff Only)"
-
-  - type: checkboxes
-    id: internal_ops
-    attributes:
-      label: Operational Completion
-      description: "This checkbox is for FINOS Staff use only."
-      options:
-        - label: "I confirm that all internal FINOS operational tasks have been completed."
-    validations:
-      required: false
