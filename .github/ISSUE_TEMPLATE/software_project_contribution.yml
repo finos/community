@@ -170,21 +170,3 @@ body:
       value: |
         ### ℹ️ Next Steps for Advanced Stages
         If you have applied for the **Incubating** or **Graduated** stage, please note that these require a more detailed vetting process. After our initial review of this proposal, a member of the FINOS team will follow up on this issue with next steps and a link to a stage-specific sub-issue form to collect further technical and community evidence.
-
-  - type: markdown
-    attributes:
-      value: "---"
-
-  - type: markdown
-    attributes:
-      value: "## Internal Operations (FINOS Staff Only)"
-
-  - type: checkboxes
-    id: internal_workflow
-    attributes:
-      label: Operational Completion
-      description: "This checkbox is for FINOS Staff use only."
-      options:
-        - label: "I confirm that all preliminary internal FINOS reviews and tasks have been completed and the contribution has been approved by FINOS staff for the Labs stage or has been passed off to the TOC for approval if seeking the incubating or graduated stage."
-    validations:
-      required: false
