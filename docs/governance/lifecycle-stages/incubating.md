@@ -41,7 +41,7 @@ Generally all new projects accepted in FINOS start in the [FINOS Labs](/docs/gov
 Below we detail the process for each of the two scenarios. 
 
 ### Apply for promotion of a FINOS Labs Project to Incubating
-In order for a project to become Incubating, it must be reviewed and the change formally approved by the [Technical Steering Committee](https://github.com/finos/technical-steering-committee). 
+In order for a project to become Incubating, it must be reviewed and the change formally approved by the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee). 
 
 Any project maintainer may initiate this request process at any time by opening an [Incubation promotion request](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Incubation.md&title=ProjectName+Incubation+promotion+request) with an information packet demonstrating that they've met the requirements for Incubating.
 
