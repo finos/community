@@ -48,21 +48,3 @@ body:
       options:
         - label: "Project Team commits to adopt the [FINOS Labs badge](https://community.finos.org/docs/governance/lifecycle-stages/labs#badge) in the README.md once approved"
           required: true
-
-  - type: markdown
-    attributes:
-      value: "---"
-
-  - type: markdown
-    attributes:
-      value: "## Internal Operations (FINOS Staff Only)"
-
-  - type: checkboxes
-    id: internal_ops
-    attributes:
-      label: Operational Completion
-      description: "This checkbox is for FINOS Staff use only."
-      options:
-        - label: "I confirm that all internal FINOS operational tasks related to this lifecycle transition have been completed."
-    validations:
-      required: false
