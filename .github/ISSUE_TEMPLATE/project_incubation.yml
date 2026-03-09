@@ -114,7 +114,7 @@ body:
     id: maintenance_evidence
     attributes:
       label: Maintenance Readiness - Evidence
-      description: "Describe how the project is currently set up to fulfill these commitments (e.g., links to existing issue tracking, security tools, or build workflows)."
+      description: "Link to a project-level [Security Insights](https://security-insights.openssf.org) file, OR describe how the project is currently set up to fulfill these commitments (e.g., links to existing issue tracking, security tools, or build workflows)."
       placeholder: "Describe readiness and provide supporting links..."
     validations:
       required: true
