@@ -7,7 +7,7 @@ title: Labs Stage
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-labs.png" width="150" />
 
-Foundation-hosted projects are expected to provide a clear indication to visitors that they are in an incubating stage.  To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
+Foundation-hosted projects are expected to provide a clear indication to visitors that they are in the labs stage. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
 [![FINOS - Labs](https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-labs.png)](https://community.finos.org/docs/governance/lifecycle-stages/labs)
