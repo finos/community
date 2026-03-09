@@ -7,7 +7,7 @@ title: Forming Stage
 
 <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-forming.png" width="150" />
 
-Foundation-hosted projects are expected to provide a clear indication to visitors that they are in an incubating stage.  To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
+Foundation-hosted projects are expected to provide a clear indication to visitors that they are in a forming stage. To this end, the Foundation provides a badge that should be displayed at the top of the project's root-level `README.md` file, using the following Markdown:
 
 ```
 [![FINOS - Forming](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-forming.svg)](https://community.finos.org/docs/governance/lifecycle-stages/forming)
