@@ -77,7 +77,7 @@ body:
     id: quality_evidence
     attributes:
       label: Quality & Security - Evidence
-      description: "Provide links to the v1.0.0 announcement, security policy, and proof of Security Baseline Level 3."
+      description: "Provide links to the v1.0.0 announcement, security policy, and link to [Best Practices Badge](https://www.bestpractices.dev/) for OSPS Baseline Level 3."
       placeholder: "Provide links and evidence here..."
     validations:
       required: true
