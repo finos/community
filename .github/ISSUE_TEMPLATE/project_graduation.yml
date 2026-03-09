@@ -186,10 +186,3 @@ body:
       options:
         - label: "Project Team commits to adopt the [FINOS Graduated badge](https://community.finos.org/docs/governance/lifecycle-stages/graduated#badge) once approved and to maintain adhearance with the [ongoing maintenance requirements](https://deploy-preview-388--eager-borg-83c1a5.netlify.app/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements)"
           required: true
-
-
-  - type: textarea
-    id: toc_notes
-    attributes:
-      label: TOC Findings (Internal Use)
-      description: "To be filled by the TOC during the review process."
