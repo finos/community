@@ -135,12 +135,6 @@ body:
         - label: "Project Team commits to adopt the [FINOS Incubating badge](https://community.finos.org/docs/governance/lifecycle-stages/incubating#badge) in the README.md once approved"
           required: true
 
-  - type: textarea
-    id: toc_notes
-    attributes:
-      label: TOC Findings (Internal Use)
-      description: "To be filled by the TOC during the review process."
-
   - type: markdown
     attributes:
       value: "---"
