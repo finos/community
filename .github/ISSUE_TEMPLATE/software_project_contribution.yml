@@ -185,6 +185,6 @@ body:
       label: Operational Completion
       description: "This checkbox is for FINOS Staff use only."
       options:
-        - label: "I confirm that all preliminary internal FINOS reviews and tasks have been completed and the contribution has been approved by FINOS staff for the Labs stage or has been passed of to the TOC for approval if seeking the incubating or graduated stage."
+        - label: "I confirm that all preliminary internal FINOS reviews and tasks have been completed and the contribution has been approved by FINOS staff for the Labs stage or has been passed off to the TOC for approval if seeking the incubating or graduated stage."
     validations:
       required: false
