@@ -107,7 +107,7 @@ body:
           required: true
         - label: "The Project Team commits to presenting a project update once every six months at a public TOC meeting"
           required: true
-        - label: "The Project Team commits to adhering to Maturity Level 2 of the [OpenSSF Security Baseline](https://baseline.openssf.org/)"
+        - label: "The Project Team commits to adhering to Maturity Level 2 of the [OSPS Baseline](https://baseline.openssf.org/)"
           required: true
 
   - type: textarea
