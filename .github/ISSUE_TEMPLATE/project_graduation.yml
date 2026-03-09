@@ -193,20 +193,3 @@ body:
     attributes:
       label: TOC Findings (Internal Use)
       description: "To be filled by the TOC during the review process."
-
-  - type: markdown
-    attributes:
-      value: "---"
-
-  - type: markdown
-    attributes:
-      value: "## Internal Operations (FINOS Staff Only)"
-
-  - type: checkboxes
-    id: internal_ops
-    attributes:
-      label: Operational Completion
-      description: "This checkbox is for FINOS Staff use only."
-      options:
-        - label: "I confirm that all internal FINOS operational tasks related to this Graduation have been completed."
-          required: false
