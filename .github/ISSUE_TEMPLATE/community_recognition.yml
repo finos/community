@@ -1,0 +1,65 @@
+name: "👏🏻 💯💯💯 FINOS Community Recognition"
+description: Recognise members of the FINOS Community
+title: "FINOS Community Recognition"
+labels:
+  - community-recognition
+assignees:
+  - opoupeney
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Who in the FINOS Community would you like to recognise?
+        Let FINOS know who you'd like to recognise in the FINOS Community by providing the following information in your GitHub issue.
+
+  - type: input
+    id: person_name
+    attributes:
+      label: Person or People to Recognise
+      description: The person or people in the FINOS Community you'd like to recognise
+      placeholder: Name(s) of the person/people
+    validations:
+      required: true
+
+  - type: input
+    id: github_profiles
+    attributes:
+      label: GitHub Profiles
+      description: The GitHub profiles of the recognised person or people
+      placeholder: username1, username2, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: finos_contributions
+    attributes:
+      label: FINOS Contributions
+      description: The FINOS projects, special interest groups, meetups, events ... etc where they contribute to FINOS
+      placeholder: List the projects, SIGs, meetups, events, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    id: recognition_reason
+    attributes:
+      label: Reason for Recognition
+      description: The reason why they've been recognised
+      placeholder: Explain why this person/people deserve recognition...
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence of Contributions
+      description: Feel free to link FINOS projects, code examples, pull requests, issue threads, uploaded photos and screenshots that demonstrate the great work you're recognising.
+      placeholder: Links to PRs, issues, projects, screenshots, etc.
+      render: markdown
+
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for recognising the FINOS Community.
+
+        The FINOS Team.
+

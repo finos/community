@@ -39,7 +39,7 @@ For more mature projects, at the time of contribution contributors will have an 
 
 ### Step 1: Submit a contribution proposal
 Draft a proposal to be reviewed by the FINOS team. Please use the available templates for:
-- [Open source software project](https://github.com/finos/community/issues/new?assignees=TheJuanAndOnly99%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=%3Cinsert%20name%20here%3E+Software+Project+Contribution+and+Onboarding)
+- [Open source software project](https://github.com/finos/community/issues/new?template=software_project_contribution.yml)
 - [Open standard / specification project](https://github.com/finos/community/issues/new?assignees=TheJuanAndOnly99%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=%3Cinsert%20name%20here%3E+Standard+Project+Contribution+and+Onboarding)
 - [Special Interest Group](https://github.com/finos/community/issues/new?assignees=TheJuanAndOnly99%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=%3Cinsert%20name%20here%3E+SIG+Contribution+and+Onboarding)
   
