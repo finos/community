@@ -22,6 +22,18 @@ module.exports = {
       },
       {
         type: 'category',
+          label: 'Project Lifecycle',
+          items: [
+            "governance/project-lifecycle",
+            "governance/lifecycle-stages/forming",
+            "governance/lifecycle-stages/labs",
+            "governance/lifecycle-stages/incubating",
+            "governance/lifecycle-stages/graduated",
+            "governance/lifecycle-stages/archived",
+          ]
+      },
+      {
+        type: 'category',
         label: 'Software Project Governance',
         items: [
           {
@@ -29,7 +41,6 @@ module.exports = {
             label: "Intro",
             href:"/docs/governance/#open-source-software-projects"
           },
-          'governance/Software-Projects/project-lifecycle',
           "governance/Software-Projects/contribution",
           "governance/Software-Projects/code-transfer",
           "governance/Software-Projects/contribution-compliance-requirements",

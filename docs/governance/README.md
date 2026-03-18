@@ -71,11 +71,11 @@ Documents produced or contributed as part of the SIG will be contributed and mad
 # Project Lifecycle and steering
 
 ## Project Lifecycle
-Software projects follow the [Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects may begin in either the "Labs" or "Incubating" state, graduate to "Graduated", and finally may move to the "Archived" state (from either Labs, Incubating, or Graduated) if they are no longer actively developed.
+Software projects follow the [Project Lifecycle](/docs/governance/project-lifecycle), a useful tool for consumers and contributors to quickly evaluate maturity, activity, and quality. Projects may begin in either the "Labs" or "Incubating" state, graduate to "Graduated", and finally may move to the "Archived" state (from either Labs, Incubating, or Graduated) if they are no longer actively developed.
 
-The TOC approves lifecycle transitions following objective criteria detailed for [Incubating](/docs/governance/Software-Projects/project-lifecycle#incubating) and [Graduated](/docs/governance/Software-Projects/project-lifecycle#graduated) projects.
+The TOC approves lifecycle transitions following objective criteria detailed for [Incubating](/docs/governance/lifecycle-stages/incubating) and [Graduated](/docs/governance/lifecycle-stages/graduated) projects.
 
-Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead. [Forming projects](/docs/governance/Software-Projects/project-lifecycle) might not be publicly visible until entering Incubation when they will be fully open sourced.
+Some projects may optionally start in a time-bound pre-incubation stage called *Formation*, which is typically restricted to FINOS Members or at the discretion of the project lead. [Forming projects](/docs/governance/project-lifecycle) might not be publicly visible until entering Incubation when they will be fully open sourced.
 
 ## Project Metrics 
 Live metrics of Project activity and contributions across all FINOS collaboration systems are publicly available in [FINOS Project Activity Dashboard](https://metrics.finos.org).
