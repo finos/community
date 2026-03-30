@@ -1,0 +1,62 @@
+name: "🗄️ Project Archival"
+description: To propose the archival of a FINOS Project.
+title: "Project Archival: [Project Name]"
+labels: ["lifecycle", "archived"]
+assignees:
+  - maoo
+  - TheJuanAndOnly99
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Project Archival
+        Projects are [Archived](https://community.finos.org/docs/governance/lifecycle-stages/archived) when they are no longer actively developed. Archival educates consumers that the code is in a read-only state and may contain unaddressed bugs or security vulnerabilities.
+
+        **Note:** Archival can be triggered by project maintainers or by the TOC due to inactivity (180 days without releases, commits, or mailing list traffic).
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: textarea
+    id: archival_reason
+    attributes:
+      label: Reason for Archival
+      description: "Describe why the project is being archived (e.g., lack of maintainers, project completion, or replacement by another tool)."
+      placeholder: "Please provide a detailed explanation..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repositories_to_archive
+    attributes:
+      label: Repositories to Archive
+      description: "List the full URLs of all GitHub repositories associated with this project."
+      placeholder: |
+        https://github.com/finos/repository-1
+        https://github.com/finos/repository-2
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Archival Acknowledgment"
+
+  - type: checkboxes
+    id: maintainer_acknowledgment
+    attributes:
+      label: Implications of Archival
+      description: "The Project Team must acknowledge the following:"
+      options:
+        - label: "I understand that all repositories will be set to a 'Read-Only' state on GitHub."
+          required: true
+        - label: "I understand that archived projects may no longer publish artifacts or make new releases."
+          required: true
+        - label: "I understand that a specific 'Archived' note and badge must be added to the top of the README."
+          required: true
+        - label: "I understand that the project may be revived in the future."
+          required: true

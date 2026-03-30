@@ -1,0 +1,188 @@
+name: "🎓 Project Graduation"
+description: To apply for the Graduated lifecycle stage (either from Incubation, Labs, or as a direct contribution).
+title: "Project Graduation: [Project Name]"
+labels: ["lifecycle", "graduated"]
+assignees:
+  - maoo
+  - TheJuanAndOnly99
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Graduation
+        Graduation represents the highest level of maturity for FINOS projects. A [Graduated status](https://community.finos.org/docs/governance/lifecycle-stages/graduated) indicates that a project is mature in terms of quality, community, and sustainability.
+
+        **Note:** Projects do not necessarily need to have passed through Labs or Incubation; advanced contributions may apply directly for Graduated status if they meet all the criteria.
+
+        The [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee) approves lifecycle transitions or direct contributions to the Graduated stage based on the [Graduation Requirements](https://community.finos.org/docs/governance/lifecycle-stages/graduated#requirements).
+
+  - type: dropdown
+    id: entry_path
+    attributes:
+      label: Entry Path
+      description: "Are you transitioning from the Incubation, Labs, or contributing an existing high-maturity project?"
+      options:
+        - "Transitioning from FINOS Incubating (or Labs) stage"
+        - "Direct contribution to Graduated stage (Advanced Contribution)"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Incubation Requirements"
+
+  - type: checkboxes
+    id: incubation_requirements
+    attributes: 
+      label: Incubation Compliance
+      description: "Graduated projects must meet and maintain all standards from the previous lifecycle stages."
+      options:
+        - label: "I confirm that the project continues to meet all [Incubating Acceptance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/incubating#acceptance-requirements) (including the Labs stage requirements)"
+          required: true
+        - label: "I confirm that the project meets all [Incubating Ongoing Maintenance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/incubating#ongoing-maintenance-requirements)"
+          required: true
+        - label: "I confirm that the project has adhered to its roadmap during Incubation"
+          required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Quality & Security Commitment"
+
+  - type: checkboxes
+    id: quality_security
+    attributes: 
+      label: Quality & Security Checklist
+      description: "Graduated projects must demonstrate the highest technical standards."
+      options:
+        - label: "Project has made a production-ready major release (v1.0.0 or higher)"
+          required: true
+        - label: "Major release was announced to the announce@lists.finos.org mailing list"
+          required: true
+        - label: "The Project Team commits to following [Semantic Versioning (semver)](https://semver.org/) strictly"
+          required: true
+        - label: "The Project Team has published and adheres to a [FINOS responsible disclosure security policy](https://community.finos.org/docs/governance/software-projects/cve-responsible-disclosure/)"
+          required: true
+        - label: "The Project Team commits to adhering to Maturity Level 3 of the [OpenSSF Security Baseline](https://baseline.openssf.org/)"
+          required: true
+
+  - type: textarea
+    id: quality_evidence
+    attributes:
+      label: Quality & Security - Evidence
+      description: "Provide links to the v1.0.0 announcement, security policy, and link to [Best Practices Badge](https://www.bestpractices.dev/) for OSPS Baseline Level 3."
+      placeholder: "Provide links and evidence here..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Sustainability & Viability"
+
+  - type: checkboxes
+    id: sustainability_viability
+    attributes:
+      label: Community & Governance Checklist
+      options:
+        - label: "Maintainers from at least THREE different organizations (one must be a FINOS member)"
+          required: true
+        - label: "The Project Team is largely self-sufficient, requiring minimal operational support from FINOS staff"
+          required: true
+        - label: "Root-level README.md contains links to accurate usage and maintenance documentation"
+          required: true
+        - label: "Documentation starts with a clear, unique financial services value proposition"
+          required: true
+
+  - type: textarea
+    id: community_evidence
+    attributes:
+      label: Community & Maintainers - Evidence
+      description: "List the 3+ organizations and provide a link to the maintainers file."
+      placeholder: |
+        | Name | Affiliation | GitHub |
+        | :--- | :--- | :--- |
+        | | | |
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Growth & Adoption"
+
+  - type: checkboxes
+    id: growth_adoption
+    attributes:
+      label: Adoption Checklist
+      options:
+        - label: "Actively used by at least FIVE organizations (at least three from financial services)"
+          required: true
+        - label: "Two or more end-user adoption stories or case studies are available for public sharing"
+          required: true
+        - label: "Project Team has worked with FINOS Staff to create a community sustainability and 'Go To Market' strategy"
+          required: true
+
+  - type: textarea
+    id: adoption_evidence
+    attributes:
+      label: Adoption & Strategy - Evidence
+      description: "Provide links to public case studies and list the five adopting organizations."
+      placeholder: "Provide links to adoption stories and GTM strategy summary..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Roadmap Commitment"
+
+  - type: checkboxes
+    id: roadmap_commitment
+    attributes:
+      label: Ongoing Roadmap Commitment
+      options:
+        - label: "The Project Team commits that all feature work adheres to a public roadmap"
+          required: true
+        - label: "The Project Team can demonstrate progress against Community Development Plan milestones"
+          required: true
+
+  - type: input
+    id: roadmap_url
+    attributes:
+      label: Public Roadmap URL
+      placeholder: "https://github.com/finos/project/projects/1"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Final Steps"
+
+  - type: checkboxes
+    id: badging_commitment
+    attributes:
+      label: Status Badging
+      options:
+        - label: "Project Team commits to adopt the [FINOS Graduated badge](https://community.finos.org/docs/governance/lifecycle-stages/graduated#badge) once approved and to maintain adhearance with the [ongoing maintenance requirements](https://deploy-preview-388--eager-borg-83c1a5.netlify.app/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements)"
+          required: true

@@ -1,0 +1,50 @@
+name: "🧪 Project Labs"
+description: To apply for the Labs lifecycle stage.
+title: "Project Labs: [Project Name]"
+labels: ["lifecycle", "incubation"]
+assignees:
+  - maoo
+  - TheJuanAndOnly99
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Labs
+        The [Labs stage](https://community.finos.org/docs/governance/lifecycle-stages/labs) is for projects in an experimental and exploratory phase.
+
+        **Note:** This issue form should only be filled out after the initial [software project contribution issue form](https://github.com/finos/community/issues/new?template=software_project_contribution.yml) has been submitted and only when applying for the Labs stage.
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Labs Requirements"
+
+  - type: checkboxes
+    id: labs_requirements
+    attributes: 
+      label: Labs Compliance
+      description: "Labs projects must continue to meet all Labs-level standards."
+      options:
+        - label: "I confirm that the codebase meets [Labs Acceptance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-acceptance-requirements)"
+          required: true
+        - label: "I confirm that the codebase meets [Labs Ongoing Maintenance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-ongoing-maintenance-requirements)"
+          required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Final Steps"
+
+  - type: checkboxes
+    id: badging_commitment
+    attributes:
+      label: Status Badging
+      options:
+        - label: "Project Team commits to adopt the [FINOS Labs badge](https://community.finos.org/docs/governance/lifecycle-stages/labs#badge) in the README.md once approved"
+          required: true

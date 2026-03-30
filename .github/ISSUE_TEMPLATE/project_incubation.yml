@@ -1,0 +1,136 @@
+name: "🐣 Project Incubation"
+description: To apply for the Incubating lifecycle stage (either from Labs or as a direct contribution).
+title: "Project Incubation: [Project Name]"
+labels: ["lifecycle", "incubation"]
+assignees:
+  - maoo
+  - TheJuanAndOnly99
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Incubation
+        The [Incubating stage](https://community.finos.org/docs/governance/lifecycle-stages/incubating) is for projects that have moved beyond initial experimentation and are focused on building a stable community and production-ready codebase. 
+        
+        **Note:** Projects do not necessarily need to start in Labs; advanced contributions may apply directly for Incubation or Graduation if they meet the criteria.
+
+        The [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee) approves lifecycle transitions based on the [Incubation Requirements](https://community.finos.org/docs/governance/lifecycle-stages/incubating#requirements).
+
+  - type: dropdown
+    id: entry_path
+    attributes:
+      label: Entry Path
+      description: "Are you transitioning from Labs or contributing an existing advanced project?"
+      options:
+        - "Transitioning from FINOS Labs"
+        - "Direct Entry (Advanced Contribution)"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Labs Requirements"
+
+  - type: checkboxes
+    id: labs_requirements
+    attributes: 
+      label: Labs Compliance
+      description: "Incubating projects must continue to meet all Labs-level standards."
+      options:
+        - label: "I confirm that the codebase continues to meet [Labs Acceptance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-acceptance-requirements)"
+          required: true
+        - label: "I confirm that the codebase meets [Labs Ongoing Maintenance Requirements](https://community.finos.org/docs/governance/lifecycle-stages/labs/#labs-ongoing-maintenance-requirements)"
+          required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Incubating Acceptance Requirements"
+
+  - type: checkboxes
+    id: incubating_acceptance
+    attributes:
+      label: Acceptance Checklist
+      options:
+        - label: "At least two maintainers from different organizations (one must be a FINOS member)"
+          required: true
+        - label: "Active use by at least two financial services organizations"
+          required: true
+        - label: "At least one detailed end-user adoption story provided"
+          required: true
+        - label: "Consistent adherence to the contribution workflow in CONTRIBUTING.md"
+          required: true
+        - label: "Public roadmap/backlog with target outcomes and timelines is available"
+          required: true
+
+  - type: textarea
+    id: acceptance_evidence
+    attributes:
+      label: Incubating Acceptance - Evidence
+      description: "Provide links to maintainer lists, adoption stories, governance docs, and your public roadmap."
+      placeholder: "Provide links and evidence here..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Incubating Ongoing Maintenance Committment"
+
+  - type: checkboxes
+    id: incubating_maintenance
+    attributes:
+      label: Maintenance & Health Commitment
+      description: "The Project Team formally commits to the following ongoing requirements:"
+      options:
+        - label: "The Project Team commits to public tracking of all activity using GitHub Issues"
+          required: true
+        - label: "The Project Team commits to maintaining an up-to-date shortlist of 'Good First Issues' or 'Help Wanted'"
+          required: true
+        - label: "The Project Team commits to replying to all community inquiries and issues with reasonable promptness"
+          required: true
+        - label: "The Project Team commits to publicly visible adherence and updates to the project roadmap"
+          required: true
+        - label: "The Project Team commits to pre-release integration with a FINOS-approved dependency and license scanner"
+          required: true
+        - label: "The Project Team commits to build and release processes that use NO private or undocumented steps"
+          required: true
+        - label: "The Project Team commits to presenting a project update once every six months at a public TOC meeting"
+          required: true
+        - label: "The Project Team commits to adhering to Maturity Level 2 of the [OSPS Baseline](https://baseline.openssf.org/)"
+          required: true
+
+  - type: textarea
+    id: maintenance_evidence
+    attributes:
+      label: Maintenance Readiness - Evidence
+      description: "Link to a project-level [Security Insights](https://security-insights.openssf.org) file, OR describe how the project is currently set up to fulfill these commitments (e.g., links to existing issue tracking, security tools, or build workflows)."
+      placeholder: "Describe readiness and provide supporting links..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Final Steps"
+
+  - type: checkboxes
+    id: badging_commitment
+    attributes:
+      label: Status Badging
+      options:
+        - label: "Project Team commits to adopt the [FINOS Incubating badge](https://community.finos.org/docs/governance/lifecycle-stages/incubating#badge) in the README.md once approved"
+          required: true

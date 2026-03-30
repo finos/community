@@ -42,10 +42,10 @@ To submit a new vulnerability, please follow these steps:
 **IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. That means, for example that a GitHub Issue must NOT be created to track the issue since that will make the issue public. Also the messages associated with any commits should not make ANY reference to the security nature of the commit.
 
 ### FINOS lifecycle
-The responsible disclosure ties into [FINOS Project Lifecycle](/docs/governance/Software-Projects/project-lifecycle) in the following items:
+The responsible disclosure ties into [FINOS Project Lifecycle](/docs/governance/project-lifecycle) in the following items:
 
-- All [Incubating projects](/docs/governance/Software-Projects/project-lifecycle#incubating) **MUST** have an automated way to manage security vulnerabilities, see below
-- All [Graduated projects](/docs/governance/Software-Projects/project-lifecycle#graduated) **MUST** have WhiteSource enabled
+- All [Incubating projects](/docs/governance/lifecycle-stages/incubating) **MUST** have an automated way to manage security vulnerabilities, see below
+- All [Graduated projects](/docs/governance/lifecycle-stages/graduated) **MUST** have WhiteSource enabled
 - All projects **publishing artefacts under FINOS package registries MUST** have WhiteSource enabled
 
 ### Collecting project CVE list
