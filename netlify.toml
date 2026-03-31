@@ -30,3 +30,28 @@
   to = "/docs/governance/project-lifecycle"
   status = 301
 
+# --- Updated Redirects to match Pascal Case ---
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/stages/active"
+  to = "/docs/governance/lifecycle-stages/graduated"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/stages/incubating"
+  to = "/docs/governance/lifecycle-stages/incubating"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/stages/archived"
+  to = "/docs/governance/lifecycle-stages/archived"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/project-lifecycle"
+  to = "/docs/governance/project-lifecycle"
+  status = 301
+  force = true
