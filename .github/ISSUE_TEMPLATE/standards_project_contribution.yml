@@ -134,8 +134,7 @@ body:
     id: confirmed_participants
     attributes:
       label: Confirmed Participants
-      description: "List individuals committed or interested in contributing (full name, affiliation, work email, GitHub username)."
-      placeholder: "A **Participant** is anyone who either submits a contribution to the project (including code, issues, comments, documentation, media, or any combination of the above) or actively engages in online meetings and supports the adoption of the standard."
+      description: "List participants committed or interested in contributing (full name, affiliation, work email, GitHub username). A **Participant** is anyone who either submits a contribution to the project (including code, issues, comments, documentation, media, or any combination of the above) or actively engages in online meetings and supports the adoption of the standard."
 
   - type: textarea
     id: target_participants
@@ -174,4 +173,4 @@ body:
     attributes:
       value: |
         ### What's Next?
-        After you submit this proposal, the FINOS team will follow up with next steps for review and socialization. New open standards projects are approved by the FINOS Governing Board.
+        After you submit this proposal, the FINOS team will follow up with next steps for review, socialization and approval. New open standards projects are approved by the FINOS Governing Board.
