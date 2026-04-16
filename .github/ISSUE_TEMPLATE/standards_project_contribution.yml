@@ -1,0 +1,176 @@
+name: "📜 Standard Project Contribution"
+description: "Propose a new FINOS Standards Project."
+title: "Proposed Standard: [Standard Name]"
+labels: ["contribution"]
+assignees: ["maoo", "TheJuanAndOnly99"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome to the FINOS Community!
+        Thank you for your interest in contributing an FINOS Standard Project. Please complete all required fields so the FINOS team can process your proposal efficiently.
+
+        #### ⚠️ Important Note on Membership
+        Only **FINOS members** can propose new standards projects. Non-members are encouraged to identify a member sponsor during socialization. [See here](https://www.finos.org/membership-benefits#become-a-member) if you are interested in becoming a FINOS member.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Contribution Prerequisites
+      options:
+        - label: "I confirm I am contributing on behalf of a FINOS member OR I will seek a maintainer from a member during socialization."
+          required: true
+        - label: "I have reviewed [Open Standard Projects governance](https://community.finos.org/docs/governance/#open-standard-projects)."
+          required: true
+        - label: "I have reviewed [Establishing and Running an Open Standard project](https://community.finos.org/docs/governance/standards-projects/)."
+          required: true
+        - label: "I have reviewed the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle) stages."
+          required: true
+        - label: "I am familiar with [FINOS Governance](https://community.finos.org/docs/governance) and [Maintainer Responsibilities](https://community.finos.org/docs/finos-maintainers-cheatsheet/)."
+          required: true
+
+  - type: input
+    id: member_org_name
+    attributes:
+      label: FINOS Member Organization Name
+      description: "Enter the member organization backing this proposal."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Standard Details"
+
+  - type: input
+    id: standard_name
+    attributes:
+      label: Name
+      placeholder: "The proposed standard common name"
+    validations:
+      required: true
+
+  - type: input
+    id: standard_slug
+    attributes:
+      label: Slug
+      description: "Must be kebab-case (e.g., my-standard-name)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: business_problem
+    attributes:
+      label: Business Problem
+      description: "Describe the business problem or opportunity this proposed standard addresses."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: "Describe the proposed standard (for example, specification, model, or extension to existing standard) and how it solves the business problem."
+    validations:
+      required: true
+
+  - type: textarea
+    id: tentative_roadmap
+    attributes:
+      label: Tentative Roadmap
+      description: "Describe short- and medium-term goals, phases, and what success looks like."
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: "Define the scope of the standard. In cases where the scope is expected to be defined by the standard project participants this should be one of the first tasks the group completes. Guidelines can be found in the [Community Specification documentation](https://github.com/finos/standards-project-blueprint)."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Current State
+      description: "Summarize the history and current state of the project."
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing_materials
+    attributes:
+      label: Existing Materials
+      description: "Provide links to existing materials. If private, grant read access to 'finos-admin'."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Team"
+
+  - type: textarea
+    id: maintainers
+    attributes:
+      label: Maintainers
+      description: "Provide maintainers with full name, affiliation, work email, and GitHub username."
+      value: |
+        | Name | Affiliation | Email | GitHub Username |
+        | :--- | :--- | :--- | :--- |
+        | John Doe | Example LTD | john@example.com | @johnexampleabc |
+        | Jane Doe | Example LTD | jane@example.com | @janeexamplexyz |
+    validations:
+      required: true
+
+  - type: textarea
+    id: confirmed_participants
+    attributes:
+      label: Confirmed Participants
+      description: "List participants committed or interested in contributing (full name, affiliation, work email, GitHub username). A **Participant** is anyone who either submits a contribution to the project (including code, issues, comments, documentation, media, or any combination of the above) or actively engages in online meetings and supports the adoption of the standard."
+
+  - type: textarea
+    id: target_participants
+    attributes:
+      label: Target Participants
+      description: "Describe the participant profile you want to attract (background, role, organization type)."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: checkboxes
+    id: compliance_confirmation
+    attributes:
+      label: Compliance & Requirements Agreement
+      description: "Confirm you have read and agree to the standards governance and IP requirements."
+      options:
+        - label: "I understand standards projects follow the [Community Specification process](https://community.finos.org/docs/governance/standards-projects/) and should use the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint)."
+          required: true
+        - label: "I understand the [IP licensing requirements](https://community.finos.org/docs/governance/standards-projects/#ip-licensing-requirements), including that all participants must agree to the CSLA."
+          required: true
+        - label: "I understand the [patent exclusion rules](https://community.finos.org/docs/governance/standards-projects/#community-specification-license-patent-exclusion-rules) in the Community Specification License process."
+          required: true
+        - label: "I understand any software included in this standards project must follow FINOS software licensing rules (Apache-2.0 unless otherwise approved)."
+          required: true
+        - label: "I understand the standard project and it's participants must comply with all [FINOS policies](https://community.finos.org/docs/governance/#policies)."
+          required: true
+        - label: "I understand new open standard projects are approved by the FINOS Governing Board."
+          required: true
+        - label: "I understand this proposal may require socialization with community@finos.org before final review."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### What's Next?
+        After you submit this proposal, the FINOS team will follow up with next steps for review, socialization and approval. New open standards projects are approved by the FINOS Governing Board.
