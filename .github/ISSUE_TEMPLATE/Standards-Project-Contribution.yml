@@ -1,5 +1,5 @@
 name: "📜 Standard Project Contribution"
-description: "Propose a new FINOS standards project."
+description: "Propose a new FINOS Standards Project."
 title: "Proposed Standard: [Standard Name]"
 labels: ["contribution"]
 assignees: ["maoo", "TheJuanAndOnly99"]
@@ -8,7 +8,7 @@ body:
     attributes:
       value: |
         ### Welcome to the FINOS Community!
-        Thank you for your interest in contributing an open standard project. Please complete all required fields so the FINOS team can process your proposal efficiently.
+        Thank you for your interest in contributing an FINOS Standard Project. Please complete all required fields so the FINOS team can process your proposal efficiently.
 
         #### ⚠️ Important Note on Membership
         Only **FINOS members** can propose new standards projects. Non-members are encouraged to identify a member sponsor during socialization. [See here](https://www.finos.org/membership-benefits#become-a-member) if you are interested in becoming a FINOS member.
@@ -25,6 +25,7 @@ body:
         - label: "I have reviewed [Establishing and Running an Open Standard project](https://community.finos.org/docs/governance/standards-projects/)."
           required: true
         - label: "I have reviewed the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle) stages."
+          required: true
         - label: "I am familiar with [FINOS Governance](https://community.finos.org/docs/governance) and [Maintainer Responsibilities](https://community.finos.org/docs/finos-maintainers-cheatsheet/)."
           required: true
 
@@ -124,20 +125,23 @@ body:
       value: |
         | Name | Affiliation | Email | GitHub Username |
         | :--- | :--- | :--- | :--- |
+        | John Doe | Example LTD | john@example.com | @johnexampleabc |
+        | Jane Doe | Example LTD | jane@example.com | @janeexamplexyz |
     validations:
       required: true
 
   - type: textarea
-    id: confirmed_contributors
+    id: confirmed_participants
     attributes:
-      label: Confirmed Contributors
+      label: Confirmed Participants
       description: "List individuals committed or interested in contributing (full name, affiliation, work email, GitHub username)."
+      placeholder: "A **Participant** is anyone who either submits a contribution to the project (including code, issues, comments, documentation, media, or any combination of the above) or actively engages in online meetings and supports the adoption of the standard."
 
   - type: textarea
-    id: target_contributors
+    id: target_participants
     attributes:
-      label: Target Contributors
-      description: "Describe the contributor profile you want to attract (background, role, organization type)."
+      label: Target Participants
+      description: "Describe the participant profile you want to attract (background, role, organization type)."
     validations:
       required: true
 
