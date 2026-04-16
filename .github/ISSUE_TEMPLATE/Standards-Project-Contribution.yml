@@ -159,7 +159,7 @@ body:
           required: true
         - label: "I understand any software included in this standards project must follow FINOS software licensing rules (Apache-2.0 unless otherwise approved)."
           required: true
-        - - label: "I understand the standard project and it's participants must comply with all [FINOS policies](https://community.finos.org/docs/governance/#policies)."
+        - label: "I understand the standard project and it's participants must comply with all [FINOS policies](https://community.finos.org/docs/governance/#policies)."
           required: true
         - label: "I understand new open standard projects are approved by the FINOS Governing Board."
           required: true
