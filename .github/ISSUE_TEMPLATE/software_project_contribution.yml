@@ -133,7 +133,7 @@ body:
       label: Compliance & Requirements Agreement
       description: "Confirm you have read and agree to the following [FINOS Requirements](https://community.finos.org/docs/governance/Software-Projects/Contribution-Compliance-Requirements)."
       options:
-        - label: "I understand that all maintainers and contributors will need to be covered by a [Contributors License Agreement](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#contributor-license-agreement) before being able to contribute."
+        - label: "I understand that before being able to contribute all maintainers and contributors will need to be covered by a [Contributors License Agreement](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#contributor-license-agreement) or commits must satisfy the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) requirements."
           required: true
         - label: "I confirm that software will be covered by the [Apache 2.0. License](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#license-information) and any [Third-Party code is compatible](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#third-party-code-compliance)."
           required: true

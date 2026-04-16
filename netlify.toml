@@ -5,16 +5,53 @@
    NODE_VERSION = "20"
 
 [[redirects]]
-  from = "/docs/governance/software-projects/stages/incubating"
-  to = "/docs/governance/software-projects/project-lifecycle#incubating"
+  from = "/docs/governance/software-projects/stages/active"
+  to = "/docs/governance/lifecycle-stages/graduated"
   status = 301
 
 [[redirects]]
-  from = "/docs/governance/software-projects/stages/active"
-  to = "/docs/governance/software-projects/project-lifecycle#graduated"
+  from = "/docs/governance/software-projects/stages/incubating"
+  to = "/docs/governance/lifecycle-stages/incubating"
   status = 301
 
 [[redirects]]
   from = "/docs/governance/software-projects/stages/archived"
-  to = "/docs/governance/software-projects/project-lifecycle#archived"
+  to = "/docs/governance/lifecycle-stages/archived"
   status = 301
+
+[[redirects]]
+  from = "/docs/governance/software-projects/stages/graduated"
+  to = "/docs/governance/lifecycle-stages/graduated"
+  status = 301
+
+
+[[redirects]]
+  from = "/docs/governance/software-projects/project-lifecycle"
+  to = "/docs/governance/project-lifecycle"
+  status = 301
+
+# --- Updated Redirects to match Pascal Case ---
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/stages/active"
+  to = "/docs/governance/lifecycle-stages/graduated"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/stages/incubating"
+  to = "/docs/governance/lifecycle-stages/incubating"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/stages/archived"
+  to = "/docs/governance/lifecycle-stages/archived"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/governance/Software-Projects/project-lifecycle"
+  to = "/docs/governance/project-lifecycle"
+  status = 301
+  force = true
