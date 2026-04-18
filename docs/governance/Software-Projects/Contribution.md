@@ -9,7 +9,7 @@ There are several ways you can contribute to our existing projects and SIGs, and
 ## Contribution of use cases and ideas to a Special Interest Group (SIG)
 If you are looking to contribute a use case or idea, start by searching if there already is [a special interest groups](/docs/governance/special-interest-groups) in that area. SIGs are meant to be arenas for like minded professionals to identify common challenges, pain points and opportunities to then be solved collaboratively in the open.
 
-## Contribution to an existing FINOS project
+## Contribution to an existing FINOS project {#contribution-of-code-to-an-existing-finos-project}
 The easiest way to engage is to contribute code, documentation, test cases, requirements, issues and pull requests, etc. to [projects that are currently within the Foundation](https://landscape.finos.org). 
 
 Before contributing to a project, community members are encouraged to familiarize themselves with a project by doing any or all of the following:
@@ -18,9 +18,9 @@ Before contributing to a project, community members are encouraged to familiariz
 - Review the project specific roadmap, area of focus, typically contained in a project Readme.md. 
 - Review [good first issue/help wanted issues in the FINOS GitHub organization](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22%2C%22help+wanted%22)
 
-> **NOTE**: Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must comply with the [Contribution Compliance Requirements](Contribution-Compliance-Requirements.md) in place within FINOS.
+> **NOTE**: Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must comply with the [Contribution Requirements](Contribution-Compliance-Requirements.md) in place within FINOS.
 
-## Contribution of a new FINOS project or SIG
+## Contribution of a new FINOS project or SIG {#contribution-of-a-new-FINOS-project-or-SIG}
 
 ### FINOS Membership requirement
 While everyone can contribute to existing projects, only [FINOS Members](https://finos.org/members) can contribute new projects to FINOS. This ensures sustainability of our ecosystem. If you are not a FINOS Member, consider:
@@ -38,6 +38,9 @@ Projects contributed to the Foundation generally start in [Labs stage](/docs/gov
 For more mature projects, at the time of contribution contributors will have an option to evidence compliance with later stages and request the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to award [Incubating](/docs/governance/lifecycle-stages/incubating) or [Graduated](/docs/governance/lifecycle-stages/graduated) stage.
 
 ### Step 1: Submit a contribution proposal
+
+By default, a new software project contribution enters FINOS at the **[Labs](/docs/governance/lifecycle-stages/labs)** stage. See [Project lifecycle](/docs/governance/project-lifecycle) for how stages work. Contributors may instead ask the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to recognize **[Incubating](/docs/governance/lifecycle-stages/incubating)** or **[Graduated](/docs/governance/lifecycle-stages/graduated)** when the contribution already meets the criteria for that stage.
+
 Draft a proposal to be reviewed by the FINOS team. Please use the available templates for:
 - [Open source software project](https://github.com/finos/community/issues/new?template=software_project_contribution.yml)
 - [Open standard / specification project](https://github.com/finos/community/issues/new?assignees=TheJuanAndOnly99%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=%3Cinsert%20name%20here%3E+Standard+Project+Contribution+and+Onboarding)
@@ -52,6 +55,8 @@ This will create a new issue on the [FINOS Community Repository](https://github.
 5. **Existing materials**: links to and descriptions of any existing project materials (e.g. GitHub repositories). If any materials are currently private, please describe them in detail. The FINOS team will reach out to request access to private materials in order to evaluate them.
 6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
 7. **Contributor commitment**: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation, in line with the Lifecycle Stage you are applying for. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
+
+The **technical charter** sets forth the mission, goals, and responsibilities of the project. When a project contribution is approved, FINOS will store the technical charter in the root of the project repository.
 
 To maximize the chances of being accepted, you should provide evidence in your submission of compliance with the criteria and commitment to fulfill ongoing maintenance requirement listed in the [Project Lifecycle](/docs/governance/project-lifecycle).
 
@@ -93,7 +98,7 @@ Particularly:
 - For software project contributions, the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee/) will review and approve the contributions.
 
 ### Step 4: IP review & Transfer of Contributions
-Once a contribution is approved, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution compliance requirements](Contribution-Compliance-Requirements.md). The main areas covered are:
+Once a contribution is approved, the Foundation will perform an audit to ensure the contribution is consistent with the [FINOS contribution requirements](Contribution-Compliance-Requirements.md). The main areas covered are:
 
 #### Trademark
 
@@ -105,14 +110,14 @@ Once a contribution is approved, the Foundation will perform an audit to ensure 
 
 The project will be required to:
 
-- Have [contributor license agreements](/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement) in place for each maintainer 
+- Have appropriate [DCO or CLA coverage](/docs/governance/Software-Projects/contribution-compliance-requirements) for each maintainer 
 
 - Comply with third-party licenses and the [FINOS acceptable Apache-compatible license policy](/docs/governance/Software-Projects/license-categories).
 - Comply with FINOS notice requirements for IP notices, contributor attribution, etc - this can happen right after the contribution (see [incubating criteria](/docs/governance/lifecycle-stages/incubating))
 
 ### Step 5: Transfer and Review of Contribution Materials
 
-Following successful IP and trademark compliance, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or sending the FINOS team an archive containing the code to be contributed. See [Code Transfer options](/docs/governance/Software-Projects/code-transfer).
+Following successful IP and trademark compliance, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or sending the FINOS team an archive containing the code to be contributed. See [Code transfer options](#code-transfer-options).
 
 It's during this step as well that [code validation and scanning](/docs/development-infrastructure/code-validation/intro) of the code base with be performed, any build processes set up and configured, and the various components documented in the `Project Tooling` section configured and set up for the project, at which point the rest of the Foundation's infrastructure will be available to the project contributors moving forward to use to develop, test and release the project.
 
@@ -145,6 +150,48 @@ Besides the technical announcement on list, the FINOS team will recommend to coo
 - Blog posts to announce the contribution on [finos.org/blog](https://www.finos.org/blog) - you can contact our [Marketing](mailto:marketing@finos.org) to propose an article
 - Social media announcements - you can reach out to [marketing@finos.org](mailto:marketing@finos.org) to ask for our support in promoting the contribution
 - For substantial contributions, especially of those with multiple contributing orgs, FINOS may choose to support contribution announcement with a press release. Contact [marketing@finos.org](mailto:marketing@finos.org) if you think a press release is warranted and co-promotion from your organization.
+
+## Code transfer options {#code-transfer-options}
+
+There are several ways in which contributors can transfer their project's code to the FINOS infrastructure team during contribution:
+
+### GitHub.com repository (recommended)
+
+Use [GitHub's transfer ownership capability](https://help.github.com/articles/about-repository-transfers/) to move it over to the project's GitHub organization. To do this, the contributor will need to temporarily add one of the project's GitHub organization owners (e.g. the project [maintainer](https://community.finos.org/docs/finos-maintainers-cheatsheet/)) as an admin on the source repository, so that they can initiate the transfer. Once the code has been transfered, the contributor will be able (and is encouraged) to remove the project's GitHub organization owner from the repository.
+
+FINOS recommends this approach as it has the unique benefit of preserving the full commit & pull request histories, the project's issue list, wiki and GitHub pages, and more.
+
+Some important notes:
+1. When transferring a repository, its issues, wiki, stars, and watchers are also transferred (read more details [about repository transfers](https://help.github.com/articles/about-repository-transfers/))
+2. When transferring a private repository, all forks will be disabled, until [marked as public](https://help.github.com/articles/making-a-private-repository-public/); they will also be disconnected from the upstream repository, therefore it is strongly advised to push all changes to an upstream branch, before transferring the code
+
+### GitHub.com repository where it is not possible to temporarily configure someone else as an admin
+
+Perform a double transfer:
+1. Transfer ownership of the repository to a personal ("user") account on GitHub (see the [GitHub documentation](https://help.github.com/articles/transferring-a-repository-owned-by-your-organization/) for details)
+2. Follow the steps described above for transferring a GitHub.com repository to the project
+
+### GitHub Enterprise repository
+
+Perform a copy, transfer, and freeze:
+1. Copy the repository into a personal ("user") account on GitHub ([this StackOverflow post](http://stackoverflow.com/questions/28753111/migrate-from-github-enterprise-to-github-com) describes how to accomplish this)
+2. Follow the steps described above for transferring a GitHub.com repository to the project
+3. Delete or freeze (e.g. disable access, make read-only, etc.) the repository in your GitHub Enterprise installation, to prevent accidental modifications to the wrong repository.
+
+### Other Source Code Management (SCM) repository
+
+Perform an import, transfer, and freeze:
+
+1. Use the [GitHub importer](https://help.github.com/articles/about-github-importer/) to import the repository into a personal ("user") account on GitHub (see the [GitHub documentation](https://help.github.com/articles/importing-a-repository-with-github-importer/) for details)
+2. Follow the steps described above for transferring a GitHub.com repository to the project
+3. Delete or freeze (e.g. disable access, make read-only, etc.) the repository in your SCM installation, to prevent accidental modifications to the wrong repository.
+
+### Source code snapshot
+Snapshotting the code and providing it to the FINOS Infra team in an archive file (.zip, .tar.gz, etc.) can also work.
+This is the recommended approach if you wish to truncate the commit history prior to contribution.
+
+### Do-It-Yourself (DIY)
+If you wish to populate your repository yourself, the FINOS Infra team should create an empty repository in the project's GitHub organization (as described above), and then configure the contributing team as owners and committers with appropriate access.
 
 ## Have questions?
 If you'd like help, don't hesitate to reach out by email to [help@finos.org](mailto:help@finos.org) or ask the wider community with a note to [community@finos.org](mailto:community@finos.org).

@@ -25,7 +25,7 @@ A **maintainer** is a contributor who, by virtue of their contribution history, 
 
 ### How do I become a maintainer?
 There two ways an individual can become a FINOS Maintainer:
-1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
+1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-a-new-FINOS-project-or-SIG) 
 2. By being nominated by an existing project's maintainers, based on extensive contributions to the project. 
 
 FINOS strong encourages projects to have multiple maintainers from multiple organizations: in fact having multiple maintainers is a pre-requisite for the [Graduation](https://community.finos.org/docs/governance/lifecycle-stages/graduated) project [lifecycle maturity level](https://community.finos.org/docs/governance/project-lifecycle).
