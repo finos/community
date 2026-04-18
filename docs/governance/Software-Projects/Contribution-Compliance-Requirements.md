@@ -20,7 +20,7 @@ FINOS **software** projects establish contributor rights through a **Developer C
 
 FINOS **standards** (specification) projects use the **Community Specification License** and [**CSLA**](/docs/governance/Software-Projects/csla) (Community Specification Contributor License Agreement), not the generic software-project DCO/CLA path.
 
-### Contributor license agreement (or CLA){#contributor-license-agreement}
+## Contributor license agreement (or CLA){#contributor-license-agreement}
 
 The FINOS IP policy specifies that projects that adopt CLA should use FINOS contributor license agreements derived from the commonly used Apache-style CLA template.
 
