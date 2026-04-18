@@ -24,11 +24,7 @@ FINOS **software** projects establish contributor rights through a **Developer C
 
 FINOS **standards** (specification) projects use the **Community Specification License** and **CSLA** (Community Specification Contributor License Agreement), not the generic software-project DCO/CLA path. See [CSLA and Community Specification](/docs/governance/Software-Projects/csla).
 
-### ICLA and CCLA
-
-When a software project uses CLA, contributors typically use an **Individual Contributor License Agreement (ICLA)** or a **Corporate Contributor License Agreement (CCLA)**. For the distinction between them, see [Two types of CLA](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#two-types-of-cla) on OSR.
-
-### Contributor license agreement {#contributor-license-agreement}
+### Contributor license agreement (or CLA){#contributor-license-agreement}
 
 The FINOS IP policy specifies that projects that adopt CLA should use FINOS contributor license agreements derived from the commonly used Apache-style CLA template.
 
@@ -44,6 +40,10 @@ There is no cost to signing the FINOS CLA. Please note that this is different fr
 If you change jobs after contributing to the Foundation under your previous employer's CCLA, please notify [help@finos.org](mailto:help@finos.org) so that we can ensure that an appropriate CLA is in place with you or your new employer.
 
 For signature workflows, CLA Managers, and enabling EasyCLA on a repository, see the dedicated [EasyCLA](/docs/governance/Software-Projects/easycla) page.
+
+#### Individual and Corporate CLA
+
+When a software project uses CLA, contributors typically use an **Individual Contributor License Agreement (ICLA)** or a **Corporate Contributor License Agreement (CCLA)**. For the distinction between them, see [Two types of CLA](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#two-types-of-cla) on OSR.
 
 ## License Information {#license-information}
 
