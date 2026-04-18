@@ -34,7 +34,7 @@ The ultimate goal for Incubation is meet or exceed the requirements for the Grad
 To help support this, in this stage they will receive increased FINOS infrastructure, legal, and marketing support to help bolster their visibility and adoption. The Foundation encourages the thoughtful adoption of a variety of [project collaboration services](/docs/collaboration-infrastructure) and [development tools](/docs/development-infrastructure/continuous-integration/intro); our experience has been that these services greatly expedite the creation of high quality, secure and compliant open source projects.
 
 ## How to apply for Incubation
-To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/lifecycle-stages/incubating#Incubating+Acceptance+Requirements) and [Incubating ongoing maintenance requirements](/docs/governance/lifecycle-stages/incubating#Incubating+Ongoing+Maintenance+Requirements). 
+To be accepted into the Incubating stage, a project must meet the requirements of the [Incubating Lifecycle Checklist](/docs/governance/lifecycle-stages/incubating#incubating-acceptance-requirements) and [Incubating ongoing maintenance requirements](/docs/governance/lifecycle-stages/incubating#incubating-ongoing-maintenance-requirements). 
 
 Generally all new projects accepted in FINOS start in the [FINOS Labs](/docs/governance/lifecycle-stages/labs) stage and then apply for promotion to Incubating stage when the project matures. But if, at the time of initial contribution to FINOS, contributors believe a project (e.g. with an existing community) is more mature than a Labs project, they have an option to directly evidence compliance with Incubating requirements.
 
