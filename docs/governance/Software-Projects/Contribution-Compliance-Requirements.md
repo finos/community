@@ -13,14 +13,10 @@ Before you proceed, be familiar with:
 - [Contributing to FINOS](/docs/governance/Software-Projects/contribution), including [project governance](/docs/governance/project-lifecycle) and lifecycle stages.
 - [CLA vs. DCO](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#cla-vs-dco) in the FINOS Open Source Readiness (OSR) handbook.
 
-### Software projects: DCO or CLA
-
 FINOS **software** projects establish contributor rights through a **Developer Certificate of Origin (DCO)** or **Contributor License Agreements (CLAs)**. Per OSR, **FINOS projects use DCO by default**; a project may use **CLA** when requested by the maintainers and coordinated with FINOS. **Labs** projects **always** use **DCO**.
 
 - For how DCO maps to CLA and when each applies, see OSR: [CLA vs. DCO](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#cla-vs-dco).
 - For configuring DCO checks on GitHub, see [DCO on GitHub](/docs/governance/Software-Projects/dco).
-
-### Standards projects: CSLA
 
 FINOS **standards** (specification) projects use the **Community Specification License** and [**CSLA**](/docs/governance/Software-Projects/csla) (Community Specification Contributor License Agreement), not the generic software-project DCO/CLA path.
 
