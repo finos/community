@@ -8,3 +8,12 @@ title: Docker Build and Publish
 Many organizations require obtaining and deploying software packages from an image for ease of deployment. Furthermore, there can be strict requirements for those images to be signed or provide provenance attestations, as well as come from a trusted source such as Docker Hub or GitHub Container Registry.
 
 Publishing to Docker Hub and verifying provenance allows FINOS projects to increase adoption by making deployments easy and consistent - something especially important for enterprise users.
+
+## Getting started
+
+In order to start publishing your image to Docker Hub, you'll first need to create a `Dockerfile` to define what the runtime environment should look like, install dependencies and build the project.
+
+Then, you'll need a GitHub workflow `.github/workflows/docker-publish.yml` to check out the repository, and then build and publish the Docker image. 
+
+Optionally, a `docker-compose.yml` can be created for ease of local development and testing. This is not needed for publishing to Docker Hub, which only requires a Dockerfile.
+
