@@ -17,3 +17,60 @@ Then, you'll need a GitHub workflow `.github/workflows/docker-publish.yml` to ch
 
 Optionally, a `docker-compose.yml` can be created for ease of local development and testing. This is not needed for publishing to Docker Hub, which only requires a Dockerfile.
 
+### `docker-publish.yml`
+
+This file should be created in your `.github/workflows` directory to automate the build and publish process. In this file, we can detail *when* and *how* we want to publish to Docker Hub, for example:
+
+- Publish a `my-project:main` tag every time something gets pushed to `main`
+- Publish a `my-project:latest` tag whenever a new version of our software is published
+- Publish a `my-project:X.Y` tag when publishing a specific version of our software
+
+Here's an example of a [`docker-publish.yml` workflow from GitProxy](https://github.com/finos/git-proxy/blob/main/.github/workflows/docker-publish.yml):
+
+```yml
+name: Build and Publish Docker Image
+
+on:
+  push:
+    branches: [main]
+  release:
+    types: [published]
+
+jobs:
+  docker-build-publish:
+    name: Build and Publish Docker Image
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd # v4
+
+      - name: Checkout Repository
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+
+      - name: Log in to Docker Hub
+        if: github.repository_owner == 'finos'
+        uses: docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2 # v4
+        with:
+          username: finos
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Set Docker Image Tag
+        id: tags
+        run: |
+          if [ "${{ github.event_name }}" = "release" ]; then
+            echo "tags=${{ github.repository }}:${{ github.ref_name }},${{ github.repository }}:latest" >> $GITHUB_OUTPUT
+          else
+            echo "tags=${{ github.repository }}:main" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build and Publish Docker Image
+        if: github.repository_owner == 'finos'
+        uses: docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294 # v7
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: ${{ steps.tags.outputs.tags }}
+          provenance: true
+```
