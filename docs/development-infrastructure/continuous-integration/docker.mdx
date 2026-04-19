@@ -74,3 +74,51 @@ jobs:
           tags: ${{ steps.tags.outputs.tags }}
           provenance: true
 ```
+
+You can tweak when to run the workflow as follows:
+
+```yml
+on:
+  push:
+    branches: [main] # Run when pushing to main
+  release:
+    types: [published] # Run when publishing a release (via GitHub)
+```
+
+Note that the following section requires setting a `DOCKER_PASSWORD` repository secret. This can be configured in Settings > Security > Actions > Repository Secrets:
+
+```yml
+      - name: Log in to Docker Hub
+        if: github.repository_owner == 'finos' # Only allow workflow to run from upstream repository
+        uses: docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2 # v4
+        with:
+          username: finos
+          password: ${{ secrets.DOCKER_PASSWORD }}
+```
+
+The following bit tags the image depending on whether the workflow got triggered on release or a regular push. Then, it automatically sets the tag name to the repository name and appends ":latest", ":main" or ":X.Y" depending on what triggered the flow:
+
+```yml
+      - name: Set Docker Image Tag
+        id: tags
+        run: |
+          if [ "${{ github.event_name }}" = "release" ]; then
+            echo "tags=${{ github.repository }}:${{ github.ref_name }},${{ github.repository }}:latest" >> $GITHUB_OUTPUT
+          else
+            echo "tags=${{ github.repository }}:main" >> $GITHUB_OUTPUT
+          fi
+```
+
+Finally, the image gets published to Docker Hub using the tags determined earlier. The `provenance: true` flag includes a [provenance attestation](https://docs.docker.com/build/metadata/attestations/slsa-provenance/), often used for security and auditing purposes: 
+
+```yml
+      - name: Build and Publish Docker Image
+        if: github.repository_owner == 'finos'
+        uses: docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294 # v7
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: ${{ steps.tags.outputs.tags }}
+          provenance: true
+```
