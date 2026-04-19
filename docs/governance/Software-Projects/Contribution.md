@@ -56,7 +56,7 @@ This will create a new issue on the [FINOS Community Repository](https://github.
 6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.
 7. **Contributor commitment**: describe the resources you'll commit to supporting the contribution should it be accepted by the Foundation, in line with the Lifecycle Stage you are applying for. This might include developer time (in FTEs), marketing support, Foundation membership, etc.
 
-The **technical charter** sets forth the mission, goals, and responsibilities of the project. When a project contribution is approved, FINOS will store the technical charter in the root of the project repository.
+The **technical charter** sets forth the mission, goals, and responsibilities of the project. When a **software** project contribution is approved, FINOS publishes it at the **root of the project GitHub repository** as **`technical-charter.pdf`**. The information you supply in your proposal will match what will appear in that document.
 
 To maximize the chances of being accepted, you should provide evidence in your submission of compliance with the criteria and commitment to fulfill ongoing maintenance requirement listed in the [Project Lifecycle](/docs/governance/project-lifecycle).
 

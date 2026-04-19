@@ -8,6 +8,10 @@ sidebar_label: Contribution Requirements
 
 This page describes **intellectual property and licensing expectations when onboarding a new FINOS software project or open standard project**—not routine contributions to an existing repository (follow that project’s `CONTRIBUTING` file and its DCO, CLA, or CSLA setup).
 
+For **software** projects, after onboarding FINOS places the **technical charter** at the repository root as **`technical-charter.pdf`** (that exact filename). It reflects mission, goals, and responsibilities from the contribution process.
+
+**Open standard** projects use the [Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) for Community Specification documents and CSLA instead of this PDF.
+
 Before you proceed, be familiar with:
 
 - [Contributing to FINOS](/docs/governance/Software-Projects/contribution), including [project governance](/docs/governance/project-lifecycle) and lifecycle stages.
