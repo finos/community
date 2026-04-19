@@ -147,7 +147,7 @@ on:
     types: [published] # Run when publishing a release (via GitHub)
 ```
 
-Note that the following section requires setting a `DOCKER_PASSWORD` repository secret. This can be configured in Settings > Security > Actions > Repository Secrets:
+Note that the following section requires a `DOCKER_PASSWORD` repository secret to log into the `finos` Docker Hub account. Please contact [help@finos.org](mailto:help@finos.org) to set it up:
 
 ```yml
       - name: Log in to Docker Hub
@@ -158,7 +158,7 @@ Note that the following section requires setting a `DOCKER_PASSWORD` repository 
           password: ${{ secrets.DOCKER_PASSWORD }}
 ```
 
-The following bit tags the image depending on whether the workflow got triggered on release or a regular push. Then, it automatically sets the tag name to the repository name and appends ":latest", ":main" or ":X.Y" depending on what triggered the flow:
+The following bit tags the image depending on whether the workflow got triggered on release or a regular push. Then, it automatically sets the tag name to the repository name and appends `:latest`, `:main` or `:X.Y` depending on what triggered the flow:
 
 ```yml
       - name: Set Docker Image Tag
@@ -190,3 +190,7 @@ Finally, the image gets published to Docker Hub using the tags determined earlie
 A `docker-compose.yml` can be optionally used for using images locally and testing. This isn't required for deploying to Docker Hub.
 
 Here's an [example `docker-compose.yml` from GitProxy](https://github.com/finos/git-proxy/blob/main/docker-compose.yml) for reference.
+
+## Testing
+
+If everything
