@@ -17,7 +17,7 @@ Then, you'll need a GitHub workflow `.github/workflows/docker-publish.yml` to ch
 
 Optionally, a `docker-compose.yml` can be created for ease of local development and testing. This is not needed when publishing to Docker Hub, which only requires a Dockerfile.
 
-### Dockerfile
+### `Dockerfile`
 
 Your Dockerfile will vary wildly depending on which dependencies you need to build the project, your project's runtime environment(s), etc. A guide on [how to write a basic Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/) is available in the Docker documentation.
 
@@ -77,8 +77,8 @@ This file is specific to GitProxy, but it showcases elements that are good to ha
 
 - **Multi-stage builds**: We divide the work into a `builder` stage that compiles/installs everything, and a `production` stage that copies over the final artifacts. This keeps image sizes small and prevents shipping dev tooling into production
 - **Pinning images to SHA digests**: Notice that image versions include a SHA. This is needed because tags are mutable. Pinning to a specific SHA guarantees the environment is properly replicated
-- **Running as non-root**: Setting `USER 1000` allows minimizing privileges before initializing the app (`
-CMD ["node", "--enable-source-maps", "dist/index.js"]`)
+- **Running as non-root**: Setting `USER 1000` allows minimizing privileges before initializing the app
+- **Tini entrypoint**: Sets the entrypoint to Tini, which allows reaping zombie processes and forwarding signals from Docker to the app
 
 ### `docker-publish.yml`
 
