@@ -15,7 +15,7 @@ In order to start publishing your image to Docker Hub, you'll first need to crea
 
 Then, you'll need a GitHub workflow `.github/workflows/docker-publish.yml` to check out the repository, and then build and publish the Docker image. 
 
-Optionally, a `docker-compose.yml` can be created for ease of local development and testing. This is not needed for publishing to Docker Hub, which only requires a Dockerfile.
+Optionally, a `docker-compose.yml` can be created for ease of local development and testing. This is not needed when publishing to Docker Hub, which only requires a Dockerfile.
 
 ### Dockerfile
 
@@ -75,9 +75,10 @@ CMD ["node", "--enable-source-maps", "dist/index.js"]
 
 This file is specific to GitProxy, but it showcases elements that are good to have in any `Dockerfile`:
 
-- Multi-stage builds: We divide the work into a `builder` stage that compiles/installs everything, and a `production` stage that copies over the final artifacts. This keeps image sizes small and prevents shipping dev tooling into production
-- Pinning images to SHA digests: Notice that image versions include a SHA. This is needed because tags are mutable. Pinning to a specific SHA guarantees the environment is properly replicated
-- Running as non-root: Setting `USER 1000` allows minimizing privileges during Dockerfile execution, for improved security. 
+- **Multi-stage builds**: We divide the work into a `builder` stage that compiles/installs everything, and a `production` stage that copies over the final artifacts. This keeps image sizes small and prevents shipping dev tooling into production
+- **Pinning images to SHA digests**: Notice that image versions include a SHA. This is needed because tags are mutable. Pinning to a specific SHA guarantees the environment is properly replicated
+- **Running as non-root**: Setting `USER 1000` allows minimizing privileges before initializing the app (`
+CMD ["node", "--enable-source-maps", "dist/index.js"]`)
 
 ### `docker-publish.yml`
 
@@ -191,6 +192,8 @@ A `docker-compose.yml` can be optionally used for using images locally and testi
 
 Here's an [example `docker-compose.yml` from GitProxy](https://github.com/finos/git-proxy/blob/main/docker-compose.yml) for reference.
 
-## Testing
+## Verification
 
-If everything
+If everything is working as expected, you should find your published image in the [Docker Hub FINOS profile](https://hub.docker.com/r/finos/) after successfully running the `docker-publish.yml` workflow.
+
+If it doesn't show up, there was likely an error in the workflow itself, or during the `Dockerfile` build process. For more details on why the flow failed, check out the **Actions** tab on your repository and look for the **Build and Publish Docker Image** action to see the workflow execution output along with the reason for failure. You may also want to verify that the `Dockerfile` build works locally before running it in your project's CI pipeline.
