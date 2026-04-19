@@ -7,7 +7,7 @@ title: Docker Build and Publish
 
 Many organizations require obtaining and deploying software packages from an image for ease of deployment. Furthermore, there can be strict requirements for those images to be signed or provide provenance attestations, as well as come from a trusted source such as Docker Hub or GitHub Container Registry.
 
-Publishing to Docker Hub and verifying provenance allows FINOS projects to increase adoption by making deployments easy and consistent - something especially important for enterprise users.
+[Publishing to Docker Hub](https://hub.docker.com/r/finos/) and verifying provenance allows FINOS projects to increase adoption by making deployments easy, consistent and trusted - something especially important for enterprise users.
 
 ## Getting started
 
@@ -73,6 +73,11 @@ ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
 CMD ["node", "--enable-source-maps", "dist/index.js"]
 ```
 
+This file is specific to GitProxy, but it showcases elements that are good to have in any `Dockerfile`:
+
+- Multi-stage builds: We divide the work into a `builder` stage that compiles/installs everything, and a `production` stage that copies over the final artifacts. This keeps image sizes small and prevents shipping dev tooling into production
+- Pinning images to SHA digests: Notice that image versions include a SHA. This is needed because tags are mutable. Pinning to a specific SHA guarantees the environment is properly replicated
+- Running as non-root: Setting `USER 1000` allows minimizing privileges during Dockerfile execution, for improved security. 
 
 ### `docker-publish.yml`
 
@@ -179,3 +184,9 @@ Finally, the image gets published to Docker Hub using the tags determined earlie
           tags: ${{ steps.tags.outputs.tags }}
           provenance: true
 ```
+
+### docker-compose.yml
+
+A `docker-compose.yml` can be optionally used for using images locally and testing. This isn't required for deploying to Docker Hub.
+
+Here's an [example `docker-compose.yml` from GitProxy](https://github.com/finos/git-proxy/blob/main/docker-compose.yml) for reference.
