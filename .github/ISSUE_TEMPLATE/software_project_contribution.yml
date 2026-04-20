@@ -111,7 +111,7 @@ body:
     id: mission_statement
     attributes:
       label: Mission Statement
-      description: "The mission statement should be a single sentence statement that begins with the words "The mission of the project is to..." and is followed by the primary purpose of the project or primary goal of the project. This mission statement will be part of the projects technical charter."
+      description: "The mission statement should be a single sentence statement that begins with the words 'The mission of the project is to...' and is followed by the primary purpose of the project or primary goal of the project. This mission statement will be part of the projects technical charter."
     validations:
       required: true
 
