@@ -1,30 +1,58 @@
 ---
 id: contribution-compliance-requirements
-title: Contribution Compliance Requirements
+title: Contribution Requirements
+sidebar_label: Contribution Requirements
 ---
 
-## Overview
-To ensure that FINOS has the legal right to distribute your contribution, the Foundation has three requirements for every contribution:
+## Overview {#overview}
 
-1. **Contributor License Agreement**. Before contributing for the first time, every contributor (or their employer) must complete the appropriate contributor license agreement.
-2. **License information**. Projects and contributions must include certain license information, copyright notices, and other information.
-3. **Third-party code compliance**. Contributions that include third-party open source code must comply with applicable licenses and Foundation policies.
+This page describes **intellectual property and licensing expectations when onboarding a new FINOS software project or open standard project**—not routine contributions to an existing repository (follow that project’s `CONTRIBUTING` file and its DCO, CLA, or CSLA setup).
 
-## Requirements for Contributions
-### Contributor License Agreement
-Each contribution to a Foundation open source project must be covered by a contributor license agreement (CLA). This is a legal agreement granting the Foundation the necessary rights (under copyright and patent laws) to distribute the contribution.
+For **software** projects, after onboarding FINOS places the **technical charter** at the repository root as **`technical-charter.pdf`** (that exact filename). It reflects mission, goals, and responsibilities from the contribution process.
 
-If **your employer owns the rights** to your contributions, you should submit a **Corporate Contributor License Agreement (CCLA)** signed by an authorized representative of your employer; if **you alone own the rights** to your contributions, you should sign and submit an Individual Contributor License Agreement (ICLA). [Read more about EasyCLA](/docs/governance/Software-Projects/easycla) and how to proceed with signature.
+**Open standard** projects use the [Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) for Community Specification documents and CSLA instead of this PDF.
+
+Before you proceed, be familiar with:
+
+- [Contributing to FINOS](/docs/governance/Software-Projects/contribution), including [project governance](/docs/governance/project-lifecycle) and lifecycle stages.
+- [CLA vs. DCO](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#cla-vs-dco) in the FINOS Open Source Readiness (OSR) handbook.
+
+FINOS **software** projects establish contributor rights through a **Developer Certificate of Origin (DCO)** or **Contributor License Agreements (CLAs)**. Per OSR, **FINOS projects use DCO by default**; a project may use **CLA** when requested by the maintainers and coordinated with FINOS. **Labs** projects **always** use **DCO**.
+
+- For how DCO maps to CLA and when each applies, see OSR: [CLA vs. DCO](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#cla-vs-dco).
+- For configuring DCO checks on GitHub, see [DCO on GitHub](/docs/governance/Software-Projects/dco).
+
+FINOS **standards** (specification) projects use the **Community Specification License** and [**CSLA**](/docs/governance/Software-Projects/csla) (Community Specification Contributor License Agreement), not the generic software-project DCO/CLA path.
+
+## Contributor license agreement (or CLA){#contributor-license-agreement}
+
+The FINOS IP policy specifies that projects that adopt CLA should use FINOS contributor license agreements derived from the commonly used Apache-style CLA template.
+
+FINOS uses [EasyCLA](https://lfx.linuxfoundation.org/tools/easycla) ([direct access](https://lfcla.com)) so contributors can sign the appropriate documents when a repository requires CLA. EasyCLA is maintained by the Linux Foundation. It is designed to support open source communities by:
+
+* Recognizing a contributor’s signature across FINOS repositories that use the same EasyCLA configuration.
+* Letting contributors sign as individuals or be covered under a Corporate CLA when employed by a firm.
+* Letting companies designate a CLA Manager who can update approval configuration in the [EasyCLA Organization Dashboard](https://organization.lfx.linuxfoundation.org/).
+* Letting companies authorize employee usernames individually, or by email domain or GitHub organization affiliation.
+
+There is no cost to signing the FINOS CLA. Please note that this is different from [membership in FINOS](https://www.finos.org/membership-benefits). If your organization relies upon our projects, [please become a member](https://www.finos.org/members). Membership dues help fund the FINOS project ecosystem.
 
 If you change jobs after contributing to the Foundation under your previous employer's CCLA, please notify [help@finos.org](mailto:help@finos.org) so that we can ensure that an appropriate CLA is in place with you or your new employer.
 
-### License Information
+For signature workflows, CLA Managers, and enabling EasyCLA on a repository, see the dedicated [EasyCLA](/docs/governance/Software-Projects/easycla) page.
+
+#### Individual and Corporate CLA
+
+When a software project uses CLA, contributors typically use an **Individual Contributor License Agreement (ICLA)** or a **Corporate Contributor License Agreement (CCLA)**. For the distinction between them, see [Two types of CLA](https://osr.finos.org/docs/bok/artifacts/clas-and-dcos#two-types-of-cla) on OSR.
+
+## License Information {#license-information}
+
 All Foundation projects must include certain license information and copyright notices. If you are contributing a new project, you must include `LICENSE`, and `NOTICE` files, as described below. If you are contributing to an existing project, you may need to add information to the `NOTICE` or (optionally) `CONTRIBUTING` file.
 
-#### The LICENSE file
+### The LICENSE file
 A `LICENSE` file must be present at the root of each project, and must contain the text of the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
 
-#### The NOTICE file
+### The NOTICE file
 A `NOTICE` file must be present at the root of each project, and must contain the copyright notices of each copyright holder who has contributed to the project. If you are contributing to an existing project, you should add (or update) your copyright notice in the `NOTICE` file. A sample `NOTICE` file (Markdown format) is provided in the [FINOS Software project blueprint](https://github.com/finos/software-project-blueprint). It must also contain any other attributions required by third-party dependencies (see below).  
 
 You should use this template for your `NOTICE` file:
@@ -39,13 +67,13 @@ This product includes software developed at the Fintech Open Source Foundation (
 [Other notices, as necessary]
 ```
 
-#### The CONTRIBUTING file
+### The CONTRIBUTING file
 The `CONTRIBUTING` file contains basic instructions to prospective contributors about how to make a contribution to the project – submitting a CLA, filing issues, making pull requests, etc. A sample `CONTRIBUTING.md` file (Markdown format) is provided in the [FINOS Software project blueprint](https://github.com/finos/software-project-blueprint).  Project leads are free to revise to fit the practices and style of the project, but references to the Foundation's contribution requirements must be included.  While a `CONTRIBUTING` file is not required, we strongly encourage you to add one to your repository as early as possible.
 
 Please note that Github will prompt this content when a user creates an issue or pull request, you can read more on [GitHub Contributing Guidelines](https://github.com/blog/1184-contributing-guidelines).
 
-#### Source code license headers
-For [Graduated](/docs/governance/lifecycle-stages/graduated) projects, it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e., same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
+### Source code license headers
+For [Graduated](/docs/governance/lifecycle-stages/graduated) projects, it's recommended that each source code file should include a license header comment. Most projects use the standard Apache-style header. Note that all copyright notices should go into a separate single `NOTICE.md` file at the root level (i.e. same level as `README.md` and `CONTRIBUTING.md`) of the GitHub/GitLab repository.
 
 ```
 SPDX-License-Identifier: Apache-2.0
@@ -71,7 +99,7 @@ SPDX-License-Identifier: Apache-2.0
 Copyright [yyyy] FINOS [Project Name] contributors - see NOTICE file
 ```
 
-#### SPDX information
+### SPDX information
 We encourage project teams to place a [SPDX-format](https://github.com/david-a-wheeler/spdx-tutorial#spdx-files) `LICENSE.spdx` file in the root of each project. SPDX is a standard for describing machine-readable license information about open source projects. For more information on SPDX, please see the [SPDX website](https://spdx.org/). See below for a basic example `LICENSE.spdx` file. For a tutorial on adding SPDX information to a project, [see here](https://github.com/david-a-wheeler/spdx-tutorial/blob/master/README.md).
 
 ```
@@ -84,10 +112,11 @@ PackageHomePage: https://github.com/finos-<program name>/example-project
 PackageLicenseDeclared: Apache-2.0
 ```
 
-### Third-Party Code Compliance
+## Third-Party Code Compliance {#third-party-code-compliance}
+
 If your contribution includes any third-party open source code, the license for that code must permit its use within an Apache-licensed project, and the Foundation's use of the code must comply with the terms of the third-party license.
 
-#### Identifying acceptable licenses
+### Identifying acceptable licenses
 All Foundation projects must be licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) and the license for any third-party code must be compatible with this requirement. The Foundation [categorizes open source licenses in the same way as the Apache Software Foundation](/docs/governance/Software-Projects/license-categories):
 
 - **Category A licenses** have similar terms to the Apache License. Contributions to the Foundation can include (or depend upon) code licensed under Category A licenses.
@@ -99,7 +128,7 @@ All Foundation projects must be licensed under the [Apache License, Version 2.0]
 
 Projects teams are expected to ensure that the license of each dependency meets these requirements at all times; committers can expedite this by carefully researching each dependency before adding it. Because all incompatibly licensed dependencies must be removed before the Foundation can accept a contribution, contributors should also take care to avoid them during their development on a fork.
 
-#### Including required third-party notices
+### Including required third-party notices
 Depending how your contribution uses third-party open source software, you may need to add notices to the project you're contributing to.
 
 **If your contribution contains third-party code directly** (i.e. not via an import or similar reference resolved by the build system or interpreter) you must include a copy of the applicable license and preserve any copyright notices, license information, disclaimers, and similar notices in the third-party code. You should also add a notice in the following form to the project's file:
@@ -116,7 +145,7 @@ The purpose of this notice is to make contributors aware that their modification
 
 **If the third-party license requires specific notices**, you must add them to the `NOTICE` file. For example, some open source licenses require that you include a description of any modifications made to the third-party code.
 
-#### Validating license and notice information
+### Validating license and notice information
 When you make a contribution, the Foundation attempts to validate compliance with these requirements automatically using a variety of tools [made available by FINOS](/docs/development-infrastructure/code-validation/intro).
 
 However, no automated tool can resolve these questions definitively, so we depend upon our contributors and project teams to ensure compliance with this policy at all times.

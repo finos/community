@@ -3,12 +3,12 @@ id: finos-contributors-cheatsheet
 title: FINOS Contributor Cheatsheet
 ---
 
-## Contributor License Agreement (CLA)
-A CLA is a document that specifies how a project is allowed to use your contribution; they are commonly used in many open source projects.
+## Contributor License Agreement (CLA) and DCO
+Many FINOS projects use a **Contributor License Agreement (CLA)** or **Developer Certificate of Origin (DCO)** so the Foundation can distribute contributed code. Which mechanism applies depends on the project and stage; see [Contribution Requirements](/docs/governance/Software-Projects/contribution-compliance-requirements).
 
-_All_ **code** contributions to _all_ projects hosted by [FINOS](https://www.finos.org/) must be made with a Foundation CLA in place; any other contribution, such as emails, issues and meetings won't need a CLA in place.
+**Code** contributions must follow the project’s policy (DCO sign-off, CLA via EasyCLA, or—for standards—CSLA). Other activities such as emails, issues, and meetings typically do not require CLA/DCO coverage.
 
-EasyCLA is a system adopted by all FINOS projects to intercept code contributions that are not covered by CLA, in order to guide the contributor through the onboarding process; you can read more in the [EasyCLA page](/docs/governance/Software-Projects/easycla).
+Where a project uses CLA, [EasyCLA](/docs/governance/Software-Projects/easycla) guides contributors through signing.
 
 Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)
 

@@ -7,6 +7,14 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Contribution Requirements — read this first
+        
+        **Before you fill out this form**, read **[FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements)**. It explains DCO vs CLA, Labs rules, license files, third-party code, and what applies when onboarding a new software project.
+
+        **Technical charter (`technical-charter.pdf`):** When your software project is accepted, FINOS publishes the technical charter at the **root of the project repository** as **`technical-charter.pdf`** (that exact filename, hyphenated). It captures mission, goals, and responsibilities from this proposal—keep your answers consistent with what should appear in the charter.
+
+        ---
+
         ### Welcome to the FINOS Community! 
         Thank you for your interest in contributing. Please read the instructions below carefully and fill in all required information to help us process your proposal efficiently.
 
@@ -18,9 +26,11 @@ body:
     attributes:
       label: Contribution Prerequisites
       options:
+        - label: "I have read [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements)."
+          required: true
         - label: "I confirm I am contributing on behalf of a FINOS member OR I will seek a maintainer from a member during socialization."
           required: true
-        - label: "I have reviewed the [FINOS Contribution Process](https://community.finos.org/docs/governance/software-projects/contribution/)."
+        - label: "I have reviewed the [FINOS Contribution Process](https://community.finos.org/docs/governance/Software-Projects/contribution/)."
           required: true
         - label: "I have reviewed the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle) stages."
           required: true
@@ -131,13 +141,13 @@ body:
     id: compliance_confirmation
     attributes:
       label: Compliance & Requirements Agreement
-      description: "Confirm you have read and agree to the following [FINOS Requirements](https://community.finos.org/docs/governance/Software-Projects/Contribution-Compliance-Requirements)."
+      description: "Confirm you have read and agree to [FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements)."
       options:
-        - label: "I understand that before being able to contribute all maintainers and contributors will need to be covered by a [Contributors License Agreement](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#contributor-license-agreement) or commits must satisfy the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) requirements."
+        - label: "I understand that before being able to contribute all maintainers and contributors will need to be covered by a [Contributor License Agreement](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement) or commits must satisfy the [Developer Certificate of Origin](https://developercertificate.org/) (DCO) requirements."
           required: true
-        - label: "I confirm that software will be covered by the [Apache 2.0. License](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#license-information) and any [Third-Party code is compatible](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/#third-party-code-compliance)."
+        - label: "I confirm that software will be covered by the [Apache 2.0 License](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements#license-information) and any [third-party code is compatible](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements#third-party-code-compliance)."
           required: true
-        - label: "I have selected the appropriate [lifecycle stage](https://community.finos.org/docs/governance/project-lifecycle) based on that stages requirements. I agree and commit to to the Acceptance & Maintenance Requirements for my target stage."
+        - label: "I have selected the appropriate [lifecycle stage](https://community.finos.org/docs/governance/project-lifecycle) based on that stage's requirements. I agree and commit to the Acceptance & Maintenance Requirements for my target stage."
           required: true
   
   - type: checkboxes

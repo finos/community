@@ -11,7 +11,7 @@ As you start [consuming](https://community.finos.org/docs/journey/consume) and [
 - Organize or speak at an [FINOS Open Source in Finance Meetup](/docs/growing-your-project-community/meetups)
 - Speak or sponsor our [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/)
 
-## Leaderhip through maintainership
+## Leadership through maintainership
 Open Source is the culture of the doers and everyone has an opportunity to become a FINOS contributor and then maintainer, through a meritocratic process of governance by contribution. As you [increasingly contribute to FINOS](https://community.finos.org/docs/journey/participate), we encourage to consider taking on more influence / responsibility by becoming a FINOS maintainer. 
 
 If are already a [FINOS contributor or maintainer](https://insights.lfx.linuxfoundation.org/projects/finos/active-contributor?time=%7B%22from%22:%22now-90d%22,%22type%22:%22datemath%22,%22to%22:%22now%22%7D), we deeply thank you for your support. It through leaders like you who drive FINOS' success.
@@ -25,7 +25,7 @@ A **maintainer** is a contributor who, by virtue of their contribution history, 
 
 ### How do I become a maintainer?
 There two ways an individual can become a FINOS Maintainer:
-1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
+1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-a-new-FINOS-project-or-SIG) 
 2. By being nominated by an existing project's maintainers, based on extensive contributions to the project. 
 
 FINOS strong encourages projects to have multiple maintainers from multiple organizations: in fact having multiple maintainers is a pre-requisite for the [Graduation](https://community.finos.org/docs/governance/lifecycle-stages/graduated) project [lifecycle maturity level](https://community.finos.org/docs/governance/project-lifecycle).
