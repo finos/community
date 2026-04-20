@@ -12,7 +12,6 @@ Please note that only FINOS members can propose new Standards projects. If you'r
 
 **Before you submit this proposal**, read **[FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements)**. It covers how new contributions are licensed (including CSLA for standards vs DCO/CLA for software), notice files, and third-party rules.
 
-**Charter and governance files:** FINOS **software** repositories receive a root-level **`technical-charter.pdf`** after onboarding.
 
 **Standards** projects follow the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) for Community Specification license, CSLA, and related governance documents—use the blueprint’s filenames and layout for standards work.
 
