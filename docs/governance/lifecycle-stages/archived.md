@@ -29,7 +29,7 @@ Projects that are no longer active, or falter for other reasons, should be marke
 Projects may be moved to the Archived state from either the Incubating or Graduated states, either upon the request of the project maintainers, or upon a determination by FINOS on the basis of the project's status.
 
 ## Initiating archival
-Anyone can publicly trigger the archiviation process for a project by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request); if the Project Lead Maintainer agrees that archiving is the appropriate course of action, or the project team does not respond within 14 days, the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) will formalize the archival request.
+Anyone can publicly trigger the archival process for a project by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request); if the Project Lead Maintainer agrees that archiving is the appropriate course of action, or the project team does not respond within 14 days, the [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) will formalize the archival request.
 
 The [FINOS Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) is responsible for resolving any possible dispute in case of disagreement from project teams
 

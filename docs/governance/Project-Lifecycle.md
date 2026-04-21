@@ -23,7 +23,7 @@ Projects in FINOS can be in one of the following lifecycle stages:
 
 | Badge | Lifecycle Stage Details                                              | What does it signal to consumers?                                                                                                                                                              |
 | ----- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-forming.png" width="150" padding-left="20"  />    | [Forming](/docs/governance/lifecycle-stages/forming)       | This stage is for projects can optionally start for a limited time in a **Member-only private repo** to gauge its viability and interest across Members, ahead of being open to the world.     |
+|   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-forming.png" width="150" padding-left="20"  />    | [Forming](/docs/governance/lifecycle-stages/forming)       | In this stage, projects can optionally start for a limited time in a **Member-only private repo** to gauge viability and interest across Members before being opened to the world.     |
 |   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-labs.png" width="150" />    | [Labs](/docs/governance/lifecycle-stages/labs)             | This stage is the default entry point for all FINOS projects which **are in an initial exploratory or experimental phase** while still hosted in a neutrally governed space overseen by FINOS. |
 |   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-incubating.png" width="150" />    | [Incubating](/docs/governance/lifecycle-stages/incubating) | This stage is for projects with high potential in early growth phase in terms of their functionality, maturity, and community sustainability.                                                  |
 |   <img src="https://raw.githubusercontent.com/finos/contrib-toolbox/master/images/badge-graduated.png" width="150"/>    | [Graduated](/docs/governance/lifecycle-stages/graduated)   | This stage is the highest maturity stage, for active projects with healthy and diverse contributor and adopter communities                                                                     |
@@ -33,7 +33,7 @@ Please review individual lifecycle stage pages for detailed information about wh
 
 # FINOS Lifecycle Governance
 
-Per [TOC responsiblities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md#responsibilities), the [TOC](https://github.com/finos/technical-oversight-committee/) is responsible for:
+Per [TOC responsibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md#responsibilities), the [TOC](https://github.com/finos/technical-oversight-committee/) is responsible for:
 
 - Maintaining and evolving all lifecycle stages definitions
 - Approve lifecycle transitions (or new contributions) to the Incubating, Graduated and Archived stages

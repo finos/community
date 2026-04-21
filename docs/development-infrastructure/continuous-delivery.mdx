@@ -125,7 +125,7 @@ objects:
 ```
 
 ### Images and streams
-The OpenShift image creation process is carried by a container called deployer and decribed by the BuildConfig resource, which takes as parameters:
+The OpenShift image creation process is carried by a container called deployer and described by the BuildConfig resource, which takes as parameters:
 
 - a `sourceStrategy`, which identifies the container image used to build the deployer container and points to the `ImageStream` with name `s2i-java`
 - the output image name and tag, which points to the `ImageStream` with name matching the BOT_NAME variable

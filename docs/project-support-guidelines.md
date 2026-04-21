@@ -18,7 +18,7 @@ title: Project Support Guidelines
 |Email lists roster management|✓|✓|✓|✓|✓|✓|✓|Currently managed in Google Groups, will be part of LFX PCC (released in H2 2022)||
 |Atlassian/Confluence roster management|✓|✓|✓|✓|✓|✓|✓|Deprecated in favor of GitHub and Docusaurus websites||
 |CI setup support by FINOS Team|On exception basis (i.e., Pilot)|✗|✓|✓|✓|✓|N/A|More info at the [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
-|CD setup support by FINOS Team|On exception basis (e.g. Pilot)|✗|On exception basis|On exception basis|On exception basis|On exception basis|✗|More info atin the [Continuous Delivery page](/docs/development-infrastructure/continuous-delivery)||
+|CD setup support by FINOS Team|On exception basis (e.g. Pilot)|✗|On exception basis|On exception basis|On exception basis|On exception basis|✗|More info on the [Continuous Delivery page](/docs/development-infrastructure/continuous-delivery)||
 |Project docs site setup|On exception basis (i.e., Pilot)|✗|✓(via Project Blueprint )|✓(via Project Blueprint )|✓(via Project Blueprint)|✓(via Project Blueprint)|N/A|More info at the [Project Documentation page](/docs/development-infrastructure/project-documentation)||
 |Ongoing vulnerability scanning|✓|✓|✓|✓|✓|✓|N/A|See FINOS Code Scanning|https://github.com/finos/code-scanning|
 |Code / Docs Release Process configuration|On exception basis (e.g. Pilot)|✗|✓|✓|✓|✗|N/A|More info at [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
