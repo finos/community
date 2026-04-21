@@ -3,10 +3,10 @@
 <img align="right" width="40%" src="https://www.finos.org/hubfs/FINOS/finos-logo/FINOS_Icon_Wordmark_Name_RGB_horizontal.png">
 
 # FINOS Community Collaboration Space
-This repository hosts the FINOS Foundation governance and collaboration across the [Fintech Open Source Foundation (FINOS)](https://www.finos.org/) Project Leads and Community at large. You can browse these contents also via [https://community.finos.org](https://community.finos.org). You are also **more than welcome to propose changes / fixes** by using the contextual _"Edit this page"_ feature on community.finos.org.
+This repository contains FINOS governance and collaboration documentation for project leads, maintainers, contributors, and community members. The published site is available at [https://community.finos.org](https://community.finos.org), and you can propose edits using the contextual _"Edit this page"_ feature.
 
 ## Quick Links
-All the documentation in this website (anything in the /docs and /website folder) are deployed for easy consumption at [community.finos.org](community.finos.org). You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email [help@finos.org](help@finos.org) if you still can't find what you're looking for.
+Documentation in this repository (mainly in the /docs and /website folders) is published at [community.finos.org](community.finos.org). Start with the links below; if you cannot find what you need, open an issue/PR or email [help@finos.org](help@finos.org).
 
 ### Legal & Governance
 - [FINOS Governance](https://community.finos.org/docs/governance)

@@ -26,7 +26,7 @@ In order to configure your GitHub access, it is necessary to:
      2. GitHub forces you to set the email address as public, or it would reject push operations with the error `push declined due to email privacy restrictions`.
   
 ## Access Control
-All repositories managed by the Foundation are open (public); as a consequence, anyone is able to:
+All repositories managed by the Foundation are public. As a result, anyone can:
 
 1. Checkout the source code
 2. Consume any artifact produced by a Project
@@ -38,7 +38,7 @@ Any GitHub user covered by a [Contributor License Agreement with FINOS](/docs/go
 1. [Become a member of the FINOS GitHub Organization](#becoming-github-finos-organization-member)
 2. Submit a code change via [Pull Request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
-[FINOS uses GitHub Teams](https://github.com/orgs/finos/teams) to manage committers team for each project, which are the only ones allowed to make direct changes to project repositories. You can read more about FINOS teams below.
+[FINOS uses GitHub Teams](https://github.com/orgs/finos/teams) to manage each project's committer team. These teams are the only groups allowed to make direct changes to project repositories.
 
 Below is a recap of who can do what.
 
@@ -111,7 +111,7 @@ If you have an existing project and you'd like to add more repositories to it, y
 Although GitHub doesn't directly support the concept of a "project" (a group of related repositories), the Foundation keeps track of this information, and uses it in our [landscape](https://landscape.finos.org) and [metrics](https://metrics.finos.org) dashboards.
 
 #### Building and testing
-The build is an end-to-end process that converts source code into reusable artifacts, something that we will refer to as deployable units, which is developed by the project team and hosted in the github repository. It is a particularly important task, as it can centralise and trigger several automated sub-tasks, such as version control, code testing, quality and compliance reports and more.
+A build pipeline converts source code into deployable artifacts produced by the project team and hosted in GitHub. Reliable builds are essential because they can trigger automated tasks such as versioning, testing, quality checks, and compliance reporting.
 
 A working build process is key to implement more automated processes, such as release, <a href={useBaseUrl('/docs/development-infrastructure/continuous-integration/intro')}>Continuous Integration</a> and automated deployments; it is also a requirement for [project Graduation](/docs/governance/lifecycle-stages/graduated).
 

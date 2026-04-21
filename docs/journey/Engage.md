@@ -3,7 +3,7 @@ id: engage
 title: Engage
 ---
 # Ready to engage with our Community?
-Now you've [learned](https://community.finos.org/docs/journey/learn) how FINOS works, maybe [are using one or two of our projects](https://community.finos.org/docs/journey/consume) and want to take the next step in the journey? You are in the right place, learn more how to interact and part-take in any of the activities in our [landscape](https://landscape.finos.org).
+If you have already [learned](https://community.finos.org/docs/journey/learn) how FINOS works and started [using FINOS projects](https://community.finos.org/docs/journey/consume), this page shows how to take the next step: engage with the community and participate in activities across our [landscape](https://landscape.finos.org).
 
 ### Code of Conduct Violations
 Before we start, please know that all in-person and online interactions must happen within our [Community Code of Conduct page](https://www.finos.org/code-of-conduct). Instructions on reporting Code of Conduct violations are also included in that page.
@@ -14,10 +14,10 @@ As an individual you can play a huge part in amplifying our open-source message 
 ## Meet the Community!
 Why not joining a Project or a SIG online Meeting? Browse the [FINOS Community Calendar](https://www.finos.org/finos-community-calendar) and know all of our project or SIG meetings are open to anyone and free to attend. 
 
-Ready to meet the Community at large, online or in person? Take a look at our [recurring meetups schedule](/docs/growing-your-project-community/meetups) and our [Events](https://www.finos.org/hosted-events) , including our flagship event the [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/), the global event solely dedicated to open source in financial services. 
+Ready to meet the Community at large, online or in person? Take a look at our [recurring meetups schedule](/docs/growing-your-project-community/meetups) and our [Events](https://www.finos.org/hosted-events), including our flagship event the [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/), the global event solely dedicated to open source in financial services. 
 
 ## Mailing Lists
-FINOS Mailing list concentrate a significant amount of FINOS activity; see below a list of the most active FINOS community wide and project specific mailing lists. Lists are mostly hosted on Google Groups (**Google Login required**).
+FINOS mailing lists are a key channel for community activity. Below is a list of commonly used foundation-wide and project-specific mailing lists. Most lists are hosted on Google Groups (**Google login required** for web access).
 
 > In order to subscribe to any of the FINOS-wide or project-specific mailing lists, you can either send an email to `<list-name>+subscribe@finos.org` or 
 > visit the web archive link on Google Group. Please note that the latter option may be blocked by some financial services organizations. For example, to 

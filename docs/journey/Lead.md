@@ -12,7 +12,7 @@ As you start [consuming](https://community.finos.org/docs/journey/consume) and [
 - Speak or sponsor our [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/)
 
 ## Leadership through maintainership
-Open Source is the culture of the doers and everyone has an opportunity to become a FINOS contributor and then maintainer, through a meritocratic process of governance by contribution. As you [increasingly contribute to FINOS](https://community.finos.org/docs/journey/participate), we encourage you to consider taking on more influence / responsibility by becoming a FINOS maintainer. 
+FINOS leadership follows a merit-based model of governance by contribution. As you [contribute more to FINOS](https://community.finos.org/docs/journey/participate), you can take on greater responsibility by becoming a project maintainer.
 
 If you are already a [FINOS contributor or maintainer](https://insights.lfx.linuxfoundation.org/projects/finos/active-contributor?time=%7B%22from%22:%22now-90d%22,%22type%22:%22datemath%22,%22to%22:%22now%22%7D), we deeply thank you for your support. It is leaders like you who drive FINOS' success.
 
