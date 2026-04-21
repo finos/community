@@ -5,15 +5,13 @@ title: Project Documentation
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-FINOS collaboration services offer several tools and technologies to write, collaborate, and publish project documentation.
-
-After experimenting with various tools, we have selected Docusaurus and Netlify as the best choices.
+FINOS project documentation is typically authored with Docusaurus and deployed with Netlify. This combination keeps docs easy to write in markdown, easy to review in pull requests, and easy to publish with preview environments.
 
 ## Advantages of a Centralized Documentation Strategy
 
 1. Ease of use - Markdown syntax, simple local development, and easy configuration.
-2. Easy to collaborate - Files are stored in a `docs/` folder in the GitHub repository, allowing anyone can submit a Pull Request.
-3. Automated - Change to the `main` branch version will trigger a deployment of the website.
+2. Easy to collaborate - Files are stored in a `docs/` folder in the GitHub repository, allowing anyone to submit a Pull Request.
+3. Automated - Changes to `main` trigger a website deployment.
 4. Branded - Enforces FINOS graphic guidelines across all websites.
 
 ## Getting Started with Project Documentation
@@ -37,7 +35,7 @@ The full Docusaurus documentation can be found on the [Docusaurus website](https
 ### Get Started in 5 Minutes
 
 :::info
-The following steps refers to Docusaurus 3.x version and how its used in conjunction with the [FINOS project blueprint](https://github.com/finos/project-blueprint).
+The following steps refer to Docusaurus 3.x and how it is used in conjunction with the [FINOS project blueprint](https://github.com/finos/project-blueprint).
 :::
 
 Ensure NodeJS and NPM are installed:
@@ -81,7 +79,7 @@ See the Docusaurus 3 [project structure](https://docusaurus.io/docs/installation
 
 ### Adding and Editing Content
 
-Website pages are represented by Markdown files in the the `docs/` folder (in Docusaurus 3, MarkDown React files are also supported). The page `id` maps to the URL slug of the page; the title renders out as an `<h1>` on the page.
+Website pages are represented by Markdown files in the `docs/` folder (in Docusaurus 3, Markdown React files are also supported). The page `id` maps to the URL slug of the page; the title renders out as an `<h1>` on the page.
 
 ```
 ---
@@ -92,7 +90,7 @@ title: Example Doc Page
 Add/Edit content here!
 ```
 
-See the [Docusarus docs](https://docusaurus.io/docs/docs-introduction) documentation page for more information.
+See the [Docusaurus docs](https://docusaurus.io/docs/docs-introduction) documentation page for more information.
 
 ### Navigation bar
 
@@ -126,7 +124,7 @@ For more information, see the [Docusaurus Navbar Items](https://docusaurus.io/do
 
 ### Sidebar
 
-The sidebar that is used to navigate the doc files in `docs/` folder is managed in the `website/sidebars.js` file. The sidebar liks to each doc file via the `id` property set in the .md or .mdx file. 
+The sidebar that is used to navigate the doc files in `docs/` folder is managed in the `website/sidebars.js` file. The sidebar links to each doc file via the `id` property set in the .md or .mdx file. 
 
 ```
 module.exports = {
@@ -140,7 +138,7 @@ For more details on how to configure the sidebar see the [Docusaurus Sidebar](ht
 
 ### Docusaurus Alternatives
 
-The [Accessibility Theme Builder](https://a11y-theme-builder.finos.org/) project website utilises [MKDocs](https://www.mkdocs.org/) (specfically [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)).
+The [Accessibility Theme Builder](https://a11y-theme-builder.finos.org/) project website utilizes [MKDocs](https://www.mkdocs.org/) (specifically [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)).
 
 Before Docusaurus, the FINOS Community also experimented with a few other solutions, which are worth mentioning for historical reasons:
 
@@ -152,7 +150,7 @@ Before Docusaurus, the FINOS Community also experimented with a few other soluti
 
 ### Netlify 
 
-Netlify is the prefered tool by FINOS when it comes to hosting websites as it offers hosting and serverless backend services for web applications and static websites. As well as a seamless integration with GitHub and provides automatic preview capabilities, making it easier to review changes before they go live.
+Netlify is the preferred tool by FINOS when it comes to hosting websites, as it offers hosting and serverless backend services for web applications and static websites, along with seamless integration with GitHub and automatic preview capabilities that make it easier to review changes before they go live.
 
 ### Custom Domain Setup
 
