@@ -3,7 +3,7 @@ id: docker
 title: Docker Build and Publish
 ---
 
-## Why?
+## Why Docker?
 
 Many organizations require obtaining and deploying software packages from an image for ease of deployment. Furthermore, there can be strict requirements for those images to be signed or provide provenance attestations, as well as come from a trusted source such as Docker Hub or GitHub Container Registry.
 
