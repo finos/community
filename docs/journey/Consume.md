@@ -4,7 +4,7 @@ title: Consume
 ---
 
 ## Ready to consume?
-The first step in engaging with any open source initiative is typically to comsume the work produced so far, and the teams behind that work. If you've already identified [an open source component or open standard in our Landscape](https://landscape.finos.org) that you would like to use or build on, please do so!
+The first step in engaging with any open source initiative is typically to consume the work produced so far, and the teams behind that work. If you've already identified [an open source component or open standard in our Landscape](https://landscape.finos.org) that you would like to use or build on, please do so!
 
 ## Discover interesting projects
 We created the [FINOS Landscape](https://landscape.finos.org) to showcase all of our Special Interest Groups, Software and Standards Projects in an easily discoverable way, but we also encourage you to browse both our [GitHub organization](https://github.com/finos) and our [GitLab organization](https://gitlab.com/finosfoundation/) to find projects that are of interest to you. You're welcome and encouraged to reach out [through our mailing lists](https://community.finos.org/docs/journey/engage#mailing-lists) or [Slack Channel](https://finos-lf.slack.com/messages/finos-community/) or to email [help@finos.org](mailto:help@finos.org) if you can find what you are looking for.

@@ -6,10 +6,10 @@ title: Engage
 Now you've [learned](https://community.finos.org/docs/journey/learn) how FINOS works, maybe [are using one or two of our projects](https://community.finos.org/docs/journey/consume) and want to take the next step in the journey? You are in the right place, learn more how to interact and part-take in any of the activities in our [landscape](https://landscape.finos.org).
 
 ### Code of Conduct Violations
-Before we start, please know that all in-person and oline interactions must happen within our [Community Code of Conduct page](https://www.finos.org/code-of-conduct). Instructions on reporting Code of Conduct violations are also included in that page.
+Before we start, please know that all in-person and online interactions must happen within our [Community Code of Conduct page](https://www.finos.org/code-of-conduct). Instructions on reporting Code of Conduct violations are also included in that page.
 
 ### Engage & Amplify our message
-As an individual you can play a huge part in amplifying our open-source message by following us, engaging / resharing and sendig us questions / feedback on on [Twitter](https://twitter.com/finosfoundation) or [LinkedIn](https://www.linkedin.com/company/finosfoundation/).
+As an individual you can play a huge part in amplifying our open-source message by following us, engaging / resharing, and sending us questions / feedback on [Twitter](https://twitter.com/finosfoundation) or [LinkedIn](https://www.linkedin.com/company/finosfoundation/).
 
 ## Meet the Community!
 Why not joining a Project or a SIG online Meeting? Browse the [FINOS Community Calendar](https://www.finos.org/finos-community-calendar) and know all of our project or SIG meetings are open to anyone and free to attend. 

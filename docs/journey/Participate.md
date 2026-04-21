@@ -10,7 +10,7 @@ Also most projects will label issues with `Help Wanted` or `Good First Issue` la
 For more information, keep reading below.
 
 ## Contributing to a Project
-One of the most exciting aspects of open source is that participation is not restricted to a core development team. Anyone can fork a project at any time, make changes and improvements, and submit those changes back for review and incorporation into the parent repository. FINOS provides a transparent governance that encourages individual contributors, financial insitutions, fintechs and technology companies alike to work collaborative on our projects.
+One of the most exciting aspects of open source is that participation is not restricted to a core development team. Anyone can fork a project at any time, make changes and improvements, and submit those changes back for review and incorporation into the parent repository. FINOS provides a transparent governance that encourages individual contributors, financial institutions, fintechs and technology companies alike to work collaboratively on our projects.
 
 No paid Membership is required, and everyone is welcome to contribute to an existing project in the [FINOS landscape](https://landscape.finos.org), whether it's an [open source software (OSS) project](/docs/governance/#open-source-software-projects), an [open standard project](/docs/governance/#open-standard-projects) or a [Special Interest Group (SIG)](/docs/governance/special-interest-groups/).
 
@@ -18,7 +18,7 @@ No paid Membership is required, and everyone is welcome to contribute to an exis
 
 ### Contributing to an existing Software Project
 1. Choose a project in [our Landscape](https://landscape.finos.org/) or if you don't know where to start, take a look at the list of [Good First Issues on Github](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22%2C%22help+wanted%22) where projects are actively seeking for help! 
-2. Take look a how to [contribute to an existing project ](/docs/governance/Software-Projects/contribution#contribution-of-code-to-an-existing-finos-project)
+2. Take a look at how to [contribute to an existing project ](/docs/governance/Software-Projects/contribution#contribution-of-code-to-an-existing-finos-project)
 3. You or your company will need a valid [Contributor License Agreement](/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement), which can be easily completed online via [EasyCla](/docs/governance/Software-Projects/easycla)
 
 > The Foundation also encourages non-code contributions in the form of issues - bug reports and enhancement requests -, and documentation updates. 
@@ -33,12 +33,12 @@ FINOS follows a formal structured process of proposal, community socialization a
 
 If/ once the project is approved, the FINOS team will create the project based on the [Software Project Blueprint](https://github.com/finos/software-project-blueprint) to jumpstart your project with proper contribution guidelines.
 
-**NOTE**: Only FINOS Members are allowed to propose new contributions or you will need at least one Member to support / vouch you contribution.
+**NOTE**: Only FINOS Members are allowed to propose new contributions or you will need at least one Member to support / vouch for your contribution.
 
 ## Contributing to an Open Standard project
 Given their non-code nature, FINOS [Open Standard projects](https://landscape.finos.org/?license=csla-1-0,finos-ip-policy,isda-developer-license) follow a [different governance](https://community.finos.org/docs/governance/#open-standard-projects) and rules for participation will be documented in the standard specific documentation.
 
-Once you have identified a project you'd like to participate to take a look at [the FINOS Community calendar](https://www.finos.org/finos-community-calendar) to attend the next the next standard meeting. Agendas will be published in advance typically in the project github issues. 
+Once you have identified a project you'd like to participate in, take a look at [the FINOS Community calendar](https://www.finos.org/finos-community-calendar) to attend the next standards meeting. Agendas will typically be published in advance in the project GitHub issues. 
 
 ## Participating in a Special Interest Group (SIG)
 

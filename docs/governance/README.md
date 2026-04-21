@@ -23,7 +23,7 @@ The Foundation's day-to-day operations are run by the [FINOS team](https://finos
 
 ## Technical Oversight Committee
 
-This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC resposibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md)); it is composed by [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/main/operations/processes/elections/elections.md)).
+This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC responsibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md)); it is composed of [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/main/operations/processes/elections/elections.md)).
 
 ## Policies
 
@@ -49,7 +49,7 @@ FINOS also hosts **Special Interest Groups (SIGs)** which are forums where commu
 
 All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](/docs/governance/collaborative-principles), [Meeting Procedures](/docs/governance/meeting-procedures) and recommended to follow [Branding Guidelines](/docs/governance/project-branding-guidelines).
 
-For a list of our project see the [FINOS project landscape](https://landscape.finos.org).
+For a list of our projects see the [FINOS project landscape](https://landscape.finos.org).
 
 ## Open Source Software Projects
 
