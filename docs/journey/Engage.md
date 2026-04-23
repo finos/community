@@ -1,6 +1,7 @@
 ---
 id: engage
 title: Engage
+description: "Engage with FINOS: Code of Conduct, X and LinkedIn, meetings, events, OSFF, mailing lists, Slack, Symphony, and foundation support contacts."
 ---
 # Engage
 If you have already [learned](https://community.finos.org/docs/journey/learn) how FINOS works and started [using FINOS projects](https://community.finos.org/docs/journey/consume), this page shows how to take the next step: engage with the community and participate in activities across our [landscape](https://landscape.finos.org).
@@ -9,7 +10,7 @@ If you have already [learned](https://community.finos.org/docs/journey/learn) ho
 Before we start, please know that all in-person and online interactions must happen within our [Community Code of Conduct page](https://www.finos.org/code-of-conduct). Instructions on reporting Code of Conduct violations are also included in that page.
 
 ## Engage & Amplify our message
-As an individual you can play a huge part in amplifying our open-source message by following us, engaging / resharing, and sending us questions / feedback on [Twitter](https://twitter.com/finosfoundation) or [LinkedIn](https://www.linkedin.com/company/finosfoundation/).
+As an individual you can play a huge part in amplifying our open-source message by following us, engaging / resharing, and sending us questions / feedback on [X](https://twitter.com/finosfoundation) or [LinkedIn](https://www.linkedin.com/company/finosfoundation/).
 
 ## Meet the Community!
 Why not join a Project or a SIG online Meeting? Browse the [FINOS Community Calendar](https://www.finos.org/finos-community-calendar) and know all of our project or SIG meetings are open to anyone and free to attend. 

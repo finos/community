@@ -1,6 +1,7 @@
 ---
 id: lead
 title: Lead
+description: "Paths to leadership at FINOS: project maintainership, corporate membership, governance contributions, meetups, and speaking at Open Source in Finance Forum."
 ---
 ## How can you become a FINOS Community leader?
 As you start [consuming](https://community.finos.org/docs/journey/consume) and [contributing](https://community.finos.org/docs/journey/participate) to FINOS projects, there are multiple ways for you to become a leader in our community: 

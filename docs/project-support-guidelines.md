@@ -1,6 +1,7 @@
 ---
 id: project-support-guidelines
 title: Project Support Guidelines
+description: "What FINOS provides by lifecycle stage: legal, security scanning, events, and platform support available to help project teams across formation to graduated."
 ---
 
 ||Formation (Focus)|Formation (Non Focus)||Incubating (Focus)|Incubating (Non Focus)|Graduated (Focus)|Graduated (Non Focus)|Archived|Notes (and work to be done)|Issue URL|

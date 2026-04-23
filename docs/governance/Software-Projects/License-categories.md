@@ -1,6 +1,7 @@
 ---
 id: license-categories
 title: License Categories
+description: "License categories and policies for FINOS open source: approved licenses, documentation expectations, and how projects select SPDX identifiers for users."
 ---
 
 ## Category A

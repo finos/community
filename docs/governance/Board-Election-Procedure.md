@@ -1,6 +1,7 @@
 ---
 id: board-election
 title: Governing Board Election Procedure
+description: "How FINOS elects its Governing Board: procedures, ranked-choice voting, seat classes, and participation for Platinum, Gold, and Silver member firms."
 ---
 
 FINOS uses a ranked-choice instant-runoff voting process for elections of Gold and Silver representatives on the Governing Board. These are the rules by which the results are tabulated. (Platinum representatives are not elected, but are appointed by individual Platinum members.)

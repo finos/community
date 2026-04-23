@@ -1,6 +1,7 @@
 ---
 id: clojure
 title: Clojure
+description: "Continuous integration for Clojure at FINOS: ODP, GitHub Actions, and testing patterns to build, verify, and publish JVM libraries to trusted registries."
 ---
 
 [**Clojure**](https://clojure.org/) is a dialect of the Lisp programming language that runs on the Java virtual machine, Common Language Runtime, and JavaScript engines; the Foundation hosts [some Clojure projects](https://github.com/finos?q=&type=&language=clojure) that can be browsed as examples.

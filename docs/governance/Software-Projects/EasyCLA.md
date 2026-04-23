@@ -1,6 +1,7 @@
 ---
 id: easycla
 title: FINOS CLA
+description: "EasyCLA: sign individual and corporate CLAs, verify employees, and satisfy merge gates so pull requests to FINOS repositories stay compliant and fast."
 ---
 
 :::caution

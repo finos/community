@@ -1,6 +1,7 @@
 ---
 id: javascript
 title: Javascript
+description: "JavaScript and Node continuous integration for FINOS: npm, yarn, GitHub Actions, and testing for front-end and back-end open source in the foundation."
 ---
 
 In the last decade, Javascript (JS) has been increasingly used for backend software development, especially since the first appearance of Node.js.  Listed below are some of the most common processes that are involved in a Javascript project lifecycle in several JS ecosystems/platforms, and how they interact with the project infrastructure provided by the Foundation.

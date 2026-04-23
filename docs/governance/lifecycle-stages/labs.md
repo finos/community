@@ -1,6 +1,7 @@
 ---
 id: labs
 title: Labs Stage
+description: "Labs stage experiments: how early FINOS projects iterate with foundation support, exit criteria, and the path from innovation toward stable incubation."
 ---
 
 ## Badge

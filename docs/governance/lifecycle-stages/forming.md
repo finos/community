@@ -1,6 +1,7 @@
 ---
 id: forming
 title: Forming Stage
+description: "Forming stage for FINOS: proposing projects and early SIGs, community bootstrapping, and expectations before a team advances toward full incubation."
 ---
 
 ## Badge

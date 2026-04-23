@@ -1,6 +1,7 @@
 ---
 id: coordinate-work
 title: Coordinate work through GitHub Issues, Discussions and FINOS Slack
+description: "Coordinate work on FINOS projects with GitHub Issues, Discussions, and FINOS Slack: practical patterns for maintainers to keep progress visible and organized."
 ---
 
 # Coordinate work through GitHub Issues, Discussions and FINOS Slack

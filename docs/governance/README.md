@@ -2,6 +2,7 @@
 id: intro
 title: Foundation Governance
 sidebar_label: Overview
+description: "How FINOS is governed: Governing Board, TOC, membership tiers, policies, and community rules for software projects, standards, and SIGs."
 ---
 
 This space provides an overview of the Foundation's governance: 

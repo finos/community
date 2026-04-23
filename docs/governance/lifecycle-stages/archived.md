@@ -1,6 +1,7 @@
 ---
 id: archived
 title: Archived Stage
+description: "Archived FINOS projects: what happens when work winds down, repository expectations, and continuity for long-term users and dependent communities."
 ---
 
 ## Badge

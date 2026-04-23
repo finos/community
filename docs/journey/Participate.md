@@ -1,6 +1,7 @@
 ---
 id: participate
 title: Contribute
+description: "Start contributing to FINOS: EasyCLA, Good First Issues, your first pull request, and links to contribution rules and the contributor cheatsheet."
 ---
 ## Quickstart
 If you want the tl;dr of how to start contributing to FINOS, a great starting point is our [Community Quickstart page](https://www.finos.org/get-involved).

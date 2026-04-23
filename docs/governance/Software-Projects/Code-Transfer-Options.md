@@ -1,6 +1,7 @@
 ---
 id: code-transfer
 title: Code Transfer Options
+description: "Options to transfer or contribute a codebase to FINOS: review paths, due diligence, and how maintainers work with the foundation to onboard software."
 ---
 
 There are several ways in which contributors can transfer their project's code to the FINOS infrastructure team during contribution:
