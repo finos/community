@@ -18,6 +18,7 @@ module.exports = {
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
+    image: 'img/og-image.png',
     // Algolia search is only enabled when ALGOLIA_API_KEY is set
     // For builds without the API key, search will be disabled gracefully
     ...(process.env.ALGOLIA_API_KEY && {
