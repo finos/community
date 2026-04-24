@@ -45,7 +45,7 @@ FINOS have developed a tool that scans all the GitHub repositories across all FI
 - `disabled-issues` - This GitHub repository does not have GitHub Issues enabled; make sure that there is a documented way to submit questions, feature requests and other communications to the project team.
 - `no-teams` - This GitHub repository does not grant permissions to any FINOS Team, although it should be configured to grant access to project maintainers defined as [GitHub Teams](https://github.com/orgs/finos/teams). Please email help@finos.org and coordinate changes to the repository access permissions.
 - `no-issue-templates` - This GitHub repository does not use issue templates; please check the [issue template blueprints](https://github.com/finos/software-project-blueprint/tree/master/.github/ISSUE_TEMPLATE).
-- `no-contributing` - `CONTRIBUTING.md` file is missing; check the [CONTRIBUTING.md template](https://github.com/finos/software-project-blueprint/blob/master/.github/CONTRIBUTING.md).
+- `no-contributing` - `CONTRIBUTING.md` file is missing; check the [CONTRIBUTING.md template](https://github.com/finos/software-project-blueprint/blob/master/CONTRIBUTING.md).
 - `no-code-conduct` - `CODE_OF_CONDUCT.md` file is missing; check the [CODE_OF_CONDUCT.md template](https://github.com/finos/software-project-blueprint/blob/master/.github/CODE_OF_CONDUCT.md).
 - `notice-nok` - `NOTICE` file is incomplete; check line 4 of the [NOTICE template](https://github.com/finos/software-project-blueprint/blob/master/NOTICE).
 - `no-notice` - `NOTICE` file is missing; check the [NOTICE template](https://github.com/finos/software-project-blueprint/blob/master/NOTICE).
