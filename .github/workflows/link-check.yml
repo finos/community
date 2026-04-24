@@ -56,7 +56,7 @@ jobs:
             --no-progress
             --cache
             --max-cache-age 1d
-            --base website/build
+            --root-dir website/build
             --exclude-path website/build/404.html
             --exclude-path archive
             --accept 200,203,204,206,429,999
