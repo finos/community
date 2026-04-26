@@ -20,7 +20,7 @@ title: Project Support Guidelines
 |CI setup support by FINOS Team|On exception basis (i.e., Pilot)|✗|✓|✓|✓|✓|N/A|More info at the [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
 |CD setup support by FINOS Team|On exception basis (e.g. Pilot)|✗|On exception basis|On exception basis|On exception basis|On exception basis|✗|More info on the [Continuous Delivery page](/docs/development-infrastructure/continuous-delivery)||
 |Project docs site setup|On exception basis (i.e., Pilot)|✗|✓(via Project Blueprint )|✓(via Project Blueprint )|✓(via Project Blueprint)|✓(via Project Blueprint)|N/A|More info at the [Project Documentation page](/docs/development-infrastructure/project-documentation)||
-|Ongoing vulnerability scanning|✓|✓|✓|✓|✓|✓|N/A|See FINOS Code Scanning|https://github.com/finos/code-scanning|
+|Ongoing vulnerability scanning|✓|✓|✓|✓|✓|✓|N/A|See FINOS Code Scanning|[Code Scanning](https://github.com/finos/code-scanning)|
 |Code / Docs Release Process configuration|On exception basis (e.g. Pilot)|✗|✓|✓|✓|✗|N/A|More info at [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
 |**Project Marketing**||||||||||
 |Project docs (microsite) information architecture and content|✗|✗|On exception basis|✗|✗|✗|✗|||

@@ -39,7 +39,7 @@ The following policies apply to all FINOS members and activities:
 
 * The [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf) list the Foundation's trademarks and set out our policies for appropriate use of FINOS project marks.
 
-* The Linux Foundation [Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy) applies to all FINOS collaborative projects and prohibits all potentially anticompetive conduct.
+* The Linux Foundation [Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy) applies to all FINOS collaborative projects and prohibits all potentially anticompetive conduct.
 
 ## Community Governance
 
@@ -64,7 +64,7 @@ Projects producing open standards require different IP rules detailing how to [E
 ## Special Interest Groups
 Special Interest Groups can be proposed by any FINOS Member (and only by FINOS Members) and are approved by the Governing Board, including a Charter and initial SIG chair. Over time the SIG can decide to vote in a new Chair or the Board can appoint one. The Charter may also be updated from time to time with updates published publicly. Read more for [a list of current SIGs](/docs/governance/special-interest-groups) and how to propose a new SIG.
 
-All participants in SIGs are subject to [FINOS Policies](#policies) and [Community Governance](#community-governance) including complying with [Antitrust Policy](http://www.linuxfoundation.org/antitrust-policy) and [Community Code of Conduct](https://www.finos.org/code-of-conduct).
+All participants in SIGs are subject to [FINOS Policies](#policies) and [Community Governance](#community-governance) including complying with [Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy) and [Community Code of Conduct](https://www.finos.org/code-of-conduct).
 
 Documents produced or contributed as part of the SIG will be contributed and made available under CC-BY-4.0.
 
