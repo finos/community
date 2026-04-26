@@ -12,7 +12,7 @@ title: Project Support Guidelines
 |Project naming and trademarking|✓|✓|✓|✗|✗|✗|✗|||
 |**Infrastructure Support**||||||||||
 |Initial License scanning (at contribution time)|✓|✓|N/A|N/A|N/A|N/A|N/A|||
-|Continuous license scanning (on commits and PRs)|✓|✓|✓|✓|✓|✓|✓|FINOS Code Scanning|https://github.com/finos/code-scanning|
+|Continuous license scanning (on commits and PRs)|✓|✓|✓|✓|✓|✓|✓|FINOS Code Scanning|[Code Scanning](https://github.com/finos/code-scanning)|
 |Project infrastructure initial setup|✓|✓|✓|✓|N/A|N/A|N/A|More info at the [Collaboration Infrastructure page](/docs/collaboration-infrastructure)||
 |Github roster management (authentication and authorization)|On exception basis (i.e., Pilot)|✗|✗|✗|✗|✗|✗|More info at the [Collaboration Infrastructure page](/docs/collaboration-infrastructure)||
 |Email lists roster management|✓|✓|✓|✓|✓|✓|✓|Currently managed in Google Groups, will be part of LFX PCC (released in H2 2022)||
