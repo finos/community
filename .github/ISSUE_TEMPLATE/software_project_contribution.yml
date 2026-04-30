@@ -92,20 +92,28 @@ body:
       required: true
 
   - type: textarea
-    id: description
-    attributes:
-      label: Description
-      description: "1-2 sentence summary of what the software does."
-    validations:
-      required: true
-
-  - type: textarea
     id: business_problem
     attributes:
       label: Business Problem & Solution
       description: "Describe the specific problem this solves for Financial Services and how this software addresses it."
     validations:
       required: true
+
+  - type: textarea
+    id: mission_statement
+    attributes:
+      label: Mission Statement
+      description: "The mission statement should be a single sentence statement that begins with the words 'The mission of the project is to...' and is followed by the primary purpose of the project or primary goal of the project. This mission statement will be part of the projects technical charter."
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information (Optional)
+      description: "Please add any additional information here."
+    validations:
+      required: false
 
   - type: markdown
     attributes:

@@ -39,7 +39,7 @@ For more mature projects, at the time of contribution contributors will have an 
 
 ### Step 1: Submit a contribution proposal
 
-By default, a new software project contribution enters FINOS at the **[Labs](/docs/governance/lifecycle-stages/labs)** stage. See [Project lifecycle](/docs/governance/project-lifecycle) for how stages work. Contributors may instead ask the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to recognize **[Incubating](/docs/governance/lifecycle-stages/incubating)** or **[Graduated](/docs/governance/lifecycle-stages/graduated)** when the contribution already meets the criteria for that stage.
+By default, a new software project contribution enters FINOS at the **[Labs](/docs/governance/lifecycle-stages/labs)** stage. See [Project lifecycle](/docs/governance/project-lifecycle) for how stages work. Contributors may instead ask the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to recognize **[Incubating](/docs/governance/lifecycle-stages/incubating)** or **[Graduated](/docs/governance/lifecycle-stages/graduated)** stage when the contribution already meets the criteria for that stage.
 
 Draft a proposal to be reviewed by the FINOS team. Please use the available templates for:
 - [Open source software project](https://github.com/finos/community/issues/new?template=software_project_contribution.yml)
