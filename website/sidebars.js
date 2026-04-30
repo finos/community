@@ -84,7 +84,9 @@ module.exports = {
               "development-infrastructure/continuous-integration/java",
               "development-infrastructure/continuous-integration/javascript",
               "development-infrastructure/continuous-integration/python",
-              'development-infrastructure/continuous-delivery'
+              "development-infrastructure/continuous-integration/docker",
+              "development-infrastructure/continuous-delivery"
+
             ]
           },
           {

@@ -33,7 +33,7 @@ While everyone can contribute to existing projects, only [FINOS Members](https:/
 ### Pre-Work: Contribution Fitness
 First off, you want to evaluate whether the contribution is suitable for a Foundation-hosted open source project, in terms of long term expectations and desire to build a diverse Community of adopters and contributors.
 
-Projects contributed to the Foundation generally start in [Labs stage](/docs/governance/lifecycle-stages/labs), which sets out a short of criteria and maintainance expectations. Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution. 
+Projects contributed to the Foundation generally start in [Labs stage](/docs/governance/lifecycle-stages/labs), which sets out a set of criteria and maintenance expectations. Contributors are encouraged to evaluate the checklist and ensure they are willing to achieve those criteria before, during and after contribution. 
 
 For more mature projects, at the time of contribution contributors will have an option to evidence compliance with later stages and request the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee) to award [Incubating](/docs/governance/lifecycle-stages/incubating) or [Graduated](/docs/governance/lifecycle-stages/graduated) stage.
 
@@ -78,7 +78,7 @@ I am excited to announce that we have just submitted the contribution of <insert
  
 <insert brief project description and example use cases>
 
-As the TOC gears up to review the contribution we would love to see your feedback and questions on the issue to express your interest in adopting or even better contributing to the project. Even a thumbs up would would be very much appreciated. 
+As the TOC gears up to review the contribution we would love to see your feedback and questions on the issue to express your interest in adopting or even better contributing to the project. Even a thumbs up would be very much appreciated. 
 
 Also please don't hesitate to reach out to me at <insert mailing list / slack / email> if you have any questions.
 
@@ -94,7 +94,7 @@ Once the FINOS team has validated the contribution proposal for completeness, th
 
 Particularly:
 
-- Special Interest Groups and Open Standards, the Governing Board will review and approve the contributions either via an email vote or at the next avaialble meeting.
+- Special Interest Groups and Open Standards, the Governing Board will review and approve the contributions either via an email vote or at the next available meeting.
 - For software project contributions, the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee/) will review and approve the contributions.
 
 ### Step 4: IP review & Transfer of Contributions
@@ -104,7 +104,7 @@ Once a contribution is approved, the Foundation will perform an audit to ensure 
 
 -  If the chosen project name and existing logo are found to be risky choices from a trademark standpoint (e.g. they clash with existing marks), the project will be requested to select a new name that does not conflict with any existing marks
 
--  If the contributor holds a trademark or the project name has been previously used in the publid domain (therefore potentially granting the contributor [common law trademark rights](https://www.uspto.gov/learning-and-resources/trademark-faqs#type-browse-faqs_1967), the contributor will be requested to transfer the project trademark to the Linux Foundation by completing a [contribution agreement](/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf). This will allow FINOS to neutrally steward the project consistently with our [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf).
+-  If the contributor holds a trademark or the project name has been previously used in the public domain (therefore potentially granting the contributor [common law trademark rights](https://www.uspto.gov/learning-and-resources/trademark-faqs#type-browse-faqs_1967), the contributor will be requested to transfer the project trademark to the Linux Foundation by completing a [contribution agreement](/governance-docs/The.Linux.Foundation.--.Form.of.Trademark.Assignment.20221202.pdf). This will allow FINOS to neutrally steward the project consistently with our [Trademark Guidelines](/governance-docs/Trademark-Guidelines.pdf).
 
 #### Intellectual property
 
@@ -119,10 +119,10 @@ The project will be required to:
 
 Following successful IP and trademark compliance, the FINOS infrastructure team will work with the contributing organization to transfer existing code and other materials to the project's collaboration infrastructure (e.g. its GitHub repository, project web site, and/or wiki space) and set for permissions for the initial list of maintainers. This can happen by giving access to an existing DVCS repository to the FINOS team or sending the FINOS team an archive containing the code to be contributed. See [Code transfer options](#code-transfer-options).
 
-It's during this step as well that [code validation and scanning](/docs/development-infrastructure/code-validation/intro) of the code base with be performed, any build processes set up and configured, and the various components documented in the `Project Tooling` section configured and set up for the project, at which point the rest of the Foundation's infrastructure will be available to the project contributors moving forward to use to develop, test and release the project.
+It's during this step as well that [code validation and scanning](/docs/development-infrastructure/code-validation/intro) of the code base will be performed, any build processes set up and configured, and the various components documented in the `Project Tooling` section configured and set up for the project, at which point the rest of the Foundation's infrastructure will be available to the project contributors moving forward to use to develop, test and release the project.
 
-### Step 5: Contribution Announcements
-Once the transfer and review is complete, it's time to announce the contribution and garner attention and additional contribution from our the FINOS community. In order to do so:
+### Step 6: Contribution Announcements
+Once the transfer and review is complete, it's time to announce the contribution and garner attention and additional contributions from the FINOS community. In order to do so:
 
 We encourage project leads to [email announce@finos.org](mailto:announce@finos.org) - see a couple of [good examples](https://groups.google.com/a/finos.org/forum/#!topic/announce/2LoANL9lzB0) or use the template below and don't be shy!
  

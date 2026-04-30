@@ -17,7 +17,7 @@ To date, the Foundation has provisioned:
 3. A Symphony Software Foundation NPMJS Organisation, that houses all published Node.js packages.
 
 ### Using package scoping
-All npm packages released under the FINOS npm organisation should define the @finos scope, in order to point to the npm organisation; if you're not familiar, r[ead more about scoped packages](https://docs.npmjs.com/misc/scope).
+All npm packages released under the FINOS npm organisation should define the @finos scope, in order to point to the npm organisation; if you're not familiar, [read more about scoped packages](https://docs.npmjs.com/misc/scope).
 
 There are some situations where it is not possible to specify the scope of a package, since scoping maybe used for behaviour-related aspects of the application; for example when [defining typescript typings](https://www.npmjs.com/org/types).
 
@@ -34,7 +34,7 @@ When a release is performed, your CI environment will do the following:
 - Create a GitHub tag, labelled after the version specified in `package.json`
   - Include a `CHANGELOG.md` file with a recap of all commits added since last release
   - Publish (on [npmjs.org/org/finos](https://npmjs.org/org/finos)) an updated version of the NPM package defined by `package.json`
-- Increase the the version specified in `package.json` and push changes to `master` branch
+- Increase the version specified in `package.json` and push changes to `master` branch
 
 ### Release setup
 Travis CI must be configured with the following environment variables:

@@ -13,7 +13,7 @@ FINOS is a membership organization within the [Linux Foundation](http://linuxfou
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](/docs/governance/individual-supporter-program) to be recognized for their contributions and receive certain members-only benefits.
 
-**NOTE**: Membership is NOT required to contribute to existing FINOS projects, but project contributions can be proposed (or sponsored) only by FINOS Members, as outlined in our [Community Governance](#community-governance) below.
+**NOTE**: Membership is NOT required to contribute to existing FINOS projects. Software contributors must comply with the [FINOS code contribution compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements), and participants in Standards Projects must comply with the [FINOS Standard Governance IP requirements](/docs/governance/Standards-Projects#requirements-of-standards-project-participants). Only FINOS members can propose new FINOS projects, as outlined in [Community Governance](#community-governance) below.
 
 ## Governing Board
 
@@ -23,7 +23,7 @@ The Foundation's day-to-day operations are run by the [FINOS team](https://finos
 
 ## Technical Oversight Committee
 
-This FINOS Technical Oversight Committee (or TOC) is the technical governing body of FINOS, working in close collaboration with the FINOS team and the Governing Board to provide technical oversight for the projects in the FINOS portfolio (read more [about TOC resposibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md)); it is composed by [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS Members and Community, that serve a term of 2 years (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/main/operations/processes/elections/elections.md)).
+The FINOS Technical Oversight Committee (TOC) is FINOS's technical governing body. It works closely with the FINOS team and the Governing Board to provide technical oversight for projects in the FINOS portfolio (read more [about TOC responsibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md)). The TOC is composed of [12 members](https://github.com/finos/technical-oversight-committee/#membership) from FINOS members and the broader community, each serving a two-year term (read more [about the voting process](https://github.com/finos/technical-oversight-committee/blob/main/operations/processes/elections/elections.md)).
 
 ## Policies
 
@@ -43,13 +43,13 @@ The following policies apply to all FINOS members and activities:
 
 ## Community Governance
 
-FINOS is home to two kinds of [collaborative projects](https://landscape.finos.org): **open source software projects** and **open standards projects**. The majority of FINOS projects are open source software projects. FINOS projects are self-governing and may propose amendments to their own governance rules consistent with FINOS policies and the [open source definition](https://opensource.org/docs/osd), pending Governing Board approval, but FINOS provides default governance templates for both to provide projects with a starting point. 
+FINOS is home to two kinds of [collaborative projects](https://landscape.finos.org): **open source software projects** and **open standards projects**. Most FINOS projects are open source software projects. Projects are self-governing and may propose amendments to their governance rules (consistent with FINOS policies and the [open source definition](https://opensource.org/docs/osd)), subject to Governing Board approval. FINOS also provides default governance templates as a starting point.
 
 FINOS also hosts **Special Interest Groups (SIGs)** which are forums where community members sharing an interest in a certain topic discuss ideas, compare experiences, and consider common solutions (which may or may not take the form of new open source software or standards projects).
 
 All FINOS projects and SIGs are expected to observe the FINOS [Collaborative Principles](/docs/governance/collaborative-principles), [Meeting Procedures](/docs/governance/meeting-procedures) and recommended to follow [Branding Guidelines](/docs/governance/project-branding-guidelines).
 
-For a list of our project see the [FINOS project landscape](https://landscape.finos.org).
+For a list of our projects see the [FINOS project landscape](https://landscape.finos.org).
 
 ## Open Source Software Projects
 
