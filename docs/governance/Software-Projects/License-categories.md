@@ -3,6 +3,8 @@ id: license-categories
 title: License Categories
 ---
 
+For additional background on license categories in FINOS and related resources, see [OSLC licenses](https://osr.finos.org/docs/osr-resources/oslc-licenses) in the FINOS Open Source Readiness documentation.
+
 ## Category A
 
 ### Public Domain dedications
