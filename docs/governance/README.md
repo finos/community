@@ -13,7 +13,7 @@ FINOS is a membership organization within the [Linux Foundation](http://linuxfou
 
 Individuals who have made significant contributions to FINOS projects can join our [Individual Supporter program](/docs/governance/individual-supporter-program) to be recognized for their contributions and receive certain members-only benefits.
 
-**NOTE**: Membership is NOT required to contribute to existing FINOS projects. Software contributors must comply with the [FINOS code contribution compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements), and participants in Standards Projects must comply with the [FINOS Standard Governance IP requirements](/docs/governance/Standards-Projects#requirements-of-standards-project-participants). Only FINOS members can propose new FINOS projects, as outlined in [Community Governance](#community-governance) below.
+**NOTE**: Membership is NOT required to contribute to existing FINOS projects. Software contributors must comply with the [FINOS code contribution compliance requirements](/docs/governance/Software-Projects/contribution-compliance-requirements), and participants in Standards Projects must comply with the [FINOS Standard Governance IP requirements](/docs/governance/#open-standard-projects). Only FINOS members can propose new FINOS projects, as outlined in [Community Governance](#community-governance) below.
 
 ## Governing Board
 
