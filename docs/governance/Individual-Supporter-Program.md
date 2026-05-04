@@ -1,6 +1,7 @@
 ---
 id: individual-supporter-program
 title: Individual Supporter Program
+description: "FINOS Individual Supporter program: benefits and recognition for people who give sustained contributions to projects without a corporate membership."
 ---
 
 The Individual Supporter program recognizes individuals who are not affiliated with FINOS corporate members but have made significant contributions to FINOS collaborative projects. Individuals who meet the criteria below may apply to join the program and receive members-only benefits.

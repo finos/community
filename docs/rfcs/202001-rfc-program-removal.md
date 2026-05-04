@@ -1,3 +1,8 @@
+---
+id: 202001-rfc-program-removal
+title: RFC on simplified FINOS project governance
+description: "Historical 2020 RFC on simplifying FINOS project governance: removing programs, flatter project structure, and less bureaucracy for community-led work."
+---
 
 # Foreword
 

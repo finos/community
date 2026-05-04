@@ -1,6 +1,7 @@
 ---
 id: communicate-why-and-how
 title: Communicate WHY and HOW the FINOS Community should contribute
+description: "Help contributors understand why FINOS matters and how to participate—clear messaging, onboarding, and calls to action for your project or SIG."
 ---
 # Communicate WHY and HOW the FINOS Community should contribute 
 

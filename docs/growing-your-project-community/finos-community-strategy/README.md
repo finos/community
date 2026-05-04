@@ -1,6 +1,7 @@
 ---
 id: leveraging-finos-projects-sigs
 title: Leveraging FINOS to Build Flourishing Projects and SIGs
+description: "FINOS 2022 strategy for project and SIG leads: using foundation services to grow community, visibility, and sustainable collaboration in open finance."
 ---
 
 # Leveraging FINOS to Build Flourishing Projects and SIGs

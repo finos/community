@@ -1,6 +1,7 @@
 ---
 id: graduated
 title: Graduated Stage
+description: "Graduated projects at FINOS: signal of maturity, active maintainers, and what users and members can expect from flagship open finance software and standards."
 ---
 
 ## Badge

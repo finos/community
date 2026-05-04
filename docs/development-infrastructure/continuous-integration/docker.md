@@ -1,6 +1,7 @@
 ---
 id: docker
 title: Docker Build and Publish
+description: "Docker build and publish for FINOS: secure container image pipelines, registries, and best practices for projects shipping services and tools as containers."
 ---
 
 ## Why Docker?

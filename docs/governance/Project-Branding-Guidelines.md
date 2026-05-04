@@ -1,6 +1,7 @@
 ---
 id: project-branding-guidelines
 title: Project Branding Guidelines
+description: "Project naming, logos, and trademarks for FINOS software: follow foundation branding and Linux Foundation policies so users can trust your marks."
 ---
 
 One of the first steps any open source project takes is choosing a name (and possibly a logo). Project names and logos (referred to collectively as "marks" in this document) should be distinctive and should avoid incorporating the names and logos of third parties and third-party products.

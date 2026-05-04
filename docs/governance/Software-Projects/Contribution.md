@@ -1,6 +1,7 @@
 ---
 id: contribution
 title: Contributing to FINOS
+description: "Ways to contribute to FINOS: new project proposals, code and documentation, CLA steps, and joining SIGs and community programs across the foundation."
 ---
 There are several ways you can contribute to our existing projects and SIGs, and [FINOS Members](https://finos.org/members) can propose new projects for contribution. Take a look at the diagram below for an overall picture of how contributions flow into FINOS:
 

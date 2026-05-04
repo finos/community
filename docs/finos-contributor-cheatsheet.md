@@ -1,6 +1,7 @@
 ---
 id: finos-contributors-cheatsheet
 title: FINOS Contributor Cheatsheet
+description: "A practical reference for new FINOS contributors: CLAs and EasyCLA, issues and pull requests, Good First Issues, and where to get help."
 ---
 
 ## Contributor License Agreement (CLA)
