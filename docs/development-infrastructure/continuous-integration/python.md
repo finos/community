@@ -12,4 +12,4 @@ That said, the Foundation is still working on a centralised, automated way to pu
 
 ## Links
 - [Python Hacking style guide](https://github.com/symphonyoss/python-symphony/blob/master/HACKING.rst)
-- [Python semantic release](https://python-semantic-release.readthedocs.io/), automatic semantic versioning for python projects, including [Travis CI integration](https://python-semantic-release.readthedocs.io/en/latest/automatic-releases/travis.html)
+- [Python semantic release](https://python-semantic-release.readthedocs.io/), automatic semantic versioning for python projects, including [Travis CI integration](https://python-semantic-release.readthedocs.io/en/latest/configuration/automatic-releases/travis.html)

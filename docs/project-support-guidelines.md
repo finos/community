@@ -12,7 +12,7 @@ title: Project Support Guidelines
 |Project naming and trademarking|✓|✓|✓|✗|✗|✗|✗|||
 |**Infrastructure Support**||||||||||
 |Initial License scanning (at contribution time)|✓|✓|N/A|N/A|N/A|N/A|N/A|||
-|Continuous license scanning (on commits and PRs)|✓|✓|✓|✓|✓|✓|✓|FINOS Code Scanning|https://github.com/finos/code-scanning|
+|Continuous license scanning (on commits and PRs)|✓|✓|✓|✓|✓|✓|✓|FINOS Code Scanning|[Code Scanning](https://github.com/finos/code-scanning)|
 |Project infrastructure initial setup|✓|✓|✓|✓|N/A|N/A|N/A|More info at the [Collaboration Infrastructure page](/docs/collaboration-infrastructure)||
 |Github roster management (authentication and authorization)|On exception basis (i.e., Pilot)|✗|✗|✗|✗|✗|✗|More info at the [Collaboration Infrastructure page](/docs/collaboration-infrastructure)||
 |Email lists roster management|✓|✓|✓|✓|✓|✓|✓|Currently managed in Google Groups, will be part of LFX PCC (released in H2 2022)||
@@ -20,7 +20,7 @@ title: Project Support Guidelines
 |CI setup support by FINOS Team|On exception basis (i.e., Pilot)|✗|✓|✓|✓|✓|N/A|More info at the [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
 |CD setup support by FINOS Team|On exception basis (e.g. Pilot)|✗|On exception basis|On exception basis|On exception basis|On exception basis|✗|More info on the [Continuous Delivery page](/docs/development-infrastructure/continuous-delivery)||
 |Project docs site setup|On exception basis (i.e., Pilot)|✗|✓(via Project Blueprint )|✓(via Project Blueprint )|✓(via Project Blueprint)|✓(via Project Blueprint)|N/A|More info at the [Project Documentation page](/docs/development-infrastructure/project-documentation)||
-|Ongoing vulnerability scanning|✓|✓|✓|✓|✓|✓|N/A|See FINOS Code Scanning|https://github.com/finos/code-scanning|
+|Ongoing vulnerability scanning|✓|✓|✓|✓|✓|✓|N/A|See FINOS Code Scanning|[Code Scanning](https://github.com/finos/code-scanning)|
 |Code / Docs Release Process configuration|On exception basis (e.g. Pilot)|✗|✓|✓|✓|✗|N/A|More info at [Continuous Integration page](/docs/development-infrastructure/continuous-integration/intro)||
 |**Project Marketing**||||||||||
 |Project docs (microsite) information architecture and content|✗|✗|On exception basis|✗|✗|✗|✗|||
