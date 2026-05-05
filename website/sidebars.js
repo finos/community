@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         type: 'category',
-        label: 'Software Project Governance',
+        label: 'Project Governance',
         items: [
           {
             type: "link", 
@@ -42,9 +42,10 @@ module.exports = {
             href:"/docs/governance/#open-source-software-projects"
           },
           "governance/Software-Projects/contribution",
-          "governance/Software-Projects/code-transfer",
           "governance/Software-Projects/contribution-compliance-requirements",
           "governance/Software-Projects/easycla",
+          "governance/Software-Projects/dco",
+          "governance/Software-Projects/csla",
           "governance/Software-Projects/license-categories",
           "governance/Software-Projects/cve-responsible-disclosure",
         ]

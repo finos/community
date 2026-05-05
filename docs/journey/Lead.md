@@ -12,7 +12,7 @@ As you start [consuming](https://community.finos.org/docs/journey/consume) and [
 - Speak or sponsor our [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/)
 
 ## Leadership through maintainership
-FINOS leadership follows a merit-based model of governance by contribution. As you [contribute more to FINOS](https://community.finos.org/docs/journey/participate), you can take on greater responsibility by becoming a project maintainer.
+Open Source is the culture of the doers and everyone has an opportunity to become a FINOS contributor and then maintainer, through a meritocratic process of governance by contribution. As you [increasingly contribute to FINOS](/docs/journey/participate), we encourage to consider taking on more influence / responsibility by becoming a FINOS maintainer. 
 
 If you are already a [FINOS contributor or maintainer](https://insights.lfx.linuxfoundation.org/projects/finos/active-contributor?time=%7B%22from%22:%22now-90d%22,%22type%22:%22datemath%22,%22to%22:%22now%22%7D), we deeply thank you for your support. It is leaders like you who drive FINOS' success.
 
@@ -24,8 +24,8 @@ Each FINOS standard projects has a community of [participants, editors and maint
 A **maintainer** is a contributor who, by virtue of their contribution history, has been given [write access](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization#repository-roles-for-organizations) to project repositories and may approve and merge contributions to the project.
 
 ### How do I become a maintainer?
-There are two ways an individual can become a FINOS Maintainer:
-1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](https://community.finos.org/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
+There two ways an individual can become a FINOS Maintainer:
+1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
 2. By being nominated by an existing project's maintainers, based on extensive contributions to the project. 
 
 FINOS strongly encourages projects to have multiple maintainers from multiple organizations: in fact, having multiple maintainers is a pre-requisite for the [Graduation](https://community.finos.org/docs/governance/lifecycle-stages/graduated) project [lifecycle maturity level](https://community.finos.org/docs/governance/project-lifecycle).
