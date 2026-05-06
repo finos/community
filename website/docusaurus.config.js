@@ -38,6 +38,12 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: true,
     },
+    metadata: [
+      { name: 'keywords', content: 'FINOS, open source finance, financial services, fintech, community, Linux Foundation' },
+      { name: 'description', content: 'The FINOS Community site — governance, contributor onboarding, SIGs, and best practices for the Fintech Open Source Foundation.' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@FINOSFoundation' },
+    ],
     navbar: {
       title: `FINOS ${projectName}`,
       logo: {
@@ -56,12 +62,6 @@ module.exports = {
           position: 'right',
         }
       ],
-      metadata: [
-        { name: 'keywords', content: 'FINOS, open source finance, financial services, fintech, community, Linux Foundation' },
-        { name: 'description', content: 'The FINOS Community site — governance, contributor onboarding, SIGs, and best practices for the Fintech Open Source Foundation.' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:site', content: '@FINOSFoundation' },
-      ]
     },
     footer: {
       copyright: `Copyright © ${new Date().getFullYear()} ${projectName} - ${copyrightOwner}`,
