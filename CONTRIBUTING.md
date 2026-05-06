@@ -26,7 +26,7 @@ FINOS uses [EasyCLA](https://community.finos.org/docs/governance/Software-Projec
 - **General questions:** email [help@finos.org](mailto:help@finos.org) or join the
   [FINOS Community Slack](https://finos-lf.slack.com/messages/finos-community/).
 - **Security concerns:** please follow the FINOS
-  [vulnerability disclosure process](https://community.finos.org/docs/governance/#security).
+  [vulnerability disclosure process](https://community.finos.org/docs/governance/software-projects/cve-responsible-disclosure/).
 
 ## Code of Conduct
 
