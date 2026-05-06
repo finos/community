@@ -1,6 +1,7 @@
 ---
 id: finos-meetups
 title: FINOS Community Meetups
+description: "FINOS community meetups: global and partner events, how to join technical talks, and how to host or present sessions on open source in financial services."
 ---
 
 The following are details of all FINOS and FINOS Member / Partner meetups open to the FINOS and wider open source community to join. Please reach out to help@finos.org if you'd like to organize or present at a FINOS meetup.

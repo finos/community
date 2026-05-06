@@ -1,6 +1,7 @@
 ---
 id: incubating
 title: Incubating Stage
+description: "Incubating FINOS projects: quality expectations, community growth, and the journey toward strong graduated adoption in open source financial services."
 ---
 
 ## Badge

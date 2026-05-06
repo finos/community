@@ -1,6 +1,7 @@
 ---
 id: project-lifecycle
 title: Lifecycle introduction
+description: "FINOS project lifecycle at a glance: how projects move from formation through graduated or archived, and what each stage means for users and members."
 ---
 
 # Introduction

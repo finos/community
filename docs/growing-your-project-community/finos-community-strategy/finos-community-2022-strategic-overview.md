@@ -1,6 +1,7 @@
 ---
 id: finos-community-2022-strategic-overview
 title: FINOS Community 2022 Strategic Overview
+description: "Summary of the 2022 FINOS community strategy: goals for project growth, collaboration, and foundation programs for open source in financial services."
 ---
 
 # FINOS Community 2022 Strategic Overview

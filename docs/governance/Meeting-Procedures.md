@@ -1,6 +1,7 @@
 ---
 id: meeting-procedures
 title: Meetings of FINOS projects
+description: "How FINOS projects and SIGs run meetings: agendas, minutes, the public community calendar, and tools maintainers use to keep discussions effective."
 ---
 
 :::caution

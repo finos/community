@@ -1,6 +1,7 @@
 ---
 id: consume
 title: Consume
+description: "Use FINOS projects in your organization: find them in the landscape, assess maturity, licenses, and security, then engage the community or contribute."
 ---
 
 ## Ready to consume?

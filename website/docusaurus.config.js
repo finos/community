@@ -11,13 +11,15 @@ module.exports = {
   projectName: `FINOS ${projectName}`,
   organizationName: 'FINOS',
   // fail build on broken links
-  // onBrokenLinks: 'log',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   customFields: {
     repoUrl: `https://github.com/finos/${projectSlug}`,
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   stylesheets: ['https://fonts.googleapis.com/css?family=Overpass:400,400i,700'],
   themeConfig: {
+    image: 'img/og-image.png',
     // Algolia search is only enabled when ALGOLIA_API_KEY is set
     // For builds without the API key, search will be disabled gracefully
     ...(process.env.ALGOLIA_API_KEY && {
@@ -36,6 +38,12 @@ module.exports = {
       defaultMode: 'light',
       disableSwitch: true,
     },
+    metadata: [
+      { name: 'keywords', content: 'FINOS, open source finance, financial services, fintech, community, Linux Foundation' },
+      { name: 'description', content: 'The FINOS Community site — governance, contributor onboarding, SIGs, and best practices for the Fintech Open Source Foundation.' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@FINOSFoundation' },
+    ],
     navbar: {
       title: `FINOS ${projectName}`,
       logo: {
@@ -147,9 +155,15 @@ module.exports = {
             'https://github.com/finos/community/edit/main/website/',
           sidebarPath: require.resolve('./sidebars.js')
         },
+        sitemap: {
+          changefreq: 'monthly',
+          priority: 0.7,
+          filename: 'sitemap.xml',
+          ignorePatterns: ['/404*'],
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
-        }
+        },
       }
     ]
   ]

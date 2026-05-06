@@ -1,6 +1,7 @@
 ---
 id: collaborative-principles
 title: Our Collaborative Principles
+description: "Collaborative principles for FINOS: openness, respect, transparency, and productive engagement across members, maintainers, and contributors in open finance."
 ---
 
 FINOS technical projects are free to determine their own governance so long as it is consistent with [FINOS policies](https://finos.org/governance). However, projects are expected to adhere to best practices for open source collaboration. The practices documented here help to ensure that FINOS projects are well-documented, inclusive, free of intellectual property issues, and responsive to their communities.

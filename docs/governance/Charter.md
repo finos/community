@@ -1,6 +1,7 @@
 ---
 id: funding-documents
 title: FINOS Funding Documents
+description: "The Linux Foundation FINOS Charter and Participation Agreement: membership, board structure, and legal terms for collaborative open source projects."
 ---
 
 FINOS is a directed fund of the Linux Foundation governed by the following documents publicly available on the [FINOS website governance page](https://finos.org/governance): 
