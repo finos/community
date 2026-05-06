@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://community.finos.org/sitemap.xml

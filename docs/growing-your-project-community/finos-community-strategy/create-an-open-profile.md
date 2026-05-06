@@ -1,6 +1,7 @@
 ---
 id: create-an-open-profile
 title: Create an Open Profile to Benefit Maintainers and Contributors
+description: "Why open maintainer and contributor profiles matter: discoverability, trust, and lower friction for newcomers joining your FINOS project or SIG on GitHub."
 ---
 
 # Create an Open Profile to Benefit Maintainers and Contributors

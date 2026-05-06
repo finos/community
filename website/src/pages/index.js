@@ -12,7 +12,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description={`${siteConfig.tagline}`}>
+      description="FINOS Community documentation: governance, contributor onboarding, SIGs, project lifecycle, collaboration on GitHub, CI/CD, and best practices for open finance.">
       <meta charset="UTF-8"></meta>
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">

@@ -1,6 +1,7 @@
 ---
 id: python
 title: Python
+description: "Python CI for FINOS: pip, poetry, tox, and GitHub Actions to test and package data and service projects with consistent quality in open finance."
 ---
 
 [**Python**](https://www.python.org/) is an interpreted, object-oriented, high-level programming language with dynamic semantics.  Packages are published on the [Python Package Index (pypi)](https://pypi.python.org/pypi), however the FINOS account is still empty, see [pypi.org/user/finos](https://pypi.org/user/finos/) .

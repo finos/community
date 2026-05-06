@@ -1,6 +1,7 @@
 ---
 id: intro
 title: Code Validation
+description: "Code validation in FINOS CI: static analysis, coverage, and supply-chain checks that keep security and quality high across GitHub-based repositories."
 ---
 
 In order to assess Security, Quality and Legal compliance of software hosted by the Foundation, project leads and committers can configure integrations with third-party systems that are provided by the Foundation; the result of these processes can be published in the project's documentation to improve the final consumer experience and when requesting activation.

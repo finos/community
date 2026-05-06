@@ -1,6 +1,7 @@
 ---
 id: ensure-finos-project-security
 title: Ensure FINOS Project Security with LF Security Training and OpenSSF
+description: "Security for FINOS projects: Linux Foundation security training, OpenSSF practices, and reducing risk across dependencies, tooling, and contributor workflows."
 ---
 
 # Ensure FINOS Project Security with LF Security Training and OpenSSF

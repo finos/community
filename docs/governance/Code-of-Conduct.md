@@ -1,6 +1,7 @@
 ---
 id: code-of-conduct
 title: Community Code of Conduct
+description: "The FINOS Community Code of Conduct: expected behavior, reporting issues, and inclusive collaboration across meetings, chat, and GitHub for all participants."
 ---
 
 ## Overview

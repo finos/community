@@ -2,6 +2,7 @@
 id: contribution-compliance-requirements
 title: Contribution Requirements
 sidebar_label: Contribution Requirements
+description: "Requirements before FINOS can merge your code: ICLA, CCLA, license checks, and policies that keep contributions compliant across regulated financial firms."
 ---
 
 ## Overview {#overview}

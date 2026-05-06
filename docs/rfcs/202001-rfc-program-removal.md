@@ -1,4 +1,3 @@
-
 # Foreword
 
 The purpose of this document is to propose simplifications to the governance of FINOS projects. We’ll discuss several issues with the existing governance structure and propose a simplified structure reducing hierarchy and bureaucracy.

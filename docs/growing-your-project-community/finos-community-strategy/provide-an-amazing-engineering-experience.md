@@ -1,6 +1,7 @@
 ---
 id: provide-an-amazing-engineering-experience
 title: Provide an amazing engineering experience for first time contributors
+description: "Give first time contributors a strong experience: triage, documentation, CI feedback, and reviews that make FINOS repositories welcoming to newcomers."
 ---
 
 # Provide an amazing engineering experience for first time contributors

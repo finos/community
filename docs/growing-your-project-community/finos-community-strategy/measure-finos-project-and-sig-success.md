@@ -1,6 +1,7 @@
 ---
 id: measure-finos-project-and-sig-success
 title: Measure FINOS Project and SIG Success with LFX Insights
+description: "Measure FINOS project and SIG health with LFX Insights: community activity, diversity signals, and adoption trends for maintainers and the broader foundation."
 ---
 
 # Measure FINOS Project and SIG Success with LFX Insights
