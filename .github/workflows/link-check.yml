@@ -1,0 +1,85 @@
+# Runs weekly against the main branch, on-demand, and on PRs against main
+name: Link Check
+
+on:
+  schedule:
+    # run every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-check-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  link-check:
+    name: lychee
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+          cache-dependency-path: website/yarn.lock
+
+      - name: Install dependencies
+        working-directory: website
+        run: yarn install --frozen-lockfile --non-interactive
+
+      - name: Build site
+        working-directory: website
+        run: yarn build
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: lychee-${{ github.run_id }}
+          restore-keys: lychee-
+
+      - name: Run lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --cache
+            --max-cache-age 1d
+            --root-dir website/build
+            --exclude-path website/build/404.html
+            --exclude-path archive
+            --accept 200,203,204,206,429,999
+            --github-token ${{ secrets.GITHUB_TOKEN }}
+            website/build
+          fail: true
+          output: ./lychee-report.md
+
+      - name: Upload lychee report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: lychee-report-${{ github.run_id }}
+          path: ./lychee-report.md
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Open issue on scheduled failure
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Broken links detected by weekly link check"
+          content-filepath: ./lychee-report.md
+          labels: |
+            broken-link
+            automated
