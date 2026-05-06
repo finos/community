@@ -4,6 +4,8 @@ title: License Categories
 description: "License categories and policies for FINOS open source: approved licenses, documentation expectations, and how projects select SPDX identifiers for users."
 ---
 
+For additional background on license categories in FINOS and related resources, see [OSLC licenses](https://osr.finos.org/docs/osr-resources/oslc-licenses) in the FINOS Open Source Readiness documentation.
+
 ## Category A
 
 ### Public Domain dedications

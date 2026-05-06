@@ -6,7 +6,7 @@ description: "How FINOS projects and SIGs run meetings: agendas, minutes, the pu
 
 :::caution
 
-To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation **privacy policy that excludes the use of AI chatbots and scribing services** participating in any public or private virtual meetings hosted by FINOS.
+To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation **privacy policy that excludes the use of external AI chatbots and scribing services** participating in any public or private virtual meetings hosted by FINOS. Provided no objections are raised, meeting hosts may use LF recording and transcription services to facilitate minutes production.
 
 :::
 
@@ -61,6 +61,6 @@ Hosts **should** call a vote on any agenda item requiring one, according to the 
   2. Click on the "Host tools" icon again and toggle off in the Allow All Participants To section the "Screen Share" option.
 
 ## About AI chatbots and scribing services
-To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation privacy policy that excludes the use of AI chatbots and scribing services participating in any public or private virtual meetings hosted by The Linux Foundation.
+To ensure FINOS meetings are conducted in a manner that is fair and respectful to all participants, FINOS aligns to The Linux Foundation privacy policy that excludes the use of external AI chatbots and scribing services participating in any public or private virtual meetings hosted by The Linux Foundation. Provided no objections are raised, meeting hosts may use LF recording and transcription services to facilitate minutes production.
 
 
