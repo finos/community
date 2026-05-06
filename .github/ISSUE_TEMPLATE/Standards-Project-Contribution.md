@@ -8,6 +8,13 @@ assignees: maoo, TheJuanAndOnly99
 ---
 Please note that only FINOS members can propose new Standards projects. If you're interested in membership, see https://www.finos.org/membership-benefits#become-a-member.
 
+## Contribution Requirements — read this first
+
+**Before you submit this proposal**, read **[FINOS Contribution Requirements](https://community.finos.org/docs/governance/Software-Projects/contribution-compliance-requirements)**. It covers how new contributions are licensed (including CSLA for standards vs DCO/CLA for software), notice files, and third-party rules.
+
+
+**Standards** projects follow the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint) for Community Specification license, CSLA, and related governance documents—use the blueprint’s filenames and layout for standards work.
+
 ## Business Problem
 *Describe the business problem or opportunity the proposed standard addresses*
  

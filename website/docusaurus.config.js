@@ -125,6 +125,17 @@ module.exports = {
         anonymizeIP: true,
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            from: '/docs/governance/Software-Projects/code-transfer',
+            to: '/docs/governance/Software-Projects/contribution',
+          },
+        ],
+      },
+    ],
   ],
   presets: [
     [

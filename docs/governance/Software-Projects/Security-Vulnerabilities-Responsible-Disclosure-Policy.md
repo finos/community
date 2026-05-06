@@ -11,7 +11,7 @@ This document defines a **set of rules and policies established by FINOS to mana
 1. Discretion for new and ongoing development activity around security vulnerabilities that haven't been published yet
 2. Transparency and guidance around security vulnerabilities that have been identified, patched and released as new versions
 
-It includes step-by-step guides on [how contributors can setup a process to manage security vulnerabilities](#ForFINOSOpenSourceContributors) and [how anyone can privately submit an undisclosed security vulnerability](#ForFINOSOpenSourceConsumers) to a FINOS project.
+It includes step-by-step guides on [how contributors can setup a process to manage security vulnerabilities](#for-finos-open-source-contributors) and [how anyone can privately submit an undisclosed security vulnerability](#for-finos-open-source-consumers) to a FINOS project.
 
 ## What are Common Vulnerabilities and Exposures
 The **Common Vulnerabilities and Exposures** (or [CVE](https://cve.mitre.org/cve/)) is a dictionary that provides definitions for publicly disclosed cybersecurity [vulnerabilities](https://cve.mitre.org/about/terminology.html#vulnerability) and [exposures](https://cve.mitre.org/about/terminology.html#exposure), although the term is normally used to identify CVE entries; each entry is comprised of an identification number, a description, and at least one public reference, you can check [an example on the cla-bot project](https://github.com/finos/cla-bot/issues/157). Please note that the term security vulnerability also comprises undisclosed ones, as opposed to CVEs, which only refer to publicly disclosed entries.
