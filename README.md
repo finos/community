@@ -6,7 +6,7 @@
 This repository contains FINOS governance and collaboration documentation for project leads, maintainers, contributors, and community members. The published site is available at [https://community.finos.org](https://community.finos.org), and you can propose edits using the contextual _"Edit this page"_ feature.
 
 ## Quick Links
-Documentation in this repository (mainly in the /docs and /website folders) is published at [community.finos.org](community.finos.org). Start with the links below; if you cannot find what you need, open an issue/PR or email [help@finos.org](help@finos.org).
+Documentation in this repository (mainly in the /docs and /website folders) is published at [community.finos.org](https://community.finos.org). Start with the links below; if you cannot find what you need, open an issue/PR or email [help@finos.org](mailto:help@finos.org).
 
 ### Legal & Governance
 - [FINOS Governance](https://community.finos.org/docs/governance)

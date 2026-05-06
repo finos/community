@@ -85,13 +85,13 @@ after_success: curl -s https://raw.githubusercontent.com/symphonyoss/contrib-too
 In order to configure Continuous Delivery, the project must meet few requirements and some configuration must be defined.
 
 1. **Memory (size) and CPU (number) requirements must be known** upfront
-2. The [**deployment strategy**](https://docs.openshift.com/container-platform/3.3/dev_guide/deployments/deployment_strategies.html) **must be known** upfront; default is RollingDeployment, which spins up a new container in parallel to the existing one, switches traffic when the new one is ready and finally kills the existing one.
+2. The [**deployment strategy**](https://docs.redhat.com/en/documentation/openshift_container_platform/3.3/html/developer_guide/deployments#dev-guide-deployment-strategies) **must be known** upfront; default is RollingDeployment, which spins up a new container in parallel to the existing one, switches traffic when the new one is ready and finally kills the existing one.
 3. Collect all passwords and secrets that are needed by the applications to run; the Foundation Staff will register these entries as secrets in OpenShift and deliver secret key references
 4. The build process MUST generate a folder that:
   a. **MUST contain all the artifacts** to run the application; for Maven builds, the assembly plugin can be used
   b. **MUST contain a (Unix) run script**; for Maven builds, the [appassember plugin](https://www.mojohaus.org/appassembler/appassembler-maven-plugin/) can generate it
-  c. **MUST NOT contain any password**, secret or sensitive data (like emails, names, addresses, etc) in clear text; [OpenShift secrets](https://docs.openshift.com/container-platform/4.6/nodes/pods/nodes-pods-secrets.html) provide a safe way to manage them
-5. Follow the instructions below to define an [OpenShift template](https://docs.openshift.com/container-platform/4.9/openshift_images/using-templates.html) called `.openshift-template.yaml`, in the root folder of the GitHub repository
+  c. **MUST NOT contain any password**, secret or sensitive data (like emails, names, addresses, etc) in clear text; [OpenShift secrets](https://docs.redhat.com/en/documentation/openshift_container_platform/4.6/html/nodes/working-with-pods#nodes-pods-secrets) provide a safe way to manage them
+5. Follow the instructions below to define an [OpenShift template](https://docs.redhat.com/en/documentation/openshift_container_platform/4.9/html/images/using-templates) called `.openshift-template.yaml`, in the root folder of the GitHub repository
 
 ## Template definition
 Below is described, section by section, an OpenShift template that defines
@@ -184,7 +184,7 @@ The DeploymentConfig resource defines:
 2. The container configuration
   a. The image to use to create the container; this must match with the ImageStream output defined above
   b. TCP/UDP ports to expose; in this case port `8080` is open at container level
-  c. The [`readinessProbe`](https://docs.openshift.com/container-platform/4.6/applications/application-health.html) detects if the container is unhealthy
+  c. The [`readinessProbe`](https://docs.redhat.com/en/documentation/openshift_container_platform/4.6/html/applications/application-health) detects if the container is unhealthy
   d. Container environment variables can be defined in clear text (ie `LOG4J_FILE`) or loaded from a secret key reference; secrects are managed by the Foundation Staff and are normally used to manage credentials used to access the external APIs.
 3. The deployment configuration `trigger`, pointing to the `latest` tag of an image named after the BOT_NAME variable
 
@@ -299,7 +299,7 @@ See the example below.
 ```
 
 ## Useful commands
-Below are some commands we found useful while setting up our Symphony bots on OpenShift Online, using the [OpenShift CLI (`oc`)](https://docs.openshift.com/container-platform/3.9/cli_reference/get_started_cli.html).
+Below are some commands we found useful while setting up our Symphony bots on OpenShift Online, using the [OpenShift CLI (`oc`)](https://docs.redhat.com/en/documentation/openshift_container_platform/3.9/html/cli_reference/cli-reference-get-started-cli).
 
 ```
 # Login on FINOS OpenShift - copy from https://console.pro-us-east-1.openshift.com/console/command-line
