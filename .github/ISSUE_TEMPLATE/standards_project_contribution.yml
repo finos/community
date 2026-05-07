@@ -28,6 +28,8 @@ body:
           required: true
         - label: "I am familiar with [FINOS Governance](https://community.finos.org/docs/governance) and [Maintainer Responsibilities](https://community.finos.org/docs/finos-maintainers-cheatsheet/)."
           required: true
+        - label: "I have reviewed the [FINOS Contribution Requirements](https://community.finos.org/docs/governance/software-projects/contribution-compliance-requirements/) and understand the intellectual property and licensing expectations for standards projects"
+          required: true
 
   - type: input
     id: member_org_name
