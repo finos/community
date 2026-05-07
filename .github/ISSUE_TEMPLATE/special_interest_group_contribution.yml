@@ -1,0 +1,148 @@
+name: "📣 Special Interest Group Contribution"
+description: "Propose a new FINOS Special Interest Group (SIG)."
+title: "Proposed SIG: [SIG Name]"
+labels: ["contribution"]
+assignees: ["maoo", "TheJuanAndOnly99"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Welcome to the FINOS Community!
+        Thank you for your interest in proposing a FINOS Special Interest Group. Please complete all required fields so the FINOS team can process your proposal efficiently.
+
+        #### ⚠️ Important Note on Membership
+        Only **FINOS members** can propose new SIGs. [See here](https://www.finos.org/membership-benefits#become-a-member) if you are interested in becoming a FINOS member.
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Contribution Prerequisites
+      options:
+        - label: "I confirm I am proposing this SIG on behalf of a FINOS member."
+          required: true
+        - label: "I have reviewed [Special Interest Groups governance](https://community.finos.org/docs/governance/#special-interest-groups)."
+          required: true
+        - label: "I have reviewed the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle) stages."
+          required: true
+        - label: "I am familiar with [FINOS Governance](https://community.finos.org/docs/governance) and [Maintainer Responsibilities](https://community.finos.org/docs/finos-maintainers-cheatsheet/)."
+          required: true
+
+  - type: input
+    id: member_org_name
+    attributes:
+      label: FINOS Member Organization Name
+      description: "Enter the member organization backing this proposal."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## SIG Details"
+
+  - type: input
+    id: sig_name
+    attributes:
+      label: Name
+      placeholder: "The proposed SIG name"
+    validations:
+      required: true
+
+  - type: input
+    id: sig_slug
+    attributes:
+      label: Slug
+      description: "Must be kebab-case (e.g., my-sig-name)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: business_problem
+    attributes:
+      label: Business Problem
+      description: "Describe the business problem or community need this SIG addresses."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: "Describe the SIG's purpose, expected discussions, outputs, and how it addresses the business problem."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Current State
+      description: "Summarize the history and current state of this effort, including any existing informal working group or community interest."
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing_materials
+    attributes:
+      label: Existing Materials
+      description: "Provide links to existing materials. If private, grant read access to 'finos-admin'."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: markdown
+    attributes:
+      value: "## Team"
+
+  - type: textarea
+    id: sig_chair_and_maintainers
+    attributes:
+      label: Proposed SIG Chair and Maintainers
+      description: "Provide the initial SIG chair and co-chair and other maintainers with full name, affiliation, work email, and GitHub username."
+      value: |
+        | Role | Name | Affiliation | Email | GitHub Username |
+        | :--- | :--- | :--- | :--- | :--- |
+        | Chair |  |  |  |  |
+        | Co-Chair |  |  |  |  |
+    validations:
+      required: true
+
+  - type: textarea
+    id: target_participants
+    attributes:
+      label: Target Participants
+      description: "Describe the participant profile you want to attract (background, role, organization type)."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "---"
+
+  - type: checkboxes
+    id: compliance_confirmation
+    attributes:
+      label: Governance & Policy Acknowledgements
+      description: "Confirm you understand the following SIG requirements."
+      options:
+        - label: "I understand new SIGs are proposed by FINOS members and approved by the FINOS Governing Board"
+          required: true
+        - label: "I understand documents produced or contributed as part of the SIG will be made available under the CC-BY-4.0 license"
+          required: true
+        - label: "I understand the SIG and it's participants must comply with all [FINOS policies](https://community.finos.org/docs/governance/#policies)."
+          required: true
+        - label: "I understand this proposal may require socialization via community@finos.org before final review."
+          required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ### What's Next?
+        After you submit this proposal, the FINOS team will follow up with next steps for review and socialization. New SIGs are approved by the FINOS Governing Board.
+
+        If there's positive response from the community, prepare a short SIG proposal deck for the FINOS Governing Board. You can start by downloading and using [this template](https://github.com/finos/community/raw/refs/heads/main/website/static/governance-docs/202103-New-Project-or-SIG-proposal-(template)-PUBLIC.pptx). See a [previous SIG example](https://community.finos.org/assets/files/202101-InnerSource-SIG-Proposal-APPROVED-85e2fa26d6d2589ea59eb4ff6ab31e67.pdf).
