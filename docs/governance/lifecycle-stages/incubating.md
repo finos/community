@@ -79,9 +79,9 @@ The following must remain true for _Incubating_ projects at all times. A Health 
 ## Transition out of Incubation
 As projects become more mature they have several options to progress:
 
-1. Graduate into FINOS Graduated stage by [requesting graduation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Graduation.md&title=projectName+Graduation+Request). Mature projects may request graduation quickly. In fact there are no expectations or requirements for how long projects incubate, provided they are being actively developed.
+1. Graduate into FINOS Graduated stage by [requesting graduation](https://github.com/finos/community/issues/new?template=project_graduation.yml). Mature projects may request graduation quickly. In fact there are no expectations or requirements for how long projects incubate, provided they are being actively developed.
 2. Graduate to another LF foundation (if scope / audience has grown beyond finance)
-3. Transition into FINOS Archived stage by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request) if the project is no longer actively developed. This is an important FINOS maintainer hygiene duty. 
+3. Transition into FINOS Archived stage by [requesting archival](https://github.com/finos/community/issues/new?template=project_archival.yml) if the project is no longer actively developed. This is an important FINOS maintainer hygiene duty. 
 
 ## Notes for Consumers and other Evaluators
 If you're evaluating Foundation-hosted open source projects and see the Incubating badge shown above, here are some of the things you should expect should you choose to download and use the software:
