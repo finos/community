@@ -28,6 +28,20 @@ It is possible, and advised, that projects have multiple maintainers, in which c
 
 FINOS Standards projects can also have [**editors**](https://github.com/finos/standards-project-blueprint/blob/master/governance-documents/5._Governance.md#1roles).
 
+## MAINTAINERS.md file
+
+Every FINOS repository is expected to include a root-level `MAINTAINERS.md` file that clearly identifies the current project maintainers. The file gives contributors a consistent place to find who can review contributions, provide project guidance, and make or coordinate project decisions.
+
+Project maintainers are responsible for keeping the `MAINTAINERS.md` file accurate and up to date. Each maintainer entry should include the maintainer's GitHub username, name, organization, and email address. Keeping this information visible supports open governance, gives public recognition to the people and organizations sustaining the project, and helps FINOS and Linux Foundation projects maintain a transparent record of project leadership.
+
+All changes to the maintainer list must be managed openly:
+
+- Submit a Pull Request to `MAINTAINERS.md` for any maintainer addition, removal, or update.
+- If the project's governance requires a vote for maintainer changes, document or link to the vote outcome in the PR description or comments.
+- Use the PR history as the public audit trail for project leadership changes over time.
+
+Please email [help@finos.org](mailto:help@finos.org) whenever `MAINTAINERS.md` is updated with a change to maintainership.
+
 ## Maintainer responsibilities and available resources
 
 FINOS project maintainers are responsible for technical & subject matter oversight of the project, and for driving community growth and engagement. FINOS supports project maintainers and their project communities through:
@@ -43,6 +57,7 @@ The below table lists maintainers' responsibilities and available resources. Ple
 |:---|:---|
 | **Grow project maturity and community** | Virtually all FINOS hosted projects are expected to strive towards, and ultimately attain, [Graduated status](/docs/governance/lifecycle-stages/graduated). The FINOS team supports projects in this journey through: <ul><li> **operational enablement**: see the [LFX Project Control Center](https://docs.linuxfoundation.org/lfx/project-control-center)</li><li>**community marketing & engagement support**: Participation and/or feature your project in the [FINOS Newsletter](https://www.finos.org/newsletter), [FINOS Community Blog](https://www.finos.org/blog), [Open Source in Finance Podcast](https://podcasts.apple.com/us/podcast/finos-open-source-in-finance-podcast/id1512371068), [FINOS events](https://www.finos.org/hosted-events) including the [Open Source in Finance Forum (OSFF)](https://events.linuxfoundation.org/open-source-finance-forum/)</li><li>[Request the creation](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=comms-channel-request&template=Communication_channel_request.md&title=) of a [FINOS Slack](https://finos-lf.slack.com/) Channel or enable GitHub Team Discussions for your FINOS Project or SIG. </li></ul> |
 | **Run Project Meetings** | Project maintainers are welcome to engage with their project community through project meetings. If they choose to do so, maintainers are responsible for creating meeting agendas, recording meeting attendance and publishing meeting minutes. <ul><li>[Follow FINOS Meeting Procedures from the FINOS Community Governance Repository.](/docs/governance/meeting-procedures)</li><li>[Run Project Meetings from GitHub Issues using the Meeting Attendee Tracker Action.](/docs/collaboration-infrastructure#meeting-minutes)</li></ul> |
+| **Maintain project leadership records** | Maintainers are responsible for keeping the root-level `MAINTAINERS.md` file accurate and up to date. FINOS supports this by providing a standard `MAINTAINERS.md` template, opening rollout PRs where possible, and helping projects resolve questions about format or process via [help@finos.org](mailto:help@finos.org). Any addition, removal, or update should be proposed through a Pull Request, with any required vote outcome documented or linked in the PR. |
 | **CI/CD** | Project maintainers are responsible for integrating Continuous Integration and Continuous Deployment into their FINOS project builds: <ul><li>[Use the FINOS Open Developer Platform for Continuous Integration and Deployment.](/docs/development-infrastructure/continuous-integration/intro/)</li></ul> |
 | **Documentation** | Maintainers are responsible for publishing project documentation from their project's GitHub Repositories to FINOS Project Websites. <ul><li>[Use Docusaurus and GitHub Actions for Publishing Project Documentation.](/docs/development-infrastructure/project-documentation#docusaurus)</li></ul> |
 | **Security** | Maintainers are responsible for preventing, discovering and responsibly disclosing Security Vulnerability Issues as they affect their projects<ul><li>[Use the FINOS Open Developer Platform for Project Security Vulnerability Scanning.](/docs/development-infrastructure/code-validation/whitesource)</li><li>[Follow the FINOS responsible disclosure policy.](/docs/governance/Software-Projects/cve-responsible-disclosure)</li></ul> |
