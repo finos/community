@@ -15,7 +15,7 @@ As you start [consuming](https://community.finos.org/docs/journey/consume) and [
 ## Leadership through maintainership
 Open Source is the culture of the doers and everyone has an opportunity to become a FINOS contributor and then maintainer, through a meritocratic process of governance by contribution. As you [increasingly contribute to FINOS](/docs/journey/participate), we encourage to consider taking on more influence / responsibility by becoming a FINOS maintainer. 
 
-If you are already a [FINOS contributor or maintainer](https://insights.linuxfoundation.org/collection/details/finos-(the-fintech-open-source-foundation)), we deeply thank you for your support. It is leaders like you who drive FINOS' success.
+If you are already a [FINOS contributor or maintainer](https://metrics.finos.org/), we deeply thank you for your support. It is leaders like you who drive FINOS' success.
 
 ### What's FINOS Project Maintainer?
 Each FINOS software project has a community of [participants](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md#roles), also referred to as "contributors", and [maintainers](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md#roles).
