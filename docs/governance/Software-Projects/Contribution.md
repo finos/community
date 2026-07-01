@@ -46,6 +46,8 @@ Draft a proposal to be reviewed by the FINOS team. Please use the available temp
 - [Open source software project](https://github.com/finos/community/issues/new?template=software_project_contribution.yml)
 - [Open standard / specification project](https://github.com/finos/community/issues/new?template=standards_project_contribution.yml)
 - [Special Interest Group](https://github.com/finos/community/issues/new?template=special_interest_group_contribution.yml)
+
+*\*Note:* For software projects if you select the "Incubating" or "Graduated" stage, you will be asked to complete a follow-up issue containing stage-specific criteria, utilizing either the [Project Incubation](https://github.com/finos/community/issues/new?template=project_incubation.yml) or [Project Graduation](https://github.com/finos/community/issues/new?template=project_graduation.yml) forms.*
   
 This will create a new issue on the [FINOS Community Repository](https://github.com/finos/community/issues) and kick off the process. The proposal is meant to cover the following:
 
