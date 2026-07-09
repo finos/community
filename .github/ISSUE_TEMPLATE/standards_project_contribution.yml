@@ -156,7 +156,7 @@ body:
       label: Compliance & Requirements Agreement
       description: "Confirm you have read and agree to the standards governance and IP requirements."
       options:
-        - label: "I understand standards projects follow the [Community Specification process](https://community.finos.org/docs/governance/standards-projects/) and should use the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint)."
+        - label: "I understand standards projects follow the [Community Specification process](https://github.com/finos/standards-project-blueprint#what-is-the-community-specification-for) and should use the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint)."
           required: true
         - label: "I understand the [IP licensing requirements](https://community.finos.org/docs/governance/standards-projects/#ip-licensing-requirements), including that all participants must agree to the CSLA."
           required: true
