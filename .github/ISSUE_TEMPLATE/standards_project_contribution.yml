@@ -22,7 +22,7 @@ body:
           required: true
         - label: "I have reviewed [Open Standard Projects governance](https://community.finos.org/docs/governance/#open-standard-projects)."
           required: true
-        - label: "I have reviewed [Establishing and Running an Open Standard project](https://community.finos.org/docs/governance/standards-projects/)."
+        - label: "I have reviewed [Establishing and Running an Open Standard project](https://community.finos.org/docs/governance/Software-Projects/csla#establishing-a-standards-project)."
           required: true
         - label: "I have reviewed the [FINOS Project Lifecycle](https://community.finos.org/docs/governance/project-lifecycle) stages."
           required: true
@@ -156,11 +156,11 @@ body:
       label: Compliance & Requirements Agreement
       description: "Confirm you have read and agree to the standards governance and IP requirements."
       options:
-        - label: "I understand standards projects follow the [Community Specification process](https://github.com/finos/standards-project-blueprint#what-is-the-community-specification-for) and should use the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint)."
+        - label: "I understand standards projects follow the [Community Specification process](https://community.finos.org/docs/governance/software-projects/csla/) and should use the [FINOS Standards Project Blueprint](https://github.com/finos/standards-project-blueprint)."
           required: true
-        - label: "I understand the [IP licensing requirements](https://community.finos.org/docs/governance/standards-projects/#ip-licensing-requirements), including that all participants must agree to the CSLA."
+        - label: "I understand the [IP licensing requirements](https://community.finos.org/docs/governance/Software-Projects/csla#ip-licensing-requirements), including that all participants must agree to the CSLA."
           required: true
-        - label: "I understand the [patent exclusion rules](https://community.finos.org/docs/governance/standards-projects/#community-specification-license-patent-exclusion-rules) in the Community Specification License process."
+        - label: "I understand the [patent exclusion rules](https://community.finos.org/docs/governance/Software-Projects/csla#community-specification-license-patent-exclusion-rules) in the Community Specification License process."
           required: true
         - label: "I understand any software included in this standards project must follow FINOS software licensing rules (Apache-2.0 unless otherwise approved)."
           required: true
