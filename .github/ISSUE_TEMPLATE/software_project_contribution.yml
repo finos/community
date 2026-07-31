@@ -108,6 +108,14 @@ body:
       required: true
 
   - type: textarea
+    id: existing_materials
+    attributes:
+      label: Existing Materials
+      description: "Provide links to existing materials. If private, grant read access to 'finos-admin'."
+    validations:
+      required: true
+
+  - type: textarea
     id: additional_info
     attributes:
       label: Additional Information (Optional)
