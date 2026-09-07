@@ -64,7 +64,7 @@ mvn release:prepare release:perform -Prelease
 Note that the artifact publishing process is delivered by the `central-publishing-maven-plugin:plugin` goal, which is included in the `<release.goals>` property, see https://github.com/finos/finos-parent-pom/blob/finos-7/pom.xml#L75
 
 ### Known issues
-If the release command fails with "gpg: signing failed: Inappropriate ioctl for device", run the following command and try again; [more info on stackexchange](https://unix.stackexchange.com/a/257065).
+If the release command fails with "gpg: signing failed: Inappropriate ioctl for device", run the following command and try again (see also the [GnuPG agent documentation](https://www.gnupg.org/documentation/manuals/gnupg/Invoking-GPG_002dAGENT.html)).
 ```
 export GPG_TTY=$(tty)
 ```

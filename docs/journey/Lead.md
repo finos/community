@@ -20,7 +20,7 @@ If you are already a [FINOS contributor or maintainer](https://metrics.finos.org
 ### What's FINOS Project Maintainer?
 Each FINOS software project has a community of [participants](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md#roles), also referred to as "contributors", and [maintainers](https://github.com/finos/software-project-blueprint/blob/main/CONTRIBUTING.md#roles).
 
-Each FINOS standard projects has a community of [participants, editors and maintainers](https://github.com/finos/standards-project-blueprint/blob/master/governance-documents/5._Governance.md#1roles).
+Each FINOS standard projects has a community of [participants, editors and maintainers](https://github.com/finos/standards-project-blueprint/blob/main/GOVERNANCE.md#1-roles).
 
 A **maintainer** is a contributor who, by virtue of their contribution history, has been given [write access](https://docs.github.com/en/organizations/managing-access-to-your-organizations-repositories/repository-roles-for-an-organization#repository-roles-for-organizations) to project repositories and may approve and merge contributions to the project.
 

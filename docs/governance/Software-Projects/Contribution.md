@@ -177,7 +177,7 @@ Perform a double transfer:
 ### GitHub Enterprise repository
 
 Perform a copy, transfer, and freeze:
-1. Copy the repository into a personal ("user") account on GitHub ([this StackOverflow post](http://stackoverflow.com/questions/28753111/migrate-from-github-enterprise-to-github-com) describes how to accomplish this)
+1. Copy the repository into a personal ("user") account on GitHub (see [Adding locally hosted code to GitHub](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github))
 2. Follow the steps described above for transferring a GitHub.com repository to the project
 3. Delete or freeze (e.g. disable access, make read-only, etc.) the repository in your GitHub Enterprise installation, to prevent accidental modifications to the wrong repository.
 

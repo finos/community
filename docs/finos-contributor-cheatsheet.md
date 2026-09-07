@@ -25,9 +25,9 @@ Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@fino
 * Create your issue using GitHub Issues
 * New issues contain two templates in the description: bug report and enhancement request. Please pick the most appropriate for your issue, **then delete the other**.
   * Please also tag the new issue with either "Bug" or "Enhancement".
-* Please use [Markdown formatting](https://help.github.com/categories/writing-on-github/)
+* Please use [Markdown formatting](https://docs.github.com/en/get-started/writing-on-github)
 liberally to assist in readability.
-  * [Code fences](https://help.github.com/articles/creating-and-highlighting-code-blocks/) for exception stack traces and log entries, for example, massively improve readability.
+  * [Code fences](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks) for exception stack traces and log entries, for example, massively improve readability.
 
 ## Contributing Pull Requests (Code & Docs)
 To make review of PRs easier, please:
