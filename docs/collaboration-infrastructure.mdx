@@ -349,10 +349,11 @@ Getting started is quite simple:
 
 5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](/docs/governance/Software-Projects/license-categories).
 6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
-7. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
-8. (optional) Remove `.whitesource` and `whitesource.config`, if vulnverability detection does not apply to this project
-9. (optional) Remove the `docs/` and `website/` folders, if you're not interested to have a project documentation website in place
-10. Commit and push all of your changes.
+7. Open the `MAINTAINERS.md` file in a text editor and list all maintainers and their contact information.
+8. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
+9. (optional) Remove the `EASYCLA_CHANGEME.md`, `.node-version`, and `renovate.json` files, if not applicable to your project.
+10. (optional) Remove the `docs/` and `website/` folders + the `netlify.toml` file, if you're not interested to have a project documentation website in place.
+11. Commit and push all of your changes.
 
 ### Automated and continuous quality scanning
 FINOS provides some examples on https://github.com/finos/code-scanning to run continuous code scanning activities. More tools are also documented on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>.
