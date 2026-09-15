@@ -61,14 +61,34 @@ If you would like to share vulnerability information with domain experts (e.g. c
 
 ## For FINOS Open Source Contributors
 
-**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. That means, for example that a GitHub Issue must NOT be created to track the issue since that will make the issue public. Also the messages associated with any commits should not make ANY reference to the security nature of the commit.
+**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
 
-### FINOS lifecycle
-The responsible disclosure ties into [FINOS Project Lifecycle](/docs/governance/project-lifecycle) in the following items:
+### Reporting a Vulnerability
 
-- All [Incubating projects](/docs/governance/lifecycle-stages/incubating) **MUST** have an automated way to manage security vulnerabilities, see below
-- All [Graduated projects](/docs/governance/lifecycle-stages/graduated) **MUST** have WhiteSource enabled
-- All projects **publishing artefacts under FINOS package registries MUST** have WhiteSource enabled
+Submitting a vulnerability report is identical to the process followed by project Consumers. See [the guide above](#for-finos-open-source-consumers) for reference.
+
+### Setting up responsible disclosure
+
+To start leveraging GitHub's native disclosure and remediation process, you must add a `SECURITY.md` file describing the disclosure process.
+
+This is a sample `SECURITY.md` file that you may edit as appropriate and add to your project; just replace `PROJECT_NAME` and `PROJECT_URL` with your actual name and GitHub URL:
+
+```markdown
+# Security Policy
+
+{PROJECT_NAME} supports responsible disclosure of security vulnerabilities and adheres to the [FINOS Security Vulnerabilities Policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure). If you find something you believe to be a security issue in {PROJECT_NAME}, we encourage and appreciate your report. Please report the issue privately to the [project maintainers]({PROEJCT_URL}/blob/main/MAINTAINERS.md) using one of the following methods:
+
+## Reporting a Vulnerability
+
+- **GitHub Security Reports:** In order for the vulnerability reports to reach maintainers as soon as possible, the preferred way is to use the ["Report a vulnerability"]({PROJECT_URL}/security) button under our "Security and quality" tab. This creates a private communication channel between you and the maintainers.
+- **Email:** If you are unable to or have strong reasons not to use the GitHub Security vulnerability reporting feature, please email the maintainers directly and CC: [security@finos.org](mailto:security@finos.org) with a description of the vulnerability, along with relevant details (Impact, Patches, Workarounds, References and Screenshots).
+
+## Vulnerability Process
+
+1. **Report the vulnerability privately** using one of the methods above. Do not create a public GitHub Issue or make any public reference to the vulnerability.
+2. The project team will acknowledge receipt of your report and triage the issue. If a vulnerability is confirmed, the team will work with you to investigate and resolve it.
+3. Once a fix is available, a release will be made and the vulnerability will be publicly disclosed in accordance with the [FINOS policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure).
+```
 
 ### Collecting project CVE list
 Since all CVE entries are labeled as security vulnerability, it is possible to use GitHub Issues UI to browse them.
