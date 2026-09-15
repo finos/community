@@ -19,24 +19,45 @@ The **Common Vulnerabilities and Exposures** (or [CVE](https://cve.mitre.org/cve
 
 ## For FINOS Open Source Consumers
 
-**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. That means, for example that a GitHub Issue must NOT be created to track the issue since that will make the issue public. Also the messages associated with any commits should not make ANY reference to the security nature of the commit.
+**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
 
-An overview of the vulnerability handling process is:
-1. The reporter reports the vulnerability privately to a FINOS Lead Maintainer.
-2. The appropriate project's team members works privately with the reporter to resolve the vulnerability.
-3. A new release of the FINOS product concerned is made that includes the fix.
-4. The vulnerability is publicly announced.
+### Reporting a Vulnerability
 
-### Browse security vulnerabilities for a project and release
-Security vulnerabilities are published as GitHub Issues marked with the label security vulnerability. You can easily browse through the open and closed ones using the GitHub web UI.
+In order to report a vulnerability in a FINOS project, follow these steps:
 
-### Submit a new security vulnerability
-To submit a new vulnerability, please follow these steps:
-1. Identify the FINOS Project (project) related to the security vulnerability.
-2. If you cannot find her personal email, please ask [security@finos.org](mailto:security@finos.org)
-3. Email the Lead Maintainer privately with the description - and screenshots, if useful - of the vulnerability.
+1. Visit the "Security and quality" tab of the project repository, available at `github.com/finos/<project-name>/security`:
+<insert image here>
+2. Carefully read the project's `SECURITY.md` policy, in case any processes override what's described on this page:
+<insert image here>
+3. Follow the submission steps in the project's security policy. Usually, this means clicking the "Report a vulnerability" button and filling in the [requested details](#details-to-include).
+4. If the project doesn't have a SECURITY.md policy available, submit the vulnerability via email to a project Maintainer (ideally, the Lead Maintainer). You can find contact emails in the project's `MAINTAINERS.md` file. Also, CC the email to [security@finos.org](mailto:security@finos.org).
+5. If the project doesn't provide a contact email for a maintainer, submit the report directly to [security@finos.org](mailto:security@finos.org).
 
-**Sharing information. ** Information may be shared with domain experts (e.g. colleagues at your employer) at the discretion of the project's security team providing that it's made clear the information is not for public disclosure and that [security@finos.org](mailto:security@finos.org) or the Lead Maintainer must be copied on any communication regarding the vulnerability.
+**Important: Do NOT make a GitHub issue or discuss the vulnerability through public channels.**
+
+### Details to include
+
+When reporting a vulnerability, it's very helpful to provide as many details as possible, including:
+
+- **Impact:** _What kind of vulnerability is it? Who is impacted?_
+- **Patches:** _Has the problem been patched? What versions should users upgrade to?_
+- **Workarounds:** _Is there a way for users to fix or remediate the vulnerability without upgrading?_
+- **References:** _Are there any links users can visit to find out more?_
+- **Screenshots (if applicable):** _Which user flows demonstrate the problem?_
+
+### Vulnerability Remediation Process
+
+1. The project's team members work privately with the reporter to resolve the vulnerability.
+2. The affected FINOS project releases a new version including the fix.
+3. The vulnerability is publicly announced.
+
+### Browse security vulnerabilities for a project
+
+Published security vulnerabilities are available in the "Security and quality" tab at the repository's main page, accessible via `github.com/finos/<project-name>/security`.
+
+### Information Sharing
+
+If you would like to share vulnerability information with domain experts (e.g. co-workers), you must first ask the project's Security Team (maintainers, etc.) for permission. It should be made clear that the information is not for public disclosure and that [security@finos.org](mailto:security@finos.org) or the Lead Maintainer must be kept in the loop on any communication regarding the vulnerability.
 
 ## For FINOS Open Source Contributors
 
