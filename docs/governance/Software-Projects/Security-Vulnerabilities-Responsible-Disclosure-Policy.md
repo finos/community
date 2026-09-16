@@ -96,6 +96,12 @@ This is a sample `SECURITY.md` file that you may edit as appropriate and add to 
 3. Once a fix is available, a release will be made and the vulnerability will be publicly disclosed in accordance with the [FINOS policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure).
 ```
 
+Once a `SECURITY.md` file is added, you must enable private vulnerability reporting in your repository by going to **Settings** > **Advanced Security** > **Private Vunlerability Reporting** and clicking on "Enable":
+
+![Private Vulnerability Reporting](private-vulnerability-reporting.png)
+
+If you don't have access to this menu, email [security@finos.org](mailto:security@finos.org) to request private vulnerability reporting to be activated.
+
 ### Collecting project CVE list
 
 Since all CVE entries are labeled as security vulnerability, it is possible to use GitHub Issues UI to browse them. Alternatively, check the Advisories tab under the "Security and quality" tab of the project repository, also accessible at `github.com/finos/<project-name>/security/advisories`.
