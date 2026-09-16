@@ -77,7 +77,7 @@ Submitting a vulnerability report is identical to the process followed by projec
 
 To start leveraging GitHub's native disclosure and remediation process, you must add a `SECURITY.md` file describing the disclosure process.
 
-This is a sample `SECURITY.md` file that you may edit as appropriate and add to your project; just replace `PROJECT_NAME` and `PROJECT_URL` with your actual name and GitHub URL:
+This is a sample `SECURITY.md` file that you may edit as appropriate and add to your project; just replace `PROJECT_NAME` and `PROJECT_URL` with the actual project name and GitHub URL:
 
 ```markdown
 # Security Policy
@@ -97,48 +97,61 @@ This is a sample `SECURITY.md` file that you may edit as appropriate and add to 
 ```
 
 ### Collecting project CVE list
-Since all CVE entries are labeled as security vulnerability, it is possible to use GitHub Issues UI to browse them.
+
+Since all CVE entries are labeled as security vulnerability, it is possible to use GitHub Issues UI to browse them. Alternatively, check the Advisories tab under the "Security and quality" tab of the project repository, also accessible at `github.com/finos/<project-name>/security/advisories`.
 
 ### Managing new vulnerabilities
+
 A typical process for handling a new security vulnerability is as follows. Projects that wish to use other processes MAY do so, but **MUST** clearly and publicly document their process and have FINOS team review it ahead of time.
 
 #### Accepting a new vulnerability
-1. The person discovering the issue, the reporter, reports the vulnerability privately to the Lead Maintainer and cc's [security@finos.org](mailto:security@finos.org) (or sends the email directly to security@finos.org).
-2. The project team sends an e-mail to the original reporter to acknowledge the report, cc to [security@finos.org](mailto:security@finos.org).
-3. The project team investigates report and either rejects it or accepts it.
+
+1. The person discovering the issue, the reporter, reports the vulnerability privately via GitHub's native disclosure process. This automatically notifies the maintainers and [security@finos.org](mailto:security@finos.org),
+2. The project team sends an e-mail to the original reporter to acknowledge the report
+3. The project team investigates the report and either rejects it or accepts it.
+4. Optionally, the project team can edit the report if appropriate, and fill in or amend details including the affected/patched versions, severity and [CWE weaknesses](https://cwe.mitre.org/).
 
 #### Working on a fix
-1. The project team agrees the fix, the announcement and the release schedule with the reporter. The level of detail to include in the report is a matter of judgement. Generally, reports should contain enough information to enable people to assess the risk associated with the vulnerability for their system and no more. Steps to reproduce the vulnerability are not normally included.
-2. The project team commits the fix. No reference should be made to the commit being related to a security vulnerability.
-3. The project team creates a release that includes the fix.
+
+The reporter and maintainer team collaborate on a fix via GitHub's native vulnerability management system. As part of the process, they must:
+
+1. Create a temporary private fork by clicking on the "Create private fork" button in the draft advisory page
+2. Clone the fork, make a branch and commit a fix to the vulnerability **without referencing the security nature of the commits**
+3. Open a PR on the private fork, which will automatically show on the advisory page
+4. Review, approve and merge the PR
+5. Request a CVE from GitHub
+
+Once all of these have been completed, GitHub will assign a CVE and it will be officially published, and merged to the `main` branch. If no automated release tooling is available, the team must manually make a new release, and backport the fixes to previous release lines if appropriate.
 
 #### Apply fixes to all supported versions
+
 As soon as the project team finds and implements a fix for the vulnerability, all supported versions (most likely GitHub branches) can be patched and released.
 
+We highly recommend setting up release automation (Release Drafter, automatic version bumping) to simplify the process of backporting fixes to all active release branches. See [GitProxy's release-related workflows](https://github.com/finos/git-proxy/tree/main/.github/workflows) examples you can use in your own project.
+
+Here's an [example of a detailed release policy](https://git-proxy.finos.org/docs/development/releases/) that enabled maintainers to speed up their release process and spread the load across the team.
+
 #### Publishing
-1. The project team announces the release.
-2. The project team announces the vulnerability. The vulnerability announcement should be sent after, or at the same time as, the release announcement to the following destinations:
-    a. GitHub Issues, reporting the following info:
-        i. CVE ID in the title
-        ii. Apply label security vulnerability
-        iii. Specify which library is affected, if any
-        iv. Specify code line/block that causes the vulnerability
-        v. Specify vulnerability details, including link to CVE description
-        vi. Specify fix (high level)
-        vii. Specify affected and fixed released versions
-    b. The same destinations as the release announcement.
-    c. The vulnerability reporter.
-    d. [security@finos.org](mailto:security@finos.org)
-3. Additional requirements for the emails sent to the above lists are:
-    a. The subject must contain the name of the project and the CVE name(s), and should contain a short description of the issue(s), for example `Subject: [CVE-2007-5648] Apache Tomcat information disclosure vulnerability`
-    b. The message body must contain details of the vulnerability, similar to what will be sent to The Mitre Corporation in the next step (not just a URL link to the details)
-4. Any relevant project documentation page must be updated
-5. The log for the Git commit that applied the fix is updated to include the CVE number. Projects that use git as their primary source code control system should not do this as editing a pushed commit causes all sorts of problems.
+
+First, the team must release the patched version(s). Then, the following optional actions must be done **before** the vulnerability is published (via the GitHub Advisories UI):
+
+1. Emailing [security@finos.org](mailto:security@finos.org) about the public disclosure
+2. Notifying the original reporter about the disclosure
+3. Relevant documentation must be updated (though it's highly recommended to do this *within* the private fork)
+
+Note that FINOS and the original reporter are automatically notified by GitHub on any changes on the report status.
+
+The following optional actions must be done **after** the vulnerability is published:
+
+1. Creating follow-up issues to solve bugs that are out-of-scope for the original vulnerability
+2. Creating any issue that referencing the vulnerability directly (via links, name, etc.) or indirectly
 
 ## Automating security vulnerabilities
+
 FINOS provides multiple tools that adapt to languages and build platforms adopted by the project's codebase, please visit the [code validation page](https://community.finos.org/docs/development-infrastructure/code-validation/intro/). 
 
 ## Responsible Disclosure at Apache Software Foundation
+
 We took great inspiration from the work that the Apache Software Foundation have done; we started from there, then adapted processes and contents around our requirements; below the links describing the ASF responsible disclosure.
 - https://www.apache.org/security/
 - https://www.apache.org/security/committers.html
