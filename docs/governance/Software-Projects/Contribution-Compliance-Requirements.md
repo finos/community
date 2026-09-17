@@ -56,16 +56,14 @@ A `LICENSE` file must be present at the root of each project, and must contain t
 ### The NOTICE file
 A `NOTICE` file must be present at the root of each project, and must contain the copyright notices of each copyright holder who has contributed to the project. If you are contributing to an existing project, you should add (or update) your copyright notice in the `NOTICE` file. A sample `NOTICE` file (Markdown format) is provided in the [FINOS Software project blueprint](https://github.com/finos/software-project-blueprint). It must also contain any other attributions required by third-party dependencies (see below).  
 
-You should use this template for your `NOTICE` file:
+You should use this template for your `NOTICE` file (from the [FINOS Software project blueprint](https://github.com/finos/software-project-blueprint/blob/main/NOTICE)). Add a `Copyright` line for each copyright holder who has contributed to the project:
 ```
-[PROJECT_NAME] - FINOS
-Copyright [XXXX-XXXX] [Copyright holder 1 - name and email]
-Copyright [XXXX-XXXX] [Copyright holder 2 - name and email] ...
-Copyright [XXXX-XXXX] [Copyright holder N - name and email]
+{PROJECT_NAME} - FINOS
+Copyright {YYYY} - {CURRENT_YEAR} {NAME_OF_COPYRIGHT_OWNER} {EMAIL_OF_COPYRIGHT_OWNER}
 
 This product includes software developed at the Fintech Open Source Foundation (https://www.finos.org/).
- 
-[Other notices, as necessary]
+
+{OTHER_NOTICES}
 ```
 
 ### The CONTRIBUTING file
@@ -78,7 +76,7 @@ For [Graduated](/docs/governance/lifecycle-stages/graduated) projects, it's reco
 
 ```
 SPDX-License-Identifier: Apache-2.0
-Copyright [yyyy] FINOS [Project Name] contributors - see NOTICE file
+Copyright {YYYY} FINOS {PROJECT_NAME} contributors - see NOTICE file
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -97,19 +95,19 @@ If space is at a premium, you are welcome to use an abbreviated version like the
 
 ```
 SPDX-License-Identifier: Apache-2.0
-Copyright [yyyy] FINOS [Project Name] contributors - see NOTICE file
+Copyright {YYYY} FINOS {PROJECT_NAME} contributors - see NOTICE file
 ```
 
 ### SPDX information
 We encourage project teams to place a [SPDX-format](https://github.com/david-a-wheeler/spdx-tutorial#spdx-files) `LICENSE.spdx` file in the root of each project. SPDX is a standard for describing machine-readable license information about open source projects. For more information on SPDX, please see the [SPDX website](https://spdx.org/). See below for a basic example `LICENSE.spdx` file. For a tutorial on adding SPDX information to a project, [see here](https://github.com/david-a-wheeler/spdx-tutorial/blob/master/README.md).
 
 ```
-SPDXVersion: SPDX-2.1
+SPDXVersion: SPDX-2.0
 DataLicense: CC0-1.0
-Creator: John Smith (jsmith@acme.com)
-PackageName: example-project
-PackageOriginator: John Smith (jsmith@acme.com)
-PackageHomePage: https://github.com/finos-<program name>/example-project
+Creator: {NAME_OF_COPYRIGHT_OWNER}
+PackageName: {PROJECT_NAME}
+PackageOriginator: {NAME_OF_COPYRIGHT_OWNER}
+PackageHomePage: https://github.com/finos/{PROJECT_SLUG}
 PackageLicenseDeclared: Apache-2.0
 ```
 
