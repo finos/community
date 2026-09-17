@@ -314,10 +314,10 @@ In order to consolidate processes and tools around security vulnerabilities mana
 7. A [SECURITY.md](https://github.com/finos/software-project-blueprint/blob/main/SECURITY.md) file in the repository root, linking to the [FINOS Security Vulnerabilities Responsible Disclosure Policy](https://community.finos.org/docs/governance/software-projects/cve-responsible-disclosure/)
 8. Issue templates for bugs, feature requests and support questions , [defined in the `.github` folder](https://github.com/finos/software-project-blueprint/tree/master/.github/ISSUE_TEMPLATE)
 
-Placeholders are defined using the `{}` brackets.
+Placeholders use `{UPPER_SNAKE_CASE}` tokens throughout the blueprint.
 
 #### Creating a new repository
-Anyone can use the Project blueprint repository, simply accessing [https://github.com/finos/project-blueprint](https://github.com/finos/project-blueprint) and pressing the `Use this template` button and following instructions.
+Anyone can use the Project blueprint repository, simply accessing [https://github.com/finos/software-project-blueprint](https://github.com/finos/software-project-blueprint) and pressing the `Use this template` button and following instructions.
 
 The main `README.md` file contains instructions on how to replace placeholders across all blueprint files.
 
@@ -329,30 +329,33 @@ The project blueprint comes with a pre-definite website that is built using Docu
 
 Getting started is quite simple:
 
-1. Make sure that your GitHub repository includes the `docs/` and `website/` folder from the [project-blueprint](https://github.com/finos/project-blueprint)
+1. Make sure that your GitHub repository includes the `docs/` and `website/` folder from the [software-project-blueprint](https://github.com/finos/software-project-blueprint)
 2. Read our <a href={useBaseUrl('/docs/development-infrastructure/project-documentation')}>getting started guide</a> to understand more about Docusaurus`
 
 #### How to use this blueprint
-1. Visit on https://github.com/finos/project-blueprint
-2. Click on `Use this template` and follow instructions
-3. Copy the `README.template.md` file to your repository, and rename it to `README.md`.
-4. Search and replace the following tokens in the newly copied files:
+1. Visit https://github.com/finos/software-project-blueprint
+2. Click on `Use this template` and follow GitHub's instructions.
+3. In your new repository, copy `README.template.md` to `README.md` (replacing this file).
+4. Search and replace the following tokens across the copied files:
 
-  | Token                        | Replace with                                                      |
-  | ---------------------------- | ----------------------------------------------------------------- |
-  | `{project name}`             | The name of the FINOS Project, ie `Open Developer Platform` |
-  | `{project slug}`             | The name of the GitHub repository the project resides in, ie `software-project-blueprint` |
-  | `{yyyy}`                     | The year you started working on the code. |
-  | `{current year}`             | The current year. |
-  | `{name of copyright owner}`  | The copyright owner of the code (typically you or your employer). |
-  | `{email of copyright owner}` | The email address of the copyright owner of the code (if known). |
+  | Token | Replace with |
+  | ----- | ------------ |
+  | `{PROJECT_NAME}` | The name of the FINOS project, e.g. `Open Developer Platform` |
+  | `{PROJECT_SLUG}` | The GitHub repository name, e.g. `software-project-blueprint` |
+  | `{PROJECT_URL}` | The GitHub repository URL, e.g. `https://github.com/finos/software-project-blueprint` |
+  | `{PROJECT_MAILING_LIST}` | The project mailing list address, if any |
+  | `{YYYY}` | The year you started working on the code |
+  | `{CURRENT_YEAR}` | The current year |
+  | `{NAME_OF_COPYRIGHT_OWNER}` | The copyright owner of the code (typically you or your employer) |
+  | `{EMAIL_OF_COPYRIGHT_OWNER}` | The email address of the copyright owner of the code (if known) |
+  | `{OTHER_NOTICES}` | Additional NOTICE attributions required by dependencies, or remove this token |
 
-5. Open the `NOTICE` file in a text editor and either remove the `{Other notices, as necessary}` token, or [add attributions if required by your code's dependencies](/docs/governance/Software-Projects/license-categories).
-6. Open the `README.md` file in a text editor and complete the content as appropriate for your project.
-7. Open the `MAINTAINERS.md` file in a text editor and list all maintainers and their contact information.
+5. Open the `NOTICE` file and either remove `{OTHER_NOTICES}` or [add attributions if required by your code's dependencies](/docs/governance/Software-Projects/license-categories).
+6. Open `README.md` and complete the content as appropriate for your project.
+7. Open `MAINTAINERS.md` and add maintainer names, GitHub usernames, and email addresses.
 8. Add the [Apache license header to all of your source files](https://www.apache.org/licenses/LICENSE-2.0.html#apply).
 9. (optional) Remove the `EASYCLA_CHANGEME.md`, `.node-version`, and `renovate.json` files, if not applicable to your project.
-10. (optional) Remove the `docs/` and `website/` folders + the `netlify.toml` file, if you're not interested to have a project documentation website in place.
+10. (optional) Remove the `docs/` and `website/` folders + the `netlify.toml` file, if you do not need a project documentation website.
 11. Commit and push all of your changes.
 
 ### Automated and continuous quality scanning
