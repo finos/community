@@ -191,7 +191,7 @@ Finally, the image gets published to Docker Hub using the tags determined earlie
 
 A `docker-compose.yml` can be optionally used for using images locally and testing. This isn't required for deploying to Docker Hub.
 
-Here's an [example `docker-compose.yml` from GitProxy](https://github.com/finos/git-proxy/blob/main/docker-compose.yml) for reference.
+Here's an [example `docker-compose.yml` from GitProxy](https://github.com/finos/git-proxy/edit/main/test/e2e/docker-compose.yml) for reference.
 
 ## Verification
 
