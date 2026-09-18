@@ -177,9 +177,8 @@ Labels are very helpful to manage issues; each repository can define its own tax
 - Types - #53c43c
   - docs - Related to documentation
   - question - Further information is requested
-  - meeting - If an issue describes a meeting minute
+  - meeting - If an issue describes a meeting agenda or minutes
   - vote - If an issue describes a vote
-  - indexed - When meeting attendance (assignees) is tracked
 - Topics - #ffd4b7
   - github - GitHub related topic
   - docusaurus - Docusaurus related topic
@@ -270,26 +269,15 @@ A project needs:
 
 <img alt="meeting-issue-template-create" src={useBaseUrl('img/collab/issue-template-create.png')} />
 
-Meetings are one of the most used collaboration channels at FINOS, and minutes are very important, as they provide transparency across all project activities and decisions; you can read more in the [Running Good Meetings](/docs/governance/meeting-procedures) page; they are also very important for participants, as they are used to track meeting participation and therefore the activity of each individual and firm; all data is publicly available at metrics.finos.org
+Meetings are one of the most used collaboration channels at FINOS, and minutes are very important, as they provide transparency across all project activities and decisions. Follow the [Meeting Procedures](/docs/governance/meeting-procedures) for scheduling in LFX PCC, agendas, minutes, and AI summaries.
 
-FINOS provides a way to use GitHub Issues to manage meeting minutes. The person leading the meeting (or meeting leader) can create a new GitHub Issue for each meeting, following the [Meeting template provided by FINOS](https://github.com/finos/software-project-blueprint/issues/new?template=meeting-minutes.md) and leverage issue assignees to track meeting participants (see our public activity dashboards).
+Create a GitHub Issue for each meeting using the [Meeting template provided by FINOS](https://github.com/finos/software-project-blueprint/issues/new?template=meeting_minutes.yml). The issue is the public agenda and minutes record; do not use it to track attendance.
 
-- *Prior to the meeting* - 48 hours before, as per [meeting best practices](/docs/governance/meeting-procedures), the meeting leader creates a new GitHub Issue using...
-    - Meetings issue template
-    - `[MEETING]` title prefix
-    - `meeting` label
-- *At the beginning of the meeting* - the meeting leader posts the issue URL on the meeting chat and asks all participants to add a comment on the issue
-- *At the end of the meeting* - the meeting leader closes the issue, which will trigger the attendants the indexing process; when indexing is completed, the label indexed will be added to the issue.
-- *(Optional) After the meeting* - the meeting leader can remove the `indexed` label in order to remove meeting attendance from the index and make changes; in order to reindex the meeting, the `indexed` label can be re-added.
+- *Prior to the meeting* - the meeting leader creates a new GitHub Issue using the meetings issue template, a `[MEETING]` title prefix, and the `meeting` label, then circulates the issue as the agenda.
+- *At the beginning of the meeting* - the meeting leader posts the issue URL on the meeting chat.
+- *After the meeting* - review the LFX PCC Zoom AI summary, **anonymize** it, **publish** it, add the published summary URL to the issue, and close the issue.
 
 <img alt="meeting-issue" src={useBaseUrl('img/collab/meeting-issue.png')} />
-
-#### Corner cases
-
-- If a GitHub username cannot be added as issue assignee, it means that is not part of github.com/orgs/finos/people (the GitHub FINOS Org members); to work around this restriction, the GitHub user can add a hello comment to the issue, which will allow the meeting leader to do the assignment. In parallel, the GitHub user can sign a CLA with FINOS and request GitHub Org membership.
-- If a participant doesn't have a GitHub account, the meeting leader can add full name and affiliation in the issue description (see issue template).
-- If a GitHub username is not registered on FINOS internal database, it won't be indexed; in that case, the action will add a comment to the issue, with the list of users not being indexed and a mention to FINOS staff team.
-- Never reopen and close a meeting minutes issue! If a meeting issue is reopened and closed, after the meeting is held, the meeting date will be overridden with the current one ; if you need to reindex a meeting, indexed label as described above. If you're uncertain or want to revert changes, get in touch with FINOS staff via [help@finos.org](mailto:help@finos.org).
 
 #### Project setup
 A project needs:
@@ -364,7 +352,7 @@ FINOS provides some examples on https://github.com/finos/code-scanning to run co
 ## Other collaboration use cases
 
 ### Meeting Management
-FINOS can facilitate the scheduling of web meetings for our hosted projects and SIGs, using the Zoom platform. While we work on the integration of the LFX platform specifically the Project Control Center [Meeting Mangement](https://docs.linuxfoundation.org/lfx/project-control-center-pre-release/it-services-for-a-project/meetings) tool, please email [help@finos.org](mailto:help@finos.org) to request assistance. 
+FINOS project and SIG maintainers schedule their own Zoom meetings in the Linux Foundation [LFX Project Control Center (PCC) Meetings](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings) tool. Email [help@finos.org](mailto:help@finos.org) to be granted PCC access to your project, then follow the [FINOS Meeting Procedures](/docs/governance/meeting-procedures). 
 
 ### Mailing Lists (Google Groups)
 The Foundation provides mailing lists via the [Google Groups service](https://groups.google.com/a/finos.org/forum/#!myforums).  Email, as a lowest common denominator communication channel, is one of the best ways to reach the broadest cross-section of the community as possible.
