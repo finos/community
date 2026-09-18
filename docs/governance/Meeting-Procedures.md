@@ -48,7 +48,7 @@ Use these LFX guides for the product itself:
 * Hosts **must** set **Meeting Settings** as follows (**Send reminder email to participants** is optional):
   * **Show in Public Calendar** — on, so the meeting appears on the [FINOS Community Calendar](https://www.calendar.finos.org)
   * **Restrict to invited users** — off 
-  * **Early Join Time (minutes before start)** — `5`
+  * **Early Join Time (minutes before start)** — `10`
   * **Send reminder email to participants** — optional
   * **Auto-record from meeting start** — on
   * **Generate transcript** — on
@@ -57,7 +57,7 @@ Use these LFX guides for the product itself:
   * **Review AI summary before publishing?** — on
   * **Where should users see the link(s) to AI Summary and Recordings?** — **PCC only**
 
-![LFX PCC Meeting Settings with the FINOS required options. Send reminder email to participants is optional.](/img/pcc-meeting-settings.png)
+<img src="/img/pcc-meeting-settings.png" alt="LFX PCC Meeting Settings with the FINOS required options. Send reminder email to participants is optional." width="400" style="max-width: 100%; height: auto;" />
 
 ## Prepare and circulate an agenda
 
@@ -88,7 +88,7 @@ Use these LFX guides for the product itself:
 * Hosts **should** run the meeting according to the following best practices:
   * Ensure a good audio connection. Laptop audio is often worse than a phone call.
   * Minimize background noise. Mute yourself and (if necessary) other participants when you or they are not speaking.
-  * Open the conference call 5 minutes before the scheduled start time.
+  * Join and claim host before the call is scheduled to start.
   * Start the meeting 5 minutes after the scheduled start to give people time to join.
   * Keep the meeting to the agenda. Move off-topic discussions to the agenda for the next meeting, or the mailing list.
   * If a discussion becomes unproductive, move on. Ask the participants to send their proposals via issues/pull requests, on the mailing list or as agenda items for future meetings.
