@@ -46,7 +46,7 @@ Use these LFX guides for the product itself:
 * Hosts **must not** select the **Board** meeting type unless the meeting is an official FINOS Governing Board meeting.
 * LF recording, transcripts, and Zoom AI summaries in PCC may be used when no objections are raised. Do not admit third-party AI meeting bots or scribing services.
 * Hosts **must** set **Meeting Settings** as follows (**Send reminder email to participants** is optional):
-  * **Show in Public Calendar** — on, so the meeting appears on the [FINOS Community Calendar](https://www.calendar.finos.org)
+  * **Show in Public Calendar** — on, so the meeting appears on the [FINOS Community Calendar](https://calendar.finos.org)
   * **Restrict to invited users** — off 
   * **Early Join Time (minutes before start)** — `10`
   * **Send reminder email to participants** — optional
