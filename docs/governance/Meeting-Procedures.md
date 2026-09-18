@@ -57,7 +57,7 @@ Use these LFX guides for the product itself:
   * **Review AI summary before publishing?** — on
   * **Where should users see the link(s) to AI Summary and Recordings?** — **PCC only**
 
-<img src="/img/pcc-meeting-settings.png" alt="LFX PCC Meeting Settings with the FINOS required options. Send reminder email to participants is optional." width="400" style="max-width: 100%; height: auto;" />
+<img src="/img/pcc-meeting-settings.png" alt="LFX PCC Meeting Settings with the FINOS required options. Send reminder email to participants is optional." width="400" />
 
 ## Prepare and circulate an agenda
 
