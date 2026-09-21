@@ -1,6 +1,6 @@
 ---
 id: meeting-procedures
-title: Meetings of FINOS projects
+title: Project Meetings
 description: "How FINOS projects run meetings: LFX PCC self-serve scheduling, agendas, minutes, the public community calendar, and host best practices."
 ---
 
