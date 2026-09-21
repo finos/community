@@ -1,6 +1,6 @@
 ---
 id: cve-responsible-disclosure
-title: Vulnerability Disclosure Policy
+title: FINOS Security Vulnerabilities Responsible Disclosure Policy
 description: "Responsible disclosure for FINOS security issues: how reporters, maintainers, and users coordinate fixes, embargoes, and public communication about CVEs."
 ---
 :::caution
@@ -12,16 +12,16 @@ FINOS defines a **set of rules to manage the lifecycle of potential vulnerabilit
 1. Discretion for new and ongoing development activity around undisclosed security vulnerabilities
 2. Transparency and guidance around security vulnerabilities that have been identified, patched and released as new versions
 
-We have step-by-step guides on [how contributors can manage security vulnerabilities](#for-finos-open-source-contributors) and [how anyone can privately submit an undisclosed security vulnerability](#for-finos-open-source-consumers) to a FINOS project.
+It includes step-by-step guides on [how contributors can manage security vulnerabilities](#for-finos-open-source-contributors) and [how anyone can privately submit an undisclosed security vulnerability](#for-finos-open-source-consumers) to a FINOS project.
 
 ## What are Common Vulnerabilities and Exposures
 The **Common Vulnerabilities and Exposures** (or [CVE](https://cve.mitre.org/cve/)) is a dictionary that provides definitions for publicly disclosed cybersecurity [vulnerabilities](https://cve.mitre.org/about/terminology.html#vulnerability) and [exposures](https://cve.mitre.org/about/terminology.html#exposure), although the term is normally used to identify CVE entries; each entry is comprised of an identification number, a description, and at least one public reference, you can check [an example on the cla-bot project](https://github.com/finos/cla-bot/issues/157). Please note that the term security vulnerability also comprises undisclosed ones, as opposed to CVEs, which only refer to publicly disclosed entries.
 
-## For FINOS Open Source Consumers
+:::danger
+No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
+:::
 
-**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
-
-### Reporting a Vulnerability
+## Reporting a Vulnerability
 
 In order to report a vulnerability in a FINOS project, follow these steps:
 
@@ -37,7 +37,9 @@ In order to report a vulnerability in a FINOS project, follow these steps:
 4. If the project doesn't have a SECURITY.md policy available and the "Report a vulnerability" button is not enabled, submit the vulnerability via email to a project Maintainer (ideally, the Lead Maintainer). You can find contact emails in the project's `MAINTAINERS.md` file. Also, CC the email to [security@finos.org](mailto:security@finos.org).
 5. If the project doesn't provide a contact email for a maintainer, submit the report directly to [security@finos.org](mailto:security@finos.org).
 
-**Important: Do NOT make a GitHub issue or discuss the vulnerability through public channels.**
+:::danger
+Do NOT make a GitHub issue or discuss the vulnerability through public channels.
+:::
 
 ### Details to include
 
@@ -49,7 +51,7 @@ When reporting a vulnerability, it's very helpful to provide as many details as 
 - **References:** _Are there any links users can visit to find out more?_
 - **Screenshots (if applicable):** _Which user flows demonstrate the problem?_
 
-### Vulnerability Remediation Process
+### Vulnerability remediation process
 
 1. The project's team members work privately with the reporter to resolve the vulnerability.
 2. The affected FINOS project releases a new version including the fix.
@@ -61,17 +63,11 @@ For more details, see how maintainers [Manage new vulnerabilities](#managing-new
 
 Published security vulnerabilities are available in the "Security and quality" tab at the repository's main page, accessible via `github.com/finos/<project-name>/security`.
 
-### Information Sharing
+### Information sharing
 
 If you would like to share vulnerability information with domain experts (e.g. co-workers), you must first ask the project's Security Team (maintainers, etc.) for permission. It should be made clear that the information is not for public disclosure and that [security@finos.org](mailto:security@finos.org) or the Lead Maintainer must be kept in the loop on any communication regarding the vulnerability.
 
-## For FINOS Open Source Contributors
-
-**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
-
-### Reporting a Vulnerability
-
-Submitting a vulnerability report is identical to the process followed by project Consumers. See [the guide above](#for-finos-open-source-consumers) for reference.
+## FINOS Projects Security Posture and Maintainer Obligations
 
 ### Setting up responsible disclosure
 
@@ -152,12 +148,6 @@ The following optional actions must be done **after** the vulnerability is publi
 1. Creating follow-up issues to solve bugs that are out-of-scope for the original vulnerability
 2. Creating any issue that referencing the vulnerability directly (via links, name, etc.) or indirectly
 
-## Automating security vulnerabilities
+## Automating security vulnerabilities scanning
 
-FINOS provides multiple tools that adapt to languages and build platforms adopted by the project's codebase, please visit the [code validation page](https://community.finos.org/docs/development-infrastructure/code-validation/intro/). 
-
-## Responsible Disclosure at Apache Software Foundation
-
-We took great inspiration from the work that the Apache Software Foundation have done; we started from there, then adapted processes and contents around our requirements; below the links describing the ASF responsible disclosure.
-- https://www.apache.org/security/
-- https://www.apache.org/security/committers.html
+FINOS provides multiple tools that adapt to languages and build platforms adopted by the project's codebase, please visit the [code validation page](https://community.finos.org/docs/development-infrastructure/code-validation/intro/).
