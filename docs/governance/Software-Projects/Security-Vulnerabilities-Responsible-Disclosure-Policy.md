@@ -12,16 +12,15 @@ FINOS defines a **set of rules to manage the lifecycle of potential vulnerabilit
 1. Discretion for new and ongoing development activity around undisclosed security vulnerabilities
 2. Transparency and guidance around security vulnerabilities that have been identified, patched and released as new versions
 
-We have step-by-step guides on [how contributors can manage security vulnerabilities](#for-finos-open-source-contributors) and [how anyone can privately submit an undisclosed security vulnerability](#for-finos-open-source-consumers) to a FINOS project.
+It includes step-by-step guides on [how contributors can manage security vulnerabilities](#for-finos-open-source-contributors) and [how anyone can privately submit an undisclosed security vulnerability](#for-finos-open-source-consumers) to a FINOS project.
 
 ## What are Common Vulnerabilities and Exposures
 The **Common Vulnerabilities and Exposures** (or [CVE](https://cve.mitre.org/cve/)) is a dictionary that provides definitions for publicly disclosed cybersecurity [vulnerabilities](https://cve.mitre.org/about/terminology.html#vulnerability) and [exposures](https://cve.mitre.org/about/terminology.html#exposure), although the term is normally used to identify CVE entries; each entry is comprised of an identification number, a description, and at least one public reference, you can check [an example on the cla-bot project](https://github.com/finos/cla-bot/issues/157). Please note that the term security vulnerability also comprises undisclosed ones, as opposed to CVEs, which only refer to publicly disclosed entries.
 
-## For FINOS Open Source Consumers
+> [!IMPORTANT]
+> No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
 
-**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
-
-### Reporting a Vulnerability
+## Reporting a Vulnerability
 
 In order to report a vulnerability in a FINOS project, follow these steps:
 
@@ -49,7 +48,7 @@ When reporting a vulnerability, it's very helpful to provide as many details as 
 - **References:** _Are there any links users can visit to find out more?_
 - **Screenshots (if applicable):** _Which user flows demonstrate the problem?_
 
-### Vulnerability Remediation Process
+### Vulnerability remediation process
 
 1. The project's team members work privately with the reporter to resolve the vulnerability.
 2. The affected FINOS project releases a new version including the fix.
@@ -61,17 +60,11 @@ For more details, see how maintainers [Manage new vulnerabilities](#managing-new
 
 Published security vulnerabilities are available in the "Security and quality" tab at the repository's main page, accessible via `github.com/finos/<project-name>/security`.
 
-### Information Sharing
+### Information sharing
 
 If you would like to share vulnerability information with domain experts (e.g. co-workers), you must first ask the project's Security Team (maintainers, etc.) for permission. It should be made clear that the information is not for public disclosure and that [security@finos.org](mailto:security@finos.org) or the Lead Maintainer must be kept in the loop on any communication regarding the vulnerability.
 
-## For FINOS Open Source Contributors
-
-**IMPORTANT!** No information should be made public about the vulnerability until it is formally announced at the end of this process. Do NOT create a GitHub Issue to track the vulnerability, since that will make the issue public. Commit messages should not make ANY reference to the security nature of the commit.
-
-### Reporting a Vulnerability
-
-Submitting a vulnerability report is identical to the process followed by project Consumers. See [the guide above](#for-finos-open-source-consumers) for reference.
+## FINOS Projects Security Posture and Maintainer Obligations
 
 ### Setting up responsible disclosure
 
