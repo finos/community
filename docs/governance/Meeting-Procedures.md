@@ -45,7 +45,7 @@ Use these LFX guides for the product itself:
 * Hosts **should** share the host key with at least one backup host in PCC so the call can proceed if the primary host is unavailable.
 * Hosts **must not** select the **Board** meeting type unless the meeting is an official FINOS Governing Board meeting.
 * LF recording, transcripts, and Zoom AI summaries in PCC may be used when no objections are raised. Do not admit third-party AI meeting bots or scribing services.
-* Hosts **must** set **Meeting Settings** as follows (**Send reminder email to participants** is optional):
+* Hosts **must** set **Meeting Settings** as follows (**See screenshot below**):
   * **Show in Public Calendar** — on, so the meeting appears on the [FINOS Community Calendar](https://calendar.finos.org)
   * **Restrict to invited users** — off 
   * **Early Join Time (minutes before start)** — `10`
