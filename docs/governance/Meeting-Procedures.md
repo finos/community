@@ -38,7 +38,7 @@ Use these LFX guides for the product itself:
 * [Manage meetings](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/manage-meetings) and [cancel meetings](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/delete-meetings)
 * [Meetings FAQs](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/pcc-faqs/meetings-faqs)
 
-### FINOS expectations when you schedule
+### Expectations when scheduling a meeting
 
 * Hosts **should** schedule meetings at least 7 days in advance, preferably at a time that works for most participants.
 * Hosts **should** use Zoom via LFX PCC unless all members are able and prefer to use another system.
@@ -80,6 +80,7 @@ Use these LFX guides for the product itself:
 
 ## Run the meeting
 
+* Hosts **should** claim the Zoom `host` role. See [Host the Zoom meeting](#host-the-zoom-meeting) below.
 * Hosts **must** ensure that the meeting adheres to the [LF Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy).
 * Hosts **must** ensure the [FINOS Code of Conduct](https://community.finos.org/docs/governance/code-of-conduct/) is adhered to at all times and remove anyone from the call who does not adhere to it.
 * Hosts **should** display the [Antitrust Policy summary slide](/Compliance-Slides/Antitrust-Compliance-Slide.pdf) at the beginning of the meeting.
