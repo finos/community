@@ -1,6 +1,6 @@
 ---
 id: cve-responsible-disclosure
-title: Vulnerability Disclosure Policy
+title: FINOS Security Vulnerabilities Responsible Disclosure Policy
 description: "Responsible disclosure for FINOS security issues: how reporters, maintainers, and users coordinate fixes, embargoes, and public communication about CVEs."
 ---
 :::caution
