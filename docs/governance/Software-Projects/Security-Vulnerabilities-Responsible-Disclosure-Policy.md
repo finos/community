@@ -34,7 +34,7 @@ In order to report a vulnerability in a FINOS project, follow these steps:
     ![Security Policy](security-policy.png)
 
 3. Follow the submission steps in the project's security policy. Usually, this means clicking the "Report a vulnerability" button and filling in the [requested details](#details-to-include).
-4. If the project doesn't have a SECURITY.md policy available, submit the vulnerability via email to a project Maintainer (ideally, the Lead Maintainer). You can find contact emails in the project's `MAINTAINERS.md` file. Also, CC the email to [security@finos.org](mailto:security@finos.org).
+4. If the project doesn't have a SECURITY.md policy available and the "Report a vulnerability" button is not enabled, submit the vulnerability via email to a project Maintainer (ideally, the Lead Maintainer). You can find contact emails in the project's `MAINTAINERS.md` file. Also, CC the email to [security@finos.org](mailto:security@finos.org).
 5. If the project doesn't provide a contact email for a maintainer, submit the report directly to [security@finos.org](mailto:security@finos.org).
 
 **Important: Do NOT make a GitHub issue or discuss the vulnerability through public channels.**
