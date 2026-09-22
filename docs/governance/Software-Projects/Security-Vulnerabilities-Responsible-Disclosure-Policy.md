@@ -73,12 +73,14 @@ If you would like to share vulnerability information with domain experts (e.g. c
 
 To start leveraging GitHub's native disclosure and remediation process, you must add a `SECURITY.md` file describing the disclosure process.
 
-This is a sample `SECURITY.md` file that you may edit as appropriate and add to your project; just replace `PROJECT_NAME` and `PROJECT_URL` with the actual project name and GitHub URL:
+This is a sample `SECURITY.md` file that you may edit as appropriate and add to your project; just replace `PROJECT_URL` with the actual GitHub URL:
 
 ```markdown
 # Security Policy
 
-{PROJECT_NAME} supports responsible disclosure of security vulnerabilities and adheres to the [FINOS Security Vulnerabilities Policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure). If you find something you believe to be a security issue in {PROJECT_NAME}, we encourage and appreciate your report. Please report the issue privately to the [project maintainers]({PROEJCT_URL}/blob/main/MAINTAINERS.md) using one of the following methods:
+FINOS projects support responsible disclosure of security vulnerabilities and adheres to the [FINOS Security Vulnerabilities Responsible Disclosure Policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure). 
+
+If you find something you believe to be a security issue, we encourage and appreciate your report. Please report the issue privately to the [project maintainers]({PROJECT_URL}/blob/main/MAINTAINERS.md) using one of the following methods:
 
 ## Reporting a Vulnerability
 
@@ -88,8 +90,21 @@ This is a sample `SECURITY.md` file that you may edit as appropriate and add to 
 ## Vulnerability Process
 
 1. **Report the vulnerability privately** using one of the methods above. Do not create a public GitHub Issue or make any public reference to the vulnerability.
-2. The project team will acknowledge receipt of your report and triage the issue. If a vulnerability is confirmed, the team will work with you to investigate and resolve it.
+2. The project team will acknowledge receipt of your report and triage the issue. If a vulnerability is confirmed, the team will work with you to investigate and resolve it. *(Note: Maintainers must review the escalation requirements below during triage).*
 3. Once a fix is available, a release will be made and the vulnerability will be publicly disclosed in accordance with the [FINOS policy](https://community.finos.org/docs/governance/Software-Projects/cve-responsible-disclosure).
+
+## CRA Escalation (For Maintainers)
+
+This project is supported under the Linux Foundation CRA stewardship framework, as described at [https://www.linuxfoundation.org/security](https://www.linuxfoundation.org/security). Security vulnerabilities should be reported through the mechanisms described below, which we will coordinate with our CRA steward. For actively exploited vulnerabilities and severe incidents that may require CRA escalation, please use the project’s emergency security reporting mechanisms as appropriate.
+
+**Project maintainers MUST escalate** the issue to the LF steward at [steward@linuxfoundation.org](mailto:steward@linuxfoundation.org) if the project experiences either of the following:
+
+* **Actively exploited vulnerabilities:** a security vulnerability where the project has reliable evidence that a malicious actor has exploited it.
+* **Severe incident:** a security compromise of the project’s own IT infrastructure.
+
+Ordinary vulnerabilities with no evidence of exploitation are not CRA escalation events. Escalate those that are actively exploited.
+
+
 ```
 
 Once a `SECURITY.md` file is added, you must enable private vulnerability reporting in your repository by going to **Settings** > **Advanced Security** > **Private Vunlerability Reporting** and clicking on "Enable":
