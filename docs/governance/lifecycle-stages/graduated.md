@@ -14,7 +14,7 @@ Foundation-hosted projects are expected to provide a clear indication to visitor
 [![FINOS - Graduated](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-graduated.svg)](https://community.finos.org/docs/governance/lifecycle-stages/graduated)
 ```
 
-See here for a list of [FINOS Graduated Projects](https://landscape.finos.org/?group=undefined&view-mode=grid&project=active). 
+See here for a list of [FINOS Graduated Projects](https://landscape.finos.org/?group=undefined&view-mode=grid&project=graduated). 
 
 ## Definition
 
