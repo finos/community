@@ -113,6 +113,19 @@ Once a `SECURITY.md` file is added, you must enable private vulnerability report
 
 If you don't have access to this menu, email [security@finos.org](mailto:security@finos.org) to request private vulnerability reporting to be activated.
 
+### CRA escalation responsibilities
+
+FINOS projects are supported under the Linux Foundation [CRA stewardship framework](https://www.linuxfoundation.org/security). Maintainers handle ordinary vulnerability reports through the processes on this page and with [security@finos.org](mailto:security@finos.org). Certain events require escalation to the LF CRA steward.
+
+**Project maintainers MUST escalate** the issue to the LF steward at [steward@linuxfoundation.org](mailto:steward@linuxfoundation.org), and CC [security@finos.org](mailto:security@finos.org), if the project experiences either of the following:
+
+* **Actively exploited vulnerabilities:** a security vulnerability where the project has reliable evidence that a malicious actor has exploited it.
+* **Severe incident:** a security compromise of the project's own IT infrastructure.
+
+Ordinary vulnerabilities with no evidence of exploitation are not CRA escalation events. Escalate only those that are actively exploited, or that involve a severe incident as defined above.
+
+Maintainers must review these criteria during triage of every vulnerability report. Projects MUST document CRA escalation guidance in their `SECURITY.md` file (see the [sample above](#setting-up-responsible-disclosure)).
+
 ### Collecting project CVE list
 
 Since all CVE entries are labeled as security vulnerability, it is possible to use GitHub Issues UI to browse them. Alternatively, check the Advisories tab under the "Security and quality" tab of the project repository, also accessible at `github.com/finos/<project-name>/security/advisories`.
@@ -125,7 +138,7 @@ A typical process for handling a new security vulnerability is as follows. Proje
 
 1. The person discovering the issue, the reporter, reports the vulnerability privately via GitHub's native disclosure process. This automatically notifies the maintainers and [security@finos.org](mailto:security@finos.org),
 2. The project team sends an e-mail to the original reporter to acknowledge the report
-3. The project team investigates the report and either rejects it or accepts it.
+3. The project team investigates the report and either rejects it or accepts it. During triage, maintainers **MUST** review the [CRA escalation criteria](#cra-escalation-responsibilities) and escalate to the LF steward when required.
 4. Optionally, the project team can edit the report if appropriate, and fill in or amend details including the affected/patched versions, severity and [CWE weaknesses](https://cwe.mitre.org/).
 
 #### Working on a fix
