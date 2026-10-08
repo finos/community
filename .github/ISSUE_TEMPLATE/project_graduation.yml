@@ -133,8 +133,6 @@ body:
           required: true
         - label: "Two or more end-user adoption stories or case studies are available for public sharing"
           required: true
-        - label: "Project Team has worked with FINOS Staff to create a community sustainability and 'Go To Market' strategy"
-          required: true
 
   - type: textarea
     id: adoption_evidence
