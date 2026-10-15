@@ -4,7 +4,7 @@ title: Roadmap guidelines
 description: "Guidelines for writing roadmaps for FINOS projects: achieving consensus between contributing organizations and focusing development efforts on shared high-priority features."
 ---
 
-A roadmap is an essential tool to make sure contributors and maintainers align their efforts to the collective needs of the community. It is also a [requirement for incubating projects](/docs/governance/lifecycle-stages/incubating.md#incubating-acceptance-requirements). Meanwhile, adhering to the roadmap is a [requirement for graduation](/docs/governance/lifecycle-stages/graduated.md).
+A roadmap is an essential tool to make sure contributors and maintainers align their efforts to the collective needs of the community. It is also a [requirement for incubating projects](/docs/governance/lifecycle-stages/incubating#incubating-acceptance-requirements). Meanwhile, adhering to the roadmap is a [requirement for graduation](/docs/governance/lifecycle-stages/graduated).
 
 ## Roadmap meeting
 
@@ -256,6 +256,6 @@ This issue is reviewed at each roadmap meeting. Maintainers will update the tier
 
 ## Adhering to the roadmap
 
-Roadmap adherence, is a requirement not just for graduation but also to [maintain graduated status](/docs/governance//lifecycle-stages/graduated.md#ongoing-maintenance-requirements). Thus, we recommend holding regular roadmap meetings (at least once per quarter), to capture the community's evolving needs and ensure continuous alignment of the project's development efforts.
+Roadmap adherence, is a requirement not just for graduation but also to [maintain graduated status](/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements). Thus, we recommend holding regular roadmap meetings (at least once per quarter), to capture the community's evolving needs and ensure continuous alignment of the project's development efforts.
 
 The roadmap template includes a "Next review" field to allow scheduling roadmap revisions. However, we encourage maintainers to pay attention and update the status of the roadmap issue as often as they consider appropriate (ideally, right after each bi-weekly community call).

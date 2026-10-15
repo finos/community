@@ -35,6 +35,8 @@ Once established, Labs projects are expected to prioritise some or all of the fo
 3. Construction of an implementation timeline or additions to the project roadmap
 4. Development and testing.
 
+When the project is ready to publish the roadmap, follow the [roadmap guidelines](/docs/governance/roadmap-guidelines). A public roadmap is part of the [Incubating acceptance requirements](/docs/governance/lifecycle-stages/incubating#incubating-acceptance-requirements).
+
 ## How to apply for FINOS Labs
 
 To be accepted, Labs projects must comply with formal [FINOS Labs Acceptance Requirements](/docs/governance/lifecycle-stages/labs#labs-acceptance-requirements) by the [Technical Oversight Committee (TOC)](https://github.com/finos/technical-oversight-committee) and enforced by the FINOS staff. After acceptance, they must also adhere to a short list [FINOS Labs ongoing maintainance requirements](/docs/governance/lifecycle-stages/labs#labs-ongoing-maintenance-requirements).

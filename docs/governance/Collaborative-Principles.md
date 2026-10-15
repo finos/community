@@ -8,14 +8,14 @@ FINOS technical projects are free to determine their own governance so long as i
 
 ## Project materials and communication
 
-Open source projects function best when their code, documentation, and roadmaps are readily accessible and up-to-date, and when the project maintainers are responsive to the community. FINOS projects are expected to:
+Open source projects function best when their code, documentation, and [roadmaps](/docs/governance/roadmap-guidelines) are readily accessible and up-to-date, and when the project maintainers are responsive to the community. FINOS projects are expected to:
 * maintain all project artifacts (source code, standards documents, etc.) in a public repository
 * maintain a public, current list of issues/tasks and their priority
 * respond in a timely manner to issues raised by the community via the project's issue tracker
 * ensure all commits and Pull Requests are clearly tracked against an issue
 * respond to all pull requests in a timely manner, clearly communicating any issues
 * participate actively in the project's chosen communications forum (e.g. mailing list, slack instance, etc.)
-* provide an opportunity for all community members to participate in conversations or meetings about the project roadmap and priorities
+* provide an opportunity for all community members to participate in conversations or meetings about the [project roadmap and priorities](/docs/governance/roadmap-guidelines#roadmap-meeting)
 * rely only on free and open source (or at least free-to-use) tools and file formats, to the extent possible
 * communicate major events, such as significant design changes, to the community clearly and in advance
 

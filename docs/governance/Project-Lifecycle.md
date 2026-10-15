@@ -32,6 +32,8 @@ Projects in FINOS can be in one of the following lifecycle stages:
 
 Please review individual lifecycle stage pages for detailed information about what each stage represents for consumers, what are the criteria and ongoing requirements for projects to be in a lifecycle stage and instructions for maintainers how to apply for each stage.
 
+Incubating and graduated projects must keep a public roadmap to align their development. The [roadmap guidelines](/docs/governance/roadmap-guidelines) cover the roadmap meeting, the issue templates, and how to keep the roadmap updated.
+
 # FINOS Lifecycle Governance
 
 Per [TOC responsibilities](https://github.com/finos/technical-oversight-committee/blob/main/operations/governance.md#responsibilities), the [TOC](https://github.com/finos/technical-oversight-committee/) is responsible for:

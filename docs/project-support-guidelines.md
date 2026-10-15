@@ -45,7 +45,7 @@ description: "What FINOS provides by lifecycle stage: legal, security scanning, 
 |Set up project collaboration board|✓|✗|✓|✗|✓|✗|✗|||
 |Member reach out|✓(Proactive)|✓(Digest)|✓(Proactive)|✓(Digest)|✓(Proactive)|✓(Digest)|✗|||
 |Requirement to present progress (after focus) to Board of Directors|✓|✗|✓|✗|✓|✗|✗|||
-|Roadmap construction support|✓|✗|✓|✗|✓|✗|✗|||
+|[Roadmap construction support](/docs/governance/roadmap-guidelines)|✓|✗|✓|✗|✓|✗|✗|||
 |Versioning, backward compatibility advisory|✓|✗|✓(initial assistance)|✗|✓|✗|✗|||
 |Community building strategy ("good first issues", what events to run, other tactics to grow community)|✓|✗|✓|✗|✓|✗|N/A|||
 |**Project Management**||||||||||

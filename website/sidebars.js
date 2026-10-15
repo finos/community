@@ -30,6 +30,11 @@ module.exports = {
             "governance/lifecycle-stages/incubating",
             "governance/lifecycle-stages/graduated",
             "governance/lifecycle-stages/archived",
+            {
+              type: "link",
+              label: "Roadmap guidelines",
+              href: "/docs/governance/roadmap-guidelines"
+            },
           ]
       },
       {
@@ -64,6 +69,7 @@ module.exports = {
         label: 'Basics',
         items: [
           "governance/collaborative-principles",
+          "governance/roadmap-guidelines",
           "collaboration-infrastructure",
           "development-infrastructure/project-documentation",
           "finos-contributors-cheatsheet",
