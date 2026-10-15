@@ -266,6 +266,6 @@ Each roadmap item can be divided into sub-issues representing the individual tas
 
 Then, you can group each issue into [**Milestones**](https://guides.github.com/features/issues/) to organize future releases. [**GitHub project boards**](https://help.github.com/en/articles/about-project-boards) let you display that as a Kanban board across a list of predefined states to track development:
 
-<img alt="milestone-example" src={useBaseUrl('img/collab/milestone-example.png')} />
+<img alt="milestone-example" src="/img/collab/milestone-example.png" />
 
-Although it may seem redundant to maintain a project board along with the roadmap issue, remember that the roadmap is publicly accessible: it's a reference point for potential adopters, new contributors and long-time contributros alike.
+Although it may seem redundant to maintain a project board along with the roadmap issue, remember that the roadmap is publicly accessible: it's a reference point for potential adopters, new contributors and long-time contributors alike.
