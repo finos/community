@@ -259,3 +259,13 @@ This issue is reviewed at each roadmap meeting. Maintainers will update the tier
 Roadmap adherence, is a requirement not just for graduation but also to [maintain graduated status](/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements). Thus, we recommend holding regular roadmap meetings (at least once per quarter), to capture the community's evolving needs and ensure continuous alignment of the project's development efforts.
 
 The roadmap template includes a "Next review" field to allow scheduling roadmap revisions. However, we encourage maintainers to pay attention and update the status of the roadmap issue as often as they consider appropriate (ideally, right after each bi-weekly community call).
+
+### Milestones and sub-issues
+
+Each roadmap item can be divided into sub-issues representing the individual tasks required to fulfill its requirements.
+
+Then, you can group each issue into [**Milestones**](https://guides.github.com/features/issues/) to organize future releases. [**GitHub project boards**](https://help.github.com/en/articles/about-project-boards) let you display that as a Kanban board across a list of predefined states to track development:
+
+<img alt="milestone-example" src={useBaseUrl('img/collab/milestone-example.png')} />
+
+Although it may seem redundant to maintain a project board along with the roadmap issue, remember that the roadmap is publicly accessible: it's a reference point for potential adopters, new contributors and long-time contributros alike.
