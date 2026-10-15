@@ -33,6 +33,16 @@ Given the significant adoption of Docusaurus within FINOS projects, it has becom
 
 The full Docusaurus documentation can be found on the [Docusaurus website](https://docusaurus.io/).
 
+### Website dependency updates
+
+Website dependencies are excluded from OSV scans by default. If not, vulnerabilities negatively impact the health of the project as shown in [LFX Insights](https://insights.linuxfoundation.org) and [OSSF Scorecard](https://scorecard.dev/) even though the website is never actually shipped to the users.
+
+Note that [Docusaurus](https://github.com/facebook/docusaurus) patches often get published weeks or months after the vulnerable dependencies are detected. This means that automated dependency management tools like Dependabot are unable to quickly fix them and improve the project health score.
+
+If your repository already includes a Docusaurus website, copy [`osv-scanner.toml`](https://github.com/finos/software-project-blueprint/blob/main/website/osv-scanner.toml) into the `website` directory.
+
+Although not recommended, if you prefer to include website vulnerabilities in third-party scans, delete the [`osv-scanner.toml`](https://github.com/jescalada/software-project-blueprint/blob/website-osv-scanner-config/website/osv-scanner.toml) file in the website root directory.
+
 ### Get Started in 5 Minutes
 
 :::info
@@ -71,6 +81,7 @@ Your project file structure should look something like this:
       css/
       img/
     docusaurus.config.js
+    osv-scanner.toml
     package.json
     sidebars.js
   netlify.toml  
