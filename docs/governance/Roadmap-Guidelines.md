@@ -254,3 +254,8 @@ This issue is reviewed at each roadmap meeting. Maintainers will update the tier
 
 ```
 
+## Adhering to the roadmap
+
+Roadmap adherence, is a requirement not just for graduation but also to [maintain graduated status](/docs/governance//lifecycle-stages/graduated.md#ongoing-maintenance-requirements). Thus, we recommend holding regular roadmap meetings (at least once per quarter), to capture the community's evolving needs and ensure continuous alignment of the project's development efforts.
+
+The roadmap template includes a "Next review" field to allow scheduling roadmap revisions. However, we encourage maintainers to pay attention and update the status of the roadmap issue as often as they consider appropriate (ideally, right after each bi-weekly community call).
