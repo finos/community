@@ -28,7 +28,7 @@ This indicates to potential consumers that the project has reached a level of ma
 
 
 ## Objectives
-The objectives of the Graduated lifecycle stage are to for project team to predictably execute on an ongoing roadmap of features and bug fixes informed by feedback from the project's user base, and continue growing its community of adopters and contributors in financial services.
+The objectives of the Graduated lifecycle stage are to for project team to predictably execute on an ongoing [roadmap](/docs/governance/roadmap-guidelines) of features and bug fixes informed by feedback from the project's user base, and continue growing its community of adopters and contributors in financial services.
 
 While development activities in this stage are largely established and self-sufficient, in recognition of the achievement and to sustain project adoption, in this stage projects will receive the highest level of visibility FINOS in marketing, events, community engagement platform.
 
@@ -44,7 +44,7 @@ Any project maintainer may request Graduation by opening a [project graduation r
 ### Graduated Acceptance Requirements
 
 - All Incubation maintenance requirements must be met in addition to the following:
-- The project has adhered to its roadmap during Incubation
+- The project has adhered to its [roadmap](/docs/governance/roadmap-guidelines) during Incubation
 - The project is self-sufficient without significant support from FINOS staff
 - Project has made a production-ready major release, and announced it to [announce@lists.finos.org](mailto:announce@lists.finos.org). It's recommended a project deploy a `v1.0.0` or higher version, a generally accepted signal of a stable, production-ready version, before applying.
 - Maintainers from at least **three** different organizations, **one** of which must be a FINOS member
@@ -59,7 +59,7 @@ Any project maintainer may request Graduation by opening a [project graduation r
 
 The following must remain true for _Graduated_ projects at all times. A Health Review from the TOC will be executed every six months. Project support will be offered in the event that a project is found to be out of compliance. If a project remains out of compliance for three consecutive Health Reviews, it will qualify for archival.
 
-- All feature work adheres to a public roadmap
+- All feature work adheres to a [public roadmap](/docs/governance/roadmap-guidelines)
 - Demonstrated progress against the Community Development Plan milestones
 - Demonstrated adherence to **Maturity Level 3** of the [Open Source Project Security Baseline](https://baseline.openssf.org/)
 - All Graduated project starting from `v1.0.0` upward using [Semantic Versioning](http://semver.org/) ("semver"), specifically must follow the below approach to provide robust expectations for consumers:

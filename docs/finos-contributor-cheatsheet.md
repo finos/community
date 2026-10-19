@@ -13,6 +13,10 @@ Where a project uses CLA, [EasyCLA](/docs/governance/Software-Projects/easycla) 
 
 Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)
 
+## Project roadmap
+
+Before you propose a new feature, read the project's pinned roadmap issue so your work matches what the community has already prioritized. To put your organization's requests on that list, comment with them in priority order, or join the roadmap meeting. See the [roadmap guidelines](/docs/governance/roadmap-guidelines) for more details.
+
 ## Contributing Issues
 
 ### Prerequisites

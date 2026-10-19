@@ -13,6 +13,7 @@ https://user-images.githubusercontent.com/6029572/159291495-3170c159-04a6-4b75-a
 - Use GitHub Issues to create a backlog of well described work e.g. ([Legend](https://github.com/finos/legend/issues)).
 - Allocate work to individuals so the team knows what they’re doing e.g ([FDC3](https://github.com/finos/fdc3/issues)).
 - Invite external contribution with “Help Wanted” and “Good First Issue” labels.
+- Keep a pinned roadmap issue so contributors can see priorities and comment with their own. Follow the [roadmap guidelines and templates](/docs/governance/roadmap-guidelines).
 
 ## GitHub Discussions for Async Communication
 

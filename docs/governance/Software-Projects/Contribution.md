@@ -16,7 +16,7 @@ The easiest way to engage is to contribute code, documentation, test cases, requ
 Before contributing to a project, community members are encouraged to familiarize themselves with a project by doing any or all of the following:
 
 - [Engage](/docs/journey/engage) with the project community via mailing list/slack/github 
-- Review the project specific roadmap, area of focus, typically contained in a project Readme.md. 
+- Review the project roadmap and area of focus. Look for a pinned roadmap issue (see [roadmap guidelines](/docs/governance/roadmap-guidelines) for more details).
 - Review [good first issue/help wanted issues in the FINOS GitHub organization](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22%2C%22help+wanted%22)
 
 > **NOTE**: Forms of contribution that require a contributor to make git commits, and in turn, request those to be merged via pull requests, must comply with the [Contribution Requirements](Contribution-Compliance-Requirements.md) in place within FINOS.
@@ -53,7 +53,7 @@ This will create a new issue on the [FINOS Community Repository](https://github.
 
 1. **Business problem**: the business problem that the proposed contribution solves.
 2. **Proposed solution**: how the proposed contribution solves that business problem. For software projects, include a detailed description of the software and its functionality.
-3. **Tentative roadmap**: a description of the short and medium term goals and phases of the project, and what success looks like for this project
+3. **Tentative roadmap**: a description of the short and medium term goals and phases of the project, and what success looks like for this project. After the project is accepted, publish and maintain this as a public roadmap using the [roadmap guidelines](/docs/governance/roadmap-guidelines).
 4. **Current state**: a summary of the contribution's history and status. Include information about the contribution's maturity and roadmap.
 5. **Existing materials**: links to and descriptions of any existing project materials (e.g. GitHub repositories). If any materials are currently private, please describe them in detail. The FINOS team will reach out to request access to private materials in order to evaluate them.
 6. **Development team**: current contributors, including full name, affiliation, work email address, and GitHub.com username where available.

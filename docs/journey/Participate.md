@@ -20,7 +20,8 @@ No paid Membership is required, and everyone is welcome to contribute to an exis
 ### Contributing to an existing Software Project
 1. Choose a project in [our Landscape](https://landscape.finos.org/) or if you don't know where to start, take a look at the list of [Good First Issues on Github](https://github.com/search?q=org%3Afinos+is%3Aopen+label%3A%22good+first+issue%22%2C%22help+wanted%22) where projects are actively seeking for help! 
 2. Take a look at how to [contribute to an existing project ](/docs/governance/Software-Projects/contribution#contribution-of-code-to-an-existing-finos-project)
-3. You or your company will need a valid [Contributor License Agreement](/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement), which can be easily completed online via [EasyCla](/docs/governance/Software-Projects/easycla)
+3. Read the project's roadmap, usually a pinned GitHub issue, so your contribution lines up with community priorities. The [roadmap guidelines](/docs/governance/roadmap-guidelines) explain that issue and how to add your organization's priorities.
+4. You or your company will need a valid [Contributor License Agreement](/docs/governance/Software-Projects/contribution-compliance-requirements#contributor-license-agreement), which can be easily completed online via [EasyCla](/docs/governance/Software-Projects/easycla)
 
 > The Foundation also encourages non-code contributions in the form of issues - bug reports and enhancement requests -, and documentation updates. 
 > This means that **you do not need to be a developer to contribute to FINOS projects**. These are also highly valued contributions, and project teams 

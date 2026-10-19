@@ -58,7 +58,7 @@ Below is a recap of who can do what.
 | | | Monitoring |
 | Project Maintainer (GitHub User) | Maintain | Approve Pull Requests |
 | | | Manage releases |
-| | | Manage roadmap |
+| | | Manage [roadmap](/docs/governance/roadmap-guidelines) |
 | | | Manage website and other project infrastructure |
 | | | Anything granted by the GitHub `Maintain` permission |
 | Lead Maintainer (GitHub User) | Maintain | Point of contact with FINOS Staff |
@@ -139,7 +139,7 @@ Making direct changes to repositories is not recommended, for teams bigger than 
 ### Accepting Code Contributions
 Project teams are required to review contributions from non-committer community members (i.e. PRs) in a timely fashion. While this does not mean that all such contributions need to be accepted, they must be reviewed conscientiously and only rejected if there are legitimate reasons to do so. Those reasons must be clearly documented in the PR at the time of rejection, and any resubmissions re-reviewed in good faith.
 
-In addition to the usual code-level checks a project team may choose to perform on contributions (for code quality, roadmap alignment, etc.), it is also critically important that the legal requirements of the Foundation are met.  This involves:
+In addition to the usual code-level checks a project team may choose to perform on contributions (for code quality, alignment with the [project roadmap](/docs/governance/roadmap-guidelines), etc.), it is also critically important that the legal requirements of the Foundation are met.  This involves:
 
 1. Confirming that the person providing the contribution has a Contributor Licensing Agreement in place with the Foundation (though [EasyCLA](/docs/governance/Software-Projects/easycla) will run an automatic scan of all Pull Requests).
 2. Confirming that their change doesn't introduce new code or dependencies that are incompatible with the Apache Software License.
@@ -185,9 +185,9 @@ Labels are very helpful to manage issues; each repository can define its own tax
 ```
 
 ### Project Releases
-The easiest way to define roadmaps in GitHub is using [**Milestones**](https://guides.github.com/features/issues/), which allow to group issues together and associate a title, description and due date.
+Publish the project's priorities as a pinned roadmap issue. The [roadmap guidelines](/docs/governance/roadmap-guidelines) explain how to run the roadmap meeting and fill in the [roadmap issue template](/docs/governance/roadmap-guidelines#roadmap-issue-template).
 
-As a complement or alternative, [**GitHub project boards**](https://help.github.com/en/articles/about-project-boards) can be used to define a Kanban (or "flow") of activities across a list of predefined states, which can be mapped to the milestones of a roadmap.
+You can then use [**Milestones**](https://guides.github.com/features/issues/) to group the issues behind each roadmap item and give them a title, description, and due date. [**GitHub project boards**](https://help.github.com/en/articles/about-project-boards) let you display that as a Kanban board across a list of predefined states.
 
 <img alt="milestone-example" src={useBaseUrl('img/collab/milestone-example.png')} />
 

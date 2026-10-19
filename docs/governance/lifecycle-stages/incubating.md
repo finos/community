@@ -60,7 +60,7 @@ If you are a FINOS Member (or you have a FINOS Member maintainer) and would like
 - At least one detailed end-user adoption story (public or private to the TOC)
 - Consistent adherence to the contribution workflow described in the project’s CONTRIBUTING.md
 - Project implements the appropriate governance structure according to [FINOS Community Governance](/docs/governance/#community-governance)
-- A public roadmap or project backlog with target outcomes and timelines in or linked from the repo
+- A public roadmap or project backlog with target outcomes and timelines in or linked from the repo. Publish it with the [roadmap guidelines and templates](/docs/governance/roadmap-guidelines).
 
 ### Incubating Ongoing Maintenance Requirements
 
@@ -70,7 +70,7 @@ The following must remain true for _Incubating_ projects at all times. A Health 
 - Public tracking of activity using GitHub Issues
 - A shortlist of public “Good First Issues” or “Help Wanted” remains accurate and up-to-date
 - All open issues and discussions are replied to with reasonable promptness
-- Publicly visible adherence to a project roadmap
+- Publicly visible adherence to a [project roadmap](/docs/governance/roadmap-guidelines)
 - Pre-release integration with a [FINOS-approved dependency and license scanner](/docs/development-infrastructure/code-validation/intro)
 - Build and release processes do not use any private or undocumented steps
 - Presentation once every six months at a public TOC meeting
