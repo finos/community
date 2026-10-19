@@ -182,5 +182,5 @@ body:
     attributes:
       label: Status Badging
       options:
-        - label: "Project Team commits to adopt the [FINOS Graduated badge](https://community.finos.org/docs/governance/lifecycle-stages/graduated#badge) once approved and to maintain adhearance with the [ongoing maintenance requirements](https://deploy-preview-388--eager-borg-83c1a5.netlify.app/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements)"
+        - label: "Project Team commits to adopt the [FINOS Graduated badge](https://community.finos.org/docs/governance/lifecycle-stages/graduated#badge) once approved and to maintain adhearance with the [ongoing maintenance requirements](https://community.finos.org/docs/governance/lifecycle-stages/graduated#ongoing-maintenance-requirements)"
           required: true
