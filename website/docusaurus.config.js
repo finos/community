@@ -141,6 +141,10 @@ module.exports = {
             from: '/docs/governance/Software-Projects/code-transfer',
             to: '/docs/governance/Software-Projects/contribution',
           },
+          {
+            from: '/docs/project-support-guidelines',
+            to: '/docs/governance/project-lifecycle',
+          },
         ],
       },
     ],
