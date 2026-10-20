@@ -288,7 +288,7 @@ A project needs:
 4. Issue template [`.github/ISSUE_TEMPLATE/meeting_minutes.yml`](https://github.com/finos/software-project-blueprint/blob/main/.github/ISSUE_TEMPLATE/meeting_minutes.yml) defined
 
 ### Security Scanning
-In order to consolidate processes and tools around security vulnerabilities management, FINOS have shared a [guidelines around responsible disclosure for security vulnerabilities](/docs/governance/Software-Projects/cve-responsible-disclosure) and tools that can be used to automate code scanning, you can read more on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>. FINOS also provides a collection of Github Action that can be used on your repositories, checkout the [code scanning project](https://github.com/finos/code-scanning).
+In order to consolidate processes and tools around security vulnerabilities management, FINOS have shared a [guidelines around responsible disclosure for security vulnerabilities](/docs/governance/Software-Projects/cve-responsible-disclosure) and tools that can be used to automate code scanning, you can read more on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>. Projects can use GitHub's native security features ([dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph), [CodeQL code scanning](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql), [Dependabot](https://docs.github.com/en/code-security/dependabot)) and [OSV-Scanner](https://google.github.io/osv-scanner/) for vulnerability detection.
 
 ### FINOS Project blueprint
 [Project blueprint](https://github.com/finos/software-project-blueprint) is a FINOS project that provides a template for new or existing repositories; it includes:
@@ -348,7 +348,7 @@ Getting started is quite simple:
 11. Commit and push all of your changes.
 
 ### Automated and continuous quality scanning
-FINOS provides some examples on https://github.com/finos/code-scanning to run continuous code scanning activities. More tools are also documented on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>.
+Projects can use GitHub's native security tools ([CodeQL](https://docs.github.com/en/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql), [Dependabot](https://docs.github.com/en/code-security/dependabot), [dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph)) and [OSV-Scanner](https://google.github.io/osv-scanner/) for continuous code scanning. More tools are also documented on the <a href={useBaseUrl('/docs/development-infrastructure/code-validation/intro')}>code validation page</a>.
 
 ## Other collaboration use cases
 
