@@ -52,7 +52,6 @@ Any project maintainer may request Graduation by opening a [project graduation r
 - **Two** or more end-user adoption stories or case studies that can be publicly shared
 - The project must publish and adhere to [FINOS responsible disclosure security policy](/docs/governance/Software-Projects/cve-responsible-disclosure)
 - Root-level README.md must contain links to accurate and up-to-date usage and maintenance documentation
-- The project [has worked with FINOS Staff](mailto:help@finos.org) to create a community sustainability plan which includes a go-to-market strategy
 - Project documentation starts with a clear, unique financial services value proposition
 
 ### Ongoing Maintenance Requirements
@@ -66,6 +65,7 @@ The following must remain true for _Graduated_ projects at all times. A Health R
    - Increment `MAJOR` version when an incompatible change is made
    - Increment `MINOR` version when new functionality is added in a backwards-compatible manner
    - Increment `PATCH` version when bugs are fixed in a backwards-compatible manner
+- A community sustainability plan is co-maintained with [FINOS Staff](mailto:help@finos.org), including a go-to-market strategy
 
 ## Transition out of Graduation
 Mature projects that become no longer actively developed should transition into FINOS Archived stage by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request).
