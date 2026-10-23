@@ -1,7 +1,7 @@
 ---
 id: project-documentation
 title: Project Documentation
-description: "Publish FINOS project documentation: Docusaurus, GitHub Pages, and patterns for clear docs sites that follow foundation branding and best practices."
+description: "Publish FINOS project documentation: Docusaurus, Netlify, and patterns for clear docs sites that follow foundation branding and best practices."
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -55,11 +55,11 @@ npm -v
 node -v
 ```
 
-Create a Docusaurus project and start the website locally:
+Create your repository from the template and start the website locally:
+1. Click **Use this template** on https://github.com/finos/software-project-blueprint
+2. Clone your new repository and run:
 ```
-npm i -g docusaurus-init docusaurus
-git clone git@github.com:finos/software-project-blueprint.git
-cd software-project-blueprint/website
+cd <your-repo>/website
 npm install
 npm start
 ```
@@ -178,13 +178,3 @@ For example the following configuration will trigger a preview only when it dete
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF . ../{docs,website}/"
 ```
 See [this netlify.toml](https://github.com/finos/FDC3/blob/main/netlify.toml).
-
-### [DEPRECATED] Docusaurus Build Action
-
-**Note!** This GitHub action has been deprecated in favor of using [Netlify](https://netlify.com)
-
-FINOS have developed a GitHub Action to automatically build the Docusaurus websites and publish them into GitHub Pages; the action works on upstream repositories (ie https://github.com/finos/software-project-blueprint) as well as forked ones , providing a simple way to stage the web version of a change to a Docusaurus website.
-
-The action also intercepts Pull Requests and adds a comment with the link to the website (preview) of the PR submitter; this way issue reviewers can easily and visually see the changes.
-
-The action can be [copied from here](https://github.com/finos/open-developer-platform/blob/master/.github/workflows/docusaurus.yml.deprecated).
