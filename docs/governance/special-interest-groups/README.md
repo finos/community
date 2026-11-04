@@ -23,4 +23,4 @@ Here's a list of special interest groups (SIGs) currently active in FINOS:
 
 ## Want to propose a new SIG?
 
-If you are FINOS member and you'd like to propose a new SIG for Board approval, [just raise an issue](https://github.com/finos/community/issues/new?assignees=TheJuanAndOnly99%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding) and the FINOS team will work with you to bring the proposal to the Board if relevant.
+If you are FINOS member and you'd like to propose a new SIG for Board approval, [just raise an issue](https://github.com/finos/community/issues/new?assignees=TheJuanAndOnly99%2C+maoo&labels=contribution&template=special_interest_group_contribution.yml&title=Special+Interest+Group+Contribution+and+Onboarding) and the FINOS team will work with you to bring the proposal to the Board if relevant.

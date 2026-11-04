@@ -37,7 +37,7 @@ While development activities in this stage are largely established and self-suff
 
 To graduate into the Graduated stage, a project must meet [Graduated Requirements](/docs/governance/lifecycle-stages/graduated/#requirements) and [Graduated ongoing maintenance requirements](/docs/governance/lifecycle-stages/graduated/#ongoing-maintenance-requirements). 
 
-Any project maintainer may request Graduation by opening a [project graduation request](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Graduation.md&title=projectName+Graduation+request) with an information packet demonstrating that they've met the requirements for activation (see below for details).
+Any project maintainer may request Graduation by opening a [project graduation request](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=project_graduation.yml&title=projectName+Graduation+request) with an information packet demonstrating that they've met the requirements for activation (see below for details).
 
 ## Requirements
 
@@ -68,7 +68,7 @@ The following must remain true for _Graduated_ projects at all times. A Health R
 - A community sustainability plan is co-maintained with [FINOS Staff](mailto:help@finos.org), including a go-to-market strategy
 
 ## Transition out of Graduation
-Mature projects that become no longer actively developed should transition into FINOS Archived stage by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Archival.md&title=projectName+Archival+Request).
+Mature projects that become no longer actively developed should transition into FINOS Archived stage by [requesting archival](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=project_archival.yml&title=projectName+Archival+Request).
 
 This is an important FINOS maintainer hygiene duty. 
 
