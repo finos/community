@@ -39,12 +39,12 @@ If/ once the project is approved, the FINOS team will create the project based o
 ## Contributing to an Open Standard project
 Given their non-code nature, FINOS [Open Standard projects](https://landscape.finos.org/?license=csla-1-0,finos-ip-policy,isda-developer-license) follow a [different governance](https://community.finos.org/docs/governance/#open-standard-projects) and rules for participation will be documented in the standard specific documentation.
 
-Once you have identified a project you'd like to participate in, take a look at [the FINOS Community calendar](https://www.finos.org/finos-community-calendar) to attend the next standards meeting. Agendas will typically be published in advance in the project GitHub issues. 
+Once you have identified a project you'd like to participate in, take a look at [the FINOS Community calendar](https://www.finos.org/calendar) to attend the next standards meeting. Agendas will typically be published in advance in the project GitHub issues. 
 
 ## Participating in a Special Interest Group (SIG)
 FINOS Special Interest Groups (SIGs) bring together financial services participants to discuss common challenges, use cases, and collaboration opportunities. Your input helps shape and prioritize foundation activities.
 
-Everyone can join a SIG by subscribing to the SIG mailing list and attend the group's scheduled [meetings](https://www.finos.org/finos-community-calendar). For a list of active SIGs refer to the [SIGs page](/docs/governance/special-interest-groups) or the [FINOS landscape](https://landscape.finos.org/).
+Everyone can join a SIG by subscribing to the SIG mailing list and attend the group's scheduled [meetings](https://www.finos.org/calendar). For a list of active SIGs refer to the [SIGs page](/docs/governance/special-interest-groups) or the [FINOS landscape](https://landscape.finos.org/).
 
 [SIG governance is intentionally lightweight](/docs/governance/#special-interest-groups). Each SIG is expected to document its target audience, mailing list details, and meeting information in its [GitHub repository](https://github.com/finos/). 
 

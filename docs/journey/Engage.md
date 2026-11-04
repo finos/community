@@ -13,7 +13,7 @@ Before we start, please know that all in-person and online interactions must hap
 As an individual you can play a huge part in amplifying our open-source message by following us, engaging / resharing, and sending us questions / feedback on [X](https://twitter.com/finosfoundation) or [LinkedIn](https://www.linkedin.com/company/finosfoundation/).
 
 ## Meet the Community!
-Why not join a Project or a SIG online Meeting? Browse the [FINOS Community Calendar](https://www.finos.org/finos-community-calendar) and know all of our project or SIG meetings are open to anyone and free to attend. 
+Why not join a Project or a SIG online Meeting? Browse the [FINOS Community Calendar](https://www.finos.org/calendar) and know all of our project or SIG meetings are open to anyone and free to attend. 
 
 Ready to meet the Community at large, online or in person? Take a look at our [recurring meetups schedule](/docs/growing-your-project-community/meetups) and our [Events](https://www.finos.org/hosted-events), including our flagship event the [Open Source in Finance Forum](https://events.linuxfoundation.org/open-source-finance-forum/), the global event solely dedicated to open source in financial services. 
 
