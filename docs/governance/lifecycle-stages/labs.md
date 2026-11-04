@@ -77,8 +77,8 @@ The following must remain true for projects at all times. A Health Review may be
 ## Transition out of Labs
 As projects become more mature they have several options to progress:
 
-1. Transition into FINOS Incubating stage by [requesting incubation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Incubation.md&title=projectName+Incubation+Request).
-2. Transition into FINOS Graduated stage by [requesting graduation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Graduation.md&title=projectName+Graduation+Request).
+1. Transition into FINOS Incubating stage by [requesting incubation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=project_incubation.yml&title=projectName+Incubation+Request).
+2. Transition into FINOS Graduated stage by [requesting graduation](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=project_graduation.yml&title=projectName+Graduation+Request).
 3. Graduate to another LF foundation (if scope / audience has grown beyond finance)
 5. Archive
 

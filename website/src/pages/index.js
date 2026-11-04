@@ -92,10 +92,10 @@ function Home() {
                 <ul>
                   <li>[FINOS Project Landscape](https://landscape.finos.org)</li>
                   <li>[FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)</li>
-                  <li>[New Open Source Software Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Software-Project-Contribution.md&title=Software+Project+Contribution+and+Onboarding)</li>
-                  <li>[New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Standards-Project-Contribution.md&title=Standard+Project+Contribution+and+Onboarding)</li>
-                  <li>[New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=Special-Interest-Group-Contribution.md&title=Special+Interest+Group+Contribution+and+Onboarding)</li>
-                  <li>[Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)</li>
+                  <li>[New Open Source Software Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=software_project_contribution.yml&title=Software+Project+Contribution+and+Onboarding)</li>
+                  <li>[New Open Standard Project](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=standards_project_contribution.yml&title=Standard+Project+Contribution+and+Onboarding)</li>
+                  <li>[New Special Interest Group](https://github.com/finos/community/issues/new?assignees=aitana16%2C+maoo&labels=contribution&template=special_interest_group_contribution.yml&title=Special+Interest+Group+Contribution+and+Onboarding)</li>
+                  <li>[Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=mcleo-d&labels=community-recognition&template=community_recognition.yml&title=FINOS+Community+Recognition)</li>
                 </ul>                
               </div>
             </div>

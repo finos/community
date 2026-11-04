@@ -17,7 +17,7 @@ Documentation in this repository (mainly in the /docs and /website folders) is p
 - [FINOS Project Landscape](https://landscape.finos.org)
 - [FINOS and Projects Branding assets (logos, etc.)](https://github.com/finos/branding)
 - [Propose a new project or SIG](https://community.finos.org/docs/governance/software-projects/contribution/#contribution-of-an-existing-code-base-into-finos-as-a-new-project) (NOTE: limited to [FINOS Members](http://finos.org/members)): 
-- [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=@opoupeney&labels=community-recognition&template=Community-Recognition.md&title=FINOS+Community+Recognition)
+- [Recognize one of our outstanding Contributors](https://github.com/finos/community/issues/new?assignees=@opoupeney&labels=community-recognition&template=community_recognition.yml&title=FINOS+Community+Recognition)
 
 ### Resources
 - [FINOS Website](https://finos.org)

@@ -44,7 +44,7 @@ Below we detail the process for each of the two scenarios.
 ### Apply for promotion of a FINOS Labs Project to Incubating
 In order for a project to become Incubating, it must be reviewed and the change formally approved by the [Technical Oversight Committee](https://github.com/finos/technical-oversight-committee). 
 
-Any project maintainer may initiate this request process at any time by opening an [Incubation promotion request](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=Project-Incubation.md&title=ProjectName+Incubation+promotion+request) with an information packet demonstrating that they've met the requirements for Incubating.
+Any project maintainer may initiate this request process at any time by opening an [Incubation promotion request](https://github.com/finos/community/issues/new?assignees=maoo%2C+TheJuanAndOnly99&labels=&template=project_incubation.yml&title=ProjectName+Incubation+promotion+request) with an information packet demonstrating that they've met the requirements for Incubating.
 
 ### Contribution of a new project directly into Incubating stage
 
