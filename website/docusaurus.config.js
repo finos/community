@@ -127,6 +127,15 @@ module.exports = {
   },
   plugins: [
     [
+      'docusaurus-plugin-llms',
+      {
+        // Docs are published from the repository docs directory, outside this site folder.
+        docsDir: [{ path: '../docs', routeBasePath: 'docs' }],
+        // MDX pages import Docusaurus helpers. Leave those lines out of the generated text.
+        excludeImports: true,
+      },
+    ],
+    [
       '@docusaurus/plugin-google-gtag',
       {
         trackingID: 'G-Q2K0WLVFHP',

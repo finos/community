@@ -148,6 +148,28 @@ module.exports = {
 
 For more details on how to configure the sidebar see the [Docusaurus Sidebar](https://docusaurus.io/docs/sidebar/) documentation.
 
+### AI-readable documentation
+
+A production build can also write two text files for language models. `/llms.txt` lists every documentation page. `/llms-full.txt` contains the page text in one file. These files are documentation. They are not an MCP server.
+
+Install [`docusaurus-plugin-llms`](https://www.npmjs.com/package/docusaurus-plugin-llms) as a dev dependency with the package manager the website already uses. This repository uses Yarn (`yarn add --dev docusaurus-plugin-llms` from `website/`). The plugin declares the MIT license, which is a [Category A](/docs/governance/Software-Projects/license-categories) license. Register it in `website/docusaurus.config.js`. When the docs live outside the website folder, point `docsDir` at that directory and set `routeBasePath` to the URL prefix Docusaurus serves:
+
+```js
+plugins: [
+  [
+    'docusaurus-plugin-llms',
+    {
+      docsDir: [{ path: '../docs', routeBasePath: 'docs' }],
+      excludeImports: true,
+    },
+  ],
+],
+```
+
+`excludeImports` removes MDX `import` lines from the generated text. `yarn build` or `npm run build` writes both files into the build output, and the links in `/llms.txt` use the site `url` from the Docusaurus config.
+
+MDX that uses `useBaseUrl` for a link or image loses that URL in `/llms-full.txt`. The visible words remain. Write links that need to survive in Markdown. Links inside `/llms-full.txt` are copied from the source, so a directory-relative link such as `(whitesource)` does not resolve from `/llms-full.txt`. Root-relative links such as `(/docs/governance)` do resolve when the file is hosted on the documentation site.
+
 ### Docusaurus Alternatives
 
 The [Accessibility Theme Builder](https://a11y-theme-builder.finos.org/) project website utilizes [MKDocs](https://www.mkdocs.org/) (specifically [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)).
