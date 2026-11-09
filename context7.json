@@ -1,0 +1,13 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "FINOS Community",
+  "description": "FINOS governance and collaboration documentation for project leads, maintainers, contributors, and community members. Published at https://community.finos.org.",
+  "folders": ["docs"],
+  "excludeFolders": ["archive", "website"],
+  "rules": [
+    "This repository is FINOS governance and collaboration documentation published at https://community.finos.org. It is not a software library.",
+    "Membership is not required to contribute to an existing project. Only FINOS members can propose a new project.",
+    "For an existing repository, follow that project's CONTRIBUTING file.",
+    "Do not present files under archive/ as current FINOS policy."
+  ]
+}

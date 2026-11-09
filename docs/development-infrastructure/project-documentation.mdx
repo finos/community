@@ -200,3 +200,30 @@ For example the following configuration will trigger a preview only when it dete
   ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF . ../{docs,website}/"
 ```
 See [this netlify.toml](https://github.com/finos/FDC3/blob/main/netlify.toml).
+
+## Context7
+
+[Context7](https://context7.com) brings a FINOS project's up-to-date docs into AI coding agents.
+
+Add the public repository once at [context7.com/add-library](https://context7.com/add-library). Choose GitHub, paste the repository URL, and submit. Anyone can add it. Context7 indexes the repository and assigns an ID such as `/finos/project`. The folder settings on that form are optional when the repository contains a `context7.json`.
+
+Commit that file at the repository root. Context7 reads it on a later refresh and reviews the title, description, and rules before using them. For a repository laid out like the [FINOS software project blueprint](https://github.com/finos/software-project-blueprint), index `docs/` and skip the Docusaurus app and discontinued material. Root-level Markdown, including `README.md`, is still indexed. Use `rules` for short facts an agent should follow, such as where contributions are described.
+
+Example `context7.json`:
+
+```json
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Project Name",
+  "description": "What the project does, in one or two sentences.",
+  "folders": ["docs"],
+  "excludeFolders": ["website", "archive"],
+  "rules": [
+    "Follow this repository's CONTRIBUTING file before suggesting a code change."
+  ]
+}
+```
+
+Claiming the library on Context7 is optional; it unlocks an admin panel and is separate from this file. Context7 refreshes a listed repository on its own. A Context7 GitHub Action is only needed when the project wants a refresh on every push to the default branch.
+
+See the [official Context7 guide](https://context7.com/docs/adding-libraries) for registration steps and repository configuration options.
