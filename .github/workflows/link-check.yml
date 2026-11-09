@@ -58,6 +58,7 @@ jobs:
             --max-cache-age 1d
             --root-dir website/build
             --exclude-path website/build/404.html
+            --exclude-path '(^|/)website/build/llms-full\.txt$'
             --exclude-path archive
             --accept 200,203,204,206,429,999
             --github-token ${{ secrets.GITHUB_TOKEN }}
