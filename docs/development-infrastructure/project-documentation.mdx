@@ -168,7 +168,7 @@ plugins: [
 
 `excludeImports` removes MDX `import` lines from the generated text. `yarn build` or `npm run build` writes both files into the build output, and the links in `/llms.txt` use the site `url` from the Docusaurus config.
 
-MDX that uses `useBaseUrl` for a link or image loses that URL in `/llms-full.txt`. The visible words remain. Write links that need to survive in Markdown. Links inside `/llms-full.txt` are copied from the source, so a directory-relative link such as `(whitesource)` does not resolve from `/llms-full.txt`. Root-relative links such as `(/docs/governance)` do resolve when the file is hosted on the documentation site.
+MDX that uses `useBaseUrl` for a link or image loses that URL in `/llms-full.txt`. The visible words remain. Write links that need to survive in Markdown. Links inside `/llms-full.txt` are copied from the source, so a directory-relative link such as `(intro)` does not resolve from `/llms-full.txt`. Root-relative links such as `(/docs/governance)` do resolve when the file is hosted on the documentation site.
 
 ### Docusaurus Alternatives
 

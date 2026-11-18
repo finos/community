@@ -154,6 +154,16 @@ module.exports = {
             from: '/docs/project-support-guidelines',
             to: '/docs/governance/project-lifecycle',
           },
+          {
+            from: [
+              '/docs/development-infrastructure/code-validation/codeclimate',
+              '/docs/development-infrastructure/code-validation/coverityscan',
+              '/docs/development-infrastructure/code-validation/sonarcloud',
+              '/docs/development-infrastructure/code-validation/sonatype',
+              '/docs/development-infrastructure/code-validation/whitesource',
+            ],
+            to: '/docs/development-infrastructure/code-validation/intro',
+          },
         ],
       },
     ],
