@@ -29,6 +29,8 @@ There two ways an individual can become a FINOS Maintainer:
 1. By being the proposed initial maintainer [of new project contribution accepted into FINOS](/docs/governance/Software-Projects/contribution#contribution-of-an-existing-code-base-into-finos-as-a-new-project) 
 2. By being nominated by an existing project's maintainers, based on extensive contributions to the project. 
 
+Every FINOS maintainer **should** have a [Linux Foundation ID (LF ID)](https://docs.linuxfoundation.org/lfx/sso/create-an-account). An LF ID is how you sign in to [LFX Self Serve](https://app.lfx.dev/), where FINOS projects schedule meetings, run mailing lists, and hold votes. Without one, FINOS can't give you access to manage your project's tools there.
+
 FINOS strongly encourages projects to have multiple maintainers from multiple organizations: in fact, having multiple maintainers is a pre-requisite for the [Graduation](https://community.finos.org/docs/governance/lifecycle-stages/graduated) project [lifecycle maturity level](https://community.finos.org/docs/governance/project-lifecycle).
 
 In the case of large maintainer teams, maintainers should consider electing one or two **lead maintainers**. The lead maintainer(s) are the project's interface with the FINOS Team and Governing Board and are responsible for communicating on behalf of the project. The lead maintainer(s) are also accountable for steering project direction and prioritisation with the rest of the project community, and to build consensus.
