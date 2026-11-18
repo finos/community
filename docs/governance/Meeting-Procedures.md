@@ -95,7 +95,7 @@ Use these LFX guides for the product itself:
 
 ## Call votes as needed
 
-Hosts **should** call a vote on any agenda item requiring one, according to the voting procedures of the group.
+Hosts **should** call a vote on any agenda item requiring one, according to the voting procedures of the group. [LFX Votes](https://app.lfx.dev/docs/votes) is an optional, recommended tool for running votes; email [help@finos.org](mailto:help@finos.org) for access.
 
 ## Host the Zoom meeting
 
