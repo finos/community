@@ -4,7 +4,7 @@ title: Code Validation
 description: "Code validation for FINOS projects: GitHub-native security features, OSV-Scanner, and OpenSSF Scorecard and Security Baseline checks that keep dependencies, code, and releases secure."
 ---
 
-FINOS projects validate their code with tools that are built into GitHub or that are free and open source. There are no third-party accounts to request: maintainers turn these tools on in their own repository settings or add a GitHub Actions workflow. If you need help or admin access to change a setting, email [help@finos.org](mailto:help@finos.org).
+FINOS projects validate their code with tools that are built into GitHub or that are free and open source.
 
 ## Security baseline
 
