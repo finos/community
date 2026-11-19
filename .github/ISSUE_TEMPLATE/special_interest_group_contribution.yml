@@ -103,12 +103,12 @@ body:
     id: sig_chair_and_maintainers
     attributes:
       label: Proposed SIG Chair and Maintainers
-      description: "Provide the initial SIG chair and co-chair and other maintainers with full name, affiliation, work email, and GitHub username."
+      description: "Provide the initial SIG chair and co-chair and other maintainers with full name, affiliation, work email, GitHub username, and Linux Foundation ID (LF ID). Every maintainer should have an LF ID, so FINOS can give them access to manage project meetings, mailing lists, and votes in LFX Self Serve."
       value: |
-        | Role | Name | Affiliation | Email | GitHub Username |
-        | :--- | :--- | :--- | :--- | :--- |
-        | Chair |  |  |  |  |
-        | Co-Chair |  |  |  |  |
+        | Role | Name | Affiliation | Email | GitHub Username | LF ID |
+        | :--- | :--- | :--- | :--- | :--- | :--- |
+        | Chair |  |  |  |  |  |
+        | Co-Chair |  |  |  |  |  |
     validations:
       required: true
 

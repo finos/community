@@ -1,7 +1,7 @@
 ---
 id: meeting-procedures
 title: Project Meetings
-description: "How FINOS projects run meetings: LFX PCC self-serve scheduling, agendas, minutes, the public community calendar, and host best practices."
+description: "How FINOS projects run meetings: LFX Self Serve scheduling, agendas, minutes, the public community calendar, and host best practices."
 ---
 
 :::caution
@@ -12,18 +12,18 @@ To ensure FINOS meetings are conducted in a manner that is fair and respectful t
 
 This document describes requirements and recommendations for holding meetings of FINOS projects (including SIGs, working groups, and other bodies). Note that individual projects may have their own meeting requirements, in which case those should be followed except where they conflict with any FINOS policy.
 
-## Self-serve meetings in LFX PCC
+## Self-serve meetings in LFX
 
-FINOS project meetings are scheduled in the Linux Foundation [LFX Project Control Center (PCC) Meetings](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings) tool. Once you have access, you can schedule, update, and cancel your projects Zoom meetings in PCC. How to use the product is in the LFX documentation linked below; this page covers FINOS access, policy, and hosting expectations.
+FINOS project meetings are scheduled in [LFX Self Serve](https://app.lfx.dev/). Once you have access, you can schedule, update, and cancel your project's Zoom meetings there. How to use the product is in the LFX documentation linked below; this page covers FINOS access, policy, and hosting expectations.
 
 ### Request access
 
-PCC access is not granted automatically. Project maintainers and designated meeting hosts **must** email [help@finos.org](mailto:help@finos.org) and ask to be added to their FINOS project in LFX PCC before they can manage meetings. Include:
+LFX project access is not granted automatically. Project maintainers and designated meeting hosts **must** email [help@finos.org](mailto:help@finos.org) and ask to be added to their FINOS project in LFX before they can manage meetings. Include:
 
-* Your name and the email address on your Linux Foundation ID
+* Your name and the email address on your [Linux Foundation ID](https://docs.linuxfoundation.org/lfx/sso/create-an-account)
 * The FINOS project for which you need access to schedule and manage meetings
 
-You need a [Linux Foundation ID](https://openprofile.dev/) to sign in to [PCC](https://projectadmin.lfx.linuxfoundation.org/). After FINOS staff grant access, search for your project, then open **Collaboration** → **Meetings**.
+You need a Linux Foundation ID (LFID) to sign in at [app.lfx.dev](https://app.lfx.dev/). After FINOS staff grant access, open your project and select **Meetings**.
 
 If you cannot see your project, cannot schedule a meeting, or need help with an existing series, email [help@finos.org](mailto:help@finos.org).
 
@@ -31,33 +31,30 @@ If you cannot see your project, cannot schedule a meeting, or need help with an 
 
 Use these LFX guides for the product itself:
 
-* [Meetings overview](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings) — find meetings, calendar view, recordings, and transcripts
-* [Schedule a meeting](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/scheduling-a-meeting) — one-off and recurring meetings, participants, public calendar, recording, and host-key sharing
-* [Join a meeting](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/joining-a-meeting) — LFX join page, guests, public calendar, and attendance
-* [Find your host key](https://docs.linuxfoundation.org/lfx/my-profile/meetings/find-your-host-key) — claim host in Zoom from [My Meetings](https://openprofile.dev/my-meetings)
-* [Manage meetings](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/manage-meetings) and [cancel meetings](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/collaborations/meetings/delete-meetings)
-* [Meetings FAQs](https://docs.linuxfoundation.org/lfx/project-control-center/v2-latest-version/pcc-faqs/meetings-faqs)
+* [Meetings overview](https://app.lfx.dev/docs/meetings)
+* [Schedule a meeting](https://app.lfx.dev/docs/meetings/schedule-meeting)
+* [Join a meeting](https://app.lfx.dev/docs/meetings/join-meeting)
+* [Host controls and the host key](https://app.lfx.dev/docs/meetings/host-controls)
+* [Manage meetings](https://app.lfx.dev/docs/meetings/manage-meetings)
+* [Meetings FAQ](https://app.lfx.dev/docs/meetings/faq)
 
 ### Expectations when scheduling a meeting
 
 * Hosts **should** schedule meetings at least 7 days in advance, preferably at a time that works for most participants.
-* Hosts **should** use Zoom via LFX PCC unless all members are able and prefer to use another system.
-* Hosts **should** share the host key with at least one backup host in PCC so the call can proceed if the primary host is unavailable.
+* Hosts **should** use Zoom via LFX unless all members are able and prefer to use another system.
+* Hosts **should** add at least one backup Meeting Host in LFX so the call can proceed if the primary host is unavailable.
 * Hosts **must not** select the **Board** meeting type unless the meeting is an official FINOS Governing Board meeting.
-* LF recording, transcripts, and Zoom AI summaries in PCC may be used when no objections are raised. Do not admit third-party AI meeting bots or scribing services.
-* Hosts **must** set **Meeting Settings** as follows (**See screenshot below**):
-  * **Show in Public Calendar** — on, so the meeting appears on the [FINOS Community Calendar](https://calendar.finos.org)
-  * **Restrict to invited users** — off 
-  * **Early Join Time (minutes before start)** — `10`
-  * **Send reminder email to participants** — optional
-  * **Auto-record from meeting start** — on
-  * **Generate transcript** — on
-  * **Auto-upload recordings to YouTube** — off
-  * **Enable Zoom AI** — on
-  * **Review AI summary before publishing?** — on
-  * **Where should users see the link(s) to AI Summary and Recordings?** — **PCC only**
-
-<img src="/img/pcc-meeting-settings.png" alt="LFX PCC Meeting Settings with the FINOS required options. Send reminder email to participants is optional." width="400" />
+* LF recording, transcripts, and AI meeting summaries in LFX may be used when no objections are raised. Do not admit third-party AI meeting bots or scribing services.
+* LFX creates new meetings as **Private** and **Invited guests only** by default. Hosts **must** change these and set the meeting as follows:
+  * **Visibility** — **Public**, so the meeting appears on the [FINOS Community Calendar](https://calendar.finos.org)
+  * **Join Restriction** — **Anyone with the link**
+  * **Early join** — `10 min`
+  * **Reminder email** — optional
+  * **Recording** — on
+  * **Transcript** — on
+  * **Auto-upload to YouTube** — off
+  * **AI meeting summary** — on, with **Requires host approval before sharing with guests** selected
+  * **Who can access recordings & summaries** — **Meeting Hosts Only**
 
 ## Prepare and circulate an agenda
 
@@ -75,8 +72,8 @@ Use these LFX guides for the product itself:
   * Any action items assigned, including the assignee and the deadline (if any).
 * Minutes **must not** attribute any statement to an individual or organization without their express prior approval. This is to ensure that people feel free to speak candidly.
 * Minutes **should** be concise records of the important parts of the meeting. They should not be an exhaustive transcript. (See [this example](https://github.com/finos/FDC3/issues/481).)
-* LFX PCC produces a Zoom AI summary automatically. Hosts **should** use that summary to capture minutes. Before publishing, hosts **must** anonymize it: remove names and any other details that would attribute a statement to an individual or organization without their express prior approval. Then **publish** the summary in PCC. An unpublished summary is not a minutes record.
-* Hosts **must** post a public link to meeting minutes after the meeting. The GitHub agenda issue is that public record. Once the AI summary is published, add the summary URL to the issue. Viewing the summary in PCC requires an LF login; the GitHub issue remains the link anyone can open.
+* LFX produces an AI meeting summary when it is turned on. Hosts **should** use that summary to capture minutes. Before publishing, hosts **must** anonymize it: remove names and any other details that would attribute a statement to an individual or organization without their express prior approval. Then **publish** (approve) the summary in LFX. An unpublished summary is not a minutes record.
+* Hosts **must** post a public link to meeting minutes after the meeting. The GitHub agenda issue is that public record. Once the AI summary is published, add the summary URL to the issue. Viewing the summary in LFX requires an LF login; the GitHub issue remains the link anyone can open.
 
 ## Run the meeting
 
@@ -94,15 +91,15 @@ Use these LFX guides for the product itself:
   * Keep the meeting to the agenda. Move off-topic discussions to the agenda for the next meeting, or the mailing list.
   * If a discussion becomes unproductive, move on. Ask the participants to send their proposals via issues/pull requests, on the mailing list or as agenda items for future meetings.
   * End the meeting on time, even if you don't get through the agenda, so those with other appointments do not miss important discussions.
-* If a host cannot attend a call and there is no backup host available, the call **must** be cancelled with at least 24 hours notice and the community notified via its preferred communication channel. Cancel the occurrence in PCC; if you do not yet have PCC access, email [help@finos.org](mailto:help@finos.org).
+* If a host cannot attend a call and there is no backup host available, the call **must** be cancelled with at least 24 hours notice and the community notified via its preferred communication channel. Cancel the occurrence in LFX; if you do not yet have LFX access, email [help@finos.org](mailto:help@finos.org).
 
 ## Call votes as needed
 
-Hosts **should** call a vote on any agenda item requiring one, according to the voting procedures of the group.
+Hosts **should** call a vote on any agenda item requiring one, according to the voting procedures of the group. [LFX Votes](https://app.lfx.dev/docs/votes) is an optional, recommended tool for running votes; email [help@finos.org](mailto:help@finos.org) for access.
 
 ## Host the Zoom meeting
 
-Hosts **should** claim the host role after joining so they can manage participants, waiting room, and screen sharing. Get the host key from PCC or from [My Meetings](https://openprofile.dev/my-meetings) and follow [Find your host key](https://docs.linuxfoundation.org/lfx/my-profile/meetings/find-your-host-key). The host key is available starting one hour before the call.
+Hosts **should** claim the host role after joining so they can manage participants, waiting room, and screen sharing. Get the host key from the meeting card or the meeting's join page in LFX; see [Host controls and the host key](https://app.lfx.dev/docs/meetings/host-controls). The host key is available from 70 minutes before the meeting until 40 minutes after it.
 
 After claiming host, FINOS highly recommends enabling the waiting room and disabling participant screen sharing:
 

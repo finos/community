@@ -24,7 +24,8 @@ AI-readable documentation: [index](https://community.finos.org/llms.txt) · [ful
 ### Resources
 - [FINOS Website](https://finos.org)
 - [FINOS Mailing lists](/docs/governance/Software-Projects/journey/engage)
-- [Email Archives (requires Google login)](http://groups.google.com/a/finos.org/)
+- [Mailing list archives on Groups.io](https://lists.finos.org/g/parent/subgroups)
+- [Older Google Groups archives (requires Google login)](http://groups.google.com/a/finos.org/)
 
 ## Join the FINOS Community list
 Everyone is welcome to subscribe to the FINOS General Community List at community@finos.org by emailing [community+subscribe@finos.org](mailto:community+subscribe@finos.org). 
